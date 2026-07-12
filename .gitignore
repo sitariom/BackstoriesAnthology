@@ -1,19 +1,4 @@
-# OS files
-Thumbs.db
-.DS_Store
-Desktop.ini
-
-# IDE
-.vs/
-.vscode/
-.idea/
-*.suo
-*.user
-
-# Temp
-*.tmp
+# Build artifacts
+Source/**/obj/
+Source/**/bin/
 *.bak
-*.log
-
-# Git
-.git/
