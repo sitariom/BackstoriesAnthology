@@ -3,7 +3,7 @@
 
   <BackstoryDef Abstract="True" Name="Solid">
     <shuffleable>false</shuffleable>
-  </BackStoryDef>
+  </BackstoryDef>
 
 <BackstoryDef ParentName="Solid">
     <defName>UB_Tribal_ChildChief</defName>

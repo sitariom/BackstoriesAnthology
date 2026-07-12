@@ -317,6 +317,7 @@
 		<title>transhumanist</title>
 		<titleShort>transhumanist</titleShort>
 		<baseDesc>[PAWN_nameDef] felt that [PAWN_possessive] arficial parts were improvements over [PAWN_possessive] natural flesh.\n\nAdds trait: Transhumanist</baseDesc>
+		<slot>Childhood</slot>
 		<spawnCategories>
 			<li>ZCB</li>
 		</spawnCategories>
