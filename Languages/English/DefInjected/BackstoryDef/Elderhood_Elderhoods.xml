@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  <UB_Elderhood_PlayerColonist.title>Colony old man</UB_Elderhood_PlayerColonist.title>
-  <UB_Elderhood_PlayerColonist.titleFemale>Colony old woman</UB_Elderhood_PlayerColonist.titleFemale>
-  <UB_Elderhood_PlayerColonist.titleShort>Old man</UB_Elderhood_PlayerColonist.titleShort>
-  <UB_Elderhood_PlayerColonist.titleShortFemale>Old woman</UB_Elderhood_PlayerColonist.titleShortFemale>
-  <UB_Elderhood_PlayerColonist.description>[PAWN_nameDef] lived a difficult, but interesting and happy life in colony.</UB_Elderhood_PlayerColonist.description>
-  <UB_Elderhood_PlayerPrisoner.title>Prisoner old man</UB_Elderhood_PlayerPrisoner.title>
-  <UB_Elderhood_PlayerPrisoner.titleFemale>Prisoner old woman</UB_Elderhood_PlayerPrisoner.titleFemale>
-  <UB_Elderhood_PlayerPrisoner.titleShort>Old man</UB_Elderhood_PlayerPrisoner.titleShort>
-  <UB_Elderhood_PlayerPrisoner.titleShortFemale>Old woman</UB_Elderhood_PlayerPrisoner.titleShortFemale>
-  <UB_Elderhood_PlayerPrisoner.description>[PAWN_nameDef] met {PAWN_gender ? his : her} old age as a prisoner of the colony.</UB_Elderhood_PlayerPrisoner.description>
-  <UB_Elderhood_PlayerSlave.title>Slave old man</UB_Elderhood_PlayerSlave.title>
-  <UB_Elderhood_PlayerSlave.titleFemale>Slave old woman</UB_Elderhood_PlayerSlave.titleFemale>
-  <UB_Elderhood_PlayerSlave.titleShort>Old man</UB_Elderhood_PlayerSlave.titleShort>
-  <UB_Elderhood_PlayerSlave.titleShortFemale>Old woman</UB_Elderhood_PlayerSlave.titleShortFemale>
-  <UB_Elderhood_PlayerSlave.description>[PAWN_nameDef] met {PAWN_gender ? his : her} old age as a slave of the colony.</UB_Elderhood_PlayerSlave.description>
+  <Elderhood_PlayerColonist.title>Colony old man</Elderhood_PlayerColonist.title>
+  <Elderhood_PlayerColonist.titleFemale>Colony old woman</Elderhood_PlayerColonist.titleFemale>
+  <Elderhood_PlayerColonist.titleShort>Old man</Elderhood_PlayerColonist.titleShort>
+  <Elderhood_PlayerColonist.titleShortFemale>Old woman</Elderhood_PlayerColonist.titleShortFemale>
+  <Elderhood_PlayerColonist.description>[PAWN_nameDef] lived a difficult, but interesting and happy life in colony.</Elderhood_PlayerColonist.description>
+  <Elderhood_PlayerPrisoner.title>Prisoner old man</Elderhood_PlayerPrisoner.title>
+  <Elderhood_PlayerPrisoner.titleFemale>Prisoner old woman</Elderhood_PlayerPrisoner.titleFemale>
+  <Elderhood_PlayerPrisoner.titleShort>Old man</Elderhood_PlayerPrisoner.titleShort>
+  <Elderhood_PlayerPrisoner.titleShortFemale>Old woman</Elderhood_PlayerPrisoner.titleShortFemale>
+  <Elderhood_PlayerPrisoner.description>[PAWN_nameDef] met {PAWN_gender ? his : her} old age as a prisoner of the colony.</Elderhood_PlayerPrisoner.description>
+  <Elderhood_PlayerSlave.title>Slave old man</Elderhood_PlayerSlave.title>
+  <Elderhood_PlayerSlave.titleFemale>Slave old woman</Elderhood_PlayerSlave.titleFemale>
+  <Elderhood_PlayerSlave.titleShort>Old man</Elderhood_PlayerSlave.titleShort>
+  <Elderhood_PlayerSlave.titleShortFemale>Old woman</Elderhood_PlayerSlave.titleShortFemale>
+  <Elderhood_PlayerSlave.description>[PAWN_nameDef] met {PAWN_gender ? his : her} old age as a slave of the colony.</Elderhood_PlayerSlave.description>
   <UB_Elderhood_WiseOldMan.title>Wise old man</UB_Elderhood_WiseOldMan.title>
   <UB_Elderhood_WiseOldMan.titleFemale>Wise old woman</UB_Elderhood_WiseOldMan.titleFemale>
   <UB_Elderhood_WiseOldMan.titleShort>Wise man</UB_Elderhood_WiseOldMan.titleShort>
