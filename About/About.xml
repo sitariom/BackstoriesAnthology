@@ -11,28 +11,28 @@ A massive unified collection of 1,273 backstories from 12 community mods, carefu
 All backstories are fully translated (English), deduplicated, and prefixed with 'UB_' to prevent any defName conflicts. Works with RimWorld 1.5 and 1.6.
 
 SOURCE MODS (all integrated, no dependencies):
-• Cybranian Backstories+ — 401 backstories (DimonSever000)
-• Before the Crash: Backstories — 206 backstories (Ostrich-Hungry)
-• Vanilla Backstories Expanded — 174 backstories (Oskar Potocki, Legodude17)
-• Seal's Backstory Collection — 137 backstories + 4 PlaceDefs (SneezingSeal)
-• Medieval Backstories — 107 backstories (Shenanigans)
-• More Backstories — 58 backstories (Ravinglegend)
-• Kurzaen's SNS Backstories — 56 backstories (Kurzaen)
-• Tribal Backstories — 55 backstories (Shenanigans)
-• Elderhood Backstories — 42 elderhood backstories (DimonSever000)
-• Apocalyptic Backstories — 25 backstories (Lovely)
-• Saito's Backstories — 12 curated backstories (Zaljerem/Saito Yui)
+- Cybranian Backstories+ - 401 backstories (DimonSever000)
+- Before the Crash: Backstories - 206 backstories (Ostrich-Hungry)
+- Vanilla Backstories Expanded - 174 backstories (Oskar Potocki, Legodude17)
+- Seal's Backstory Collection - 137 backstories + 4 PlaceDefs (SneezingSeal)
+- Medieval Backstories - 107 backstories (Shenanigans)
+- More Backstories - 58 backstories (Ravinglegend)
+- Kurzaen's SNS Backstories - 56 backstories (Kurzaen)
+- Tribal Backstories - 55 backstories (Shenanigans)
+- Elderhood Backstories - 42 elderhood backstories (DimonSever000)
+- Apocalyptic Backstories - 25 backstories (Lovely)
+- Saito's Backstories - 12 curated backstories (Zaljerem/Saito Yui)
 
 INTEGRATED SYSTEMS:
-• Reasonable Moods & Capable Backstories (Legator) — 8 backstory balancing patches applied directly. DLL, InteractionDefs, ThoughtDefs, and mood system included.
-• Elderhood Backstory System (DimonSever000) — Harmony DLL and patches included.
+- Reasonable Moods & Capable Backstories (Legator) - 8 backstory balancing patches applied directly. DLL, InteractionDefs, ThoughtDefs, and mood system included.
+- Elderhood Backstory System (DimonSever000) - Harmony DLL and patches included.
 
 COMPATIBILITY:
-• 100% standalone — no original mods required
-• All DLCs supported (Royalty, Ideology, Biotech, Anomaly)
-• All backstories use UB_ prefix — no defName conflicts with any other mod
-• RimWorld 1.5 and 1.6 supported with separate load folders
-• Loads after all vanilla content and Harmony
+- 100% standalone - no original mods required
+- All DLCs supported (Royalty, Ideology, Biotech, Anomaly)
+- All backstories use UB_ prefix - no defName conflicts with any other mod
+- RimWorld 1.5 and 1.6 supported with separate load folders
+- Loads after all vanilla content and Harmony
 
 See CREDITS.txt for full attributions and licensing details.</description>
 	<modVersion>1.0.0</modVersion>
