@@ -7,7 +7,7 @@
   <InteractionDef>
     <defName>RMCB_AwkwardChat</defName>
     <label>awkward chat</label>
-    <workerClass>ReasonableMoods.InteractionWorker_RMCB_AwkwardChat</workerClass>
+    <workerClass>UnifiedBackstories.InteractionWorker_UB_AwkwardChat</workerClass>
     <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
     <initiatorThought>RMCB_AwkwardChat</initiatorThought>
     <initiatorXpGainSkill>Social</initiatorXpGainSkill>
