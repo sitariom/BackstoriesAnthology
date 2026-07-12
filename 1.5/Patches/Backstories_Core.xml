@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+  
+
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+  
+
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+  
+
+  
+  
+  
+
+<Operation Class="UnifiedBackstories.PatchOperation_IfSetting"><setting>capableBackstories</setting><operations><!-- ============================================================
+       Reasonable Moods & Capable Backstories - Core backstories
+       Philosophy: work disables stay only where the story shows
+       genuine conviction or deep trauma. Class attitudes, laziness
+       and "never learned it" become skill penalties instead.
+       ============================================================ --><!-- Glitterworld: robots did the chores. Being pampered is not a disability. --><!-- novelist: partying author, hands already penalized (Construction -5, Mining -5) --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Novelist7"]/workDisables</xpath>
+  </li><!-- charity worker: compassionate, not a sworn pacifist --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="CharityWorker36"]/workDisables</xpath>
+  </li><li Class="PatchOperationAdd">
+    <xpath>Defs/BackstoryDef[defName="CharityWorker36"]/skillGains</xpath>
+    <value><Melee>-2</Melee><Shooting>-2</Shooting></value>
+  </li><!-- glitterworld officer: a soldier can carry crates --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="GlitterworldOfficer60"]/workDisables</xpath>
+  </li><!-- biosphere manager: robots cooked and crafted; they never did, so they're bad at it --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="BiosphereManager95"]/workDisables</xpath>
+  </li><li Class="PatchOperationAdd">
+    <xpath>Defs/BackstoryDef[defName="BiosphereManager95"]/skillGains</xpath>
+    <value><Crafting>-3</Crafting><Cooking>-3</Cooking></value>
+  </li><!-- VR designer --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="VRDesigner87"]/workDisables</xpath>
+  </li><!-- architect: never got hands dirty, Crafting already -3 --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Architect28"]/workDisables</xpath>
+  </li><!-- sculptor: carves cliffsides but can't craft or cook? --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Sculptor63"]/workDisables</xpath>
+  </li><li Class="PatchOperationAdd">
+    <xpath>Defs/BackstoryDef[defName="Sculptor63"]/skillGains</xpath>
+    <value><Cooking>-3</Cooking></value>
+  </li><!-- Medieval: uneducated is not the same as incapable of learning --><!-- medieval farm oaf --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="MedievalFarmOaf58"]/workDisables</xpath>
+  </li><li Class="PatchOperationAdd">
+    <xpath>Defs/BackstoryDef[defName="MedievalFarmOaf58"]/skillGains</xpath>
+    <value><Intellectual>-3</Intellectual></value>
+  </li><!-- medieval lord: labor is beneath him, but survival isn't --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="MedievalLord57"]/workDisables</xpath>
+  </li><li Class="PatchOperationAdd">
+    <xpath>Defs/BackstoryDef[defName="MedievalLord57"]/skillGains</xpath>
+    <value><Construction>-3</Construction><Crafting>-3</Crafting></value>
+  </li><!-- medieval minstrel: dodged hard work, didn't lose the ability --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="MedievalMinstrel95"]/workDisables</xpath>
+  </li><li Class="PatchOperationAdd">
+    <xpath>Defs/BackstoryDef[defName="MedievalMinstrel95"]/skillGains</xpath>
+    <value><Crafting>-2</Crafting><Construction>-2</Construction></value>
+  </li><!-- taster: decadent, already Construction -4 / Crafting -4 --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Taster16"]/workDisables</xpath>
+  </li><!-- blacksmith: a master smith is not incapable of intellectual work --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Blacksmith72"]/workDisables</xpath>
+  </li><li Class="PatchOperationAdd">
+    <xpath>Defs/BackstoryDef[defName="Blacksmith72"]/skillGains</xpath>
+    <value><Intellectual>-2</Intellectual></value>
+  </li><!-- message carrier --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="MessageCarrier77"]/workDisables</xpath>
+  </li><li Class="PatchOperationAdd">
+    <xpath>Defs/BackstoryDef[defName="MessageCarrier77"]/skillGains</xpath>
+    <value><Intellectual>-2</Intellectual></value>
+  </li><!-- medieval sailor: lazy on land, not disabled --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="MedievalSailor97"]/workDisables</xpath>
+  </li><li Class="PatchOperationAdd">
+    <xpath>Defs/BackstoryDef[defName="MedievalSailor97"]/skillGains</xpath>
+    <value><Crafting>-2</Crafting></value>
+  </li><!-- medieval lordling: aversion, already -1 to labor skills --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="MedievalLordling19"]/workDisables</xpath>
+  </li><!-- Nonspecific offworld adults --><!-- chef: kitchen hygiene IS a chef's job --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Chef52"]/workDisables</xpath>
+  </li><!-- conceptual artist: pretentious, not broken --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="ConceptualArtist39"]/workDisables</xpath>
+  </li><li Class="PatchOperationAdd">
+    <xpath>Defs/BackstoryDef[defName="ConceptualArtist39"]/skillGains</xpath>
+    <value><Social>-2</Social><Medicine>-2</Medicine></value>
+  </li><!-- escaped convict: prison doesn't remove the ability to tend wounds --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="EscapedConvict90"]/workDisables</xpath>
+  </li><li Class="PatchOperationAdd">
+    <xpath>Defs/BackstoryDef[defName="EscapedConvict90"]/skillGains</xpath>
+    <value><Medicine>-2</Medicine></value>
+  </li><!-- nurse: gentle, but would defend the colony --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Nurse61"]/workDisables</xpath>
+  </li><li Class="PatchOperationAdd">
+    <xpath>Defs/BackstoryDef[defName="Nurse61"]/skillGains</xpath>
+    <value><Melee>-2</Melee><Shooting>-2</Shooting></value>
+  </li><!-- house servant --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="HouseServant63"]/workDisables</xpath>
+  </li><li Class="PatchOperationAdd">
+    <xpath>Defs/BackstoryDef[defName="HouseServant63"]/skillGains</xpath>
+    <value><Intellectual>-2</Intellectual></value>
+  </li><!-- bodyguard: gruff is a penalty, not an incapacity --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Bodyguard58"]/workDisables</xpath>
+  </li><li Class="PatchOperationAdd">
+    <xpath>Defs/BackstoryDef[defName="Bodyguard58"]/skillGains</xpath>
+    <value><Social>-3</Social></value>
+  </li><!-- mathematician: desk job, aim already -3 --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Mathematician6"]/workDisables</xpath>
+  </li><!-- gardener --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Gardener99"]/workDisables</xpath>
+  </li><li Class="PatchOperationAdd">
+    <xpath>Defs/BackstoryDef[defName="Gardener99"]/skillGains</xpath>
+    <value><Intellectual>-2</Intellectual></value>
+  </li><!-- torturer: keeps Caring (they enjoy pain, they don't ease it),
+       but an expert in 'persuasion' is not incapable of social work --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Torturer37"]/workDisables/li[text()="Social"]</xpath>
+  </li><!-- defector: nothing about defecting prevents art --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Defector78"]/workDisables</xpath>
+  </li><!-- construction engineer: an ENGINEER incapable of intellectual work? --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="ConstructionEngineer32"]/workDisables</xpath>
+  </li><li Class="PatchOperationAdd">
+    <xpath>Defs/BackstoryDef[defName="ConstructionEngineer32"]/skillGains</xpath>
+    <value><Cooking>-3</Cooking></value>
+  </li><!-- rancher: paid others to do it; already Cooking -4 / Mining -4 --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Rancher43"]/workDisables</xpath>
+  </li><!-- model: four disables for modelling clothes --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Model99"]/workDisables</xpath>
+  </li><li Class="PatchOperationAdd">
+    <xpath>Defs/BackstoryDef[defName="Model99"]/skillGains</xpath>
+    <value><Construction>-2</Construction><Intellectual>-2</Intellectual><Crafting>-2</Crafting><Medicine>-2</Medicine></value>
+  </li><!-- jailbird: aggressive speech, not muteness --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Jailbird40"]/workDisables</xpath>
+  </li><li Class="PatchOperationAdd">
+    <xpath>Defs/BackstoryDef[defName="Jailbird40"]/skillGains</xpath>
+    <value><Social>-3</Social><Medicine>-2</Medicine></value>
+  </li><!-- actor: makes his own props but can't haul? --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Actor72"]/workDisables</xpath>
+  </li><!-- explosives expert: too proud for cleanup, not incapable --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="ExplosivesExpert26"]/workDisables</xpath>
+  </li><!-- counselor: recovered from the eating disorder; cooking stays uneasy --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Counselor26"]/workDisables</xpath>
+  </li><li Class="PatchOperationAdd">
+    <xpath>Defs/BackstoryDef[defName="Counselor26"]/skillGains</xpath>
+    <value><Cooking>-3</Cooking></value>
+  </li><!-- con artist: avoids violence professionally, could still throw a punch --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="ConArtist80"]/workDisables</xpath>
+  </li><li Class="PatchOperationAdd">
+    <xpath>Defs/BackstoryDef[defName="ConArtist80"]/skillGains</xpath>
+    <value><Melee>-3</Melee><Shooting>-3</Shooting></value>
+  </li><!-- Nonspecific offworld children --><!-- frightened child: anxious, but was never rendered incapable of defense --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="FrightenedChild43"]/workDisables</xpath>
+  </li><li Class="PatchOperationAdd">
+    <xpath>Defs/BackstoryDef[defName="FrightenedChild43"]/skillGains</xpath>
+    <value><Melee>-2</Melee><Shooting>-2</Shooting></value>
+  </li><!-- war refugee: was literally taught to defend themself --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="WarRefugee51"]/workDisables</xpath>
+  </li><!-- child star: fame got in the way of school, already Intellectual -2 --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="ChildStar74"]/workDisables</xpath>
+  </li><!-- organ farm: a victim of violence is not incapable of it --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="OrganFarm67"]/workDisables</xpath>
+  </li><!-- cult child: RAN AWAY from the anti-tech cult --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="CultChild3"]/workDisables</xpath>
+  </li><li Class="PatchOperationAdd">
+    <xpath>Defs/BackstoryDef[defName="CultChild3"]/skillGains</xpath>
+    <value><Intellectual>-2</Intellectual></value>
+  </li><!-- Specific offworld --><!-- factory worker: menial work isn't a lobotomy --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="FactoryWorker58"]/workDisables</xpath>
+  </li><li Class="PatchOperationAdd">
+    <xpath>Defs/BackstoryDef[defName="FactoryWorker58"]/skillGains</xpath>
+    <value><Intellectual>-3</Intellectual><Artistic>-2</Artistic><Cooking>-2</Cooking></value>
+  </li><!-- psychiatric patient: "eventually recovered" - dampened skills, not incapacity --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="PsychiatricPatient94"]/workDisables</xpath>
+  </li><li Class="PatchOperationAdd">
+    <xpath>Defs/BackstoryDef[defName="PsychiatricPatient94"]/skillGains</xpath>
+    <value><Social>-4</Social><Medicine>-2</Medicine></value>
+  </li><!-- human computer --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="HumanComputer83"]/workDisables</xpath>
+  </li><li Class="PatchOperationAdd">
+    <xpath>Defs/BackstoryDef[defName="HumanComputer83"]/skillGains</xpath>
+    <value><Artistic>-2</Artistic></value>
+  </li><!-- joywire artist --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="JoywireArtist8"]/workDisables</xpath>
+  </li><!-- mafia boss: delegation is a choice --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="MafiaBoss17"]/workDisables</xpath>
+  </li><li Class="PatchOperationAdd">
+    <xpath>Defs/BackstoryDef[defName="MafiaBoss17"]/skillGains</xpath>
+    <value><Cooking>-2</Cooking><Medicine>-2</Medicine></value>
+  </li><!-- urbworld rebel: keeps Intellectual (rejected technology entirely - conviction),
+       but rebels absolutely craft their own gear --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="UrbworldRebel56"]/workDisables/li[text()="Crafting"]</xpath>
+  </li><!-- castaway: years alone dampened conversation - a penalty, not muteness --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Castaway57"]/workDisables</xpath>
+  </li><li Class="PatchOperationAdd">
+    <xpath>Defs/BackstoryDef[defName="Castaway57"]/skillGains</xpath>
+    <value><Social>-4</Social></value>
+  </li><!-- taxonomist: scientist with no stated vow of pacifism --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Taxonomist0"]/workDisables</xpath>
+  </li><li Class="PatchOperationAdd">
+    <xpath>Defs/BackstoryDef[defName="Taxonomist0"]/skillGains</xpath>
+    <value><Melee>-2</Melee><Shooting>-2</Shooting></value>
+  </li><!-- space tactician: a fleet commander incapable of social work? --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="SpaceTactician28"]/workDisables</xpath>
+  </li><!-- test subject: keeps Social + Caring (isolated from birth),
+       but nothing in the story justifies a fire phobia --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="TestSubject15"]/workDisables/li[text()="Firefighting"]</xpath>
+  </li><!-- caveworld tunneler --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="CaveworldTunneler48"]/workDisables</xpath>
+  </li><li Class="PatchOperationAdd">
+    <xpath>Defs/BackstoryDef[defName="CaveworldTunneler48"]/skillGains</xpath>
+    <value><Intellectual>-2</Intellectual></value>
+  </li><!-- scout: taught to obey, not rendered incapable --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Scout44"]/workDisables</xpath>
+  </li><li Class="PatchOperationAdd">
+    <xpath>Defs/BackstoryDef[defName="Scout44"]/skillGains</xpath>
+    <value><Intellectual>-2</Intellectual></value>
+  </li><!-- Outsiders / pirates / tribals --><!-- hermit: CHOSE solitude; being rusty isn't being mute --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Hermit82"]/workDisables</xpath>
+  </li><li Class="PatchOperationAdd">
+    <xpath>Defs/BackstoryDef[defName="Hermit82"]/skillGains</xpath>
+    <value><Social>-4</Social></value>
+  </li><!-- pit brawler: uneducated, not incapable --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="PitBrawler76"]/workDisables</xpath>
+  </li><li Class="PatchOperationAdd">
+    <xpath>Defs/BackstoryDef[defName="PitBrawler76"]/skillGains</xpath>
+    <value><Intellectual>-2</Intellectual><Medicine>-2</Medicine></value>
+  </li><!-- gigolo: nothing about the work prevents manual labor --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Gigolo30"]/workDisables</xpath>
+  </li><li Class="PatchOperationAdd">
+    <xpath>Defs/BackstoryDef[defName="Gigolo30"]/skillGains</xpath>
+    <value><Construction>-2</Construction><Crafting>-2</Crafting></value>
+  </li><!-- assassin: keeps Caring (utter lack of empathy), but "cold and calculating"
+       contradicts being incapable of intellectual work, and pros maintain their gear --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Assassin20"]/workDisables/li[text()="Intellectual"]</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Assassin20"]/workDisables/li[text()="ManualDumb"]</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Assassin20"]/workDisables/li[text()="ManualSkilled"]</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Assassin20"]/workDisables/li[text()="Social"]</xpath>
+  </li><li Class="PatchOperationAdd">
+    <xpath>Defs/BackstoryDef[defName="Assassin20"]/skillGains</xpath>
+    <value><Social>-4</Social></value>
+  </li><!-- loner: prefers solitude --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Loner61"]/workDisables</xpath>
+  </li><li Class="PatchOperationAdd">
+    <xpath>Defs/BackstoryDef[defName="Loner61"]/skillGains</xpath>
+    <value><Social>-3</Social></value>
+  </li><!-- banished: survived alone, still speaks the language --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Banished68"]/workDisables</xpath>
+  </li><li Class="PatchOperationAdd">
+    <xpath>Defs/BackstoryDef[defName="Banished68"]/skillGains</xpath>
+    <value><Social>-3</Social></value>
+  </li><!-- malingerer: faked being unable to work. It was fake. --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Malingerer28"]/workDisables</xpath>
+  </li><!-- reclusive child: shy, not mute --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="ReclusiveChild81"]/workDisables</xpath>
+  </li><li Class="PatchOperationAdd">
+    <xpath>Defs/BackstoryDef[defName="ReclusiveChild81"]/skillGains</xpath>
+    <value><Social>-3</Social></value>
+  </li><!-- scavenger: dodged chores to explore ruins --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Scavenger22"]/workDisables</xpath>
+  </li><!-- vengeful child: a rampager who can't tend wounds? A penalty at most --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="VengefulChild43"]/workDisables</xpath>
+  </li><li Class="PatchOperationAdd">
+    <xpath>Defs/BackstoryDef[defName="VengefulChild43"]/skillGains</xpath>
+    <value><Medicine>-2</Medicine></value>
+  </li><!-- bully: mean, not medically incapable --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Bully70"]/workDisables</xpath>
+  </li><li Class="PatchOperationAdd">
+    <xpath>Defs/BackstoryDef[defName="Bully70"]/skillGains</xpath>
+    <value><Medicine>-2</Medicine></value>
+  </li><!-- bookworm: preferred reading; Social already -3 --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Bookworm19"]/workDisables</xpath>
+  </li><!-- Named/solid rare --><!-- simulation developer: lived on a peaceful world, no vow, no trauma --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="LiamCustomAdulthood"]/workDisables</xpath>
+  </li><li Class="PatchOperationAdd">
+    <xpath>Defs/BackstoryDef[defName="LiamCustomAdulthood"]/skillGains</xpath>
+    <value><Melee>-2</Melee><Shooting>-2</Shooting></value>
+  </li><!-- tinkerer: forgot to socialize, didn't lose the capacity --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="CynapseCustomChildhood"]/workDisables</xpath>
+  </li><li Class="PatchOperationAdd">
+    <xpath>Defs/BackstoryDef[defName="CynapseCustomChildhood"]/skillGains</xpath>
+    <value><Social>-3</Social></value>
+  </li></operations></Operation></Patch>

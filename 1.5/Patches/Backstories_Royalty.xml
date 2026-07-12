@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  
+
+  
+
+<Operation Class="UnifiedBackstories.PatchOperation_IfSetting"><setting>capableBackstories</setting><operations><!-- Royalty backstories. Kept: BrokenSoldier29 (PTSD), MilitaryChaplain10 (sworn vow). --><li Class="PatchOperationFindMod">
+    <mods>
+      <li>Royalty</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+
+        <!-- war bastard: raised to resent war, not rendered unable to fight -->
+        <li Class="PatchOperationRemove">
+          <xpath>Defs/BackstoryDef[defName="WarBastard60"]/workDisables</xpath>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/BackstoryDef[defName="WarBastard60"]/skillGains</xpath>
+          <value><Melee>-2</Melee><Shooting>-2</Shooting></value>
+        </li>
+
+        <!-- warmonger: ferocious, but could still bandage a comrade -->
+        <li Class="PatchOperationRemove">
+          <xpath>Defs/BackstoryDef[defName="Warmonger35"]/workDisables</xpath>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/BackstoryDef[defName="Warmonger35"]/skillGains</xpath>
+          <value><Medicine>-2</Medicine></value>
+        </li>
+
+        <!-- ship boy: finds plants and animals unnerving - a penalty, not incapacity -->
+        <li Class="PatchOperationRemove">
+          <xpath>Defs/BackstoryDef[defName="ShipBoy89"]/workDisables</xpath>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/BackstoryDef[defName="ShipBoy89"]/skillGains</xpath>
+          <value><Animals>-3</Animals><Plants>-3</Plants></value>
+        </li>
+
+        <!-- military cadet: never farmed, could learn -->
+        <li Class="PatchOperationRemove">
+          <xpath>Defs/BackstoryDef[defName="MilitaryCadet46"]/workDisables</xpath>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/BackstoryDef[defName="MilitaryCadet46"]/skillGains</xpath>
+          <value><Animals>-2</Animals><Plants>-2</Plants></value>
+        </li>
+
+        <!-- political captive: read books alone for years -->
+        <li Class="PatchOperationRemove">
+          <xpath>Defs/BackstoryDef[defName="PoliticalCaptive7"]/workDisables</xpath>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/BackstoryDef[defName="PoliticalCaptive7"]/skillGains</xpath>
+          <value><Social>-3</Social></value>
+        </li>
+
+        <!-- delinquent: jail time doesn't disable farming -->
+        <li Class="PatchOperationRemove">
+          <xpath>Defs/BackstoryDef[defName="Delinquent13"]/workDisables</xpath>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/BackstoryDef[defName="Delinquent13"]/skillGains</xpath>
+          <value><Animals>-2</Animals><Plants>-2</Plants></value>
+        </li>
+
+        <!-- soldier's kid: grew up on a starship, never saw a farm -->
+        <li Class="PatchOperationRemove">
+          <xpath>Defs/BackstoryDef[defName="SoldiersKid55"]/workDisables</xpath>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/BackstoryDef[defName="SoldiersKid55"]/skillGains</xpath>
+          <value><Animals>-2</Animals><Plants>-2</Plants></value>
+        </li>
+
+        <!-- pampered lordling: pampering wears off fast when you're starving -->
+        <li Class="PatchOperationRemove">
+          <xpath>Defs/BackstoryDef[defName="PamperedLordling37"]/workDisables</xpath>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/BackstoryDef[defName="PamperedLordling37"]/skillGains</xpath>
+          <value><Construction>-2</Construction><Mining>-2</Mining><Plants>-2</Plants></value>
+        </li>
+
+        <!-- unwanted survivor: survived jousts and warzones but can't haul? -->
+        <li Class="PatchOperationRemove">
+          <xpath>Defs/BackstoryDef[defName="UnwantedSurvivor67"]/workDisables</xpath>
+        </li>
+
+      </operations>
+    </match>
+  </li></operations></Operation></Patch>

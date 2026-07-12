@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <UB.SurvivedBattle>{0} colonists fought through the danger together and grew closer.</UB.SurvivedBattle>
+  <UB.SurvivedFire>{0} colonists battled the flames together and grew closer.</UB.SurvivedFire>
+  <UB.SurvivedOutbreak>{0} colonists endured the outbreak together and grew closer.</UB.SurvivedOutbreak>
+
+  <UB.RestartHeader>These options require a game restart:</UB.RestartHeader>
+  <UB.LiveHeader>These options apply immediately:</UB.LiveHeader>
+  <UB.CapableBackstories>Capable backstories</UB.CapableBackstories>
+  <UB.CapableBackstories.Tip>The hand-review of work disables across vanilla, DLC, and supported backstory mods. Disables that the story doesn't earn are removed, some traded for skill penalties.</UB.CapableBackstories.Tip>
+  <UB.MoodRebalance>Mood &amp; relationship rebalance</UB.MoodRebalance>
+  <UB.MoodRebalance.Tip>Rescaled opinion and mood outliers: selling a loved one, cheating, divorce, breakups, kibble, dead man's apparel, recreation/beauty/room-size debuffs, and more.</UB.MoodRebalance.Tip>
+  <UB.GriefTaper>Grief tapers instead of vanishing</UB.GriefTaper>
+  <UB.GriefTaper.Tip>Death and loss thoughts start ~1.5x sharper and fade gradually to nothing over 40 days, instead of a flat debuff that falls off a cliff.</UB.GriefTaper.Tip>
+  <UB.NeedsGracePeriod>Recreation &amp; comfort grace period</UB.NeedsGracePeriod>
+  <UB.NeedsGracePeriod.Tip>For the colony's first 5 days, recreation and comfort decay at 25% speed, easing back to normal by day 20.</UB.NeedsGracePeriod.Tip>
+  <UB.HardshipBonding>Shared-hardship bonding</UB.HardshipBonding>
+  <UB.HardshipBonding.Tip>Colonists who actively fight through a raid, large fire, or disease outbreak together gain mutual opinion.</UB.HardshipBonding.Tip>
+  <UB.BetrayalWitnesses>Betrayal has witnesses</UB.BetrayalWitnesses>
+  <UB.BetrayalWitnesses.Tip>When someone cheats on a colonist or sells their loved one, every colonist on the map loses some opinion of the offender.</UB.BetrayalWitnesses.Tip>
+  <UB.BackstoryPairing>Realistic backstory pairing</UB.BackstoryPairing>
+  <UB.BackstoryPairing.Tip>Implausible childhood-to-adulthood combos (tribal child into spacer adult, gutter child into nobility) are re-rolled during pawn generation - rare, not impossible.</UB.BackstoryPairing.Tip>
+  <UB.TraitAlignment>Traits fit backstories</UB.TraitAlignment>
+  <UB.TraitAlignment.Tip>Generated traits lean toward the pawn's life story: hardened backstories lean tough and brave, pampered ones soft, scholars smart, ice-worlders cold-tolerant. Includes Vanilla Traits Expanded and Combat Extended traits when present.</UB.TraitAlignment.Tip>
+  <UB.RomanceCooldown>Romance cooldown after rejections</UB.RomanceCooldown>
+  <UB.RomanceCooldown.Tip>Pawns give up on a specific person after two rebuffs and get generally discouraged after several, recovering as the memories fade.</UB.RomanceCooldown.Tip>
+  <UB.AwkwardChat>Awkward chat after failed romance</UB.AwkwardChat>
+  <UB.AwkwardChat.Tip>After a failed romance, the pair's small talk turns into awkward chat (mild opinion friction) until they get over it.</UB.AwkwardChat.Tip>
+  <UB.AutoDisabled>auto-disabled ({0} handles this)</UB.AutoDisabled>
+  <UB.AutoDisabled.Tip>{0} is loaded and already provides this feature, so this mod steps aside automatically. Remove that mod and this feature turns back on.</UB.AutoDisabled.Tip>
+
+  <UB.ElderhoodEnabled>Elderhood backstories</UB.ElderhoodEnabled>
+  <UB.ElderhoodEnabled.Tip>Elderhood backstories unlock for pawns aged 60+, representing their later-life experiences. Requires restart.</UB.ElderhoodEnabled.Tip>
+  <UB.ZCBEnabled>Childhood-only backstories</UB.ZCBEnabled>
+  <UB.ZCBEnabled.Tip>Dedicated childhood-only backstories that can only appear as child backstories for pawns generated as children. Requires restart.</UB.ZCBEnabled.Tip>
+
+  <UB.Header.ReasonableMoods>Reasonable Moods &amp; Capable Backstories</UB.Header.ReasonableMoods>
+  <UB.Header.Elderhood>Elderhood Backstories</UB.Header.Elderhood>
+  <UB.Header.ZCB>Childhood-Only Backstories (ZCB)</UB.Header.ZCB>
+
+  <UB.ModName>Unified Backstories</UB.ModName>
+</LanguageData>

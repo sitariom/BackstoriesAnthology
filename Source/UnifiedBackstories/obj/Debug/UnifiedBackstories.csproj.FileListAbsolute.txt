@@ -1,0 +1,5 @@
+C:\Users\simoe\OneDrive\Documentos\backstories_merge\UnifiedBackstories\Source\UnifiedBackstories\obj\Debug\UnifiedBackstories.csproj.AssemblyReference.cache
+C:\Users\simoe\OneDrive\Documentos\backstories_merge\UnifiedBackstories\Source\UnifiedBackstories\obj\Debug\UnifiedBackstories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\simoe\OneDrive\Documentos\backstories_merge\UnifiedBackstories\Source\UnifiedBackstories\obj\Debug\UnifiedBackstories.csproj.CoreCompileInputs.cache
+C:\Users\simoe\OneDrive\Documentos\backstories_merge\UnifiedBackstories\Assemblies\UnifiedBackstories.dll
+C:\Users\simoe\OneDrive\Documentos\backstories_merge\UnifiedBackstories\Source\UnifiedBackstories\obj\Debug\UnifiedBackstories.dll

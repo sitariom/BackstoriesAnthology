@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+
+  
+  
+  
+  
+
+<Operation Class="UnifiedBackstories.PatchOperation_IfSetting"><setting>griefTaper</setting><operations><!-- ============================================================
+       Grief that tapers instead of vanishing.
+       Vanilla: flat -X for 30 days, then a cliff to zero.
+       Now: 1.5x sharper on day one, fading linearly to nothing
+       over 40 days (lerpMoodToZero). Total grief is comparable;
+       the shape is human. Composes with All Memories Fade,
+       which multiplies these base values globally.
+       ============================================================ --><li Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[@Name="DeathMemoryFamily"]/durationDays</xpath>
+    <value><durationDays>40</durationDays></value>
+  </li><li Class="PatchOperationAdd">
+    <xpath>Defs/ThoughtDef[@Name="DeathMemoryFamily"]</xpath>
+    <value><lerpMoodToZero>true</lerpMoodToZero></value>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[@Name="LostMemoryFamily"]/durationDays</xpath>
+    <value><durationDays>40</durationDays></value>
+  </li><li Class="PatchOperationAdd">
+    <xpath>Defs/ThoughtDef[@Name="LostMemoryFamily"]</xpath>
+    <value><lerpMoodToZero>true</lerpMoodToZero></value>
+  </li><!-- Family member Died : base values x1.5 --><li Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[defName="MySonDied"]/stages/li/baseMoodEffect</xpath>
+    <value><baseMoodEffect>-30</baseMoodEffect></value>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[defName="MyDaughterDied"]/stages/li/baseMoodEffect</xpath>
+    <value><baseMoodEffect>-30</baseMoodEffect></value>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[defName="MyHusbandDied"]/stages/li/baseMoodEffect</xpath>
+    <value><baseMoodEffect>-30</baseMoodEffect></value>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[defName="MyWifeDied"]/stages/li/baseMoodEffect</xpath>
+    <value><baseMoodEffect>-30</baseMoodEffect></value>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[defName="MyFianceDied"]/stages/li/baseMoodEffect</xpath>
+    <value><baseMoodEffect>-27</baseMoodEffect></value>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[defName="MyFianceeDied"]/stages/li/baseMoodEffect</xpath>
+    <value><baseMoodEffect>-27</baseMoodEffect></value>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[defName="MyLoverDied"]/stages/li/baseMoodEffect</xpath>
+    <value><baseMoodEffect>-24</baseMoodEffect></value>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[defName="MyBrotherDied"]/stages/li/baseMoodEffect</xpath>
+    <value><baseMoodEffect>-21</baseMoodEffect></value>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[defName="MySisterDied"]/stages/li/baseMoodEffect</xpath>
+    <value><baseMoodEffect>-21</baseMoodEffect></value>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[defName="MyGrandchildDied"]/stages/li/baseMoodEffect</xpath>
+    <value><baseMoodEffect>-18</baseMoodEffect></value>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[defName="MyFatherDied"]/stages/li/baseMoodEffect</xpath>
+    <value><baseMoodEffect>-12</baseMoodEffect></value>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[defName="MyMotherDied"]/stages/li/baseMoodEffect</xpath>
+    <value><baseMoodEffect>-12</baseMoodEffect></value>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[defName="MyNieceDied"]/stages/li/baseMoodEffect</xpath>
+    <value><baseMoodEffect>-8</baseMoodEffect></value>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[defName="MyNephewDied"]/stages/li/baseMoodEffect</xpath>
+    <value><baseMoodEffect>-8</baseMoodEffect></value>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[defName="MyHalfSiblingDied"]/stages/li/baseMoodEffect</xpath>
+    <value><baseMoodEffect>-8</baseMoodEffect></value>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[defName="MyAuntDied"]/stages/li/baseMoodEffect</xpath>
+    <value><baseMoodEffect>-6</baseMoodEffect></value>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[defName="MyUncleDied"]/stages/li/baseMoodEffect</xpath>
+    <value><baseMoodEffect>-6</baseMoodEffect></value>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[defName="MyGrandparentDied"]/stages/li/baseMoodEffect</xpath>
+    <value><baseMoodEffect>-6</baseMoodEffect></value>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[defName="MyCousinDied"]/stages/li/baseMoodEffect</xpath>
+    <value><baseMoodEffect>-6</baseMoodEffect></value>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[defName="MyKinDied"]/stages/li/baseMoodEffect</xpath>
+    <value><baseMoodEffect>-6</baseMoodEffect></value>
+  </li><!-- Family member Lost : base values x1.5 --><li Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[defName="MySonLost"]/stages/li/baseMoodEffect</xpath>
+    <value><baseMoodEffect>-30</baseMoodEffect></value>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[defName="MyDaughterLost"]/stages/li/baseMoodEffect</xpath>
+    <value><baseMoodEffect>-30</baseMoodEffect></value>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[defName="MyHusbandLost"]/stages/li/baseMoodEffect</xpath>
+    <value><baseMoodEffect>-30</baseMoodEffect></value>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[defName="MyWifeLost"]/stages/li/baseMoodEffect</xpath>
+    <value><baseMoodEffect>-30</baseMoodEffect></value>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[defName="MyFianceLost"]/stages/li/baseMoodEffect</xpath>
+    <value><baseMoodEffect>-27</baseMoodEffect></value>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[defName="MyFianceeLost"]/stages/li/baseMoodEffect</xpath>
+    <value><baseMoodEffect>-27</baseMoodEffect></value>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[defName="MyLoverLost"]/stages/li/baseMoodEffect</xpath>
+    <value><baseMoodEffect>-24</baseMoodEffect></value>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[defName="MyBrotherLost"]/stages/li/baseMoodEffect</xpath>
+    <value><baseMoodEffect>-21</baseMoodEffect></value>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[defName="MySisterLost"]/stages/li/baseMoodEffect</xpath>
+    <value><baseMoodEffect>-21</baseMoodEffect></value>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[defName="MyGrandchildLost"]/stages/li/baseMoodEffect</xpath>
+    <value><baseMoodEffect>-18</baseMoodEffect></value>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[defName="MyFatherLost"]/stages/li/baseMoodEffect</xpath>
+    <value><baseMoodEffect>-12</baseMoodEffect></value>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[defName="MyMotherLost"]/stages/li/baseMoodEffect</xpath>
+    <value><baseMoodEffect>-12</baseMoodEffect></value>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[defName="MyNieceLost"]/stages/li/baseMoodEffect</xpath>
+    <value><baseMoodEffect>-8</baseMoodEffect></value>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[defName="MyNephewLost"]/stages/li/baseMoodEffect</xpath>
+    <value><baseMoodEffect>-8</baseMoodEffect></value>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[defName="MyHalfSiblingLost"]/stages/li/baseMoodEffect</xpath>
+    <value><baseMoodEffect>-8</baseMoodEffect></value>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[defName="MyAuntLost"]/stages/li/baseMoodEffect</xpath>
+    <value><baseMoodEffect>-6</baseMoodEffect></value>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[defName="MyUncleLost"]/stages/li/baseMoodEffect</xpath>
+    <value><baseMoodEffect>-6</baseMoodEffect></value>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[defName="MyGrandparentLost"]/stages/li/baseMoodEffect</xpath>
+    <value><baseMoodEffect>-6</baseMoodEffect></value>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[defName="MyCousinLost"]/stages/li/baseMoodEffect</xpath>
+    <value><baseMoodEffect>-6</baseMoodEffect></value>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[defName="MyKinLost"]/stages/li/baseMoodEffect</xpath>
+    <value><baseMoodEffect>-6</baseMoodEffect></value>
+  </li><!-- A dead friend tapers too: -10 flat 20d -> -15 fading over 25d --><li Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[defName="PawnWithGoodOpinionDied"]/durationDays</xpath>
+    <value><durationDays>25</durationDays></value>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[defName="PawnWithGoodOpinionDied"]/stages/li/baseMoodEffect</xpath>
+    <value><baseMoodEffect>-15</baseMoodEffect></value>
+  </li><li Class="PatchOperationAdd">
+    <xpath>Defs/ThoughtDef[defName="PawnWithGoodOpinionDied"]</xpath>
+    <value><lerpMoodToZero>true</lerpMoodToZero></value>
+  </li><!-- Bonded animal death: -8 flat 20d -> -12 fading over 25d --><li Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[defName="BondedAnimalDied"]/durationDays</xpath>
+    <value><durationDays>25</durationDays></value>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[defName="BondedAnimalDied"]/stages/li/baseMoodEffect</xpath>
+    <value><baseMoodEffect>-12</baseMoodEffect></value>
+  </li><li Class="PatchOperationAdd">
+    <xpath>Defs/ThoughtDef[defName="BondedAnimalDied"]</xpath>
+    <value><lerpMoodToZero>true</lerpMoodToZero></value>
+  </li></operations></Operation></Patch>

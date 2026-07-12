@@ -1,0 +1,1095 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+<Operation Class="UnifiedBackstories.PatchOperation_IfSetting"><setting>capableBackstories</setting><operations><!-- ============================================================
+       Vanilla Solid (named) backstories. These use the flag-string
+       workDisables format, missed in the first pass. Same rule:
+       a disable stays only for genuine trauma, conviction,
+       psychopathy, or feral upbringing. Peaceful-profession Violent,
+       class-attitude, and "never learned it" disables are removed;
+       each pawn keeps its skillGains, so it becomes capable-but-unskilled.
+       ============================================================ --><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="FallenProdigy40"]/workDisables</xpath>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="FarmerBoy88"]/workDisables</xpath>
+    <value><workDisables>Social, Firefighting</workDisables></value>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="UrbworldHooligan12"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="IndworldUrchin73"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="ColiseumCleaner54"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="OfficerCadet25"]/workDisables</xpath>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="ReclusiveProdigy96"]/workDisables</xpath>
+    <value><workDisables>Social</workDisables></value>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="WarRefugee96"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="WorkCampSlave37"]/workDisables</xpath>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="DisciplinedFarmer28"]/workDisables</xpath>
+    <value><workDisables>Cooking</workDisables></value>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="VatgrownMedic53"]/workDisables</xpath>
+    <value><workDisables>Social</workDisables></value>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="CoreDilettante33"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="AspiringPopIdol28"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="LogicalChild2"]/workDisables</xpath>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="StationWhelp94"]/workDisables</xpath>
+    <value><workDisables>Caring</workDisables></value>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="ConstructionGrunt84"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="StudentEngineer34"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="StreetKid19"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="AbandonedChild30"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="CorpStudent95"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Nerd92"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="RebelSlave14"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="SonOfAHuntress75"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="StudentSocialite89"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="CatHerder4"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Scavenger62"]/workDisables</xpath>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="VatgrownAssassin20"]/workDisables</xpath>
+    <value><workDisables>Caring</workDisables></value>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Stableboy49"]/workDisables</xpath>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="ArtfulDodger78"]/workDisables</xpath>
+    <value><workDisables>Caring</workDisables></value>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Pickpocket82"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="NobleWard61"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="SpoiledChild33"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="AmateurEngineer3"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="StreetUrchin45"]/workDisables</xpath>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="WildChild5"]/workDisables</xpath>
+    <value><workDisables>Caring, Intellectual</workDisables></value>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="HackerProdigy84"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="MadScientist47"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="YouthDelinquent30"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="HillbillyProdigy60"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="UrbworldUrchin90"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="CoreworldStudent50"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="MedievalSquire5"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="StarSquire9"]/workDisables</xpath>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="DrugMule80"]/workDisables</xpath>
+    <value><workDisables>Caring, Social</workDisables></value>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="ArtisanFarmer23"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Pampered87"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="GangMember83"]/workDisables</xpath>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="TestSubject82"]/workDisables</xpath>
+    <value><workDisables>Social</workDisables></value>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="DiplomatsChild97"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="MedievalSlave50"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="PrivilegedProdigy70"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="PrivilegedChild86"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="GNomeSculptor34"]/workDisables</xpath>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="VatgrownSlavegirl8"]/workDisables</xpath>
+    <value><workDisables>Violent</workDisables></value>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="FeudalLordling56"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="FeudalFarmBoy0"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="GlitterworldNerd20"]/workDisables</xpath>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="WarChild24"]/workDisables</xpath>
+    <value><workDisables>Caring</workDisables></value>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="IdealisticCadet64"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="ChildOfGlass61"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="AmateurBotanist79"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="ChildSlave58"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Tinkerer79"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="DisplacedNoble67"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Orphan15"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Straggler71"]/workDisables</xpath>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="BrutalThief59"]/workDisables</xpath>
+    <value><workDisables>Caring</workDisables></value>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="ApocalypseChild23"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="ImperialStudent49"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="TechHead8"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="AcademyStudent58"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="HighBaroness37"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="MedicalStudent38"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="PsychologyStudent15"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Abductee7"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Scout6"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="MilitaryCadet16"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="SpaceCadet77"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Naturalist14"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="BunkerKid41"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="ChildOfDrifters18"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="TribalThunderer45"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="CorpBredStudent54"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Colonist22"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="ReEducatedYouth23"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="FarmMechanic1"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="AccursedChild88"]/workDisables</xpath>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="IcePlanetChild95"]/workDisables</xpath>
+    <value><workDisables>Caring, Social</workDisables></value>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Scrounger25"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="ToxicChild96"]/workDisables</xpath>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="ScienceProdigy65"]/workDisables</xpath>
+    <value><workDisables>Firefighting</workDisables></value>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="YoungPsychologist58"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="LabGrownChild22"]/workDisables</xpath>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="Orphan11"]/workDisables</xpath>
+    <value><workDisables>Social</workDisables></value>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="TechScholar75"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="PitGladiator19"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="FactoryDrone58"]/workDisables</xpath>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="RichBoy9"]/workDisables</xpath>
+    <value><workDisables>Social</workDisables></value>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="Athlete47"]/workDisables</xpath>
+    <value><workDisables>Social</workDisables></value>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="MechanoidHacker93"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="ProjectSubject99"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="HexCellArtist91"]/workDisables</xpath>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="PlagueProdigy12"]/workDisables</xpath>
+    <value><workDisables>Caring</workDisables></value>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="PoorKid18"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="UrbworldUrchin6"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="MilitaryRecruit49"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="StreetUrchin53"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="KidScientist53"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="HelpDeskWorker31"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="YouthSoldier99"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="GalacticPage37"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="GangMember16"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="ProfessionalGamer76"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="DataDecoder39"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="RebelStudent14"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="FarmersDaughter81"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="JoywireAddict76"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="ChildKnave69"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="WastelandWanderer81"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="StreetUrchin74"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="LaborCampOrphan91"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="GameFanatic86"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="ClassClown96"]/workDisables</xpath>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="CrimeBossChild39"]/workDisables</xpath>
+    <value><workDisables>Caring</workDisables></value>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="DustyFarmHand75"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="VideoGamer16"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Student65"]/workDisables</xpath>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="SuperSoldier99"]/workDisables</xpath>
+    <value><workDisables>Social</workDisables></value>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="HeadjackAddict4"]/workDisables</xpath>
+    <value><workDisables>Social</workDisables></value>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="PlagueChild44"]/workDisables</xpath>
+    <value><workDisables>Violent</workDisables></value>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="TechnicalKid1"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="YoungMaster23"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="WealthyStudent59"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="BodyguardTrainee54"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="SpoiledChild80"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Philosopher82"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="RangerChild57"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="GlitterworldRoyal24"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="OffworldRecruit91"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="ProdigalStudent67"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="AnimalCaretaker20"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="AdventurousYouth70"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="MedicalHelper27"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="CountryChild95"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="ExiledPrince58"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="NewAgeDuelist27"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="SpoiledBrat59"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="DiscardedYouth93"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="DisasterSurvivor29"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="RebelChild8"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="IceworldSurvivor75"]/workDisables</xpath>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="AntisocialChild83"]/workDisables</xpath>
+    <value><workDisables>Social</workDisables></value>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="SoldierExperiment50"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="DedicatedStudent12"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="TransferStudent10"]/workDisables</xpath>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="ArtisticWeirdo56"]/workDisables</xpath>
+    <value><workDisables>Social</workDisables></value>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="JunkyardMechanic51"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="ShipChild46"]/workDisables</xpath>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="PetKeeper7"]/workDisables</xpath>
+    <value><workDisables>Social</workDisables></value>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="CorporateSlave22"]/workDisables</xpath>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="AspiringPhysicist47"]/workDisables</xpath>
+    <value><workDisables>Animals</workDisables></value>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="QuietNerd97"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="SpacerOrphan77"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="SmallTownKid41"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="SteamworldTinker38"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="ChildSpy84"]/workDisables</xpath>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="ComputerGeek62"]/workDisables</xpath>
+    <value><workDisables>Social</workDisables></value>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="HunterScavenger64"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="SpaceyachtPilot89"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="OrphanedAcrobat84"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="StewardsAssisant28"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="MonkeyChild67"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="OldMoneyHeir46"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="MusicalKid14"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="MadScientist22"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="ArmyCook0"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="UrbworldPolitican92"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="SpaceTechnician29"]/workDisables</xpath>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="DoomsdayPariah18"]/workDisables</xpath>
+    <value><workDisables>Caring</workDisables></value>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="CombatEngineer30"]/workDisables</xpath>
+    <value><workDisables>Firefighting, PlantWork</workDisables></value>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="ColiseumFighter22"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="FighterController67"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="FerventResearcher72"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="VengefulExplorer54"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="StalwartFarmer21"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="GeneticScientist66"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="PopIdol59"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="MilitaryInventor35"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="BanditLeader74"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="MercenaryChef44"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="CargoPilot58"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="ExecutiveOfficer5"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="RugbyPlayer71"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="SpaceStationCook63"]/workDisables</xpath>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="PoliticalAssassin46"]/workDisables</xpath>
+    <value><workDisables>Caring</workDisables></value>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="AIResearcher94"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="SpaceMarine51"]/workDisables</xpath>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="Assassin7"]/workDisables</xpath>
+    <value><workDisables>Caring</workDisables></value>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="BusinessGangster58"]/workDisables</xpath>
+    <value><workDisables>Caring</workDisables></value>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Storyteller63"]/workDisables</xpath>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="VersatileWorker13"]/workDisables</xpath>
+    <value><workDisables>Firefighting</workDisables></value>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="TestSubject90"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="AerospaceEngineer44"]/workDisables</xpath>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="AlcoholicTrucker93"]/workDisables</xpath>
+    <value><workDisables>Social</workDisables></value>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="IntelligenceAgent10"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="WarChief97"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="InvoluntaryHermit38"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="MidworldSailor91"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="MedievalKnight26"]/workDisables</xpath>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="TestSubject39"]/workDisables</xpath>
+    <value><workDisables>Caring, Social</workDisables></value>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="GeneticEngineer89"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="LazyProgrammer3"]/workDisables</xpath>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="MindwipedAssassin50"]/workDisables</xpath>
+    <value><workDisables>Caring</workDisables></value>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="TestSubject92"]/workDisables</xpath>
+    <value><workDisables>Caring, Social</workDisables></value>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="AIProgrammer22"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="WhiteHatHacker82"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="VinhoKing98"]/workDisables</xpath>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="PlanetaryDiplomat7"]/workDisables</xpath>
+    <value><workDisables>Violent</workDisables></value>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Osteologist74"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Gnomebiologist96"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="CriminalKingpin36"]/workDisables</xpath>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="UrbworldSexSlave25"]/workDisables</xpath>
+    <value><workDisables>Violent</workDisables></value>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="SystemLord77"]/workDisables</xpath>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="HunterOfTheKing53"]/workDisables</xpath>
+    <value><workDisables>Animals</workDisables></value>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="MercenaryPilot63"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Undertaker93"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="SpaceshipChef41"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="DreadedDude58"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Minister88"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Pirate56"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="BountyHunter17"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Spiceminer81"]/workDisables</xpath>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="CrimeLord10"]/workDisables</xpath>
+    <value><workDisables>Caring</workDisables></value>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="MarbleDoctor99"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="MobHenchman53"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="MechWarVeteran77"]/workDisables</xpath>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="PoisonGardener29"]/workDisables</xpath>
+    <value><workDisables>Social</workDisables></value>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="SystemsEngineer1"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="ComputerEngineer10"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Villain89"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="GovernmentAgent61"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="AcolyteOfStars6"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="RaiderKing38"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="ReligiousHierarch16"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="AnarchistRebel77"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="OverwatchSniper42"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Sightseer70"]/workDisables</xpath>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="IntimateAssassin35"]/workDisables</xpath>
+    <value><workDisables>Caring</workDisables></value>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="SoleSurvivor85"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="FallenOfficial12"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="ShamanOfShadows47"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="SpaceTrafficker68"]/workDisables</xpath>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="PopIdolPirate39"]/workDisables</xpath>
+    <value><workDisables>Firefighting</workDisables></value>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Roboticist1"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="StalwartFarmer90"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="UrbworldPimp93"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="DefenseLawyer71"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Ranger6"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="ClanChief14"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="FactionLeader74"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="SpaceMarine9"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="CombatMedic82"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="HiredGun70"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Hunter73"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="MasterTrader65"]/workDisables</xpath>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="MadScientist2"]/workDisables</xpath>
+    <value><workDisables>Caring</workDisables></value>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Warrior73"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="SpaceExplorer53"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Smuggler23"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="DestroyerGeneral26"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="SerialMurderer47"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="MadScientist31"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="SoftwareDeveloper84"]/workDisables</xpath>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="HumanTrafficker35"]/workDisables</xpath>
+    <value><workDisables>Caring</workDisables></value>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="MentalPatient69"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="SpaceMarine94"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="EnvoyOfTheStars19"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="CloneFarmer58"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="GangBoss49"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="LostMarine81"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Healer35"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="ToasterRepairman22"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="ArchotechSpy75"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="BehaviourResearch74"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="ChiefEngineer62"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="ReptileResearcher37"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="BlacksmithShooter21"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="BloodgameSurvivor6"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="VoidspaceRaider94"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Vagabond73"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="MachineFixer31"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="SpaceMerchant97"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="BeastSlayer67"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="DrugLieutenant98"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="UrbworldEnforcer11"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="ToolMechanic77"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="CraftShaper37"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="SpecialForces13"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="DromedaryKnight37"]/workDisables</xpath>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="SuperSoldier95"]/workDisables</xpath>
+    <value><workDisables>Social</workDisables></value>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="CorporateBuilder58"]/workDisables</xpath>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="PlagueDoctor31"]/workDisables</xpath>
+    <value><workDisables>Violent</workDisables></value>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="ImperialGeneral27"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="RebelFighter39"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Roboticist41"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="PrivateDetective66"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="CosmeticSurgeon36"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="UprightDiplomat49"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="VideoProducer83"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="BushSniper94"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="UnethicalDoctor29"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="CombatMedtech59"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="WildlifeRanger99"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="TreasureHunter82"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="StarfighterPilot79"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="GangSoldier39"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Adventurer19"]/workDisables</xpath>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="BloodyWanderer28"]/workDisables</xpath>
+    <value><workDisables>Social</workDisables></value>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Mercenary20"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="MilitiaSoldier79"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="ForestProwler15"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="SicklyLawyer49"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="RocketPioneer19"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="PrisonerOfWar2"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Politician57"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="AdventurousWeirdo55"]/workDisables</xpath>
+  </li><li Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="FearfulChef49"]/workDisables</xpath>
+    <value><workDisables>Cooking, Firefighting</workDisables></value>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="MuffaloResearcher67"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="ColonyEngineer7"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="CostumeCrafter41"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Gunfighter51"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="NavyTechOfficer0"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="KingOfPirates25"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="SpaceNavyTech37"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Defector95"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="MercenaryLord13"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="Warlordess56"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="CommonerLord45"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="TournamentFighter28"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="ArtStudent79"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="VengefulNomad67"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="MercenaryCaptain98"]/workDisables</xpath>
+  </li><li Class="PatchOperationRemove">
+    <xpath>Defs/BackstoryDef[defName="TravelingBard93"]/workDisables</xpath>
+  </li></operations></Operation></Patch>
+
