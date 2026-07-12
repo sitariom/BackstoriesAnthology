@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 	<name>Backstories Anthology</name>
-	<author>simoe</author>
+	<author>sitariom</author>
 	<packageId>Unified.BackstoriesAnthology</packageId>
 	<description>
-A massive unified collection of 1,273 backstories from 12 community mods, carefully merged, deduplicated, and balanced into one cohesive, self-contained package. No original mods required.
+A massive unified collection of 1,352 backstories from 13 community mods, carefully merged, deduplicated, and balanced into one cohesive, self-contained package. No original mods required.
 
 === WHAT'S INCLUDED ===
 
@@ -22,10 +22,12 @@ SOURCE MODS (all integrated, no dependencies):
 - Elderhood Backstories - 42 elderhood backstories (DimonSever000)
 - Apocalyptic Backstories - 25 backstories (Lovely)
 - Saito's Backstories - 12 curated backstories (Zaljerem/Saito Yui)
+- Childhood Backstories - 79 childhood backstories (Zylle)
 
 INTEGRATED SYSTEMS:
 - Reasonable Moods and Capable Backstories (Legator) - 8 backstory balancing patches applied directly. DLL, InteractionDefs, ThoughtDefs, and mood system included.
 - Elderhood Backstory System (DimonSever000) - Harmony DLL and patches included.
+- Childhood Backstories System (Zylle) - ZCB DLL, RecordDefs, and patches for childhood-only backstories.
 
 COMPATIBILITY:
 - 100% standalone - no original mods required
@@ -37,10 +39,9 @@ COMPATIBILITY:
 See CREDITS.txt for full attributions and licensing details.</description>
 	<modVersion>1.0.0</modVersion>
 	<supportedVersions>
-		<li>1.5.0</li>
-		<li>1.6.0</li>
+		<li>1.5</li>
+		<li>1.6</li>
 	</supportedVersions>
-	<targetVersion>1.6.0</targetVersion>
 	<modDependencies>
 		<li>
 			<packageId>brrainz.harmony</packageId>

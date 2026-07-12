@@ -5,13 +5,13 @@
 <h1 align="center">Backstories Anthology</h1>
 
 <p align="center">
-  <b>1,273 backstories · 11 mods · One unified package</b><br>
+  <b>1,352 backstories · 12 mods · One unified package</b><br>
   <i>A massive collection of community-created backstories for RimWorld, carefully merged, deduplicated, and balanced into one cohesive, self-contained mod.</i>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/RimWorld-1.5%20|%201.6-blueviolet?style=flat-square">
-  <img src="https://img.shields.io/badge/backstories-1,273-success?style=flat-square">
+  <img src="https://img.shields.io/badge/backstories-1,352-success?style=flat-square">
   <img src="https://img.shields.io/badge/status-stable-brightgreen?style=flat-square">
   <img src="https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-lightgrey?style=flat-square">
 </p>
@@ -20,18 +20,18 @@
 
 ## 📖 Description
 
-**Backstories Anthology** brings together backstories from **11 different community mods** into a single, polished, conflict-free package. Every backstory has been prefixed with `UB_` to ensure zero defName collisions, fully translated (English), deduplicated, and validated.
+**Backstories Anthology** brings together backstories from **12 different community mods** into a single, polished, conflict-free package. Every backstory has been prefixed with `UB_` to ensure zero defName collisions, fully translated (English), deduplicated, and validated.
 
-**No original mods required.** This mod is 100% standalone — just activate it and your colonists will have access to all 1,273 backstories.
+**No original mods required.** This mod is 100% standalone — just activate it and your colonists will have access to all 1,352 backstories.
 
 ### What's Included
 
-- **1,273 unique backstories** — Childhood & Adulthood, spanning Tribal to Spacer tech levels
+- **1,352 unique backstories** — Childhood & Adulthood, spanning Tribal to Spacer tech levels
 - **Full English translations** for every single backstory (title + description)
 - **No duplicates** — carefully deduplicated across all source mods
 - **No defName conflicts** — all backstories use the `UB_` prefix
 - **RimWorld 1.5 & 1.6** — fully mirrored load folders
-- **Integrated systems:** Reasonable Moods & Capable Backstories (DLL + patches), Elderhood Backstories (DLL)
+- **Integrated systems:** Reasonable Moods & Capable Backstories (DLL + patches), Elderhood Backstories (DLL), Childhood Backstories (ZCB DLL + RecordDefs)
 - **4 additional PlaceDefs** from Seal's Collection for procedural story generation
 - **All DLCs supported** — Royalty, Ideology, Biotech, Anomaly
 
@@ -52,7 +52,7 @@
 | 9 | **Elderhood Backstories** | DimonSever000 | 42 |
 | 10 | **Apocalyptic Backstories** | Lovely | 25 |
 | 11 | **Saito's Backstories** | Zaljerem / Saito Yui | 12 |
-| | **Total** | | **1,273** |
+| | **Total** | | **1,352** |
 
 ### Integrated Systems (no new backstories)
 
@@ -60,6 +60,7 @@
 |--------|--------|-------------|
 | **Reasonable Moods & Capable Backstories** | Legator | 8 balancing patches applied directly to backstory definitions. DLL, InteractionDefs, ThoughtDefs, and mood system included. |
 | **Elderhood Backstory System** | DimonSever000 | Harmony DLL and patches for Elderhood-specific backstories. |
+| **Childhood Backstories System** | Zylle | ZCB DLL for childhood activity tracking and backstory assignment. 10 custom RecordDefs. |
 
 ---
 
@@ -201,7 +202,7 @@ All original work remains the property of their respective authors. This merge i
 
 | Role | Name |
 |------|------|
-| **Mod merge & publication** | simoe ([GitHub](https://github.com/sitariom)) |
+| **Mod merge & publication** | sitariom ([GitHub](https://github.com/sitariom)) |
 
 If any author wishes to have their work removed or modified, please open an issue on this repository.
 

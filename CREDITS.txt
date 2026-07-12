@@ -78,7 +78,15 @@ SOURCE MODS AND AUTHORS
     12 backstories (curated selection — duplicates removed)
     License: MIT + CC-BY-SA 4.0
 
-13. Reasonable Moods & Capable Backstories (Integrated System)
+13. Childhood Backstories
+    Author: Zylle
+    PackageId: Zylle.ChildhoodBackstories
+    79 backstories | Childhood-only | Code mod (ZCB DLL included)
+    NOTE: Uses custom ZCB.ZCBackstoryDef type. ZCB DLL provides
+    childhood activity tracking and backstory assignment system.
+    Spawn category: ZCB, ZCB_NaturalMeditation, ZCB_Placeholder.
+
+14. Reasonable Moods & Capable Backstories (Integrated System)
     Author: Legator
     PackageId: Legator.ReasonableMoodsCapableBackstories
     No new backstories — 8 backstory balancing patches applied directly.
@@ -93,6 +101,10 @@ NOTES
   uniqueness and prevent conflicts between any other mods.
 - The Elderhood backstory system (DLL + Patches) has been integrated
   directly into this mod's assemblies underneath the 1.5/ and 1.6/ folders.
+- Childhood Backstories (Zylle) uses custom ZCB.ZCBackstoryDef XML type
+  registered by the included ZCB.dll. DefNames prefixed UB_ZCB_ with
+  spawnCategories ZCB/ZCB_NaturalMeditation/ZCB_Placeholder intact.
+  10 custom RecordDefs track childhood activities. ZCB.dll in 1.5/1.6 Assemblies.
 - PlaceDefs from Seal's Collection are included under Defs/PlaceDefs/ and
   are used by RimWorld's procedural backstory generation system.
 - Seal's Collection: All four versions (v1.0-v1.3) are included with
@@ -103,8 +115,8 @@ NOTES
   to backstory definitions: workDisables removed where nonsensical, skill
   penalties added instead. The DLL provides mood balancing features.
 - ALL PATCHES USE UB_ PREFIXES — no conflicts with original mods.
-- TOTAL BACKSTORIES IN THIS MOD: 1,273
-- This mod is 100% standalone — none of the 12 original source mods
+- TOTAL BACKSTORIES IN THIS MOD: 1,352
+- This mod is 100% standalone - none of the 13 original source mods
   are required for it to function.
 - See individual mod pages on the Steam Workshop for more details
   about each collection.
