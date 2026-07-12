@@ -108,83 +108,72 @@ All original work remains the property of their respective authors. This merge i
 ### Backstory Mods
 
 <table>
-<tr><th>Mod</th><th>Author(s)</th><th>PackageId</th><th>License</th></tr>
+<tr><th>Mod</th><th>Author(s)</th><th>PackageId</th></tr>
 
 <tr>
 <td><b>Cybranian Backstories+</b></td>
 <td>DimonSever000</td>
 <td><code>DimonSever000.BackstoriesPlus.Specific</code></td>
-<td>—</td>
 </tr>
 
 <tr>
 <td><b>Before the Crash: Backstories</b></td>
 <td>Ostrich-Hungry</td>
 <td><code>BTC.backstories</code></td>
-<td>—</td>
 </tr>
 
 <tr>
 <td><b>Vanilla Backstories Expanded</b></td>
 <td>Oskar Potocki, Legodude17</td>
 <td><code>VanillaExpanded.VanillaBackstoriesExpanded</code></td>
-<td>Included with permission — do not redistribute separately</td>
 </tr>
 
 <tr>
 <td><b>Seal's Backstory Collection</b></td>
 <td>SneezingSeal</td>
 <td><code>sneezingseal.sealsbackstorycollection</code></td>
-<td>CC BY-NC-SA 4.0</td>
 </tr>
 
 <tr>
 <td><b>Medieval Backstories</b></td>
 <td>Shenanigans</td>
 <td><code>Shenanigans.MedievalBackstories</code></td>
-<td>—</td>
 </tr>
 
 <tr>
 <td><b>More Backstories</b></td>
 <td>Ravinglegend</td>
 <td><code>More.Backstories</code></td>
-<td>—</td>
 </tr>
 
 <tr>
 <td><b>Kurzaen's Serious & Silly Backstories</b></td>
 <td>Kurzaen</td>
 <td><code>kurzaen.snsbackstories</code></td>
-<td>—</td>
 </tr>
 
 <tr>
 <td><b>Tribal Backstories</b></td>
 <td>Shenanigans</td>
 <td><code>Shenanigans.TribalBackstories1.4</code></td>
-<td>—</td>
 </tr>
 
 <tr>
 <td><b>Elderhood Backstories</b></td>
 <td>DimonSever000</td>
 <td><code>DimonSever000.ElderhoodBackstory</code></td>
-<td>—</td>
 </tr>
 
 <tr>
 <td><b>Apocalyptic Backstories</b></td>
 <td>Lovely</td>
 <td><code>Lovely.Apocalypse.stories</code></td>
-<td>—</td>
 </tr>
 
 <tr>
 <td><b>Saito's Backstories (Continued)</b></td>
 <td>Zaljerem (original by Saito Yui)</td>
 <td><code>zal.saitobackstories</code></td>
-<td>MIT + CC-BY-SA 4.0</td>
 </tr>
 
 </table>
@@ -192,20 +181,18 @@ All original work remains the property of their respective authors. This merge i
 ### Integrated Systems
 
 <table>
-<tr><th>System</th><th>Author</th><th>PackageId</th><th>License</th></tr>
+<tr><th>System</th><th>Author</th><th>PackageId</th></tr>
 
 <tr>
 <td><b>Reasonable Moods & Capable Backstories</b></td>
 <td>Legator</td>
 <td><code>Legator.ReasonableMoodsCapableBackstories</code></td>
-<td>MIT</td>
 </tr>
 
 <tr>
 <td><b>Elderhood Backstory System</b></td>
 <td>DimonSever000</td>
 <td><code>DimonSever000.ElderhoodBackstory</code></td>
-<td>—</td>
 </tr>
 
 </table>
