@@ -63,11 +63,11 @@
 		 <li>Uncommon</li>
 		 <li>MedievalKnight</li>
 	</spawnCategories>
-		 <forcedTraitsChance>
+		 <forcedTraits>
        <li>
             <defName>Kind</defName>
         </li>
-    </forcedTraitsChance>
+    </forcedTraits>
 		<requiredWorkTags>
         <li>Violent</li>
     </requiredWorkTags>
@@ -107,12 +107,12 @@
 		 <li>Uncommon</li>
 		 <li>MedievalKnight</li>
 	</spawnCategories>
-		 <forcedTraitsChance>
+		 <forcedTraits>
       <li>
             <defName>Nerves</defName>
             <degree>-1</degree>
       </li>
-    </forcedTraitsChance>
+    </forcedTraits>
 		<requiredWorkTags>
         <li>Violent</li>
     </requiredWorkTags>
@@ -152,12 +152,12 @@
 		 <li>Uncommon</li>
 		 <li>MedievalKnight</li>
 	</spawnCategories>
-		 <forcedTraitsChance>
+		 <forcedTraits>
       <li>
             <defName>Nerves</defName>
             <degree>1</degree>
       </li>
-    </forcedTraitsChance>
+    </forcedTraits>
 		<requiredWorkTags>
         <li>Violent</li>
     </requiredWorkTags>
@@ -197,16 +197,16 @@
 		 <li>Uncommon</li>
 		 <li>MedievalKnight</li>
 	</spawnCategories>
-		 <forcedTraitsChance>
+		 <forcedTraits>
       <li>
             <defName>Greedy</defName>
       </li>
-    </forcedTraitsChance>
-	 <disallowedTraitsChance>
+    </forcedTraits>
+	 <disallowedTraits>
         <li>
             <defName>Kind</defName>
         </li>
-    </disallowedTraitsChance>
+    </disallowedTraits>
 		<requiredWorkTags>
         <li>Violent</li>
     </requiredWorkTags>
@@ -244,11 +244,11 @@
 		 <li>Uncommon</li>
 		 <li>MedievalMerchant</li>
 	</spawnCategories>
-	  <disallowedTraitsChance>
+	  <disallowedTraits>
         <li>
             <defName>Abrasive</defName>
         </li>
-    </disallowedTraitsChance>
+    </disallowedTraits>
 		<requiredWorkTags>
         <li>Social</li>
     </requiredWorkTags>
@@ -286,11 +286,11 @@
 		<li>Medieval</li>
 		 <li>MedievalMerchant</li>
 	</spawnCategories>
-	  <disallowedTraitsChance>
+	  <disallowedTraits>
         <li>
             <defName>Abrasive</defName>
         </li>
-    </disallowedTraitsChance>
+    </disallowedTraits>
 		<requiredWorkTags>
         <li>Social</li>
     </requiredWorkTags>
@@ -333,16 +333,16 @@
 		 <li>MedievalRoyal</li>
 		<li>Rare</li>
 	</spawnCategories>
-	<forcedTraitsChance>
+	<forcedTraits>
        <li>
             <defName>Kind</defName>
         </li>
-    </forcedTraitsChance>
-	  <disallowedTraitsChance>
+    </forcedTraits>
+	  <disallowedTraits>
         <li>
             <defName>Abrasive</defName>
         </li>
-    </disallowedTraitsChance>
+    </disallowedTraits>
 		<requiredWorkTags>
         <li>Social</li>
     </requiredWorkTags>
@@ -385,16 +385,16 @@
 		 <li>MedievalRoyal</li>
 		<li>Rare</li>
 	</spawnCategories>
-	<forcedTraitsChance>
+	<forcedTraits>
        <li>
             <defName>Kind</defName>
         </li>
-    </forcedTraitsChance>
-	  <disallowedTraitsChance>
+    </forcedTraits>
+	  <disallowedTraits>
         <li>
             <defName>Abrasive</defName>
         </li>
-    </disallowedTraitsChance>
+    </disallowedTraits>
 		<requiredWorkTags>
         <li>Social</li>
     </requiredWorkTags>
@@ -441,11 +441,11 @@
 		 <li>MedievalRoyal</li>
 		<li>Rare</li>
 	</spawnCategories>
-	<forcedTraitsChance>
+	<forcedTraits>
        <li>
             <defName>Psychopath</defName>
         </li>
-    </forcedTraitsChance>
+    </forcedTraits>
 		<workDisables>
        <li>ManualDumb</li>
 	   <li>ManualSkilled</li>
@@ -490,11 +490,11 @@
 		 <li>MedievalRoyal</li>
 		<li>Rare</li>
 	</spawnCategories>
-	<forcedTraitsChance>
+	<forcedTraits>
        <li>
             <defName>Psychopath</defName>
         </li>
-    </forcedTraitsChance>
+    </forcedTraits>
 		<workDisables>
         <li>ManualDumb</li>
 	   <li>ManualSkilled</li>
@@ -577,7 +577,7 @@
 		 <li>MedievalRoyal</li>
 		<li>Rare</li>
 	</spawnCategories>
-	<forcedTraitsChance>
+	<forcedTraits>
        <li>
             <defName>Kind</defName>
         </li>
@@ -585,12 +585,12 @@
             <defName>Nerves</defName>
             <degree>1</degree>
         </li>
-    </forcedTraitsChance>
-	  <disallowedTraitsChance>
+    </forcedTraits>
+	  <disallowedTraits>
         <li>
             <defName>Abrasive</defName>
         </li>
-    </disallowedTraitsChance>
+    </disallowedTraits>
 		<requiredWorkTags>
         <li>Social</li>
     </requiredWorkTags>
@@ -633,12 +633,12 @@
 		 <li>MedievalRoyal</li>
 		<li>Rare</li>
 	</spawnCategories>
-	<forcedTraitsChance>
+	<forcedTraits>
 		  <li>
             <defName>Nerves</defName>
             <degree>-1</degree>
         </li>
-    </forcedTraitsChance>
+    </forcedTraits>
 		<requiredWorkTags>
         <li>Social</li>
     </requiredWorkTags>
@@ -734,11 +734,11 @@
 		 <li>MedievalNoble</li>
 		<li>Rare</li>
 	</spawnCategories>
-	<forcedTraitsChance>
+	<forcedTraits>
        <li>
             <defName>Kind</defName>
         </li>
-    </forcedTraitsChance>
+    </forcedTraits>
 		<workDisables>
        <li>ManualDumb</li>
 		<li>PlantWork</li>
@@ -783,11 +783,11 @@
 		 <li>MedievalNoble</li>
 		<li>Rare</li>
 	</spawnCategories>
-	<forcedTraitsChance>
+	<forcedTraits>
        <li>
             <defName>Greedy</defName>
         </li>
-    </forcedTraitsChance>
+    </forcedTraits>
 		<workDisables>
        <li>ManualDumb</li>
 	   	<li>ManualSkilled</li>
@@ -961,12 +961,12 @@
 		<workDisables>
        <li>Intellectual</li>
     </workDisables>
-	 <forcedTraitsChance>
+	 <forcedTraits>
         <li>
             <defName>Immunity</defName>
             <degree>1</degree>
         </li>
-    </forcedTraitsChance>
+    </forcedTraits>
 	<spawnCategories>
 		<li>Medieval</li>
 			<li>MedievalServant</li>
@@ -1026,12 +1026,12 @@
 		<workDisables>
        <li>Intellectual</li>
     </workDisables>
-		<forcedTraitsChance>
+		<forcedTraits>
 		  <li>
             <defName>Industriousness</defName>
             <degree>1</degree>
         </li>
-    </forcedTraitsChance>
+    </forcedTraits>
 	<spawnCategories>
 		<li>Medieval</li>
 			<li>MedievalServant</li>
@@ -1151,7 +1151,7 @@
 	<slot>Adulthood</slot>
 	<title>Silversmith</title>
 	<titleShort>Silversmith</titleShort>
-	<baseDesc>[PAWN_nameDef] crafted jewellery and other trinkets out of silver. Most of [PAWN_possessive] customers were successful, worldly merchants. [PAWN_nameDef] learned a great deal about all manner of things from listening to tales of [PAWN_possessive] customers’ travels. </baseDesc>
+	<baseDesc>[PAWN_nameDef] crafted jewellery and other trinkets out of silver. Most of [PAWN_possessive] customers were successful, worldly merchants. [PAWN_nameDef] learned a great deal about all manner of things from listening to tales of [PAWN_possessive] customers’ travels.</baseDesc>
 	<skillGains>
 		<li>
 			<key>Crafting</key>
@@ -1289,11 +1289,11 @@
 				<value>-2</value>
         </li>
 	</skillGains>
-	<forcedTraitsChance>
+	<forcedTraits>
 	<li>
 	 <defName>Kind</defName>
 	   </li>
-	</forcedTraitsChance>
+	</forcedTraits>
 	<requiredWorkTags>
 		<li>ManualDumb</li>
 		<li>ManualSkilled</li>
@@ -1594,11 +1594,11 @@
 	<workDisables>
        <li>Intellectual</li>
     </workDisables>
-	 <forcedTraitsChance>
+	 <forcedTraits>
        <li>
             <defName>Kind</defName>
         </li>
-    </forcedTraitsChance>
+    </forcedTraits>
 	<spawnCategories>
 		<li>Medieval</li>
 			<li>MedievalPeasant</li>
@@ -1770,11 +1770,11 @@
 		<li>Medieval</li>
 			<li>MedievalArtist</li>
 	</spawnCategories>
-	    <disallowedTraitsChance>
+	    <disallowedTraits>
         <li>
             <defName>AnnoyingVoice</defName>
         </li>
-    </disallowedTraitsChance>
+    </disallowedTraits>
 		<bodyTypeMale>Male</bodyTypeMale>
 	<bodyTypeFemale>Female</bodyTypeFemale>
 		<linkedBackstory>UB_Medieval_YoungWordsmith</linkedBackstory>
@@ -1907,11 +1907,11 @@
 		<li>Artistic</li>
 		<li>Social</li>
     </requiredWorkTags>
-		 <forcedTraitsChance>
+		 <forcedTraits>
         <li>
             <defName>Nimble</defName>
         </li>
-    </forcedTraitsChance>
+    </forcedTraits>
 	<spawnCategories>
 		<li>Medieval</li>
 			<li>MedievalArtist</li>
@@ -2068,12 +2068,12 @@
 			<li>MedievalTownsfolk</li>
 			<li>MedievalLow</li>
 	</spawnCategories>
-	   <forcedTraitsChance>
+	   <forcedTraits>
         <li>
             <defName>Beauty</defName>
             <degree>2</degree>
         </li>
-    </forcedTraitsChance>
+    </forcedTraits>
 	<maleCommonality>0</maleCommonality>
     <femaleCommonality>100</femaleCommonality>
 	<bodyTypeGlobal>Female</bodyTypeGlobal>
@@ -2186,14 +2186,14 @@
 		<li>PlantWork</li>
 		<li>Mining</li>
     </requiredWorkTags>
-	   <forcedTraitsChance>
+	   <forcedTraits>
         <li>
             <defName>NightOwl</defName>
         </li>
 		  <li>
             <defName>Kind</defName>
         </li>
-    </forcedTraitsChance>
+    </forcedTraits>
 	<spawnCategories>
 		<li>Medieval</li>
 			<li>MedievalTownsfolk</li>
@@ -2264,11 +2264,11 @@
 			<li>MedievalCriminal</li>
 			<li>MedievalLow</li>
 	</spawnCategories>
-	   <forcedTraitsChance>
+	   <forcedTraits>
         <li>
             <defName>NightOwl</defName>
         </li>
-    </forcedTraitsChance>
+    </forcedTraits>
 	<bodyTypeMale>Male</bodyTypeMale>
 	<bodyTypeFemale>Female</bodyTypeFemale>
 		 <relationSettings>
@@ -2304,11 +2304,11 @@
 			<li>MedievalCriminal</li>
 			<li>MedievalLow</li>
 	</spawnCategories>
-	   <forcedTraitsChance>
+	   <forcedTraits>
         <li>
             <defName>Bloodlust</defName>
         </li>
-    </forcedTraitsChance>
+    </forcedTraits>
 	<bodyTypeMale>Male</bodyTypeMale>
 	<bodyTypeFemale>Female</bodyTypeFemale>
 		 <relationSettings>
@@ -2349,7 +2349,7 @@
 		<li>Medieval</li>
 			<li>MedievalClergy</li>
 	</spawnCategories>
-	   <forcedTraitsChance>
+	   <forcedTraits>
         <li>
             <defName>Immunity</defName>
             <degree>1</degree>
@@ -2360,7 +2360,7 @@
 		  <li>
             <defName>Kind</defName>
         </li>
-    </forcedTraitsChance>
+    </forcedTraits>
 	  <workDisables>
         <li>Violent</li>
     </workDisables>
@@ -2403,11 +2403,11 @@
 		<li>Medieval</li>
 			<li>MedievalClergy</li>
 	</spawnCategories>
-	   <forcedTraitsChance>
+	   <forcedTraits>
 		  <li>
             <defName>Ascetic</defName>
         </li>
-    </forcedTraitsChance>
+    </forcedTraits>
 	<workDisables>
         <li>Violent</li>
 		 <li>Social</li>
@@ -2528,12 +2528,12 @@
 	<requiredWorkTags>
 		<li>Intellectual</li>
     </requiredWorkTags>
-	    <forcedTraitsChance>
+	    <forcedTraits>
         <li>
             <defName>PsychicSensitivity</defName>
             <degree>2</degree>
         </li>
-    </forcedTraitsChance>
+    </forcedTraits>
 	<spawnCategories>
 		<li>Medieval</li>
 			<li>MedievalMisc</li>
@@ -2566,12 +2566,12 @@
 		<requiredWorkTags>
 		<li>ManualDumb</li>
     </requiredWorkTags>
-	  <forcedTraitsChance>
+	  <forcedTraits>
 	 <li>
             <defName>NaturalMood</defName>
             <degree>2</degree>
         </li>
-		</forcedTraitsChance>
+		</forcedTraits>
 	<spawnCategories>
 		<li>Medieval</li>
 			<li>MedievalMisc</li>

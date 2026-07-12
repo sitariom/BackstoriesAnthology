@@ -5,7 +5,7 @@
     <title>Worm Child</title>
     <titleShort>Wormkid</titleShort>
     <slot>Childhood</slot> <!--Adult or Child-->
-    <baseDesc>[PAWN_nameDef] was raised in a cult worshipping earthworms. [PAWN_possessive] entire childhood was based on learning to do things without [PAWN_objective] arms and legs. While this was horrible for [PAWN_possessive] limb development, it did give [PAWN_objective] a good view and understanding of plantlife. </baseDesc> <!--Use Namedefs for name and pronouns-->
+    <baseDesc>[PAWN_nameDef] was raised in a cult worshipping earthworms. [PAWN_possessive] entire childhood was based on learning to do things without [PAWN_objective] arms and legs. While this was horrible for [PAWN_possessive] limb development, it did give [PAWN_objective] a good view and understanding of plantlife.</baseDesc> <!--Use Namedefs for name and pronouns-->
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale> <!-- Use Bodydefs for body types-->
     <spawnCategories>

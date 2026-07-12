@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<BackstoryDef>
-		<defName>UB_Elderhood_PlayerColonist</defName>
+	<BackstoryDef ParentName="ElderhoodBackstory">
+		<defName>Elderhood_PlayerColonist</defName>
 		<title>Colony old man</title>
 		<titleFemale>Colony old woman</titleFemale>
 		<titleShort>Old man</titleShort>
 		<titleShortFemale>Old woman</titleShortFemale>
 		<description>[PAWN_nameDef] lived a difficult, but interesting and happy life in colony.</description>
 		<slot>Adulthood</slot>
-		<spawnCategories>
+		<spawnCategories Inherit="false">
 
 			<li>SpecialElderhood</li>
 		
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 	</BackstoryDef>
-	<BackstoryDef>
-		<defName>UB_Elderhood_PlayerPrisoner</defName>
+	<BackstoryDef ParentName="ElderhoodBackstory">
+		<defName>Elderhood_PlayerPrisoner</defName>
 		<title>Prisoner old man</title>
 		<titleFemale>Prisoner old woman</titleFemale>
 		<titleShort>Old man</titleShort>
 		<titleShortFemale>Old woman</titleShortFemale>
 		<description>[PAWN_nameDef] met {PAWN_gender ? his : her} old age as a prisoner of the colony.</description>
 		<slot>Adulthood</slot>
-		<spawnCategories>
+		<spawnCategories Inherit="false">
 
 			<li>SpecialElderhood</li>
 		
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 	</BackstoryDef>
-	<BackstoryDef>
-		<defName>UB_Elderhood_PlayerSlave</defName>
+	<BackstoryDef ParentName="ElderhoodBackstory">
+		<defName>Elderhood_PlayerSlave</defName>
 		<title>Slave old man</title>
 		<titleFemale>Slave old woman</titleFemale>
 		<titleShort>Old man</titleShort>
 		<titleShortFemale>Old woman</titleShortFemale>
 		<description>[PAWN_nameDef] met {PAWN_gender ? his : her} old age as a slave of the colony.</description>
 		<slot>Adulthood</slot>
-		<spawnCategories>
+		<spawnCategories Inherit="false">
 
 			<li>SpecialElderhood</li>
 		
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 	</BackstoryDef>
-	<BackstoryDef>
+	<BackstoryDef ParentName="ElderhoodBackstory">
 		<defName>UB_Elderhood_WiseOldMan</defName>
 		<title>Wise old man</title>
 		<titleFemale>Wise old woman</titleFemale>
@@ -66,7 +66,7 @@
 		
 		</skillGains>
 	</BackstoryDef>
-	<BackstoryDef>
+	<BackstoryDef ParentName="ElderhoodBackstory">
 		<defName>UB_Elderhood_ElderlyWriter</defName>
 		<title>Elderly writer</title>
 		<titleFemale>Elderly writer</titleFemale>
@@ -98,7 +98,7 @@
 		
 		</possessions>
 	</BackstoryDef>
-	<BackstoryDef>
+	<BackstoryDef ParentName="ElderhoodBackstory">
 		<defName>UB_Elderhood_TiredPhilosopher</defName>
 		<title>Tired philosopher</title>
 		<titleFemale>Tired philosopher</titleFemale>
@@ -130,7 +130,7 @@
 		
 		</possessions>
 	</BackstoryDef>
-	<BackstoryDef>
+	<BackstoryDef ParentName="ElderhoodBackstory">
 		<defName>UB_Elderhood_RetiredSoldier</defName>
 		<title>Retired soldier</title>
 		<titleFemale>Retired soldier</titleFemale>
@@ -157,7 +157,7 @@
 		
 		</requiredWorkTags>
 	</BackstoryDef>
-	<BackstoryDef>
+	<BackstoryDef ParentName="ElderhoodBackstory">
 		<defName>UB_Elderhood_OldMechanic</defName>
 		<title>Old mechanic</title>
 		<titleFemale>Old mechanic</titleFemale>
@@ -184,7 +184,7 @@
 		
 		</requiredWorkTags>
 	</BackstoryDef>
-	<BackstoryDef>
+	<BackstoryDef ParentName="ElderhoodBackstory">
 		<defName>UB_Elderhood_Sage</defName>
 		<title>Sage</title>
 		<titleFemale>Sage</titleFemale>
@@ -209,7 +209,7 @@
 		
 		</requiredWorkTags>
 	</BackstoryDef>
-	<BackstoryDef>
+	<BackstoryDef ParentName="ElderhoodBackstory">
 		<defName>UB_Elderhood_LonelyWanderer</defName>
 		<title>Lonely wanderer</title>
 		<titleFemale>Lonely wanderer</titleFemale>
@@ -231,7 +231,7 @@
 		
 		</skillGains>
 	</BackstoryDef>
-	<BackstoryDef>
+	<BackstoryDef ParentName="ElderhoodBackstory">
 		<defName>UB_Elderhood_ElderlyScientist</defName>
 		<title>Elderly scientist</title>
 		<titleFemale>Elderly scientist</titleFemale>
@@ -261,7 +261,7 @@
 		
 		</possessions>
 	</BackstoryDef>
-	<BackstoryDef>
+	<BackstoryDef ParentName="ElderhoodBackstory">
 		<defName>UB_Elderhood_BoringProfessor</defName>
 		<title>Boring professor</title>
 		<titleFemale>Boring professor</titleFemale>
@@ -287,7 +287,7 @@
 		
 		</requiredWorkTags>
 	</BackstoryDef>
-	<BackstoryDef>
+	<BackstoryDef ParentName="ElderhoodBackstory">
 		<defName>UB_Elderhood_AvidHunter</defName>
 		<title>Avid hunter</title>
 		<titleFemale>Avid hunter</titleFemale>
@@ -313,7 +313,7 @@
 		
 		</requiredWorkTags>
 	</BackstoryDef>
-	<BackstoryDef>
+	<BackstoryDef ParentName="ElderhoodBackstory">
 		<defName>UB_Elderhood_OldBlacksmith</defName>
 		<title>Old blacksmith</title>
 		<titleFemale>Old blacksmith</titleFemale>
@@ -343,7 +343,7 @@
 		
 		</possessions>
 	</BackstoryDef>
-	<BackstoryDef>
+	<BackstoryDef ParentName="ElderhoodBackstory">
 		<defName>UB_Elderhood_Homeless</defName>
 		<title>Homeless</title>
 		<titleFemale>Homeless</titleFemale>
@@ -371,7 +371,7 @@
 		
 		</requiredWorkTags>
 	</BackstoryDef>
-	<BackstoryDef>
+	<BackstoryDef ParentName="ElderhoodBackstory">
 		<defName>UB_Elderhood_OldAlcoholic</defName>
 		<title>Old alcoholic</title>
 		<titleFemale>Old alcoholic</titleFemale>
@@ -397,7 +397,7 @@
 		
 		</possessions>
 	</BackstoryDef>
-	<BackstoryDef>
+	<BackstoryDef ParentName="ElderhoodBackstory">
 		<defName>UB_Elderhood_AbandonedOldMan</defName>
 		<title>Abandoned old man</title>
 		<titleFemale>Abandoned old woman</titleFemale>
@@ -419,7 +419,7 @@
 		
 		</skillGains>
 	</BackstoryDef>
-	<BackstoryDef>
+	<BackstoryDef ParentName="ElderhoodBackstory">
 		<defName>UB_Elderhood_QuietGardener</defName>
 		<title>Quiet gardener</title>
 		<titleFemale>Quiet gardener</titleFemale>
@@ -446,7 +446,7 @@
 		
 		</requiredWorkTags>
 	</BackstoryDef>
-	<BackstoryDef>
+	<BackstoryDef ParentName="ElderhoodBackstory">
 		<defName>UB_Elderhood_RetiredInvestigator</defName>
 		<title>Retired investigator</title>
 		<titleFemale>Retired investigator</titleFemale>
@@ -474,7 +474,7 @@
 		
 		</requiredWorkTags>
 	</BackstoryDef>
-	<BackstoryDef>
+	<BackstoryDef ParentName="ElderhoodBackstory">
 		<defName>UB_Elderhood_FormerLeader</defName>
 		<title>Former leader</title>
 		<titleFemale>Former leader</titleFemale>
@@ -501,7 +501,7 @@
 		
 		</requiredWorkTags>
 	</BackstoryDef>
-	<BackstoryDef>
+	<BackstoryDef ParentName="ElderhoodBackstory">
 		<defName>UB_Elderhood_UnnecessaryResearcher</defName>
 		<title>Unnecessary researcher</title>
 		<titleFemale>Unnecessary researcher</titleFemale>
@@ -528,7 +528,7 @@
 		
 		</requiredWorkTags>
 	</BackstoryDef>
-	<BackstoryDef>
+	<BackstoryDef ParentName="ElderhoodBackstory">
 		<defName>UB_Elderhood_OldAlchemist</defName>
 		<title>Old alchemist</title>
 		<titleFemale>Old alchemist</titleFemale>
@@ -555,7 +555,7 @@
 		
 		</requiredWorkTags>
 	</BackstoryDef>
-	<BackstoryDef>
+	<BackstoryDef ParentName="ElderhoodBackstory">
 		<defName>UB_Elderhood_ElderlyModder</defName>
 		<title>Elderly modder</title>
 		<titleFemale>Elderly modder</titleFemale>
@@ -581,7 +581,7 @@
 		
 		</requiredWorkTags>
 	</BackstoryDef>
-	<BackstoryDef>
+	<BackstoryDef ParentName="ElderhoodBackstory">
 		<defName>UB_Elderhood_KindTeacher</defName>
 		<title>Kind teacher</title>
 		<titleFemale>Kind teacher</titleFemale>
@@ -613,7 +613,7 @@
 		
 		</forcedTraits>
 	</BackstoryDef>
-	<BackstoryDef>
+	<BackstoryDef ParentName="ElderhoodBackstory">
 		<defName>UB_Elderhood_WeakSurgeon</defName>
 		<title>Weak surgeon</title>
 		<titleFemale>Weak surgeon</titleFemale>
@@ -638,7 +638,7 @@
 		
 		</requiredWorkTags>
 	</BackstoryDef>
-	<BackstoryDef>
+	<BackstoryDef ParentName="ElderhoodBackstory">
 		<defName>UB_Elderhood_RanchOwner</defName>
 		<title>Ranch owner</title>
 		<titleFemale>Ranch owner</titleFemale>
@@ -663,7 +663,7 @@
 		
 		</requiredWorkTags>
 	</BackstoryDef>
-	<BackstoryDef>
+	<BackstoryDef ParentName="ElderhoodBackstory">
 		<defName>UB_Elderhood_TiredMerchant</defName>
 		<title>Tired merchant</title>
 		<titleFemale>Tired merchant</titleFemale>
@@ -688,7 +688,7 @@
 		
 		</requiredWorkTags>
 	</BackstoryDef>
-	<BackstoryDef>
+	<BackstoryDef ParentName="ElderhoodBackstory">
 		<defName>UB_Elderhood_FormerForeman</defName>
 		<title>Former foreman</title>
 		<titleFemale>Former foreman</titleFemale>
@@ -714,7 +714,7 @@
 		
 		</requiredWorkTags>
 	</BackstoryDef>
-	<BackstoryDef>
+	<BackstoryDef ParentName="ElderhoodBackstory">
 		<defName>UB_Elderhood_FadedMusicStar</defName>
 		<title>Faded music star</title>
 		<titleFemale>Faded music star</titleFemale>
@@ -740,7 +740,7 @@
 		
 		</requiredWorkTags>
 	</BackstoryDef>
-	<BackstoryDef>
+	<BackstoryDef ParentName="ElderhoodBackstory">
 		<defName>UB_Elderhood_Handyman</defName>
 		<title>Handyman</title>
 		<titleFemale>Handyman</titleFemale>
@@ -767,7 +767,7 @@
 		
 		</requiredWorkTags>
 	</BackstoryDef>
-	<BackstoryDef>
+	<BackstoryDef ParentName="ElderhoodBackstory">
 		<defName>UB_Elderhood_BakeryPastryChef</defName>
 		<title>Bakery pastry chef</title>
 		<titleFemale>Bakery pastry chef</titleFemale>
@@ -792,7 +792,7 @@
 		
 		</requiredWorkTags>
 	</BackstoryDef>
-	<BackstoryDef>
+	<BackstoryDef ParentName="ElderhoodBackstory">
 		<defName>UB_Elderhood_OldCook</defName>
 		<title>Old cook</title>
 		<titleFemale>Old cook</titleFemale>
@@ -817,7 +817,7 @@
 		
 		</requiredWorkTags>
 	</BackstoryDef>
-	<BackstoryDef>
+	<BackstoryDef ParentName="ElderhoodBackstory">
 		<defName>UB_Elderhood_MuseumCurator</defName>
 		<title>Museum curator</title>
 		<titleFemale>Museum curator</titleFemale>
@@ -843,7 +843,7 @@
 		
 		</requiredWorkTags>
 	</BackstoryDef>
-	<BackstoryDef>
+	<BackstoryDef ParentName="ElderhoodBackstory">
 		<defName>UB_Elderhood_ElderlyBotanist</defName>
 		<title>Elderly botanist</title>
 		<titleFemale>Elderly botanist</titleFemale>
@@ -869,7 +869,7 @@
 		
 		</requiredWorkTags>
 	</BackstoryDef>
-	<BackstoryDef>
+	<BackstoryDef ParentName="ElderhoodBackstory">
 		<defName>UB_Elderhood_Librarian</defName>
 		<title>Librarian</title>
 		<titleFemale>Librarian</titleFemale>
@@ -895,7 +895,7 @@
 		
 		</requiredWorkTags>
 	</BackstoryDef>
-	<BackstoryDef>
+	<BackstoryDef ParentName="ElderhoodBackstory">
 		<defName>UB_Elderhood_FormerDancer</defName>
 		<title>Former dancer</title>
 		<titleFemale>Former dancer</titleFemale>
@@ -920,7 +920,7 @@
 		
 		</requiredWorkTags>
 	</BackstoryDef>
-	<BackstoryDef>
+	<BackstoryDef ParentName="ElderhoodBackstory">
 		<defName>UB_Elderhood_Watchmaker</defName>
 		<title>Watchmaker</title>
 		<titleFemale>Watchmaker</titleFemale>
@@ -945,7 +945,7 @@
 		
 		</requiredWorkTags>
 	</BackstoryDef>
-	<BackstoryDef>
+	<BackstoryDef ParentName="ElderhoodBackstory">
 		<defName>UB_Elderhood_ForgottenArtist</defName>
 		<title>Forgotten artist</title>
 		<titleFemale>Forgotten artist</titleFemale>
@@ -975,7 +975,7 @@
 		
 		</forcedTraits>
 	</BackstoryDef>
-	<BackstoryDef>
+	<BackstoryDef ParentName="ElderhoodBackstory">
 		<defName>UB_Elderhood_RepentantKiller</defName>
 		<title>Repentant killer</title>
 		<titleFemale>Repentant killer</titleFemale>
@@ -1000,7 +1000,7 @@
 		
 		</workDisables>
 	</BackstoryDef>
-	<BackstoryDef>
+	<BackstoryDef ParentName="ElderhoodBackstory">
 		<defName>UB_Elderhood_EternalJoker</defName>
 		<title>Eternal joker</title>
 		<titleFemale>Eternal joker</titleFemale>
@@ -1025,7 +1025,7 @@
 		
 		</requiredWorkTags>
 	</BackstoryDef>
-	<BackstoryDef>
+	<BackstoryDef ParentName="ElderhoodBackstory">
 		<defName>UB_Elderhood_TiredLabAssistant</defName>
 		<title>Tired lab assistant</title>
 		<titleFemale>Tired lab assistant</titleFemale>
@@ -1053,7 +1053,7 @@
 		
 		</requiredWorkTags>
 	</BackstoryDef>
-	<BackstoryDef>
+	<BackstoryDef ParentName="ElderhoodBackstory">
 		<defName>UB_Elderhood_Anchorman</defName>
 		<title>Anchorman</title>
 		<titleFemale>Anchorman</titleFemale>
@@ -1080,4 +1080,16 @@
 		
 		</requiredWorkTags>
 	</BackstoryDef>
+
+	<BackstoryDef ParentName="ElderhoodBackstory">
+		<!-- Only for CreepJoiners -->
+		<defName>Elderhood_Unknown</defName>
+		<title>unknown</title>
+		<titleShort>unknown</titleShort>
+		<description>[PAWN_nameDef]'s origins are unknown.</description>
+		<spawnCategories Inherit="false">
+			<li>SpecialElderhood</li>
+		</spawnCategories>
+	</BackstoryDef>
+
 </Defs>

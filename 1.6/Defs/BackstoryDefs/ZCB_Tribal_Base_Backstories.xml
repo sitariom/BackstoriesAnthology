@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 <!-- baseline backstory, nothing special -->
-	<ZCB.ZCBackstoryDef>
+	<ZCB.ZCBackstoryDef Name="ZCB_TribalChild">
 		<defName>UB_ZCB_TribalChild</defName>
 		<title>tribal child</title>
 		<titleShort>tribal</titleShort>

@@ -48,7 +48,7 @@
     <defName>UB_VBE_HumanFarm</defName>
     <titleShort>Meat</titleShort>
     <baseDesc>[PAWN_nameDef] was made only for one purpose, consumption. Grown out of a spindly set of hormone and development injectors connected to a solution-filled tube, many years of [PAWN_possessive] life was spent peering out into the lab, where butchers and scientists went on with their daily lives. During a freak accident which collapsed the farm, [PAWN_nameDef] escaped.
-This gave a basic understanding of human anatomy to [PAWN_nameDef], but scarred [PAWN_objective] for life. </baseDesc>
+This gave a basic understanding of human anatomy to [PAWN_nameDef], but scarred [PAWN_objective] for life.</baseDesc>
     <spawnCategories>
       <li>Pirate</li>
       <li>Offworld</li>
@@ -65,7 +65,7 @@ This gave a basic understanding of human anatomy to [PAWN_nameDef], but scarred 
     <title>Housecarl</title>
     <defName>UB_VBE_Housecarl</defName>
     <titleShort>Housecarl</titleShort>
-    <baseDesc>[PAWN_nameDef] was a housecarl to a powerful chieftain. [PAWN_pronoun] was trained in a variety of weapons, and was always armed both on and off the field of battle. After a conflict with a more powerful clan left [PAWN_possessive] chieftain and many clan members dead, [PAWN_pronoun] left to find a new house to lend [PAWN_possessive] blade, or simply do something new entirely. </baseDesc>
+    <baseDesc>[PAWN_nameDef] was a housecarl to a powerful chieftain. [PAWN_pronoun] was trained in a variety of weapons, and was always armed both on and off the field of battle. After a conflict with a more powerful clan left [PAWN_possessive] chieftain and many clan members dead, [PAWN_pronoun] left to find a new house to lend [PAWN_possessive] blade, or simply do something new entirely.</baseDesc>
     <spawnCategories>
       <li>MedievalRoyal</li>
     </spawnCategories><bodyTypeMale>Male</bodyTypeMale><bodyTypeFemale>Female</bodyTypeFemale>
@@ -113,7 +113,7 @@ This gave a basic understanding of human anatomy to [PAWN_nameDef], but scarred 
     <title>Industrial gunsmith </title>
     <defName>UB_VBE_IndustrialGunsmith</defName>
     <titleShort>Gunsmith</titleShort>
-    <baseDesc>[PAWN_nameDef] spent most of [PAWN_possessive] days meticulously working at [PAWN_possessive] machining table to create firearms. [PAWN_pronoun] spent several hours at the gun range to test out [PAWN_possessive] new designs. However, spending so much time working with firearms has left [PAWN_objective] rather deficient in close range combat.   </baseDesc>
+    <baseDesc>[PAWN_nameDef] spent most of [PAWN_possessive] days meticulously working at [PAWN_possessive] machining table to create firearms. [PAWN_pronoun] spent several hours at the gun range to test out [PAWN_possessive] new designs. However, spending so much time working with firearms has left [PAWN_objective] rather deficient in close range combat.</baseDesc>
     <spawnCategories>
       <li>Outlander</li>
     </spawnCategories><bodyTypeMale>Male</bodyTypeMale><bodyTypeFemale>Female</bodyTypeFemale>
@@ -127,7 +127,7 @@ This gave a basic understanding of human anatomy to [PAWN_nameDef], but scarred 
     <title>Slave trader</title>
     <defName>UB_VBE_SlaveTrader</defName>
     <titleShort>Slaver</titleShort>
-    <baseDesc>Realizing the profit bodies bring when warm instead of cold, [PAWN_nameDef] would insist [PAWN_possessive] clan take as many prisoners as possible during a raid, employing nets, bolas, and other items that could be thrown towards those fleeing. When the fighting was over, [PAWN_pronoun] would travel, peddling [PAWN_possessive] wares in various kingdoms. Always having thralls around has made [PAWN_nameDef] adverse to so-called "slave work," and generally less compassionate. </baseDesc>
+    <baseDesc>Realizing the profit bodies bring when warm instead of cold, [PAWN_nameDef] would insist [PAWN_possessive] clan take as many prisoners as possible during a raid, employing nets, bolas, and other items that could be thrown towards those fleeing. When the fighting was over, [PAWN_pronoun] would travel, peddling [PAWN_possessive] wares in various kingdoms. Always having thralls around has made [PAWN_nameDef] adverse to so-called "slave work," and generally less compassionate.</baseDesc>
     <spawnCategories>
       <li>MedievalCommon</li>
     </spawnCategories><bodyTypeMale>Male</bodyTypeMale><bodyTypeFemale>Female</bodyTypeFemale>
@@ -146,7 +146,7 @@ This gave a basic understanding of human anatomy to [PAWN_nameDef], but scarred 
     <title>Model citizen</title>
     <defName>UB_VBE_ModelCitizen</defName>
     <titleShort>Citizen</titleShort>
-    <baseDesc>[PAWN_nameDef] lived a criminal life, a very violent one, but was caught. Instead of being executed or sent to prison, [PAWN_pronoun] was sent to try an experimental psychological treatment that would make [PAWN_possessive] a good member of society again. While the nature and morality of the program was questionable, the results were definitive, [PAWN_pronoun] is now a model citizen. </baseDesc>
+    <baseDesc>[PAWN_nameDef] lived a criminal life, a very violent one, but was caught. Instead of being executed or sent to prison, [PAWN_pronoun] was sent to try an experimental psychological treatment that would make [PAWN_possessive] a good member of society again. While the nature and morality of the program was questionable, the results were definitive, [PAWN_pronoun] is now a model citizen.</baseDesc>
     <spawnCategories>
       <li>Outlander</li>
       <li>Offworld</li>
@@ -217,7 +217,7 @@ This gave a basic understanding of human anatomy to [PAWN_nameDef], but scarred 
     <title>Watchman</title>
     <defName>UB_VBE_Watchman</defName>
     <titleShort>Watchman</titleShort>
-    <baseDesc>Not the strongest fighter, [PAWN_nameDef] was placed on watchtower duty. Watching the comings and goings of those passing through the town's gate made for a very boring life, causing [PAWN_objective] to start cooking in [PAWN_possessive] wooden tower. One day [PAWN_pronoun] accidentally knocked over the cauldron, sending coals everywhere. The tower quickly caught ablaze and burned to ash. [PAWN_pronoun] survived, but was never the same around fire. </baseDesc>
+    <baseDesc>Not the strongest fighter, [PAWN_nameDef] was placed on watchtower duty. Watching the comings and goings of those passing through the town's gate made for a very boring life, causing [PAWN_objective] to start cooking in [PAWN_possessive] wooden tower. One day [PAWN_pronoun] accidentally knocked over the cauldron, sending coals everywhere. The tower quickly caught ablaze and burned to ash. [PAWN_pronoun] survived, but was never the same around fire.</baseDesc>
     <spawnCategories>
       <li>MedievalCommon</li>
     </spawnCategories><bodyTypeMale>Male</bodyTypeMale><bodyTypeFemale>Female</bodyTypeFemale>
@@ -625,7 +625,7 @@ This gave a basic understanding of human anatomy to [PAWN_nameDef], but scarred 
     <title>Forced primitivist</title>
     <defName>UB_VBE_ForcedPrimitivist</defName>
     <titleShort>Primitivist </titleShort>
-    <baseDesc>[PAWN_nameDef] wasn't always part of the tribes. After getting exiled from [PAWN_possessive] local outlander union due to ruining an entire crop harvest, [PAWN_nameDef] had to live out in the open for years, with only crude tools to aid [PAWN_objective]. This made [PAWN_objective] a jack-of-all-trades, but completely broke [PAWN_possessive] trust of people.  </baseDesc>
+    <baseDesc>[PAWN_nameDef] wasn't always part of the tribes. After getting exiled from [PAWN_possessive] local outlander union due to ruining an entire crop harvest, [PAWN_nameDef] had to live out in the open for years, with only crude tools to aid [PAWN_objective]. This made [PAWN_objective] a jack-of-all-trades, but completely broke [PAWN_possessive] trust of people.</baseDesc>
     <spawnCategories>
       <li>Tribal</li>
     </spawnCategories><bodyTypeMale>Male</bodyTypeMale><bodyTypeFemale>Female</bodyTypeFemale>
@@ -742,7 +742,7 @@ Stoner/Lush (VTE)
     <title>Information sponge</title>
     <defName>UB_VBE_InformationSponge</defName>
     <titleShort>Sponge</titleShort>
-    <baseDesc>[PAWN_nameDef] grew up with a thirst for knowledge, be it for science, history, or philosophy. Running off into the wilderness, [PAWN_pronoun] would spend as much time learning from nature and the ruins that [PAWN_pronoun] would find. When younger, many would listen to [PAWN_objective] just to see what [PAWN_pronoun] would say, but over time others stopped listening as [PAWN_possessive] knowledge grew in depth, leaving them behind. Over time, [PAWN_pronoun] became more reclusive, and mainly found solace in [PAWN_possessive] work. </baseDesc>
+    <baseDesc>[PAWN_nameDef] grew up with a thirst for knowledge, be it for science, history, or philosophy. Running off into the wilderness, [PAWN_pronoun] would spend as much time learning from nature and the ruins that [PAWN_pronoun] would find. When younger, many would listen to [PAWN_objective] just to see what [PAWN_pronoun] would say, but over time others stopped listening as [PAWN_possessive] knowledge grew in depth, leaving them behind. Over time, [PAWN_pronoun] became more reclusive, and mainly found solace in [PAWN_possessive] work.</baseDesc>
     <spawnCategories>
       <li>Outlander</li>
       <li>Offworld</li>
@@ -802,7 +802,7 @@ Stoner/Lush (VTE)
     <title>Silo manager</title>
     <defName>UB_VBE_SiloManager</defName>
     <titleShort>Manager</titleShort>
-    <baseDesc>Urbworlds are filled with massive resource silos, half a kilometer high and several kilometers across, with thousands of barely-paid workers carrying materials like little ants across the vast complex. [PAWN_nameDef] worked as a manager to one of the silos, and didn't even have to stand up from [PAWN_possessive] desk. </baseDesc>
+    <baseDesc>Urbworlds are filled with massive resource silos, half a kilometer high and several kilometers across, with thousands of barely-paid workers carrying materials like little ants across the vast complex. [PAWN_nameDef] worked as a manager to one of the silos, and didn't even have to stand up from [PAWN_possessive] desk.</baseDesc>
     <spawnCategories>
       <li>Offworld</li>
     </spawnCategories><bodyTypeMale>Male</bodyTypeMale><bodyTypeFemale>Female</bodyTypeFemale>
@@ -819,7 +819,7 @@ Stoner/Lush (VTE)
     <title>Pushover</title>
     <defName>UB_VBE_Pushover</defName>
     <titleShort>Pushover</titleShort>
-    <baseDesc>[PAWN_nameDef] was a pushover and a severe social outcast. Being constantly bullied, [PAWN_pronoun] gained a distaste towards other people. All the nights being forced to do other people's homework made for great test results, though. </baseDesc>
+    <baseDesc>[PAWN_nameDef] was a pushover and a severe social outcast. Being constantly bullied, [PAWN_pronoun] gained a distaste towards other people. All the nights being forced to do other people's homework made for great test results, though.</baseDesc>
     <spawnCategories>
       <li>Offworld</li>
       <li>ImperialCommon</li>
@@ -840,7 +840,7 @@ Stoner/Lush (VTE)
     <title>Commenter</title>
     <defName>UB_VBE_Commenter</defName>
     <titleShort>Commenter</titleShort>
-    <baseDesc>[PAWN_nameDef] did absolutely nothing with [PAWN_possessive] life other than shamelessly mock more successful people's work. Through internet forums, [PAWN_pronoun] found more of [PAWN_possessive] kind, and collectively bickered, contributing absolutely nothing to glitterworld society. [PAWN_nameDef] knew quite well how to use a thesaurus, though. </baseDesc>
+    <baseDesc>[PAWN_nameDef] did absolutely nothing with [PAWN_possessive] life other than shamelessly mock more successful people's work. Through internet forums, [PAWN_pronoun] found more of [PAWN_possessive] kind, and collectively bickered, contributing absolutely nothing to glitterworld society. [PAWN_nameDef] knew quite well how to use a thesaurus, though.</baseDesc>
     <spawnCategories>
       <li>Offworld</li>
     </spawnCategories><bodyTypeMale>Male</bodyTypeMale><bodyTypeFemale>Female</bodyTypeFemale>
@@ -1320,8 +1320,7 @@ Other forced trait: Jogger 50%-->
       <li>Pirate</li>
       <li>Offworld</li>
       <li>ImperialCommon</li>
-      <li></li>
-    </spawnCategories><bodyTypeMale>Male</bodyTypeMale><bodyTypeFemale>Female</bodyTypeFemale>
+      </spawnCategories><bodyTypeMale>Male</bodyTypeMale><bodyTypeFemale>Female</bodyTypeFemale>
     <skillGains>
       <Animals>4</Animals>
       <Medicine>2</Medicine>
@@ -1344,9 +1343,7 @@ Other forced trait: Jogger 50%-->
       <Social>-2</Social>
       <Intellectual>3</Intellectual>
     </skillGains>
-    <workDisables>
-      <li></li>
-    </workDisables>
+    
     <forcedTraits>
       <Industriousness>-1</Industriousness>
     </forcedTraits>
@@ -1419,9 +1416,7 @@ Other forced trait: Jogger 50%-->
       <Cooking>-2</Cooking>
       <Social>2</Social>
     </skillGains>
-    <workDisables>
-      <li></li>
-    </workDisables>
+    
     <disallowedTraits>
       <Nerves>-1</Nerves>
     </disallowedTraits>
@@ -1477,9 +1472,7 @@ Other forced trait: Jogger 50%-->
       <Melee>-1</Melee>
       <Social>3</Social>
     </skillGains>
-    <workDisables>
-      <li></li>
-    </workDisables>
+    
     <disallowedTraits>
       <Kind />
     </disallowedTraits>
@@ -1528,9 +1521,7 @@ Other forced trait: Jogger 50%-->
       <Artistic>5</Artistic>
       <Social>-3</Social>
     </skillGains>
-    <workDisables>
-      <li></li>
-    </workDisables>
+    
   </BackstoryDef>
   <BackstoryDef>
     <slot>Adulthood</slot>
@@ -1551,9 +1542,7 @@ Other forced trait: Jogger 50%-->
       <Medicine>2</Medicine>
       <Social>1</Social>
     </skillGains>
-    <workDisables>
-      <li></li>
-    </workDisables>
+    
   </BackstoryDef>
   <BackstoryDef>
     <slot>Adulthood</slot>
@@ -1568,9 +1557,7 @@ Other forced trait: Jogger 50%-->
       <Artistic>1</Artistic>
       <Social>1</Social>
     </skillGains>
-    <workDisables>
-      <li></li>
-    </workDisables>
+    
   </BackstoryDef>
   <BackstoryDef>
     <slot>Adulthood</slot>
@@ -1589,9 +1576,7 @@ Other forced trait: Jogger 50%-->
       <Medicine>2</Medicine>
       <Social>3</Social>
     </skillGains>
-    <workDisables>
-      <li></li>
-    </workDisables>
+    
     <disallowedTraits>
       <Brawler />
     </disallowedTraits>
@@ -1609,9 +1594,7 @@ Other forced trait: Jogger 50%-->
       <Crafting>1</Crafting>
       <Intellectual>5</Intellectual>
     </skillGains>
-    <workDisables>
-      <li></li>
-    </workDisables>
+    
   </BackstoryDef>
   <BackstoryDef>
     <slot>Adulthood</slot>
@@ -1627,9 +1610,7 @@ Other forced trait: Jogger 50%-->
       <Social>1</Social>
       <Intellectual>1</Intellectual>
     </skillGains>
-    <workDisables>
-      <li></li>
-    </workDisables>
+    
   </BackstoryDef>
   <BackstoryDef>
     <slot>Childhood</slot>
@@ -1649,9 +1630,7 @@ Other forced trait: Jogger 50%-->
       <Social>1</Social>
       <Intellectual>1</Intellectual>
     </skillGains>
-    <workDisables>
-      <li></li>
-    </workDisables>
+    
     <disallowedTraits>
       <Industriousness>1</Industriousness>
     </disallowedTraits>
@@ -1677,9 +1656,7 @@ As a hobby, [PAWN_nameDef] began collecting helmets stolen from military police.
       <Social>-4</Social>
       <Intellectual>-1</Intellectual>
     </skillGains>
-    <workDisables>
-      <li></li>
-    </workDisables>
+    
     <!--Reference to Ezra Bridger from Star Wars: Rebels-->
   </BackstoryDef>
   <BackstoryDef>
@@ -1719,9 +1696,7 @@ As a hobby, [PAWN_nameDef] began collecting helmets stolen from military police.
       <li>Offworld</li>
     </spawnCategories><bodyTypeMale>Male</bodyTypeMale><bodyTypeFemale>Female</bodyTypeFemale>
     <skillGains/>
-    <workDisables>
-      <li></li>
-    </workDisables>
+    
     <forcedTraits>
       <QuickSleeper />
     </forcedTraits>
@@ -1731,7 +1706,7 @@ As a hobby, [PAWN_nameDef] began collecting helmets stolen from military police.
     <title>Extranet troll</title>
     <defName>UB_VBE_ExtranetTroll</defName>
     <titleShort>Troll</titleShort>
-    <baseDesc>[PAWN_nameDef] spent [PAWN_possessive] days spreading disinformation across the extranet at the behest of [PAWN_possessive] employers. Eventually, [PAWN_pronoun] outlived [PAWN_possessive] usefulness and was fired, and with no marketable skills, [PAWN_pronoun] had to work miserable, dead-end jobs just to feed [PAWN_objective]self. </baseDesc>
+    <baseDesc>[PAWN_nameDef] spent [PAWN_possessive] days spreading disinformation across the extranet at the behest of [PAWN_possessive] employers. Eventually, [PAWN_pronoun] outlived [PAWN_possessive] usefulness and was fired, and with no marketable skills, [PAWN_pronoun] had to work miserable, dead-end jobs just to feed [PAWN_objective]self.</baseDesc>
     <spawnCategories>
       <li>Offworld</li>
       <li>Outsider</li>
@@ -1765,9 +1740,7 @@ As a hobby, [PAWN_nameDef] began collecting helmets stolen from military police.
       <Construction>2</Construction>
       <Medicine>2</Medicine>
     </skillGains>
-    <workDisables>
-      <li></li>
-    </workDisables>
+    
   </BackstoryDef>
   <BackstoryDef>
     <slot>Adulthood</slot>
@@ -1794,9 +1767,7 @@ As a hobby, [PAWN_nameDef] began collecting helmets stolen from military police.
       <Social>-1</Social>
       <Intellectual>-1</Intellectual>
     </skillGains>
-    <workDisables>
-      <li></li>
-    </workDisables>
+    
     <forcedTraits>
       <SlowLearner />
     </forcedTraits>
@@ -1881,9 +1852,7 @@ As a hobby, [PAWN_nameDef] began collecting helmets stolen from military police.
       <Plants>3</Plants>
       <Animals>3</Animals>
     </skillGains>
-    <workDisables>
-      <li></li>
-    </workDisables>
+    
   </BackstoryDef>
   <BackstoryDef>
     <slot>Adulthood</slot>
@@ -1900,9 +1869,7 @@ As a hobby, [PAWN_nameDef] began collecting helmets stolen from military police.
       <Social>-4</Social>
       <Intellectual>3</Intellectual>
     </skillGains>
-    <workDisables>
-      <li></li>
-    </workDisables>
+    
     <forcedTraits>
       <Immunity>-1</Immunity>
     </forcedTraits>
@@ -1926,9 +1893,7 @@ As a hobby, [PAWN_nameDef] began collecting helmets stolen from military police.
       <Melee>4</Melee>
       <Intellectual>2</Intellectual>
     </skillGains>
-    <workDisables>
-      <li></li>
-    </workDisables>
+    
   </BackstoryDef>
   <BackstoryDef>
     <slot>Adulthood</slot>
@@ -1946,9 +1911,7 @@ As a hobby, [PAWN_nameDef] began collecting helmets stolen from military police.
       <Animals>4</Animals>
       <Crafting>2</Crafting>
     </skillGains>
-    <workDisables>
-      <li></li>
-    </workDisables>
+    
   </BackstoryDef>
   <BackstoryDef>
     <slot>Adulthood</slot>
@@ -1964,9 +1927,7 @@ As a hobby, [PAWN_nameDef] began collecting helmets stolen from military police.
     <skillGains>
       <Crafting>4</Crafting>
     </skillGains>
-    <workDisables>
-      <li></li>
-    </workDisables>
+    
   </BackstoryDef>
   <BackstoryDef>
     <slot>Adulthood</slot>
@@ -1983,9 +1944,7 @@ As a hobby, [PAWN_nameDef] began collecting helmets stolen from military police.
       <Mining>3</Mining>
       <Crafting>3</Crafting>
     </skillGains>
-    <workDisables>
-      <li></li>
-    </workDisables>
+    
     <forcedTraits>
       <Kind />
     </forcedTraits>
@@ -2008,9 +1967,7 @@ When the heir turned out to be alive after all, [PAWN_nameDef] was discarded to 
       <Melee>4</Melee>
       <Social>2</Social>
     </skillGains>
-    <workDisables>
-      <li></li>
-    </workDisables>
+    
     <forcedTraits>
       <Brawler />
     </forcedTraits>
@@ -2035,9 +1992,7 @@ To [PAWN_possessive] benefactors, [PAWN_pronoun] was an expensive investment.</b
       <Social>-3</Social>
       <Intellectual>2</Intellectual>
     </skillGains>
-    <workDisables>
-      <li></li>
-    </workDisables>
+    
     <forcedTraits>
       <FastLearner />
     </forcedTraits>
@@ -2070,7 +2025,7 @@ To [PAWN_possessive] benefactors, [PAWN_pronoun] was an expensive investment.</b
     <title>Imperial circus performer</title>
     <defName>UB_VBE_ImperialCircusPerformer</defName>
     <titleShort>Clown</titleShort>
-    <baseDesc>Though [PAWN_pronoun] is known by [PAWN_possessive] friends as [PAWN_nameDef], throughout the systems [PAWN_pronoun] is known as [PAWN_nameDef] the Amazing. [PAWN_nameDef] has performed theatrics and acrobatic stunts and for the Imperial nobles. [PAWN_pronoun] will often brag about [PAWN_possessive] group of followers that attend [PAWN_possessive] every show. Though, no one really knows how many of [PAWN_possessive] stories are just made up. </baseDesc>
+    <baseDesc>Though [PAWN_pronoun] is known by [PAWN_possessive] friends as [PAWN_nameDef], throughout the systems [PAWN_pronoun] is known as [PAWN_nameDef] the Amazing. [PAWN_nameDef] has performed theatrics and acrobatic stunts and for the Imperial nobles. [PAWN_pronoun] will often brag about [PAWN_possessive] group of followers that attend [PAWN_possessive] every show. Though, no one really knows how many of [PAWN_possessive] stories are just made up.</baseDesc>
     <spawnCategories>
       <li>ImperialCommon</li>
     </spawnCategories><bodyTypeMale>Male</bodyTypeMale><bodyTypeFemale>Female</bodyTypeFemale>
@@ -2079,9 +2034,7 @@ To [PAWN_possessive] benefactors, [PAWN_pronoun] was an expensive investment.</b
       <Animals>2</Animals>
       <Social>2</Social>
     </skillGains>
-    <workDisables>
-      <li></li>
-    </workDisables>
+    
     <forcedTraits>
       <Nimble />
     </forcedTraits>
@@ -2112,7 +2065,7 @@ To [PAWN_possessive] benefactors, [PAWN_pronoun] was an expensive investment.</b
     <title>Deep space scrapper</title>
     <defName>UB_VBE_DeepSpaceScrapper</defName>
     <titleShort>Scrapper</titleShort>
-    <baseDesc>Due to the amount of recent interstellar battles, there are a lot of derelict ships floating in space. It's [PAWN_nameDef]'s job to find these ships and salvage them. [PAWN_nameDef] scraps ships, both in orbit and planetside wrecks, and sells the material and parts. Since the ownership of these ships can come into question, [PAWN_nameDef] sometimes finds [PAWN_objective]self on the wrong side of the law.   </baseDesc>
+    <baseDesc>Due to the amount of recent interstellar battles, there are a lot of derelict ships floating in space. It's [PAWN_nameDef]'s job to find these ships and salvage them. [PAWN_nameDef] scraps ships, both in orbit and planetside wrecks, and sells the material and parts. Since the ownership of these ships can come into question, [PAWN_nameDef] sometimes finds [PAWN_objective]self on the wrong side of the law.</baseDesc>
     <spawnCategories>
       <li>Outlander</li>
       <li>Pirate</li>
@@ -2124,9 +2077,7 @@ To [PAWN_possessive] benefactors, [PAWN_pronoun] was an expensive investment.</b
       <Mining>1</Mining>
       <Plants>-2</Plants>
     </skillGains>
-    <workDisables>
-      <li></li>
-    </workDisables>
+    
     <disallowedTraits>
       <Undergrounder />
     </disallowedTraits>
@@ -2147,9 +2098,7 @@ To [PAWN_possessive] benefactors, [PAWN_pronoun] was an expensive investment.</b
       <Animals>2</Animals>
       <Social>-1</Social>
     </skillGains>
-    <workDisables>
-      <li></li>
-    </workDisables>
+    
   </BackstoryDef>
   <BackstoryDef>
     <slot>Adulthood</slot>
@@ -2165,9 +2114,7 @@ To [PAWN_possessive] benefactors, [PAWN_pronoun] was an expensive investment.</b
       <Cooking>2</Cooking>
       <Plants>2</Plants>
     </skillGains>
-    <workDisables>
-      <li></li>
-    </workDisables>
+    
   </BackstoryDef>
   <BackstoryDef>
     <slot>Adulthood</slot>
@@ -2182,9 +2129,7 @@ To [PAWN_possessive] benefactors, [PAWN_pronoun] was an expensive investment.</b
       <Artistic>5</Artistic>
       <Social>1</Social>
     </skillGains>
-    <workDisables>
-      <li></li>
-    </workDisables>
+    
     <disallowedTraits>
       <Psychopath />
     </disallowedTraits>
@@ -2206,9 +2151,7 @@ To [PAWN_possessive] benefactors, [PAWN_pronoun] was an expensive investment.</b
       <Mining>3</Mining>
       <Social>3</Social>
     </skillGains>
-    <workDisables>
-      <li></li>
-    </workDisables>
+    
     <disallowedTraits>
       <Abrasive />
     </disallowedTraits>
@@ -2252,9 +2195,7 @@ To [PAWN_possessive] benefactors, [PAWN_pronoun] was an expensive investment.</b
       <Cooking>1</Cooking>
       <Social>4</Social>
     </skillGains>
-    <workDisables>
-      <li></li>
-    </workDisables>
+    
     <disallowedTraits>
       <Abrasive />
     </disallowedTraits>
@@ -2275,9 +2216,7 @@ To [PAWN_possessive] benefactors, [PAWN_pronoun] was an expensive investment.</b
       <Medicine>1</Medicine>
       <Social>-1</Social>
     </skillGains>
-    <workDisables>
-      <li></li>
-    </workDisables>
+    
     <disallowedTraits>
       <Wimp />
     </disallowedTraits>
@@ -2296,9 +2235,7 @@ To [PAWN_possessive] benefactors, [PAWN_pronoun] was an expensive investment.</b
     <skillGains>
       <Plants>4</Plants>
     </skillGains>
-    <workDisables>
-      <li></li>
-    </workDisables>
+    
     <disallowedTraits>
       <NaturalMood>2</NaturalMood>
     </disallowedTraits>
@@ -2338,9 +2275,7 @@ To [PAWN_possessive] benefactors, [PAWN_pronoun] was an expensive investment.</b
     <skillGains>
       <Plants>3</Plants>
     </skillGains>
-    <workDisables>
-      <li></li>
-    </workDisables>
+    
     <disallowedTraits>
       <PsychicSensitivity>-2</PsychicSensitivity>
     </disallowedTraits>
@@ -2364,9 +2299,7 @@ To [PAWN_possessive] benefactors, [PAWN_pronoun] was an expensive investment.</b
       <Construction>1</Construction>
       <Crafting>4</Crafting>
     </skillGains>
-    <workDisables>
-      <li></li>
-    </workDisables>
+    
     <forcedTraits>
       <Psychopath />
     </forcedTraits>
@@ -2389,9 +2322,7 @@ To [PAWN_possessive] benefactors, [PAWN_pronoun] was an expensive investment.</b
       <Animals>-1</Animals>
       <Medicine>-1</Medicine>
     </skillGains>
-    <workDisables>
-      <li></li>
-    </workDisables>
+    
   </BackstoryDef>
   <BackstoryDef>
     <slot>Childhood</slot>
@@ -2407,9 +2338,7 @@ To [PAWN_possessive] benefactors, [PAWN_pronoun] was an expensive investment.</b
       <Crafting>3</Crafting>
       <Social>1</Social>
     </skillGains>
-    <workDisables>
-      <li></li>
-    </workDisables>
+    
     <disallowedTraits>
       <Abrasive />
     </disallowedTraits>
@@ -2434,9 +2363,7 @@ To [PAWN_possessive] benefactors, [PAWN_pronoun] was an expensive investment.</b
       <Mining>3</Mining>
       <Crafting>1</Crafting>
     </skillGains>
-    <workDisables>
-      <li></li>
-    </workDisables>
+    
   </BackstoryDef>
   <BackstoryDef>
     <slot>Adulthood</slot>
@@ -2457,9 +2384,7 @@ To [PAWN_possessive] benefactors, [PAWN_pronoun] was an expensive investment.</b
       <Crafting>4</Crafting>
       <Artistic>2</Artistic>
     </skillGains>
-    <workDisables>
-      <li></li>
-    </workDisables>
+    
   </BackstoryDef>
   <BackstoryDef>
     <slot>Adulthood</slot>
@@ -2510,9 +2435,7 @@ To [PAWN_possessive] benefactors, [PAWN_pronoun] was an expensive investment.</b
       <Crafting>2</Crafting>
       <Intellectual>-4</Intellectual>
     </skillGains>
-    <workDisables>
-      <li></li>
-    </workDisables>
+    
     <disallowedTraits>
       <Industriousness>-1</Industriousness>
     </disallowedTraits>
@@ -2568,9 +2491,7 @@ To [PAWN_possessive] benefactors, [PAWN_pronoun] was an expensive investment.</b
       <Construction>1</Construction>
       <Crafting>2</Crafting>
     </skillGains>
-    <workDisables>
-      <li></li>
-    </workDisables>
+    
   </BackstoryDef>
   <BackstoryDef>
     <slot>Childhood</slot>
@@ -2585,9 +2506,7 @@ To [PAWN_possessive] benefactors, [PAWN_pronoun] was an expensive investment.</b
     <skillGains>
       <Social>1</Social>
     </skillGains>
-    <workDisables>
-      <li></li>
-    </workDisables>
+    
     <forcedTraits>
       <NaturalMood>2</NaturalMood>
     </forcedTraits>
@@ -2650,9 +2569,7 @@ To [PAWN_possessive] benefactors, [PAWN_pronoun] was an expensive investment.</b
       <Mining>2</Mining>
       <Animals>2</Animals>
     </skillGains>
-    <workDisables>
-      <li></li>
-    </workDisables>
+    
     <forcedTraits>
       <Brawler />
     </forcedTraits>
@@ -2815,9 +2732,7 @@ To [PAWN_possessive] benefactors, [PAWN_pronoun] was an expensive investment.</b
       <Shooting>3</Shooting>
       <Social>3</Social>
     </skillGains>
-    <workDisables>
-      <li></li>
-    </workDisables>
+    
     <forcedTraits>
       <Psychopath />
     </forcedTraits>
@@ -2872,9 +2787,7 @@ To [PAWN_possessive] benefactors, [PAWN_pronoun] was an expensive investment.</b
       <Cooking>3</Cooking>
       <Plants>1</Plants>
     </skillGains>
-    <workDisables>
-      <li></li>
-    </workDisables>
+    
     <forcedTraits>
       <Gourmand />
     </forcedTraits>
@@ -2945,9 +2858,7 @@ To [PAWN_possessive] benefactors, [PAWN_pronoun] was an expensive investment.</b
       <Cooking>4</Cooking>
       <Animals>4</Animals>
     </skillGains>
-    <workDisables>
-      <li></li>
-    </workDisables>
+    
     <disallowedTraits>
       <DrugDesire>-1</DrugDesire>
     </disallowedTraits>
@@ -3191,9 +3102,7 @@ To [PAWN_possessive] benefactors, [PAWN_pronoun] was an expensive investment.</b
       <Plants>3</Plants>
       <Social>-2</Social>
     </skillGains>
-    <workDisables>
-      <li></li>
-    </workDisables>
+    
     <disallowedTraits>
       <Immunity>-1</Immunity>
     </disallowedTraits>

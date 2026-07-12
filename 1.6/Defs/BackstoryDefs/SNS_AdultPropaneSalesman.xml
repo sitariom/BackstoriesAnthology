@@ -5,7 +5,7 @@
     <title>Chempane salesman</title>
     <titleShort>Chempane Salesman</titleShort>
     <slot>Adulthood</slot> <!--Adult or Child-->
-    <baseDesc>[PAWN_nameDef] worked at a Chempane and grill business, proudly wearing the name of 'Krickland Chempane' as a badge of honor. [PAWN_nameDef] was the top salesperson and carried the entire business on their shoulders with their quick wit and silver tongue. [PAWN_nameDef]'s famous catchphrase; "Don't get neck pain, use Chempane" won [PAWN_objective] the Chempane salesman of the year award for 3 years. </baseDesc> <!--Use Namedefs for name and pronouns-->
+    <baseDesc>[PAWN_nameDef] worked at a Chempane and grill business, proudly wearing the name of 'Krickland Chempane' as a badge of honor. [PAWN_nameDef] was the top salesperson and carried the entire business on their shoulders with their quick wit and silver tongue. [PAWN_nameDef]'s famous catchphrase; "Don't get neck pain, use Chempane" won [PAWN_objective] the Chempane salesman of the year award for 3 years.</baseDesc> <!--Use Namedefs for name and pronouns-->
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale> <!-- Use Bodydefs for body types-->
     <spawnCategories>

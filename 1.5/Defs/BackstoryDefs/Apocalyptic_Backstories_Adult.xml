@@ -8,7 +8,7 @@
 		<slot>Adulthood</slot>
 		<title>Wasteland Nomad</title>
 		<titleShort>Nomad</titleShort>
-		<description>[PAWN_nameDef] used to believe that standing in one place was wrong. [PAWN_pronoun] traveled around, finding kibble for [PAWN_possessive] animals until they got infected with scaria and attacked [PAWN_objective]. </description>
+		<description>[PAWN_nameDef] used to believe that standing in one place was wrong. [PAWN_pronoun] traveled around, finding kibble for [PAWN_possessive] animals until they got infected with scaria and attacked [PAWN_objective].</description>
 		<skillGains>
 			<Animals>6</Animals>
 			<Plants>3</Plants>
@@ -31,7 +31,7 @@
 		<slot>Adulthood</slot>
 		<title>Wasteland Drifter</title>
 		<titleShort>Drifter</titleShort>
-		<description>[PAWN_nameDef] was a member of a pirate gang and used to ride vehicles to the raids before [PAWN_possessive] crew got struck by an anomaly and [PAWN_possessive] vehicle exploded, leaving nothing but scrap. [PAWN_pronoun] still yearns for some driving. </description>
+		<description>[PAWN_nameDef] was a member of a pirate gang and used to ride vehicles to the raids before [PAWN_possessive] crew got struck by an anomaly and [PAWN_possessive] vehicle exploded, leaving nothing but scrap. [PAWN_pronoun] still yearns for some driving.</description>
 		<skillGains>
 			<Shooting>3</Shooting>
 			<Crafting>2</Crafting>
@@ -53,7 +53,7 @@
 		<slot>Adulthood</slot>
 		<title>The Chosen One</title>
 		<titleShort>Metromule</titleShort>
-		<description>[PAWN_nameDef] lived inside an underground colony not so long ago, before it was raided by insectoids and fleshbeasts. Now [PAWN_pronoun] looks forward to getting revenge on those creatures who emerged from the underground. </description>
+		<description>[PAWN_nameDef] lived inside an underground colony not so long ago, before it was raided by insectoids and fleshbeasts. Now [PAWN_pronoun] looks forward to getting revenge on those creatures who emerged from the underground.</description>
 		<skillGains>
 			<Shooting>4</Shooting>
 			<Melee>4</Melee>
@@ -75,7 +75,7 @@
 		<slot>Adulthood</slot>
 		<title>Bunker Scavenger</title>
 		<titleShort>Scavenger</titleShort>
-		<description>[PAWN_nameDef] used to scavenge old, abandoned bunkers after the apocalypse. [PAWN_pronoun] went crazy silent after [PAWN_pronoun] saw what was left from [PAWN_possessive] ancestors. </description>
+		<description>[PAWN_nameDef] used to scavenge old, abandoned bunkers after the apocalypse. [PAWN_pronoun] went crazy silent after [PAWN_pronoun] saw what was left from [PAWN_possessive] ancestors.</description>
 		<skillGains>
 			<Crafting>6</Crafting>
 			<Intellectual>3</Intellectual>
@@ -176,7 +176,7 @@
 		<slot>Adulthood</slot>
 		<title>Wasteland Forager</title>
 		<titleShort>Forager</titleShort>
-		<description>[PAWN_nameDef] used to gather berries and other useful stuff from the local forest before [PAWN_possessive] colony died from food poisoning. [PAWN_pronoun] was tough enough to survive that. </description>
+		<description>[PAWN_nameDef] used to gather berries and other useful stuff from the local forest before [PAWN_possessive] colony died from food poisoning. [PAWN_pronoun] was tough enough to survive that.</description>
 		<skillGains>
 			<Plants>7</Plants>
 			<Cooking>2</Cooking>
@@ -198,7 +198,7 @@
 		<slot>Adulthood</slot>
 		<title>Wasteland Prostitute</title>
 		<titleShort>Prostitute</titleShort>
-		<description>[PAWN_nameDef] used various methods to earn money, working as a Prostitute after the apocalypse. [PAWN_pronoun] sometimes didn't get paid, and things escalated into violence. Wasteland taught [PAWN_objective] a deep lesson. </description>
+		<description>[PAWN_nameDef] used various methods to earn money, working as a Prostitute after the apocalypse. [PAWN_pronoun] sometimes didn't get paid, and things escalated into violence. Wasteland taught [PAWN_objective] a deep lesson.</description>
 		<skillGains>
 			<Melee>2</Melee>
 			<Social>5</Social>
@@ -225,7 +225,7 @@
 		<slot>Adulthood</slot>
 		<title>Cult Survivor</title>
 		<titleShort>Survivor</titleShort>
-		<description>[PAWN_nameDef] joined a cult after the apocalypse. [PAWN_pronoun] believed in their ways before being put as a sacrilegious offering on an altar and condemned to execution. [PAWN_pronoun] managed to escape through it at the cost of [PAWN_possessive] sanity. </description>
+		<description>[PAWN_nameDef] joined a cult after the apocalypse. [PAWN_pronoun] believed in their ways before being put as a sacrilegious offering on an altar and condemned to execution. [PAWN_pronoun] managed to escape through it at the cost of [PAWN_possessive] sanity.</description>
 		<skillGains>
 			<Melee>3</Melee>
 			<Social>2</Social>
@@ -279,7 +279,7 @@
 		<slot>Adulthood</slot>
 		<title>Wasteland Settler</title>
 		<titleShort>Outpost</titleShort>
-		<description>[PAWN_nameDef] wants to form the most secure outpost ever. [PAWN_possessive] other attempts failed, either raided by pirates or mechanoids. [PAWN_pronoun] will pursue [PAWN_possessive] dreams no matter what. </description>
+		<description>[PAWN_nameDef] wants to form the most secure outpost ever. [PAWN_possessive] other attempts failed, either raided by pirates or mechanoids. [PAWN_pronoun] will pursue [PAWN_possessive] dreams no matter what.</description>
 		<skillGains>
 			<Social>5</Social>
 		    <Construction>3</Construction>

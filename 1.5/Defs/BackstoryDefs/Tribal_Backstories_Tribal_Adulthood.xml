@@ -53,7 +53,7 @@
 	<slot>Adulthood</slot>
 	<title>Calendar keeper</title>
 	<titleShort>Calendar keeper</titleShort>
-	<baseDesc>[PAWN_nameDef] was responsible for keeping track of counting the days for [PAWN_possessive] tribe. [PAWN_possessive] job involved tracking lunar cycles, studying constellations, and predicting the optimal growing seasons. </baseDesc>
+	<baseDesc>[PAWN_nameDef] was responsible for keeping track of counting the days for [PAWN_possessive] tribe. [PAWN_possessive] job involved tracking lunar cycles, studying constellations, and predicting the optimal growing seasons.</baseDesc>
 	<skillGains>
 		
                 <Intellectual>5</Intellectual>
@@ -408,7 +408,7 @@
 	<slot>Adulthood</slot>
 	<title>Fur trader</title>
 	<titleShort>Fur trader</titleShort>
-	<baseDesc>[PAWN_nameDef] traveled far and wide, trading the furs of the creatures [PAWN_possessive] tribe hunted for other goods. [PAWN_pronoun] was skilled with words, and was always able to make a favourable deal. </baseDesc>
+	<baseDesc>[PAWN_nameDef] traveled far and wide, trading the furs of the creatures [PAWN_possessive] tribe hunted for other goods. [PAWN_pronoun] was skilled with words, and was always able to make a favourable deal.</baseDesc>
 	<skillGains>
 		 
                 <Social>5</Social>
@@ -454,7 +454,7 @@
 	<slot>Adulthood</slot>
 	<title>Club hunter</title>
 	<titleShort>Club hunter</titleShort>
-	<baseDesc>[PAWN_nameDef] hunted for food for [PAWN_possessive] tribe using a large club. [PAWN_pronoun] refused to use a bow and arrow like the other hunters, much preferring to bludgeon things to death. </baseDesc>
+	<baseDesc>[PAWN_nameDef] hunted for food for [PAWN_possessive] tribe using a large club. [PAWN_pronoun] refused to use a bow and arrow like the other hunters, much preferring to bludgeon things to death.</baseDesc>
 	<skillGains>
 	 
 			<Melee>6</Melee>
@@ -483,7 +483,7 @@
 	<slot>Adulthood</slot>
 	<title>Sacred tree tender</title>
 	<titleShort>Tree tender</titleShort>
-	<baseDesc>[PAWN_nameDef] tended to [PAWN_possessive] tribe’s sacred tree, meditating beneath it in order to commune with it and ascertain its needs. [PAWN_nameDef]’s tree-assigned duties included keeping the area around it clear of any man-made structures, bringing it water during the dry months, and encouraging pest-eating creatures to live near it. </baseDesc>
+	<baseDesc>[PAWN_nameDef] tended to [PAWN_possessive] tribe’s sacred tree, meditating beneath it in order to commune with it and ascertain its needs. [PAWN_nameDef]’s tree-assigned duties included keeping the area around it clear of any man-made structures, bringing it water during the dry months, and encouraging pest-eating creatures to live near it.</baseDesc>
 	<skillGains>
 		  
                 <Plants>7</Plants>
