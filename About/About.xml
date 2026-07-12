@@ -40,6 +40,7 @@ See CREDITS.txt for full attributions and licensing details.</description>
 		<li>1.5</li>
 		<li>1.6</li>
 	</supportedVersions>
+	<targetVersion>1.6</targetVersion>
 	<modDependencies>
 		<li>
 			<packageId>brrainz.harmony</packageId>
