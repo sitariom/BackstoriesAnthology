@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <UB_Cybranian_Childhood_Pilots_Child.title>Pilot's child</UB_Cybranian_Childhood_Pilots_Child.title>
+  <UB_Cybranian_Childhood_Pilots_Child.description>[PAWN_nameDef] grows up in the family of a military pilot. [PAWN_nameDef]'s father taught {PAWN_gender ? him : her} many lessons.</UB_Cybranian_Childhood_Pilots_Child.description>
+  <UB_Cybranian_Childhood_War_Criminal_Child.title>War Criminal Child</UB_Cybranian_Childhood_War_Criminal_Child.title>
+  <UB_Cybranian_Childhood_War_Criminal_Child.titleShort>Criminal Child</UB_Cybranian_Childhood_War_Criminal_Child.titleShort>
+  <UB_Cybranian_Childhood_War_Criminal_Child.description>[PAWN_nameDef] is born into the family of a fugitive deserter and a war criminal. Soon, [PAWN_nameDef]'s father dies during the chase.</UB_Cybranian_Childhood_War_Criminal_Child.description>
+  <UB_Cybranian_Childhood_War_Generals_Son.title>General's child</UB_Cybranian_Childhood_War_Generals_Son.title>
+  <UB_Cybranian_Childhood_War_Generals_Son.description>[PAWN_nameDef] is born into the family of a cruel war hero who has seen a lot. From childhood, [PAWN_nameDef] knows how to handle weapons and obey orders.</UB_Cybranian_Childhood_War_Generals_Son.description>
+  <UB_Cybranian_Childhood_Living_Shield.title>Living shield</UB_Cybranian_Childhood_Living_Shield.title>
+  <UB_Cybranian_Childhood_Living_Shield.description>[PAWN_nameDef] is born into a gang of terrorists organizing anti-government military actions. One day [PAWN_nameDef] becomes a human shield so that {PAWN_gender ? his : her} father can leave.</UB_Cybranian_Childhood_Living_Shield.description>
+  <UB_Cybranian_Childhood_Child_Trenches.title>Child of the trenches</UB_Cybranian_Childhood_Child_Trenches.title>
+  <UB_Cybranian_Childhood_Child_Trenches.titleFemale>Child of the Trenches</UB_Cybranian_Childhood_Child_Trenches.titleFemale>
+  <UB_Cybranian_Childhood_Child_Trenches.titleShort>Child</UB_Cybranian_Childhood_Child_Trenches.titleShort>
+  <UB_Cybranian_Childhood_Child_Trenches.description>[PAWN_nameDef] spent all {PAWN_gender ? his : her} childhood in military trenches, which practically did not budge from their positions. [PAWN_nameDef] was mainly involved in cooking and treating the wounded.</UB_Cybranian_Childhood_Child_Trenches.description>
+  <UB_Cybranian_Childhood_Reporters_Child.title>Reporter's child</UB_Cybranian_Childhood_Reporters_Child.title>
+  <UB_Cybranian_Childhood_Reporters_Child.titleShort>Child</UB_Cybranian_Childhood_Reporters_Child.titleShort>
+  <UB_Cybranian_Childhood_Reporters_Child.description>[PAWN_nameDef] is born into the family of a war reporter who has been on the battlefield for most of {PAWN_gender ? his : her} life.</UB_Cybranian_Childhood_Reporters_Child.description>
+  <UB_Cybranian_Childhood_Desperate_Soldier.title>Desperate Soldier</UB_Cybranian_Childhood_Desperate_Soldier.title>
+  <UB_Cybranian_Childhood_Desperate_Soldier.titleShort>Soldier</UB_Cybranian_Childhood_Desperate_Soldier.titleShort>
+  <UB_Cybranian_Childhood_Desperate_Soldier.description>Despite {PAWN_gender ? his : her} young age, [PAWN_nameDef] took an active part in the trench war, which shook {PAWN_gender ? his : her} psyche. One day [PAWN_nameDef] leads a bayonet attack.</UB_Cybranian_Childhood_Desperate_Soldier.description>
+  <UB_Cybranian_Childhood_Peaceful_Demonstrator.title>Peaceful demonstrator</UB_Cybranian_Childhood_Peaceful_Demonstrator.title>
+  <UB_Cybranian_Childhood_Peaceful_Demonstrator.titleShort>Demonstrator</UB_Cybranian_Childhood_Peaceful_Demonstrator.titleShort>
+  <UB_Cybranian_Childhood_Peaceful_Demonstrator.description>[PAWN_nameDef] advocated an early end to the terrible war in which {PAWN_gender ? his : her} world plunged. [PAWN_nameDef] spent a long time in a camp for political prisoners.</UB_Cybranian_Childhood_Peaceful_Demonstrator.description>
+  <UB_Cybranian_Childhood_Space_Station_Child.title>Space Station Child</UB_Cybranian_Childhood_Space_Station_Child.title>
+  <UB_Cybranian_Childhood_Space_Station_Child.titleShort>Child</UB_Cybranian_Childhood_Space_Station_Child.titleShort>
+  <UB_Cybranian_Childhood_Space_Station_Child.description>[PAWN_nameDef] was born on a military space station that housed biological weapons.</UB_Cybranian_Childhood_Space_Station_Child.description>
+  <UB_Cybranian_Childhood_Army_Nurse.title>Army nurse</UB_Cybranian_Childhood_Army_Nurse.title>
+  <UB_Cybranian_Childhood_Army_Nurse.description>[PAWN_nameDef] has served the wounded on the battlefield since childhood.</UB_Cybranian_Childhood_Army_Nurse.description>
+  <UB_Cybranian_Childhood_Young_Engineer.title>Young engineer</UB_Cybranian_Childhood_Young_Engineer.title>
+  <UB_Cybranian_Childhood_Young_Engineer.titleShort>Engineer</UB_Cybranian_Childhood_Young_Engineer.titleShort>
+  <UB_Cybranian_Childhood_Young_Engineer.description>[PAWN_nameDef] entered the ranks of the army as an assistant to the staff engineer, from whom {PAWN_gender ? he : she} learned how to repair equipment.</UB_Cybranian_Childhood_Young_Engineer.description>
+  <UB_Cybranian_Childhood_Communications_Engineer.title>Communications engineer</UB_Cybranian_Childhood_Communications_Engineer.title>
+  <UB_Cybranian_Childhood_Communications_Engineer.titleShort>Engineer</UB_Cybranian_Childhood_Communications_Engineer.titleShort>
+  <UB_Cybranian_Childhood_Communications_Engineer.description>Since childhood, [PAWN_nameDef] loved radio engineering and, at {PAWN_gender ? his : her} own request, entered the reserve of the army of [PAWN_nameDef]'s empire as a signalman.</UB_Cybranian_Childhood_Communications_Engineer.description>
+  <UB_Cybranian_Childhood_Military_Veterinarian.title>Military veterinarian</UB_Cybranian_Childhood_Military_Veterinarian.title>
+  <UB_Cybranian_Childhood_Military_Veterinarian.titleShort>Veterinarian</UB_Cybranian_Childhood_Military_Veterinarian.titleShort>
+  <UB_Cybranian_Childhood_Military_Veterinarian.description>Since childhood, [PAWN_nameDef] loved radio engineering and, at {PAWN_gender ? his : her} own request, entered the reserve of the army of [PAWN_nameDef]'s empire as a signalman.</UB_Cybranian_Childhood_Military_Veterinarian.description>
+  <UB_Cybranian_Childhood_Assistant_Cartographer.title>Assistant cartographer</UB_Cybranian_Childhood_Assistant_Cartographer.title>
+  <UB_Cybranian_Childhood_Assistant_Cartographer.titleShort>Cartographer</UB_Cybranian_Childhood_Assistant_Cartographer.titleShort>
+  <UB_Cybranian_Childhood_Assistant_Cartographer.description>[PAWN_nameDef] was born into the family of a staff cartographer. [PAWN_nameDef]'s father taught {PAWN_gender ? him : her} to work with drawings and topographic maps.</UB_Cybranian_Childhood_Assistant_Cartographer.description>
+  <UB_Cybranian_Childhood_Operator.title>Operator</UB_Cybranian_Childhood_Operator.title>
+  <UB_Cybranian_Childhood_Operator.description>[PAWN_nameDef] entered the army as a child as an ordinary soldier of the headquarters. [PAWN_nameDef] was responsible for the coordination of bomb attacks on cities and settlements.</UB_Cybranian_Childhood_Operator.description>
+  <UB_Cybranian_Childhood_Military_Artist.title>Military artist</UB_Cybranian_Childhood_Military_Artist.title>
+  <UB_Cybranian_Childhood_Military_Artist.titleShort>Artist</UB_Cybranian_Childhood_Military_Artist.titleShort>
+  <UB_Cybranian_Childhood_Military_Artist.description>[PAWN_nameDef] is inspired by paintings of destruction and becomes a renowned military artist.</UB_Cybranian_Childhood_Military_Artist.description>
+  <UB_Cybranian_Childhood_Military_Carpenter.title>Military carpenter</UB_Cybranian_Childhood_Military_Carpenter.title>
+  <UB_Cybranian_Childhood_Military_Carpenter.titleShort>Carpenter</UB_Cybranian_Childhood_Military_Carpenter.titleShort>
+  <UB_Cybranian_Childhood_Military_Carpenter.description>[PAWN_nameDef] coordinates the construction of dams and repairs of bridges for the passage of the army.</UB_Cybranian_Childhood_Military_Carpenter.description>
+  <UB_Cybranian_Childhood_Factory_Worker.title>Factory worker</UB_Cybranian_Childhood_Factory_Worker.title>
+  <UB_Cybranian_Childhood_Factory_Worker.titleShort>Worker</UB_Cybranian_Childhood_Factory_Worker.titleShort>
+  <UB_Cybranian_Childhood_Factory_Worker.description>Since childhood, [PAWN_nameDef] has been working in a military factory, producing ammunition for heavy weapons.</UB_Cybranian_Childhood_Factory_Worker.description>
+  <UB_Cybranian_Childhood_Trench_Scout.title>Trench scout</UB_Cybranian_Childhood_Trench_Scout.title>
+  <UB_Cybranian_Childhood_Trench_Scout.titleShort>Scout</UB_Cybranian_Childhood_Trench_Scout.titleShort>
+  <UB_Cybranian_Childhood_Trench_Scout.description>[PAWN_nameDef] was engaged in the delivery of classified data and conducted reconnaissance of the area.</UB_Cybranian_Childhood_Trench_Scout.description>
+  <UB_Cybranian_Childhood_Military_Postman.title>Military postman</UB_Cybranian_Childhood_Military_Postman.title>
+  <UB_Cybranian_Childhood_Military_Postman.titleShort>Postman</UB_Cybranian_Childhood_Military_Postman.titleShort>
+  <UB_Cybranian_Childhood_Military_Postman.description>[PAWN_nameDef] was engaged in the delivery of mail in an extensive network of trenches and communicated the orders of the command to the officers.</UB_Cybranian_Childhood_Military_Postman.description>
+  <UB_Cybranian_Childhood_Young_Sniper.title>Young sniper</UB_Cybranian_Childhood_Young_Sniper.title>
+  <UB_Cybranian_Childhood_Young_Sniper.titleShort>Sniper</UB_Cybranian_Childhood_Young_Sniper.titleShort>
+  <UB_Cybranian_Childhood_Young_Sniper.description>[PAWN_nameDef] handles the rifle well and has earned a reputation as an accurate sniper.</UB_Cybranian_Childhood_Young_Sniper.description>
+  <UB_Cybranian_Childhood_Young_Chef.title>Young chef</UB_Cybranian_Childhood_Young_Chef.title>
+  <UB_Cybranian_Childhood_Young_Chef.titleShort>Chef</UB_Cybranian_Childhood_Young_Chef.titleShort>
+  <UB_Cybranian_Childhood_Young_Chef.description>[PAWN_nameDef]'s task was to prepare food for {PAWN_gender ? his : her} many colleagues in the army of the industrial world.</UB_Cybranian_Childhood_Young_Chef.description>
+  <UB_Cybranian_Childhood_Broken_Child.title>Broken child</UB_Cybranian_Childhood_Broken_Child.title>
+  <UB_Cybranian_Childhood_Broken_Child.titleShort>Child</UB_Cybranian_Childhood_Broken_Child.titleShort>
+  <UB_Cybranian_Childhood_Broken_Child.description>[PAWN_nameDef] could not stand the horrors of the trench war and will never be the same again.</UB_Cybranian_Childhood_Broken_Child.description>
+  <UB_Cybranian_Childhood_Young_Partisan.title>Young partisan</UB_Cybranian_Childhood_Young_Partisan.title>
+  <UB_Cybranian_Childhood_Young_Partisan.titleShort>Partisan</UB_Cybranian_Childhood_Young_Partisan.titleShort>
+  <UB_Cybranian_Childhood_Young_Partisan.description>[PAWN_nameDef] was engaged in subversive activities in the rear after the enemy occupied [PAWN_nameDef]'s city.</UB_Cybranian_Childhood_Young_Partisan.description>
+  <UB_Cybranian_Childhood_Intelligence_Agent.title>Intelligence agent</UB_Cybranian_Childhood_Intelligence_Agent.title>
+  <UB_Cybranian_Childhood_Intelligence_Agent.titleShort>Agent</UB_Cybranian_Childhood_Intelligence_Agent.titleShort>
+  <UB_Cybranian_Childhood_Intelligence_Agent.description>[PAWN_nameDef] was recruited by enemy agents and supplied important information to the invaders.</UB_Cybranian_Childhood_Intelligence_Agent.description>
+  <UB_Cybranian_Childhood_Erudite.title>Erudite</UB_Cybranian_Childhood_Erudite.title>
+  <UB_Cybranian_Childhood_Erudite.description>[PAWN_nameDef] is very well-read since childhood and loves to spend time in the library.</UB_Cybranian_Childhood_Erudite.description>
+  <UB_Cybranian_Childhood_Restless_Child.title>Restless child</UB_Cybranian_Childhood_Restless_Child.title>
+  <UB_Cybranian_Childhood_Restless_Child.titleShort>Child</UB_Cybranian_Childhood_Restless_Child.titleShort>
+  <UB_Cybranian_Childhood_Restless_Child.description>[PAWN_nameDef] has earned a reputation for being hyperactive and restless.</UB_Cybranian_Childhood_Restless_Child.description>
+  <UB_Cybranian_Childhood_Barman.title>Barman</UB_Cybranian_Childhood_Barman.title>
+  <UB_Cybranian_Childhood_Barman.description>As a child, [PAWN_nameDef] worked as a barman in a small cafe.</UB_Cybranian_Childhood_Barman.description>
+  <UB_Cybranian_Childhood_Animal_Lover.title>Animal lover</UB_Cybranian_Childhood_Animal_Lover.title>
+  <UB_Cybranian_Childhood_Animal_Lover.description>[PAWN_nameDef] adores all living things besides humans, often preferring animals to humans.</UB_Cybranian_Childhood_Animal_Lover.description>
+  <UB_Cybranian_Childhood_Child_Of_Plants.title>Child of plants</UB_Cybranian_Childhood_Child_Of_Plants.title>
+  <UB_Cybranian_Childhood_Child_Of_Plants.titleShort>Child</UB_Cybranian_Childhood_Child_Of_Plants.titleShort>
+  <UB_Cybranian_Childhood_Child_Of_Plants.description>[PAWN_nameDef] sits for a long time in {PAWN_gender ? his : her} greenhouse, observing numerous plants and insects.</UB_Cybranian_Childhood_Child_Of_Plants.description>
+  <UB_Cybranian_Childhood_King_Of_Drama.title>King of drama</UB_Cybranian_Childhood_King_Of_Drama.title>
+  <UB_Cybranian_Childhood_King_Of_Drama.description>[PAWN_nameDef] loves to be in the spotlight. This often leads to emotional conversations.</UB_Cybranian_Childhood_King_Of_Drama.description>
+  <UB_Cybranian_Childhood_Monastery_Child.title>Monastery child</UB_Cybranian_Childhood_Monastery_Child.title>
+  <UB_Cybranian_Childhood_Monastery_Child.titleShort>Child</UB_Cybranian_Childhood_Monastery_Child.titleShort>
+  <UB_Cybranian_Childhood_Monastery_Child.description>[PAWN_nameDef] spent all {PAWN_gender ? his : her} childhood in a mountain monastery with serious discipline.</UB_Cybranian_Childhood_Monastery_Child.description>
+  <UB_Cybranian_Childhood_Child_Thinker.title>Thinker's child</UB_Cybranian_Childhood_Child_Thinker.title>
+  <UB_Cybranian_Childhood_Child_Thinker.titleShort>Child</UB_Cybranian_Childhood_Child_Thinker.titleShort>
+  <UB_Cybranian_Childhood_Child_Thinker.description>[PAWN_nameDef] was born into the family of a famous thinker, having spent {PAWN_gender ? his : her} childhood reading and studying books.</UB_Cybranian_Childhood_Child_Thinker.description>
+  <UB_Cybranian_Childhood_Philosopher_Child.title>Philosopher's child</UB_Cybranian_Childhood_Philosopher_Child.title>
+  <UB_Cybranian_Childhood_Philosopher_Child.titleShort>Child</UB_Cybranian_Childhood_Philosopher_Child.titleShort>
+  <UB_Cybranian_Childhood_Philosopher_Child.description>[PAWN_nameDef] was born into the family of a wise philosopher who taught {PAWN_gender ? him : her} the artistic language of speech.</UB_Cybranian_Childhood_Philosopher_Child.description>
+  <UB_Cybranian_Childhood_Worker_Child.title>Worker's child</UB_Cybranian_Childhood_Worker_Child.title>
+  <UB_Cybranian_Childhood_Worker_Child.titleShort>Child</UB_Cybranian_Childhood_Worker_Child.titleShort>
+  <UB_Cybranian_Childhood_Worker_Child.description>[PAWN_nameDef] was born into a poor family of a simple worker. [PAWN_nameDef] witnessed the anarchist revolution led by {PAWN_gender ? his : her} father.</UB_Cybranian_Childhood_Worker_Child.description>
+  <UB_Cybranian_Childhood_Cleaner.title>Cleaner</UB_Cybranian_Childhood_Cleaner.title>
+  <UB_Cybranian_Childhood_Cleaner.description>[PAWN_nameDef] has been working as a janitor for almost all of {PAWN_gender ? his : her} childhood. There is only enough money for the essentials.</UB_Cybranian_Childhood_Cleaner.description>
+  <UB_Cybranian_Childhood_Young_Gladiator.title>Young gladiator</UB_Cybranian_Childhood_Young_Gladiator.title>
+  <UB_Cybranian_Childhood_Young_Gladiator.titleShort>Gladiator</UB_Cybranian_Childhood_Young_Gladiator.titleShort>
+  <UB_Cybranian_Childhood_Young_Gladiator.description>From an early age, [PAWN_nameDef] fights in the stadium against people like him, as well as animals. His life depends only on {PAWN_gender ? his : her} skills.</UB_Cybranian_Childhood_Young_Gladiator.description>
+  <UB_Cybranian_Childhood_Model.title>Model</UB_Cybranian_Childhood_Model.title>
+  <UB_Cybranian_Childhood_Model.description>[PAWN_nameDef] works as a model because of {PAWN_gender ? his : her} looks.</UB_Cybranian_Childhood_Model.description>
+  <UB_Cybranian_Childhood_Terrorist_Child.title>Terrorist child</UB_Cybranian_Childhood_Terrorist_Child.title>
+  <UB_Cybranian_Childhood_Terrorist_Child.description>In {PAWN_gender ? his : her} early years, [PAWN_nameDef] witnessed many terrorist attacks and joined the paramilitary group of criminals.</UB_Cybranian_Childhood_Terrorist_Child.description>
+  <UB_Cybranian_Childhood_Young_Guardsman.title>Young guardsman</UB_Cybranian_Childhood_Young_Guardsman.title>
+  <UB_Cybranian_Childhood_Young_Guardsman.titleShort>Guardsman</UB_Cybranian_Childhood_Young_Guardsman.titleShort>
+  <UB_Cybranian_Childhood_Young_Guardsman.description>[PAWN_nameDef] was born into a family of hereditary military servants of the royal dynasty.</UB_Cybranian_Childhood_Young_Guardsman.description>
+  <UB_Cybranian_Childhood_Resistance_Symbol.title>Resistance symbol</UB_Cybranian_Childhood_Resistance_Symbol.title>
+  <UB_Cybranian_Childhood_Resistance_Symbol.titleShort>Symbol</UB_Cybranian_Childhood_Resistance_Symbol.titleShort>
+  <UB_Cybranian_Childhood_Resistance_Symbol.description>During a difficult war, when {PAWN_gender ? his : her} faction is almost broken, [PAWN_nameDef] inspires people to fight, leading the attack.</UB_Cybranian_Childhood_Resistance_Symbol.description>
+  <UB_Cybranian_Childhood_Artists_Child.title>Artist's child</UB_Cybranian_Childhood_Artists_Child.title>
+  <UB_Cybranian_Childhood_Artists_Child.titleShort>Child</UB_Cybranian_Childhood_Artists_Child.titleShort>
+  <UB_Cybranian_Childhood_Artists_Child.description>[PAWN_nameDef] was the only son in the family of a poor artist. As a child, [PAWN_nameDef] showed {PAWN_gender ? his : her} talent by allowing the family to get rich.</UB_Cybranian_Childhood_Artists_Child.description>
+  <UB_Cybranian_Childhood_Quiet_Child.title>Quiet child</UB_Cybranian_Childhood_Quiet_Child.title>
+  <UB_Cybranian_Childhood_Quiet_Child.titleShort>Child</UB_Cybranian_Childhood_Quiet_Child.titleShort>
+  <UB_Cybranian_Childhood_Quiet_Child.description>[PAWN_nameDef] was a quiet child. Even too quiet.</UB_Cybranian_Childhood_Quiet_Child.description>
+  <UB_Cybranian_Childhood_Captains_Child.title>Captain's child</UB_Cybranian_Childhood_Captains_Child.title>
+  <UB_Cybranian_Childhood_Captains_Child.titleShort>Child</UB_Cybranian_Childhood_Captains_Child.titleShort>
+  <UB_Cybranian_Childhood_Captains_Child.description>[PAWN_nameDef] was born into the family of a ship captain, having spent most of {PAWN_gender ? his : her} childhood at sea.</UB_Cybranian_Childhood_Captains_Child.description>
+  <UB_Cybranian_Childhood_Admirals_Child.title>Admiral's child</UB_Cybranian_Childhood_Admirals_Child.title>
+  <UB_Cybranian_Childhood_Admirals_Child.titleShort>Child</UB_Cybranian_Childhood_Admirals_Child.titleShort>
+  <UB_Cybranian_Childhood_Admirals_Child.description>[PAWN_nameDef] was born into the family of an admiral of the navy and gained a lot of knowledge by communicating with {PAWN_gender ? his : her} father.</UB_Cybranian_Childhood_Admirals_Child.description>
+  <UB_Cybranian_Childhood_Topographer.title>Topographer</UB_Cybranian_Childhood_Topographer.title>
+  <UB_Cybranian_Childhood_Topographer.description>[PAWN_nameDef] disliked violence, so [PAWN_nameDef] preferred cartography to military service.</UB_Cybranian_Childhood_Topographer.description>
+  <UB_Cybranian_Childhood_Pirates_Child.title>Pirate's child</UB_Cybranian_Childhood_Pirates_Child.title>
+  <UB_Cybranian_Childhood_Pirates_Child.titleShort>Child</UB_Cybranian_Childhood_Pirates_Child.titleShort>
+  <UB_Cybranian_Childhood_Pirates_Child.description>[PAWN_nameDef] is born on a pirate warship, which is part of a large pirate fleet. From childhood, [PAWN_nameDef] knows how to handle weapons and cannons.</UB_Cybranian_Childhood_Pirates_Child.description>
+  <UB_Cybranian_Childhood_Rebel_Soldier.title>Rebel soldier</UB_Cybranian_Childhood_Rebel_Soldier.title>
+  <UB_Cybranian_Childhood_Rebel_Soldier.titleShort>Soldier</UB_Cybranian_Childhood_Rebel_Soldier.titleShort>
+  <UB_Cybranian_Childhood_Rebel_Soldier.description>[PAWN_nameDef] is called up early for military service, but {PAWN_gender ? he : she} revolts and goes to prison.</UB_Cybranian_Childhood_Rebel_Soldier.description>
+  <UB_Cybranian_Childhood_Traitor.title>Traitor</UB_Cybranian_Childhood_Traitor.title>
+  <UB_Cybranian_Childhood_Traitor.description>[PAWN_nameDef] betrayed {PAWN_gender ? his : her} commander by surrendering to the enemy army. Enemies take possession of important information, and {PAWN_gender ? his : her} faction is defeated.</UB_Cybranian_Childhood_Traitor.description>
+  <UB_Cybranian_Childhood_Prisoner.title>Prisoner</UB_Cybranian_Childhood_Prisoner.title>
+  <UB_Cybranian_Childhood_Prisoner.description>[PAWN_nameDef] is imprisoned by mistake, which destroys {PAWN_gender ? his : her} personality forever.</UB_Cybranian_Childhood_Prisoner.description>
+  <UB_Cybranian_Childhood_Hostage.title>Hostage</UB_Cybranian_Childhood_Hostage.title>
+  <UB_Cybranian_Childhood_Hostage.description>[PAWN_nameDef] was captured while walking through the city, demanding an impressive ransom. [PAWN_nameDef] was able to escape from captivity only after a few years.</UB_Cybranian_Childhood_Hostage.description>
+  <UB_Cybranian_Childhood_Remote_Identity.title>Remote identity</UB_Cybranian_Childhood_Remote_Identity.title>
+  <UB_Cybranian_Childhood_Remote_Identity.titleShort>Remote</UB_Cybranian_Childhood_Remote_Identity.titleShort>
+  <UB_Cybranian_Childhood_Remote_Identity.description>[PAWN_nameDef] doesn't remember anything about {PAWN_gender ? his : her} past. In fact, only a shell remained of {PAWN_gender ? him : her}.</UB_Cybranian_Childhood_Remote_Identity.description>
+</LanguageData>

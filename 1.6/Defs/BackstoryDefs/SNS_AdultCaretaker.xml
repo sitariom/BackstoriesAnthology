@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <BackstoryDef>
+    <defName>UB_SNS_Caretaker</defName>
+    <title>Caretaker</title>
+    <titleShort>Caretaker</titleShort>
+    <slot>Adulthood</slot> <!--Adult or Child-->
+    <baseDesc>[PAWN_nameDef] spent most of [PAWN_possessive] adulthood caring for their older and elderly family members, having to upkeep their health and make sure they were taken care of. Common duties included cooking, cleaning, and socializing with them, as the rest of [PAWN_nameDef]'s family were absent in the elder's lives.</baseDesc> <!--Use Namedefs for name and pronouns-->
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale> <!-- Use Bodydefs for body types-->
+    <spawnCategories>
+      <li>Spacer</li>
+      <li>Civil</li> <!--Use SpawnDefs to define faction spawnage-->
+      <li>Outlander</li>
+    </spawnCategories>
+    <skillGains>
+      <Medicine>6</Medicine>
+      <Cooking>2</Cooking>    <!--UseSkilldeffs PROPERLY to make the skills go up and down, Wheee!-->
+      <Social>3</Social>
+    </skillGains>
+    <workDisables> <!-- Use WorkDisables.png -->
+      <li>Violent</li>
+    </workDisables>
+  </BackstoryDef>
+</Defs>

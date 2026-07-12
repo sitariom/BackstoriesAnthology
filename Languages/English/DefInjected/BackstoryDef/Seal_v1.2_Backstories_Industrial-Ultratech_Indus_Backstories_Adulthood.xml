@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <UB_Seal_KeenFisherman.title>keen fisherman</UB_Seal_KeenFisherman.title>
+  <UB_Seal_KeenFisherman.titleShort>fisherman</UB_Seal_KeenFisherman.titleShort>
+  <UB_Seal_KeenFisherman.description>[PAWN_nameDef] had a boring office job. To get [PAWN_possessive] mind out of it, [PAWN_pronoun] loved to go out in the wilderness with nothing but a sandwich, a beer and [PAWN_possessive] old fishing rod.</UB_Seal_KeenFisherman.description>
+  <UB_Seal_Geoengineer.title>geoengineer</UB_Seal_Geoengineer.title>
+  <UB_Seal_Geoengineer.titleShort>engineer</UB_Seal_Geoengineer.titleShort>
+  <UB_Seal_Geoengineer.description>[PAWN_nameDef] worked as an engineer designing geothermal power plants. With knowledge in both geology and engineering, [PAWN_pronoun] conceived facilities for the inhabitants of a midworld. [PAWN_pronoun] always tried to find the most effective way to complete the projects, often with various pipes and buildings visible in the landscape.</UB_Seal_Geoengineer.description>
+  <UB_Seal_Thanatonaut.title>thanatonaut</UB_Seal_Thanatonaut.title>
+  <UB_Seal_Thanatonaut.description>[PAWN_nameDef] lived on an ultratech planet as both a scientist and a test subject. The goal of the research team [PAWN_pronoun] was part of was to explore what lies beyond death. [PAWN_pronoun] died countless times and was resurrected using various nanite serums. Each time [PAWN_pronoun] had to tell psychiatrists with great precision what [PAWN_pronoun] experienced. Any cold feeling [PAWN_pronoun] had, any light [PAWN_pronoun] saw, any memory [PAWN_pronoun] forgot was important for them.\n\nExperiencing death many times left a deep wound on [PAWN_possessive] psyche.</UB_Seal_Thanatonaut.description>
+  <UB_Seal_HullCleaner.title>hull cleaner</UB_Seal_HullCleaner.title>
+  <UB_Seal_HullCleaner.titleShort>cleaner</UB_Seal_HullCleaner.titleShort>
+  <UB_Seal_HullCleaner.description>[PAWN_nameDef] worked on an expansive space station in orbit, exclusively reserved for the wealthiest of the planet. [PAWN_possessive] job was to clean the great windows to let the people observe their homeworld. [PAWN_pronoun] could sometimes get a glimpse of the luxurious hostels and ostentatious casinos.</UB_Seal_HullCleaner.description>
+  <UB_Seal_AtmosphereHarvester.title>atmosphere harvester</UB_Seal_AtmosphereHarvester.title>
+  <UB_Seal_AtmosphereHarvester.titleShort>pumper</UB_Seal_AtmosphereHarvester.titleShort>
+  <UB_Seal_AtmosphereHarvester.description>Working for a mining corporation, [PAWN_nameDef] inhabited an aerostatic colony on a gas giant. [PAWN_pronoun] worked as an atmosphere harvester, diving inside the inner layers of the planet aboard a reinforced gravtech shuttle. Pressurised hydrogen was pumped to be later exported out of the system. The shifts were dangerous, as the hull could implode at any moment.</UB_Seal_AtmosphereHarvester.description>
+  <UB_Seal_CloudShaper.title>cloud shaper</UB_Seal_CloudShaper.title>
+  <UB_Seal_CloudShaper.titleShort>artist</UB_Seal_CloudShaper.titleShort>
+  <UB_Seal_CloudShaper.description>[PAWN_nameDef] operated high-tech drones to control the clouds of a glitterworld. [PAWN_pronoun] drew unusual shapes, spirals or complex images. Using all layers of the atmosphere, [PAWN_pronoun] created beautiful skies for everyone to see.</UB_Seal_CloudShaper.description>
+  <UB_Seal_ChannelEngineer.title>channel engineer</UB_Seal_ChannelEngineer.title>
+  <UB_Seal_ChannelEngineer.titleShort>engineer</UB_Seal_ChannelEngineer.titleShort>
+  <UB_Seal_ChannelEngineer.description>[PAWN_nameDef] lived in an underground bastion. [PAWN_pronoun] joined the engineering team and learned to carve out the stone to extend the colony. They worked on a big infrastructural project aiming to bring fresh water inside for everyone. Unfortunately, the team's poor knowledge about fluid dynamics led to the flooding of half of the bastion.</UB_Seal_ChannelEngineer.description>
+  <UB_Seal_RuralDoctor.title>rural doctor</UB_Seal_RuralDoctor.title>
+  <UB_Seal_RuralDoctor.titleShort>doctor</UB_Seal_RuralDoctor.titleShort>
+  <UB_Seal_RuralDoctor.description>[PAWN_nameDef] was the only doctor in town. Everyone would go see [PAWN_objective] for any health issue or medical advice. [PAWN_pronoun] played an essential role in the community and was praised by all. However, [PAWN_pronoun] never told [PAWN_possessive] patients that [PAWN_pronoun] studied to be a veterinarian rather than a doctor.</UB_Seal_RuralDoctor.description>
+  <UB_Seal_DeepDiver.title>deep diver</UB_Seal_DeepDiver.title>
+  <UB_Seal_DeepDiver.titleShort>diver</UB_Seal_DeepDiver.titleShort>
+  <UB_Seal_DeepDiver.description>[PAWN_nameDef] was regularly sent under the surface of a small isolated planetoid along with a few other miners like [PAWN_objective]. They had to extract very valuable resources in insectoid-infested caverns. The job was risky, and in the heat of the battle friendly fire was often more dangerous than the bugs.</UB_Seal_DeepDiver.description>
+  <UB_Seal_PsychedelicWriter.title>psychedelic writer</UB_Seal_PsychedelicWriter.title>
+  <UB_Seal_PsychedelicWriter.titleShort>writer</UB_Seal_PsychedelicWriter.titleShort>
+  <UB_Seal_PsychedelicWriter.description>[PAWN_nameDef] wrote various stories set in a vast world [PAWN_pronoun] created. People loved the originality of the various plots and stories [PAWN_pronoun] would come up with. To keep the inspiration coming, [PAWN_pronoun] had the habit of consuming psychedelic mushrooms. [PAWN_possessive] hallucinated trips became myths and gods.</UB_Seal_PsychedelicWriter.description>
+  <UB_Seal_Cyberdoctor.title>cyberdoctor</UB_Seal_Cyberdoctor.title>
+  <UB_Seal_Cyberdoctor.description>With an expertise in cybernetics, [PAWN_nameDef] worked as a cyberdoctor, creating and installing bionic limbs on [PAWN_possessive] patients. Because of the relatively low technological level of the planet, [PAWN_possessive] knowledge was highly sought after. [PAWN_possessive] work made countless people walk again and gave them a new chance.</UB_Seal_Cyberdoctor.description>
+</LanguageData>

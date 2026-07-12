@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+﻿<Defs>
+  <BackstoryDef>
+    <defName>UB_SNS_AdultHost</defName>
+    <title>Game show host</title>
+    <titleShort>Host</titleShort>
+    <slot>Adulthood</slot>
+    <baseDesc>[PAWN_nameDef] spent years hosting an interplanetary game show titled 'Who's in my Yayo?' The show brought [PAWN_objective] to Urbworld and Glitterworld stardom, with thousands of viewers across hundreds of planets. Unfortunately, [PAWN_nameDef]'s show was cancelled for 'embellishing the use of narcotics and other illegal substances', as well as smuggling actual drugs across intergalactic lines.</baseDesc>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <spawnCategories>
+      <li>Spacer</li>
+      <li>Slave</li>
+    </spawnCategories>
+    <skillGains>
+      <Social>4</Social>
+      <Shooting>-2</Shooting>
+    </skillGains>
+    <workDisables>
+      <li>ManualDumb</li>
+    </workDisables>
+  </BackstoryDef>
+</Defs>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <UB_BTC_Childhood_OrbitalFarmhand.title>orbital farmhand</UB_BTC_Childhood_OrbitalFarmhand.title>
+  <UB_BTC_Childhood_OrbitalFarmhand.titleShort>farmer</UB_BTC_Childhood_OrbitalFarmhand.titleShort>
+  <UB_BTC_Childhood_OrbitalFarmhand.description>[PAWN_nameDef] grew up maintaining hydroponic bays on a crowded orbital station. Zero-gravity crop rotations and battling fungal infestations taught [PAWN_objective] plant mastery, but left [PAWN_pronoun] unprepared for terrestrial life.</UB_BTC_Childhood_OrbitalFarmhand.description>
+  <UB_BTC_Childhood_GlowbeltScavenger.title>glowbelt scavenger</UB_BTC_Childhood_GlowbeltScavenger.title>
+  <UB_BTC_Childhood_GlowbeltScavenger.titleShort>rad child</UB_BTC_Childhood_GlowbeltScavenger.titleShort>
+  <UB_BTC_Childhood_GlowbeltScavenger.description>Raised in the irradiated ruins of a failed arcology, [PAWN_nameDef] learned to harvest salvage from autonomous defense systems still guarding dead tech. Constant radiation exposure left [PAWN_objective] strangely resilient but socially feral.</UB_BTC_Childhood_GlowbeltScavenger.description>
+  <UB_BTC_Childhood_CorpseHauler.title>corpse hauler’s apprentice</UB_BTC_Childhood_CorpseHauler.title>
+  <UB_BTC_Childhood_CorpseHauler.titleShort>hauler</UB_BTC_Childhood_CorpseHauler.titleShort>
+  <UB_BTC_Childhood_CorpseHauler.description>After a plague wiped out a frontier colony, [PAWN_nameDef] was put to work stacking bodies for the burn pits. Death became routine, and [PAWN_pronoun] developed a grim practicality that unsettled others.</UB_BTC_Childhood_CorpseHauler.description>
+  <UB_BTC_Childhood_RefugeeCaretaker.title>refugee caretaker</UB_BTC_Childhood_RefugeeCaretaker.title>
+  <UB_BTC_Childhood_RefugeeCaretaker.titleShort>caretaker</UB_BTC_Childhood_RefugeeCaretaker.titleShort>
+  <UB_BTC_Childhood_RefugeeCaretaker.description>Born into a displaced colony fleet, [PAWN_nameDef] grew up tending to the sick and wounded aboard overcrowded ships. With resources scarce and suffering constant, [PAWN_pronoun] learned that kindness was sometimes the only thing left to give.</UB_BTC_Childhood_RefugeeCaretaker.description>
+  <UB_BTC_Childhood_BattalionFoundling.title>battalion foundling</UB_BTC_Childhood_BattalionFoundling.title>
+  <UB_BTC_Childhood_BattalionFoundling.titleShort>foundling</UB_BTC_Childhood_BattalionFoundling.titleShort>
+  <UB_BTC_Childhood_BattalionFoundling.description>Orphaned during a planetary campaign, [PAWN_nameDef] was taken in by a roving battalion and raised among hardened soldiers. Between maintenance drills and live-fire exercises, [PAWN_pronoun] learned that survival was earned, not granted.</UB_BTC_Childhood_BattalionFoundling.description>
+  <UB_BTC_Childhood_Deathworlder01.title>deathworlder</UB_BTC_Childhood_Deathworlder01.title>
+  <UB_BTC_Childhood_Deathworlder02.title>deathworlder</UB_BTC_Childhood_Deathworlder02.title>
+  <UB_BTC_Childhood_DesertNomad01.title>desert nomad</UB_BTC_Childhood_DesertNomad01.title>
+  <UB_BTC_Childhood_DesertNomad01.titleShort>nomad</UB_BTC_Childhood_DesertNomad01.titleShort>
+  <UB_BTC_Childhood_Voidborn.title>voidborn</UB_BTC_Childhood_Voidborn.title>
+  <UB_BTC_Childhood_IceWorld.title>iceworlder</UB_BTC_Childhood_IceWorld.title>
+  <UB_BTC_Childhood_PenalWorld.title>penal world</UB_BTC_Childhood_PenalWorld.title>
+  <UB_BTC_Childhood_PenalWorld.titleShort>inmate</UB_BTC_Childhood_PenalWorld.titleShort>
+  <UB_BTC_Childhood_SlumDweller.title>slum dweller</UB_BTC_Childhood_SlumDweller.title>
+  <UB_BTC_Childhood_SlumDweller.titleShort>dweller</UB_BTC_Childhood_SlumDweller.titleShort>
+  <UB_BTC_Childhood_JopallIndebted.title>indebted child</UB_BTC_Childhood_JopallIndebted.title>
+  <UB_BTC_Childhood_JopallIndebted.titleShort>indebted</UB_BTC_Childhood_JopallIndebted.titleShort>
+  <UB_BTC_Childhood_Waterworld.title>Waterworld</UB_BTC_Childhood_Waterworld.title>
+  <UB_BTC_Childhood_Waterworld.titleShort>tidal</UB_BTC_Childhood_Waterworld.titleShort>
+  <UB_BTC_Childhood_Observer.title>observer</UB_BTC_Childhood_Observer.title>
+
+<UB_BTC_Childhood_Deathworlder01.description>[PAWN_nameDef] grew up maintaining hydroponic bays on a crowded orbital station. Zero-gravity crop rotations and battling fungal infestations taught [PAWN_objective] plant mastery, but left [PAWN_pronoun] unprepared for terrestrial life.</UB_BTC_Childhood_Deathworlder01.description>
+<UB_BTC_Childhood_Deathworlder02.description>[PAWN_nameDef] grew up maintaining hydroponic bays on a crowded orbital station. Zero-gravity crop rotations and battling fungal infestations taught [PAWN_objective] plant mastery, but left [PAWN_pronoun] unprepared for terrestrial life.</UB_BTC_Childhood_Deathworlder02.description>
+<UB_BTC_Childhood_DesertNomad01.description>[PAWN_nameDef] grew up maintaining hydroponic bays on a crowded orbital station. Zero-gravity crop rotations and battling fungal infestations taught [PAWN_objective] plant mastery, but left [PAWN_pronoun] unprepared for terrestrial life.</UB_BTC_Childhood_DesertNomad01.description>
+<UB_BTC_Childhood_IceWorld.description>[PAWN_nameDef] grew up maintaining hydroponic bays on a crowded orbital station. Zero-gravity crop rotations and battling fungal infestations taught [PAWN_objective] plant mastery, but left [PAWN_pronoun] unprepared for terrestrial life.</UB_BTC_Childhood_IceWorld.description>
+<UB_BTC_Childhood_JopallIndebted.description>[PAWN_nameDef] grew up maintaining hydroponic bays on a crowded orbital station. Zero-gravity crop rotations and battling fungal infestations taught [PAWN_objective] plant mastery, but left [PAWN_pronoun] unprepared for terrestrial life.</UB_BTC_Childhood_JopallIndebted.description>
+<UB_BTC_Childhood_Observer.description>[PAWN_nameDef] grew up maintaining hydroponic bays on a crowded orbital station. Zero-gravity crop rotations and battling fungal infestations taught [PAWN_objective] plant mastery, but left [PAWN_pronoun] unprepared for terrestrial life.</UB_BTC_Childhood_Observer.description>
+<UB_BTC_Childhood_PenalWorld.description>[PAWN_nameDef] grew up maintaining hydroponic bays on a crowded orbital station. Zero-gravity crop rotations and battling fungal infestations taught [PAWN_objective] plant mastery, but left [PAWN_pronoun] unprepared for terrestrial life.</UB_BTC_Childhood_PenalWorld.description>
+<UB_BTC_Childhood_SlumDweller.description>[PAWN_nameDef] grew up maintaining hydroponic bays on a crowded orbital station. Zero-gravity crop rotations and battling fungal infestations taught [PAWN_objective] plant mastery, but left [PAWN_pronoun] unprepared for terrestrial life.</UB_BTC_Childhood_SlumDweller.description>
+<UB_BTC_Childhood_Voidborn.description>[PAWN_nameDef] grew up maintaining hydroponic bays on a crowded orbital station. Zero-gravity crop rotations and battling fungal infestations taught [PAWN_objective] plant mastery, but left [PAWN_pronoun] unprepared for terrestrial life.</UB_BTC_Childhood_Voidborn.description>
+<UB_BTC_Childhood_Waterworld.description>[PAWN_nameDef] grew up maintaining hydroponic bays on a crowded orbital station. Zero-gravity crop rotations and battling fungal infestations taught [PAWN_objective] plant mastery, but left [PAWN_pronoun] unprepared for terrestrial life.</UB_BTC_Childhood_Waterworld.description>
+</LanguageData>

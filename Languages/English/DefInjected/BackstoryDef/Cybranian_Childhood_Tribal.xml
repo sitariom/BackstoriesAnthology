@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <UB_Cybranian_Childhood_Gatherer_Assistant.title>Gatherer assistant</UB_Cybranian_Childhood_Gatherer_Assistant.title>
+  <UB_Cybranian_Childhood_Gatherer_Assistant.titleShort>Assistant</UB_Cybranian_Childhood_Gatherer_Assistant.titleShort>
+  <UB_Cybranian_Childhood_Gatherer_Assistant.description>[PAWN_nameDef] was always afraid of wild animals, so {PAWN_gender ? he : she} became an assistant to the tribal gatherer. [PAWN_nameDef] learned a lot over the years in the forest.</UB_Cybranian_Childhood_Gatherer_Assistant.description>
+  <UB_Cybranian_Childhood_Young_Gatherer.title>Young gatherer</UB_Cybranian_Childhood_Young_Gatherer.title>
+  <UB_Cybranian_Childhood_Young_Gatherer.titleShort>Gatherer</UB_Cybranian_Childhood_Young_Gatherer.titleShort>
+  <UB_Cybranian_Childhood_Young_Gatherer.description>From early childhood, [PAWN_nameDef] loved to go to the forest and live close to nature. Perhaps this is what saved [PAWN_nameDef] from death when the tribe was destroyed by evil machines.</UB_Cybranian_Childhood_Young_Gatherer.description>
+  <UB_Cybranian_Childhood_Weak_Child.title>Weak child</UB_Cybranian_Childhood_Weak_Child.title>
+  <UB_Cybranian_Childhood_Weak_Child.description>[PAWN_nameDef]'s childhood was not easy. The tribe abandoned [PAWN_nameDef] at the edge of the river because {PAWN_gender ? he : she} could not swim.</UB_Cybranian_Childhood_Weak_Child.description>
+  <UB_Cybranian_Childhood_Rock_Climber.title>Rock climber</UB_Cybranian_Childhood_Rock_Climber.title>
+  <UB_Cybranian_Childhood_Rock_Climber.titleShort>Climber</UB_Cybranian_Childhood_Rock_Climber.titleShort>
+  <UB_Cybranian_Childhood_Rock_Climber.description>[PAWN_nameDef] was born in the mountains, far from the settlements. [PAWN_nameDef] was usually assigned by the community to take care of the pets and prepare food.</UB_Cybranian_Childhood_Rock_Climber.description>
+  <UB_Cybranian_Childhood_Blacksmith_Journeyman.title>Blacksmith's journeyman</UB_Cybranian_Childhood_Blacksmith_Journeyman.title>
+  <UB_Cybranian_Childhood_Blacksmith_Journeyman.titleShort>Journeyman</UB_Cybranian_Childhood_Blacksmith_Journeyman.titleShort>
+  <UB_Cybranian_Childhood_Blacksmith_Journeyman.description>[PAWN_nameDef] was born into the family of a tribal blacksmith who made spears and nets for fishing. Gradually [PAWN_nameDef] takes over father's skills and becomes his apprentice.</UB_Cybranian_Childhood_Blacksmith_Journeyman.description>
+  <UB_Cybranian_Childhood_Tribal_Messenger.title>Tribal messenger</UB_Cybranian_Childhood_Tribal_Messenger.title>
+  <UB_Cybranian_Childhood_Tribal_Messenger.titleShort>Messenger</UB_Cybranian_Childhood_Tribal_Messenger.titleShort>
+  <UB_Cybranian_Childhood_Tribal_Messenger.description>[PAWN_nameDef] was always distinguished by endurance on long campaigns, so [PAWN_nameDef] usually carried out messages to distant tribal communities on behalf of the leader.</UB_Cybranian_Childhood_Tribal_Messenger.description>
+  <UB_Cybranian_Childhood_Witch_Child.title>Witch's child</UB_Cybranian_Childhood_Witch_Child.title>
+  <UB_Cybranian_Childhood_Witch_Child.description>[PAWN_nameDef] mother was declared a witch, which was the reason for her public execution. [PAWN_nameDef] was forced to flee the tribe that very night.</UB_Cybranian_Childhood_Witch_Child.description>
+  <UB_Cybranian_Childhood_Potter_Apprentice.title>Potter's apprentice</UB_Cybranian_Childhood_Potter_Apprentice.title>
+  <UB_Cybranian_Childhood_Potter_Apprentice.titleShort>Apprentice</UB_Cybranian_Childhood_Potter_Apprentice.titleShort>
+  <UB_Cybranian_Childhood_Potter_Apprentice.description>[PAWN_nameDef] was born into a poor potter's family. From early childhood, [PAWN_nameDef] mastered the art of craft, which allowed {PAWN_gender ? him : her} to gain prestige in the tribe.</UB_Cybranian_Childhood_Potter_Apprentice.description>
+  <UB_Cybranian_Childhood_Loner_Hermit.title>Loner hermit</UB_Cybranian_Childhood_Loner_Hermit.title>
+  <UB_Cybranian_Childhood_Loner_Hermit.description>The tribe got rid of {PAWN_gender ? him : her} when [PAWN_nameDef] was very young. [PAWN_nameDef] survived despite everything and vowed revenge.</UB_Cybranian_Childhood_Loner_Hermit.description>
+  <UB_Cybranian_Childhood_Cave_Keeper.title>Cave keeper</UB_Cybranian_Childhood_Cave_Keeper.title>
+  <UB_Cybranian_Childhood_Cave_Keeper.titleShort>Keeper</UB_Cybranian_Childhood_Cave_Keeper.titleShort>
+  <UB_Cybranian_Childhood_Cave_Keeper.description>Every night [PAWN_nameDef] watches the endless darkness around his cave, guarding the peace of his relatives.</UB_Cybranian_Childhood_Cave_Keeper.description>
+  <UB_Cybranian_Childhood_Captive.title>Captive</UB_Cybranian_Childhood_Captive.title>
+  <UB_Cybranian_Childhood_Captive.description>[PAWN_nameDef]'s family was captured and driven into slavery to the mountain passes. [PAWN_nameDef] had no rights in the new tribe and was doing dirty work.</UB_Cybranian_Childhood_Captive.description>
+  <UB_Cybranian_Childhood_Child_Of_Slave.title>Child of slave</UB_Cybranian_Childhood_Child_Of_Slave.title>
+  <UB_Cybranian_Childhood_Child_Of_Slave.titleShort>Slave</UB_Cybranian_Childhood_Child_Of_Slave.titleShort>
+  <UB_Cybranian_Childhood_Child_Of_Slave.description>[PAWN_nameDef] was born into a family of hereditary slaves raised to serve the chief.</UB_Cybranian_Childhood_Child_Of_Slave.description>
+  <UB_Cybranian_Childhood_Young_Archer.title>Young archer</UB_Cybranian_Childhood_Young_Archer.title>
+  <UB_Cybranian_Childhood_Young_Archer.titleShort>Archer</UB_Cybranian_Childhood_Young_Archer.titleShort>
+  <UB_Cybranian_Childhood_Young_Archer.description>From early childhood [PAWN_nameDef] fell in love with bow training and strove to go hunting with the tribe. One day [PAWN_nameDef] saves the tribe from an ambush with his well-aimed shot.</UB_Cybranian_Childhood_Young_Archer.description>
+  <UB_Cybranian_Childhood_Superstitious_Child.title>Superstitious child</UB_Cybranian_Childhood_Superstitious_Child.title>
+  <UB_Cybranian_Childhood_Superstitious_Child.titleShort>Child</UB_Cybranian_Childhood_Superstitious_Child.titleShort>
+  <UB_Cybranian_Childhood_Superstitious_Child.description>[PAWN_nameDef] always believed in the stories that his fellow tribesmen told around the fire. It seems that his faith is unshakable.</UB_Cybranian_Childhood_Superstitious_Child.description>
+  <UB_Cybranian_Childhood_Young_Squire.title>Young squire</UB_Cybranian_Childhood_Young_Squire.title>
+  <UB_Cybranian_Childhood_Young_Squire.titleShort>Squire</UB_Cybranian_Childhood_Young_Squire.titleShort>
+  <UB_Cybranian_Childhood_Young_Squire.description>[PAWN_nameDef] witnessed many of the military campaigns of {PAWN_gender ? his : her} tribe and invariably acted as a squire.</UB_Cybranian_Childhood_Young_Squire.description>
+  <UB_Cybranian_Childhood_Eskimo_Child.title>Eskimo's child</UB_Cybranian_Childhood_Eskimo_Child.title>
+  <UB_Cybranian_Childhood_Eskimo_Child.titleShort>Eskimo</UB_Cybranian_Childhood_Eskimo_Child.titleShort>
+  <UB_Cybranian_Childhood_Eskimo_Child.description>[PAWN_nameDef] was born in the far north. From early childhood, [PAWN_nameDef] knows how to handle deer and live in low temperatures.</UB_Cybranian_Childhood_Eskimo_Child.description>
+  <UB_Cybranian_Childhood_Young_Explorer.title>Young explorer</UB_Cybranian_Childhood_Young_Explorer.title>
+  <UB_Cybranian_Childhood_Young_Explorer.titleShort>Explorer</UB_Cybranian_Childhood_Young_Explorer.titleShort>
+  <UB_Cybranian_Childhood_Young_Explorer.description>[PAWN_nameDef] often left {PAWN_gender ? his : her} native tribe in search of adventure. One day [PAWN_nameDef] returns, seeing only ruins in front of him.</UB_Cybranian_Childhood_Young_Explorer.description>
+  <UB_Cybranian_Childhood_Desert_Child.title>Desert child</UB_Cybranian_Childhood_Desert_Child.title>
+  <UB_Cybranian_Childhood_Desert_Child.description>[PAWN_nameDef] was born in a distant and hot desert, which tested {PAWN_gender ? his : her} tribe for strength every day.</UB_Cybranian_Childhood_Desert_Child.description>
+  <UB_Cybranian_Childhood_Wasteland_Child.title>Wasteland child</UB_Cybranian_Childhood_Wasteland_Child.title>
+  <UB_Cybranian_Childhood_Wasteland_Child.description>[PAWN_nameDef] was born in the war-polluted wastelands, through which for many years {PAWN_gender ? his : her} ruined tribe walked.</UB_Cybranian_Childhood_Wasteland_Child.description>
+  <UB_Cybranian_Childhood_Flood_Child.title>Flood child</UB_Cybranian_Childhood_Flood_Child.title>
+  <UB_Cybranian_Childhood_Flood_Child.description>At a young age, [PAWN_nameDef] learned what a flood is. [PAWN_nameDef]'s tribe was at the center of the disaster, and the tribal shaman's rituals failed to stop the storm surge.</UB_Cybranian_Childhood_Flood_Child.description>
+  <UB_Cybranian_Childhood_Traveler_Child.title>Traveler's child</UB_Cybranian_Childhood_Traveler_Child.title>
+  <UB_Cybranian_Childhood_Traveler_Child.description>[PAWN_nameDef] was born into a nomadic tribal family. From early childhood, [PAWN_nameDef] is on long exhausting hikes.</UB_Cybranian_Childhood_Traveler_Child.description>
+  <UB_Cybranian_Childhood_Chief_Child.title>Chief's child</UB_Cybranian_Childhood_Chief_Child.title>
+  <UB_Cybranian_Childhood_Chief_Child.description>[PAWN_nameDef] was born into the family of a tribal leader. {PAWN_gender ? He : She}  was free from many jobs and lived for {PAWN_gender ? his : her} own pleasure.</UB_Cybranian_Childhood_Chief_Child.description>
+  <UB_Cybranian_Childhood_Warrior_Child.title>Warrior's child</UB_Cybranian_Childhood_Warrior_Child.title>
+  <UB_Cybranian_Childhood_Warrior_Child.description>From early childhood, [PAWN_nameDef] studied the art of war with {PAWN_gender ? his : her} father, the leader of a tribal village. One day {PAWN_gender ? his : her} father dies and bequeathed to {PAWN_gender ? him : her} to rule the tribe.</UB_Cybranian_Childhood_Warrior_Child.description>
+  <UB_Cybranian_Childhood_Caravan_Child.title>Caravan's child</UB_Cybranian_Childhood_Caravan_Child.title>
+  <UB_Cybranian_Childhood_Caravan_Child.description>Almost all of [PAWN_nameDef]'s childhood was spent traveling. [PAWN_nameDef] lived in a merchant caravan belonging to a merchant tribe.</UB_Cybranian_Childhood_Caravan_Child.description>
+  <UB_Cybranian_Childhood_Campfire_Keeper.title>Campfire keeper</UB_Cybranian_Childhood_Campfire_Keeper.title>
+  <UB_Cybranian_Childhood_Campfire_Keeper.titleShort>Keeper</UB_Cybranian_Childhood_Campfire_Keeper.titleShort>
+  <UB_Cybranian_Childhood_Campfire_Keeper.description>[PAWN_nameDef] guarded the fire from wind and rain, preventing it from going out.</UB_Cybranian_Childhood_Campfire_Keeper.description>
+  <UB_Cybranian_Childhood_Thrown_Child.title>Thrown child</UB_Cybranian_Childhood_Thrown_Child.title>
+  <UB_Cybranian_Childhood_Thrown_Child.description>At an early age, [PAWN_nameDef] was abandoned by {PAWN_gender ? his : her} tribe. Weeks of wandering brought [PAWN_nameDef] to a new home.</UB_Cybranian_Childhood_Thrown_Child.description>
+  <UB_Cybranian_Childhood_Surviving_Child.title>Surviving child</UB_Cybranian_Childhood_Surviving_Child.title>
+  <UB_Cybranian_Childhood_Surviving_Child.description>[PAWN_nameDef] space station crashed. [PAWN_nameDef]'s body was discovered by local aborigines and raised as their child.</UB_Cybranian_Childhood_Surviving_Child.description>
+  <UB_Cybranian_Childhood_Lonely_Avenger.title>Lonely avenger</UB_Cybranian_Childhood_Lonely_Avenger.title>
+  <UB_Cybranian_Childhood_Lonely_Avenger.titleShort>Avenger</UB_Cybranian_Childhood_Lonely_Avenger.titleShort>
+  <UB_Cybranian_Childhood_Lonely_Avenger.description>[PAWN_nameDef]'s tribe was destroyed by evil machines. Only [PAWN_nameDef] was able to escape in time, making {PAWN_gender ? his : her} way through the wild jungle. Once, [PAWN_nameDef] vowed revenge and destroys dozens of mechanoids with one bow.</UB_Cybranian_Childhood_Lonely_Avenger.description>
+  <UB_Cybranian_Childhood_Insane_Child.title>Insane child</UB_Cybranian_Childhood_Insane_Child.title>
+  <UB_Cybranian_Childhood_Insane_Child.titleShort>Insane</UB_Cybranian_Childhood_Insane_Child.titleShort>
+  <UB_Cybranian_Childhood_Insane_Child.description>[PAWN_nameDef] grew up like an ordinary child until [PAWN_nameDef] fell ill with a strange disease. Alone, [PAWN_nameDef] killed a dozen people from {PAWN_gender ? his : her} tribe and fled into the forest.</UB_Cybranian_Childhood_Insane_Child.description>
+  <UB_Cybranian_Childhood_Young_Pathfinder.title>Young pathfinder</UB_Cybranian_Childhood_Young_Pathfinder.title>
+  <UB_Cybranian_Childhood_Young_Pathfinder.titleShort>Pathfinder</UB_Cybranian_Childhood_Young_Pathfinder.titleShort>
+  <UB_Cybranian_Childhood_Young_Pathfinder.description>Since childhood, [PAWN_nameDef] loved to go hunting and explore the surrounding forest. [PAWN_nameDef] took notes in the trees, taking note of {PAWN_gender ? his : her} observations.</UB_Cybranian_Childhood_Young_Pathfinder.description>
+  <UB_Cybranian_Childhood_Chief_Lover.title>Chief's lover</UB_Cybranian_Childhood_Chief_Lover.title>
+  <UB_Cybranian_Childhood_Chief_Lover.titleShort>Lover</UB_Cybranian_Childhood_Chief_Lover.titleShort>
+  <UB_Cybranian_Childhood_Chief_Lover.description>The tribe bought [PAWN_nameDef] from a passing caravan. The leader of the tribe liked [PAWN_nameDef], predetermining fate.</UB_Cybranian_Childhood_Chief_Lover.description>
+  <UB_Cybranian_Childhood_Tanner_Child.title>Tanner's child</UB_Cybranian_Childhood_Tanner_Child.title>
+  <UB_Cybranian_Childhood_Tanner_Child.description>[PAWN_nameDef] was born into the family of a tanner. From childhood, [PAWN_nameDef]'s father taught {PAWN_gender ? him : her} to decorate skins and passed on all {PAWN_gender ? his : her} skills.</UB_Cybranian_Childhood_Tanner_Child.description>
+  <UB_Cybranian_Childhood_Shipwreck_Child.title>Shipwreck child</UB_Cybranian_Childhood_Shipwreck_Child.title>
+  <UB_Cybranian_Childhood_Shipwreck_Child.description>As a child, [PAWN_nameDef] and {PAWN_gender ? his : her} tribe sailed across the ocean, fleeing the threat on makeshift boats. One day, a storm destroys their caravan, nailing [PAWN_nameDef] to a desert island.</UB_Cybranian_Childhood_Shipwreck_Child.description>
+  <UB_Cybranian_Childhood_Fisherman_Child.title>Fisherman's child</UB_Cybranian_Childhood_Fisherman_Child.title>
+  <UB_Cybranian_Childhood_Fisherman_Child.titleShort>Fisherman</UB_Cybranian_Childhood_Fisherman_Child.titleShort>
+  <UB_Cybranian_Childhood_Fisherman_Child.description>[PAWN_nameDef] was born into a tribal family of hunters and fishermen. [PAWN_nameDef]'s father taught {PAWN_gender ? him : her} to skillfully catch and cook fish, as well as weave nets for fishing.</UB_Cybranian_Childhood_Fisherman_Child.description>
+  <UB_Cybranian_Childhood_Priest_Child.title>Priest's child</UB_Cybranian_Childhood_Priest_Child.title>
+  <UB_Cybranian_Childhood_Priest_Child.description>[PAWN_nameDef] was born into a noble family of priests of the desert tribe. According to tradition, [PAWN_nameDef] was supposed to become a high priest, for which [PAWN_nameDef] had been preparing for many years.</UB_Cybranian_Childhood_Priest_Child.description>
+  <UB_Cybranian_Childhood_Carefree_Child.title>Carefree child</UB_Cybranian_Childhood_Carefree_Child.title>
+  <UB_Cybranian_Childhood_Carefree_Child.description>[PAWN_nameDef]'s tribe was at the peak of {PAWN_gender ? his : her} power at the time of {PAWN_gender ? his : her} birth, which allowed {PAWN_gender ? him : her} to devote himself to what [PAWN_nameDef] loved.</UB_Cybranian_Childhood_Carefree_Child.description>
+  <UB_Cybranian_Childhood_Diligent_Child.title>Diligent child</UB_Cybranian_Childhood_Diligent_Child.title>
+  <UB_Cybranian_Childhood_Diligent_Child.description>[PAWN_nameDef] was born into a family of strict morals in a poor tribal community. From childhood, [PAWN_nameDef] showed great activity for the minimal praise of {PAWN_gender ? his : her} parents.</UB_Cybranian_Childhood_Diligent_Child.description>
+  <UB_Cybranian_Childhood_Sacrificed_Child.title>Sacrificed child</UB_Cybranian_Childhood_Sacrificed_Child.title>
+  <UB_Cybranian_Childhood_Sacrificed_Child.description>According to legend, once a year, a sacrifice should be made to a volcano in order for the tribe to continue to live. This time, the victim was to be young [PAWN_nameDef]. At the time of the sacrifice, [PAWN_nameDef] managed to break the chains and escape.</UB_Cybranian_Childhood_Sacrificed_Child.description>
+  <UB_Cybranian_Childhood_Mowgli.title>Mowgli</UB_Cybranian_Childhood_Mowgli.title>
+  <UB_Cybranian_Childhood_Mowgli.description>The tribe got rid of [PAWN_nameDef] in infancy, but [PAWN_nameDef] was picked up and raised by a panther. [PAWN_nameDef]'s habits are much like animal habits.</UB_Cybranian_Childhood_Mowgli.description>
+  <UB_Cybranian_Childhood_Hearth_Keeper.title>Hearth keeper</UB_Cybranian_Childhood_Hearth_Keeper.title>
+  <UB_Cybranian_Childhood_Hearth_Keeper.titleShort>Keeper</UB_Cybranian_Childhood_Hearth_Keeper.titleShort>
+  <UB_Cybranian_Childhood_Hearth_Keeper.description>As a child, [PAWN_nameDef] loved to spend time by the fire, preparing food for {PAWN_gender ? his : her} fellow tribesmen.</UB_Cybranian_Childhood_Hearth_Keeper.description>
+  <UB_Cybranian_Childhood_Adventurer.title>Adventurer</UB_Cybranian_Childhood_Adventurer.title>
+  <UB_Cybranian_Childhood_Adventurer.description>[PAWN_nameDef] never sat still. Since childhood, [PAWN_nameDef] wanders through forests and mountains, often contrary to the prohibitions of the tribe.</UB_Cybranian_Childhood_Adventurer.description>
+  <UB_Cybranian_Childhood_Miner_Child.title>Miner's child</UB_Cybranian_Childhood_Miner_Child.title>
+  <UB_Cybranian_Childhood_Miner_Child.titleShort>Miner</UB_Cybranian_Childhood_Miner_Child.titleShort>
+  <UB_Cybranian_Childhood_Miner_Child.description>[PAWN_nameDef] was born into a family of miners who built a network of underground temples for a tribal cult.</UB_Cybranian_Childhood_Miner_Child.description>
+  <UB_Cybranian_Childhood_Young_Farmer.title>Young farmer</UB_Cybranian_Childhood_Young_Farmer.title>
+  <UB_Cybranian_Childhood_Young_Farmer.description>Since childhood, [PAWN_nameDef] loves to tinker with plants. [PAWN_nameDef]'s father was a farmer in a sedentary tribe and taught {PAWN_gender ? him : her} a lot.</UB_Cybranian_Childhood_Young_Farmer.description>
+  <UB_Cybranian_Childhood_Muffalo_Shepherd.title>Muffalo shepherd</UB_Cybranian_Childhood_Muffalo_Shepherd.title>
+  <UB_Cybranian_Childhood_Muffalo_Shepherd.description>[PAWN_nameDef] lived with a small mountain tribe who were involved in raising muffalo. Since childhood, [PAWN_nameDef] walked mountain passes.</UB_Cybranian_Childhood_Muffalo_Shepherd.description>
+  <UB_Cybranian_Childhood_Storyteller.title>Storyteller</UB_Cybranian_Childhood_Storyteller.title>
+  <UB_Cybranian_Childhood_Storyteller.description>[PAWN_nameDef] loved to listen to the stories of {PAWN_gender ? his : her} father, but soon [PAWN_nameDef]'s father was gone. In memory of him, [PAWN_nameDef] tells stories around the campfire for {PAWN_gender ? his : her} tribe.</UB_Cybranian_Childhood_Storyteller.description>
+  <UB_Cybranian_Childhood_Child_of_Battles.title>Child of battles</UB_Cybranian_Childhood_Child_of_Battles.title>
+  <UB_Cybranian_Childhood_Child_of_Battles.description>[PAWN_nameDef] was born during the religious wars in which {PAWN_gender ? his : her} tribe actively participated. [PAWN_nameDef] had a chance to witness many battles and take part in them.</UB_Cybranian_Childhood_Child_of_Battles.description>
+  <UB_Cybranian_Childhood_Tribe_Symbol.title>Tribe symbol</UB_Cybranian_Childhood_Tribe_Symbol.title>
+  <UB_Cybranian_Childhood_Tribe_Symbol.description>[PAWN_nameDef] was born in turbulent times, and {PAWN_gender ? his : her} tribe was on the brink of destruction. At a young age, [PAWN_nameDef] led the battle and was able to save {PAWN_gender ? his : her} tribe from plunder. After that, [PAWN_nameDef] became a revered symbol of endurance and strength.</UB_Cybranian_Childhood_Tribe_Symbol.description>
+  <UB_Cybranian_Childhood_Protector_Of_The_Weak.title>Protector of the weak</UB_Cybranian_Childhood_Protector_Of_The_Weak.title>
+  <UB_Cybranian_Childhood_Protector_Of_The_Weak.titleShort>Protector</UB_Cybranian_Childhood_Protector_Of_The_Weak.titleShort>
+  <UB_Cybranian_Childhood_Protector_Of_The_Weak.description>[PAWN_nameDef] hates injustice and protects the weak from childhood. [PAWN_nameDef] made many enemies in the tribe, but also many admirers.</UB_Cybranian_Childhood_Protector_Of_The_Weak.description>
+  <UB_Cybranian_Childhood_Keeper_Of_Children.title>Keeper of children</UB_Cybranian_Childhood_Keeper_Of_Children.title>
+  <UB_Cybranian_Childhood_Keeper_Of_Children.description>[PAWN_nameDef] looks after the little children in the tribe.</UB_Cybranian_Childhood_Keeper_Of_Children.description>
+  <UB_Cybranian_Childhood_Disobedient_Child.title>Disobedient child</UB_Cybranian_Childhood_Disobedient_Child.title>
+  <UB_Cybranian_Childhood_Disobedient_Child.description>[PAWN_nameDef] loves to get into trouble and does it regularly, despite punishment from the tribe.</UB_Cybranian_Childhood_Disobedient_Child.description>
+</LanguageData>

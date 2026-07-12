@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <BackstoryDef>
+    <defName>UB_SNS_NotASpaceStation13Clown</defName>
+    <title>Clown</title>
+    <titleShort>Clown</titleShort>
+    <slot>Adulthood</slot> <!--Adult or Child-->
+    <baseDesc>[PAWN_nameDef] worked aboard a hyper-advanced research space station as a clown. [PAWN_nameDef] was an expert in their craft, bringing joy to anyone who watched [PAWN_possessive] performances or pranks. [PAWN_nameDef]'s contract was cut short due to the research station they were assigned to being abandoned due to hostile enemy corporation sabotage.</baseDesc> <!--Use Namedefs for name and pronouns-->
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale> <!-- Use Bodydefs for body types-->
+    <spawnCategories>
+      <li>Spacer</li>
+      <li>Civil</li> <!--Use SpawnDefs to define faction spawnage-->
+      <li>Outlander</li>
+    </spawnCategories>
+    <skillGains>
+      <Social>6</Social>
+      <Shooting>-4</Shooting>    <!--UseSkilldeffs PROPERLY to make the skills go up and down, Wheee!-->
+      <Melee>-3</Melee>
+      <Artistic>3</Artistic>
+    </skillGains>
+    <workDisables> <!-- Use WorkDisables.png -->
+      <li>Intellectual</li>
+    </workDisables>
+  </BackstoryDef>
+</Defs>

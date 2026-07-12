@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <UB_Saito_Cleaner.title>purgeworld janitor</UB_Saito_Cleaner.title>
+  <UB_Saito_Cleaner.titleShort>janitor</UB_Saito_Cleaner.titleShort>
+  <UB_Saito_Cleaner.description>[PAWN_nameDef] grew up on a world that forced individuals to compete to become the best janitors and cleaning experts. The losers would be drowned to death in the fecal matter of the winners. This instilled in [PAWN_nameDef] an excellent work ethic for cleaning, while scarring [PAWN_objective] greatly.</UB_Saito_Cleaner.description>
+  <UB_Saito_Hauler.title>purgeworld hauler</UB_Saito_Hauler.title>
+  <UB_Saito_Hauler.titleShort>hauler</UB_Saito_Hauler.titleShort>
+  <UB_Saito_Hauler.description>[PAWN_nameDef] grew up on a world that forced individuals to compete to move heavy objects quickly. The winners would be augmented with advanced implants to compete against other augmentees, while the losers would be forced try in vain to outrun formula-grade vehicles attempting to splatter them for entertainment. Surviving the ordeals gave [PAWN_nameDef] an excellent work ethic for hauling, while scarring [PAWN_objective] greatly.</UB_Saito_Hauler.description>
+  <UB_Saito_Shooter.title>purgeworld shooter</UB_Saito_Shooter.title>
+  <UB_Saito_Shooter.titleShort>shooter</UB_Saito_Shooter.titleShort>
+  <UB_Saito_Shooter.description>[PAWN_nameDef] grew up on a world that forced all inhabitants to fight regularly to the death with ranged weapons only. [PAWN_nameDef] survived the fights as one of the planet's sharpest shots, but the ordeal scarred [PAWN_objective] greatly.</UB_Saito_Shooter.description>
+  <UB_Saito_Fighter.title>purgeworld brawler</UB_Saito_Fighter.title>
+  <UB_Saito_Fighter.titleShort>brawler</UB_Saito_Fighter.titleShort>
+  <UB_Saito_Fighter.description>[PAWN_nameDef] grew up on a world that forced all inhabitants to fight regularly to the death. [PAWN_nameDef] survived the fights as one of the planet's bloodthirstiest killers, but the ordeal scarred [PAWN_objective] greatly.</UB_Saito_Fighter.description>
+  <UB_Saito_Builder.title>purgeworld architect</UB_Saito_Builder.title>
+  <UB_Saito_Builder.titleShort>architect</UB_Saito_Builder.titleShort>
+  <UB_Saito_Builder.description>[PAWN_nameDef] grew up on a world that forced all children to compete in design and building contests, where losers would be sentenced to die in artificial buiilding collapses. Surviving the trials made [PAWN_nameDef] an extremely skilled builder, at the cost of scarring [PAWN_objective] greatly.</UB_Saito_Builder.description>
+  <UB_Saito_Miner.title>purgeworld miner</UB_Saito_Miner.title>
+  <UB_Saito_Miner.titleShort>miner</UB_Saito_Miner.titleShort>
+  <UB_Saito_Miner.description>[PAWN_nameDef] grew up in a cave purgeworld, where children would be forced every day of their lives to dig out of artificially-placed stone tombs or perish. Surviving the tombs made [PAWN_nameDef] an extremely skilled miner, at the cost of scarring [PAWN_objective] greatly.</UB_Saito_Miner.description>
+  <UB_Saito_Chef.title>purgeworld chef</UB_Saito_Chef.title>
+  <UB_Saito_Chef.titleShort>chef</UB_Saito_Chef.titleShort>
+  <UB_Saito_Chef.description>[PAWN_nameDef] grew up on a world that forced all children to compete in cooking contests, where losers would be cooked alive to serve to judges by the runners up. This taught [PAWN_nameDef] a great deal about preparing all kinds of dishes, while scarring [PAWN_objective] greatly.</UB_Saito_Chef.description>
+  <UB_Saito_Grower.title>purgeworld farmer</UB_Saito_Grower.title>
+  <UB_Saito_Grower.titleShort>farmer</UB_Saito_Grower.titleShort>
+  <UB_Saito_Grower.description>[PAWN_nameDef] grew up on an agricultural purgeworld, where all citizens were forced to meet monthly farming quotas or be forcibly converted into fertilizer. [PAWN_nameDef] learned quickly the intricacies of sowing and harvesting crops, at the cost of scarring [PAWN_objective] greatly.</UB_Saito_Grower.description>
+  <UB_Saito_Rancher.title>purgeworld rancher</UB_Saito_Rancher.title>
+  <UB_Saito_Rancher.titleShort>rancher</UB_Saito_Rancher.titleShort>
+  <UB_Saito_Rancher.description>[PAWN_nameDef] grew up on an agricultural purgeworld, where all citizens were forced to meet monthly ranching quotas or be fed alive to the animals of those who survived. [PAWN_nameDef] learned quickly the intricacies of rearing and taming animals, at the cost of scarring [PAWN_objective] greatly.</UB_Saito_Rancher.description>
+  <UB_Saito_Crafter.title>purgeworld crafter</UB_Saito_Crafter.title>
+  <UB_Saito_Crafter.titleShort>crafter</UB_Saito_Crafter.titleShort>
+  <UB_Saito_Crafter.description>[PAWN_nameDef] grew up on an engineering purgeworld, where all citizens were forced to compete in various design contests, and the losers would be killed by machines designed by the winners. [PAWN_nameDef] learned quickly the intricacies of crafting, at the cost of scarring [PAWN_objective] greatly.</UB_Saito_Crafter.description>
+  <UB_Saito_Artist.title>purgeworld artist</UB_Saito_Artist.title>
+  <UB_Saito_Artist.titleShort>artist</UB_Saito_Artist.titleShort>
+  <UB_Saito_Artist.description>[PAWN_nameDef] grew up on an artistic purgeworld, where all citizens were forced to compete in various art contests, and those whose art was judged below their peers would forcibly converted into biomass for use in art projects. [PAWN_nameDef]'s art proved to be among the best, but the ordeal scarred [PAWN_objective] greatly.</UB_Saito_Artist.description>
+  <UB_Saito_Doctor.title>purgeworld doctor</UB_Saito_Doctor.title>
+  <UB_Saito_Doctor.titleShort>doctor</UB_Saito_Doctor.titleShort>
+  <UB_Saito_Doctor.description>[PAWN_nameDef] grew up on a purgeworld obsessed with the human form, where all citizens were forced to study human anatomy, or be dissected alive. The constant studies under threat of slow, agonizing death gave [PAWN_nameDef] an intimate knowledge of the human body, while scarring [PAWN_objective] mentally.</UB_Saito_Doctor.description>
+</LanguageData>

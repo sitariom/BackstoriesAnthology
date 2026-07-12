@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <BackstoryDef>
+    <defName>UB_SNS_BugExterminator</defName>
+    <title>Bug exterminator</title>
+    <titleShort>Buge Exterminator</titleShort>
+    <slot>Adulthood</slot> <!--Adult or Child-->
+    <baseDesc>[PAWN_nameDef] made a living creating their own bug extermination business. [PAWN_nameDef] would concoct their own chemical mixes to kill home-invading insects with maximum efficiency. Though technically illegal and VERY dangerous, [PAWN_nameDef] quickly became the go-to person for home insect removal, and nobody questioned [PAWN_possessive] ways.</baseDesc> <!--Use Namedefs for name and pronouns-->
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale> <!-- Use Bodydefs for body types-->
+    <spawnCategories>
+      <li>Spacer</li>
+      <li>Civil</li> <!--Use SpawnDefs to define faction spawnage-->
+      <li>Slave</li>
+      <li>Outlander</li>
+    </spawnCategories>
+    <skillGains>
+      <Medicine>4</Medicine>
+      <Animals>-2</Animals>    <!--UseSkilldeffs PROPERLY to make the skills go up and down, Wheee!-->
+    </skillGains>
+    <workDisables> <!-- Use WorkDisables.png -->
+      <li>None</li>
+    </workDisables>
+  </BackstoryDef>
+</Defs>

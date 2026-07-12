@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <UB_SNS_LeadPoisoned.title>Lead poisoned child</UB_SNS_LeadPoisoned.title>
+  <UB_SNS_LeadPoisoned.titleShort>Lead Poisoned</UB_SNS_LeadPoisoned.titleShort>
+  <UB_SNS_LeadPoisoned.description>The water of [PAWN_nameDef]'s home was rich with lead from the local unchecked mining operation. The mining company kept the lead pollution a secret from the public, leading to thousands of people in [PAWN_nameDef]'s hometown being diagnosed with major lead poisoning, including themselves. </UB_SNS_LeadPoisoned.description>
+</LanguageData>

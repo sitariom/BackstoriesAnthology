@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <UB_Seal_LostTourist.title>lost tourist</UB_Seal_LostTourist.title>
+  <UB_Seal_LostTourist.titleShort>tourist</UB_Seal_LostTourist.titleShort>
+  <UB_Seal_LostTourist.description>[PAWN_nameDef] has always been absent-minded. One day, [PAWN_pronoun] had to take an intraplanetary flight to visit another city, [PAWN_pronoun] accidently got in the wrong ship. [PAWN_pronoun] soon learned that [PAWN_pronoun] would never see [PAWN_possessive] home again.</UB_Seal_LostTourist.description>
+  <UB_Seal_UneditedAuthor.title>unedited author</UB_Seal_UneditedAuthor.title>
+  <UB_Seal_UneditedAuthor.titleShort>author</UB_Seal_UneditedAuthor.titleShort>
+  <UB_Seal_UneditedAuthor.description>[PAWN_nameDef] always dreamed of being a famous book author, but sadly never had the opportunity to get published. Instead [PAWN_pronoun] chosed to release [PAWN_possessive] work for free online. Over the course of the years, only a very small amount of people checked [PAWN_possessive] novels.</UB_Seal_UneditedAuthor.description>
+  <UB_Seal_BanjoPlayer.title>banjo player</UB_Seal_BanjoPlayer.title>
+  <UB_Seal_BanjoPlayer.description>[PAWN_nameDef] was a banjo player. [PAWN_pronoun] played for dozens of spectators at times and was praised by them. [PAWN_pronoun] didn't hesitate to use [PAWN_possessive] skill and [PAWN_possessive] charm to obtain what [PAWN_pronoun] wanted from people.</UB_Seal_BanjoPlayer.description>
+  <UB_Seal_Harpist.title>harpist</UB_Seal_Harpist.title>
+  <UB_Seal_Harpist.description>[PAWN_nameDef] was a skilled harpist. [PAWN_possessive] concerts were very popular among the upper class of society. Often, [PAWN_pronoun] was asked to play for classy receptions or pompous ceremonies.</UB_Seal_Harpist.description>
+  <UB_Seal_FleeingConcubine.title>fleeing concubine</UB_Seal_FleeingConcubine.title>
+  <UB_Seal_FleeingConcubine.titleShort>concubine</UB_Seal_FleeingConcubine.titleShort>
+  <UB_Seal_FleeingConcubine.description>[PAWN_nameDef] was one of many concubines of a rich master. [PAWN_pronoun] couldn't leave the palace and could only see the outside world by the windows.\n\nOne night, [PAWN_pronoun] managed to escape [PAWN_possessive] room. No other domestic ever saw [PAWN_objective] since.</UB_Seal_FleeingConcubine.description>
+  <UB_Seal_OrbitalSlave.title>orbital slave</UB_Seal_OrbitalSlave.title>
+  <UB_Seal_OrbitalSlave.titleShort>slave</UB_Seal_OrbitalSlave.titleShort>
+  <UB_Seal_OrbitalSlave.description>[PAWN_nameDef] was a slave in a big orbital station, where [PAWN_pronoun] was tasked to operate complex machinery in zero-G. Even if [PAWN_pronoun] never really understood what [PAWN_pronoun] was doing, [PAWN_pronoun] managed to grasp some knowledge and experience from [PAWN_possessive] work shifts.\n\n[PAWN_nameDef] craved for open spaces and fresh air. The confinement in space was used as a mean to supress slaves and avoid rebellion.</UB_Seal_OrbitalSlave.description>
+  <UB_Seal_Terrorist.title>terrorist</UB_Seal_Terrorist.title>
+  <UB_Seal_Terrorist.description>[PAWN_nameDef] has commited irredeemable crimes for a cause now lost to time. [PAWN_nameDef] knew how to create bombs, to use guns and to ignore the horrors in which [PAWN_pronoun] participated.</UB_Seal_Terrorist.description>
+  <UB_Seal_KindTeacher.title>kind teacher</UB_Seal_KindTeacher.title>
+  <UB_Seal_KindTeacher.titleShort>teacher</UB_Seal_KindTeacher.titleShort>
+  <UB_Seal_KindTeacher.description>[PAWN_nameDef] worked as a teacher and tried to always bring light in [PAWN_possessive] students' lives. He teached science and biology, but always tried to give moral and philosophical advices during [PAWN_possessive] lessons.\n\n[PAWN_possessive] students' success was his personal pride.</UB_Seal_KindTeacher.description>
+  <UB_Seal_BabySealHunter.title>seal clubber</UB_Seal_BabySealHunter.title>
+  <UB_Seal_BabySealHunter.titleShort>hunter</UB_Seal_BabySealHunter.titleShort>
+  <UB_Seal_BabySealHunter.description>[PAWN_nameDef] harvested baby seal fur, and was quite competent at the job. [PAWN_pronoun] was the one who hunted them. It was very simple: [PAWN_pronoun] just had to walk toward them, chose one and hit it violently with an axe or a club. While [PAWN_possessive] colleagues preferred to use ranged weapons to limit guilt, [PAWN_nameDef] favoured the old ways.\n\nOver the years, people ended up fearing [PAWN_objective].</UB_Seal_BabySealHunter.description>
+  <UB_Seal_CloneFactoryWorker.title>clone factory worker</UB_Seal_CloneFactoryWorker.title>
+  <UB_Seal_CloneFactoryWorker.titleShort>cloning supervisor</UB_Seal_CloneFactoryWorker.titleShort>
+  <UB_Seal_CloneFactoryWorker.description>[PAWN_nameDef] worked at a clone factory, a huge laboratory producing humans on an industrial scale. [PAWN_possessive] task was to supervise the development of the newly created fetuses passing through the embryoduct. This job provided [PAWN_pronoun] with a lot of insights on human biology and gave [PAWN_objective] a lot of time to think about societal ethics.</UB_Seal_CloneFactoryWorker.description>
+  <UB_Seal_SeaUrchinBreeder.title>sea urchin farmer</UB_Seal_SeaUrchinBreeder.title>
+  <UB_Seal_SeaUrchinBreeder.titleShort>urchin farmer</UB_Seal_SeaUrchinBreeder.titleShort>
+  <UB_Seal_SeaUrchinBreeder.description>[PAWN_nameDef] was a sea urchin breeder. [PAWN_pronoun] built large ponds for them, fed them and collected the larvae to incubate them in a suitable environment. [PAWN_pronoun] sold the sea urchin tests that were bought to make jewellery and other trinkets.\nIt was a quiet life that [PAWN_pronoun] enjoyed.</UB_Seal_SeaUrchinBreeder.description>
+  <UB_Seal_ConspiracyTheorist.title>conspiracy theorist</UB_Seal_ConspiracyTheorist.title>
+  <UB_Seal_ConspiracyTheorist.titleShort>conspirationist</UB_Seal_ConspiracyTheorist.titleShort>
+  <UB_Seal_ConspiracyTheorist.description>Jobless, and with too much time on [PAWN_possessive] hands, [PAWN_nameDef] delved deep into the world of extraterrestrial conspiracy theories. Convinced that alien life existed and was hided by [PAWN_possessive] governement, [PAWN_pronoun] always rejected common sense and sunk deeper and deeper into [PAWN_possessive] own paranoid world.</UB_Seal_ConspiracyTheorist.description>
+  <UB_Seal_DesertingMedic.title>deserting medic</UB_Seal_DesertingMedic.title>
+  <UB_Seal_DesertingMedic.titleShort>medic</UB_Seal_DesertingMedic.titleShort>
+  <UB_Seal_DesertingMedic.description>[PAWN_nameDef] was enrolled in a violent war and was trained to be a field medic, having to provide medical care to [PAWN_possessive] unit. However, tired by the brutality of the conflict, [PAWN_pronoun] deserted. [PAWN_pronoun] became a wanderer, offering healing and solace to civilians in need. [PAWN_pronoun] carried the weight of the battles, hoping to make a better world out of this war-torn land.</UB_Seal_DesertingMedic.description>
+  <UB_Seal_GremlinHunter.title>gremninologist</UB_Seal_GremlinHunter.title>
+  <UB_Seal_GremlinHunter.description>[PAWN_nameDef] spent much of [PAWN_possessive] life trying to prove the existence of gremlins. [PAWN_pronoun] searched abandoned space stations, collected evidence from several planets and even set traps in ship holds.\n\nUnfortunately, [PAWN_possessive] research was unsuccessful. However [PAWN_pronoun] remained convinced that gremlins were real.</UB_Seal_GremlinHunter.description>
+  <UB_Seal_Mascot.title>mascot</UB_Seal_Mascot.title>
+  <UB_Seal_Mascot.description>[PAWN_nameDef] worked odd jobs and ended up being a mascot for a theme park. [PAWN_pronoun] hated this, but it allowed [PAWN_objective] to pay for [PAWN_possessive] rent.</UB_Seal_Mascot.description>
+  <UB_Seal_SpatioportExorcist.title>spatioport exorcist</UB_Seal_SpatioportExorcist.title>
+  <UB_Seal_SpatioportExorcist.titleShort>exorcist</UB_Seal_SpatioportExorcist.titleShort>
+  <UB_Seal_SpatioportExorcist.description>[PAWN_nameDef] made a living selling [PAWN_possessive] medium talents and exorcised haunted stations or keeped malevolent spirits away from newly built spaceships. [PAWN_pronoun] used incense, holy water, and ancient chants to perform [PAWN_possessive] mysticism.</UB_Seal_SpatioportExorcist.description>
+  <UB_Seal_SelfProclamedPhilosopher.title>self-proclamed philosopher</UB_Seal_SelfProclamedPhilosopher.title>
+  <UB_Seal_SelfProclamedPhilosopher.titleShort>philosopher</UB_Seal_SelfProclamedPhilosopher.titleShort>
+  <UB_Seal_SelfProclamedPhilosopher.description>[PAWN_nameDef] identified [PAWN_objective]self as a talented philosopher. [PAWN_pronoun] would come up with random sentences that never made any sense. Nobody ever understood [PAWN_objective], but [PAWN_pronoun] continued to self-publish [PAWN_possessive] books anyway.</UB_Seal_SelfProclamedPhilosopher.description>
+  <UB_Seal_eDNACollector.title>environmental DNA collector</UB_Seal_eDNACollector.title>
+  <UB_Seal_eDNACollector.titleShort>DNA collector</UB_Seal_eDNACollector.titleShort>
+  <UB_Seal_eDNACollector.description>[PAWN_nameDef] led expeditions to collect samples of environmental DNA on various planets. [PAWN_pronoun] sampled sea water, sediments or sometimes old artefacts from long gone civilizations..\n\nThe goal of these studies was to harvest genes from the biosphere of terraformed planets to study them. The samples were often sold to megacorporations seeking to invest into genetics.</UB_Seal_eDNACollector.description>
+  <UB_Seal_Irradiated.title>irradiated</UB_Seal_Irradiated.title>
+  <UB_Seal_Irradiated.description>[PAWN_nameDef] lived in an industrial midworld city. One day, the local fission reactor exploded, sending radiations all over the area. All the citizens were sent to campaign hospitals and tested.\n\nIt seems that [PAWN_nameDef] was part of the lucky ones, but only time will tell if [PAWN_pronoun] will develop a condition.</UB_Seal_Irradiated.description>
+  <UB_Seal_SewerHermit.title>sewer hermit</UB_Seal_SewerHermit.title>
+  <UB_Seal_SewerHermit.titleShort>hermit</UB_Seal_SewerHermit.titleShort>
+  <UB_Seal_SewerHermit.description>[PAWN_nameDef] lived as an hermit in the sewer of an urbworld. From the day [PAWN_pronoun] decided to head down to the waterways, [PAWN_pronoun] never saw the light of day again. [PAWN_pronoun] spoke to the rats and to the things that lurked in the polluted waste waters.</UB_Seal_SewerHermit.description>
+  <UB_Seal_TruckDriver.title>truck driver</UB_Seal_TruckDriver.title>
+  <UB_Seal_TruckDriver.titleShort>driver</UB_Seal_TruckDriver.titleShort>
+  <UB_Seal_TruckDriver.description>[PAWN_nameDef] carried goods around the whole planet by road. [PAWN_pronoun] travelled all day and regularly stoped in roadside pubs at night. These places weren't well frequented and fights often happened. [PAWN_nameDef] always made sure to deal some blow before leaving, even if [PAWN_pronoun] didn't know why people were fighting.</UB_Seal_TruckDriver.description>
+  <UB_Seal_SurvivalistPrepper.title>survivalist prepper</UB_Seal_SurvivalistPrepper.title>
+  <UB_Seal_SurvivalistPrepper.titleShort>survivalist</UB_Seal_SurvivalistPrepper.titleShort>
+  <UB_Seal_SurvivalistPrepper.description>[PAWN_nameDef] has always been ready for the worst. [PAWN_pronoun] spent years preparing for the end of [PAWN_possessive] homeworld, stashing food, weapons and other supplies. For [PAWN_objective], the best way to survive was to hide away in [PAWN_possessive] garden bunker, wait, and drive out any intruder with a gun.\n\nThe long awaited apocalypse never happened, but [PAWN_nameDef] at least gained some experience out of all of this.</UB_Seal_SurvivalistPrepper.description>
+  <UB_Seal_WastelandDriver.title>wasteland driver</UB_Seal_WastelandDriver.title>
+  <UB_Seal_WastelandDriver.titleShort>driver</UB_Seal_WastelandDriver.titleShort>
+  <UB_Seal_WastelandDriver.description>[PAWN_nameDef] spent a part of [PAWN_possessive] life travelling through the wastelands alone in a rusted and half-broken vehicle. Life here was rough. Hearing the distant roaring of another engine could mean both a threat and a potential wreck to dismantle after fighting.</UB_Seal_WastelandDriver.description>
+  <UB_Seal_DrugMaker.title>drug maker</UB_Seal_DrugMaker.title>
+  <UB_Seal_DrugMaker.description>[PAWN_nameDef] lived a very quiet life in the jungle. In exchange for their protection [PAWN_pronoun] sold drugs to the local gang. [PAWN_pronoun] grew the psychite and refined it in [PAWN_possessive] shed. Every few weeks they would come collect [PAWN_possessive] production without asking any questions and leave quickly after.\n\n[PAWN_nameDef] lived alone unconcernained about the raging war happening between the different criminal groups.</UB_Seal_DrugMaker.description>
+  <UB_Seal_Plagiarist.title>plagiarist</UB_Seal_Plagiarist.title>
+  <UB_Seal_Plagiarist.description>[PAWN_nameDef] made a living from publishing ancient books under [PAWN_possessive] own name. Although [PAWN_pronoun] disrespected dozens of authors from another time, [PAWN_possessive] interest for storytelling was real and [PAWN_pronoun] loved discovering centuries-old stories.</UB_Seal_Plagiarist.description>
+  <UB_Seal_Smuggler.title>smuggler</UB_Seal_Smuggler.title>
+  <UB_Seal_Smuggler.description>[PAWN_nameDef] commanded a small ship and was capable of smuggling all kinds of goods from one planet to another. [PAWN_possessive] wares were drugs, unregulated weapons and bionics, joywires, illegal genes and luciferium. [PAWN_pronoun] sold everything given it was rare and forbidden by most jurisdictions.\n\nWhen [PAWN_pronoun] drew too much attention, [PAWN_pronoun] just had to leave to the next system with [PAWN_possessive] cargo.</UB_Seal_Smuggler.description>
+  <UB_Seal_PopSinger.title>pop singer</UB_Seal_PopSinger.title>
+  <UB_Seal_PopSinger.titleShort>singer</UB_Seal_PopSinger.titleShort>
+  <UB_Seal_PopSinger.description>[PAWN_nameDef] was a popular singer on [PAWN_possessive] homeworld. Everyone loved [PAWN_possessive] voice but where [PAWN_pronoun] excelled was in writing [PAWN_possessive] own music. Unfortunately, [PAWN_possessive] manager never noticed [PAWN_possessive] talent and only made [PAWN_objective] sing uninspired pop songs.</UB_Seal_PopSinger.description>
+  <UB_Seal_InefficientOfficeWorker.title>inefficient office worker</UB_Seal_InefficientOfficeWorker.title>
+  <UB_Seal_InefficientOfficeWorker.titleShort>office worker</UB_Seal_InefficientOfficeWorker.titleShort>
+  <UB_Seal_InefficientOfficeWorker.description>[PAWN_nameDef] was the least efficient worker in [PAWN_possessive] company. [PAWN_pronoun] would rather lurk around the coffee machine than do [PAWN_possessive] office work and loved talk to anyone who dared approach the break room. [PAWN_pronoun] could talk for hours about uninteresting event that happened to [PAWN_objective] earlier in the morning.</UB_Seal_InefficientOfficeWorker.description>
+  <UB_Seal_WreckDredger.title>wreck dredger</UB_Seal_WreckDredger.title>
+  <UB_Seal_WreckDredger.titleShort>dredger</UB_Seal_WreckDredger.titleShort>
+  <UB_Seal_WreckDredger.description>Living on a flooded planet, [PAWN_nameDef] made a living as a wreck dredger. Alone on [PAWN_possessive] rusty boat, [PAWN_pronoun] sailed looking for recent sinking. The scrap was valuable, but the spaceship fragments were the best findings given the price of plasteel.\n\nThe sea brought peace in [PAWN_possessive] mind, and the rare whale sightings were worth a life of solitude.</UB_Seal_WreckDredger.description>
+  <UB_Seal_StreetCook.title>street cook</UB_Seal_StreetCook.title>
+  <UB_Seal_StreetCook.titleShort>cook</UB_Seal_StreetCook.titleShort>
+  <UB_Seal_StreetCook.description>[PAWN_nameDef] owned a modest shop deep in the streets of an urbworld. [PAWN_pronoun] cooked very cheap food that was appreciated by many regulars clients. This life was great, but it all ended after an exceptional hygienic check.\n\n[PAWN_nameDef] used to say: 'The bigger the rat, the tastier the food'.</UB_Seal_StreetCook.description>
+  <UB_Seal_GeneHunter.title>gene hunter</UB_Seal_GeneHunter.title>
+  <UB_Seal_GeneHunter.titleShort>sampler</UB_Seal_GeneHunter.titleShort>
+  <UB_Seal_GeneHunter.description>[PAWN_nameDef] worked for a big biotechnology corporation. Rather than investing a lot in research, this company focused in sampling exotic species to extract new genes. [PAWN_pronoun] was sent on various worlds to hunt mutated animals, buy strange pets on black markets or simply sample algae and bacteria in puddles. Each mission was different, and as a result [PAWN_pronoun] developed unique skills.</UB_Seal_GeneHunter.description>
+  <UB_Seal_Archaeologist.title>archaeologist</UB_Seal_Archaeologist.title>
+  <UB_Seal_Archaeologist.description>[PAWN_nameDef] studied the history of extinct civilizations. [PAWN_pronoun] explored numerous ruins to uncover ancient artefacts. Throughout the years, [PAWN_possessive] works even allowed small museums to open.\n\nWhile [PAWN_possessive] favorite stories featured archaeologists as brave adventurers living hectic trials, [PAWN_possessive] life was much more quiet.</UB_Seal_Archaeologist.description>
+  <UB_Seal_Mathematician.title>mathematician</UB_Seal_Mathematician.title>
+  <UB_Seal_Mathematician.description>[PAWN_nameDef] job was to transform simple concepts into twisted, corrupted abstract things. [PAWN_pronoun] would take numbers and do unspeakable things with them. While nobody ever understood what [PAWN_pronoun] was doing, [PAWN_nameDef] insisted that it was essential to the society.\n\n[PAWN_pronoun] was mathematician.</UB_Seal_Mathematician.description>
+  <UB_Seal_DismissedPresident.title>dismissed president</UB_Seal_DismissedPresident.title>
+  <UB_Seal_DismissedPresident.titleShort>president</UB_Seal_DismissedPresident.titleShort>
+  <UB_Seal_DismissedPresident.description>For a short while, [PAWN_nameDef] was the president of a small state. [PAWN_pronoun] won the elections against all odds and tried to economically revive [PAWN_possessive] nation. [PAWN_pronoun] took strange and absolute measures: creating new farming technics from scratch, fortifying the metal industry by relying on the labor of unqualified farmers, or starting an ecological disaster by exterminating the local bird population.\n\nUnsurprisingly, the nation collapsed and [PAWN_pronoun] was driven out of the presidential palace by an insurection.</UB_Seal_DismissedPresident.description>
+  <UB_Seal_FoldedCityArchitect.title>folded city architect</UB_Seal_FoldedCityArchitect.title>
+  <UB_Seal_FoldedCityArchitect.titleShort>architect</UB_Seal_FoldedCityArchitect.titleShort>
+  <UB_Seal_FoldedCityArchitect.description>[PAWN_nameDef] worked as an architect for a great corporation. [PAWN_possessive] job was to design prefab folded cities. These would be mass-produced in orbit and later descended into an urbworld atmosphere to land on their definitive plots, before being unfolded and populated. Everything about them was made to be cheap and quick to construct, to sustain the ever-growing populations typical from these planets.\n\n[PAWN_nameDef] was part of a team of several hundred highly specialized engineers, designers, and fellow architects, and learned to work in this system.</UB_Seal_FoldedCityArchitect.description>
+  <UB_Seal_OrbitalCraneOperator.title>orbital crane operator</UB_Seal_OrbitalCraneOperator.title>
+  <UB_Seal_OrbitalCraneOperator.titleShort>pilot</UB_Seal_OrbitalCraneOperator.titleShort>
+  <UB_Seal_OrbitalCraneOperator.description>Working in an orbital shipyard, [PAWN_nameDef] maneuvered an orbital crane: a small spaceship designed to move heavy payloads. The job was monotonous, but [PAWN_pronoun] loved the tranquility of space, and gazed upon the view between [PAWN_possessive] shifts.</UB_Seal_OrbitalCraneOperator.description>
+  <UB_Seal_UrbworldUndergroundExplorer.title>urbworld explorer</UB_Seal_UrbworldUndergroundExplorer.title>
+  <UB_Seal_UrbworldUndergroundExplorer.titleShort>explorer</UB_Seal_UrbworldUndergroundExplorer.titleShort>
+  <UB_Seal_UrbworldUndergroundExplorer.description>[PAWN_nameDef] was part of a great expedition under an urbworld to map the vast underground network. The city was built on top of itself and over the centuries the depths became a great unknown.\n\nBetween dark alleys and derelict subway stations some sort of pathways that led much deeper under the surface existed. There, [PAWN_nameDef] discovered hidden wonders, from abandoned ultratech labs to extensive subterran colonies. Navigating through these tunnels for so long gave [PAWN_objective] unique knowledge about living underground.</UB_Seal_UrbworldUndergroundExplorer.description>
+  <UB_Seal_IceboundSpacer.title>icebound spacer</UB_Seal_IceboundSpacer.title>
+  <UB_Seal_IceboundSpacer.titleShort>icebound</UB_Seal_IceboundSpacer.titleShort>
+  <UB_Seal_IceboundSpacer.description>[PAWN_nameDef] was part of the crew of an exploration ship. After a violent crash, the crew and [PAWN_objective] were left stranded at the south pole of an uncharted planet. They survived hunting walruses and scrapping what remained of the ship. Eventually, a lost automated trading ship passed near the planet and picked up their emergency signal.</UB_Seal_IceboundSpacer.description>
+  <UB_Seal_Whaler.title>whaler</UB_Seal_Whaler.title>
+  <UB_Seal_Whaler.description>[PAWN_nameDef] worked on a whaling ship for a few years. [PAWN_pronoun] travelled far and wide on an ocean seeking great cetaceans. [PAWN_pronoun] learned the art of harpooning, and how to efficiently butcher enormous creatures.</UB_Seal_Whaler.description>
+  <UB_Seal_GraffitiArtist.title>graffiti artist</UB_Seal_GraffitiArtist.title>
+  <UB_Seal_GraffitiArtist.titleShort>artist</UB_Seal_GraffitiArtist.titleShort>
+  <UB_Seal_GraffitiArtist.description>[PAWN_nameDef] lived on a crowded urbworld ruled by a wealthy elite. The concrete was both [PAWN_possessive] home and [PAWN_possessive] canvas as [PAWN_pronoun] drew graffiti to violently criticize the oppressive political system [PAWN_pronoun] despised.\n\nThis way of expressing [PAWN_objective]self led [PAWN_objective] to various altercations with the police.</UB_Seal_GraffitiArtist.description>
+  <UB_Seal_Peacekeeper.title>peacekeeper</UB_Seal_Peacekeeper.title>
+  <UB_Seal_Peacekeeper.description>[PAWN_nameDef] maintained order in the street of an overpopulated urbworld. [PAWN_pronoun] was allowed to use [PAWN_possessive] lethal weapons if [PAWN_pronoun] deemed it necessary.\n\nOf course, incidents were frequent and [PAWN_pronoun] wasn't welcomed in a lot of streets, to the point where most of the city became dangerous for [PAWN_objective].</UB_Seal_Peacekeeper.description>
+  <UB_Seal_PigFarmer.title>pig farmer</UB_Seal_PigFarmer.title>
+  <UB_Seal_PigFarmer.titleShort>farmer</UB_Seal_PigFarmer.titleShort>
+  <UB_Seal_PigFarmer.description>[PAWN_nameDef] worked in an industrial pig farm, where several thousand of animals were tightly kept and fed nutrient paste full of growth hormones. [PAWN_pronoun] had to maintain the dispensers and bring the pigs to the butchering section. Almost everything in the complex was automated, but [PAWN_possessive] help was often needed whenever machines broke.</UB_Seal_PigFarmer.description>
+</LanguageData>

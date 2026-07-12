@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <BackstoryDef>
+    <defName>UB_SNS_OilMiner</defName>
+    <title>Union miner</title>
+    <titleShort>Union Miner</titleShort>
+    <slot>Adulthood</slot> <!--Adult or Child-->
+    <baseDesc>[PAWN_nameDef] was chosen in a workers lottery to be granted the privilege of working on a oil-rich meteor mining outpost. The hours were long, the pay meager, and the work was intensive, but [PAWN_nameDef] got by. The Dangerous conditions of the mining outpost caused concern among the miners, and they quickly unionized, with [PAWN_nameDef] leading it.</baseDesc> <!--Use Namedefs for name and pronouns-->
+    <bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Hulk</bodyTypeFemale> <!-- Use Bodydefs for body types-->
+    <spawnCategories>
+      <li>Spacer</li>
+      <li>Slave</li> <!--Use SpawnDefs to define faction spawnage-->
+    </spawnCategories>
+    <skillGains>
+      <Social>3</Social>
+      <Mining>4</Mining>    <!--UseSkilldeffs PROPERLY to make the skills go up and down, Wheee!-->
+      <Medicine>2</Medicine>
+    </skillGains>
+    <workDisables> <!-- Use WorkDisables.png -->
+      <li>None</li>
+    </workDisables>
+  </BackstoryDef>
+</Defs>

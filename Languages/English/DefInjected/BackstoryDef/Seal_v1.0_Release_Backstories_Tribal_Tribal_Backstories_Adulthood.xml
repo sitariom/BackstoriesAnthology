@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <UB_Seal_SwampHermit.title>swamp hermit</UB_Seal_SwampHermit.title>
+  <UB_Seal_SwampHermit.titleShort>hermit</UB_Seal_SwampHermit.titleShort>
+  <UB_Seal_SwampHermit.description>[PAWN_nameDef] lived as an hermit in a swamp, where [PAWN_pronoun] had built [PAWN_possessive] home. [PAWN_pronoun] considered it was [PAWN_possessive] swamp. Sometimes, when people passed through [PAWN_possessive] swamp, [PAWN_nameDef] would do all [PAWN_pronoun] could to scare the strangers away.\n\nIt was the good old time.</UB_Seal_SwampHermit.description>
+  <UB_Seal_Brewer.title>brewer</UB_Seal_Brewer.title>
+  <UB_Seal_Brewer.description>[PAWN_nameDef] brewed beer for [PAWN_possessive] village. [PAWN_possessive] drinks were really appriciated by the tribe, and everyone praised [PAWN_objective] for that. At some point, [PAWN_pronoun] had earned as much respect as [PAWN_possessive] chief among [PAWN_possessive] people.</UB_Seal_Brewer.description>
+  <UB_Seal_MegafaunaHunter.title>megafauna hunter</UB_Seal_MegafaunaHunter.title>
+  <UB_Seal_MegafaunaHunter.titleShort>hunter</UB_Seal_MegafaunaHunter.titleShort>
+  <UB_Seal_MegafaunaHunter.description>[PAWN_nameDef] travelled the world as a hunter, always seeking bigger and bigger preys. [PAWN_pronoun] hunted more for the honor than the food, and sometimes didn't even bothered to butcher the animal.\n\nWith time, the primal rush of killing a six meters tall mammoth began to fade. [PAWN_nameDef] yearns to find a more ferocious prey.</UB_Seal_MegafaunaHunter.description>
+  <UB_Seal_CavePainter.title>cave painter</UB_Seal_CavePainter.title>
+  <UB_Seal_CavePainter.titleShort>painter</UB_Seal_CavePainter.titleShort>
+  <UB_Seal_CavePainter.description>[PAWN_nameDef] was the best artist of [PAWN_possessive] tribe. [PAWN_pronoun] painted abstract patterns and hunting scenes on all types of objects: from pebbles to enormous rocks. [PAWN_pronoun] reserved [PAWN_possessive] masterpieces for the deep caves, braving the darkness to paint impressive frescoes there.</UB_Seal_CavePainter.description>
+  <UB_Seal_TravellingTrader.title>travelling trader</UB_Seal_TravellingTrader.title>
+  <UB_Seal_TravellingTrader.titleShort>painter</UB_Seal_TravellingTrader.titleShort>
+  <UB_Seal_TravellingTrader.description>Traversing forests and deserts, [PAWN_nameDef] was a traveling merchant, roaming alone with [PAWN_possessive] mule. [PAWN_pronoun] represented the only link between isolated villages and large cities.\n\n[PAWN_possessive] expeditions taught him to fend for [PAWN_objective]self in nature.</UB_Seal_TravellingTrader.description>
+  <UB_Seal_BrickMaker.title>brick maker</UB_Seal_BrickMaker.title>
+  <UB_Seal_BrickMaker.description>[PAWN_nameDef] made bricks from mud for [PAWN_possessive] village. [PAWN_pronoun] collected the materials, made the molds and sun-dried the bricks. [PAWN_pronoun] managed to work with very large batches and was an essential member of [PAWN_possessive] community.</UB_Seal_BrickMaker.description>
+  <UB_Seal_LoneFlautist.title>lone flautist</UB_Seal_LoneFlautist.title>
+  <UB_Seal_LoneFlautist.titleShort>flautist</UB_Seal_LoneFlautist.titleShort>
+  <UB_Seal_LoneFlautist.description>[PAWN_nameDef] was an outstanding flautist. [PAWN_pronoun] would often go into the wilderness alone, find a calm place and play [PAWN_possessive] flute all day and night. [PAWN_possessive] melodies were peaceful and sometimes attracted some curious animals.</UB_Seal_LoneFlautist.description>
+  <UB_Seal_Sheperd.title>shepherd</UB_Seal_Sheperd.title>
+  <UB_Seal_Sheperd.description>As a shepherd, [PAWN_nameDef] spent a lot of time alone in the hills with [PAWN_possessive] herd. [PAWN_pronoun] made a living selling wool and meat back in the village.</UB_Seal_Sheperd.description>
+  <UB_Seal_MegalithBuilder.title>megalith builder</UB_Seal_MegalithBuilder.title>
+  <UB_Seal_MegalithBuilder.titleShort>builder</UB_Seal_MegalithBuilder.titleShort>
+  <UB_Seal_MegalithBuilder.description>[PAWN_nameDef] built megaliths in honor of higher powers. [PAWN_pronoun] extracted gigantic stone blocks from cliffs and carried them with other builders to the spot where they would be erected. Sometimes the location chosed was several kilometers away. Such a journey required careful planning and lots of strength.</UB_Seal_MegalithBuilder.description>
+  <UB_Seal_BoneCrafter.title>bone crafter</UB_Seal_BoneCrafter.title>
+  <UB_Seal_BoneCrafter.titleShort>crafter</UB_Seal_BoneCrafter.titleShort>
+  <UB_Seal_BoneCrafter.description>[PAWN_nameDef] used to wander the forest and the littoral looking for wild animal skeletons. After an attentive cleaning process, [PAWN_pronoun] would craft trinkets out of the bones or put on display the most impressive skulls.</UB_Seal_BoneCrafter.description>
+</LanguageData>

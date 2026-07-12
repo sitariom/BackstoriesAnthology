@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <BackstoryDef>
+    <defName>UB_SNS_Lawyer</defName>
+    <title>Lawyer</title>
+    <titleShort>Lawyer</titleShort>
+    <slot>Adulthood</slot> <!--Adult or Child-->
+    <baseDesc>After graduating law school, [PAWN_nameDef] fought vigilantly in the court of law, defending innocent and not-so-innocent clients alike. [PAWN_nameDef] was known for the famous line, "Innocent, or so help my tongue!" Unfortunately, the last client [PAWN_pronoun] had openly lied when they realized they were facing life in prison, claiming that [PAWN_nameDef] trained them to and bribed them to lie in court, causing [PAWN_possessive] law license to be frozen, pending investigation.</baseDesc> <!--Use Namedefs for name and pronouns-->
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale> <!-- Use Bodydefs for body types-->
+    <spawnCategories>
+      <li>Spacer</li>
+      <li>Civil</li> <!--Use SpawnDefs to define faction spawnage-->
+      <li>Ourlander</li>
+    </spawnCategories>
+    <skillGains>
+      <Social>4</Social>
+      <Intellectual>2</Intellectual>    <!--UseSkilldeffs PROPERLY to make the skills go up and down, Wheee!-->
+    </skillGains>
+    <workDisables> <!-- Use WorkDisables.png -->
+      <li>None</li>
+    </workDisables>
+  </BackstoryDef>
+</Defs>

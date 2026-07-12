@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <BackstoryDef>
+    <defName>UB_SNS_NOTHATISNOTSOLIDSNAKE</defName>
+    <title>RIM operative</title>
+    <titleShort>RIM Operative</titleShort>
+    <slot>Adulthood</slot> <!--Adult or Child-->
+    <baseDesc>[PAWN_nameDef] was trained by a Glitterworld government agency on infiltration and espionage. [PAWN_pronoun] was deployed in cramped Urbworlds and dense jungle Deathworlds, tasked with infiltrating and dismantling hostile terrorist organizations and escaping without a trace. [PAWN_nameDef] preformed so well, [PAWN_pronoun] was specially chosen to be trained in reconnaissance, infiltration, and manipulation tactics. Their promotion to a R.I.M. Operative meant surviving months, even years, behind enemy lines on far-off rimworlds, with little to no support from their organization.</baseDesc> <!--Use Namedefs for name and pronouns-->
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale> <!-- Use Bodydefs for body types-->
+    <spawnCategories>
+      <li>Spacer</li>
+      <li>Outlander</li> <!--Use SpawnDefs to define faction spawnage-->
+      <li>Civil</li>
+    </spawnCategories>
+    <skillGains>
+      <Melee>4</Melee>
+      <Shooting>3</Shooting>    <!--UseSkilldeffs PROPERLY to make the skills go up and down, Wheee!-->
+      <Animals>2</Animals>
+      <Plants>2</Plants>
+    </skillGains>
+    <workDisables> <!-- Use WorkDisables.png -->
+      <li>None</li>
+    </workDisables>
+  </BackstoryDef>
+</Defs>

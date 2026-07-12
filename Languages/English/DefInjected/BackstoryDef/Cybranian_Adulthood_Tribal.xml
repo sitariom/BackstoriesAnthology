@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <UB_Cybranian_Adulthood_Abandoned_Shaman.title>Abandoned shaman</UB_Cybranian_Adulthood_Abandoned_Shaman.title>
+  <UB_Cybranian_Adulthood_Abandoned_Shaman.titleShort>Shaman</UB_Cybranian_Adulthood_Abandoned_Shaman.titleShort>
+  <UB_Cybranian_Adulthood_Abandoned_Shaman.description>After an unsuccessful ritual that coincided with a devastating hurricane, the tribe lost faith in [PAWN_nameDef] power. {PAWN_gender ? He : She}  narrowly escaped reprisals.</UB_Cybranian_Adulthood_Abandoned_Shaman.description>
+  <UB_Cybranian_Adulthood_Cult_Priest.title>Cult priest</UB_Cybranian_Adulthood_Cult_Priest.title>
+  <UB_Cybranian_Adulthood_Cult_Priest.titleShort>Priest</UB_Cybranian_Adulthood_Cult_Priest.titleShort>
+  <UB_Cybranian_Adulthood_Cult_Priest.description>[PAWN_nameDef] is a tribal cult minister. It is {PAWN_gender ? he : she}  who is responsible for the correct performance of the rituals.</UB_Cybranian_Adulthood_Cult_Priest.description>
+  <UB_Cybranian_Adulthood_Sage.title>Sage</UB_Cybranian_Adulthood_Sage.title>
+  <UB_Cybranian_Adulthood_Sage.description>[PAWN_nameDef] reads many scrolls and manuscripts, eventually becoming the most intelligent person in the tribe.</UB_Cybranian_Adulthood_Sage.description>
+  <UB_Cybranian_Adulthood_Military_Leader.title>Military leader</UB_Cybranian_Adulthood_Military_Leader.title>
+  <UB_Cybranian_Adulthood_Military_Leader.titleShort>Leader</UB_Cybranian_Adulthood_Military_Leader.titleShort>
+  <UB_Cybranian_Adulthood_Military_Leader.description>[PAWN_nameDef] spent all {PAWN_gender ? his : her} life in military campaigns, capturing the enemies of {PAWN_gender ? his : her} tribe.</UB_Cybranian_Adulthood_Military_Leader.description>
+  <UB_Cybranian_Adulthood_Astrologer.title>Astrologer</UB_Cybranian_Adulthood_Astrologer.title>
+  <UB_Cybranian_Adulthood_Astrologer.description>[PAWN_nameDef] spent all {PAWN_gender ? his : her} life in military campaigns, capturing the enemies of {PAWN_gender ? his : her} tribe.</UB_Cybranian_Adulthood_Astrologer.description>
+  <UB_Cybranian_Adulthood_Chronicler.title>Chronicler</UB_Cybranian_Adulthood_Chronicler.title>
+  <UB_Cybranian_Adulthood_Chronicler.description>[PAWN_nameDef] engaged in the compilation of temporary chronicles of the life of the tribe.</UB_Cybranian_Adulthood_Chronicler.description>
+  <UB_Cybranian_Adulthood_Tanner.title>Tanner</UB_Cybranian_Adulthood_Tanner.title>
+  <UB_Cybranian_Adulthood_Tanner.description>[PAWN_nameDef] works with leather and deals with its processing.</UB_Cybranian_Adulthood_Tanner.description>
+  <UB_Cybranian_Adulthood_Forest_Killer.title>Forest killer</UB_Cybranian_Adulthood_Forest_Killer.title>
+  <UB_Cybranian_Adulthood_Forest_Killer.description>[PAWN_nameDef] is renowned in {PAWN_gender ? his : her} tribe for {PAWN_gender ? his : her} excellent bow skill. [PAWN_nameDef] never returns home without prey.</UB_Cybranian_Adulthood_Forest_Killer.description>
+  <UB_Cybranian_Adulthood_Bricklayer.title>Bricklayer</UB_Cybranian_Adulthood_Bricklayer.title>
+  <UB_Cybranian_Adulthood_Bricklayer.description>[PAWN_nameDef] specializes in stone processing and home construction.</UB_Cybranian_Adulthood_Bricklayer.description>
+  <UB_Cybranian_Adulthood_Squire.title>Squire</UB_Cybranian_Adulthood_Squire.title>
+  <UB_Cybranian_Adulthood_Squire.description>[PAWN_nameDef] is good at weapons, having spent {PAWN_gender ? his : her} entire life in military campaigns.</UB_Cybranian_Adulthood_Squire.description>
+  <UB_Cybranian_Adulthood_Field_Priest.title>Field Priest</UB_Cybranian_Adulthood_Field_Priest.title>
+  <UB_Cybranian_Adulthood_Field_Priest.titleShort>Priest</UB_Cybranian_Adulthood_Field_Priest.titleShort>
+  <UB_Cybranian_Adulthood_Field_Priest.description>After [PAWN_nameDef] became high priest, the tribe began a fierce war. [PAWN_nameDef]'s job was to raise morale through rituals.</UB_Cybranian_Adulthood_Field_Priest.description>
+  <UB_Cybranian_Adulthood_Battle_Shaman.title>Battle Shaman</UB_Cybranian_Adulthood_Battle_Shaman.title>
+  <UB_Cybranian_Adulthood_Battle_Shaman.titleShort>Shaman</UB_Cybranian_Adulthood_Battle_Shaman.titleShort>
+  <UB_Cybranian_Adulthood_Battle_Shaman.description>[PAWN_nameDef] is proficient in weapons and ancient spells. According to legends, it is they who {PAWN_gender ? he : she} lp the tribe to win battles.</UB_Cybranian_Adulthood_Battle_Shaman.description>
+  <UB_Cybranian_Adulthood_Ruthless_Predator.title>Ruthless predator</UB_Cybranian_Adulthood_Ruthless_Predator.title>
+  <UB_Cybranian_Adulthood_Ruthless_Predator.titleShort>Predator</UB_Cybranian_Adulthood_Ruthless_Predator.titleShort>
+  <UB_Cybranian_Adulthood_Ruthless_Predator.description>There seems to be nothing human left in him. [PAWN_nameDef] is ruthless and cruel when it comes to fighting within the tribe.</UB_Cybranian_Adulthood_Ruthless_Predator.description>
+  <UB_Cybranian_Adulthood_Spellcaster.title>Spellcaster</UB_Cybranian_Adulthood_Spellcaster.title>
+  <UB_Cybranian_Adulthood_Spellcaster.description>[PAWN_nameDef] sincerely believes in {PAWN_gender ? his : her} strength, like [PAWN_nameDef]'s fellow tribesmen. According to legend, [PAWN_nameDef] is able to stop a tornado with just one word.</UB_Cybranian_Adulthood_Spellcaster.description>
+  <UB_Cybranian_Adulthood_Milkman.title>Milkman</UB_Cybranian_Adulthood_Milkman.title>
+  <UB_Cybranian_Adulthood_Milkman.description>[PAWN_nameDef] breeds cows and muffalo for milk, which is considered valuable in [PAWN_nameDef]'s tribe.</UB_Cybranian_Adulthood_Milkman.description>
+  <UB_Cybranian_Adulthood_Boatman.title>Boatman</UB_Cybranian_Adulthood_Boatman.title>
+  <UB_Cybranian_Adulthood_Boatman.description>[PAWN_nameDef] and {PAWN_gender ? his : her} family build boats and small rafts for the tribe.</UB_Cybranian_Adulthood_Boatman.description>
+  <UB_Cybranian_Adulthood_Leader_Slave.title>Leader's slave</UB_Cybranian_Adulthood_Leader_Slave.title>
+  <UB_Cybranian_Adulthood_Leader_Slave.titleShort>Slave</UB_Cybranian_Adulthood_Leader_Slave.titleShort>
+  <UB_Cybranian_Adulthood_Leader_Slave.description>All {PAWN_gender ? his : her} life [PAWN_nameDef] was a slave for the {PAWN_gender ? he : she} ad of the tribe, but escaped during a battle with foreigners.</UB_Cybranian_Adulthood_Leader_Slave.description>
+  <UB_Cybranian_Adulthood_Slave_Leader.title>Slave leader</UB_Cybranian_Adulthood_Slave_Leader.title>
+  <UB_Cybranian_Adulthood_Slave_Leader.description>[PAWN_nameDef] and {PAWN_gender ? his : her} friends were all their lives slaves of cruel masters who did not expect them to take up arms.</UB_Cybranian_Adulthood_Slave_Leader.description>
+  <UB_Cybranian_Adulthood_Exiled_Avenger.title>Exiled Avenger</UB_Cybranian_Adulthood_Exiled_Avenger.title>
+  <UB_Cybranian_Adulthood_Exiled_Avenger.titleShort>Avenger</UB_Cybranian_Adulthood_Exiled_Avenger.titleShort>
+  <UB_Cybranian_Adulthood_Exiled_Avenger.description>[PAWN_nameDef] was expelled from the tribe in {PAWN_gender ? his : her} youth for {PAWN_gender ? his : her} violent disposition and irreconcilable character. [PAWN_nameDef] took revenge on all {PAWN_gender ? his : her} offenders and found refuge in the remote mountains.</UB_Cybranian_Adulthood_Exiled_Avenger.description>
+  <UB_Cybranian_Adulthood_Potter.title>Potter</UB_Cybranian_Adulthood_Potter.title>
+  <UB_Cybranian_Adulthood_Potter.description>[PAWN_nameDef] enjoys crafting tableware for {PAWN_gender ? his : her} tribal community.</UB_Cybranian_Adulthood_Potter.description>
+  <UB_Cybranian_Adulthood_Traveler.title>Traveler</UB_Cybranian_Adulthood_Traveler.title>
+  <UB_Cybranian_Adulthood_Traveler.description>[PAWN_nameDef] spent all {PAWN_gender ? his : her} life alone, exploring the planet.</UB_Cybranian_Adulthood_Traveler.description>
+  <UB_Cybranian_Adulthood_Bard.title>Bard</UB_Cybranian_Adulthood_Bard.title>
+  <UB_Cybranian_Adulthood_Bard.description>[PAWN_nameDef] has a good and pleasant voice which {PAWN_gender ? he : she} lps {PAWN_gender ? him : her} to cheer up [PAWN_nameDef]'s fellow tribesmen before a fight.</UB_Cybranian_Adulthood_Bard.description>
+  <UB_Cybranian_Adulthood_Blacksmith.title>Blacksmith</UB_Cybranian_Adulthood_Blacksmith.title>
+  <UB_Cybranian_Adulthood_Blacksmith.description>[PAWN_nameDef] is adept at blacksmithing and making weapons for [PAWN_nameDef]'s tribe.</UB_Cybranian_Adulthood_Blacksmith.description>
+  <UB_Cybranian_Adulthood_Forest_Hunter.title>Forest hunter</UB_Cybranian_Adulthood_Forest_Hunter.title>
+  <UB_Cybranian_Adulthood_Forest_Hunter.titleShort>Hunter</UB_Cybranian_Adulthood_Forest_Hunter.titleShort>
+  <UB_Cybranian_Adulthood_Forest_Hunter.description>[PAWN_nameDef] hunts big game in the forest for {PAWN_gender ? his : her} tribe.</UB_Cybranian_Adulthood_Forest_Hunter.description>
+  <UB_Cybranian_Adulthood_Nature_Lover.title>Nature lover</UB_Cybranian_Adulthood_Nature_Lover.title>
+  <UB_Cybranian_Adulthood_Nature_Lover.description>[PAWN_nameDef] loves the world around {PAWN_gender ? him : her} and the wildlife with all {PAWN_gender ? his : her} soul, not allowing the thought of killing or destroying this harmony.</UB_Cybranian_Adulthood_Nature_Lover.description>
+  <UB_Cybranian_Adulthood_Head_Hunter.title>Head hunter</UB_Cybranian_Adulthood_Head_Hunter.title>
+  <UB_Cybranian_Adulthood_Head_Hunter.description>[PAWN_nameDef] takes pleasure in killing people. [PAWN_nameDef] often keeps close to nomadic tribes, taking food from them.</UB_Cybranian_Adulthood_Head_Hunter.description>
+  <UB_Cybranian_Adulthood_Seaman.title>Seaman</UB_Cybranian_Adulthood_Seaman.title>
+  <UB_Cybranian_Adulthood_Seaman.description>[PAWN_nameDef] lives on a small ship on which {PAWN_gender ? his : her} tribe travels.</UB_Cybranian_Adulthood_Seaman.description>
+  <UB_Cybranian_Adulthood_Northern.title>Northern</UB_Cybranian_Adulthood_Northern.title>
+  <UB_Cybranian_Adulthood_Northern.description>[PAWN_nameDef] has lived {PAWN_gender ? his : her} entire adult life in the north, breeding deer.</UB_Cybranian_Adulthood_Northern.description>
+  <UB_Cybranian_Adulthood_Desert_Dweller.title>Desert dweller</UB_Cybranian_Adulthood_Desert_Dweller.title>
+  <UB_Cybranian_Adulthood_Desert_Dweller.description>All {PAWN_gender ? his : her} adult life [PAWN_nameDef] has been in the desert and has adapted to life in it.</UB_Cybranian_Adulthood_Desert_Dweller.description>
+  <UB_Cybranian_Adulthood_Wasteland_Dweller.title>Wasteland dweller</UB_Cybranian_Adulthood_Wasteland_Dweller.title>
+  <UB_Cybranian_Adulthood_Wasteland_Dweller.description>All {PAWN_gender ? his : her} adult life [PAWN_nameDef] has been in the wasteland and has adapted to life in it.</UB_Cybranian_Adulthood_Wasteland_Dweller.description>
+  <UB_Cybranian_Adulthood_Battle_Rider.title>Battle rider</UB_Cybranian_Adulthood_Battle_Rider.title>
+  <UB_Cybranian_Adulthood_Battle_Rider.description>[PAWN_nameDef] fights bravely astride {PAWN_gender ? his : her} beloved pet - the huge elephant Winston.</UB_Cybranian_Adulthood_Battle_Rider.description>
+  <UB_Cybranian_Adulthood_Cave_Guard.title>Cave guard</UB_Cybranian_Adulthood_Cave_Guard.title>
+  <UB_Cybranian_Adulthood_Cave_Guard.description>[PAWN_nameDef] guards the peace of {PAWN_gender ? his : her} tribe, which has settled in a deep network of caves.</UB_Cybranian_Adulthood_Cave_Guard.description>
+  <UB_Cybranian_Adulthood_Warchief_Guard.title>Warchief's guard</UB_Cybranian_Adulthood_Warchief_Guard.title>
+  <UB_Cybranian_Adulthood_Warchief_Guard.description>[PAWN_nameDef] always served with faith and truth to {PAWN_gender ? his : her} leader, saving {PAWN_gender ? him : her} from conspiracies and troubles.</UB_Cybranian_Adulthood_Warchief_Guard.description>
+  <UB_Cybranian_Adulthood_Cave_Dweller.title>Cave dweller</UB_Cybranian_Adulthood_Cave_Dweller.title>
+  <UB_Cybranian_Adulthood_Cave_Dweller.description>All {PAWN_gender ? his : her} life [PAWN_nameDef] lived in a huge network of underground caves with {PAWN_gender ? his : her} tribe.</UB_Cybranian_Adulthood_Cave_Dweller.description>
+  <UB_Cybranian_Adulthood_Wanderer.title>Wanderer</UB_Cybranian_Adulthood_Wanderer.title>
+  <UB_Cybranian_Adulthood_Wanderer.description>For a long time [PAWN_nameDef] has been wandering the world in search of {PAWN_gender ? his : her} destiny, having left [PAWN_nameDef]'s own tribe.</UB_Cybranian_Adulthood_Wanderer.description>
+  <UB_Cybranian_Adulthood_Legendary_Warrior.title>Legendary Warrior</UB_Cybranian_Adulthood_Legendary_Warrior.title>
+  <UB_Cybranian_Adulthood_Legendary_Warrior.description>[PAWN_nameDef] subtly appears in front of the enemy at the right moment, each time deciding the outcome of the battle in favor of {PAWN_gender ? his : her} tribe.</UB_Cybranian_Adulthood_Legendary_Warrior.description>
+  <UB_Cybranian_Adulthood_Lore_Keeper.title>Lore keeper</UB_Cybranian_Adulthood_Lore_Keeper.title>
+  <UB_Cybranian_Adulthood_Lore_Keeper.titleShort>Keeper</UB_Cybranian_Adulthood_Lore_Keeper.titleShort>
+  <UB_Cybranian_Adulthood_Lore_Keeper.description>[PAWN_nameDef] is the source of the tribe's knowledge, knowing numerous recipes and rituals.</UB_Cybranian_Adulthood_Lore_Keeper.description>
+  <UB_Cybranian_Adulthood_Winemaker.title>Winemaker</UB_Cybranian_Adulthood_Winemaker.title>
+  <UB_Cybranian_Adulthood_Winemaker.description>[PAWN_nameDef] has long been involved in growing vines and preparing wine for [PAWN_nameDef]'s tribal community.</UB_Cybranian_Adulthood_Winemaker.description>
+  <UB_Cybranian_Adulthood_Slaver.title>Slaver</UB_Cybranian_Adulthood_Slaver.title>
+  <UB_Cybranian_Adulthood_Slaver.description>[PAWN_nameDef] travels with a tribal caravan and sells slaves to everyone.</UB_Cybranian_Adulthood_Slaver.description>
+  <UB_Cybranian_Adulthood_Baker.title>Baker</UB_Cybranian_Adulthood_Baker.title>
+  <UB_Cybranian_Adulthood_Baker.description>All {PAWN_gender ? his : her} life [PAWN_nameDef] works in a small hut on the outskirts of the tribe and bakes bread from flour.</UB_Cybranian_Adulthood_Baker.description>
+  <UB_Cybranian_Adulthood_Architect.title>Architect</UB_Cybranian_Adulthood_Architect.title>
+  <UB_Cybranian_Adulthood_Architect.description>[PAWN_nameDef] builds stone buildings for {PAWN_gender ? his : her} tribal community.</UB_Cybranian_Adulthood_Architect.description>
+  <UB_Cybranian_Adulthood_Wandering_Merchant.title>Wandering merchant</UB_Cybranian_Adulthood_Wandering_Merchant.title>
+  <UB_Cybranian_Adulthood_Wandering_Merchant.titleShort>Merchant</UB_Cybranian_Adulthood_Wandering_Merchant.titleShort>
+  <UB_Cybranian_Adulthood_Wandering_Merchant.description>[PAWN_nameDef] prefers to walk alone or surrounded by pack animals, moving from one settlement to another and engaging in trade.</UB_Cybranian_Adulthood_Wandering_Merchant.description>
+  <UB_Cybranian_Adulthood_Cooper.title>Cooper</UB_Cybranian_Adulthood_Cooper.title>
+  <UB_Cybranian_Adulthood_Cooper.description>[PAWN_nameDef] creates barrels and other wood products for {PAWN_gender ? his : her} tribe, sometimes trading.</UB_Cybranian_Adulthood_Cooper.description>
+  <UB_Cybranian_Adulthood_Scribe.title>Scribe</UB_Cybranian_Adulthood_Scribe.title>
+  <UB_Cybranian_Adulthood_Scribe.description>[PAWN_nameDef] is engaged in rewriting books and scrolls of {PAWN_gender ? his : her} tribe, thus preserving ancient knowledge.</UB_Cybranian_Adulthood_Scribe.description>
+  <UB_Cybranian_Adulthood_Carpenter.title>Carpenter</UB_Cybranian_Adulthood_Carpenter.title>
+  <UB_Cybranian_Adulthood_Carpenter.description>[PAWN_nameDef] is a master when it comes to working with wood.</UB_Cybranian_Adulthood_Carpenter.description>
+  <UB_Cybranian_Adulthood_Beekeeper.title>Beekeeper</UB_Cybranian_Adulthood_Beekeeper.title>
+  <UB_Cybranian_Adulthood_Beekeeper.description>[PAWN_nameDef] breeds bees and produces honey for {PAWN_gender ? his : her} tribe.</UB_Cybranian_Adulthood_Beekeeper.description>
+  <UB_Cybranian_Adulthood_Rhetorician.title>Rhetorician</UB_Cybranian_Adulthood_Rhetorician.title>
+  <UB_Cybranian_Adulthood_Rhetorician.description>[PAWN_nameDef] is proficient in speech and is able to inspire any member of the tribe.</UB_Cybranian_Adulthood_Rhetorician.description>
+  <UB_Cybranian_Adulthood_Digger.title>Digger</UB_Cybranian_Adulthood_Digger.title>
+  <UB_Cybranian_Adulthood_Digger.description>[PAWN_nameDef] is involved in building and leveling surfaces for various jobs in the tribe.</UB_Cybranian_Adulthood_Digger.description>
+  <UB_Cybranian_Adulthood_Horse_Archer.title>Horse archer</UB_Cybranian_Adulthood_Horse_Archer.title>
+  <UB_Cybranian_Adulthood_Horse_Archer.description>[PAWN_nameDef] is a mobile and agile fighter of a warlike tribe.</UB_Cybranian_Adulthood_Horse_Archer.description>
+  <UB_Cybranian_Adulthood_Woodcutter.title>Woodcutter</UB_Cybranian_Adulthood_Woodcutter.title>
+  <UB_Cybranian_Adulthood_Woodcutter.description>[PAWN_nameDef] lives a short distance from the tribal center, deforestation and planting new trees.</UB_Cybranian_Adulthood_Woodcutter.description>
+</LanguageData>

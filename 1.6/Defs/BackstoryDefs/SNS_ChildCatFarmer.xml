@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <BackstoryDef>
+    <defName>UB_SNS_Catfarmer</defName>
+    <title>Cat farmer</title>
+    <titleShort>Cat Farmer</titleShort>
+    <slot>Childhood</slot> <!--Adult or Child-->
+    <baseDesc>[PAWN_nameDef] was born on a medieval world on a farm raising cats and felines of all types. From Housecats to exotic Tigers and lions, [PAWN_nameDef] quickly learned how to control and sedate them when push came to shove.</baseDesc> <!--Use Namedefs for name and pronouns-->
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale> <!-- Use Bodydefs for body types-->
+    <spawnCategories>
+      <li>Spacer</li>
+      <li>Tribal</li> <!--Use SpawnDefs to define faction spawnage-->
+      <li>Slave</li>
+    </spawnCategories>
+    <skillGains>
+      <Animals>3</Animals>
+    </skillGains>
+    <workDisables> <!-- Use WorkDisables.png -->
+      <li>None</li>
+    </workDisables>
+  </BackstoryDef>
+</Defs>

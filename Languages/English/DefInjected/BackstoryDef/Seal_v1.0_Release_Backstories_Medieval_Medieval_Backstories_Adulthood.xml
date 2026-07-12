@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <UB_Seal_SlagTinker.title>slag tinker</UB_Seal_SlagTinker.title>
+  <UB_Seal_SlagTinker.titleShort>tinker</UB_Seal_SlagTinker.titleShort>
+  <UB_Seal_SlagTinker.description>As one of the best metalworkers of the region, [PAWN_nameDef] was often tasked to create armors and trinkets for the wealthiest patrons. [PAWN_pronoun] worked with imported metal slag rather than locally produced steel, as [PAWN_possessive] homeworld never managed to produce industrial-grade alloys. [PAWN_pronoun] never melted any piece to keep the metal pure. [PAWN_pronoun] secretly kept highly sought space slag for [PAWN_possessive] masterpieces.</UB_Seal_SlagTinker.description>
+  <UB_Seal_Steelmaker.title>steelmaker</UB_Seal_Steelmaker.title>
+  <UB_Seal_Steelmaker.description>[PAWN_nameDef] produced steel to fuel an ever increasing demand of metal as [PAWN_possessive] homeworld was slowly redescovering forgotten technologies. While some of it was used to build shiny new machines, most of it was used by the old forges to smith swords, armors or simply create nails.\n\nAs new and more efficient ways of creating steel emerged, [PAWN_nameDef] always refused to use them and preferred the old, trusty methods.</UB_Seal_Steelmaker.description>
+  <UB_Seal_Falconer.title>falconer</UB_Seal_Falconer.title>
+  <UB_Seal_Falconer.description>[PAWN_nameDef] had tamed several falcons and trained them to hunt small preys. While this certainly wasn't the most efficient method of hunting, people appreciated the show, and [PAWN_pronoun] ended up somewhat famous. [PAWN_pronoun] was often invited by lower nobility to go hunt with them and show off [PAWN_possessive] skills.</UB_Seal_Falconer.description>
+</LanguageData>

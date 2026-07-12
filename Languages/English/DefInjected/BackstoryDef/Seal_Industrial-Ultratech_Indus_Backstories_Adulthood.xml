@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <UB_Seal_GeneWriter.title>genome writer</UB_Seal_GeneWriter.title>
+  <UB_Seal_GeneWriter.titleShort>geneticist</UB_Seal_GeneWriter.titleShort>
+  <UB_Seal_GeneWriter.description>After long and hard studies, [PAWN_nameDef] landed [PAWN_possessive] dream job and joined a team of scientists creating various creatures to populate artificial ecosystems.\n\nUnfortunately, despite [PAWN_possessive] passion and dedication, [PAWN_pronoun] quickly got bored. [PAWN_pronoun] started to procrastinate and became slower and slower at work. [PAWN_pronoun] wrote entire stories in the non-coding parts of the DNA of some animals they were working on, and to this day these are still readable to anyone able to sequence the DNA of these species.</UB_Seal_GeneWriter.description>
+  <UB_Seal_MegastructureRenovator.title>megastructure renovator</UB_Seal_MegastructureRenovator.title>
+  <UB_Seal_MegastructureRenovator.titleShort>renovator</UB_Seal_MegastructureRenovator.titleShort>
+  <UB_Seal_MegastructureRenovator.description>[PAWN_nameDef] worked in an underground megastructure. [PAWN_pronoun] had to navigate the complex with [PAWN_possessive] squad to fix any reported problems. They had to operate quickly, as welding a crack too late could condemn entire parts of the structure to superheated steam.</UB_Seal_MegastructureRenovator.description>
+  <UB_Seal_Beggar.title>beggar</UB_Seal_Beggar.title>
+  <UB_Seal_Beggar.description>[PAWN_nameDef] lived a part of [PAWN_possessive] life in extreme poverty. Stuck in a city owned by a megacorporation and without the authorization to take a ship out of there or find a job within the company, [PAWN_pronoun] had to rely on the generosity of the people living there to survive. A few administrative credits were usually enough to get a meal.</UB_Seal_Beggar.description>
+  <UB_Seal_TrainRaider.title>train raider</UB_Seal_TrainRaider.title>
+  <UB_Seal_TrainRaider.titleShort>raider</UB_Seal_TrainRaider.titleShort>
+  <UB_Seal_TrainRaider.description>Living on a quickly expanding midworld, [PAWN_nameDef] was hired in a raider team specializing in robbing precious cargo from ultrafast trains. They would usually board the train while it was passing through mountains and detach the wagons containing the most precious shipment. Facing increased risks associated with the transport of goods around the planet, the authorities substantially increased security on board, and it was common to have to exchange a few shots or sabotage the systems to successfully complete the heist.</UB_Seal_TrainRaider.description>
+  <UB_Seal_Archivist.title>archivist</UB_Seal_Archivist.title>
+  <UB_Seal_Archivist.description>[PAWN_nameDef] hoarded various kinds of documents for a history institution. [PAWN_pronoun] had to classify, sort, and secure knowledge for future generations. [PAWN_pronoun] could spend days diving into ancient reports and registers, uncovering stories lost to time. At times, [PAWN_possessive] work could become an obsession, as [PAWN_pronoun] often forgot to eat a meal or could spend the night at work.</UB_Seal_Archivist.description>
+  <UB_Seal_CorpseLooter.title>corpse looter</UB_Seal_CorpseLooter.title>
+  <UB_Seal_CorpseLooter.titleShort>looter</UB_Seal_CorpseLooter.titleShort>
+  <UB_Seal_CorpseLooter.description>[PAWN_nameDef] followed war, traveling from battlefield to battlefield to loot the dead after the fights. Weapons and ammunition could be sold for a fair price on the black market, but the dead's personal belongings proved much more valuable. Necklaces, wedding rings or any other trinket made of precious metal was what [PAWN_pronoun] was really looking for.</UB_Seal_CorpseLooter.description>
+  <UB_Seal_Gambler.title>gambler</UB_Seal_Gambler.title>
+  <UB_Seal_Gambler.description>[PAWN_nameDef] had an unhealthy gambling addiction. Most of [PAWN_possessive] earnings were invested in the casino and often immediately lost. To continue playing, [PAWN_pronoun] borrowed money from the wrong people and ended up with more enemies than credits.</UB_Seal_Gambler.description>
+  <UB_Seal_CorporateSlave.title>corporate slave</UB_Seal_CorporateSlave.title>
+  <UB_Seal_CorporateSlave.titleShort>slave</UB_Seal_CorporateSlave.titleShort>
+  <UB_Seal_CorporateSlave.description>[PAWN_nameDef] made the mistake of taking out a loan [PAWN_pronoun] couldn't repay. When the inevitable deadline was reached, [PAWN_pronoun] was sentenced to work for the corporation until death. Being expendable, [PAWN_pronoun] was sent to hazardous worksites. However, [PAWN_pronoun] quickly learned to evade the sight of [PAWN_possessive] supervisors and managed to escape.</UB_Seal_CorporateSlave.description>
+  <UB_Seal_Beachgoer.title>beach enjoyer</UB_Seal_Beachgoer.title>
+  <UB_Seal_Beachgoer.titleShort>beachgoer</UB_Seal_Beachgoer.titleShort>
+  <UB_Seal_Beachgoer.description>[PAWN_nameDef] lived on an oceanic glitterworld and spent most of [PAWN_possessive] enjoying the beach. [PAWN_pronoun] never had to work and resided in a lavish apartment with a handful of service mechanoids. [PAWN_pronoun] spent countless hours admiring the magnificent artificial landscape by the sea.</UB_Seal_Beachgoer.description>
+  <UB_Seal_AsteroidMapper.title>asteroid mapper</UB_Seal_AsteroidMapper.title>
+  <UB_Seal_AsteroidMapper.titleShort>mapper</UB_Seal_AsteroidMapper.titleShort>
+  <UB_Seal_AsteroidMapper.description>Employed by an astromining corporation, [PAWN_nameDef] worked in an asteroid belt to map small planetoids. [PAWN_pronoun] had to recognize exploitable resources, consider the probability of collision with other spacefaring objects, and create reports of [PAWN_possessive] findings for the corporation.</UB_Seal_AsteroidMapper.description>
+  <UB_Seal_NeonArtist.title>neon artist</UB_Seal_NeonArtist.title>
+  <UB_Seal_NeonArtist.titleShort>artist</UB_Seal_NeonArtist.titleShort>
+  <UB_Seal_NeonArtist.description>From the depths of the streets of an urbworld, [PAWN_nameDef] created neon signs for the shops and restaurants of the district. [PAWN_possessive] creations illuminated the walls where sunlight couldn't reach deep enough. [PAWN_pronoun] ended up becoming a local celebrity.</UB_Seal_NeonArtist.description>
+  <UB_Seal_UrbworldFisherman.title>urbworld fisherman</UB_Seal_UrbworldFisherman.title>
+  <UB_Seal_UrbworldFisherman.titleShort>fisherman</UB_Seal_UrbworldFisherman.titleShort>
+  <UB_Seal_UrbworldFisherman.description>[PAWN_nameDef] fished in the great canals of [PAWN_possessive] homeworld, in the shadows of the colossal towers of the city. [PAWN_possessive] catch tasted muddy and sour, but it was easily sold at a low price to the poor folks that had no access to hydroponic food.</UB_Seal_UrbworldFisherman.description>
+  <UB_Seal_MechanoidOntologist.title>mechanoid ontologist</UB_Seal_MechanoidOntologist.title>
+  <UB_Seal_MechanoidOntologist.titleShort>mech grower</UB_Seal_MechanoidOntologist.titleShort>
+  <UB_Seal_MechanoidOntologist.description>[PAWN_nameDef] supervised mechanoid gestation for a corporation, carefully monitoring each step of development of experimental models. After countless failed growths, [PAWN_pronoun] became used to diagnosing mechanites tumors, which was the most common case of degenerated growth.</UB_Seal_MechanoidOntologist.description>
+  <UB_Seal_BodySmuggler.title>body smuggler</UB_Seal_BodySmuggler.title>
+  <UB_Seal_BodySmuggler.titleShort>nurse</UB_Seal_BodySmuggler.titleShort>
+  <UB_Seal_BodySmuggler.description>[PAWN_nameDef] played an essential role in a human trafficking organization. Employed as a nurse in a low-strata hospital complex, [PAWN_pronoun] provided them live people that would become slaves, organ donors or test subjects. It was surprisingly easy to discreetly take away patients under anesthesia. Life on an overpopulated urbworld being what it is, nobody ever bothered to search for them.\n\nWhen the administrators began to suspect something, [PAWN_nameDef] quietly resigned.</UB_Seal_BodySmuggler.description>
+  <UB_Seal_OrganExtractor.title>organ extractor</UB_Seal_OrganExtractor.title>
+  <UB_Seal_OrganExtractor.titleShort>surgeon</UB_Seal_OrganExtractor.titleShort>
+  <UB_Seal_OrganExtractor.description>[PAWN_nameDef] did the dirty job for an organ trafficking organization. They would provide [PAWN_objective] a body, and [PAWN_pronoun] extracted the valuable organs. [PAWN_pronoun] never knew what the people became after the procedure and never really cared. The least [PAWN_pronoun] would do for them was to prevent them from getting septicemia, the rest was not [PAWN_possessive] problem.</UB_Seal_OrganExtractor.description>
+  <UB_Seal_Partygoer.title>party guy</UB_Seal_Partygoer.title>
+  <UB_Seal_Partygoer.titleFemale>party girl</UB_Seal_Partygoer.titleFemale>
+  <UB_Seal_Partygoer.titleShort>partygoer</UB_Seal_Partygoer.titleShort>
+  <UB_Seal_Partygoer.description>Partying was the most essential part of [PAWN_nameDef]'s life. Almost every night was spent with either [PAWN_possessive] friends or people [PAWN_pronoun] had never met before, drinking and dancing until dawn. Often, [PAWN_pronoun] managed to sneak into classy receptions [PAWN_pronoun] never would have been invited to.</UB_Seal_Partygoer.description>
+  <UB_Seal_GlitterworldChef.title>glitterworld chef</UB_Seal_GlitterworldChef.title>
+  <UB_Seal_GlitterworldChef.titleShort>chef</UB_Seal_GlitterworldChef.titleShort>
+  <UB_Seal_GlitterworldChef.description>[PAWN_nameDef] was a renowned chef on a glitterworld. Considering [PAWN_objective]self more like an artist than a cook, [PAWN_pronoun] strongly believed that gastronomy was not a task mechanoids or any automated system was able to do. [PAWN_pronoun] created elaborate dishes with various exotic ingredients and extravagant dressing. People came in [PAWN_possessive] restaurant from all around the planet just to taste the new menu.</UB_Seal_GlitterworldChef.description>
+  <UB_Seal_Railgunner.title>railgunner</UB_Seal_Railgunner.title>
+  <UB_Seal_Railgunner.titleShort>soldier</UB_Seal_Railgunner.titleShort>
+  <UB_Seal_Railgunner.description>[PAWN_nameDef] was a soldier and an excellent sharpshooter. Carrying a portable railgun, [PAWN_pronoun] stayed several hundred meters behind the frontline protecting [PAWN_possessive] squadron with devastating shots. [PAWN_pronoun] knew how to find the weak points on the mechanoids and could blow up a centipede with a single well-placed shot.</UB_Seal_Railgunner.description>
+  <UB_Seal_AntimatterCarrier.title>antimatter carrier</UB_Seal_AntimatterCarrier.title>
+  <UB_Seal_AntimatterCarrier.titleShort>carrier</UB_Seal_AntimatterCarrier.titleShort>
+  <UB_Seal_AntimatterCarrier.description>In dire need of money, [PAWN_nameDef] signed up to become an antimatter carrier. While he simply had to regularly transport several antimatter grains a dozen kilometers away, the job was extremely dangerous, as any small accident could have devastating consequences. Preferring to be overcautious, [PAWN_pronoun] often personally checked the proper functioning of the antimatter isolation systems.\n\nAfter several of [PAWN_possessive] colleagues were obliterated in tragic accidents, [PAWN_pronoun] decided to finally resign.</UB_Seal_AntimatterCarrier.description>
+</LanguageData>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <UB_BTC_Adulthood_ShadowChancellor.title>shadow chancellor</UB_BTC_Adulthood_ShadowChancellor.title>
+  <UB_BTC_Adulthood_ShadowChancellor.titleShort>chancellor</UB_BTC_Adulthood_ShadowChancellor.titleShort>
+  <UB_BTC_Adulthood_Commissioner.title>discipline officer</UB_BTC_Adulthood_Commissioner.title>
+  <UB_BTC_Adulthood_Commissioner.titleShort>officer</UB_BTC_Adulthood_Commissioner.titleShort>
+  <UB_BTC_Adulthood_Commissioner.description>[PAWN_nameDef] enforced the Stellarch's will across imperial legions. [PAWN_pronoun] crushed rebellions through public floggings and ammunition rationing, developing perfect blade control from executing deserters.</UB_BTC_Adulthood_Commissioner.description>
+  <UB_BTC_Adulthood_Groundskeeper.title>palace groundskeeper</UB_BTC_Adulthood_Groundskeeper.title>
+  <UB_BTC_Adulthood_Groundskeeper.titleShort>groundskeeper</UB_BTC_Adulthood_Groundskeeper.titleShort>
+  <UB_BTC_Adulthood_Groundskeeper.description>[PAWN_nameDef] maintained ornamental gardens for imperial nobles. [PAWN_pronoun] perfected rose grafting and hedge sculpting, often collaborating with royal architects on greenhouse placements.</UB_BTC_Adulthood_Groundskeeper.description>
+  <UB_BTC_Adulthood_RoyalGuard01.title>royal guard</UB_BTC_Adulthood_RoyalGuard01.title>
+  <UB_BTC_Adulthood_RoyalGuard01.titleShort>guard</UB_BTC_Adulthood_RoyalGuard01.titleShort>
+  <UB_BTC_Adulthood_RoyalGuard01.description>[PAWN_nameDef] swore blood oaths to protect the Stellarch's inner chambers. [PAWN_pronoun] trained daily following the royal guard strict regimen, developing the ability to spot menaces not visible to untrained eyes. [PAWN_possessive] vow demands lethal force against any unauthorized approach, even former comrades.</UB_BTC_Adulthood_RoyalGuard01.description>
+  <UB_BTC_Adulthood_RoyalGuard02.title>chamber sentinel</UB_BTC_Adulthood_RoyalGuard02.title>
+  <UB_BTC_Adulthood_RoyalGuard02.titleShort>sentinel</UB_BTC_Adulthood_RoyalGuard02.titleShort>
+  <UB_BTC_Adulthood_RoyalGuard02.description>[PAWN_nameDef] protected high-ranking nobles in the imperial court. [PAWN_pronoun] learned to spot concealed weapons during audiences and defuse conflicts with measured words, though [PAWN_pronoun] never touched a tool in [PAWN_possessive] life.</UB_BTC_Adulthood_RoyalGuard02.description>
+  <UB_BTC_Adulthood_ImperialAttache.title>imperial attache</UB_BTC_Adulthood_ImperialAttache.title>
+  <UB_BTC_Adulthood_ImperialAttache.titleShort>attache</UB_BTC_Adulthood_ImperialAttache.titleShort>
+  <UB_BTC_Adulthood_ForgottenVizier.title>forgotten vizier</UB_BTC_Adulthood_ForgottenVizier.title>
+  <UB_BTC_Adulthood_ForgottenVizier.titleShort>vizier</UB_BTC_Adulthood_ForgottenVizier.titleShort>
+  <UB_BTC_Adulthood_Duelist01.title>duelist</UB_BTC_Adulthood_Duelist01.title>
+
+<UB_BTC_Adulthood_Duelist01.description>[PAWN_nameDef] orchestrated a long political crisis that bankrupted two stellar nations while enriching [PAWN_possessive] secret allies.
+\nWhen exposed, [PAWN_pronoun] surrendered power dramatically, knowing the ensuing chaos would make [PAWN_objective] indispensable. Now [PAWN_nameDef] whispers counsel to rimworld leaders, [PAWN_possessive] "exile" carefully staged to position [PAWN_objective] as the only solution to crises [PAWN_pronoun] discreetly engineers.</UB_BTC_Adulthood_Duelist01.description>
+<UB_BTC_Adulthood_ForgottenVizier.description>[PAWN_nameDef] orchestrated a long political crisis that bankrupted two stellar nations while enriching [PAWN_possessive] secret allies.
+\nWhen exposed, [PAWN_pronoun] surrendered power dramatically, knowing the ensuing chaos would make [PAWN_objective] indispensable. Now [PAWN_nameDef] whispers counsel to rimworld leaders, [PAWN_possessive] "exile" carefully staged to position [PAWN_objective] as the only solution to crises [PAWN_pronoun] discreetly engineers.</UB_BTC_Adulthood_ForgottenVizier.description>
+<UB_BTC_Adulthood_ImperialAttache.description>[PAWN_nameDef] orchestrated a long political crisis that bankrupted two stellar nations while enriching [PAWN_possessive] secret allies.
+\nWhen exposed, [PAWN_pronoun] surrendered power dramatically, knowing the ensuing chaos would make [PAWN_objective] indispensable. Now [PAWN_nameDef] whispers counsel to rimworld leaders, [PAWN_possessive] "exile" carefully staged to position [PAWN_objective] as the only solution to crises [PAWN_pronoun] discreetly engineers.</UB_BTC_Adulthood_ImperialAttache.description>
+<UB_BTC_Adulthood_ShadowChancellor.description>[PAWN_nameDef] orchestrated a long political crisis that bankrupted two stellar nations while enriching [PAWN_possessive] secret allies.
+\nWhen exposed, [PAWN_pronoun] surrendered power dramatically, knowing the ensuing chaos would make [PAWN_objective] indispensable. Now [PAWN_nameDef] whispers counsel to rimworld leaders, [PAWN_possessive] "exile" carefully staged to position [PAWN_objective] as the only solution to crises [PAWN_pronoun] discreetly engineers.</UB_BTC_Adulthood_ShadowChancellor.description>
+</LanguageData>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <UB_BTC_ScarletCrusader01.title>scarlet crusader</UB_BTC_ScarletCrusader01.title>
+  <UB_BTC_ScarletCrusader01.titleShort>crusader</UB_BTC_ScarletCrusader01.titleShort>
+  <UB_BTC_ScarletCrusader02.title>scarlet purifier</UB_BTC_ScarletCrusader02.title>
+  <UB_BTC_ScarletCrusader02.titleShort>purifier</UB_BTC_ScarletCrusader02.titleShort>
+  <UB_BTC_ScarletCrusader03.title>scarlet defender</UB_BTC_ScarletCrusader03.title>
+  <UB_BTC_ScarletCrusader03.titleShort>defender</UB_BTC_ScarletCrusader03.titleShort>
+  <UB_BTC_ScarletCrusader04.title>scarlet bishop</UB_BTC_ScarletCrusader04.title>
+  <UB_BTC_ScarletCrusader04.titleShort>bishop</UB_BTC_ScarletCrusader04.titleShort>
+  <UB_BTC_TheHound.title>noble’s dog</UB_BTC_TheHound.title>
+  <UB_BTC_TheHound.titleFemale>noble’s bitch</UB_BTC_TheHound.titleFemale>
+  <UB_BTC_TheHound.titleShort>dog</UB_BTC_TheHound.titleShort>
+  <UB_BTC_TheHound.titleShortFemale>bitch</UB_BTC_TheHound.titleShortFemale>
+
+<UB_BTC_ScarletCrusader01.description>[PAWN_nameDef] waged war against the shamblers—cursed undead that mocked the purity of life.
+\nWith fire and steel, [PAWN_pronoun] struck them down, seeking to cleanse the world of their corruption.</UB_BTC_ScarletCrusader01.description>
+<UB_BTC_ScarletCrusader02.description>[PAWN_nameDef] waged war against the shamblers—cursed undead that mocked the purity of life.
+\nWith fire and steel, [PAWN_pronoun] struck them down, seeking to cleanse the world of their corruption.</UB_BTC_ScarletCrusader02.description>
+<UB_BTC_ScarletCrusader03.description>[PAWN_nameDef] waged war against the shamblers—cursed undead that mocked the purity of life.
+\nWith fire and steel, [PAWN_pronoun] struck them down, seeking to cleanse the world of their corruption.</UB_BTC_ScarletCrusader03.description>
+<UB_BTC_ScarletCrusader04.description>[PAWN_nameDef] waged war against the shamblers—cursed undead that mocked the purity of life.
+\nWith fire and steel, [PAWN_pronoun] struck them down, seeking to cleanse the world of their corruption.</UB_BTC_ScarletCrusader04.description>
+<UB_BTC_TheHound.description>[PAWN_nameDef] waged war against the shamblers—cursed undead that mocked the purity of life.
+\nWith fire and steel, [PAWN_pronoun] struck them down, seeking to cleanse the world of their corruption.</UB_BTC_TheHound.description>
+</LanguageData>

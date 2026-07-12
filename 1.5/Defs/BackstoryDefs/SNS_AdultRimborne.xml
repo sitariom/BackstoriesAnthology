@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <BackstoryDef>
+    <defName>UB_SNS_RimBorne</defName>
+    <title>Horse thief</title>
+    <titleShort>Horse Thief</titleShort>
+    <slot>Adulthood</slot> <!--Adult or Child-->
+    <baseDesc>[PAWN_nameDef] was an adventurer in an outer rimworld. During a large conflict between two factions, [PAWN_nameDef] was accused of stealing a horse and arrested. [PAWN_pronoun] later was pardoned and freed after their execution was interrupted by a large mechanoid beast, who laid siege to the town.</baseDesc> <!--Use Namedefs for name and pronouns-->
+    <bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale> <!-- Use Bodydefs for body types-->
+    <spawnCategories>
+      <li>Raider</li>
+      <li>Pirate</li> <!--Use SpawnDefs to define faction spawnage-->
+    </spawnCategories>
+    <skillGains>
+      <Melee>4</Melee>
+      <Plants>2</Plants>    <!--UseSkilldeffs PROPERLY to make the skills go up and down, Wheee!-->
+      <Cooking>2</Cooking>
+      <Construction>-3</Construction>
+    </skillGains>
+    <workDisables> <!-- Use WorkDisables.png -->
+      <li>Animals</li>
+    </workDisables>
+  </BackstoryDef>
+</Defs>

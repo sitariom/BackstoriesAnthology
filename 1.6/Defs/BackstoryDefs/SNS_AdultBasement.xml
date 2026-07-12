@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <BackstoryDef>
+    <defName>UB_SNS_BasementDweller</defName>
+    <title>Basement dweller</title>
+    <titleShort>Basement dweller</titleShort>
+    <slot>Adulthood</slot> <!--Adult or Child-->
+    <baseDesc>[PAWN_nameDef] never learned to grow up or get a job, leading to them living in [PAWN_possessive] parent's basement for their adult life. They spent most of that time starting arguments with strangers online and playing violent video games.</baseDesc> <!--Use Namedefs for name and pronouns-->
+    <bodyTypeMale>Fat</bodyTypeMale>
+    <bodyTypeFemale>Fat</bodyTypeFemale> <!-- Use Bodydefs for body types-->
+    <spawnCategories>
+      <li>Raider</li>
+      <li>Civil</li> <!--Use SpawnDefs to define faction spawnage-->
+      <li>Outlander</li>
+      <li>Spacer</li>
+    </spawnCategories>
+    <skillGains>
+      <Social>-5</Social>
+      <Shooting>4</Shooting>    <!--UseSkilldeffs PROPERLY to make the skills go up and down, Wheee!-->
+      <Melee>4</Melee>
+    </skillGains>
+    <workDisables> <!-- Use Workdisables.png you dumbed ass -->
+      <li>Cleaning</li>
+      <li>PlantWork</li>
+    </workDisables>
+  </BackstoryDef>
+</Defs>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <BackstoryDef>
+    <slot>Childhood</slot>
+    <title>child mechanic</title>
+    <defName>UB_Seal_ChildMechanic</defName>
+    <titleShort>mechanic</titleShort>
+	  <description>[PAWN_nameDef] worked in a megawalker as a mechanic. [PAWN_possessive] small size allowed [PAWN_objective] to access cramped spaces to screw loosy bolts, fix some wires or open steam valves.\n\nThe job was scary at the beggining, but [PAWN_pronoun] quickly got used to it. With time, the loud roar of the engine even became comforting.</description>
+    <spawnCategories>
+      <li>Offworld</li>
+	    <li>Outlander</li>
+	    <li>ImperialCommon</li>
+    </spawnCategories>
+	  <bodyTypeMale>Thin</bodyTypeMale>
+	  <bodyTypeFemale>Thin</bodyTypeFemale>
+    <skillGains>
+      <Crafting>3</Crafting>
+	    <Construction>3</Construction>
+	    <Animals>-2</Animals>
+	    <Plants>-2</Plants>
+    </skillGains>
+    <forcedTraits>
+      <Undergrounder />
+    </forcedTraits>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Childhood</slot>
+    <title>paleonerd</title>
+    <defName>UB_Seal_Paleonerd</defName>
+    <titleShort>paleonerd</titleShort>
+	  <description>[PAWN_nameDef] was obsessed with dinosaurs. [PAWN_pronoun] dreamed of working in a laboratory creating them. [PAWN_pronoun] scoured the net looking for old articles on genetics or thousand-year-old accounts of treasure hunters finding stone skeletons underground.</description>
+    <spawnCategories>
+      <li>Offworld</li>
+	    <li>Outlander</li>
+    </spawnCategories>
+	  <bodyTypeMale>Thin</bodyTypeMale>
+	  <bodyTypeFemale>Female</bodyTypeFemale>
+    <skillGains>
+      <Intellectual>4</Intellectual>
+	    <Mining>2</Mining>
+	    <Animals>1</Animals>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Childhood</slot>
+    <title>miner</title>
+    <defName>UB_Seal_ChildMiner</defName>
+    <titleShort>miner</titleShort>
+	  <description>[PAWN_nameDef] lived in a small, particularly poor mining town. The local mine did not have the means to invest in advanced equipment and relied on human labor to extract rare metals.\n\nLike all the children, [PAWN_nameDef] worked at the mine after school. [PAWN_possessive] role was to push the carts of rubble up to the surface. [PAWN_pronoun] was often sent as a scout into the cavities that were too narrow for adults.</description>
+    <spawnCategories>
+      <li>Offworld</li>
+	    <li>Outlander</li>
+    </spawnCategories>
+	  <bodyTypeMale>Thin</bodyTypeMale>
+	  <bodyTypeFemale>Thin</bodyTypeFemale>
+    <skillGains>
+	    <Mining>3</Mining>
+	    <Animals>-1</Animals>
+	    <Plants>-1</Plants>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Childhood</slot>
+    <title>besieged city child</title>
+    <defName>UB_Seal_BesiegedCityChild</defName>
+    <titleShort>besieged</titleShort>
+	  <description>[PAWN_nameDef] spent most of [PAWN_possessive] childhood in a besieged city, stuck in a never ending war. [PAWN_pronoun] was teached how to hold a gun, participated in the renovations of the defenses and slept at night in a bomb shelter.\n\nLife was strange and death was everywhere. After a few months [PAWN_nameDef] learned to cohabit with the sound of the explosions.</description>
+    <spawnCategories>
+      <li>Offworld</li>
+	    <li>Outlander</li>
+	    <li>ImperialCommon</li>
+      <li>ImperialFighter</li>
+    </spawnCategories>
+	  <bodyTypeMale>Male</bodyTypeMale>
+	  <bodyTypeFemale>Female</bodyTypeFemale>
+    <skillGains>
+	    <Melee>2</Melee>
+	    <Shooting>3</Shooting>
+	    <Construction>3</Construction>
+	    <Plants>-1</Plants>
+	    <Animals>-1</Animals>
+    </skillGains>
+    <forcedTraits>
+      <VTE_Desensitized MayRequire="vanillaexpanded.vanillatraitsexpanded" />
+    </forcedTraits>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Childhood</slot>
+    <title>bird enthusiast</title>
+    <defName>UB_Seal_BirdEnthusiast</defName>
+    <titleShort>bird enthusiast</titleShort>
+	  <description>From the moment [PAWN_nameDef] began to observe birds by [PAWN_possessive] bedroom window, [PAWN_pronoun] developed an obsession for these winged creatures. [PAWN_pronoun] would go out and look at them with binoculars, learning to recognize the species [PAWN_pronoun] saw. Sometimes [PAWN_pronoun] would stumble upon unknown species or genetic creations which [PAWN_pronoun] would document as best as [PAWN_pronoun] could.</description>
+    <spawnCategories>
+      <li>Offworld</li>
+	    <li>Outlander</li>
+	    <li>ImperialCommon</li>
+      <li>Scientist</li>
+    </spawnCategories>
+	  <bodyTypeMale>Thin</bodyTypeMale>
+	  <bodyTypeFemale>Thin</bodyTypeFemale>
+    <skillGains>
+	    <Animals>3</Animals>
+      <Intellectual>3</Intellectual>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Childhood</slot>
+    <title>smooth brained</title>
+    <defName>UB_Seal_SmoothBrained</defName>
+    <titleShort>smooth brained</titleShort>
+	  <description>[PAWN_nameDef] was born on a glitterworld with a rare disease: [PAWN_possessive] brain was underdeveloped and stayed in some kind of fetal state. However, thanks to advanced medicinal technology and nanites, doctors managed to cure this rare condition in only a few years. [PAWN_pronoun] is now completely cured and [PAWN_possessive] intellectual skills are on par with those of other people.</description>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Scientist</li>
+    </spawnCategories>
+	  <bodyTypeMale>Thin</bodyTypeMale>
+	  <bodyTypeFemale>Thin</bodyTypeFemale>
+    <skillGains>
+	    <Medicine>1</Medicine>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Childhood</slot>
+    <title>abandoned shelter kid</title>
+    <defName>UB_Seal_AbandonedShelterKid</defName>
+    <titleShort>shelter kid</titleShort>
+	  <description>[PAWN_nameDef] was born in a post-apocalyptic world atomic shelter. The bunker was almost in ruins and only the basic life support system were working. The few people that lived here ate mutant mushrooms, hunted giant rats and drank polluted water.</description>
+    <spawnCategories>
+      <li>Offworld</li>
+    </spawnCategories>
+	  <bodyTypeMale>Thin</bodyTypeMale>
+	  <bodyTypeFemale>Thin</bodyTypeFemale>
+    <skillGains>
+	    <Melee>3</Melee>
+	    <Plants>1</Plants>
+      <Social>-4</Social>
+    
+<Intellectual>-2</Intellectual></skillGains><forcedTraits>
+	    <Immunity>1</Immunity>
+    </forcedTraits>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Childhood</slot>
+    <title>ship boy</title>
+    <titleFemale>ship girl</titleFemale>
+    <defName>UB_Seal_ShipChild</defName>
+    <titleShort>spacefarer</titleShort>
+	  <description>[PAWN_nameDef] grew up with the crew of a spaceship, travelling from one planet to another. While [PAWN_pronoun] almost never had any opportunity to socialize with other kids, [PAWN_pronoun] experienced things that other children could only dare dream of. [PAWN_pronoun] was teached mechanic, orbital maneuvers and physics.</description>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Scientist</li>
+	    <li>ImperialCommon</li>
+    </spawnCategories>
+	  <bodyTypeMale>Thin</bodyTypeMale>
+	  <bodyTypeFemale>Thin</bodyTypeFemale>
+    <skillGains>
+	    <Social>-4</Social>
+	    <Crafting>2</Crafting>
+	    <Intellectual>3</Intellectual>
+	    <Construction>2</Construction>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Childhood</slot>
+    <title>fanfiction writer</title>
+    <defName>UB_Seal_FanfictionWriter</defName>
+    <titleShort>writer</titleShort>
+	  <description>[PAWN_nameDef] spent most of [PAWN_possessive] free time writing stories about his [PAWN_possessive] favorite characters. [PAWN_pronoun] shared [PAWN_possessive] writings on the net on a niche forum.</description>
+    <spawnCategories>
+      <li>Offworld</li>
+    </spawnCategories>
+	  <bodyTypeMale>Thin</bodyTypeMale>
+	  <bodyTypeFemale>Thin</bodyTypeFemale>
+    <skillGains>
+      <Artistic>3</Artistic>
+	    <Social>2</Social>
+    </skillGains>
+	  <possessions>
+      <Novel>1</Novel>
+    </possessions>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Childhood</slot>
+    <title>joywired child</title>
+    <defName>UB_Seal_JoywiredChild</defName>
+    <titleShort>joywired</titleShort>
+	  <description>[PAWN_nameDef] was born at a time where it was unfortunately common to implant newborns with joywires. A few years later, this practice was banned and joywires made illegal on [PAWN_possessive] homeworld. The chip was removed surgically and [PAWN_nameDef] discovered how the world truly felt. The reeducation was never enough to heal the permanent scar those early years left on [PAWN_possessive] psyche.</description>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Pirate</li>
+    </spawnCategories>
+	  <bodyTypeMale>Thin</bodyTypeMale>
+	  <bodyTypeFemale>Thin</bodyTypeFemale>
+    <workDisables>
+	    <li>Caring</li>
+	    <li>Social</li>
+    </workDisables>
+    <forcedTraits>
+	    <NaturalMood>-2</NaturalMood>
+    </forcedTraits>
+  </BackstoryDef>
+
+</Defs>

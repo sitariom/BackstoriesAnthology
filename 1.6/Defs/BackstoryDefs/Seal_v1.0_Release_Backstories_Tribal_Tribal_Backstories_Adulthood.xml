@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>swamp hermit</title>
+    <defName>UB_Seal_SwampHermit</defName>
+    <titleShort>hermit</titleShort>
+	  <description>[PAWN_nameDef] lived as an hermit in a swamp, where [PAWN_pronoun] had built [PAWN_possessive] home. [PAWN_pronoun] considered it was [PAWN_possessive] swamp. Sometimes, when people passed through [PAWN_possessive] swamp, [PAWN_nameDef] would do all [PAWN_pronoun] could to scare the strangers away.\n\nIt was the good old time.</description>
+    <spawnCategories>
+      <li>Tribal</li>
+    </spawnCategories>
+	  <bodyTypeMale>Fat</bodyTypeMale>
+	  <bodyTypeFemale>Fat</bodyTypeFemale>
+    <skillGains>
+	   <Plants>4</Plants>
+      <Construction>4</Construction>
+    
+<Social>-4</Social></skillGains><requiredWorkTags>
+      <li>Constructing</li>
+    </requiredWorkTags>
+  <!-- Yes, Shrek. -->
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>brewer</title>
+    <defName>UB_Seal_Brewer</defName>
+    <titleShort>brewer</titleShort>
+    <description>[PAWN_nameDef] brewed beer for [PAWN_possessive] village. [PAWN_possessive] drinks were really appriciated by the tribe, and everyone praised [PAWN_objective] for that. At some point, [PAWN_pronoun] had earned as much respect as [PAWN_possessive] chief among [PAWN_possessive] people.</description>
+    <spawnCategories>
+      <li>Tribal</li>
+    </spawnCategories>
+	  <bodyTypeMale>Fat</bodyTypeMale>
+	  <bodyTypeFemale>Fat</bodyTypeFemale>
+    <skillGains>
+      <Social>5</Social>
+      <Cooking>5</Cooking>
+    </skillGains>
+	  <requiredWorkTags>
+      <li>Cooking</li>
+	    <li>Social</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>megafauna hunter</title>
+    <defName>UB_Seal_MegafaunaHunter</defName>
+    <titleShort>hunter</titleShort>
+	  <description>[PAWN_nameDef] travelled the world as a hunter, always seeking bigger and bigger preys. [PAWN_pronoun] hunted more for the honor than the food, and sometimes didn't even bothered to butcher the animal.\n\nWith time, the primal rush of killing a six meters tall mammoth began to fade. [PAWN_nameDef] yearns to find a more ferocious prey.</description>
+    <spawnCategories>
+      <li>Tribal</li>
+	    <li>TribalHunter</li>
+    </spawnCategories>
+	  <bodyTypeMale>Hulk</bodyTypeMale>
+	  <bodyTypeFemale>Hulk</bodyTypeFemale>
+    <skillGains>
+	    <Animals>4</Animals>
+      <Melee>4</Melee>
+      <Shooting>6</Shooting>
+    </skillGains>
+    <forcedTraits>
+      <Tough />
+    </forcedTraits><requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>cave painter</title>
+    <defName>UB_Seal_CavePainter</defName>
+    <titleShort>painter</titleShort>
+	  <description>[PAWN_nameDef] was the best artist of [PAWN_possessive] tribe. [PAWN_pronoun] painted abstract patterns and hunting scenes on all types of objects: from pebbles to enormous rocks. [PAWN_pronoun] reserved [PAWN_possessive] masterpieces for the deep caves, braving the darkness to paint impressive frescoes there.</description>
+    <spawnCategories>
+      <li>Tribal</li>
+    </spawnCategories>
+	  <bodyTypeMale>Male</bodyTypeMale>
+	  <bodyTypeFemale>Female</bodyTypeFemale>
+    <skillGains>
+	    <Artistic>6</Artistic>
+      <Melee>-2</Melee>
+      <Shooting>-3</Shooting>
+    </skillGains>
+	  <requiredWorkTags>
+      <li>Artistic</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>travelling trader</title>
+    <defName>UB_Seal_TravellingTrader</defName>
+    <titleShort>painter</titleShort>
+	  <description>Traversing forests and deserts, [PAWN_nameDef] was a traveling merchant, roaming alone with [PAWN_possessive] mule. [PAWN_pronoun] represented the only link between isolated villages and large cities.\n\n[PAWN_possessive] expeditions taught him to fend for [PAWN_objective]self in nature.</description>
+    <spawnCategories>
+      <li>Tribal</li>
+    </spawnCategories>
+	  <bodyTypeMale>Male</bodyTypeMale>
+	  <bodyTypeFemale>Female</bodyTypeFemale>
+    <skillGains>
+	    <Social>5</Social>
+      <Crafting>2</Crafting>
+      <Animals>3</Animals>
+      <Mining>-3</Mining>
+    </skillGains>
+	  <requiredWorkTags>
+      <li>Social</li>
+	    <li>Animals</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>brick maker</title>
+    <defName>UB_Seal_BrickMaker</defName>
+    <titleShort>brick maker</titleShort>
+	  <description>[PAWN_nameDef] made bricks from mud for [PAWN_possessive] village. [PAWN_pronoun] collected the materials, made the molds and sun-dried the bricks. [PAWN_pronoun] managed to work with very large batches and was an essential member of [PAWN_possessive] community.</description>
+    <spawnCategories>
+      <li>Tribal</li>
+    </spawnCategories>
+	  <bodyTypeMale>Male</bodyTypeMale>
+	  <bodyTypeFemale>Female</bodyTypeFemale>
+    <skillGains>
+	    <Construction>5</Construction>
+      <Crafting>3</Crafting>
+    </skillGains>
+	  <requiredWorkTags>
+      <li>Constructing</li>
+	    <li>Crafting</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>lone flautist</title>
+    <defName>UB_Seal_LoneFlautist</defName>
+    <titleShort>flautist</titleShort>
+	  <description>[PAWN_nameDef] was an outstanding flautist. [PAWN_pronoun] would often go into the wilderness alone, find a calm place and play [PAWN_possessive] flute all day and night. [PAWN_possessive] melodies were peaceful and sometimes attracted some curious animals.</description>
+    <spawnCategories>
+      <li>Tribal</li>
+    </spawnCategories>
+	  <bodyTypeMale>Thin</bodyTypeMale>
+	  <bodyTypeFemale>Female</bodyTypeFemale>
+    <skillGains>
+	    <Artistic>5</Artistic>
+      <Plants>1</Plants>
+      <Animals>3</Animals>
+    
+<Melee>-2</Melee><Shooting>-2</Shooting></skillGains>
+    <forcedTraits>
+      <ST_Virtuoso MayRequire="Goji.TheSimsTraits,Ludeon.RimWorld.Royalty" />
+    </forcedTraits><requiredWorkTags>
+      <li>Artistic</li>
+	    <li>Animals</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>shepherd</title>
+    <defName>UB_Seal_Sheperd</defName> <!-- "Sheperd" is John Mass Effect - not the person who has sheeps. Woops, corrected in v1.1.1-->
+    <titleShort>shepherd</titleShort>
+	  <description>As a shepherd, [PAWN_nameDef] spent a lot of time alone in the hills with [PAWN_possessive] herd. [PAWN_pronoun] made a living selling wool and meat back in the village.</description>
+    <spawnCategories>
+      <li>Tribal</li>
+	    <li>TribalFarmer</li>
+    </spawnCategories>
+	  <bodyTypeMale>Male</bodyTypeMale>
+	  <bodyTypeFemale>Female</bodyTypeFemale>
+    <skillGains>
+      <Animals>5</Animals>
+      <Social>-2</Social>
+    </skillGains>
+    <forcedTraits>
+      <VTE_Menagerist MayRequire="vanillaexpanded.vanillatraitsexpanded" />
+    </forcedTraits>
+	  <requiredWorkTags>
+	    <li>Animals</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>megalith builder</title>
+    <defName>UB_Seal_MegalithBuilder</defName>
+    <titleShort>builder</titleShort>
+	  <description>[PAWN_nameDef] built megaliths in honor of higher powers. [PAWN_pronoun] extracted gigantic stone blocks from cliffs and carried them with other builders to the spot where they would be erected. Sometimes the location chosed was several kilometers away. Such a journey required careful planning and lots of strength.</description>
+    <spawnCategories>
+      <li>Tribal</li>
+	    <li>TribalMiner</li>
+    </spawnCategories>
+	  <bodyTypeMale>Hulk</bodyTypeMale>
+	  <bodyTypeFemale>Hulk</bodyTypeFemale>
+    <skillGains>
+      <Construction>3</Construction>
+      <Mining>4</Mining>
+      <Artistic>1</Artistic>
+    </skillGains>
+    <forcedTraits>
+      <Tough />
+    </forcedTraits>
+	  <requiredWorkTags>
+	    <li>Constructing</li>
+	    <li>Mining</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>bone crafter</title>
+    <defName>UB_Seal_BoneCrafter</defName>
+    <titleShort>crafter</titleShort>
+	  <description>[PAWN_nameDef] used to wander the forest and the littoral looking for wild animal skeletons. After an attentive cleaning process, [PAWN_pronoun] would craft trinkets out of the bones or put on display the most impressive skulls.</description>
+    <spawnCategories>
+      <li>Tribal</li>
+    </spawnCategories>
+	  <bodyTypeMale>Male</bodyTypeMale>
+	  <bodyTypeFemale>Female</bodyTypeFemale>
+    <skillGains>
+      <Animals>1</Animals>
+      <Crafting>2</Crafting>
+      <Artistic>3</Artistic>
+    </skillGains>
+	  <requiredWorkTags>
+	    <li>Crafting</li>
+	    <li>Artistic</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+
+</Defs>

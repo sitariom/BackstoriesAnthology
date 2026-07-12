@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <UB_Tribal_AspiringHunter.title>Aspiring hunter</UB_Tribal_AspiringHunter.title>
+  <UB_Tribal_AspiringHunter.titleShort>Hunter</UB_Tribal_AspiringHunter.titleShort>
+  <UB_Tribal_AspiringHunter.description>[PAWN_nameDef] greatly admired the hunters of [PAWN_possessive] tribe. [PAWN_pronoun] would often shirk [PAWN_possessive] chores to sneak away and practice with [PAWN_possessive] toy bow and arrow.</UB_Tribal_AspiringHunter.description>
+  <UB_Tribal_ChildWarrior.title>Child warrior</UB_Tribal_ChildWarrior.title>
+  <UB_Tribal_ChildWarrior.titleShort>Warrior</UB_Tribal_ChildWarrior.titleShort>
+  <UB_Tribal_ChildWarrior.description>After many years of war with a much stronger tribe, [PAWN_nameDef]’s people were all but wiped out. With very few able-bodied adults left to fight, the children of the tribe, including [PAWN_nameDef], were forced to take up arms to defend their homes and loved ones.</UB_Tribal_ChildWarrior.description>
+  <UB_Tribal_ApprenticeHealer.title>Apprentice healer</UB_Tribal_ApprenticeHealer.title>
+  <UB_Tribal_ApprenticeHealer.titleShort>Healer</UB_Tribal_ApprenticeHealer.titleShort>
+  <UB_Tribal_ApprenticeHealer.description>[PAWN_nameDef] was chosen to be trained as a healer. [PAWN_possessive] tribe’s kindly medicine woman was a skilled and patient teacher, and taught [PAWN_nameDef] how to tend to the sick, as well as how to grow healing herbs. </UB_Tribal_ApprenticeHealer.description>
+  <UB_Tribal_RaisedByWolves.title>Raised by wolves</UB_Tribal_RaisedByWolves.title>
+  <UB_Tribal_RaisedByWolves.titleShort>Wild child</UB_Tribal_RaisedByWolves.titleShort>
+  <UB_Tribal_RaisedByWolves.description>Whether on purpose or by accident, [PAWN_nameDef] was somehow seperated from [PAWN_possessive] parents as a baby. A pack of wolves came across the helpless infant and adopted [PAWN_objective] as one of their own. It wasn’t until many years later that [PAWN_nameDef] was finally found by a tribe of [PAWN_possessive] own species. By then, it was too late for [PAWN_objective] to fully learn many fundamental social skills.</UB_Tribal_RaisedByWolves.description>
+  <UB_Tribal_ApprenticeWeaver.title>Apprentice weaver</UB_Tribal_ApprenticeWeaver.title>
+  <UB_Tribal_ApprenticeWeaver.titleShort>Weaver</UB_Tribal_ApprenticeWeaver.titleShort>
+  <UB_Tribal_ApprenticeWeaver.description>[PAWN_nameDef] dexterously spun loose fibres into thread, which [PAWN_possessive] teacher then wove into clothing and other textiles for the tribe. [PAWN_nameDef] favourite part of [PAWN_possessive] work was helping to pick and prepare the plants for making the colourful dyes that were used for the thread.</UB_Tribal_ApprenticeWeaver.description>
+  <UB_Tribal_AnimalSlayer.title>Banished child</UB_Tribal_AnimalSlayer.title>
+  <UB_Tribal_AnimalSlayer.titleShort>Banished</UB_Tribal_AnimalSlayer.titleShort>
+  <UB_Tribal_AnimalSlayer.description>[PAWN_nameDef]’s actions led to the death of one [PAWN_possessive] tribe’s most sacred animals. While normally the punishment for such a crime was death, the tribe elders’ took [PAWN_nameDef]’s young age into account, and instead sent [PAWN_objective] to live with another tribe.</UB_Tribal_AnimalSlayer.description>
+  <UB_Tribal_CreepyChild.title>Creepy child</UB_Tribal_CreepyChild.title>
+  <UB_Tribal_CreepyChild.description>The other children of [PAWN_nameDef]’s tribe always did their best to avoid [PAWN_objective]. Even the adults gave [PAWN_objective] a wide berth. There was just something off about [PAWN_objective]. [PAWN_nameDef] spent most of [PAWN_possessive] time alone, throwing rocks at defenseless animals.</UB_Tribal_CreepyChild.description>
+  <UB_Tribal_TwigCollector.title>Twig collector</UB_Tribal_TwigCollector.title>
+  <UB_Tribal_TwigCollector.titleShort>Gatherer</UB_Tribal_TwigCollector.titleShort>
+  <UB_Tribal_TwigCollector.description>[PAWN_nameDef] helped to collect twigs and branches to keep [PAWN_possessive] tribe’s fires lit. [PAWN_pronoun] enjoyed stacking the twigs up into little forts and tepees, discovering how to make sturdier and sturdier versions of the tiny structures.</UB_Tribal_TwigCollector.description>
+  <UB_Tribal_Winterborn.title>Winterborn</UB_Tribal_Winterborn.title>
+  <UB_Tribal_Winterborn.description>According to the beliefs of [PAWN_nameDef]’s tribe, children who are born during harsh winters and survive are destined to become mighty warriors. [PAWN_nameDef] was born during just such a winter.</UB_Tribal_Winterborn.description>
+  <UB_Tribal_ExileChild.title>Child of an exile</UB_Tribal_ExileChild.title>
+  <UB_Tribal_ExileChild.titleShort>Exile</UB_Tribal_ExileChild.titleShort>
+  <UB_Tribal_ExileChild.description>[PAWN_nameDef]’s mother was exiled from her village while she was pregnant with [PAWN_objective]. She raised [PAWN_nameDef] alone as best she could, teaching [PAWN_objective] how to survive in the wilderness without the support of a tribe. </UB_Tribal_ExileChild.description>
+  <UB_Tribal_TreeClimber.title>Tree climber</UB_Tribal_TreeClimber.title>
+  <UB_Tribal_TreeClimber.description>[PAWN_nameDef] loved climbing trees more than anything else. [PAWN_pronoun] could climb higher than any of the other children in [PAWN_possessive] tribe, and enjoyed spending time watching the world below from up in the branches of the tallest trees.</UB_Tribal_TreeClimber.description>
+  <UB_Tribal_DollMaker.title>Doll maker</UB_Tribal_DollMaker.title>
+  <UB_Tribal_DollMaker.description>[PAWN_nameDef] was often put in charge of watching over the younger children. To entertain them, [PAWN_pronoun] learned to make dolls out of dried leaves. [PAWN_possessive] dolls were so popular that [PAWN_pronoun] was eventually given other, more valuable, materials to make them with.</UB_Tribal_DollMaker.description>
+  <UB_Tribal_TroubleMaker.title>Troublemaker</UB_Tribal_TroubleMaker.title>
+  <UB_Tribal_TroubleMaker.description>[PAWN_nameDef] was constantly up to no good. Stealing and hiding things, harassing animals, and taunting the other children, [PAWN_pronoun] always found a way to make a nuisance of [PAWN_objective]self. As punishment, [PAWN_nameDef] was often sent to bed with no supper, but [PAWN_pronoun] would simply sneak out of bed and cook something for [PAWN_objective]self.</UB_Tribal_TroubleMaker.description>
+  <UB_Tribal_BaitCollector.title>Bait collector</UB_Tribal_BaitCollector.title>
+  <UB_Tribal_BaitCollector.description>[PAWN_nameDef] dug in the dirt to collect worms and grubs for [PAWN_possessive] tribe’s fishers to use as bait. When [PAWN_pronoun] was particularly successful, [PAWN_pronoun] would feed some of the spare bugs to the birds, daydreaming about what it might be like to fly as [PAWN_pronoun] watched them.</UB_Tribal_BaitCollector.description>
+  <UB_Tribal_MudMixer.title>Mud mixer</UB_Tribal_MudMixer.title>
+  <UB_Tribal_MudMixer.description>[PAWN_nameDef] helped to mix the mud and clay mixture that [PAWN_possessive] tribe’s builders used to make bricks. The builders often allowed [PAWN_objective] to watch them work, teaching [PAWN_objective] the best way to lay the bricks to create sturdy structures.</UB_Tribal_MudMixer.description>
+  <UB_Tribal_CannibalChild.title>Cannibal child</UB_Tribal_CannibalChild.title>
+  <UB_Tribal_CannibalChild.description>[PAWN_nameDef]’s tribe faced starvation when [PAWN_pronoun] was barely a year old. Desperate to keep their child alive, [PAWN_nameDef]‘s parents did what they felt they had to do, and fed [PAWN_objective] the flesh of a tribe member who had recently died.</UB_Tribal_CannibalChild.description>
+  <UB_Tribal_BoardGameMaster.title>Board game master</UB_Tribal_BoardGameMaster.title>
+  <UB_Tribal_BoardGameMaster.titleShort>Strategist</UB_Tribal_BoardGameMaster.titleShort>
+  <UB_Tribal_BoardGameMaster.description>[PAWN_nameDef] loved to play board games and was constantly begging the other children of [PAWN_possessive] village to play The Game of Ur with [PAWN_objective]. A kind craftsman noticed [PAWN_nameDef]’s passion, and showed [PAWN_objective] how to make [PAWN_possessive] own custom gameboard.</UB_Tribal_BoardGameMaster.description>
+  <UB_Tribal_Ward.title>Ward of the tribe</UB_Tribal_Ward.title>
+  <UB_Tribal_Ward.titleShort>Ward</UB_Tribal_Ward.titleShort>
+  <UB_Tribal_Ward.description>[PAWN_nameDef] was sent to live with another tribe in order to secure and strengthen an alliance. Because the alliance would fall apart if [PAWN_pronoun] was harmed, [PAWN_nameDef] was assigned the relatively safe job of helping to mind the cooking fires.</UB_Tribal_Ward.description>
+  <UB_Tribal_PlagueSurvivor.title>Plague survivor</UB_Tribal_PlagueSurvivor.title>
+  <UB_Tribal_PlagueSurvivor.description>When plague struck [PAWN_nameDef]’s tribe, [PAWN_pronoun] was the only child to survive. [PAWN_pronoun] was quite lonely growing up, having no peers [PAWN_possessive] own age to talk to.</UB_Tribal_PlagueSurvivor.description>
+  <UB_Tribal_RockCollector.title>Rock collector</UB_Tribal_RockCollector.title>
+  <UB_Tribal_RockCollector.description>[PAWN_nameDef] spent [PAWN_possessive] free time collecting different types of rocks and minerals. [PAWN_pronoun] sometimes made simple jewelry out of [PAWN_possessive] favourite stones by tying them with twine.</UB_Tribal_RockCollector.description>
+  <UB_Tribal_CuriousChild.title>Curious child</UB_Tribal_CuriousChild.title>
+  <UB_Tribal_CuriousChild.description>[PAWN_nameDef] was naturally curious, constantly asking the adults of [PAWN_possessive] tribe questions about how things worked. Although this annoyed some, others were happy to teach [PAWN_nameDef] what [PAWN_pronoun] wanted to know.</UB_Tribal_CuriousChild.description>
+  <UB_Tribal_SpoiledChild.title>Spoiled child</UB_Tribal_SpoiledChild.title>
+  <UB_Tribal_SpoiledChild.description>[PAWN_nameDef] grew up during a time of plenty in a family that was particularly wealthy. [PAWN_pronoun] enjoyed being the envy of the other children in the village, and frequently got into fights and arguments.</UB_Tribal_SpoiledChild.description>
+  <UB_Tribal_CaravanChild.title>Caravan child</UB_Tribal_CaravanChild.title>
+  <UB_Tribal_CaravanChild.description>[PAWN_nameDef] frequently travelled with a trading caravan, helping the adults by tending to the pack animals. [PAWN_pronoun] got to see far-off places and met many interesting people.</UB_Tribal_CaravanChild.description>
+  <UB_Tribal_RatChaser.title>Rat chaser</UB_Tribal_RatChaser.title>
+  <UB_Tribal_RatChaser.description>[PAWN_nameDef] helped to chase away rats and other pests from [PAWN_possessive] village’s grain stores. [PAWN_pronoun] loved to play with the cats that hunted near the storage house.</UB_Tribal_RatChaser.description>
+  <UB_Tribal_CursedChild.title>Cursed child</UB_Tribal_CursedChild.title>
+  <UB_Tribal_CursedChild.description>[PAWN_nameDef] was frequently sick as a child, coming close to death many times. [PAWN_possessive] family believed [PAWN_pronoun] had been hexed by an evil witch doctor, and tried all manner of rituals and prayers in order to remove the curse. [PAWN_nameDef] became somewhat good at identifying plants from constantly being around healing herbs.</UB_Tribal_CursedChild.description>
+  <UB_Tribal_ChildSacrifice.title>Child sacrifice</UB_Tribal_ChildSacrifice.title>
+  <UB_Tribal_ChildSacrifice.description>[PAWN_nameDef] was chosen to be one of the children who were annually sacrificed to [PAWN_possessive] tribe’s gods, something that was considered a great honour. However, when the time came, [PAWN_nameDef] ran away. [PAWN_pronoun] survived on roots and berries in the wild until a different tribe, who worshiped gods that did not demand death, found [PAWN_objective].</UB_Tribal_ChildSacrifice.description>
+  <UB_Tribal_StolenChild.title>Stolen child</UB_Tribal_StolenChild.title>
+  <UB_Tribal_StolenChild.description>[PAWN_nameDef] was barely a toddler when [PAWN_pronoun] was kidnapped from [PAWN_possessive] settlement in a raid. The tribe who stole [PAWN_objective] believed that the advanced technology [PAWN_possessive] people had was magic, and that [PAWN_nameDef] was magic too. Although [PAWN_pronoun] did not manifest magical powers, the superior nutrition [PAWN_nameDef] received as an infant meant [PAWN_pronoun] was stronger than the other children in the tribe.</UB_Tribal_StolenChild.description>
+</LanguageData>

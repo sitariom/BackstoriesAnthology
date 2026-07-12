@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <BackstoryDef>
+    <defName>UB_SNS_prodigy</defName>
+    <title>Child prodigy</title>
+    <titleShort>Prodigy</titleShort>
+    <slot>Childhood</slot> <!--Adult or Child-->
+    <baseDesc>At a young age, [PAWN_nameDef] was exceptional at writing and understanding advanced code. [PAWN_nameDef]'s code was so advanced, they were easily able to code turrets that could avoid friendly fire, and make robotic limbs that worked better than the top-of-the-line models.</baseDesc> <!--Use Namedefs for name and pronouns-->
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale> <!-- Use Bodydefs for body types-->
+    <spawnCategories>
+      <li>Spacer</li>
+      <li>Civil</li> <!--Use SpawnDefs to define faction spawnage-->
+    </spawnCategories>
+    <skillGains>
+      <Intellectual>5</Intellectual>    <!--UseSkilldeffs PROPERLY to make the skills go up and down, Wheee!-->
+      <Crafting>4</Crafting>
+    </skillGains>
+    <workDisables> <!-- Use WorkDisables.png -->
+      <li>Violent</li>
+    </workDisables>
+  </BackstoryDef>
+</Defs>

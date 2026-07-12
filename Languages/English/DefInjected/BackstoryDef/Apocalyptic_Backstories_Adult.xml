@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <UB_Apoc_WastelandNomad1.title>Wasteland Nomad</UB_Apoc_WastelandNomad1.title>
+  <UB_Apoc_WastelandNomad1.titleShort>Nomad</UB_Apoc_WastelandNomad1.titleShort>
+  <UB_Apoc_WastelandNomad1.description>[PAWN_nameDef] used to believe that standing in one place was wrong. [PAWN_pronoun] traveled around, finding kibble for [PAWN_possessive] animals until they got infected with scaria and attacked [PAWN_objective]. </UB_Apoc_WastelandNomad1.description>
+  <UB_Apoc_WastelandDrifter2.title>Wasteland Drifter</UB_Apoc_WastelandDrifter2.title>
+  <UB_Apoc_WastelandDrifter2.titleShort>Drifter</UB_Apoc_WastelandDrifter2.titleShort>
+  <UB_Apoc_WastelandDrifter2.description>[PAWN_nameDef] was a member of a pirate gang and used to ride vehicles to the raids before [PAWN_possessive] crew got struck by an anomaly and [PAWN_possessive] vehicle exploded, leaving nothing but scrap. [PAWN_pronoun] still yearns for some driving. </UB_Apoc_WastelandDrifter2.description>
+  <UB_Apoc_TheChosenOne1.title>The Chosen One</UB_Apoc_TheChosenOne1.title>
+  <UB_Apoc_TheChosenOne1.titleShort>Metromule</UB_Apoc_TheChosenOne1.titleShort>
+  <UB_Apoc_TheChosenOne1.description>[PAWN_nameDef] lived inside an underground colony not so long ago, before it was raided by insectoids and fleshbeasts. Now [PAWN_pronoun] looks forward to getting revenge on those creatures who emerged from the underground. </UB_Apoc_TheChosenOne1.description>
+  <UB_Apoc_WastelandScavenger3.title>Bunker Scavenger</UB_Apoc_WastelandScavenger3.title>
+  <UB_Apoc_WastelandScavenger3.titleShort>Scavenger</UB_Apoc_WastelandScavenger3.titleShort>
+  <UB_Apoc_WastelandScavenger3.description>[PAWN_nameDef] used to scavenge old, abandoned bunkers after the apocalypse. [PAWN_pronoun] went crazy silent after [PAWN_pronoun] saw what was left from [PAWN_possessive] ancestors. </UB_Apoc_WastelandScavenger3.description>
+  <UB_Apoc_WastelandVaulter4.title>Vaulter</UB_Apoc_WastelandVaulter4.title>
+  <UB_Apoc_WastelandVaulter4.description>[PAWN_nameDef] lived off an underground bunker owned by the government. The Bunker’s citizens became dumb. Living many years underground and distancing themselves from humanity. [PAWN_pronoun] broke that cycle, leaving [PAWN_possessive] vault behind. [PAWN_pronoun] might be the only one seeing the sun on their bloodline.</UB_Apoc_WastelandVaulter4.description>
+  <UB_Apoc_WastelandCook5.title>Wasteland Cook</UB_Apoc_WastelandCook5.title>
+  <UB_Apoc_WastelandCook5.titleShort>Hungry</UB_Apoc_WastelandCook5.titleShort>
+  <UB_Apoc_WastelandCook5.description>[PAWN_nameDef] used to butcher and cook toxic animals near the polluted lands for [PAWN_possessive] camp as they had no food sources. [PAWN_pronoun] met [PAWN_possessive] demise after staying malnourished for many weeks. [PAWN_pronoun] had no choice but to eat [PAWN_possessive] own colleagues.</UB_Apoc_WastelandCook5.description>
+  <UB_Apoc_WastelandArtist6.title>Wasteland Artist</UB_Apoc_WastelandArtist6.title>
+  <UB_Apoc_WastelandArtist6.titleShort>Art</UB_Apoc_WastelandArtist6.titleShort>
+  <UB_Apoc_WastelandArtist6.description>[PAWN_nameDef] loves to make art in any possible way, from tattoos to graffiti, it's [PAWN_possessive] whole lifestyle! But due to the mechanoids' vast-technology ever expanding to make everything automated, [PAWN_pronoun] hates them so much as they lower the price of the artists.</UB_Apoc_WastelandArtist6.description>
+  <UB_Apoc_WastelandForager7.title>Wasteland Forager</UB_Apoc_WastelandForager7.title>
+  <UB_Apoc_WastelandForager7.titleShort>Forager</UB_Apoc_WastelandForager7.titleShort>
+  <UB_Apoc_WastelandForager7.description>[PAWN_nameDef] used to gather berries and other useful stuff from the local forest before [PAWN_possessive] colony died from food poisoning. [PAWN_pronoun] was tough enough to survive that. </UB_Apoc_WastelandForager7.description>
+  <UB_Apoc_WastelandProstitute8.title>Wasteland Prostitute</UB_Apoc_WastelandProstitute8.title>
+  <UB_Apoc_WastelandProstitute8.titleShort>Prostitute</UB_Apoc_WastelandProstitute8.titleShort>
+  <UB_Apoc_WastelandProstitute8.description>[PAWN_nameDef] used various methods to earn money, working as a Prostitute after the apocalypse. [PAWN_pronoun] sometimes didn't get paid, and things escalated into violence. Wasteland taught [PAWN_objective] a deep lesson. </UB_Apoc_WastelandProstitute8.description>
+  <UB_Apoc_WastelandSurvivor9.title>Cult Survivor</UB_Apoc_WastelandSurvivor9.title>
+  <UB_Apoc_WastelandSurvivor9.titleShort>Survivor</UB_Apoc_WastelandSurvivor9.titleShort>
+  <UB_Apoc_WastelandSurvivor9.description>[PAWN_nameDef] joined a cult after the apocalypse. [PAWN_pronoun] believed in their ways before being put as a sacrilegious offering on an altar and condemned to execution. [PAWN_pronoun] managed to escape through it at the cost of [PAWN_possessive] sanity. </UB_Apoc_WastelandSurvivor9.description>
+  <UB_Apoc_WastelandFighter10.title>Wasteland Fighter</UB_Apoc_WastelandFighter10.title>
+  <UB_Apoc_WastelandFighter10.titleShort>Wall</UB_Apoc_WastelandFighter10.titleShort>
+  <UB_Apoc_WastelandFighter10.description>[PAWN_nameDef] murdered countless people for the safety of [PAWN_possessive] colony. [PAWN_pronoun] Fought everyone on a last stand before they left [PAWN_objective] crumpled up. [PAWN_pronoun] is a wall that you can trust in any way.</UB_Apoc_WastelandFighter10.description>
+  <UB_Apoc_WastelandSettler11.title>Wasteland Settler</UB_Apoc_WastelandSettler11.title>
+  <UB_Apoc_WastelandSettler11.titleShort>Outpost</UB_Apoc_WastelandSettler11.titleShort>
+  <UB_Apoc_WastelandSettler11.description>[PAWN_nameDef] wants to form the most secure outpost ever. [PAWN_possessive] other attempts failed, either raided by pirates or mechanoids. [PAWN_pronoun] will pursue [PAWN_possessive] dreams no matter what. </UB_Apoc_WastelandSettler11.description>
+  <UB_Apoc_WastelandHazmat12.title>Wasteland Hazmat</UB_Apoc_WastelandHazmat12.title>
+  <UB_Apoc_WastelandHazmat12.titleShort>Hazmat</UB_Apoc_WastelandHazmat12.titleShort>
+  <UB_Apoc_WastelandHazmat12.description>[PAWN_nameDef] used to carry a mechanicator's wastepacks all over the rim. The toxic waste did not affect [PAWN_objective] that badly; [PAWN_pronoun] is looking forward to your labor with the Intelligence [PAWN_pronoun] gained working with the Mechanicator.</UB_Apoc_WastelandHazmat12.description>
+  <UB_Apoc_WastelandPostGuard13.title>Post Guard</UB_Apoc_WastelandPostGuard13.title>
+  <UB_Apoc_WastelandPostGuard13.description>[PAWN_nameDef] worked as a colony's Checkpoint Guard. [PAWN_pronoun] stood all day there watching shamblers and doing nothing. But still worked like a charm when the threats showed up.</UB_Apoc_WastelandPostGuard13.description>
+  <UB_Apoc_WastelandBounty14.title>Wanted Colonist</UB_Apoc_WastelandBounty14.title>
+  <UB_Apoc_WastelandBounty14.titleShort>Wanted</UB_Apoc_WastelandBounty14.titleShort>
+  <UB_Apoc_WastelandBounty14.description>[PAWN_nameDef] is wanted by the pirates because [PAWN_pronoun] couldn’t bear their cruelty anymore, and one night [PAWN_pronoun] released the shamblers that were locked in the camp's basement. [PAWN_pronoun]'s still on the run; some time has passed since [PAWN_possessive] escape.</UB_Apoc_WastelandBounty14.description>
+  <UB_Apoc_WastelandReporter15.title>City Reporter</UB_Apoc_WastelandReporter15.title>
+  <UB_Apoc_WastelandReporter15.titleShort>Reporter</UB_Apoc_WastelandReporter15.titleShort>
+  <UB_Apoc_WastelandReporter15.description>[PAWN_nameDef] worked as a reporter in a destroyed city. [PAWN_pronoun] usually made [PAWN_possessive] money off of making scenes and blaming it on the mutants. [PAWN_pronoun] obeys the rule of money.</UB_Apoc_WastelandReporter15.description>
+  <UB_Apoc_WastelandHunter16.title>Wasteland Hunter</UB_Apoc_WastelandHunter16.title>
+  <UB_Apoc_WastelandHunter16.titleShort>Hunter</UB_Apoc_WastelandHunter16.titleShort>
+  <UB_Apoc_WastelandHunter16.description>[PAWN_nameDef] lived on the edge of the rim, growing [PAWN_possessive] own crops and breeding [PAWN_possessive] animals. [PAWN_pronoun] lived a pretty chill life before the whole forest succumbed to the ever-growing pollution.</UB_Apoc_WastelandHunter16.description>
+  <UB_Apoc_WastelandFighter17.title>Retribution Fighter</UB_Apoc_WastelandFighter17.title>
+  <UB_Apoc_WastelandFighter17.titleShort>Fighter</UB_Apoc_WastelandFighter17.titleShort>
+  <UB_Apoc_WastelandFighter17.description>[PAWN_nameDef] believes in god's retribution. As those who commit wrong acts shall be inflicted with a punishment. [PAWN_pronoun] trained in that manner, saving people from the wrong's hands and murdering people who did evil. [PAWN_pronoun] also loves baking cookies after slaying [PAWN_possessive] enemies.</UB_Apoc_WastelandFighter17.description>
+  <UB_Apoc_WastelandRat18.title>Wasteland Rat</UB_Apoc_WastelandRat18.title>
+  <UB_Apoc_WastelandRat18.titleShort>Rat</UB_Apoc_WastelandRat18.titleShort>
+  <UB_Apoc_WastelandRat18.description>[PAWN_nameDef] used to scavenge outposts for people's belongings, [PAWN_pronoun] decorated [PAWN_possessive] own home with the stolen goods. Until [PAWN_pronoun] tried stealing from an empire base, which ended poorly as they captured [PAWN_objective] and threw [PAWN_objective] to the edge of the rim with a capsule full of toxic wastepack.</UB_Apoc_WastelandRat18.description>
+  <UB_Apoc_WastelandScrapper19.title>Scrapper</UB_Apoc_WastelandScrapper19.title>
+  <UB_Apoc_WastelandScrapper19.titleShort>Scrap</UB_Apoc_WastelandScrapper19.titleShort>
+  <UB_Apoc_WastelandScrapper19.description>[PAWN_nameDef] used materials such as components and corroded metals to make [PAWN_objective]self some sort of protective gear against the threats of the outer world, such as shamblers, insectoids, and even mechanoids. [PAWN_pronoun] still loves [PAWN_possessive] job.</UB_Apoc_WastelandScrapper19.description>
+  <UB_Apoc_WastelandBandit20.title>Caravan Bandit</UB_Apoc_WastelandBandit20.title>
+  <UB_Apoc_WastelandBandit20.titleShort>Bandit</UB_Apoc_WastelandBandit20.titleShort>
+  <UB_Apoc_WastelandBandit20.description>[PAWN_nameDef] used to assault several trade caravans with [PAWN_possessive] own group. They were pretty successful with it until one night, when [PAWN_pronoun] mistook a horde of shamblers for a caravan heading to a nearby settlement. [PAWN_possessive] the whole group was brutally murdered and eaten alive. Leaving [PAWN_possessive] stranded in this cold, dark world.</UB_Apoc_WastelandBandit20.description>
+  <UB_Apoc_WastelandBuilder21.title>City Builder</UB_Apoc_WastelandBuilder21.title>
+  <UB_Apoc_WastelandBuilder21.titleShort>Builder</UB_Apoc_WastelandBuilder21.titleShort>
+  <UB_Apoc_WastelandBuilder21.description>[PAWN_nameDef] lived in a destroyed city, where [PAWN_pronoun] would go around fixing people's buildings and barricades after they were attacked by eldritch creatures. [PAWN_pronoun] didn't ask for any money but for a stay there. [PAWN_pronoun] did meet great people by doing this, until [PAWN_pronoun] met disgusting people. They did unspeakable acts. Causing [PAWN_objective] to stop [PAWN_possessive] cause.</UB_Apoc_WastelandBuilder21.description>
+  <UB_Apoc_WastelandScientist22.title>Plague Bringer</UB_Apoc_WastelandScientist22.title>
+  <UB_Apoc_WastelandScientist22.titleShort>Plague</UB_Apoc_WastelandScientist22.titleShort>
+  <UB_Apoc_WastelandScientist22.description>[PAWN_nameDef] worked on a world-wide project on [PAWN_possessive] home planet that could save them from famine. [PAWN_pronoun] worked there as one of the scientists behind this project. The project ended up as a catastrophe, and the food created by the artifical machines came with the plague that wiped off everyone on [PAWN_possessive] planet. [PAWN_pronoun] boarded the only ship, leaving others to die.</UB_Apoc_WastelandScientist22.description>
+  <UB_Apoc_WastelandCaretaker23.title>Wasteland Caretaker</UB_Apoc_WastelandCaretaker23.title>
+  <UB_Apoc_WastelandCaretaker23.titleShort>Caretaker</UB_Apoc_WastelandCaretaker23.titleShort>
+  <UB_Apoc_WastelandCaretaker23.description>[PAWN_nameDef] used to help sick people in need after the apocalypse, spending from [PAWN_possessive] own for medicine and even stealing from others.[PAWN_pronoun]'s the kindest person you might ever see.</UB_Apoc_WastelandCaretaker23.description>
+  <UB_Apoc_WastelandLeech24.title>Wasteland Leech</UB_Apoc_WastelandLeech24.title>
+  <UB_Apoc_WastelandLeech24.titleShort>Leech</UB_Apoc_WastelandLeech24.titleShort>
+  <UB_Apoc_WastelandLeech24.description>[PAWN_nameDef] used to be a leech, acting as a private worker for some pirates during the apocalypse. [PAWN_pronoun] did all kinds of work that they wanted, not even caring about their gender. When some time passed, [PAWN_pronoun] betrayed them. Making them pay for all the stuff they did to [PAWN_objective].</UB_Apoc_WastelandLeech24.description>
+</LanguageData>

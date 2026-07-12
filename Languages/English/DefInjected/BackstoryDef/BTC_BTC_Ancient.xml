@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <UB_BTC_Vaultborn.title>vaultborn</UB_BTC_Vaultborn.title>
+  <UB_BTC_Vaultborn.description>[PAWN_nameDef] was born inside a massive underground vault, the last refuge of a collapsing empire. While other children played, [PAWN_pronoun] studied history, engineering, and survival—preparing for a world [PAWN_pronoun] would never see until it was too late.</UB_BTC_Vaultborn.description>
+  <UB_BTC_LastGeneration.title>last generation</UB_BTC_LastGeneration.title>
+  <UB_BTC_PrivateColony.title>private colony</UB_BTC_PrivateColony.title>
+  <UB_BTC_PrivateColony.titleShort>colonist</UB_BTC_PrivateColony.titleShort>
+  <UB_BTC_CloudWalker.title>cloud walker</UB_BTC_CloudWalker.title>
+  <UB_BTC_CloudWalker.titleShort>walker</UB_BTC_CloudWalker.titleShort>
+  <UB_BTC_CloudWalker.description>[PAWN_nameDef] grew between sky platforms harvesting atmospheric water vapor. Underfoot, perpetual fusion reactors hummed the city's lullaby.</UB_BTC_CloudWalker.description>
+  <UB_BTC_Hydronaut.title>hydronaut</UB_BTC_Hydronaut.title>
+  <UB_BTC_Hydronaut.description>[PAWN_nameDef] grew up beneath the waves, in a pressurized dome clinging to the ocean floor. Bioluminescent gardens and abyssal currents were [PAWN_possessive] childhood playground.</UB_BTC_Hydronaut.description>
+  <UB_BTC_Metropolitan.title>metropolitan</UB_BTC_Metropolitan.title>
+  <UB_BTC_Rimworld.title>rimworld</UB_BTC_Rimworld.title>
+  <UB_BTC_Rimworld.titleShort>rimworlder</UB_BTC_Rimworld.titleShort>
+  <UB_BTC_Glassborn.title>glassborn</UB_BTC_Glassborn.title>
+  <UB_BTC_Glassborn.description>[PAWN_nameDef] lived in a biodome, in one of the least habitable places on the planet. [PAWN_pronoun] was raised among artificial forests and sterile air, safe from the poisoned wasteland beyond.</UB_BTC_Glassborn.description>
+  <UB_BTC_Clanfolk.title>clanfolk</UB_BTC_Clanfolk.title>
+  <UB_BTC_Sleeper01.title>sleeper</UB_BTC_Sleeper01.title>
+  <UB_BTC_Sleeper01.description>[PAWN_nameDef] was nobody special. When the world burned, [PAWN_pronoun] ran—only to find [PAWN_objective]self in a facility offering ‘safe’ passage into the future. [PAWN_pronoun] took the deal. Now, centuries later, [PAWN_pronoun] woke up to a world even more hostile than the one [PAWN_pronoun] left.</UB_BTC_Sleeper01.description>
+  <UB_BTC_AncientTechnician01.title>ancient technician</UB_BTC_AncientTechnician01.title>
+  <UB_BTC_AncientTechnician01.titleShort>technician</UB_BTC_AncientTechnician01.titleShort>
+  <UB_BTC_AncientTechnician02.title>routine technician</UB_BTC_AncientTechnician02.title>
+  <UB_BTC_AncientTechnician02.titleShort>technician</UB_BTC_AncientTechnician02.titleShort>
+  <UB_BTC_LastDiplomat.title>last diplomat</UB_BTC_LastDiplomat.title>
+  <UB_BTC_LastDiplomat.titleShort>diplomat</UB_BTC_LastDiplomat.titleShort>
+  <UB_BTC_EternalRival.title>eternal rival</UB_BTC_EternalRival.title>
+  <UB_BTC_EternalRival.titleShort>rival</UB_BTC_EternalRival.titleShort>
+  <UB_BTC_CryptoInsurgent.title>crypto insurgent</UB_BTC_CryptoInsurgent.title>
+  <UB_BTC_CryptoInsurgent.titleShort>insurgent</UB_BTC_CryptoInsurgent.titleShort>
+  <UB_BTC_AncientGeneral.title>ancient general</UB_BTC_AncientGeneral.title>
+  <UB_BTC_AncientGeneral.titleShort>general</UB_BTC_AncientGeneral.titleShort>
+  <UB_BTC_Sleeper02.title>sleeper</UB_BTC_Sleeper02.title>
+  <UB_BTC_Scout01.title>perimeter guard</UB_BTC_Scout01.title>
+  <UB_BTC_Scout01.titleShort>guard</UB_BTC_Scout01.titleShort>
+  <UB_BTC_Scientist01.title>ancient scientist</UB_BTC_Scientist01.title>
+  <UB_BTC_Scientist01.titleShort>scientist</UB_BTC_Scientist01.titleShort>
+  <UB_BTC_Assassin01.title>assassin</UB_BTC_Assassin01.title>
+  <UB_BTC_AncientSoldier01.title>ancient soldier</UB_BTC_AncientSoldier01.title>
+  <UB_BTC_AncientSoldier01.titleShort>soldier</UB_BTC_AncientSoldier01.titleShort>
+  <UB_BTC_AncientSoldier02.title>ancient soldier</UB_BTC_AncientSoldier02.title>
+  <UB_BTC_AncientSoldier02.titleShort>soldier</UB_BTC_AncientSoldier02.titleShort>
+  <UB_BTC_AncientSoldier03.title>vault security</UB_BTC_AncientSoldier03.title>
+  <UB_BTC_AncientSoldier03.titleShort>security</UB_BTC_AncientSoldier03.titleShort>
+  <UB_BTC_AncientSoldier04.title>clan soldier</UB_BTC_AncientSoldier04.title>
+  <UB_BTC_AncientSoldier04.titleShort>soldier</UB_BTC_AncientSoldier04.titleShort>
+  <UB_BTC_AncientSoldier05.title>ancient soldier</UB_BTC_AncientSoldier05.title>
+  <UB_BTC_AncientSoldier05.titleShort>soldier</UB_BTC_AncientSoldier05.titleShort>
+  <UB_BTC_AncientSoldier05.description>[PAWN_nameDef] was a soldier fighting in the last great war. When the final battle was lost, [PAWN_possessive] superiors decided [PAWN_pronoun] was more useful as a contingency plan than as a corpse.</UB_BTC_AncientSoldier05.description>
+  <UB_BTC_TrappedElite.title>trapped elite</UB_BTC_TrappedElite.title>
+  <UB_BTC_TrappedElite.titleShort>elite</UB_BTC_TrappedElite.titleShort>
+  <UB_BTC_RepurposedCaretaker.title>repurposed caretaker</UB_BTC_RepurposedCaretaker.title>
+  <UB_BTC_RepurposedCaretaker.titleShort>medic</UB_BTC_RepurposedCaretaker.titleShort>
+  <UB_BTC_StructuralEngineer.title>structural engineer</UB_BTC_StructuralEngineer.title>
+  <UB_BTC_StructuralEngineer.titleShort>engineer</UB_BTC_StructuralEngineer.titleShort>
+  <UB_BTC_Bioengineer.title>bioengineer</UB_BTC_Bioengineer.title>
+  <UB_BTC_Bioengineer.titleShort>engineer</UB_BTC_Bioengineer.titleShort>
+  <UB_BTC_ExcavationSpecialist.title>excavation specialist</UB_BTC_ExcavationSpecialist.title>
+  <UB_BTC_ExcavationSpecialist.titleShort>specialist</UB_BTC_ExcavationSpecialist.titleShort>
+  <UB_BTC_ExcavationSpecialist.description>The vaults needed more than just space—they needed expansion, resources, and reinforced tunnels that could last for centuries. [PAWN_nameDef] specialized in deep excavation, operating precision mining rigs and shaping the underground world to support those who lived within it.</UB_BTC_ExcavationSpecialist.description>
+  <UB_BTC_NutritionalSystemsSpecialist.title>nutritional systems specialist</UB_BTC_NutritionalSystemsSpecialist.title>
+  <UB_BTC_NutritionalSystemsSpecialist.titleShort>specialist</UB_BTC_NutritionalSystemsSpecialist.titleShort>
+  <UB_BTC_AncientPilot.title>ancient pilot</UB_BTC_AncientPilot.title>
+  <UB_BTC_AncientPilot.titleShort>pilot</UB_BTC_AncientPilot.titleShort>
+  <UB_BTC_AncientCommander.title>ancient commander</UB_BTC_AncientCommander.title>
+  <UB_BTC_AncientCommander.titleShort>commander</UB_BTC_AncientCommander.titleShort>
+
+<UB_BTC_AncientCommander.description>[PAWN_nameDef] was part of a rebel cell that used cryptosleep caskets to skip decades between operations, waiting to strike at the empire's weak points.
+\nWhen [PAWN_pronoun] finally emerged for [PAWN_possessive] last mission, [PAWN_pronoun] found [PAWN_possessive] entire network obliterated by shifting politics and forgotten wars. The years in stasis left [PAWN_pronoun] with sharpened combat instincts and technical knowledge, but no cause to fight for.</UB_BTC_AncientCommander.description>
+<UB_BTC_AncientGeneral.description>[PAWN_nameDef] was part of a rebel cell that used cryptosleep caskets to skip decades between operations, waiting to strike at the empire's weak points.
+\nWhen [PAWN_pronoun] finally emerged for [PAWN_possessive] last mission, [PAWN_pronoun] found [PAWN_possessive] entire network obliterated by shifting politics and forgotten wars. The years in stasis left [PAWN_pronoun] with sharpened combat instincts and technical knowledge, but no cause to fight for.</UB_BTC_AncientGeneral.description>
+<UB_BTC_AncientPilot.description>[PAWN_nameDef] was part of a rebel cell that used cryptosleep caskets to skip decades between operations, waiting to strike at the empire's weak points.
+\nWhen [PAWN_pronoun] finally emerged for [PAWN_possessive] last mission, [PAWN_pronoun] found [PAWN_possessive] entire network obliterated by shifting politics and forgotten wars. The years in stasis left [PAWN_pronoun] with sharpened combat instincts and technical knowledge, but no cause to fight for.</UB_BTC_AncientPilot.description>
+<UB_BTC_AncientSoldier01.description>[PAWN_nameDef] was part of a rebel cell that used cryptosleep caskets to skip decades between operations, waiting to strike at the empire's weak points.
+\nWhen [PAWN_pronoun] finally emerged for [PAWN_possessive] last mission, [PAWN_pronoun] found [PAWN_possessive] entire network obliterated by shifting politics and forgotten wars. The years in stasis left [PAWN_pronoun] with sharpened combat instincts and technical knowledge, but no cause to fight for.</UB_BTC_AncientSoldier01.description>
+<UB_BTC_AncientSoldier02.description>[PAWN_nameDef] was part of a rebel cell that used cryptosleep caskets to skip decades between operations, waiting to strike at the empire's weak points.
+\nWhen [PAWN_pronoun] finally emerged for [PAWN_possessive] last mission, [PAWN_pronoun] found [PAWN_possessive] entire network obliterated by shifting politics and forgotten wars. The years in stasis left [PAWN_pronoun] with sharpened combat instincts and technical knowledge, but no cause to fight for.</UB_BTC_AncientSoldier02.description>
+<UB_BTC_AncientSoldier03.description>[PAWN_nameDef] was part of a rebel cell that used cryptosleep caskets to skip decades between operations, waiting to strike at the empire's weak points.
+\nWhen [PAWN_pronoun] finally emerged for [PAWN_possessive] last mission, [PAWN_pronoun] found [PAWN_possessive] entire network obliterated by shifting politics and forgotten wars. The years in stasis left [PAWN_pronoun] with sharpened combat instincts and technical knowledge, but no cause to fight for.</UB_BTC_AncientSoldier03.description>
+<UB_BTC_AncientSoldier04.description>[PAWN_nameDef] was part of a rebel cell that used cryptosleep caskets to skip decades between operations, waiting to strike at the empire's weak points.
+\nWhen [PAWN_pronoun] finally emerged for [PAWN_possessive] last mission, [PAWN_pronoun] found [PAWN_possessive] entire network obliterated by shifting politics and forgotten wars. The years in stasis left [PAWN_pronoun] with sharpened combat instincts and technical knowledge, but no cause to fight for.</UB_BTC_AncientSoldier04.description>
+<UB_BTC_AncientTechnician01.description>[PAWN_nameDef] was born inside a massive underground vault, the last refuge of a collapsing empire. While other children played, [PAWN_pronoun] studied history, engineering, and survival—preparing for a world [PAWN_pronoun] would never see until it was too late.</UB_BTC_AncientTechnician01.description>
+<UB_BTC_AncientTechnician02.description>[PAWN_nameDef] was born inside a massive underground vault, the last refuge of a collapsing empire. While other children played, [PAWN_pronoun] studied history, engineering, and survival—preparing for a world [PAWN_pronoun] would never see until it was too late.</UB_BTC_AncientTechnician02.description>
+<UB_BTC_Assassin01.description>[PAWN_nameDef] was part of a rebel cell that used cryptosleep caskets to skip decades between operations, waiting to strike at the empire's weak points.
+\nWhen [PAWN_pronoun] finally emerged for [PAWN_possessive] last mission, [PAWN_pronoun] found [PAWN_possessive] entire network obliterated by shifting politics and forgotten wars. The years in stasis left [PAWN_pronoun] with sharpened combat instincts and technical knowledge, but no cause to fight for.</UB_BTC_Assassin01.description>
+<UB_BTC_Bioengineer.description>[PAWN_nameDef] was part of a rebel cell that used cryptosleep caskets to skip decades between operations, waiting to strike at the empire's weak points.
+\nWhen [PAWN_pronoun] finally emerged for [PAWN_possessive] last mission, [PAWN_pronoun] found [PAWN_possessive] entire network obliterated by shifting politics and forgotten wars. The years in stasis left [PAWN_pronoun] with sharpened combat instincts and technical knowledge, but no cause to fight for.</UB_BTC_Bioengineer.description>
+<UB_BTC_Clanfolk.description>[PAWN_nameDef] was born inside a massive underground vault, the last refuge of a collapsing empire. While other children played, [PAWN_pronoun] studied history, engineering, and survival—preparing for a world [PAWN_pronoun] would never see until it was too late.</UB_BTC_Clanfolk.description>
+<UB_BTC_CryptoInsurgent.description>[PAWN_nameDef] was part of a rebel cell that used cryptosleep caskets to skip decades between operations, waiting to strike at the empire's weak points.
+\nWhen [PAWN_pronoun] finally emerged for [PAWN_possessive] last mission, [PAWN_pronoun] found [PAWN_possessive] entire network obliterated by shifting politics and forgotten wars. The years in stasis left [PAWN_pronoun] with sharpened combat instincts and technical knowledge, but no cause to fight for.</UB_BTC_CryptoInsurgent.description>
+<UB_BTC_EternalRival.description>[PAWN_nameDef] was born inside a massive underground vault, the last refuge of a collapsing empire. While other children played, [PAWN_pronoun] studied history, engineering, and survival—preparing for a world [PAWN_pronoun] would never see until it was too late.</UB_BTC_EternalRival.description>
+<UB_BTC_LastDiplomat.description>[PAWN_nameDef] was born inside a massive underground vault, the last refuge of a collapsing empire. While other children played, [PAWN_pronoun] studied history, engineering, and survival—preparing for a world [PAWN_pronoun] would never see until it was too late.</UB_BTC_LastDiplomat.description>
+<UB_BTC_LastGeneration.description>[PAWN_nameDef] was born inside a massive underground vault, the last refuge of a collapsing empire. While other children played, [PAWN_pronoun] studied history, engineering, and survival—preparing for a world [PAWN_pronoun] would never see until it was too late.</UB_BTC_LastGeneration.description>
+<UB_BTC_Metropolitan.description>[PAWN_nameDef] was born inside a massive underground vault, the last refuge of a collapsing empire. While other children played, [PAWN_pronoun] studied history, engineering, and survival—preparing for a world [PAWN_pronoun] would never see until it was too late.</UB_BTC_Metropolitan.description>
+<UB_BTC_NutritionalSystemsSpecialist.description>[PAWN_nameDef] was part of a rebel cell that used cryptosleep caskets to skip decades between operations, waiting to strike at the empire's weak points.
+\nWhen [PAWN_pronoun] finally emerged for [PAWN_possessive] last mission, [PAWN_pronoun] found [PAWN_possessive] entire network obliterated by shifting politics and forgotten wars. The years in stasis left [PAWN_pronoun] with sharpened combat instincts and technical knowledge, but no cause to fight for.</UB_BTC_NutritionalSystemsSpecialist.description>
+<UB_BTC_PrivateColony.description>[PAWN_nameDef] was born inside a massive underground vault, the last refuge of a collapsing empire. While other children played, [PAWN_pronoun] studied history, engineering, and survival—preparing for a world [PAWN_pronoun] would never see until it was too late.</UB_BTC_PrivateColony.description>
+<UB_BTC_RepurposedCaretaker.description>[PAWN_nameDef] was part of a rebel cell that used cryptosleep caskets to skip decades between operations, waiting to strike at the empire's weak points.
+\nWhen [PAWN_pronoun] finally emerged for [PAWN_possessive] last mission, [PAWN_pronoun] found [PAWN_possessive] entire network obliterated by shifting politics and forgotten wars. The years in stasis left [PAWN_pronoun] with sharpened combat instincts and technical knowledge, but no cause to fight for.</UB_BTC_RepurposedCaretaker.description>
+<UB_BTC_Rimworld.description>[PAWN_nameDef] was born inside a massive underground vault, the last refuge of a collapsing empire. While other children played, [PAWN_pronoun] studied history, engineering, and survival—preparing for a world [PAWN_pronoun] would never see until it was too late.</UB_BTC_Rimworld.description>
+<UB_BTC_Scientist01.description>[PAWN_nameDef] was part of a rebel cell that used cryptosleep caskets to skip decades between operations, waiting to strike at the empire's weak points.
+\nWhen [PAWN_pronoun] finally emerged for [PAWN_possessive] last mission, [PAWN_pronoun] found [PAWN_possessive] entire network obliterated by shifting politics and forgotten wars. The years in stasis left [PAWN_pronoun] with sharpened combat instincts and technical knowledge, but no cause to fight for.</UB_BTC_Scientist01.description>
+<UB_BTC_Scout01.description>[PAWN_nameDef] was part of a rebel cell that used cryptosleep caskets to skip decades between operations, waiting to strike at the empire's weak points.
+\nWhen [PAWN_pronoun] finally emerged for [PAWN_possessive] last mission, [PAWN_pronoun] found [PAWN_possessive] entire network obliterated by shifting politics and forgotten wars. The years in stasis left [PAWN_pronoun] with sharpened combat instincts and technical knowledge, but no cause to fight for.</UB_BTC_Scout01.description>
+<UB_BTC_Sleeper02.description>[PAWN_nameDef] was part of a rebel cell that used cryptosleep caskets to skip decades between operations, waiting to strike at the empire's weak points.
+\nWhen [PAWN_pronoun] finally emerged for [PAWN_possessive] last mission, [PAWN_pronoun] found [PAWN_possessive] entire network obliterated by shifting politics and forgotten wars. The years in stasis left [PAWN_pronoun] with sharpened combat instincts and technical knowledge, but no cause to fight for.</UB_BTC_Sleeper02.description>
+<UB_BTC_StructuralEngineer.description>[PAWN_nameDef] was part of a rebel cell that used cryptosleep caskets to skip decades between operations, waiting to strike at the empire's weak points.
+\nWhen [PAWN_pronoun] finally emerged for [PAWN_possessive] last mission, [PAWN_pronoun] found [PAWN_possessive] entire network obliterated by shifting politics and forgotten wars. The years in stasis left [PAWN_pronoun] with sharpened combat instincts and technical knowledge, but no cause to fight for.</UB_BTC_StructuralEngineer.description>
+<UB_BTC_TrappedElite.description>[PAWN_nameDef] was part of a rebel cell that used cryptosleep caskets to skip decades between operations, waiting to strike at the empire's weak points.
+\nWhen [PAWN_pronoun] finally emerged for [PAWN_possessive] last mission, [PAWN_pronoun] found [PAWN_possessive] entire network obliterated by shifting politics and forgotten wars. The years in stasis left [PAWN_pronoun] with sharpened combat instincts and technical knowledge, but no cause to fight for.</UB_BTC_TrappedElite.description>
+</LanguageData>

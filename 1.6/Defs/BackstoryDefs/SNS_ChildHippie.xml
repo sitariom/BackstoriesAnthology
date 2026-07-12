@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <BackstoryDef>
+    <defName>UB_SNS_ChildHippie</defName>
+    <title>Nature child</title>
+    <titleShort>Nature Child</titleShort>
+    <slot>Childhood</slot> <!--Adult or Child-->
+    <baseDesc>[PAWN_nameDef] was raised in the wilderness by their family. [PAWN_nameDef] would learn valuable survival skills, like how to identify poisonous fruits and berries, how to properly care for plants, and how to survive dangerous animal encounters. [PAWN_nameDef] was never introduced into society properly until later in life due to rampant deforestation and urbanization of their homeworld.</baseDesc> <!--Use Namedefs for name and pronouns-->
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale> <!-- Use Bodydefs for body types-->
+    <spawnCategories>
+      <li>Spacer</li>
+      <li>Civil</li> <!--Use SpawnDefs to define faction spawnage-->
+      <li>Outlander</li>
+    </spawnCategories>
+    <skillGains>
+      <Plants>3</Plants>
+      <Social>-2</Social>    <!--UseSkilldeffs PROPERLY to make the skills go up and down, Wheee!-->
+    </skillGains>
+    <workDisables> <!-- Use WorkDisables.png -->
+      <li>None</li>
+    </workDisables>
+  </BackstoryDef>
+</Defs>

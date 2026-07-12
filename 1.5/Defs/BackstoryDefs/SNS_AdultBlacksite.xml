@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <BackstoryDef>
+    <defName>UB_SNS_BlacksiteEscapee</defName>
+    <title>Blacksite escapee</title>
+    <titleShort>Escapee</titleShort>
+    <slot>Adulthood</slot> <!--Adult or Child-->
+    <baseDesc>[PAWN_nameDef] was in the wrong place at the wrong time. Kidnapped and convicted of a crime [PAWN_pronoun] didn't commit, [PAWN_nameDef] was sent to a prison planet. While incarcerated, [PAWN_pronoun] saw people being tortured almost daily, and had to do be resourceful to avoid being tortured themselves. [PAWN_nameDef] managed to escape one day after a pirate raid gave them enough time to reach the emergency escape shuttles.</baseDesc> <!--Use Namedefs for name and pronouns-->
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale> <!-- Use Bodydefs for body types-->
+    <spawnCategories>
+      <li>Spacer</li>
+      <li>Outlander</li> <!--Use SpawnDefs to define faction spawnage-->
+    </spawnCategories>
+    <skillGains>
+      <Medicine>5</Medicine>
+      <Social>-4</Social>    <!--UseSkilldeffs PROPERLY to make the skills go up and down, Wheee!-->
+    </skillGains>
+    <workDisables> <!-- Use WorkDisables.png -->
+      <li>None</li>
+    </workDisables>
+  </BackstoryDef>
+</Defs>

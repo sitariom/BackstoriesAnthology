@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <BackstoryDef>
+    <slot>Childhood</slot>
+    <title>tribal tinkerer</title>
+    <defName>UB_Seal_TribalTinkerer</defName>
+    <titleShort>tinkerer</titleShort>
+	  <description>When the tribe would go travel or hunt, [PAWN_nameDef] would always follow them to come back to the village the hands full of lost relics of the industrialized civilization, carrying rusted pistols and broken electronics. While [PAWN_possessive] people ignored or despised these artifacts, [PAWN_nameDef] loved to study them. Sometimes, [PAWN_pronoun] managed to create prototypes of rifles or other gadgets.\n\nDue to [PAWN_possessive] wierd interests, [PAWN_pronoun] never got along with the other kids.</description>
+    <spawnCategories>
+      <li>Tribal</li>
+    </spawnCategories>
+	  <bodyTypeMale>Thin</bodyTypeMale>
+	  <bodyTypeFemale>Thin</bodyTypeFemale>
+    <skillGains>
+	   <Crafting>4</Crafting>
+      <Intellectual>5</Intellectual>
+	    <Shooting>1</Shooting>
+	    <Social>-5</Social>
+    </skillGains>
+    <forcedTraits>
+      <VTE_Eccentric MayRequire="vanillaexpanded.vanillatraitsexpanded" />
+    </forcedTraits>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Childhood</slot>
+    <title>seashell jeweler</title>
+    <defName>UB_Seal_SeashellJeweler</defName>
+    <titleShort>jeweler</titleShort>
+	  <description>[PAWN_nameDef] spent [PAWN_possessive] time looking for shiny seashells or coral fragments in the sand near the coast. [PAWN_pronoun] would bring the best ones back home and created beautiful collars and other jewels with them.\n\nWhile most of [PAWN_possessive] creations were given to [PAWN_possessive] fellow tribesmembers, some were sold to allied tribes.</description>
+    <spawnCategories>
+      <li>Tribal</li>
+    </spawnCategories>
+	  <bodyTypeMale>Thin</bodyTypeMale>
+	  <bodyTypeFemale>Thin</bodyTypeFemale>
+    <skillGains>
+	    <Crafting>3</Crafting>
+	    <Artistic>4</Artistic>
+	    <Social>2</Social>
+    </skillGains>
+    <forcedTraits>
+      <VTE_ChildOfSea MayRequire="vanillaexpanded.vanillatraitsexpanded" />
+    </forcedTraits>
+  </BackstoryDef>
+
+</Defs>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <UB_Tribal_SacredDancer.title>Sacred dancer</UB_Tribal_SacredDancer.title>
+  <UB_Tribal_SacredDancer.titleShort>Dancer</UB_Tribal_SacredDancer.titleShort>
+  <UB_Tribal_SacredDancer.description>[PAWN_nameDef]’s tribe believed that a bountiful harvest could be ensured by performing ceremonial dances. To learn to perform these complex dances properly, [PAWN_nameDef] had to spend most of [PAWN_possessive] time practicing, leaving little room for developing other skills.</UB_Tribal_SacredDancer.description>
+  <UB_Tribal_EscapedSacrifice.title>Escaped sacrifice</UB_Tribal_EscapedSacrifice.title>
+  <UB_Tribal_EscapedSacrifice.titleShort>Escapee</UB_Tribal_EscapedSacrifice.titleShort>
+  <UB_Tribal_EscapedSacrifice.description>[PAWN_nameDef] was the sole survivor of another tribe’s raid on [PAWN_possessive] village. Taken prisoner, [PAWN_pronoun] was intended as a sacrifice to appease the enemy’s bloodthirsty god. Through strength, cunning, and luck, [PAWN_nameDef] made a daring escape.</UB_Tribal_EscapedSacrifice.description>
+  <UB_Tribal_CalendarKeeper.title>Calendar keeper</UB_Tribal_CalendarKeeper.title>
+  <UB_Tribal_CalendarKeeper.description>[PAWN_nameDef] was responsible for keeping track of counting the days for [PAWN_possessive] tribe. [PAWN_possessive] job involved tracking lunar cycles, studying constellations, and predicting the optimal growing seasons. </UB_Tribal_CalendarKeeper.description>
+  <UB_Tribal_BeastMaster.title>Beast master</UB_Tribal_BeastMaster.title>
+  <UB_Tribal_BeastMaster.description>[PAWN_nameDef] was believed to have supernatural powers that allowed [PAWN_objective] to tame any animal. [PAWN_pronoun] was often called upon when dangerous creatures were spotted near [PAWN_possessive] village in order to soothe the wild beasts.</UB_Tribal_BeastMaster.description>
+  <UB_Tribal_MonumentCarver.title>Monument carver</UB_Tribal_MonumentCarver.title>
+  <UB_Tribal_MonumentCarver.titleShort>Carver</UB_Tribal_MonumentCarver.titleShort>
+  <UB_Tribal_MonumentCarver.description>[PAWN_nameDef] carved large stone monuments to honour [PAWN_possessive] tribe’s ancestors. [PAWN_nameDef] preferred to work in silent solitude, and hated when others tried to speak to [PAWN_objective] while [PAWN_pronoun] worked.</UB_Tribal_MonumentCarver.description>
+  <UB_Tribal_Bowyer.title>Bowyer</UB_Tribal_Bowyer.title>
+  <UB_Tribal_Bowyer.description>[PAWN_nameDef] crafted bows for [PAWN_possessive] tribe to hunt with. Naturally, to make the best bows, [PAWN_nameDef] had to become skilled at using them. [PAWN_pronoun] often found [PAWN_objective]self teaching the children of the tribe how to shoot their very first arrows.</UB_Tribal_Bowyer.description>
+  <UB_Tribal_Lookout.title>Lookout</UB_Tribal_Lookout.title>
+  <UB_Tribal_Lookout.description>[PAWN_nameDef] watched for danger while the rest of [PAWN_possessive] tribe went about their business. While standing guard, [PAWN_nameDef] would practice [PAWN_possessive] marksmanship, attempting to shoot specific leaves from trees. [PAWN_pronoun] was often scolded for wasting arrows, but always managed to charm [PAWN_possessive] way out of trouble.</UB_Tribal_Lookout.description>
+  <UB_Tribal_NightWatch.title>Night watch</UB_Tribal_NightWatch.title>
+  <UB_Tribal_NightWatch.titleShort>Lookout</UB_Tribal_NightWatch.titleShort>
+  <UB_Tribal_NightWatch.description>While the rest of [PAWN_possessive] tribe slept, [PAWN_nameDef] kept watch for danger lurking in the night. [PAWN_pronoun] spent so much time in quiet darkness, that [PAWN_pronoun] found the hustle and bustle of the day time to be unbearable.</UB_Tribal_NightWatch.description>
+  <UB_Tribal_CapturedPillager.title>Captured pillager</UB_Tribal_CapturedPillager.title>
+  <UB_Tribal_CapturedPillager.titleShort>Pacifist</UB_Tribal_CapturedPillager.titleShort>
+  <UB_Tribal_CapturedPillager.description>[PAWN_nameDef] was taken prisoner during one of [PAWN_possessive] tribe’s raids on a neighbouring village. [PAWN_possessive] captors showed [PAWN_objective] remarkable kindness, and [PAWN_nameDef] was soon consumed with regret for [PAWN_possessive] violent ways. [PAWN_nameDef] took up the hobby of tending to flowers, wanting to bring happiness and beauty to the world instead of destruction.</UB_Tribal_CapturedPillager.description>
+  <UB_Tribal_Kinslayer.title>Kinslayer</UB_Tribal_Kinslayer.title>
+  <UB_Tribal_Kinslayer.description>[PAWN_nameDef] was guilty of what [PAWN_possessive] tribe considered to be the worst crime possible: killing a member of one’s own family. [PAWN_nameDef] was to be put to death, but escaped and fled as far as [PAWN_pronoun] could.</UB_Tribal_Kinslayer.description>
+  <UB_Tribal_BrokenSlave.title>Broken slave</UB_Tribal_BrokenSlave.title>
+  <UB_Tribal_BrokenSlave.titleShort>Slave</UB_Tribal_BrokenSlave.titleShort>
+  <UB_Tribal_BrokenSlave.description>[PAWN_nameDef] was kept as a slave by a small but vicious tribe. The extreme abuse [PAWN_pronoun] suffered made [PAWN_objective] withdrawn and utterly incapable of fighting back. No one thought [PAWN_pronoun] would ever attempt an escape until, one day, [PAWN_pronoun] did.</UB_Tribal_BrokenSlave.description>
+  <UB_Tribal_DesperateScavenger.title>Desperate scavenger</UB_Tribal_DesperateScavenger.title>
+  <UB_Tribal_DesperateScavenger.titleShort>Scavenger</UB_Tribal_DesperateScavenger.titleShort>
+  <UB_Tribal_DesperateScavenger.description>[PAWN_nameDef]’s homeland was struck by a terrible famine. Many members of [PAWN_possessive] tribe starved to death, and a few even turned to cannibalism. To keep [PAWN_objective]self alive, [PAWN_nameDef] scavenged for roots, insects, and even carrion.</UB_Tribal_DesperateScavenger.description>
+  <UB_Tribal_WaterCarrier.title>Water carrier</UB_Tribal_WaterCarrier.title>
+  <UB_Tribal_WaterCarrier.description>[PAWN_nameDef] collected water from the river that flowed near [PAWN_possessive] tribe’s village, carrying water in large, heavy containers to wherever it was needed.</UB_Tribal_WaterCarrier.description>
+  <UB_Tribal_Messenger.title>Messenger</UB_Tribal_Messenger.title>
+  <UB_Tribal_Messenger.description>[PAWN_nameDef] carried messages to and from [PAWN_possessive] tribe’s village. [PAWN_pronoun] got to meet many different people, and always tried to find the time to chat and get to know them better.</UB_Tribal_Messenger.description>
+  <UB_Tribal_WasteHauler.title>Waste hauler</UB_Tribal_WasteHauler.title>
+  <UB_Tribal_WasteHauler.description>[PAWN_nameDef] had the job of hauling waste away from [PAWN_possessive] tribe’s homes and living areas. Many members of the tribe considered [PAWN_nameDef] to be dirty because of this, and refused to speak to [PAWN_objective].</UB_Tribal_WasteHauler.description>
+  <UB_Tribal_VisionGuide.title>Vision guide</UB_Tribal_VisionGuide.title>
+  <UB_Tribal_VisionGuide.description>With the aid of hallucinogenic plants, [PAWN_nameDef] helped to guide members of [PAWN_possessive] tribe on their spiritual journeys.</UB_Tribal_VisionGuide.description>
+  <UB_Tribal_FurTrader.title>Fur trader</UB_Tribal_FurTrader.title>
+  <UB_Tribal_FurTrader.description>[PAWN_nameDef] traveled far and wide, trading the furs of the creatures [PAWN_possessive] tribe hunted for other goods. [PAWN_pronoun] was skilled with words, and was always able to make a favourable deal. </UB_Tribal_FurTrader.description>
+  <UB_Tribal_RecordKeeper.title>Record keeper</UB_Tribal_RecordKeeper.title>
+  <UB_Tribal_RecordKeeper.description>[PAWN_nameDef] recorded important information relating to trade using clay tablets and small knotted ropes. [PAWN_pronoun] kept track of numbers and values and helped to resolve disputes.</UB_Tribal_RecordKeeper.description>
+  <UB_Tribal_ClubHunter.title>Club hunter</UB_Tribal_ClubHunter.title>
+  <UB_Tribal_ClubHunter.description>[PAWN_nameDef] hunted for food for [PAWN_possessive] tribe using a large club. [PAWN_pronoun] refused to use a bow and arrow like the other hunters, much preferring to bludgeon things to death. </UB_Tribal_ClubHunter.description>
+  <UB_Tribal_TreeTender.title>Sacred tree tender</UB_Tribal_TreeTender.title>
+  <UB_Tribal_TreeTender.titleShort>Tree tender</UB_Tribal_TreeTender.titleShort>
+  <UB_Tribal_TreeTender.description>[PAWN_nameDef] tended to [PAWN_possessive] tribe’s sacred tree, meditating beneath it in order to commune with it and ascertain its needs. [PAWN_nameDef]’s tree-assigned duties included keeping the area around it clear of any man-made structures, bringing it water during the dry months, and encouraging pest-eating creatures to live near it. </UB_Tribal_TreeTender.description>
+  <UB_Tribal_CavePainter.title>Cave painter</UB_Tribal_CavePainter.title>
+  <UB_Tribal_CavePainter.description>[PAWN_nameDef] painted the stories of [PAWN_possessive] tribe on the walls of the cave system that they dwelt in. From commemorating marriages, births, and deaths, memorializing great hunts, and depicting important aspects of the tribe’s belief system, [PAWN_nameDef] was kept busy and seldom had a chance to wander outside.</UB_Tribal_CavePainter.description>
+  <UB_Tribal_PloughPuller.title>Plough puller</UB_Tribal_PloughPuller.title>
+  <UB_Tribal_PloughPuller.description>After a famine, [PAWN_nameDef]’s tribe lacked any animals that could help them plough their fields. Determined not to allow [PAWN_possessive] people to starve any longer, [PAWN_nameDef] used all of [PAWN_possessive] strength to pull the ploughs [PAWN_objective]self.</UB_Tribal_PloughPuller.description>
+  <UB_Tribal_Tracker.title>Tracker</UB_Tribal_Tracker.title>
+  <UB_Tribal_Tracker.description>[PAWN_nameDef] was an essential part of any hunting party for [PAWN_possessive] uncanny ability to track prey over long distances, even in the most unfavourable conditions.</UB_Tribal_Tracker.description>
+  <UB_Tribal_SpiritSpeaker.title>Spirit speaker</UB_Tribal_SpiritSpeaker.title>
+  <UB_Tribal_SpiritSpeaker.description>[PAWN_nameDef] would occasionally feel… strange. As though something far away was affecting [PAWN_possessive] thoughts. A wise elder told [PAWN_objective] that [PAWN_pronoun] had the ability to hear the spirit world. Members of [PAWN_nameDef]’s tribe would ask [PAWN_objective] for advice from the spirits, which [PAWN_pronoun] tried [PAWN_possessive] best to give.</UB_Tribal_SpiritSpeaker.description>
+  <UB_Tribal_FraudulentWitchDoctor.title>Fraudulent witch doctor</UB_Tribal_FraudulentWitchDoctor.title>
+  <UB_Tribal_FraudulentWitchDoctor.titleShort>Witch doctor</UB_Tribal_FraudulentWitchDoctor.titleShort>
+  <UB_Tribal_FraudulentWitchDoctor.description>[PAWN_nameDef] enjoyed the prestige and power that came from being [PAWN_possessive] tribe’s witch doctor. [PAWN_nameDef] would invent fake ailments that [PAWN_pronoun] would claim [PAWN_pronoun] "knew" tribe members were suffering from in order to keep [PAWN_possessive] place of importance secure. In most cases, [PAWN_nameDef] would prescribe useless placebo herbs. Other times, [PAWN_pronoun] used mild poisons to make [PAWN_possessive] lies seem more legitimate.</UB_Tribal_FraudulentWitchDoctor.description>
+  <UB_Tribal_CrazedWarrior.title>Crazed warrior</UB_Tribal_CrazedWarrior.title>
+  <UB_Tribal_CrazedWarrior.description>After surviving a battle that turned into a massacre, something in [PAWN_nameDef] simply snapped. [PAWN_pronoun] would constantly mutter to [PAWN_objective]self, get into fights with inanimate objects, and scream at random. Sometimes, [PAWN_nameDef] would attempt to injure [PAWN_objective]self, always eerily silent as [PAWN_pronoun] did so.</UB_Tribal_CrazedWarrior.description>
+</LanguageData>

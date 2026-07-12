@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <BackstoryDef>
+    <defName>UB_SNS_Scab</defName>
+    <title>Scab Worker</title>
+    <titleShort>Scab Worker</titleShort>
+    <slot>Adulthood</slot> <!--Adult or Child-->
+    <baseDesc>During a period of economic tension, [PAWN_nameDef] was transported to a cargo dock to work menial labor while the original workers were on strike. Though looked down upon by everyone, and making even less money than the original workers, [PAWN_pronoun] was able to learn valuable skills during the strike until the original workers grew violent and rioted, burning the shipping dock to the ground while [PAWN_nameDef] and all the other scab workers were displaced across multiple worlds.</baseDesc> <!--Use Namedefs for name and pronouns-->
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale> <!-- Use Bodydefs for body types-->
+    <spawnCategories>
+      <li>Spacer</li>
+      <li>Civil</li> <!--Use SpawnDefs to define faction spawnage-->
+      <li>Outlander</li>
+    </spawnCategories>
+    <skillGains>
+      <Social>3</Social>
+      <Construction>3</Construction>    <!--UseSkilldeffs PROPERLY to make the skills go up and down, Wheee!-->
+      <Plants>3</Plants>
+      <Mining>3</Mining>
+      <Crafting>3</Crafting>
+    </skillGains>
+    <workDisables> <!-- Use WorkDisables.png -->
+      <li>None</li>
+    </workDisables>
+  </BackstoryDef>
+</Defs>

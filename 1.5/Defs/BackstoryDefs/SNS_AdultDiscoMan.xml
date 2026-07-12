@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <BackstoryDef>
+    <defName>UB_SNS_DuBois</defName>
+    <title>Amnesia detective</title>
+    <titleShort>Amnesia Detective</titleShort>
+    <slot>Adulthood</slot> <!--Adult or Child-->
+    <baseDesc>[PAWN_nameDef] lived a rough life as a well-renowned cop and detective before being broken up with by the love of [PAWN_possessive] life, which spiraled them into a deep depression. Shortly after taking on a case, [PAWN_nameDef] went to a costal inn, drinking [PAWN_possessive]self into an alcohol-induced amnesia. Not remembering who [PAWN_pronoun] were or why [PAWN_pronoun] were there, [PAWN_nameDef] went on in life, looking for a new purpose in life.</baseDesc> <!--Use Namedefs for name and pronouns-->
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale> <!-- Use Bodydefs for body types-->
+    <spawnCategories>
+      <li>Spacer</li>
+      <li>Civil</li> <!--Use SpawnDefs to define faction spawnage-->
+      <li>Raider</li>
+      <li>Outlander</li>
+    </spawnCategories>
+    <skillGains>
+      <Social>2</Social>
+      <Shooting>3</Shooting>    <!--UseSkilldeffs PROPERLY to make the skills go up and down, Wheee!-->
+      <Melee>-2</Melee>
+      <Artistic>4</Artistic>
+    </skillGains>
+    <workDisables> <!-- Use WorkDisables.png -->
+      <li>None</li>
+    </workDisables>
+  </BackstoryDef>
+</Defs>

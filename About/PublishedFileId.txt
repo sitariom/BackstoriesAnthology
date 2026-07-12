@@ -1,0 +1,4 @@
+# Steam Workshop File ID
+# This file is automatically populated when the mod is uploaded to Steam.
+# Leave empty for manual/local distribution.
+#

@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <UB_BTC_Adulthood_ResonanceTech.title>resonance technician</UB_BTC_Adulthood_ResonanceTech.title>
+  <UB_BTC_Adulthood_ResonanceTech.titleShort>technician</UB_BTC_Adulthood_ResonanceTech.titleShort>
+  <UB_BTC_Adulthood_ResonanceTech.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_ResonanceTech.description>
+  <UB_BTC_Adulthood_HECUVeteran.title>hazard class veteran</UB_BTC_Adulthood_HECUVeteran.title>
+  <UB_BTC_Adulthood_HECUVeteran.titleShort>veteran</UB_BTC_Adulthood_HECUVeteran.titleShort>
+  <UB_BTC_Adulthood_GravMech.title>racing mechanic</UB_BTC_Adulthood_GravMech.title>
+  <UB_BTC_Adulthood_GravMech.titleShort>mechanic</UB_BTC_Adulthood_GravMech.titleShort>
+  <UB_BTC_Adulthood_GravMech.description>[PAWN_nameDef] tuned anti-grav engines for illegal orbital drag races. The constant need for rapid repairs and adrenaline-fueled environments honed [PAWN_possessive] technical skills while destroying [PAWN_possessive] patience for slow-paced work.</UB_BTC_Adulthood_GravMech.description>
+  <UB_BTC_Adulthood_HoloActor.title>holo performer</UB_BTC_Adulthood_HoloActor.title>
+  <UB_BTC_Adulthood_HoloActor.titleShort>performer</UB_BTC_Adulthood_HoloActor.titleShort>
+  <UB_BTC_Adulthood_HoloActor.description>[PAWN_nameDef] starred in immersive holographic dramas where audiences could walk through scenes. The constant character shifts and projection tech gave [PAWN_objective] uncanny mimicry skills, but fragile self-identity.</UB_BTC_Adulthood_HoloActor.description>
+  <UB_BTC_Adulthood_Ghost.title>ghost operative</UB_BTC_Adulthood_Ghost.title>
+  <UB_BTC_Adulthood_Ghost.titleShort>operative</UB_BTC_Adulthood_Ghost.titleShort>
+  <UB_BTC_Adulthood_Ghost.description>[PAWN_nameDef] was a deniable asset for a covert operations group, trained in infiltration and wetwork. After being abandoned mid-mission by [PAWN_possessive] handlers, [PAWN_pronoun] now survives using [PAWN_possessive] lethal skills while avoiding both former employers and justice systems.</UB_BTC_Adulthood_Ghost.description>
+  <UB_BTC_Adulthood_RimBarrister.title>broken lawyer</UB_BTC_Adulthood_RimBarrister.title>
+  <UB_BTC_Adulthood_RimBarrister.titleShort>lawyer</UB_BTC_Adulthood_RimBarrister.titleShort>
+  <UB_BTC_Adulthood_RimBarrister.description>[PAWN_nameDef] defended frontier colony leaders in show trials until a warlord client turned on [PAWN_objective] mid-proceeding. Forced to watch [PAWN_possessive] entire legal team get executed, [PAWN_pronoun] escaped by pushing a bailiff into the warlord's starving warg. Now [PAWN_pronoun] compulsively argues technicalities to anyone who'll listen, [PAWN_possessive] once-sharp mind frayed by guilt.</UB_BTC_Adulthood_RimBarrister.description>
+  <UB_BTC_Adulthood_StreetJudge.title>urbworld justiciar</UB_BTC_Adulthood_StreetJudge.title>
+  <UB_BTC_Adulthood_StreetJudge.titleShort>justiciar</UB_BTC_Adulthood_StreetJudge.titleShort>
+  <UB_BTC_Adulthood_StreetJudge.description>[PAWN_nameDef] dispensed justice in an urbworld arcology. When [PAWN_pronoun] began sentencing corrupt officials with the same brutality as common criminals, [PAWN_possessive] superiors exiled [PAWN_objective] to the rim. Now [PAWN_pronoun] patrols the wastes as judge, jury, and executioner - [PAWN_possessive] lawbook replaced by [PAWN_possessive] gun's chamber count.</UB_BTC_Adulthood_StreetJudge.description>
+  <UB_BTC_Adulthood_ResponseTrooper.title>response trooper</UB_BTC_Adulthood_ResponseTrooper.title>
+  <UB_BTC_Adulthood_ResponseTrooper.titleShort>trooper</UB_BTC_Adulthood_ResponseTrooper.titleShort>
+  <UB_BTC_Adulthood_ResponseTrooper.description>[PAWN_nameDef] was mobilized when rogue mechanoids breached a planetary defense grid. After EMP storms severed comms during containment efforts, [PAWN_pronoun] spent days fighting autonomous kill-drones before escaping aboard a derelict cargo shuttle.</UB_BTC_Adulthood_ResponseTrooper.description>
+  <UB_BTC_Adulthood_AugmentationSurgeon.title>augmentation surgeon</UB_BTC_Adulthood_AugmentationSurgeon.title>
+  <UB_BTC_Adulthood_AugmentationSurgeon.titleShort>surgeon</UB_BTC_Adulthood_AugmentationSurgeon.titleShort>
+  <UB_BTC_Adulthood_AugmentationSurgeon.description>[PAWN_nameDef] served as a biomedical engineer on a glitterworld, where they pioneered neural interface systems for memory augmentation. After ethical concerns arose about mandatory cognitive upgrades, [PAWN_pronoun] left the glitterworld, carrying both advanced surgical knowledge and lingering doubts about technological utopianism.</UB_BTC_Adulthood_AugmentationSurgeon.description>
+  <UB_BTC_Adulthood_NaiveTourist.title>vacation victim</UB_BTC_Adulthood_NaiveTourist.title>
+  <UB_BTC_Adulthood_NaiveTourist.titleShort>tourist</UB_BTC_Adulthood_NaiveTourist.titleShort>
+  <UB_BTC_Adulthood_NaiveTourist.description>[PAWN_nameDef] booked a "rustic experience" package to what was advertised as a charming frontier world. Their luxury shuttle crash-landed far from the promised bio-dome resorts, leaving [PAWN_pronoun] stranded.</UB_BTC_Adulthood_NaiveTourist.description>
+  <UB_BTC_Adulthood_BlackOpsContainment.title>containment specialist</UB_BTC_Adulthood_BlackOpsContainment.title>
+  <UB_BTC_Adulthood_BlackOpsContainment.titleShort>cleaner</UB_BTC_Adulthood_BlackOpsContainment.titleShort>
+  <UB_BTC_Adulthood_BlackOpsContainment.description>[PAWN_nameDef] served in an off-the-record unit tasked with sanitizing "problematic" scenarios, cleaning up the mess the grunts couldn’t handle.\n\n[PAWN_pronoun] incinerated labs, silenced researchers, and eliminated biological anomalies under orders from voices on encrypted channels. No medals. No records.</UB_BTC_Adulthood_BlackOpsContainment.description>
+  <UB_BTC_Adulthood_GunshipExile.title>gunship exile</UB_BTC_Adulthood_GunshipExile.title>
+  <UB_BTC_Adulthood_GunshipExile.titleShort>exile</UB_BTC_Adulthood_GunshipExile.titleShort>
+  <UB_BTC_Adulthood_DriftCoreDelver.title>drift core delver</UB_BTC_Adulthood_DriftCoreDelver.title>
+  <UB_BTC_Adulthood_DriftCoreDelver.titleShort>miner</UB_BTC_Adulthood_DriftCoreDelver.titleShort>
+  <UB_BTC_Adulthood_Mercenary01.title>mercenary</UB_BTC_Adulthood_Mercenary01.title>
+  <UB_BTC_Adulthood_Mercenary01.description>[PAWN_nameDef] sold [PAWN_possessive] services to the highest bidder. Hardened by numerous conflicts, [PAWN_pronoun] became proficient in both ranged and close-quarters combat, with little patience for diplomacy.</UB_BTC_Adulthood_Mercenary01.description>
+  <UB_BTC_Adulthood_StreetPerformer.title>street performer</UB_BTC_Adulthood_StreetPerformer.title>
+  <UB_BTC_Adulthood_StreetPerformer.titleShort>performer</UB_BTC_Adulthood_StreetPerformer.titleShort>
+  <UB_BTC_Adulthood_StreetPerformer.description>[PAWN_nameDef] dazzled passersby with impromptu acts ranging from acrobatics to fire dancing. [PAWN_pronoun] earned a living through charisma and flair, captivating crowds in busy urban districts.</UB_BTC_Adulthood_StreetPerformer.description>
+  <UB_BTC_Adulthood_RivalEntrepreneur.title>rival entrepreneur</UB_BTC_Adulthood_RivalEntrepreneur.title>
+  <UB_BTC_Adulthood_RivalEntrepreneur.titleShort>entrepreneur</UB_BTC_Adulthood_RivalEntrepreneur.titleShort>
+  <UB_BTC_Adulthood_RivalEntrepreneur.description>[PAWN_nameDef] built a fledgling business empire from scratch, challenging established conglomerates with innovative ideas and relentless drive. [PAWN_pronoun] balanced high-stakes deals with a flair for marketing and personal branding.</UB_BTC_Adulthood_RivalEntrepreneur.description>
+  <UB_BTC_Adulthood_Recruit01.title>recruit</UB_BTC_Adulthood_Recruit01.title>
+  <UB_BTC_Adulthood_StormtrooperElite01.title>stormtrooper</UB_BTC_Adulthood_StormtrooperElite01.title>
+  <UB_BTC_Adulthood_StormtrooperElite01.titleShort>trooper</UB_BTC_Adulthood_StormtrooperElite01.titleShort>
+  <UB_BTC_Adulthood_StormtrooperElite01.description>[PAWN_nameDef] was rigorously trained as a stormtrooper in the Imperial legions. [PAWN_pronoun] embraced the discipline and unwavering loyalty required to maintain order across the galaxy, earning a reputation for relentless efficiency on the frontlines.</UB_BTC_Adulthood_StormtrooperElite01.description>
+  <UB_BTC_Adulthood_Rancher.title>rancher</UB_BTC_Adulthood_Rancher.title>
+  <UB_BTC_Adulthood_Rancher.description>[PAWN_nameDef] has always had a natural talent for caring for livestock—from muffalos and boomrats to other farm animals. Yet in these unpredictable times, the simple life of ranching has turned into a daily struggle for survival, with every sunrise bringing new challenges to tame both the land and unruly creatures.</UB_BTC_Adulthood_Rancher.description>
+  <UB_BTC_Adulthood_DrugDealer.title>psychotraffic king</UB_BTC_Adulthood_DrugDealer.title>
+  <UB_BTC_Adulthood_DrugDealer.titleFemale>psychotraffic queen</UB_BTC_Adulthood_DrugDealer.titleFemale>
+  <UB_BTC_Adulthood_DrugDealer.titleShort>dealer</UB_BTC_Adulthood_DrugDealer.titleShort>
+  <UB_BTC_Adulthood_Gunrunner01.title>gunrunner</UB_BTC_Adulthood_Gunrunner01.title>
+  <UB_BTC_Adulthood_Gunrunner01.titleShort>smuggler</UB_BTC_Adulthood_Gunrunner01.titleShort>
+  <UB_BTC_Adulthood_OutlawTech.title>outlaw tech</UB_BTC_Adulthood_OutlawTech.title>
+  <UB_BTC_Adulthood_OutlawTech.titleShort>technician</UB_BTC_Adulthood_OutlawTech.titleShort>
+  <UB_BTC_Adulthood_OutlawTech.description>[PAWN_nameDef] specialized in modifying ships and weapons beyond legal limits. From illegal AI cores to overclocked laser cannons, [PAWN_pronoun] could make anything deadlier.</UB_BTC_Adulthood_OutlawTech.description>
+  <UB_BTC_Adulthood_MilitaryChemist.title>Military chemist</UB_BTC_Adulthood_MilitaryChemist.title>
+  <UB_BTC_Adulthood_MilitaryChemist.titleShort>chemist</UB_BTC_Adulthood_MilitaryChemist.titleShort>
+  <UB_BTC_Adulthood_MilitaryChemist.description>War is as much about science as it is about strategy. [PAWN_nameDef] was a chemist in the employ of the military, developing incendiaries, nerve agents, and other unspoken horrors. Working deep within clandestine laboratories, [PAWN_pronoun] tested formulas meant to cripple entire battlefields. Knowledge like this is dangerous, and some governments would rather see [PAWN_pronoun] buried than let it fall into enemy hands.</UB_BTC_Adulthood_MilitaryChemist.description>
+  <UB_BTC_Adulthood_Warlord.title>Warlord</UB_BTC_Adulthood_Warlord.title>
+  <UB_BTC_Adulthood_Warlord.description>[PAWN_nameDef] commanded a band of raiders with theatrical flair. Every speech was a sermon, every demand a decree, every tantrum an apocalypse. It was unclear whether [PAWN_pronoun] actually believed in the warrior-cult [PAWN_possessive] followers had built around [PAWN_pronoun], but as long as they obeyed, [PAWN_pronoun] played the part with gusto.</UB_BTC_Adulthood_Warlord.description>
+  <UB_BTC_Adulthood_OrdnancePilot.title>heavy ordnance pilot</UB_BTC_Adulthood_OrdnancePilot.title>
+  <UB_BTC_Adulthood_OrdnancePilot.titleShort>pilot</UB_BTC_Adulthood_OrdnancePilot.titleShort>
+  <UB_BTC_Adulthood_MeatVendor.title>meat vendor</UB_BTC_Adulthood_MeatVendor.title>
+  <UB_BTC_Adulthood_MeatVendor.titleShort>vendor</UB_BTC_Adulthood_MeatVendor.titleShort>
+  <UB_BTC_Adulthood_MeatVendor.description>[PAWN_nameDef] wandered the rust-choked wastes, peddling sizzling meat on a stick to desperate souls. No one asked where the meat came from—and those foolish enough to inquire soon found themselves part of the menu.</UB_BTC_Adulthood_MeatVendor.description>
+  <UB_BTC_Adulthood_Wanderer.title>nameless drifter</UB_BTC_Adulthood_Wanderer.title>
+  <UB_BTC_Adulthood_Wanderer.titleShort>drifter</UB_BTC_Adulthood_Wanderer.titleShort>
+  <UB_BTC_Adulthood_SuperSoldier01.title>reanimen</UB_BTC_Adulthood_SuperSoldier01.title>
+  <UB_BTC_Adulthood_AideDeCamp01.title>staff aide</UB_BTC_Adulthood_AideDeCamp01.title>
+  <UB_BTC_Adulthood_AideDeCamp01.titleShort>aide</UB_BTC_Adulthood_AideDeCamp01.titleShort>
+  <UB_BTC_Adulthood_Politician01.title>disgraced politician</UB_BTC_Adulthood_Politician01.title>
+  <UB_BTC_Adulthood_Politician01.titleShort>politician</UB_BTC_Adulthood_Politician01.titleShort>
+  <UB_BTC_Adulthood_Politician01.description>Once a rising star in [PAWN_possessive] home planet's political scene, [PAWN_nameDef]'s career was ruined by a scandal—falsely accused, yet unable to prove [PAWN_possessive] innocence. Exiled to a remote rimworld, [PAWN_pronoun] now seeks to rebuild [PAWN_possessive] life, leveraging [PAWN_possessive] charisma and understanding of power dynamics.</UB_BTC_Adulthood_Politician01.description>
+  <UB_BTC_Adulthood_CruiseStaff.title>luxury cruiser steward</UB_BTC_Adulthood_CruiseStaff.title>
+  <UB_BTC_Adulthood_CruiseStaff.titleShort>steward</UB_BTC_Adulthood_CruiseStaff.titleShort>
+  <UB_BTC_Adulthood_Revanchist.title>revanchist</UB_BTC_Adulthood_Revanchist.title>
+  <UB_BTC_Adulthood_Revanchist.description>When [PAWN_nameDef]'s homeland fell, [PAWN_pronoun] traded [PAWN_possessive] farming tools for scavenged weapons. For years [PAWN_pronoun] harassed occupation forces sabotaging supply lines. Though [PAWN_possessive] people remain scattered, [PAWN_nameDef] carries their names etched inside, fighting to prove their memory still walks the world.</UB_BTC_Adulthood_Revanchist.description>
+  <UB_BTC_Adulthood_BorderGuard.title>border guard</UB_BTC_Adulthood_BorderGuard.title>
+  <UB_BTC_Adulthood_BorderGuard.titleShort>guard</UB_BTC_Adulthood_BorderGuard.titleShort>
+  <UB_BTC_Adulthood_BorderGuard.description>[PAWN_nameDef] spent years at a dusty frontier checkpoint - scanning cargo manifests by day, playing cards with smugglers by night. [PAWN_pronoun] knows every loophole in the trade regulations and many ways to sneak contraband past motion sensors. These days, [PAWN_nameDef] applies that same half-awake vigilance to colony security, always keeping one eye on the horizon and another on the coffee pot.</UB_BTC_Adulthood_BorderGuard.description>
+  <UB_BTC_Adulthood_SecretGendarme.title>secret gendarme</UB_BTC_Adulthood_SecretGendarme.title>
+  <UB_BTC_Adulthood_SecretGendarme.titleShort>gendarme</UB_BTC_Adulthood_SecretGendarme.titleShort>
+  <UB_BTC_Adulthood_WarCriminal01.title>war criminal</UB_BTC_Adulthood_WarCriminal01.title>
+  <UB_BTC_Adulthood_WarCriminal01.titleShort>criminal</UB_BTC_Adulthood_WarCriminal01.titleShort>
+  <UB_BTC_Adulthood_Investigator.title>blackwater investigator</UB_BTC_Adulthood_Investigator.title>
+  <UB_BTC_Adulthood_Investigator.titleShort>investigator</UB_BTC_Adulthood_Investigator.titleShort>
+  <UB_BTC_Adulthood_CryoDelivery.title>cryo delivery</UB_BTC_Adulthood_CryoDelivery.title>
+  <UB_BTC_Adulthood_CryoDelivery.titleShort>delivery</UB_BTC_Adulthood_CryoDelivery.titleShort>
+  <UB_BTC_Adulthood_Bomber.title>failed martyr</UB_BTC_Adulthood_Bomber.title>
+  <UB_BTC_Adulthood_Bomber.titleShort>martyr</UB_BTC_Adulthood_Bomber.titleShort>
+  <UB_BTC_Adulthood_Bomber.description>When [PAWN_nameDef] opened [PAWN_possessive] eyes to intact flesh and unbroken stone, [PAWN_pronoun] became [PAWN_possessive] own worst enemy. Branded a traitor by [PAWN_possessive] former cell, [PAWN_nameDef] spreads chaos not for ideology, but to prove [PAWN_pronoun] still holds the power to choose [PAWN_possessive] own destruction.</UB_BTC_Adulthood_Bomber.description>
+  <UB_BTC_Adulthood_WarHero.title>war hero</UB_BTC_Adulthood_WarHero.title>
+  <UB_BTC_Adulthood_WarHero.titleShort>hero</UB_BTC_Adulthood_WarHero.titleShort>
+  <UB_BTC_Adulthood_RoadPaver.title>road paver</UB_BTC_Adulthood_RoadPaver.title>
+  <UB_BTC_Adulthood_RoadPaver.titleShort>paver</UB_BTC_Adulthood_RoadPaver.titleShort>
+  <UB_BTC_Adulthood_RoadPaver.description>[PAWN_nameDef] carved civilization through the wildest frontiers - laying concrete ribbons across irradiated wastes and tribal territories alike. [PAWN_pronoun] survived bandit ambushes by hiding in [PAWN_possessive] own pavement rollers, emerging to beat raiders with [PAWN_possessive] signature plasteel-grade shovel.</UB_BTC_Adulthood_RoadPaver.description>
+  <UB_BTC_Adulthood_GravimetricSurveyor.title>gravimetric surveyor</UB_BTC_Adulthood_GravimetricSurveyor.title>
+  <UB_BTC_Adulthood_GravimetricSurveyor.titleShort>surveyor</UB_BTC_Adulthood_GravimetricSurveyor.titleShort>
+  <UB_BTC_Adulthood_GravimetricSurveyor.description>[PAWN_nameDef] mapped continental shelves and glaciers, using seismic thumpers to read planetary stress points. [PAWN_pronoun] predicted three colony collapses through subsidence patterns before being dismissed for "alarmist topography".</UB_BTC_Adulthood_GravimetricSurveyor.description>
+  <UB_BTC_Adulthood_DropTrooper.title>drop trooper</UB_BTC_Adulthood_DropTrooper.title>
+  <UB_BTC_Adulthood_DropTrooper.titleShort>trooper</UB_BTC_Adulthood_DropTrooper.titleShort>
+  <UB_BTC_Adulthood_DropTrooper.description>[PAWN_nameDef] survived numerous combat drops through hostile atmospheres. [PAWN_pronoun] learned to assemble [PAWN_possessive] rifle mid-freefall, and medical scanners show [PAWN_possessive] bones are nominally lighter than normal from prolonged zero-G deployments.</UB_BTC_Adulthood_DropTrooper.description>
+  <UB_BTC_Adulthood_FortressCommandant.title>fortress commandant</UB_BTC_Adulthood_FortressCommandant.title>
+  <UB_BTC_Adulthood_FortressCommandant.titleShort>commandant</UB_BTC_Adulthood_FortressCommandant.titleShort>
+  <UB_BTC_Adulthood_FortressCommandant.description>[PAWN_nameDef] spent years organizing the defenses of a frontier stronghold. [PAWN_pronoun] trained militia troops and managed siege preparations, becoming expert at turning simple settlements into impregnable bastions against raids.</UB_BTC_Adulthood_FortressCommandant.description>
+  <UB_BTC_Adulthood_BioharvestArchitect.title>bioharvest architect</UB_BTC_Adulthood_BioharvestArchitect.title>
+  <UB_BTC_Adulthood_BioharvestArchitect.titleShort>architect</UB_BTC_Adulthood_BioharvestArchitect.titleShort>
+  <UB_BTC_Adulthood_BioharvestArchitect.description>[PAWN_nameDef] engineered supercrops for glitterworld arcologies until [PAWN_possessive] perfect wheat hybrid unexpectedly developed hyperaggressive growth, damaging critical infrastructure. Now exiled from [PAWN_possessive] utopian labs, [PAWN_pronoun] obsessively tweaks efficiency in rimworld flora.</UB_BTC_Adulthood_BioharvestArchitect.description>
+  <UB_BTC_Adulthood_SecurityArtisan.title>security artisan</UB_BTC_Adulthood_SecurityArtisan.title>
+  <UB_BTC_Adulthood_SecurityArtisan.titleShort>artisan</UB_BTC_Adulthood_SecurityArtisan.titleShort>
+  <UB_BTC_Adulthood_SecurityArtisan.description>[PAWN_nameDef] spent years mastering the inner workings of locks, safes, and security systems. From repairing broken mechanisms to bypassing electronic safeguards, [PAWN_possessive] hands were always busy with intricate tools and delicate machinery. Whether called upon to fix an old vault or break into one, [PAWN_pronoun] was equally skilled at both.</UB_BTC_Adulthood_SecurityArtisan.description>
+  <UB_BTC_Adulthood_SystemsController.title>systems controller</UB_BTC_Adulthood_SystemsController.title>
+  <UB_BTC_Adulthood_SystemsController.titleShort>controller</UB_BTC_Adulthood_SystemsController.titleShort>
+  <UB_BTC_Adulthood_SystemsController.description>[PAWN_nameDef] maintained fleets of maintenance drones across industrial complexes - programming cargo haulers, repairing surveillance units, and jury-rigging security bots.</UB_BTC_Adulthood_SystemsController.description>
+  <UB_BTC_VB_VenomSoldier.title>venom soldier</UB_BTC_VB_VenomSoldier.title>
+  <UB_BTC_VB_VenomSoldier.titleShort>soldier</UB_BTC_VB_VenomSoldier.titleShort>
+  <UB_BTC_VB_VenomSoldier.description>[PAWN_nameDef] was a mercenary soldier augmented with various toxin based augmentations. Intergalactic transport law required the removal of [PAWN_nameDef]'s augmentations, but their lingering effects have given [PAWN_nameDef] an increased immunity from constant exposure to bioweaponry.</UB_BTC_VB_VenomSoldier.description>
+  <UB_BTC_VB_Stocktrader.title>stocktrader</UB_BTC_VB_Stocktrader.title>
+  <UB_BTC_VB_Stocktrader.titleShort>trader</UB_BTC_VB_Stocktrader.titleShort>
+  <UB_BTC_VB_Stocktrader.description>[PAWN_nameDef] was part of a successful stock trading firm. [PAWN_pronoun] was able to outperform most of [PAWN_possessive] department through constant consumption of Wake Up and Yayo, which [PAWN_nameDef]'s employer took a blind eye to. [PAWN_nameDef] lost [PAWN_possessive] job after taking part in a "random" chemical test, though [PAWN_pronoun] suspects [PAWN_pronoun] was chosen due to office politics.</UB_BTC_VB_Stocktrader.description>
+  <UB_BTC_VB_Wrestler.title>wrestler</UB_BTC_VB_Wrestler.title>
+  <UB_BTC_VB_Wrestler.description>[PAWN_nameDef] was a popular wrestler on [PAWN_possessive] homeworld. Even after retiring, [PAWN_nameDef] still feels the need to smash furniture over someone's head.</UB_BTC_VB_Wrestler.description>
+  <UB_BTC_VB_Talkshow.title>show host</UB_BTC_VB_Talkshow.title>
+  <UB_BTC_VB_Talkshow.titleShort>host</UB_BTC_VB_Talkshow.titleShort>
+  <UB_BTC_VB_Talkshow.description>[PAWN_nameDef] was the host of the "[PAWN_nameDef] Show", where [PAWN_pronoun] would make fun of [PAWN_possessive] guests and try to capitalize on trends. This was until one of [PAWN_possessive] guests burned down the studio. [PAWN_nameDef] was lucky to escape with [PAWN_possessive] life.</UB_BTC_VB_Talkshow.description>
+  <UB_BTC_VB_Wastepacker.title>wastepacker</UB_BTC_VB_Wastepacker.title>
+  <UB_BTC_VB_Wastepacker.titleShort>packer</UB_BTC_VB_Wastepacker.titleShort>
+  <UB_BTC_VB_Wastepacker.description>[PAWN_nameDef] wasn't the shapest tool in the shed. [PAWN_pronoun] got a job moving toxic wastepacks. While it probably shortened [PAWN_possessive] lifespan, it paid rather well.</UB_BTC_VB_Wastepacker.description>
+  <UB_BTC_VB_DataSmuggler.title>data smuggler</UB_BTC_VB_DataSmuggler.title>
+  <UB_BTC_VB_DataSmuggler.titleShort>smuggler</UB_BTC_VB_DataSmuggler.titleShort>
+  <UB_BTC_VB_DataSmuggler.description>On advanced worlds where stolen data can be easily detected, smugglers download data into their own brains to avoid detection. [PAWN_nameDef] was lauded for being able to carry large data packets in [PAWN_possessive] brain.</UB_BTC_VB_DataSmuggler.description>
+  <UB_BTC_Adulthood_Debtor.title>thawed debtor</UB_BTC_Adulthood_Debtor.title>
+  <UB_BTC_Adulthood_Debtor.titleShort>debtor</UB_BTC_Adulthood_Debtor.titleShort>
+  <UB_BTC_Adulthood_Debtor.description>[PAWN_nameDef] was preserved in a cryptosleep chamber by [PAWN_possessive] glitterworld employer after contracting the Plague during deep space mining operations. When revived centuries later, [PAWN_pronoun] discovered the cure came with an inheritance of compound interest debt spanning generations, and [PAWN_pronoun] has been on the run ever since.</UB_BTC_Adulthood_Debtor.description>
+  <UB_BTC_Adulthood_TraumaIntern.title>trauma ward intern</UB_BTC_Adulthood_TraumaIntern.title>
+  <UB_BTC_Adulthood_TraumaIntern.titleShort>intern</UB_BTC_Adulthood_TraumaIntern.titleShort>
+  <UB_BTC_Adulthood_TraumaIntern.description>[PAWN_nameDef] spent nights stitching gang war victims in underground clinics and days memorizing obsolete anatomy texts. The makeshift hospitals of [PAWN_possessive] slum district taught [PAWN_objective] more than urbworld universities ever could - how to remove bullets with a vibroscalpel, cauterize wounds, and diagnose plagues from cough patterns.</UB_BTC_Adulthood_TraumaIntern.description>
+  <UB_BTC_VB_ScrapArtist.title>scrap artist</UB_BTC_VB_ScrapArtist.title>
+  <UB_BTC_VB_ScrapArtist.titleShort>artist</UB_BTC_VB_ScrapArtist.titleShort>
+  <UB_BTC_VB_ScrapArtist.description>[PAWN_nameDef] is skilled at making art from what others would call trash. Not everyone gets what [PAWN_nameDef] is trying to convey, but they can all apreciate [PAWN_possessive] skill at the craft.</UB_BTC_VB_ScrapArtist.description>
+  <UB_BTC_Adulthood_Naturist.title>naturist</UB_BTC_Adulthood_Naturist.title>
+  <UB_BTC_Adulthood_Naturist.description>[PAWN_nameDef] rejected "textile oppression". Years of communal moonlit volleyball and "air baths" left [PAWN_objective] with perfect tan lines... and zero shame.</UB_BTC_Adulthood_Naturist.description>
+  <UB_BTC_Adulthood_Defector01.title>mining colony defector</UB_BTC_Adulthood_Defector01.title>
+  <UB_BTC_Adulthood_Defector01.titleShort>defector</UB_BTC_Adulthood_Defector01.titleShort>
+  <UB_BTC_Adulthood_Defector01.description>[PAWN_nameDef] served as an Imperial trooper stationed at a subterranean mining colony. When a rebel faction gained popularity among the oppressed miners, [PAWN_pronoun] joined their cause. After a failed uprising against Imperial overseers, [PAWN_nameDef] commandeered a supply shuttle and barely escaped the planet's atmosphere. [PAWN_pronoun] still carries the weight of those left behind in the crushed rebellion.</UB_BTC_Adulthood_Defector01.description>
+  <UB_BTC_Adulthood_Overseer01.title>mining overseer</UB_BTC_Adulthood_Overseer01.title>
+  <UB_BTC_Adulthood_Overseer01.titleShort>overseer</UB_BTC_Adulthood_Overseer01.titleShort>
+  <UB_BTC_Adulthood_Overseer01.description>[PAWN_nameDef] governed an Imperial subterranean mining colony for years, until worker revolts over rationing policies turned violent. When rebels breached the central vaults, [PAWN_pronoun] survived for months in maintenance tunnels using [PAWN_possessive] knowledge of the complex. Imperial forces eventually retook the colony, extracting [PAWN_objective] as part of a negotiated surrender. [PAWN_nameDef]'s administrative records remain sealed by Imperial magistrates.</UB_BTC_Adulthood_Overseer01.description>
+  <UB_BTC_Adulthood_Overseer02.title>refinery overseer</UB_BTC_Adulthood_Overseer02.title>
+  <UB_BTC_Adulthood_Overseer02.titleShort>overseer</UB_BTC_Adulthood_Overseer02.titleShort>
+  <UB_BTC_Adulthood_Overseer02.description>[PAWN_nameDef] managed production at a steel refinery orbiting a dying red star. For years, [PAWN_pronoun] enforced output quotas across smelter platforms housing indentured workers. When a coolant system failure triggered decompression, [PAWN_nameDef] sealed [PAWN_possessive] command module and jettisoned - the only section not vented into space. [PAWN_pronoun] now bears the weight of many, many preventable deaths.</UB_BTC_Adulthood_Overseer02.description>
+  <UB_BTC_Adulthood_Surveyor01.title>deep space surveyor</UB_BTC_Adulthood_Surveyor01.title>
+  <UB_BTC_Adulthood_Surveyor01.titleShort>surveyor</UB_BTC_Adulthood_Surveyor01.titleShort>
+  <UB_BTC_Adulthood_Surveyor01.description>[PAWN_nameDef] served aboard a survey vessel, charting mineral-rich asteroids for corporate mining. During a routine EVA near a rogue planet, [PAWN_pronoun] was struck by micrometeorites that severed [PAWN_possessive] tether. The crew declared [PAWN_objective] dead and jettisoned [PAWN_possessive] damaged stasis pod to save oxygen. Centuries later, orbital decay dropped the preserved pod.</UB_BTC_Adulthood_Surveyor01.description>
+  <UB_BTC_Adulthood_SleepingBeauty.title>sleeping beauty</UB_BTC_Adulthood_SleepingBeauty.title>
+  <UB_BTC_Adulthood_SleepingBeauty.titleShort>beauty</UB_BTC_Adulthood_SleepingBeauty.titleShort>
+  <UB_BTC_Adulthood_SleepingBeauty.description>[PAWN_nameDef] was a Glitterworld socialite who entered a prototype biosculptor pod for aesthetic refinement, only to become trapped during a planetary evacuation. For centuries, [PAWN_possessive] perfectly preserved form in its casket served as the sacred center of a tribal fertility cult. Tribal artisans covered the pod in gold leaf and runes until pirate slavers raided the temple. Now free but unprepared for reality, [PAWN_nameDef] expects others to handle all practical matters.</UB_BTC_Adulthood_SleepingBeauty.description>
+  <UB_BTC_Adulthood_Terrorist01.title>terrorist</UB_BTC_Adulthood_Terrorist01.title>
+  <UB_BTC_Adulthood_Terrorist01.description>[PAWN_nameDef] was radicalized in youth and trained in urban guerrilla tactics. [PAWN_pronoun] conducted bombings and assassinations for an anti-Imperial cell before being betrayed by [PAWN_possessive] own faction.</UB_BTC_Adulthood_Terrorist01.description>
+  <UB_BTC_Adulthood_DemolitionsMiner.title>blastzone driller</UB_BTC_Adulthood_DemolitionsMiner.title>
+  <UB_BTC_Adulthood_DemolitionsMiner.titleShort>driller</UB_BTC_Adulthood_DemolitionsMiner.titleShort>
+  <UB_BTC_Adulthood_DemolitionsMiner.description>[PAWN_nameDef] grew up in a subterranean methanol distillery before becoming a mining explosives technician. After accidentally collapsing a colony sector in a single detonation spree, [PAWN_pronoun] found [PAWN_possessive] true calling as a pirate breacher specialist.</UB_BTC_Adulthood_DemolitionsMiner.description>
+  <UB_BTC_Adulthood_SupplyPlanner.title>supply chain planner</UB_BTC_Adulthood_SupplyPlanner.title>
+  <UB_BTC_Adulthood_SupplyPlanner.titleShort>planner</UB_BTC_Adulthood_SupplyPlanner.titleShort>
+  <UB_BTC_Adulthood_SupplyPlanner.description>[PAWN_nameDef] managed resource flows for a midworld industrial collective. [PAWN_pronoun] balanced production quotas against caravan shipments, becoming adept at spreadsheet logistics but developing a permanent distaste for fieldwork.</UB_BTC_Adulthood_SupplyPlanner.description>
+  <UB_BTC_Adulthood_WarMechOperator.title>war mech operator</UB_BTC_Adulthood_WarMechOperator.title>
+  <UB_BTC_Adulthood_WarMechOperator.titleShort>operator</UB_BTC_Adulthood_WarMechOperator.titleShort>
+  <UB_BTC_Adulthood_WarMechOperator.description>[PAWN_nameDef] piloted towering war machines in planetary conflicts, leveling entire city blocks with plasma cannons and railguns. Warfare on such a scale left [PAWN_possessive] nerves of steel.</UB_BTC_Adulthood_WarMechOperator.description>
+  <UB_BTC_Adulthood_ReminiscenceHerbalist.title>reminiscence herbalist</UB_BTC_Adulthood_ReminiscenceHerbalist.title>
+  <UB_BTC_Adulthood_ReminiscenceHerbalist.titleShort>herbalist</UB_BTC_Adulthood_ReminiscenceHerbalist.titleShort>
+  <UB_BTC_Adulthood_ReminiscenceHerbalist.description>[PAWN_nameDef] curated nostalgic experiences for customers using artisanal herbal infusions. Each fragrance captured precise emotional states from specific historical eras.</UB_BTC_Adulthood_ReminiscenceHerbalist.description>
+  <UB_BTC_Adulthood_ArmoryClerk.title>glitterworld armory clerk</UB_BTC_Adulthood_ArmoryClerk.title>
+  <UB_BTC_Adulthood_ArmoryClerk.titleShort>weapons clerk</UB_BTC_Adulthood_ArmoryClerk.titleShort>
+  <UB_BTC_Adulthood_ArmoryClerk.description>[PAWN_nameDef] managed weapon maintenance for a planetary defense force. [PAWN_pronoun] became adept at repairing ceremonial plasma rifles while avoiding actual target practice.</UB_BTC_Adulthood_ArmoryClerk.description>
+  <UB_BTC_Adulthood_GlitterworldSoldier01.title>glitterworld soldier</UB_BTC_Adulthood_GlitterworldSoldier01.title>
+  <UB_BTC_Adulthood_GlitterworldSoldier01.titleShort>soldier</UB_BTC_Adulthood_GlitterworldSoldier01.titleShort>
+  <UB_BTC_Adulthood_GlitterworldSoldier02.title>glitterworld soldier</UB_BTC_Adulthood_GlitterworldSoldier02.title>
+  <UB_BTC_Adulthood_GlitterworldSoldier02.titleShort>soldier</UB_BTC_Adulthood_GlitterworldSoldier02.titleShort>
+  <UB_BTC_Adulthood_GlitterworldSoldier02.description>[PAWN_nameDef] logged countless security shifts on glitterworld border platforms. [PAWN_pronoun] repelled occasional corporate espionage drones from a safe distance, and once disarmed a drunk trader's antique plasma pistol.</UB_BTC_Adulthood_GlitterworldSoldier02.description>
+  <UB_BTC_Adulthood_Metallurgist.title>metallurgist</UB_BTC_Adulthood_Metallurgist.title>
+  <UB_BTC_Adulthood_Metallurgist.description>[PAWN_nameDef] worked twelve-hour shifts at a smelting complex, breathing furnace fumes while sorting scrap metal. [PAWN_pronoun] could judge steel quality by its ring when struck with a hammer - a skill learned from old-timers in the slag pits.</UB_BTC_Adulthood_Metallurgist.description>
+  <UB_BTC_Adulthood_MusicPerformer.title>music performer</UB_BTC_Adulthood_MusicPerformer.title>
+  <UB_BTC_Adulthood_MusicPerformer.titleShort>musician</UB_BTC_Adulthood_MusicPerformer.titleShort>
+  <UB_BTC_Adulthood_MusicPerformer.description>[PAWN_nameDef] played music in remote outposts to earn [PAWN_possessive] sustenance. When [PAWN_possessive] band broke up, [PAWN_pronoun] learned to survive alone on the road.</UB_BTC_Adulthood_MusicPerformer.description>
+  <UB_BTC_Adulthood_Mercenary02.title>mercenary captain</UB_BTC_Adulthood_Mercenary02.title>
+  <UB_BTC_Adulthood_Mercenary02.titleShort>captain</UB_BTC_Adulthood_Mercenary02.titleShort>
+  <UB_BTC_Adulthood_Mercenary02.description>[PAWN_nameDef] became addicted to the "sweet symphony of war" after surviving [PAWN_possessive] first battlefield at a very young age. [PAWN_pronoun] rose to lead the Winds of Destruction - an elite mercenary unit specializing in regime change operations.\n\nDespite leading [PAWN_possessive] squad, [PAWN_pronoun] never developed interest in communicating outside missions.</UB_BTC_Adulthood_Mercenary02.description>
+  <UB_BTC_Adulthood_Mercenary03.title>HMG contractor</UB_BTC_Adulthood_Mercenary03.title>
+  <UB_BTC_Adulthood_Mercenary03.titleShort>gunner</UB_BTC_Adulthood_Mercenary03.titleShort>
+  <UB_BTC_Adulthood_Mercenary03.description>[PAWN_nameDef] operated as a freelance heavy weapons specialist, preferring rotary cannons over diplomacy.\n\n[PAWN_pronoun] sustained [PAWN_objective] through long sieges with [PAWN_possessive] famous improvised meals.</UB_BTC_Adulthood_Mercenary03.description>
+  <UB_BTC_Adulthood_TaxationDissident.title>taxation dissident</UB_BTC_Adulthood_TaxationDissident.title>
+  <UB_BTC_Adulthood_TaxationDissident.titleShort>dissident</UB_BTC_Adulthood_TaxationDissident.titleShort>
+  <UB_BTC_Adulthood_TaxationDissident.description>[PAWN_nameDef] once operated a thriving plantation on a frontier world, until Imperial tax collectors arrived demanding tribute for "galactic stability fees". When [PAWN_pronoun] couldn't pay the exorbitant levies, they seized [PAWN_possessive] land and executed [PAWN_possessive] couple as collateral.\n\nNow branded a debtor-criminal, [PAWN_nameDef] survives as a fugitive, [PAWN_possessive] once-sharp business mind clouded by trauma and [PAWN_possessive] hands calloused from menial labor.</UB_BTC_Adulthood_TaxationDissident.description>
+  <UB_BTC_Adulthood_AICollapseSurvivor.title>economic crash survivor</UB_BTC_Adulthood_AICollapseSurvivor.title>
+  <UB_BTC_Adulthood_AICollapseSurvivor.titleShort>survivor</UB_BTC_Adulthood_AICollapseSurvivor.titleShort>
+  <UB_BTC_Adulthood_AICollapseSurvivor.description>[PAWN_nameDef] lived on a glitterworld where "The Marketmind" AI optimized every transaction. When its predictive models failed during an unspecified event, the economy dissolved overnight.\n\n[PAWN_pronoun] survived learning to hack vending AIs for ration paste, while mistrusting any system more complex than an abacus.</UB_BTC_Adulthood_AICollapseSurvivor.description>
+  <UB_BTC_Adulthood_MilitaryGunner.title>military gunner</UB_BTC_Adulthood_MilitaryGunner.title>
+  <UB_BTC_Adulthood_MilitaryGunner.titleShort>gunner</UB_BTC_Adulthood_MilitaryGunner.titleShort>
+  <UB_BTC_Adulthood_MilitaryGunner.description>[PAWN_nameDef] served as a machine gunner in an midworld defense force. [PAWN_possessive] role required laying down suppressing fire rather than precision shots. [PAWN_pronoun] once cauterized [PAWN_possessive] own leg wound mid-firefight when medics couldn't reach [PAWN_objective] position.</UB_BTC_Adulthood_MilitaryGunner.description>
+  <UB_BTC_Adulthood_UrbworldCombatDirector.title>urbworld combat director</UB_BTC_Adulthood_UrbworldCombatDirector.title>
+  <UB_BTC_Adulthood_UrbworldCombatDirector.titleShort>director</UB_BTC_Adulthood_UrbworldCombatDirector.titleShort>
+  <UB_BTC_Adulthood_UrbworldCombatDirector.description>[PAWN_nameDef] commanded rapid-response squads in the vertical battlefields of [PAWN_possessive] home urbworld. Specializing in megastructure warfare, [PAWN_pronoun] coordinated attacks across reduced space hab-zones. [PAWN_nameDef]'s signature strategy involved overloading life support systems to flush out entrenched enemies - effective, if controversial.</UB_BTC_Adulthood_UrbworldCombatDirector.description>
+  <UB_BTC_Adulthood_Horologist.title>horologist</UB_BTC_Adulthood_Horologist.title>
+  <UB_BTC_Adulthood_Horologist.description>[PAWN_possessive] hands found purpose in the intricate dance of gears and springs. Apprenticed young to a guild of master horologists, [PAWN_nameDef] learned to breathe life into antique chronometers, calibrate celestial navigation tools, and restore heirloom timepieces for wealthy offworld patrons.</UB_BTC_Adulthood_Horologist.description>
+  <UB_BTC_Adulthood_ComplianceOfficer.title>compliance officer</UB_BTC_Adulthood_ComplianceOfficer.title>
+  <UB_BTC_Adulthood_ComplianceOfficer.titleShort>officer</UB_BTC_Adulthood_ComplianceOfficer.titleShort>
+  <UB_BTC_Adulthood_ComplianceOfficer.description>[PAWN_nameDef] worked aboard an Imperial rehabilitation barge, administering mandatory memory purges to political dissidents. [PAWN_pronoun] became adept at using ancient neurotrainers to erase specific engrams while leaving technical skills intact - until [PAWN_pronoun] discovered [PAWN_possessive] own memories had been altered thirteen times.</UB_BTC_Adulthood_ComplianceOfficer.description>
+  <UB_BTC_Adulthood_SilentSurvivor.title>last unbeliever</UB_BTC_Adulthood_SilentSurvivor.title>
+  <UB_BTC_Adulthood_SilentSurvivor.titleShort>unbeliever</UB_BTC_Adulthood_SilentSurvivor.titleShort>
+  <UB_BTC_Adulthood_ReactorEngineer.title>coreworld reactor engineer</UB_BTC_Adulthood_ReactorEngineer.title>
+  <UB_BTC_Adulthood_ReactorEngineer.titleShort>engineer</UB_BTC_Adulthood_ReactorEngineer.titleShort>
+  <UB_BTC_Adulthood_ReactorEngineer.description>[PAWN_nameDef] performed precision calibrations on coreworld power reactors. Years of routine maintenance checks and harmonic balancing gave [PAWN_objective] steady focus for electrical systems.</UB_BTC_Adulthood_ReactorEngineer.description>
+  <UB_BTC_Adulthood_UrbworldNotary.title>urbworld notary</UB_BTC_Adulthood_UrbworldNotary.title>
+  <UB_BTC_Adulthood_UrbworldNotary.titleShort>notary</UB_BTC_Adulthood_UrbworldNotary.titleShort>
+  <UB_BTC_Adulthood_UrbworldNotary.description>[PAWN_nameDef] was responsible for authenticating and verifying biocoded contracts in the dense, corporate-dominated enclaves of an urbworld.\nIn a society where every transaction, agreement, and even personal debt was locked behind biometric security and legal bureaucracy, [PAWN_nameDef] ensured that the right people signed the right deals—or, sometimes, that certain discrepancies were quietly overlooked for the right price.</UB_BTC_Adulthood_UrbworldNotary.description>
+  <UB_BTC_Adulthood_UrbworldCorruptEnforcer01.title>urbworld corrupt enforcer</UB_BTC_Adulthood_UrbworldCorruptEnforcer01.title>
+  <UB_BTC_Adulthood_UrbworldCorruptEnforcer01.titleShort>enforcer</UB_BTC_Adulthood_UrbworldCorruptEnforcer01.titleShort>
+  <UB_BTC_Adulthood_SpacePirate01.title>space pirate</UB_BTC_Adulthood_SpacePirate01.title>
+  <UB_BTC_Adulthood_SpacePirate01.titleShort>pirate</UB_BTC_Adulthood_SpacePirate01.titleShort>
+  <UB_BTC_Adulthood_SpacePirate01.description>[PAWN_nameDef] is a hardened loner who stalks the forgotten trade routes of the offworld frontier. [PAWN_pronoun] lurks along deserted highways, [PAWN_pronoun] ambushes unsuspecting caravans and settlements alike.</UB_BTC_Adulthood_SpacePirate01.description>
+  <UB_BTC_Adulthood_WastelandCourier.title>wasteland courier</UB_BTC_Adulthood_WastelandCourier.title>
+  <UB_BTC_Adulthood_WastelandCourier.titleShort>courier</UB_BTC_Adulthood_WastelandCourier.titleShort>
+  <UB_BTC_Adulthood_DanceTeacher.title>dance teacher</UB_BTC_Adulthood_DanceTeacher.title>
+  <UB_BTC_Adulthood_DanceTeacher.titleShort>teacher</UB_BTC_Adulthood_DanceTeacher.titleShort>
+  <UB_BTC_Adulthood_DanceTeacher.description>[PAWN_nameDef] found purpose in the art of dance, inspiring others to find expression, freedom, and unity in rhythm.</UB_BTC_Adulthood_DanceTeacher.description>
+  <UB_BTC_Adulthood_AntiqueDealer.title>antique dealer</UB_BTC_Adulthood_AntiqueDealer.title>
+  <UB_BTC_Adulthood_AntiqueDealer.titleShort>dealer</UB_BTC_Adulthood_AntiqueDealer.titleShort>
+  <UB_BTC_Adulthood_AntiqueDealer.description>[PAWN_nameDef] has always been captivated by relics of a bygone era. Became notorious for selling "authenticated" replicas until a disgruntled customer exposed [PAWN_possessive] forgery ring.</UB_BTC_Adulthood_AntiqueDealer.description>
+  <UB_BTC_Adulthood_Banker.title>banker</UB_BTC_Adulthood_Banker.title>
+  <UB_BTC_Adulthood_Banker.description>[PAWN_nameDef] spent years managing credit flows and wealth circulation at [PAWN_possessive] bank branch, from overseeing high-stakes corporate loans to counting deposits for small-time traders.\nA convoluted incident involving quantum ledger discrepancies funneled a VIP client's fortune into multiple encrypted accounts. Though forensic accountants found no direct fault, [PAWN_pronoun] became the convenient scapegoat for systems [PAWN_pronoun] barely understood.</UB_BTC_Adulthood_Banker.description>
+  <UB_BTC_Adulthood_Gunrunner02.title>corporate arms broker</UB_BTC_Adulthood_Gunrunner02.title>
+  <UB_BTC_Adulthood_Gunrunner02.titleShort>broker</UB_BTC_Adulthood_Gunrunner02.titleShort>
+  <UB_BTC_Adulthood_DrillSergeant01.title>military instructor</UB_BTC_Adulthood_DrillSergeant01.title>
+  <UB_BTC_Adulthood_DrillSergeant01.titleShort>instructor</UB_BTC_Adulthood_DrillSergeant01.titleShort>
+  <UB_BTC_Adulthood_Archivist.title>archivist</UB_BTC_Adulthood_Archivist.title>
+  <UB_BTC_Adulthood_Archivist.description>[PAWN_nameDef] was in charge of the library fund at [PAWN_possessive] academy, overseeing the acquisition, preservation, and study of ancient texts and digital archives. With a sharp mind and a passion for knowledge, [PAWN_pronoun] meticulously managed the collection, often immersing in research and restoration projects.</UB_BTC_Adulthood_Archivist.description>
+  <UB_BTC_Adulthood_RemnantColonel.title>remnant colonel</UB_BTC_Adulthood_RemnantColonel.title>
+  <UB_BTC_Adulthood_RemnantColonel.titleShort>colonel</UB_BTC_Adulthood_RemnantColonel.titleShort>
+  <UB_BTC_Adulthood_RemnantColonel.description>[PAWN_nameDef] was the field commander of an elite military division, trained from birth in the art of warfare. When [PAWN_possessive] faction collapsed, [PAWN_pronoun] refused to surrender, leading [PAWN_possessive] remaining forces on a bloody campaign.\n\nNow [PAWN_pronoun] serves no one but [PAWN_possessive] own uncompromising vision of order - enforced at gunpoint when necessary.</UB_BTC_Adulthood_RemnantColonel.description>
+  <UB_BTC_Adulthood_MetroCop.title>metropolitan police</UB_BTC_Adulthood_MetroCop.title>
+  <UB_BTC_Adulthood_MetroCop.titleShort>policeman</UB_BTC_Adulthood_MetroCop.titleShort>
+  <UB_BTC_Adulthood_MetroCop.titleShortFemale>policewoman</UB_BTC_Adulthood_MetroCop.titleShortFemale>
+  <UB_BTC_Adulthood_TankCommander.title>armored division officer</UB_BTC_Adulthood_TankCommander.title>
+  <UB_BTC_Adulthood_TankCommander.titleShort>officer</UB_BTC_Adulthood_TankCommander.titleShort>
+  <UB_BTC_Adulthood_ExiledSoldier.title>exiled soldier</UB_BTC_Adulthood_ExiledSoldier.title>
+  <UB_BTC_Adulthood_ExiledSoldier.titleShort>exiled</UB_BTC_Adulthood_ExiledSoldier.titleShort>
+  <UB_BTC_Adulthood_RadioHost.title>radio host</UB_BTC_Adulthood_RadioHost.title>
+  <UB_BTC_Adulthood_RadioHost.titleShort>host</UB_BTC_Adulthood_RadioHost.titleShort>
+  <UB_BTC_Adulthood_Optician.title>optic fabricator</UB_BTC_Adulthood_Optician.title>
+  <UB_BTC_Adulthood_Optician.titleShort>optician</UB_BTC_Adulthood_Optician.titleShort>
+  <UB_BTC_Adulthood_WaterBaron.title>water baron</UB_BTC_Adulthood_WaterBaron.title>
+  <UB_BTC_Adulthood_WaterBaron.titleFemale>water baroness</UB_BTC_Adulthood_WaterBaron.titleFemale>
+  <UB_BTC_Adulthood_WaterBaron.titleShort>baron</UB_BTC_Adulthood_WaterBaron.titleShort>
+  <UB_BTC_Adulthood_WaterBaron.titleShortFemale>baroness</UB_BTC_Adulthood_WaterBaron.titleShortFemale>
+  <UB_BTC_Adulthood_TacticalHandler.title>K-9 tactical handler</UB_BTC_Adulthood_TacticalHandler.title>
+  <UB_BTC_Adulthood_TacticalHandler.titleShort>handler</UB_BTC_Adulthood_TacticalHandler.titleShort>
+  <UB_BTC_Adulthood_ShadySalesman.title>shady salesman</UB_BTC_Adulthood_ShadySalesman.title>
+  <UB_BTC_Adulthood_ShadySalesman.titleShort>salesman</UB_BTC_Adulthood_ShadySalesman.titleShort>
+  <UB_BTC_Adulthood_Separatist01.title>separatist leader</UB_BTC_Adulthood_Separatist01.title>
+  <UB_BTC_Adulthood_Separatist01.titleShort>separatist</UB_BTC_Adulthood_Separatist01.titleShort>
+  <UB_BTC_Adulthood_Separatist02.title>wealthy separatist</UB_BTC_Adulthood_Separatist02.title>
+  <UB_BTC_Adulthood_Separatist02.titleShort>separatist</UB_BTC_Adulthood_Separatist02.titleShort>
+  <UB_BTC_Adulthood_CarHijacker.title>car hijacker</UB_BTC_Adulthood_CarHijacker.title>
+  <UB_BTC_Adulthood_CarHijacker.titleShort>hijacker</UB_BTC_Adulthood_CarHijacker.titleShort>
+  <UB_BTC_Adulthood_Catachan.title>kill-team operative</UB_BTC_Adulthood_Catachan.title>
+  <UB_BTC_Adulthood_Catachan.titleShort>operative</UB_BTC_Adulthood_Catachan.titleShort>
+  <UB_BTC_Adulthood_Sniper01.title>high-value target eliminator</UB_BTC_Adulthood_Sniper01.title>
+  <UB_BTC_Adulthood_Sniper01.titleShort>eliminator</UB_BTC_Adulthood_Sniper01.titleShort>
+  <UB_BTC_Adulthood_NavyMidshipman.title>navy midshipman</UB_BTC_Adulthood_NavyMidshipman.title>
+  <UB_BTC_Adulthood_NavyMidshipman.titleShort>midshipman</UB_BTC_Adulthood_NavyMidshipman.titleShort>
+  <UB_BTC_Adulthood_NavyAdmiral01.title>navy admiral</UB_BTC_Adulthood_NavyAdmiral01.title>
+  <UB_BTC_Adulthood_NavyAdmiral01.titleShort>admiral</UB_BTC_Adulthood_NavyAdmiral01.titleShort>
+  <UB_BTC_Adulthood_NavyLordCaptain.title>navy lord captain</UB_BTC_Adulthood_NavyLordCaptain.title>
+  <UB_BTC_Adulthood_NavyLordCaptain.titleShort>lord</UB_BTC_Adulthood_NavyLordCaptain.titleShort>
+  <UB_BTC_Adulthood_ChartistCaptain.title>chartist captain</UB_BTC_Adulthood_ChartistCaptain.title>
+  <UB_BTC_Adulthood_ChartistCaptain.titleShort>chartist</UB_BTC_Adulthood_ChartistCaptain.titleShort>
+  <UB_BTC_Adulthood_OrganTrader.title>organ trader</UB_BTC_Adulthood_OrganTrader.title>
+  <UB_BTC_Adulthood_OrganTrader.titleShort>trader</UB_BTC_Adulthood_OrganTrader.titleShort>
+  <UB_BTC_Adulthood_GlitterworldPeacekeeper.title>glitterworld peacekeeper</UB_BTC_Adulthood_GlitterworldPeacekeeper.title>
+  <UB_BTC_Adulthood_GlitterworldPeacekeeper.titleShort>peacekeeper</UB_BTC_Adulthood_GlitterworldPeacekeeper.titleShort>
+  <UB_BTC_Adulthood_MultipassForger.title>multipass forger</UB_BTC_Adulthood_MultipassForger.title>
+  <UB_BTC_Adulthood_MultipassForger.titleShort>forger</UB_BTC_Adulthood_MultipassForger.titleShort>
+  <UB_BTC_Adulthood_PrisonGuard01.title>prison guard</UB_BTC_Adulthood_PrisonGuard01.title>
+  <UB_BTC_Adulthood_PrisonGuard01.titleShort>guard</UB_BTC_Adulthood_PrisonGuard01.titleShort>
+  <UB_BTC_Adulthood_PrisonGuard02.title>prison guard</UB_BTC_Adulthood_PrisonGuard02.title>
+  <UB_BTC_Adulthood_PrisonGuard02.titleShort>guard</UB_BTC_Adulthood_PrisonGuard02.titleShort>
+  <UB_BTC_Adulthood_MercenaryMarshal.title>mercenary marshal</UB_BTC_Adulthood_MercenaryMarshal.title>
+  <UB_BTC_Adulthood_MercenaryMarshal.titleShort>marshal</UB_BTC_Adulthood_MercenaryMarshal.titleShort>
+  <UB_BTC_Adulthood_NervousWreck.title>nervous wreck</UB_BTC_Adulthood_NervousWreck.title>
+  <UB_BTC_Adulthood_NervousWreck.titleShort>wreck</UB_BTC_Adulthood_NervousWreck.titleShort>
+  <UB_BTC_Adulthood_RetiredHitman.title>retired hitman</UB_BTC_Adulthood_RetiredHitman.title>
+  <UB_BTC_Adulthood_RetiredHitman.titleShort>hitman</UB_BTC_Adulthood_RetiredHitman.titleShort>
+  <UB_BTC_Adulthood_SpaceWhaler.title>space whaler</UB_BTC_Adulthood_SpaceWhaler.title>
+  <UB_BTC_Adulthood_SpaceWhaler.titleShort>whaler</UB_BTC_Adulthood_SpaceWhaler.titleShort>
+  <UB_BTC_Adulthood_VaultHunter.title>vault hunter</UB_BTC_Adulthood_VaultHunter.title>
+  <UB_BTC_Adulthood_VaultHunter.titleShort>hunter</UB_BTC_Adulthood_VaultHunter.titleShort>
+  <UB_BTC_Adulthood_ChefSlowik.title>master of appetites</UB_BTC_Adulthood_ChefSlowik.title>
+  <UB_BTC_Adulthood_ChefSlowik.titleFemale>mistress of appetites</UB_BTC_Adulthood_ChefSlowik.titleFemale>
+  <UB_BTC_Adulthood_ChefSlowik.titleShort>master</UB_BTC_Adulthood_ChefSlowik.titleShort>
+  <UB_BTC_Adulthood_ChefSlowik.titleShortFemale>mistress</UB_BTC_Adulthood_ChefSlowik.titleShortFemale>
+  <UB_BTC_Adulthood_Seafarer.title>seafarer</UB_BTC_Adulthood_Seafarer.title>
+  <UB_BTC_Adulthood_DeepSeaScavenger.title>deep sea scavenger</UB_BTC_Adulthood_DeepSeaScavenger.title>
+  <UB_BTC_Adulthood_DeepSeaScavenger.titleShort>scavenger</UB_BTC_Adulthood_DeepSeaScavenger.titleShort>
+  <UB_BTC_Adulthood_DesalTech.title>desalination technician</UB_BTC_Adulthood_DesalTech.title>
+  <UB_BTC_Adulthood_DesalTech.titleShort>technician</UB_BTC_Adulthood_DesalTech.titleShort>
+  <UB_BTC_Adulthood_BadTravelling.title>bad traveler</UB_BTC_Adulthood_BadTravelling.title>
+  <UB_BTC_Adulthood_BadTravelling.titleShort>traveler</UB_BTC_Adulthood_BadTravelling.titleShort>
+  <UB_BTC_Adulthood_UrbworldExecutive.title>urbworld executive</UB_BTC_Adulthood_UrbworldExecutive.title>
+  <UB_BTC_Adulthood_UrbworldExecutive.titleShort>executive</UB_BTC_Adulthood_UrbworldExecutive.titleShort>
+  <UB_BTC_Adulthood_Megapol01.title>megapol agent</UB_BTC_Adulthood_Megapol01.title>
+  <UB_BTC_Adulthood_Megapol01.titleShort>agent</UB_BTC_Adulthood_Megapol01.titleShort>
+  <UB_BTC_Adulthood_Megapol02.title>megapol agent</UB_BTC_Adulthood_Megapol02.title>
+  <UB_BTC_Adulthood_Megapol02.titleShort>agent</UB_BTC_Adulthood_Megapol02.titleShort>
+  <UB_BTC_Adulthood_ReluctantHero.title>reluctant hero</UB_BTC_Adulthood_ReluctantHero.title>
+  <UB_BTC_Adulthood_ReluctantHero.titleShort>hero</UB_BTC_Adulthood_ReluctantHero.titleShort>
+  <UB_BTC_Adulthood_MidworldRanger.title>midworld ranger</UB_BTC_Adulthood_MidworldRanger.title>
+  <UB_BTC_Adulthood_MidworldRanger.titleShort>ranger</UB_BTC_Adulthood_MidworldRanger.titleShort>
+  <UB_BTC_Adulthood_MidworldRanger.description>[PAWN_nameDef] was a ranger on a midworld planet, part of an irregular military force tasked with border control, hostage recovery, and anti-pirate operations. Patrols stretched for weeks through broken highways and ruined settlements, guided by flickering sensors barely holding together.</UB_BTC_Adulthood_MidworldRanger.description>
+  <UB_BTC_Adulthood_SatelliteEngineer.title>satellite engineer</UB_BTC_Adulthood_SatelliteEngineer.title>
+  <UB_BTC_Adulthood_SatelliteEngineer.titleShort>engineer</UB_BTC_Adulthood_SatelliteEngineer.titleShort>
+  <UB_BTC_Adulthood_VeteranRanger.title>veteran ranger</UB_BTC_Adulthood_VeteranRanger.title>
+  <UB_BTC_Adulthood_VeteranRanger.titleShort>ranger</UB_BTC_Adulthood_VeteranRanger.titleShort>
+  <UB_BTC_Adulthood_AbyssalScholar.title>abyssal scholar</UB_BTC_Adulthood_AbyssalScholar.title>
+  <UB_BTC_Adulthood_AbyssalScholar.titleShort>scholar</UB_BTC_Adulthood_AbyssalScholar.titleShort>
+  <UB_BTC_Adulthood_ExtinctionBomber.title>extinction bomber</UB_BTC_Adulthood_ExtinctionBomber.title>
+  <UB_BTC_Adulthood_ExtinctionBomber.titleShort>bomber</UB_BTC_Adulthood_ExtinctionBomber.titleShort>
+  <UB_BTC_Adulthood_RunawayParent.title>runaway father</UB_BTC_Adulthood_RunawayParent.title>
+  <UB_BTC_Adulthood_RunawayParent.titleFemale>runaway mother</UB_BTC_Adulthood_RunawayParent.titleFemale>
+  <UB_BTC_Adulthood_RunawayParent.titleShort>father</UB_BTC_Adulthood_RunawayParent.titleShort>
+  <UB_BTC_Adulthood_RunawayParent.titleShortFemale>mother</UB_BTC_Adulthood_RunawayParent.titleShortFemale>
+  <UB_BTC_Adulthood_FallenIdol.title>fallen idol</UB_BTC_Adulthood_FallenIdol.title>
+  <UB_BTC_Adulthood_FallenIdol.titleShort>idol</UB_BTC_Adulthood_FallenIdol.titleShort>
+  <UB_BTC_Adulthood_PlanetaryMiner01.title>planetary miner</UB_BTC_Adulthood_PlanetaryMiner01.title>
+  <UB_BTC_Adulthood_PlanetaryMiner01.titleShort>miner</UB_BTC_Adulthood_PlanetaryMiner01.titleShort>
+  <UB_BTC_Adulthood_BlacksiteArchitect.title>blacksite architect</UB_BTC_Adulthood_BlacksiteArchitect.title>
+  <UB_BTC_Adulthood_BlacksiteArchitect.titleShort>architect</UB_BTC_Adulthood_BlacksiteArchitect.titleShort>
+  <UB_BTC_Adulthood_OrbitComms01.title>orbital comms technician</UB_BTC_Adulthood_OrbitComms01.title>
+  <UB_BTC_Adulthood_OrbitComms01.titleShort>technician</UB_BTC_Adulthood_OrbitComms01.titleShort>
+  <UB_BTC_Adulthood_Herder01.title>herder</UB_BTC_Adulthood_Herder01.title>
+  <UB_BTC_Adulthood_SystemShock.title>megacorp saboteur</UB_BTC_Adulthood_SystemShock.title>
+  <UB_BTC_Adulthood_SystemShock.titleShort>saboteur</UB_BTC_Adulthood_SystemShock.titleShort>
+  <UB_BTC_Adulthood_TheThing.title>polar researcher</UB_BTC_Adulthood_TheThing.title>
+  <UB_BTC_Adulthood_TheThing.titleShort>researcher</UB_BTC_Adulthood_TheThing.titleShort>
+
+<UB_BTC_Adulthood_AbyssalScholar.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_AbyssalScholar.description>
+<UB_BTC_Adulthood_AideDeCamp01.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_AideDeCamp01.description>
+<UB_BTC_Adulthood_BadTravelling.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_BadTravelling.description>
+<UB_BTC_Adulthood_BlacksiteArchitect.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_BlacksiteArchitect.description>
+<UB_BTC_Adulthood_CarHijacker.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_CarHijacker.description>
+<UB_BTC_Adulthood_Catachan.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_Catachan.description>
+<UB_BTC_Adulthood_ChartistCaptain.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_ChartistCaptain.description>
+<UB_BTC_Adulthood_ChefSlowik.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_ChefSlowik.description>
+<UB_BTC_Adulthood_CruiseStaff.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_CruiseStaff.description>
+<UB_BTC_Adulthood_CryoDelivery.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_CryoDelivery.description>
+<UB_BTC_Adulthood_DeepSeaScavenger.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_DeepSeaScavenger.description>
+<UB_BTC_Adulthood_DesalTech.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_DesalTech.description>
+<UB_BTC_Adulthood_DriftCoreDelver.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_DriftCoreDelver.description>
+<UB_BTC_Adulthood_DrillSergeant01.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_DrillSergeant01.description>
+<UB_BTC_Adulthood_DrugDealer.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_DrugDealer.description>
+<UB_BTC_Adulthood_ExiledSoldier.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_ExiledSoldier.description>
+<UB_BTC_Adulthood_ExtinctionBomber.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_ExtinctionBomber.description>
+<UB_BTC_Adulthood_FallenIdol.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_FallenIdol.description>
+<UB_BTC_Adulthood_GlitterworldPeacekeeper.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_GlitterworldPeacekeeper.description>
+<UB_BTC_Adulthood_GlitterworldSoldier01.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_GlitterworldSoldier01.description>
+<UB_BTC_Adulthood_Gunrunner01.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_Gunrunner01.description>
+<UB_BTC_Adulthood_Gunrunner02.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_Gunrunner02.description>
+<UB_BTC_Adulthood_GunshipExile.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_GunshipExile.description>
+<UB_BTC_Adulthood_HECUVeteran.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_HECUVeteran.description>
+<UB_BTC_Adulthood_Herder01.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_Herder01.description>
+<UB_BTC_Adulthood_Investigator.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_Investigator.description>
+<UB_BTC_Adulthood_Megapol01.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_Megapol01.description>
+<UB_BTC_Adulthood_Megapol02.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_Megapol02.description>
+<UB_BTC_Adulthood_MercenaryMarshal.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_MercenaryMarshal.description>
+<UB_BTC_Adulthood_MetroCop.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_MetroCop.description>
+<UB_BTC_Adulthood_MultipassForger.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_MultipassForger.description>
+<UB_BTC_Adulthood_NavyAdmiral01.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_NavyAdmiral01.description>
+<UB_BTC_Adulthood_NavyLordCaptain.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_NavyLordCaptain.description>
+<UB_BTC_Adulthood_NavyMidshipman.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_NavyMidshipman.description>
+<UB_BTC_Adulthood_NervousWreck.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_NervousWreck.description>
+<UB_BTC_Adulthood_Optician.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_Optician.description>
+<UB_BTC_Adulthood_OrbitComms01.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_OrbitComms01.description>
+<UB_BTC_Adulthood_OrdnancePilot.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_OrdnancePilot.description>
+<UB_BTC_Adulthood_OrganTrader.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_OrganTrader.description>
+<UB_BTC_Adulthood_PlanetaryMiner01.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_PlanetaryMiner01.description>
+<UB_BTC_Adulthood_PrisonGuard01.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_PrisonGuard01.description>
+<UB_BTC_Adulthood_PrisonGuard02.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_PrisonGuard02.description>
+<UB_BTC_Adulthood_RadioHost.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_RadioHost.description>
+<UB_BTC_Adulthood_Recruit01.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_Recruit01.description>
+<UB_BTC_Adulthood_ReluctantHero.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_ReluctantHero.description>
+<UB_BTC_Adulthood_RetiredHitman.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_RetiredHitman.description>
+<UB_BTC_Adulthood_RunawayParent.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_RunawayParent.description>
+<UB_BTC_Adulthood_SatelliteEngineer.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_SatelliteEngineer.description>
+<UB_BTC_Adulthood_Seafarer.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_Seafarer.description>
+<UB_BTC_Adulthood_SecretGendarme.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_SecretGendarme.description>
+<UB_BTC_Adulthood_Separatist01.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_Separatist01.description>
+<UB_BTC_Adulthood_Separatist02.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_Separatist02.description>
+<UB_BTC_Adulthood_ShadySalesman.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_ShadySalesman.description>
+<UB_BTC_Adulthood_SilentSurvivor.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_SilentSurvivor.description>
+<UB_BTC_Adulthood_Sniper01.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_Sniper01.description>
+<UB_BTC_Adulthood_SpaceWhaler.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_SpaceWhaler.description>
+<UB_BTC_Adulthood_SuperSoldier01.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_SuperSoldier01.description>
+<UB_BTC_Adulthood_SystemShock.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_SystemShock.description>
+<UB_BTC_Adulthood_TacticalHandler.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_TacticalHandler.description>
+<UB_BTC_Adulthood_TankCommander.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_TankCommander.description>
+<UB_BTC_Adulthood_TheThing.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_TheThing.description>
+<UB_BTC_Adulthood_UrbworldCorruptEnforcer01.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_UrbworldCorruptEnforcer01.description>
+<UB_BTC_Adulthood_UrbworldExecutive.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_UrbworldExecutive.description>
+<UB_BTC_Adulthood_VaultHunter.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_VaultHunter.description>
+<UB_BTC_Adulthood_VeteranRanger.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_VeteranRanger.description>
+<UB_BTC_Adulthood_Wanderer.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_Wanderer.description>
+<UB_BTC_Adulthood_WarCriminal01.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_WarCriminal01.description>
+<UB_BTC_Adulthood_WarHero.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_WarHero.description>
+<UB_BTC_Adulthood_WastelandCourier.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_WastelandCourier.description>
+<UB_BTC_Adulthood_WaterBaron.description>[PAWN_nameDef] maintained experimental teleportation arrays, surviving multiple "cascade events" before being reassigned to... quieter duties.</UB_BTC_Adulthood_WaterBaron.description>
+</LanguageData>

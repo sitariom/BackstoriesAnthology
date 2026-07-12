@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <UB_SNS_Infected.title>Living zombie cure</UB_SNS_Infected.title>
+  <UB_SNS_Infected.titleShort>Zombie Cure</UB_SNS_Infected.titleShort>
+  <UB_SNS_Infected.description>[PAWN_nameDef] was held captive by [PAWN_possessive] government following a rapid zombie-like viral outbreak. [PAWN_nameDef] was unwillingly infected and experimented on by scientists in a secure lab in hopes of developing a cure. They were eventually successful in making a cure, but it left [PAWN_nameDef] with deep-rooted brain damage.</UB_SNS_Infected.description>
+</LanguageData>

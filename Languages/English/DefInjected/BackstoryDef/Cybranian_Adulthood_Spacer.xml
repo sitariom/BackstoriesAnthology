@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <UB_Cybranian_Adulthood_Implant_Specialist.title>Implant specialist</UB_Cybranian_Adulthood_Implant_Specialist.title>
+  <UB_Cybranian_Adulthood_Implant_Specialist.titleShort>Specialist</UB_Cybranian_Adulthood_Implant_Specialist.titleShort>
+  <UB_Cybranian_Adulthood_Implant_Specialist.description>[PAWN_nameDef] is a doctor from the utopian world, engaged in the design of implants.</UB_Cybranian_Adulthood_Implant_Specialist.description>
+  <UB_Cybranian_Adulthood_Cyber_Developer.title>Cyber ​​developer</UB_Cybranian_Adulthood_Cyber_Developer.title>
+  <UB_Cybranian_Adulthood_Cyber_Developer.titleShort>Developer</UB_Cybranian_Adulthood_Cyber_Developer.titleShort>
+  <UB_Cybranian_Adulthood_Cyber_Developer.description>[PAWN_nameDef] creates advanced cybernetic prostheses in the factory of the utopian world.</UB_Cybranian_Adulthood_Cyber_Developer.description>
+  <UB_Cybranian_Adulthood_Biohacker.title>Biohacker</UB_Cybranian_Adulthood_Biohacker.title>
+  <UB_Cybranian_Adulthood_Biohacker.description>[PAWN_nameDef] is engaged in hacking cybernetic implants by invading the software part.</UB_Cybranian_Adulthood_Biohacker.description>
+  <UB_Cybranian_Adulthood_Agrocybernetic.title>Agrocybernetic</UB_Cybranian_Adulthood_Agrocybernetic.title>
+  <UB_Cybranian_Adulthood_Agrocybernetic.description>[PAWN_nameDef] is engaged in breeding perfect crops in a utopian world.</UB_Cybranian_Adulthood_Agrocybernetic.description>
+  <UB_Cybranian_Adulthood_Cyber_Biologist.title>Cyber ​​biologist</UB_Cybranian_Adulthood_Cyber_Biologist.title>
+  <UB_Cybranian_Adulthood_Cyber_Biologist.titleShort>Biologist</UB_Cybranian_Adulthood_Cyber_Biologist.titleShort>
+  <UB_Cybranian_Adulthood_Cyber_Biologist.description>[PAWN_nameDef] deduces previously unseen animals from biological material in a utopian world.</UB_Cybranian_Adulthood_Cyber_Biologist.description>
+  <UB_Cybranian_Adulthood_Cybersoldier.title>Cybersoldier</UB_Cybranian_Adulthood_Cybersoldier.title>
+  <UB_Cybranian_Adulthood_Cybersoldier.description>[PAWN_nameDef] fights for {PAWN_gender ? his : her} galactic empire, using modern technology and combat stimulants.</UB_Cybranian_Adulthood_Cybersoldier.description>
+  <UB_Cybranian_Adulthood_ThreeD_Engineer.title>3D Engineer</UB_Cybranian_Adulthood_ThreeD_Engineer.title>
+  <UB_Cybranian_Adulthood_ThreeD_Engineer.titleShort>Engineer</UB_Cybranian_Adulthood_ThreeD_Engineer.titleShort>
+  <UB_Cybranian_Adulthood_ThreeD_Engineer.description>[PAWN_nameDef] designs and creates 3D models for the entertainment industry.</UB_Cybranian_Adulthood_ThreeD_Engineer.description>
+  <UB_Cybranian_Adulthood_Weather_Engineer.title>Weather Engineer</UB_Cybranian_Adulthood_Weather_Engineer.title>
+  <UB_Cybranian_Adulthood_Weather_Engineer.titleShort>Engineer</UB_Cybranian_Adulthood_Weather_Engineer.titleShort>
+  <UB_Cybranian_Adulthood_Weather_Engineer.description>[PAWN_nameDef] works on a space station, regulating the weather on a utopian planet.</UB_Cybranian_Adulthood_Weather_Engineer.description>
+  <UB_Cybranian_Adulthood_Drone_Operator.title>Drone operator</UB_Cybranian_Adulthood_Drone_Operator.title>
+  <UB_Cybranian_Adulthood_Drone_Operator.titleShort>Operator</UB_Cybranian_Adulthood_Drone_Operator.titleShort>
+  <UB_Cybranian_Adulthood_Drone_Operator.description>[PAWN_nameDef] is setting up drones that do simple jobs on {PAWN_gender ? his : her} planet.</UB_Cybranian_Adulthood_Drone_Operator.description>
+  <UB_Cybranian_Adulthood_Systems_Developer.title>Systems developer</UB_Cybranian_Adulthood_Systems_Developer.title>
+  <UB_Cybranian_Adulthood_Systems_Developer.titleShort>Developer</UB_Cybranian_Adulthood_Systems_Developer.titleShort>
+  <UB_Cybranian_Adulthood_Systems_Developer.description>[PAWN_nameDef] develops software for drones.</UB_Cybranian_Adulthood_Systems_Developer.description>
+  <UB_Cybranian_Adulthood_Drone_Developer.title>Drone developer</UB_Cybranian_Adulthood_Drone_Developer.title>
+  <UB_Cybranian_Adulthood_Drone_Developer.titleShort>Developer</UB_Cybranian_Adulthood_Drone_Developer.titleShort>
+  <UB_Cybranian_Adulthood_Drone_Developer.description>[PAWN_nameDef] designs and develops small robots and drones that later serve for peaceful and military purposes.</UB_Cybranian_Adulthood_Drone_Developer.description>
+  <UB_Cybranian_Adulthood_Drone_Pilot.title>Drone pilot</UB_Cybranian_Adulthood_Drone_Pilot.title>
+  <UB_Cybranian_Adulthood_Drone_Pilot.titleShort>Pilot</UB_Cybranian_Adulthood_Drone_Pilot.titleShort>
+  <UB_Cybranian_Adulthood_Drone_Pilot.description>[PAWN_nameDef] is the pilot of the battle drone of the galactic empire.</UB_Cybranian_Adulthood_Drone_Pilot.description>
+  <UB_Cybranian_Adulthood_Nano_Engineer.title>Nano engineer</UB_Cybranian_Adulthood_Nano_Engineer.title>
+  <UB_Cybranian_Adulthood_Nano_Engineer.titleShort>Engineer</UB_Cybranian_Adulthood_Nano_Engineer.titleShort>
+  <UB_Cybranian_Adulthood_Nano_Engineer.description>[PAWN_nameDef] designs chips and processors in a galactic empire factory.</UB_Cybranian_Adulthood_Nano_Engineer.description>
+  <UB_Cybranian_Adulthood_Neurosurgeon.title>Neurosurgeon</UB_Cybranian_Adulthood_Neurosurgeon.title>
+  <UB_Cybranian_Adulthood_Neurosurgeon.description>[PAWN_nameDef] performs brain surgery, implanting implants and adjusting them.</UB_Cybranian_Adulthood_Neurosurgeon.description>
+  <UB_Cybranian_Adulthood_Cosmobiologist.title>Cosmobiologist</UB_Cybranian_Adulthood_Cosmobiologist.title>
+  <UB_Cybranian_Adulthood_Cosmobiologist.description>[PAWN_nameDef] is engaged in terraforming planets and populating them with plants.</UB_Cybranian_Adulthood_Cosmobiologist.description>
+  <UB_Cybranian_Adulthood_Space_Miner.title>Space miner</UB_Cybranian_Adulthood_Space_Miner.title>
+  <UB_Cybranian_Adulthood_Space_Miner.titleShort>Miner</UB_Cybranian_Adulthood_Space_Miner.titleShort>
+  <UB_Cybranian_Adulthood_Space_Miner.description>[PAWN_nameDef] was engaged in the excavation of minerals in asteroids.</UB_Cybranian_Adulthood_Space_Miner.description>
+  <UB_Cybranian_Adulthood_Bioethics.title>Bioethics</UB_Cybranian_Adulthood_Bioethics.title>
+  <UB_Cybranian_Adulthood_Bioethics.description>[PAWN_nameDef] has dealt with ethical issues in a rapidly evolving biotechnology and implant environment.</UB_Cybranian_Adulthood_Bioethics.description>
+  <UB_Cybranian_Adulthood_Space_Pirate.title>Space pirate</UB_Cybranian_Adulthood_Space_Pirate.title>
+  <UB_Cybranian_Adulthood_Space_Pirate.titleShort>Pirate</UB_Cybranian_Adulthood_Space_Pirate.titleShort>
+  <UB_Cybranian_Adulthood_Space_Pirate.description>[PAWN_nameDef] trades in robbery and murder within {PAWN_gender ? his : her} star system.</UB_Cybranian_Adulthood_Space_Pirate.description>
+  <UB_Cybranian_Adulthood_Airship_Engineer.title>Airship engineer</UB_Cybranian_Adulthood_Airship_Engineer.title>
+  <UB_Cybranian_Adulthood_Airship_Engineer.titleFemale>Airship Engineer</UB_Cybranian_Adulthood_Airship_Engineer.titleFemale>
+  <UB_Cybranian_Adulthood_Airship_Engineer.titleShort>Engineer</UB_Cybranian_Adulthood_Airship_Engineer.titleShort>
+  <UB_Cybranian_Adulthood_Airship_Engineer.description>[PAWN_nameDef] builds and designs enormous aircraft called airships.</UB_Cybranian_Adulthood_Airship_Engineer.description>
+  <UB_Cybranian_Adulthood_Rebel_Space.title>Space rebel</UB_Cybranian_Adulthood_Rebel_Space.title>
+  <UB_Cybranian_Adulthood_Rebel_Space.titleShort>Rebel</UB_Cybranian_Adulthood_Rebel_Space.titleShort>
+  <UB_Cybranian_Adulthood_Rebel_Space.description>[PAWN_nameDef] is part of a small anarchist organization that seeks to return to the past.</UB_Cybranian_Adulthood_Rebel_Space.description>
+</LanguageData>

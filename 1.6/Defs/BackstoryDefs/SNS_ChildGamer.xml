@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <BackstoryDef>
+    <defName>UB_SNS_Gamer</defName>
+    <title>Esports player</title>
+    <titleShort>Esports Player</titleShort>
+    <slot>Childhood</slot> <!--Adult or Child-->
+    <baseDesc>[PAWN_nameDef] liked to play video games from a young age, playing violent shooter games at a near-expert level. Once [PAWN_pronoun] was old enough, [PAWN_possessive] parents signed them up to play in a local tournament, where they easily crushed the competition. Since then, they have played in many tournaments, winning a hefty amount of cash, and training their hand-eye coordination.</baseDesc> <!--Use Namedefs for name and pronouns-->
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale> <!-- Use Bodydefs for body types-->
+    <spawnCategories>
+      <li>Spacer</li>
+      <li>Slave</li> <!--Use SpawnDefs to define faction spawnage-->
+    </spawnCategories>
+    <skillGains>
+      <Shooting>4</Shooting>    <!--UseSkilldeffs PROPERLY to make the skills go up and down, Wheee!-->
+    </skillGains>
+    <workDisables> <!-- Use WorkDisables.png -->
+      <li>None</li>
+    </workDisables>
+  </BackstoryDef>
+</Defs>

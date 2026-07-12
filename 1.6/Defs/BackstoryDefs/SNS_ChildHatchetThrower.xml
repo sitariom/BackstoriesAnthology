@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <BackstoryDef>
+    <defName>UB_SNS_hatchetThrower</defName>
+    <title>Hatchet thrower</title>
+    <titleShort>Hatchet Thrower</titleShort>
+    <slot>Childhood</slot> <!--Adult or Child-->
+    <baseDesc>[PAWN_nameDef] grew up with an odd skill of managing to perfectly throw hatchets while hunting and hitting their mark. Though skilled, [PAWN_nameDef] eventually had [PAWN_possessive] hatchets taken away after a minor argument with an officer ended with them in critical condition.</baseDesc> <!--Use Namedefs for name and pronouns-->
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale> <!-- Use Bodydefs for body types-->
+    <spawnCategories>
+      <li>Spacer</li>
+      <li>Civil</li> <!--Use SpawnDefs to define faction spawnage-->
+    </spawnCategories>
+    <skillGains>
+      <Melee>1</Melee>
+      <Shooting>2</Shooting>    <!--UseSkilldeffs PROPERLY to make the skills go up and down, Wheee!-->
+    </skillGains>
+    <workDisables> <!-- Use WorkDisables.png -->
+      <li>None</li>
+    </workDisables>
+  </BackstoryDef>
+</Defs>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <BackstoryDef>
+    <defName>UB_SNS_GameDevBad</defName>
+    <title>Game "developer"</title>
+    <titleShort>Game "Dev"</titleShort>
+    <slot>Adulthood</slot> <!--Adult or Child-->
+    <baseDesc>[PAWN_nameDef] worked for a large game development company, riding the coattails of [PAWN_possessive] father, who owned the business. [PAWN_pronoun] would use [PAWN_possessive] position of power to demean those under [PAWN_objective], and constantly take credit for their work.</baseDesc> <!--Use Namedefs for name and pronouns-->
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale> <!-- Use Bodydefs for body types-->
+    <spawnCategories>
+      <li>Spacer</li>
+      <li>Civil</li> <!--Use SpawnDefs to define faction spawnage-->
+      <li>Raider</li>
+      <li>Pirate</li>
+    </spawnCategories>
+    <skillGains>
+      <Social>3</Social>
+      <Intellectual>-3</Intellectual>    <!--UseSkilldeffs PROPERLY to make the skills go up and down, Wheee!-->
+      <Crafting>2</Crafting>
+    </skillGains>
+    <workDisables> <!-- Use WorkDisables.png -->
+      <li>Caring</li>
+      <li>ManualDumb</li>
+    </workDisables>
+  </BackstoryDef>
+</Defs>

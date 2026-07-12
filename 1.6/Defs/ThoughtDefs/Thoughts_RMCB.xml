@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Trench camaraderie: granted pairwise to colonists who actively went
+       through a raid, large fire, or disease outbreak together. -->
+  <ThoughtDef>
+    <defName>RMCB_SurvivedHardshipTogether</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>20</durationDays>
+    <stackLimit>100</stackLimit>
+    <stackLimitForSameOtherPawn>3</stackLimitForSameOtherPawn>
+    <stackedEffectMultiplier>0.75</stackedEffectMultiplier>
+    <nullifyingTraits>
+      <li>Psychopath</li>
+    </nullifyingTraits>
+    <nullifyingHediffs>
+      <li MayRequire="Ludeon.RimWorld.Anomaly">Inhumanized</li>
+    </nullifyingHediffs>
+    <stages>
+      <li>
+        <label>survived hardship together</label>
+        <baseOpinionOffset>8</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- Reputation is social: when someone cheats on or sells the loved one of a
+       colonist, every other colonist hears about it and thinks less of them. -->
+  <ThoughtDef>
+    <defName>RMCB_HeardAboutBetrayal</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>60</durationDays>
+    <stackLimit>100</stackLimit>
+    <stackLimitForSameOtherPawn>3</stackLimitForSameOtherPawn>
+    <stackedEffectMultiplier>0.75</stackedEffectMultiplier>
+    <nullifyingTraits>
+      <li>Psychopath</li>
+    </nullifyingTraits>
+    <nullifyingHediffs>
+      <li MayRequire="Ludeon.RimWorld.Anomaly">Inhumanized</li>
+    </nullifyingHediffs>
+    <stages>
+      <li>
+        <label>betrayed a fellow colonist</label>
+        <baseOpinionOffset>-10</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- After a failed romance, the pair's small talk turns awkward instead of
+       bonding. Mild friction that fades once they stop having awkward chats
+       (i.e. once the failed-romance memories expire and they get over it). -->
+  <ThoughtDef>
+    <defName>RMCB_AwkwardChat</defName>
+    <thoughtClass>Thought_MemorySocialCumulative</thoughtClass>
+    <durationDays>8</durationDays>
+    <stackLimit>100</stackLimit>
+    <maxCumulatedOpinionOffset>-6</maxCumulatedOpinionOffset>
+    <nullifyingTraits>
+      <li>Psychopath</li>
+    </nullifyingTraits>
+    <nullifyingHediffs>
+      <li MayRequire="Ludeon.RimWorld.Anomaly">Inhumanized</li>
+    </nullifyingHediffs>
+    <stages>
+      <li>
+        <label>awkward chat</label>
+        <baseOpinionOffset>-0.5</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+</Defs>

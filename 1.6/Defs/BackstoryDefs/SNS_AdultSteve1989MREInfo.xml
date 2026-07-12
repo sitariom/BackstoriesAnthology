@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <BackstoryDef>
+    <defName>UB_SNS_Steve1989MREInfo</defName>
+    <title>MRE reviewer</title>
+    <titleShort>MRE Reviewer</titleShort>
+    <slot>Adulthood</slot> <!--Adult or Child-->
+    <baseDesc>[PAWN_nameDef] was employed by [PAWN_possessive] government to be on the frontline of tasting new and exotic MREs before being mass produced for the space marines. [PAWN_pronoun] would eat common meals such as hash browns and pizza, to exotic tastes like gunpowder berry souffle and magma chip on toast. It was also [PAWN_nameDef]'s job to taste old and possibly expired MREs to see if they were still edible and safe to send to lower-priority warfronts.</baseDesc> <!--Use Namedefs for name and pronouns-->
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale> <!-- Use Bodydefs for body types-->
+    <spawnCategories>
+      <li>Spacer</li>
+      <li>Civil</li> <!--Use SpawnDefs to define faction spawnage-->
+      <li>Outlander</li>
+    </spawnCategories>
+    <skillGains>
+      <Cooking>5</Cooking>
+    </skillGains>
+    <workDisables> <!-- Use WorkDisables.png -->
+      <li>None</li>
+    </workDisables>
+  </BackstoryDef>
+</Defs>

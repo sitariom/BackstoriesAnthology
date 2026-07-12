@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <UB_Seal_IllegalHabitatDweller.title>habitat dweller</UB_Seal_IllegalHabitatDweller.title>
+  <UB_Seal_IllegalHabitatDweller.description>[PAWN_nameDef] began [PAWN_possessive] life in a pressurized deadworld habitat where resources and space were scarce. [PAWN_possessive] birth was deemed illegal by the local authorities, as the right to procreate was only given to upper-class dwellers. [PAWN_possessive] parents being recent migrants, they were punished by a gargantuan taxation rate and doomed to live in poverty. [PAWN_nameDef] had no other choice than to help them by working hard doing various menial jobs to afford their familial closet-sized habitation. [PAWN_pronoun] unfortunately had little time to study.</UB_Seal_IllegalHabitatDweller.description>
+  <UB_Seal_FoundOrphan.title>found orphan</UB_Seal_FoundOrphan.title>
+  <UB_Seal_FoundOrphan.titleShort>orphan</UB_Seal_FoundOrphan.titleShort>
+  <UB_Seal_FoundOrphan.description>The origins of [PAWN_nameDef] are oblivious. [PAWN_pronoun] was found very young on a war-torn planetoid, lying between bodies in an open-air mass-grave. [PAWN_pronoun] immediately recovered and lived for some time with the soldier squad that saved [PAWN_objective]. As soon as it was possible to exfiltrate [PAWN_objective] from the planet, [PAWN_pronoun] was placed in an orphanage where [PAWN_pronoun] had access to a basic education.\n\nTo this day, [PAWN_nameDef] retains no memories of these events.</UB_Seal_FoundOrphan.description>
+  <UB_Seal_SpaceStationClone.title>station clone</UB_Seal_SpaceStationClone.title>
+  <UB_Seal_SpaceStationClone.titleShort>clone</UB_Seal_SpaceStationClone.titleShort>
+  <UB_Seal_SpaceStationClone.description>Born from a vat on an automated space outpost long abandoned by the nation that built it, [PAWN_nameDef] only knew the coldness of metal and the voices of the other cloned children. [PAWN_pronoun] was fed nutrient paste and had access to a basic education provided by the station AI in exchange for some light menial work that the mechanoids couldn't do.\n\n[PAWN_nameDef] saw flat ground for the first time of [PAWN_possessive] existence only after an exploration ship found them.</UB_Seal_SpaceStationClone.description>
+  <UB_Seal_AspiringSpacefarer.title>aspiring spacefarer</UB_Seal_AspiringSpacefarer.title>
+  <UB_Seal_AspiringSpacefarer.titleShort>dreamer</UB_Seal_AspiringSpacefarer.titleShort>
+  <UB_Seal_AspiringSpacefarer.description>[PAWN_nameDef] always dreamed to go to space and see other planets. [PAWN_pronoun] spent all [PAWN_possessive] free time after school watching documentaries and reading books about space. Over the years, [PAWN_pronoun] developed a good scientific and artistic sense.</UB_Seal_AspiringSpacefarer.description>
+  <UB_Seal_ChemfuelFarmChild.title>chemfuel farm boy</UB_Seal_ChemfuelFarmChild.title>
+  <UB_Seal_ChemfuelFarmChild.titleFemale>chemfuel farm girl</UB_Seal_ChemfuelFarmChild.titleFemale>
+  <UB_Seal_ChemfuelFarmChild.titleShort>farm boy</UB_Seal_ChemfuelFarmChild.titleShort>
+  <UB_Seal_ChemfuelFarmChild.titleShortFemale>farm girl</UB_Seal_ChemfuelFarmChild.titleShortFemale>
+  <UB_Seal_ChemfuelFarmChild.description>[PAWN_nameDef]'s family owned a small chemfuel farm. They had dozens of rocketrees and tapped them to sell fuel to nearby settlements. Fires often broke out, but they were quickly contained by the autonomous firefoam launchers.</UB_Seal_ChemfuelFarmChild.description>
+</LanguageData>

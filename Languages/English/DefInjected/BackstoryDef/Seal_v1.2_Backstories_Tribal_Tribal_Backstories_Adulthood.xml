@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <UB_Seal_SmallGameHunter.title>hunter</UB_Seal_SmallGameHunter.title>
+  <UB_Seal_SmallGameHunter.titleFemale>huntress</UB_Seal_SmallGameHunter.titleFemale>
+  <UB_Seal_SmallGameHunter.titleShortFemale>huntress</UB_Seal_SmallGameHunter.titleShortFemale>
+  <UB_Seal_SmallGameHunter.description>[PAWN_nameDef] hunted small game to bring meat back to [PAWN_possessive] village. Each week, [PAWN_pronoun] wandered in the forest, placed traps and used [PAWN_possessive] bow to kill birds, rodents and occasionally boars.</UB_Seal_SmallGameHunter.description>
+  <UB_Seal_Draughtmaker.title>draughtmaker</UB_Seal_Draughtmaker.title>
+  <UB_Seal_Draughtmaker.description>[PAWN_nameDef] created all sorts of potions for [PAWN_possessive] fellow tribe members. Mixing herbs, mushrooms and animal secretion, [PAWN_pronoun] claimed that [PAWN_possessive] elixirs could heal wounds and illnesses, but they were only popular because of their enjoyable side effects.</UB_Seal_Draughtmaker.description>
+  <UB_Seal_Ambusher.title>ambusher</UB_Seal_Ambusher.title>
+  <UB_Seal_Ambusher.description>As one of the best archers of [PAWN_possessive] tribe, [PAWN_nameDef] lurked in the woods to fend off any dangerous intruder. Hiding high in the trees, [PAWN_pronoun] could stay hours in ambush, observing the surroundings in search of any trespasser.</UB_Seal_Ambusher.description>
+  <UB_Seal_WarriorPoet.title>warrior poet</UB_Seal_WarriorPoet.title>
+  <UB_Seal_WarriorPoet.titleShort>warrior</UB_Seal_WarriorPoet.titleShort>
+  <UB_Seal_WarriorPoet.description>[PAWN_nameDef] was a great fighter. [PAWN_pronoun] defeated many enemies and told everyone about [PAWN_possessive] accomplishments. [PAWN_pronoun] always added new elements in [PAWN_possessive] stories to make them feel grander, at the price of them being often less believable.\n\n[PAWN_nameDef] created a whole poetic saga about [PAWN_objective] and [PAWN_possessive] trusty spear.</UB_Seal_WarriorPoet.description>
+</LanguageData>

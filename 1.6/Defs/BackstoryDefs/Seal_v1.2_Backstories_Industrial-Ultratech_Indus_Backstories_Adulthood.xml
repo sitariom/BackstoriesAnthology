@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>keen fisherman</title>
+    <defName>UB_Seal_KeenFisherman</defName>
+    <titleShort>fisherman</titleShort>
+	  <description>[PAWN_nameDef] had a boring office job. To get [PAWN_possessive] mind out of it, [PAWN_pronoun] loved to go out in the wilderness with nothing but a sandwich, a beer and [PAWN_possessive] old fishing rod.</description>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+    </spawnCategories>
+	  <bodyTypeMale>Male</bodyTypeMale>
+	  <bodyTypeFemale>Female</bodyTypeFemale>
+    <skillGains>
+      <Animals>4</Animals>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Animals</li>
+    </requiredWorkTags>
+    <forcedTraits>
+      <VCEF_Fisherman MayRequire="VanillaExpanded.VCEF" />
+    </forcedTraits>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>geoengineer</title>
+    <defName>UB_Seal_Geoengineer</defName>
+    <titleShort>engineer</titleShort>
+	  <description>[PAWN_nameDef] worked as an engineer designing geothermal power plants. With knowledge in both geology and engineering, [PAWN_pronoun] conceived facilities for the inhabitants of a midworld. [PAWN_pronoun] always tried to find the most effective way to complete the projects, often with various pipes and buildings visible in the landscape.</description>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Miner</li>
+    </spawnCategories>
+	  <bodyTypeMale>Male</bodyTypeMale>
+	  <bodyTypeFemale>Female</bodyTypeFemale>
+    <skillGains>
+      <Construction>6</Construction>
+      <Mining>4</Mining>
+      <Intellectual>3</Intellectual>
+    
+<Artistic>-2</Artistic></skillGains>
+    <requiredWorkTags>
+      <li>Mining</li>
+      <li>Constructing</li>
+      <li>Intellectual</li>
+    </requiredWorkTags></BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>thanatonaut</title>
+    <defName>UB_Seal_Thanatonaut</defName>
+    <titleShort>thanatonaut</titleShort>
+	  <description>[PAWN_nameDef] lived on an ultratech planet as both a scientist and a test subject. The goal of the research team [PAWN_pronoun] was part of was to explore what lies beyond death. [PAWN_pronoun] died countless times and was resurrected using various nanite serums. Each time [PAWN_pronoun] had to tell psychiatrists with great precision what [PAWN_pronoun] experienced. Any cold feeling [PAWN_pronoun] had, any light [PAWN_pronoun] saw, any memory [PAWN_pronoun] forgot was important for them.\n\nExperiencing death many times left a deep wound on [PAWN_possessive] psyche.</description>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Researcher</li>
+    </spawnCategories>
+	  <bodyTypeMale>Male</bodyTypeMale>
+	  <bodyTypeFemale>Female</bodyTypeFemale>
+    <skillGains>
+      <Intellectual>7</Intellectual>
+      <Artistic>1</Artistic>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Intellectual</li>
+    </requiredWorkTags>
+    <forcedTraits>
+      <Psychopath />
+    </forcedTraits>
+	  <!--<possessions>
+      <MechSerumResurrector>1</MechSerumResurrector>
+    </possessions> --> <!-- Might be very very powerful but is a nice sotry element. I'll leave it in but will limit the spawnCategories to only Offworld (should make it quite rare) --> <!-- Changed my mind in v1.2.1, will not have it anymore -->
+    <!-- Inspired from Bernard Werber's book "Les Thanatonautes" which I did not read -->
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>hull cleaner</title>
+    <defName>UB_Seal_HullCleaner</defName>
+    <titleShort>cleaner</titleShort>
+	  <description>[PAWN_nameDef] worked on an expansive space station in orbit, exclusively reserved for the wealthiest of the planet. [PAWN_possessive] job was to clean the great windows to let the people observe their homeworld. [PAWN_pronoun] could sometimes get a glimpse of the luxurious hostels and ostentatious casinos.</description>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>ImperialCommon</li>
+    </spawnCategories>
+	  <bodyTypeMale>Thin</bodyTypeMale>
+	  <bodyTypeFemale>Female</bodyTypeFemale>
+    <skillGains>
+      <Construction>3</Construction>
+      <Plants>-1</Plants>
+      <Animals>-1</Animals>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Constructing</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>atmosphere harvester</title>
+    <defName>UB_Seal_AtmosphereHarvester</defName>
+    <titleShort>pumper</titleShort>
+	  <description>Working for a mining corporation, [PAWN_nameDef] inhabited an aerostatic colony on a gas giant. [PAWN_pronoun] worked as an atmosphere harvester, diving inside the inner layers of the planet aboard a reinforced gravtech shuttle. Pressurised hydrogen was pumped to be later exported out of the system. The shifts were dangerous, as the hull could implode at any moment.</description>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Miner</li>
+    </spawnCategories>
+	  <bodyTypeMale>Male</bodyTypeMale>
+	  <bodyTypeFemale>Female</bodyTypeFemale>
+    <skillGains>
+      <Mining>2</Mining>
+      <Intellectual>4</Intellectual>
+      <Plants>-2</Plants>
+      <Animals>-2</Animals>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Mining</li>
+      <li>Intellectual</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+  
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>cloud shaper</title>
+    <defName>UB_Seal_CloudShaper</defName>
+    <titleShort>artist</titleShort>
+	  <description>[PAWN_nameDef] operated high-tech drones to control the clouds of a glitterworld. [PAWN_pronoun] drew unusual shapes, spirals or complex images. Using all layers of the atmosphere, [PAWN_pronoun] created beautiful skies for everyone to see.</description>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>ImperialCommon</li>
+    </spawnCategories>
+	  <bodyTypeMale>Thin</bodyTypeMale>
+	  <bodyTypeFemale>Thin</bodyTypeFemale>
+    <skillGains>
+      <Artistic>6</Artistic>
+      <Intellectual>1</Intellectual>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Artistic</li>
+      <li>Intellectual</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>channel engineer</title>
+    <defName>UB_Seal_ChannelEngineer</defName>
+    <titleShort>engineer</titleShort>
+	  <description>[PAWN_nameDef] lived in an underground bastion. [PAWN_pronoun] joined the engineering team and learned to carve out the stone to extend the colony. They worked on a big infrastructural project aiming to bring fresh water inside for everyone. Unfortunately, the team's poor knowledge about fluid dynamics led to the flooding of half of the bastion.</description>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+    </spawnCategories>
+	  <bodyTypeMale>Male</bodyTypeMale>
+	  <bodyTypeFemale>Female</bodyTypeFemale>
+    <skillGains>
+      <Construction>6</Construction>
+      <Mining>6</Mining>
+      <Intellectual>-4</Intellectual>
+      <Social>2</Social>
+    </skillGains>
+    <forcedTraits>
+      <Undergrounder />
+    </forcedTraits>
+    <requiredWorkTags>
+      <li>Mining</li>
+      <li>Constructing</li>
+    </requiredWorkTags>
+    <!-- Dwarf Fortress reference STRIKE THE EARTH -->
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>rural doctor</title>
+    <defName>UB_Seal_RuralDoctor</defName>
+    <titleShort>doctor</titleShort>
+	  <description>[PAWN_nameDef] was the only doctor in town. Everyone would go see [PAWN_objective] for any health issue or medical advice. [PAWN_pronoun] played an essential role in the community and was praised by all. However, [PAWN_pronoun] never told [PAWN_possessive] patients that [PAWN_pronoun] studied to be a veterinarian rather than a doctor.</description>
+    <spawnCategories>
+      <li>Outlander</li>
+    </spawnCategories>
+	  <bodyTypeMale>Male</bodyTypeMale>
+	  <bodyTypeFemale>Thin</bodyTypeFemale>
+    <skillGains>
+      <Medicine>5</Medicine>
+      <Animals>4</Animals>
+      <Social>2</Social>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Caring</li>
+      <li>Animals</li>
+      <li>Social</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>deep diver</title>
+    <defName>UB_Seal_DeepDiver</defName>
+    <titleShort>diver</titleShort>
+	  <description>[PAWN_nameDef] was regularly sent under the surface of a small isolated planetoid along with a few other miners like [PAWN_objective]. They had to extract very valuable resources in insectoid-infested caverns. The job was risky, and in the heat of the battle friendly fire was often more dangerous than the bugs.</description>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Miner</li>
+    </spawnCategories>
+	  <bodyTypeMale>Male</bodyTypeMale>
+	  <bodyTypeFemale>Female</bodyTypeFemale>
+    <skillGains>
+      <Shooting>6</Shooting>
+      <Melee>3</Melee>
+      <Mining>6</Mining>
+      <Social>-2</Social>
+    
+<Intellectual>-2</Intellectual></skillGains>
+    <forcedTraits>
+      <Tough />
+      <Undergrounder />
+    </forcedTraits>
+    <requiredWorkTags>
+      <li>Mining</li>
+      <li>Constructing</li>
+    </requiredWorkTags><!-- Deep Rock Galactic reference ROCK AND STONE -->
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>psychedelic writer</title>
+    <defName>UB_Seal_PsychedelicWriter</defName>
+    <titleShort>writer</titleShort>
+	  <description>[PAWN_nameDef] wrote various stories set in a vast world [PAWN_pronoun] created. People loved the originality of the various plots and stories [PAWN_pronoun] would come up with. To keep the inspiration coming, [PAWN_pronoun] had the habit of consuming psychedelic mushrooms. [PAWN_possessive] hallucinated trips became myths and gods.</description>
+    <spawnCategories>
+      <li>Offworld</li>
+    </spawnCategories>
+	  <bodyTypeMale>Male</bodyTypeMale>
+	  <bodyTypeFemale>Female</bodyTypeFemale>
+    <skillGains>
+      <Artistic>6</Artistic>
+      <Social>3</Social>
+      <Plants>1</Plants>
+    </skillGains>
+    <forcedTraits>
+      <DrugDesire>1</DrugDesire>
+    </forcedTraits>
+    <requiredWorkTags>
+      <li>Artistic</li>
+      <li>Social</li>
+    </requiredWorkTags>
+    <possessions>
+      <Drug_Psilocap MayRequire="Ludeon.RimWorld.Odyssey">8</Drug_Psilocap>
+    </possessions>
+    <!-- Today we're writing Morrowind woooo -->
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>cyberdoctor</title>
+    <defName>UB_Seal_Cyberdoctor</defName>
+    <titleShort>cyberdoctor</titleShort>
+	  <description>With an expertise in cybernetics, [PAWN_nameDef] worked as a cyberdoctor, creating and installing bionic limbs on [PAWN_possessive] patients. Because of the relatively low technological level of the planet, [PAWN_possessive] knowledge was highly sought after. [PAWN_possessive] work made countless people walk again and gave them a new chance.</description>
+    <spawnCategories>
+      <li>Offworld</li>
+    </spawnCategories>
+	  <bodyTypeMale>Male</bodyTypeMale>
+	  <bodyTypeFemale>Female</bodyTypeFemale>
+    <skillGains>
+      <Medicine>7</Medicine>
+      <Crafting>8</Crafting>
+      <Social>1</Social>
+    
+<Melee>-2</Melee><Shooting>-2</Shooting></skillGains><requiredWorkTags>
+      <li>Crafting</li>
+      <li>Social</li>
+      <li>Caring</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+
+</Defs>

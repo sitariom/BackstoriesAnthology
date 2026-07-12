@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <BackstoryDef>
+    <slot>Childhood</slot>
+    <title>house boy</title>
+    <titleFemale>house girl</titleFemale>
+    <defName>UB_Seal_HouseKid</defName>
+    <titleShort>house kid</titleShort>
+    <titleShortFemale>house girl</titleShortFemale>
+	<description>[PAWN_nameDef] spent most of [PAWN_possessive] childhood at home, doing the chores for [PAWN_possessive] disabled single parent. [PAWN_pronoun] cleaned the house, cooked and carried things around.</description>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+    </spawnCategories>
+	  <bodyTypeMale>Thin</bodyTypeMale>
+	  <bodyTypeFemale>Thin</bodyTypeFemale>
+    <skillGains>
+      <Medicine>2</Medicine>
+      <Cooking>4</Cooking>
+      <Intellectual>-2</Intellectual>
+      <Social>-1</Social>
+    </skillGains>
+  </BackstoryDef>
+  
+  <BackstoryDef>
+    <slot>Childhood</slot>
+    <title>bored kid</title>
+    <defName>UB_Seal_BoredKid</defName>
+    <titleShort>bored kid</titleShort>
+	  <description>[PAWN_nameDef] did not like school. [PAWN_pronoun] never listened and spent all week daydreaming. [PAWN_pronoun] had very bad grades, but didn't care at all about it.</description>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+    </spawnCategories>
+	  <bodyTypeMale>Thin</bodyTypeMale>
+	  <bodyTypeFemale>Thin</bodyTypeFemale>
+    <skillGains>
+      <Artistic>2</Artistic>
+	    <Intellectual>-2</Intellectual>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Childhood</slot>
+    <title>cloned celebrity</title>
+    <defName>UB_Seal_ClonedCelebrity</defName>
+    <titleShort>clone</titleShort>
+	  <description>Born right after the death of a celebrity, [PAWN_nameDef] shared all [PAWN_possessive] genes with them. [PAWN_pronoun] was a clone created to be their perfect successor. Trained to act like the person [PAWN_pronoun] was supposed to be, [PAWN_pronoun] learned to sing and perform.\n\nOver the years, the interest in the project decreased heavily. It was later cancelled and [PAWN_nameDef] was placed in a family.</description>
+    <spawnCategories>
+      <li>Offworld</li>
+    </spawnCategories>
+	  <bodyTypeMale>Male</bodyTypeMale>
+	  <bodyTypeFemale>Female</bodyTypeFemale>
+    <skillGains>
+      <Artistic>5</Artistic>
+	    <Intellectual>-1</Intellectual>
+	    <Social>-1</Social>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Childhood</slot>
+    <title>bad musician</title>
+    <defName>UB_Seal_BadMusician</defName>
+    <titleShort>musician</titleShort>
+	  <description>[PAWN_nameDef]'s family tried to teach [PAWN_objective] to play violin. [PAWN_pronoun] liked it a lot, unfortunately [PAWN_pronoun] never quite got it. It sounded like a sad metal screeching mixed with car brake noises.\n\nAfter practicing for a few years without getting any better at it, [PAWN_pronoun] made the realization that playing music wasn't for [PAWN_objective].</description>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+    </spawnCategories>
+	  <bodyTypeMale>Thin</bodyTypeMale>
+	  <bodyTypeFemale>Thin</bodyTypeFemale>
+    <skillGains>
+      <Artistic>-2</Artistic>
+	    <Intellectual>1</Intellectual>
+	    <Social>1</Social>
+    </skillGains>
+    <disallowedTraits>
+      <ST_Virtuoso MayRequire="Goji.TheSimsTraits,Ludeon.RimWorld.Royalty" />
+    </disallowedTraits>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Childhood</slot>
+    <title>dog friend</title>
+    <defName>UB_Seal_DogFriend</defName>
+    <titleShort>dog friend</titleShort>
+	  <description>[PAWN_nameDef] found a lost puppy at a young age and learned to raise it. [PAWN_pronoun] spent more time with [PAWN_possessive] dog than with other children. The animal quickly became two times bigger than [PAWN_objective] but was very gentle around [PAWN_objective].\n\nWhen [PAWN_possessive] dog died, [PAWN_nameDef] refused to speak to anyone for several months.</description>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+    </spawnCategories>
+	  <bodyTypeMale>Thin</bodyTypeMale>
+	  <bodyTypeFemale>Thin</bodyTypeFemale>
+    <skillGains>
+	    <Animals>5</Animals>
+	    <Social>-3</Social>
+    </skillGains>
+    <forcedTraits>
+      <VTE_DogPerson MayRequire="vanillaexpanded.vanillatraitsexpanded" />
+    </forcedTraits>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Childhood</slot>
+    <title>space pirate</title>
+    <defName>UB_Seal_SpacePirateKid</defName>
+    <titleShort>pirate</titleShort>
+	  <description>The oldest memories of [PAWN_nameDef] are the coldness of a spaceship hull and the noises of battles. [PAWN_pronoun] was raised on a pirate spaceship, where [PAWN_pronoun] was taught how to use a laser beam against enemies. [PAWN_pronoun] was not afraid and quickly learned to enjoy boarding other ships.</description>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Pirate</li>
+    </spawnCategories>
+	  <bodyTypeMale>Male</bodyTypeMale>
+	  <bodyTypeFemale>Female</bodyTypeFemale>
+    <skillGains>
+	    <Shooting>5</Shooting>
+      <Melee>2</Melee>
+    
+<Intellectual>-2</Intellectual></skillGains><forcedTraits>
+      <VTE_Desensitized MayRequire="vanillaexpanded.vanillatraitsexpanded" />
+    </forcedTraits>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Childhood</slot>
+    <title>runaway boy</title>
+    <titleFemale>runaway girl</titleFemale>
+    <defName>UB_Seal_FleetingKid</defName>
+    <titleShort>rich boy</titleShort>
+    <titleShortFemale>rich girl</titleShortFemale>
+	  <description>Born in a wealthy family, [PAWN_nameDef] had everything before [PAWN_pronoun] even wanted it. [PAWN_possessive] parents' efforts to protect [PAWN_possessive] from the outside world only made [PAWN_objective] life even more boring. They were almost total strangers to [PAWN_objective] as [PAWN_pronoun] was raised by the house servants. One day, while everyone was sleeping, [PAWN_pronoun] decided to run away and explore the world.</description>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>ImperialCommon</li>
+    </spawnCategories>
+	  <bodyTypeMale>Thin</bodyTypeMale>
+	  <bodyTypeFemale>Female</bodyTypeFemale>
+    <skillGains>
+      <Social>2</Social>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Childhood</slot>
+    <title>sky dweller</title>
+    <defName>UB_Seal_SkyDweller</defName>
+    <titleShort>sky dweller</titleShort>
+	  <description>[PAWN_nameDef] was born on a glitterworld where entire parts of the planet's crust had been modified to float at several kilometers of altitude. [PAWN_pronoun] lived on one of those floating islands, and used to draw the ever changing landscape and architecture.</description>
+    <spawnCategories>
+      <li>Offworld</li>
+    </spawnCategories>
+	  <bodyTypeMale>Thin</bodyTypeMale>
+	  <bodyTypeFemale>Female</bodyTypeFemale>
+    <skillGains>
+	  <Artistic>4</Artistic>
+	  <Melee>-3</Melee>
+	  <Shooting>-2</Shooting>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Childhood</slot>
+    <title>gunner</title>
+    <defName>UB_Seal_KidGunner</defName>
+    <titleShort>gunner</titleShort>
+	  <description>[PAWN_nameDef] has always been told that war wasn't for children. People quickly changed their minds when the enemy arrived at the doors of the capital. [PAWN_pronoun] was enrolled in an artillery squad among the ruins of the suburbs. [PAWN_possessive] role was to help experienced soldiers operate a cannon by bringing shells and repairing bits of machinery.</description>
+    <spawnCategories>
+      <li>Offworld</li>
+      <li>Pirate</li>
+    </spawnCategories>
+	  <bodyTypeMale>Thin</bodyTypeMale>
+	  <bodyTypeFemale>Thin</bodyTypeFemale>
+    <skillGains>
+      <Shooting>2</Shooting>
+      <Crafting>3</Crafting>
+    </skillGains>
+  </BackstoryDef>
+
+</Defs>

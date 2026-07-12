@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <BackstoryDef>
+    <defName>UB_SNS_Prisoner</defName>
+    <title>Escapee</title>
+    <titleShort>Escapee</titleShort>
+    <slot>Adulthood</slot> <!--Adult or Child-->
+    <baseDesc>[PAWN_nameDef] was arrested for illegally smuggling organs past intergalactic lines, trying to avoid the 'organ tax'. During transport to an urbworld prison planet, [PAWN_possessive] transport shuttle experienced total Johnson-Tanaka Drive failure. During the following panic, [PAWN_nameDef] managed to get to an emergency ejection pod and escape.</baseDesc> <!--Use Namedefs for name and pronouns-->
+    <bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale> <!-- Use Bodydefs for body types-->
+    <spawnCategories>
+      <li>Spacer</li>
+      <li>Raider</li> <!--Use SpawnDefs to define faction spawnage-->
+      <li>Pirate</li>
+      <li>Outlander</li>
+    </spawnCategories>
+    <skillGains>
+      <Medicine>4</Medicine>
+      <Social>-2</Social>    <!--UseSkilldeffs PROPERLY to make the skills go up and down, Wheee!-->
+    </skillGains>
+    <workDisables> <!-- Use WorkDisables.png -->
+      <li>Mining</li>
+    </workDisables>
+  </BackstoryDef>
+</Defs>

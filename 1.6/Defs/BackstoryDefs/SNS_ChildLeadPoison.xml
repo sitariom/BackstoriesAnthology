@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <BackstoryDef>
+    <defName>UB_SNS_LeadPoisoned</defName>
+    <title>Lead poisoned child</title>
+    <titleShort>Lead Poisoned</titleShort>
+    <slot>Childhood</slot> <!--Adult or Child-->
+    <baseDesc>The water of [PAWN_nameDef]'s home was rich with lead from the local unchecked mining operation. The mining company kept the lead pollution a secret from the public, leading to thousands of people in [PAWN_nameDef]'s hometown being diagnosed with major lead poisoning, including themselves. </baseDesc> <!--Use Namedefs for name and pronouns-->
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale> <!-- Use Bodydefs for body types-->
+    <spawnCategories>
+      <li>Spacer</li>
+      <li>Raider</li> <!--Use SpawnDefs to define faction spawnage-->
+      <li>Outlander</li>
+    </spawnCategories>
+    <skillGains>
+      <Mining>3</Mining>
+      <Social>-2</Social>    <!--UseSkilldeffs PROPERLY to make the skills go up and down, Wheee!-->
+    </skillGains>
+    <workDisables> <!-- Use WorkDisables.png -->
+      <li>Intellectual</li>
+    </workDisables>
+  </BackstoryDef>
+</Defs>

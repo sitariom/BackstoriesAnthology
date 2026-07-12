@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <BackstoryDef>
+    <defName>UB_SNS_ZombieSurvivor</defName>
+    <title>Zombie survivor</title>
+    <titleShort>Survior</titleShort>
+    <slot>Adulthood</slot> <!--Adult or Child-->
+    <baseDesc>[PAWN_nameDef] had to struggle to survive on an Urbworld overrun with an unknown contagious virus. [PAWN_nameDef] had to run, shoot, and scavenge what [PAWN_pronoun] could to survive, never settling down in one spot for too long. </baseDesc> <!--Use Namedefs for name and pronouns-->
+    <bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale> <!-- Use Bodydefs for body types-->
+    <spawnCategories>
+      <li>Spacer</li>
+      <li>Pirate</li> <!--Use SpawnDefs to define faction spawnage-->
+    </spawnCategories>
+    <skillGains>
+      <Animals>-4</Animals>
+      <Shooting>4</Shooting>    <!--UseSkilldeffs PROPERLY to make the skills go up and down, Wheee!-->
+      <Crafting>2</Crafting>
+      <Melee>3</Melee>
+    </skillGains>
+    <workDisables> <!-- Use WorkDisables.png -->
+      <li>Artistic</li>
+    </workDisables>
+  </BackstoryDef>
+</Defs>

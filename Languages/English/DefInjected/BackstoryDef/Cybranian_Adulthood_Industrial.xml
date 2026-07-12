@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <UB_Cybranian_Adulthood_Stonecutter.title>Stonecutter</UB_Cybranian_Adulthood_Stonecutter.title>
+  <UB_Cybranian_Adulthood_Stonecutter.description>[PAWN_nameDef] is involved in creating whimsical stone statues, as well as carving stone bricks.</UB_Cybranian_Adulthood_Stonecutter.description>
+  <UB_Cybranian_Adulthood_Graphic_Designer.title>Graphic designer</UB_Cybranian_Adulthood_Graphic_Designer.title>
+  <UB_Cybranian_Adulthood_Graphic_Designer.titleShort>Designer</UB_Cybranian_Adulthood_Graphic_Designer.titleShort>
+  <UB_Cybranian_Adulthood_Graphic_Designer.description>[PAWN_nameDef] works as an interior designer and models 3D objects in an urbanized world.</UB_Cybranian_Adulthood_Graphic_Designer.description>
+  <UB_Cybranian_Adulthood_Producer.title>Producer</UB_Cybranian_Adulthood_Producer.title>
+  <UB_Cybranian_Adulthood_Producer.description>[PAWN_nameDef] works as a director in a world torn apart by war, where you have to really try to surprise the audience.</UB_Cybranian_Adulthood_Producer.description>
+  <UB_Cybranian_Adulthood_Bionics_Doctor.title>Bionics doctor</UB_Cybranian_Adulthood_Bionics_Doctor.title>
+  <UB_Cybranian_Adulthood_Bionics_Doctor.titleShort>Doctor</UB_Cybranian_Adulthood_Bionics_Doctor.titleShort>
+  <UB_Cybranian_Adulthood_Bionics_Doctor.description>[PAWN_nameDef] has been working as an ordinary surgeon for a long time, but {PAWN_gender ? his : her} talent is noticed by high-ranking people. [PAWN_nameDef] receives a license to operate bionic.</UB_Cybranian_Adulthood_Bionics_Doctor.description>
+  <UB_Cybranian_Adulthood_Cosmonaut.title>Cosmonaut</UB_Cybranian_Adulthood_Cosmonaut.title>
+  <UB_Cybranian_Adulthood_Cosmonaut.description>Since childhood, [PAWN_nameDef] dreamed of becoming a cosmonaut, like many other children of {PAWN_gender ? his : her} world. Ultimately, [PAWN_nameDef]'s stubbornness helps {PAWN_gender ? him : her} achieve {PAWN_gender ? his : her} goal.</UB_Cybranian_Adulthood_Cosmonaut.description>
+  <UB_Cybranian_Adulthood_Cynologist.title>Cynologist</UB_Cybranian_Adulthood_Cynologist.title>
+  <UB_Cybranian_Adulthood_Cynologist.description>[PAWN_nameDef] loves working with dogs, so [PAWN_nameDef] gladly got a job as a dog handler in the police department.</UB_Cybranian_Adulthood_Cynologist.description>
+  <UB_Cybranian_Adulthood_Biochemist.title>Biochemist</UB_Cybranian_Adulthood_Biochemist.title>
+  <UB_Cybranian_Adulthood_Biochemist.description>[PAWN_nameDef] understands chemistry very well, which helped {PAWN_gender ? him : her} get a prestigious job. [PAWN_nameDef] studies the biosphere of {PAWN_gender ? his : her} planet all day long.</UB_Cybranian_Adulthood_Biochemist.description>
+  <UB_Cybranian_Adulthood_Inquiry_Agent.title>Inquiry agent</UB_Cybranian_Adulthood_Inquiry_Agent.title>
+  <UB_Cybranian_Adulthood_Inquiry_Agent.titleShort>Agent</UB_Cybranian_Adulthood_Inquiry_Agent.titleShort>
+  <UB_Cybranian_Adulthood_Inquiry_Agent.description>[PAWN_nameDef] has been working as a private detective for a long time in an industrial world full of corruption. Ultimately, [PAWN_nameDef] realizes that this is a profitable business.</UB_Cybranian_Adulthood_Inquiry_Agent.description>
+  <UB_Cybranian_Adulthood_Fighter_Pilot.title>Fighter pilot</UB_Cybranian_Adulthood_Fighter_Pilot.title>
+  <UB_Cybranian_Adulthood_Fighter_Pilot.titleShort>Pilot</UB_Cybranian_Adulthood_Fighter_Pilot.titleShort>
+  <UB_Cybranian_Adulthood_Fighter_Pilot.description>[PAWN_nameDef] is fascinated by the sky and literally raves about it. In adulthood, [PAWN_nameDef] enlists in the army to serve as a fighter pilot.</UB_Cybranian_Adulthood_Fighter_Pilot.description>
+  <UB_Cybranian_Adulthood_Bomber_Pilot.title>Bomber pilot</UB_Cybranian_Adulthood_Bomber_Pilot.title>
+  <UB_Cybranian_Adulthood_Bomber_Pilot.titleShort>Pilot</UB_Cybranian_Adulthood_Bomber_Pilot.titleShort>
+  <UB_Cybranian_Adulthood_Bomber_Pilot.description>[PAWN_nameDef] is fascinated by the sky and literally raves about it. In adulthood, [PAWN_nameDef] enlists in the army to serve as a bomber pilot.</UB_Cybranian_Adulthood_Bomber_Pilot.description>
+  <UB_Cybranian_Adulthood_Military_Journalist.title>Military journalist</UB_Cybranian_Adulthood_Military_Journalist.title>
+  <UB_Cybranian_Adulthood_Military_Journalist.titleShort>Journalist</UB_Cybranian_Adulthood_Military_Journalist.titleShort>
+  <UB_Cybranian_Adulthood_Military_Journalist.description>[PAWN_nameDef] is often under fire, but tirelessly continues {PAWN_gender ? his : her} work.</UB_Cybranian_Adulthood_Military_Journalist.description>
+  <UB_Cybranian_Adulthood_Chemist_Technologist.title>Chemist technologist</UB_Cybranian_Adulthood_Chemist_Technologist.title>
+  <UB_Cybranian_Adulthood_Chemist_Technologist.titleShort>Chemist</UB_Cybranian_Adulthood_Chemist_Technologist.titleShort>
+  <UB_Cybranian_Adulthood_Chemist_Technologist.description>[PAWN_nameDef] is involved in the testing of chemicals and the design of various devices.</UB_Cybranian_Adulthood_Chemist_Technologist.description>
+  <UB_Cybranian_Adulthood_Investigator.title>Investigator</UB_Cybranian_Adulthood_Investigator.title>
+  <UB_Cybranian_Adulthood_Investigator.description>[PAWN_nameDef] has been working for a long time as an investigator for particularly important cases in the police department of {PAWN_gender ? his : her} city.</UB_Cybranian_Adulthood_Investigator.description>
+  <UB_Cybranian_Adulthood_Psychiatrist.title>Psychiatrist</UB_Cybranian_Adulthood_Psychiatrist.title>
+  <UB_Cybranian_Adulthood_Psychiatrist.description>[PAWN_nameDef] works with people with serious mental illness.</UB_Cybranian_Adulthood_Psychiatrist.description>
+  <UB_Cybranian_Adulthood_Military_Psychologist.title>Military psychologist</UB_Cybranian_Adulthood_Military_Psychologist.title>
+  <UB_Cybranian_Adulthood_Military_Psychologist.titleShort>Psychologist</UB_Cybranian_Adulthood_Military_Psychologist.titleShort>
+  <UB_Cybranian_Adulthood_Military_Psychologist.description>[PAWN_nameDef] has been working in the rear headquarters for a long time, treating and rehabilitating soldiers.</UB_Cybranian_Adulthood_Military_Psychologist.description>
+  <UB_Cybranian_Adulthood_Military_Psychiatrist.title>Military psychiatrist</UB_Cybranian_Adulthood_Military_Psychiatrist.title>
+  <UB_Cybranian_Adulthood_Military_Psychiatrist.titleShort>Psychiatrist</UB_Cybranian_Adulthood_Military_Psychiatrist.titleShort>
+  <UB_Cybranian_Adulthood_Military_Psychiatrist.description>[PAWN_nameDef] works with shell-shocked soldiers, helping them rehabilitate behind the front lines.</UB_Cybranian_Adulthood_Military_Psychiatrist.description>
+  <UB_Cybranian_Adulthood_Illustrator.title>Illustrator</UB_Cybranian_Adulthood_Illustrator.title>
+  <UB_Cybranian_Adulthood_Illustrator.description>[PAWN_nameDef] draws illustrations for children's books for an elderly writer.</UB_Cybranian_Adulthood_Illustrator.description>
+  <UB_Cybranian_Adulthood_Programmer_Developer.title>Programmer developer</UB_Cybranian_Adulthood_Programmer_Developer.title>
+  <UB_Cybranian_Adulthood_Programmer_Developer.titleShort>Programmer</UB_Cybranian_Adulthood_Programmer_Developer.titleShort>
+  <UB_Cybranian_Adulthood_Programmer_Developer.description>For many years [PAWN_nameDef] has been developing software for a large gaming company.</UB_Cybranian_Adulthood_Programmer_Developer.description>
+  <UB_Cybranian_Adulthood_Landscape_Designer.title>Landscape designer</UB_Cybranian_Adulthood_Landscape_Designer.title>
+  <UB_Cybranian_Adulthood_Landscape_Designer.titleShort>Designer</UB_Cybranian_Adulthood_Landscape_Designer.titleShort>
+  <UB_Cybranian_Adulthood_Landscape_Designer.description>[PAWN_nameDef] is passionate about landscape design, working part-time on furnishing country houses for wealthy people.</UB_Cybranian_Adulthood_Landscape_Designer.description>
+  <UB_Cybranian_Adulthood_Web_Designer.title>Web designer</UB_Cybranian_Adulthood_Web_Designer.title>
+  <UB_Cybranian_Adulthood_Web_Designer.titleShort>Designer</UB_Cybranian_Adulthood_Web_Designer.titleShort>
+  <UB_Cybranian_Adulthood_Web_Designer.description>[PAWN_nameDef] practices design for websites of various companies. In the end, {PAWN_gender ? his : her} talent is revealed in all its glory.</UB_Cybranian_Adulthood_Web_Designer.description>
+  <UB_Cybranian_Adulthood_Movie_Artist.title>Movie artist</UB_Cybranian_Adulthood_Movie_Artist.title>
+  <UB_Cybranian_Adulthood_Movie_Artist.titleShort>Artist</UB_Cybranian_Adulthood_Movie_Artist.titleShort>
+  <UB_Cybranian_Adulthood_Movie_Artist.description>[PAWN_nameDef] acts in films, often making {PAWN_gender ? his : her} way to movie posters in {PAWN_gender ? his : her} industrialized world.</UB_Cybranian_Adulthood_Movie_Artist.description>
+  <UB_Cybranian_Adulthood_Interior_Designer.title>Interior designer</UB_Cybranian_Adulthood_Interior_Designer.title>
+  <UB_Cybranian_Adulthood_Interior_Designer.titleShort>Designer</UB_Cybranian_Adulthood_Interior_Designer.titleShort>
+  <UB_Cybranian_Adulthood_Interior_Designer.description>[PAWN_nameDef] designs furniture sets and home furnishings, earning big bucks.</UB_Cybranian_Adulthood_Interior_Designer.description>
+  <UB_Cybranian_Adulthood_Pathologist.title>Pathologist</UB_Cybranian_Adulthood_Pathologist.title>
+  <UB_Cybranian_Adulthood_Pathologist.description>Throughout [PAWN_nameDef]'s medical practice, [PAWN_nameDef] has performed multiple autopsies and analyzes for examinations.</UB_Cybranian_Adulthood_Pathologist.description>
+  <UB_Cybranian_Adulthood_Resuscitator.title>Resuscitator</UB_Cybranian_Adulthood_Resuscitator.title>
+  <UB_Cybranian_Adulthood_Resuscitator.description>[PAWN_nameDef] is the doctor who makes the dead come to life. Many see {PAWN_gender ? his : her} profession as a real miracle.</UB_Cybranian_Adulthood_Resuscitator.description>
+  <UB_Cybranian_Adulthood_Archaeologist.title>Archaeologist</UB_Cybranian_Adulthood_Archaeologist.title>
+  <UB_Cybranian_Adulthood_Archaeologist.description>[PAWN_nameDef] is passionate about ancient history and connected {PAWN_gender ? his : her} profession with it. [PAWN_nameDef] is engaged in the excavation of ancient civilizations and cities.</UB_Cybranian_Adulthood_Archaeologist.description>
+  <UB_Cybranian_Adulthood_Sound_Engineer.title>Sound engineer</UB_Cybranian_Adulthood_Sound_Engineer.title>
+  <UB_Cybranian_Adulthood_Sound_Engineer.titleShort>Engineer</UB_Cybranian_Adulthood_Sound_Engineer.titleShort>
+  <UB_Cybranian_Adulthood_Sound_Engineer.description>[PAWN_nameDef] is engaged in sound tuning for filming movies or feature films.</UB_Cybranian_Adulthood_Sound_Engineer.description>
+  <UB_Cybranian_Adulthood_Geneticist.title>Geneticist</UB_Cybranian_Adulthood_Geneticist.title>
+  <UB_Cybranian_Adulthood_Geneticist.description>[PAWN_nameDef]He lives in an underground complex, classified by the government. There [PAWN_nameDef] and {PAWN_gender ? his : her} colleagues conduct experiments on humans and animals, studying genetics and conducting tests.</UB_Cybranian_Adulthood_Geneticist.description>
+  <UB_Cybranian_Adulthood_Radio_Host.title>Radio host</UB_Cybranian_Adulthood_Radio_Host.title>
+  <UB_Cybranian_Adulthood_Radio_Host.description>[PAWN_nameDef] broadcasts radio broadcasts to the war-ravaged population on behalf of the government.</UB_Cybranian_Adulthood_Radio_Host.description>
+  <UB_Cybranian_Adulthood_Language_Teacher.title>Language teacher</UB_Cybranian_Adulthood_Language_Teacher.title>
+  <UB_Cybranian_Adulthood_Language_Teacher.titleShort>Teacher</UB_Cybranian_Adulthood_Language_Teacher.titleShort>
+  <UB_Cybranian_Adulthood_Language_Teacher.description>[PAWN_nameDef] teaches the mother tongue to children at school.</UB_Cybranian_Adulthood_Language_Teacher.description>
+  <UB_Cybranian_Adulthood_Physics_Teacher.title>Physics teacher</UB_Cybranian_Adulthood_Physics_Teacher.title>
+  <UB_Cybranian_Adulthood_Physics_Teacher.titleShort>Teacher</UB_Cybranian_Adulthood_Physics_Teacher.titleShort>
+  <UB_Cybranian_Adulthood_Physics_Teacher.description>[PAWN_nameDef] teaches the physics to children at school.</UB_Cybranian_Adulthood_Physics_Teacher.description>
+  <UB_Cybranian_Adulthood_Chemistry_Teacher.title>Chemistry teacher</UB_Cybranian_Adulthood_Chemistry_Teacher.title>
+  <UB_Cybranian_Adulthood_Chemistry_Teacher.titleShort>Teacher</UB_Cybranian_Adulthood_Chemistry_Teacher.titleShort>
+  <UB_Cybranian_Adulthood_Chemistry_Teacher.description>[PAWN_nameDef] teaches the chemistry to children at school.</UB_Cybranian_Adulthood_Chemistry_Teacher.description>
+  <UB_Cybranian_Adulthood_Mathematic_Teacher.title>Mathematic teacher</UB_Cybranian_Adulthood_Mathematic_Teacher.title>
+  <UB_Cybranian_Adulthood_Mathematic_Teacher.titleShort>Teacher</UB_Cybranian_Adulthood_Mathematic_Teacher.titleShort>
+  <UB_Cybranian_Adulthood_Mathematic_Teacher.description>[PAWN_nameDef] teaches the mathematic to children at school.</UB_Cybranian_Adulthood_Mathematic_Teacher.description>
+  <UB_Cybranian_Adulthood_Drawing_Teacher.title>Drawing teacher</UB_Cybranian_Adulthood_Drawing_Teacher.title>
+  <UB_Cybranian_Adulthood_Drawing_Teacher.titleShort>Teacher</UB_Cybranian_Adulthood_Drawing_Teacher.titleShort>
+  <UB_Cybranian_Adulthood_Drawing_Teacher.description>[PAWN_nameDef] teaches the drawing to children at school.</UB_Cybranian_Adulthood_Drawing_Teacher.description>
+  <UB_Cybranian_Adulthood_Music_Teacher.title>Music teacher</UB_Cybranian_Adulthood_Music_Teacher.title>
+  <UB_Cybranian_Adulthood_Music_Teacher.titleShort>Teacher</UB_Cybranian_Adulthood_Music_Teacher.titleShort>
+  <UB_Cybranian_Adulthood_Music_Teacher.description>[PAWN_nameDef] teaches the music to children at school.</UB_Cybranian_Adulthood_Music_Teacher.description>
+  <UB_Cybranian_Adulthood_Undertaker.title>Undertaker</UB_Cybranian_Adulthood_Undertaker.title>
+  <UB_Cybranian_Adulthood_Undertaker.description>[PAWN_nameDef] runs the funeral business, negotiating funeral procedures.</UB_Cybranian_Adulthood_Undertaker.description>
+  <UB_Cybranian_Adulthood_Forensic_Expert.title>Forensic expert</UB_Cybranian_Adulthood_Forensic_Expert.title>
+  <UB_Cybranian_Adulthood_Forensic_Expert.titleShort>Expert</UB_Cybranian_Adulthood_Forensic_Expert.titleShort>
+  <UB_Cybranian_Adulthood_Forensic_Expert.description>[PAWN_nameDef] monitors the veracity of the testimony of witnesses at trial, and also checks the evidence provided.</UB_Cybranian_Adulthood_Forensic_Expert.description>
+  <UB_Cybranian_Adulthood_Judge.title>Judge</UB_Cybranian_Adulthood_Judge.title>
+  <UB_Cybranian_Adulthood_Judge.description>[PAWN_nameDef] renders verdicts against the accused at trial, relying on the norms of the law of {PAWN_gender ? his : her} world.</UB_Cybranian_Adulthood_Judge.description>
+  <UB_Cybranian_Adulthood_Confectioner.title>Confectioner</UB_Cybranian_Adulthood_Confectioner.title>
+  <UB_Cybranian_Adulthood_Confectioner.description>[PAWN_nameDef] loves to cook various sweets, making a business out of it.</UB_Cybranian_Adulthood_Confectioner.description>
+  <UB_Cybranian_Adulthood_Aero_Engineer.title>Aero engineer</UB_Cybranian_Adulthood_Aero_Engineer.title>
+  <UB_Cybranian_Adulthood_Aero_Engineer.titleShort>Engineer</UB_Cybranian_Adulthood_Aero_Engineer.titleShort>
+  <UB_Cybranian_Adulthood_Aero_Engineer.description>[PAWN_nameDef] designs and builds air transport for {PAWN_gender ? his : her} faction.</UB_Cybranian_Adulthood_Aero_Engineer.description>
+  <UB_Cybranian_Adulthood_Reconstructor.title>Reconstructor</UB_Cybranian_Adulthood_Reconstructor.title>
+  <UB_Cybranian_Adulthood_Reconstructor.description>[PAWN_nameDef] loves everything related to history and is engaged in the reconstruction of life and battles of the past.</UB_Cybranian_Adulthood_Reconstructor.description>
+  <UB_Cybranian_Adulthood_General.title>General</UB_Cybranian_Adulthood_General.title>
+  <UB_Cybranian_Adulthood_General.description>[PAWN_nameDef] sits high in the army hierarchy, regularly developing military operations.</UB_Cybranian_Adulthood_General.description>
+  <UB_Cybranian_Adulthood_Captain.title>Captain</UB_Cybranian_Adulthood_Captain.title>
+  <UB_Cybranian_Adulthood_Captain.description>[PAWN_nameDef] leads a warship, often taking part in military maneuvers and battles at sea.</UB_Cybranian_Adulthood_Captain.description>
+  <UB_Cybranian_Adulthood_Admiral.title>Admiral</UB_Cybranian_Adulthood_Admiral.title>
+  <UB_Cybranian_Adulthood_Admiral.description>[PAWN_nameDef] leads a battle squadron, leading battles in the seas and oceans.</UB_Cybranian_Adulthood_Admiral.description>
+  <UB_Cybranian_Adulthood_War_Hero.title>War hero</UB_Cybranian_Adulthood_War_Hero.title>
+  <UB_Cybranian_Adulthood_War_Hero.description>[PAWN_nameDef] became a hero of {PAWN_gender ? his : her} faction, single-handedly deciding the outcome of a military battle.</UB_Cybranian_Adulthood_War_Hero.description>
+  <UB_Cybranian_Adulthood_War_Criminal.title>War criminal</UB_Cybranian_Adulthood_War_Criminal.title>
+  <UB_Cybranian_Adulthood_War_Criminal.description>[PAWN_nameDef] has escaped prison many times, organizing terrorist attacks and military attacks in the name of {PAWN_gender ? his : her} religion.</UB_Cybranian_Adulthood_War_Criminal.description>
+  <UB_Cybranian_Adulthood_Road_Paver.title>Road paver</UB_Cybranian_Adulthood_Road_Paver.title>
+  <UB_Cybranian_Adulthood_Road_Paver.description>[PAWN_nameDef] works by building roads linking many settlements.</UB_Cybranian_Adulthood_Road_Paver.description>
+  <UB_Cybranian_Adulthood_Terrorist.title>Terrorist</UB_Cybranian_Adulthood_Terrorist.title>
+  <UB_Cybranian_Adulthood_Terrorist.description>[PAWN_nameDef] lost himself long ago, dissolving {PAWN_gender ? his : her} personality in pools of blood of innocent people.</UB_Cybranian_Adulthood_Terrorist.description>
+  <UB_Cybranian_Adulthood_Rebel.title>Rebel</UB_Cybranian_Adulthood_Rebel.title>
+  <UB_Cybranian_Adulthood_Rebel.description>[PAWN_nameDef] has been fighting the government of {PAWN_gender ? his : her} state for as long as {PAWN_gender ? he : she} can remember.</UB_Cybranian_Adulthood_Rebel.description>
+  <UB_Cybranian_Adulthood_Anarchist.title>Anarchist</UB_Cybranian_Adulthood_Anarchist.title>
+  <UB_Cybranian_Adulthood_Anarchist.description>[PAWN_nameDef] is waging a guerrilla war against the government as part of a small anarchist group.</UB_Cybranian_Adulthood_Anarchist.description>
+  <UB_Cybranian_Adulthood_Photographer.title>Photographer</UB_Cybranian_Adulthood_Photographer.title>
+  <UB_Cybranian_Adulthood_Photographer.description>[PAWN_nameDef] usually has a low income, working as a photographer at children's parties and weddings.</UB_Cybranian_Adulthood_Photographer.description>
+  <UB_Cybranian_Adulthood_Assassin.title>Assassin</UB_Cybranian_Adulthood_Assassin.title>
+  <UB_Cybranian_Adulthood_Assassin.description>[PAWN_nameDef] works as a hitman in the medieval world, earning a reputation as a bloody man.</UB_Cybranian_Adulthood_Assassin.description>
+  <UB_Cybranian_Adulthood_Rescuer.title>Rescuer</UB_Cybranian_Adulthood_Rescuer.title>
+  <UB_Cybranian_Adulthood_Rescuer.description>[PAWN_nameDef] works in the rescue service, pulling people out of the rubble and avalanches.</UB_Cybranian_Adulthood_Rescuer.description>
+  <UB_Cybranian_Adulthood_Time_Traveler.title>Time traveler</UB_Cybranian_Adulthood_Time_Traveler.title>
+  <UB_Cybranian_Adulthood_Time_Traveler.titleShort>Traveler</UB_Cybranian_Adulthood_Time_Traveler.titleShort>
+  <UB_Cybranian_Adulthood_Time_Traveler.description>[PAWN_nameDef] is developing a time machine, but something goes wrong. [PAWN_nameDef] could not start it.</UB_Cybranian_Adulthood_Time_Traveler.description>
+  <UB_Cybranian_Adulthood_Lonely_Artist.title>Lonely artist</UB_Cybranian_Adulthood_Lonely_Artist.title>
+  <UB_Cybranian_Adulthood_Lonely_Artist.titleShort>Artist</UB_Cybranian_Adulthood_Lonely_Artist.titleShort>
+  <UB_Cybranian_Adulthood_Lonely_Artist.description>[PAWN_nameDef] spent all {PAWN_gender ? his : her} life alone, expressing {PAWN_gender ? his : her} pain in paintings.</UB_Cybranian_Adulthood_Lonely_Artist.description>
+  <UB_Cybranian_Adulthood_Escaped_Slave.title>Escaped slave</UB_Cybranian_Adulthood_Escaped_Slave.title>
+  <UB_Cybranian_Adulthood_Escaped_Slave.titleShort>Slave</UB_Cybranian_Adulthood_Escaped_Slave.titleShort>
+  <UB_Cybranian_Adulthood_Escaped_Slave.description>[PAWN_nameDef] spent all {PAWN_gender ? his : her} life alone, expressing {PAWN_gender ? his : her} pain in paintings.</UB_Cybranian_Adulthood_Escaped_Slave.description>
+  <UB_Cybranian_Adulthood_Artilleryman.title>Artilleryman</UB_Cybranian_Adulthood_Artilleryman.title>
+  <UB_Cybranian_Adulthood_Artilleryman.description>[PAWN_nameDef] served in the industrial army, firing artillery.</UB_Cybranian_Adulthood_Artilleryman.description>
+  <UB_Cybranian_Adulthood_Gun_Layer.title>Gun-layer</UB_Cybranian_Adulthood_Gun_Layer.title>
+  <UB_Cybranian_Adulthood_Gun_Layer.description>[PAWN_nameDef] adjusted artillery fire during a heavy trench war.</UB_Cybranian_Adulthood_Gun_Layer.description>
+  <UB_Cybranian_Adulthood_Astronomer.title>Astronomer</UB_Cybranian_Adulthood_Astronomer.title>
+  <UB_Cybranian_Adulthood_Astronomer.description>[PAWN_nameDef] studies stars and planets, and also reveals the relationships in their movement.</UB_Cybranian_Adulthood_Astronomer.description>
+  <UB_Cybranian_Adulthood_Botanist.title>Botanist</UB_Cybranian_Adulthood_Botanist.title>
+  <UB_Cybranian_Adulthood_Botanist.description>[PAWN_nameDef] is a certified botanist and is involved in plant breeding.</UB_Cybranian_Adulthood_Botanist.description>
+  <UB_Cybranian_Adulthood_Nanotechnologist.title>Nanotechnologist</UB_Cybranian_Adulthood_Nanotechnologist.title>
+  <UB_Cybranian_Adulthood_Nanotechnologist.description>[PAWN_nameDef] designs microscopic robots for a variety of tasks.</UB_Cybranian_Adulthood_Nanotechnologist.description>
+  <UB_Cybranian_Adulthood_Urban_Planner.title>Urban planner</UB_Cybranian_Adulthood_Urban_Planner.title>
+  <UB_Cybranian_Adulthood_Urban_Planner.description>[PAWN_nameDef] designs the construction of communications in new areas of the city.</UB_Cybranian_Adulthood_Urban_Planner.description>
+  <UB_Cybranian_Adulthood_Diplomat.title>Diplomat</UB_Cybranian_Adulthood_Diplomat.title>
+  <UB_Cybranian_Adulthood_Diplomat.description>[PAWN_nameDef] is in charge of matters of peace and war on behalf of {PAWN_gender ? his : her} ruler.</UB_Cybranian_Adulthood_Diplomat.description>
+  <UB_Cybranian_Adulthood_Consul.title>Consul</UB_Cybranian_Adulthood_Consul.title>
+  <UB_Cybranian_Adulthood_Consul.description>[PAWN_nameDef] was the head of the diplomatic department, which pursued policy on behalf of the state.</UB_Cybranian_Adulthood_Consul.description>
+  <UB_Cybranian_Adulthood_Ecologist.title>Ecologist</UB_Cybranian_Adulthood_Ecologist.title>
+  <UB_Cybranian_Adulthood_Ecologist.description>[PAWN_nameDef] worked to protect the ecology of {PAWN_gender ? his : her} planet from growing industrial pollution.</UB_Cybranian_Adulthood_Ecologist.description>
+  <UB_Cybranian_Adulthood_Lawyer.title>Lawyer</UB_Cybranian_Adulthood_Lawyer.title>
+  <UB_Cybranian_Adulthood_Lawyer.description>[PAWN_nameDef] specialized in the legal defense of {PAWN_gender ? his : her} clients in court.</UB_Cybranian_Adulthood_Lawyer.description>
+  <UB_Cybranian_Adulthood_Forwarder.title>Forwarder</UB_Cybranian_Adulthood_Forwarder.title>
+  <UB_Cybranian_Adulthood_Forwarder.description>[PAWN_nameDef] often went on grueling hikes, visiting previously unknown places on the planet.</UB_Cybranian_Adulthood_Forwarder.description>
+  <UB_Cybranian_Adulthood_Immunologist.title>Immunologist</UB_Cybranian_Adulthood_Immunologist.title>
+  <UB_Cybranian_Adulthood_Immunologist.description>[PAWN_nameDef] studies and treats diseases of the immune system in a private clinic in an urbanized world.</UB_Cybranian_Adulthood_Immunologist.description>
+  <UB_Cybranian_Adulthood_Bionic.title>Bionic</UB_Cybranian_Adulthood_Bionic.title>
+  <UB_Cybranian_Adulthood_Bionic.description>[PAWN_nameDef] designs blueprints for bionic prostheses while working for a government clinic.</UB_Cybranian_Adulthood_Bionic.description>
+  <UB_Cybranian_Adulthood_Film_Critic.title>Film critic</UB_Cybranian_Adulthood_Film_Critic.title>
+  <UB_Cybranian_Adulthood_Film_Critic.titleShort>Critic</UB_Cybranian_Adulthood_Film_Critic.titleShort>
+  <UB_Cybranian_Adulthood_Film_Critic.description>[PAWN_nameDef]'s job was to analyze movies and criticize them.</UB_Cybranian_Adulthood_Film_Critic.description>
+  <UB_Cybranian_Adulthood_DJ.title>DJ</UB_Cybranian_Adulthood_DJ.title>
+  <UB_Cybranian_Adulthood_DJ.description>[PAWN_nameDef] has been making music for a long time and eventually becomes a club DJ.</UB_Cybranian_Adulthood_DJ.description>
+  <UB_Cybranian_Adulthood_Guide.title>Guide</UB_Cybranian_Adulthood_Guide.title>
+  <UB_Cybranian_Adulthood_Guide.description>[PAWN_nameDef] leads excursions and provides entertainment for numerous foreigners.</UB_Cybranian_Adulthood_Guide.description>
+  <UB_Cybranian_Adulthood_Agrochemist.title>Agrochemist</UB_Cybranian_Adulthood_Agrochemist.title>
+  <UB_Cybranian_Adulthood_Agrochemist.description>[PAWN_nameDef] is engaged in biology and the development of new varieties of plants, through selection.</UB_Cybranian_Adulthood_Agrochemist.description>
+  <UB_Cybranian_Adulthood_Taster.title>Taster</UB_Cybranian_Adulthood_Taster.title>
+  <UB_Cybranian_Adulthood_Taster.description>[PAWN_nameDef] tastes food and products before serving them to guests.</UB_Cybranian_Adulthood_Taster.description>
+  <UB_Cybranian_Adulthood_Sports_Doctor.title>Sports doctor</UB_Cybranian_Adulthood_Sports_Doctor.title>
+  <UB_Cybranian_Adulthood_Sports_Doctor.titleShort>Doctor</UB_Cybranian_Adulthood_Sports_Doctor.titleShort>
+  <UB_Cybranian_Adulthood_Sports_Doctor.description>[PAWN_nameDef] has a medical degree and is involved in the rehabilitation of athletes in the industrialized world.</UB_Cybranian_Adulthood_Sports_Doctor.description>
+  <UB_Cybranian_Adulthood_Meteorologist.title>Meteorologist</UB_Cybranian_Adulthood_Meteorologist.title>
+  <UB_Cybranian_Adulthood_Meteorologist.description>[PAWN_nameDef] studies meteorites and rocks from other planets.</UB_Cybranian_Adulthood_Meteorologist.description>
+  <UB_Cybranian_Adulthood_Linguist.title>Linguist</UB_Cybranian_Adulthood_Linguist.title>
+  <UB_Cybranian_Adulthood_Linguist.description>[PAWN_nameDef] studies many languages ​​and speaks them fluently.</UB_Cybranian_Adulthood_Linguist.description>
+  <UB_Cybranian_Adulthood_Analyst.title>Analyst</UB_Cybranian_Adulthood_Analyst.title>
+  <UB_Cybranian_Adulthood_Analyst.description>[PAWN_nameDef] does mathematics and mathematical analysis, making graphs and making predictions for various things.</UB_Cybranian_Adulthood_Analyst.description>
+  <UB_Cybranian_Adulthood_Orthodontist.title>Orthodontist</UB_Cybranian_Adulthood_Orthodontist.title>
+  <UB_Cybranian_Adulthood_Orthodontist.description>[PAWN_nameDef] works as a dentist in a clinic in an urbanized world for most of {PAWN_gender ? his : her} life.</UB_Cybranian_Adulthood_Orthodontist.description>
+  <UB_Cybranian_Adulthood_Advisor.title>Advisor</UB_Cybranian_Adulthood_Advisor.title>
+  <UB_Cybranian_Adulthood_Advisor.description>[PAWN_nameDef] is the political advisor to the puppet leader.</UB_Cybranian_Adulthood_Advisor.description>
+  <UB_Cybranian_Adulthood_Mechanic.title>Mechanic</UB_Cybranian_Adulthood_Mechanic.title>
+  <UB_Cybranian_Adulthood_Mechanic.description>[PAWN_nameDef] is a mechanic in a factory, repairing vehicles.</UB_Cybranian_Adulthood_Mechanic.description>
+  <UB_Cybranian_Adulthood_Pharmacist.title>Pharmacist</UB_Cybranian_Adulthood_Pharmacist.title>
+  <UB_Cybranian_Adulthood_Pharmacist.description>[PAWN_nameDef] worked for a long time in a pharmacy, and then at a drug manufacturing plant.</UB_Cybranian_Adulthood_Pharmacist.description>
+  <UB_Cybranian_Adulthood_Cultist.title>Cultist</UB_Cybranian_Adulthood_Cultist.title>
+  <UB_Cybranian_Adulthood_Cultist.description>[PAWN_nameDef] is a priest of a cult-like cult.</UB_Cybranian_Adulthood_Cultist.description>
+  <UB_Cybranian_Adulthood_Sectarian.title>Sectarian</UB_Cybranian_Adulthood_Sectarian.title>
+  <UB_Cybranian_Adulthood_Sectarian.description>[PAWN_nameDef] falls into a brutal paramilitary sect, losing {PAWN_gender ? his : her} identity.</UB_Cybranian_Adulthood_Sectarian.description>
+  <UB_Cybranian_Adulthood_Conspirator.title>Conspirator</UB_Cybranian_Adulthood_Conspirator.title>
+  <UB_Cybranian_Adulthood_Conspirator.description>[PAWN_nameDef] has experienced many power changes, weaving political intrigues.</UB_Cybranian_Adulthood_Conspirator.description>
+  <UB_Cybranian_Adulthood_Electronic.title>Electronic</UB_Cybranian_Adulthood_Electronic.title>
+  <UB_Cybranian_Adulthood_Electronic.description>[PAWN_nameDef] creates electrical devices and microcircuits while working in a huge industrial plant.</UB_Cybranian_Adulthood_Electronic.description>
+  <UB_Cybranian_Adulthood_Oilman.title>Oilman</UB_Cybranian_Adulthood_Oilman.title>
+  <UB_Cybranian_Adulthood_Oilman.description>[PAWN_nameDef] is in charge of the oil production at the enterprise.</UB_Cybranian_Adulthood_Oilman.description>
+  <UB_Cybranian_Adulthood_Economist.title>Economist</UB_Cybranian_Adulthood_Economist.title>
+  <UB_Cybranian_Adulthood_Economist.description>[PAWN_nameDef] examines the economy of {PAWN_gender ? his : her} state, drawing up schedules and plans.</UB_Cybranian_Adulthood_Economist.description>
+  <UB_Cybranian_Adulthood_Dispatcher.title>Dispatcher</UB_Cybranian_Adulthood_Dispatcher.title>
+  <UB_Cybranian_Adulthood_Dispatcher.description>[PAWN_nameDef] deals with the regulation of air traffic.</UB_Cybranian_Adulthood_Dispatcher.description>
+  <UB_Cybranian_Adulthood_Banker.title>Banker</UB_Cybranian_Adulthood_Banker.title>
+  <UB_Cybranian_Adulthood_Banker.description>[PAWN_nameDef] is in charge of the circulation of money in {PAWN_gender ? his : her} branch of the bank and is engaged in counting deposits.</UB_Cybranian_Adulthood_Banker.description>
+  <UB_Cybranian_Adulthood_Optician.title>Optician</UB_Cybranian_Adulthood_Optician.title>
+  <UB_Cybranian_Adulthood_Optician.description>[PAWN_nameDef] develops optical lenses for binoculars and spotting scopes.</UB_Cybranian_Adulthood_Optician.description>
+  <UB_Cybranian_Adulthood_Archivist.title>Archivist</UB_Cybranian_Adulthood_Archivist.title>
+  <UB_Cybranian_Adulthood_Archivist.description>[PAWN_nameDef] is in charge of the library fund of {PAWN_gender ? his : her} academy, studying and recounting it.</UB_Cybranian_Adulthood_Archivist.description>
+  <UB_Cybranian_Adulthood_Antique_Dealer.title>Antique dealer</UB_Cybranian_Adulthood_Antique_Dealer.title>
+  <UB_Cybranian_Adulthood_Antique_Dealer.titleShort>Dealer</UB_Cybranian_Adulthood_Antique_Dealer.titleShort>
+  <UB_Cybranian_Adulthood_Antique_Dealer.description>[PAWN_nameDef] collects rare items, selling entire collections.</UB_Cybranian_Adulthood_Antique_Dealer.description>
+  <UB_Cybranian_Adulthood_Drug_Dealer.title>Drug dealer</UB_Cybranian_Adulthood_Drug_Dealer.title>
+  <UB_Cybranian_Adulthood_Drug_Dealer.titleShort>Dealer</UB_Cybranian_Adulthood_Drug_Dealer.titleShort>
+  <UB_Cybranian_Adulthood_Drug_Dealer.description>[PAWN_nameDef] is involved in the criminal business as a drug dealer.</UB_Cybranian_Adulthood_Drug_Dealer.description>
+  <UB_Cybranian_Adulthood_Mining_Engineer.title>Mining engineer</UB_Cybranian_Adulthood_Mining_Engineer.title>
+  <UB_Cybranian_Adulthood_Mining_Engineer.titleShort>Engineer</UB_Cybranian_Adulthood_Mining_Engineer.titleShort>
+  <UB_Cybranian_Adulthood_Mining_Engineer.description>[PAWN_nameDef] designs mines and underground bridges.</UB_Cybranian_Adulthood_Mining_Engineer.description>
+  <UB_Cybranian_Adulthood_Regent.title>Regent</UB_Cybranian_Adulthood_Regent.title>
+  <UB_Cybranian_Adulthood_Regent.description>[PAWN_nameDef] became regent with {PAWN_gender ? his : her} young son, but killed {PAWN_gender ? him : her} to seize power.</UB_Cybranian_Adulthood_Regent.description>
+  <UB_Cybranian_Adulthood_Emperor.title>Emperor</UB_Cybranian_Adulthood_Emperor.title>
+  <UB_Cybranian_Adulthood_Emperor.description>[PAWN_nameDef] led a small empire scattered around the world, becoming a very formidable ruler.</UB_Cybranian_Adulthood_Emperor.description>
+  <UB_Cybranian_Adulthood_King_Puppet.title>King puppet</UB_Cybranian_Adulthood_King_Puppet.title>
+  <UB_Cybranian_Adulthood_King_Puppet.titleShort>King</UB_Cybranian_Adulthood_King_Puppet.titleShort>
+  <UB_Cybranian_Adulthood_King_Puppet.description>[PAWN_nameDef] had a weak character, becoming the de facto puppet of {PAWN_gender ? his : her} regent.</UB_Cybranian_Adulthood_King_Puppet.description>
+  <UB_Cybranian_Adulthood_Privy_Counselor.title>Privy counselor</UB_Cybranian_Adulthood_Privy_Counselor.title>
+  <UB_Cybranian_Adulthood_Privy_Counselor.titleShort>Counselor</UB_Cybranian_Adulthood_Privy_Counselor.titleShort>
+  <UB_Cybranian_Adulthood_Privy_Counselor.description>[PAWN_nameDef] was a henchman of a foreign state, implicitly managing state affairs.</UB_Cybranian_Adulthood_Privy_Counselor.description>
+  <UB_Cybranian_Adulthood_Commissioner.title>Commissioner</UB_Cybranian_Adulthood_Commissioner.title>
+  <UB_Cybranian_Adulthood_Commissioner.description>[PAWN_nameDef] is responsible for maintaining discipline in the ranks of the army.</UB_Cybranian_Adulthood_Commissioner.description>
+  <UB_Cybranian_Adulthood_Autocrat.title>Autocrat</UB_Cybranian_Adulthood_Autocrat.title>
+  <UB_Cybranian_Adulthood_Autocrat.description>[PAWN_nameDef] is a cruel king, having reached the top of power over the heads of thousands of people.</UB_Cybranian_Adulthood_Autocrat.description>
+  <UB_Cybranian_Adulthood_Court_Gardener.title>Court gardener</UB_Cybranian_Adulthood_Court_Gardener.title>
+  <UB_Cybranian_Adulthood_Court_Gardener.titleShort>Gardener</UB_Cybranian_Adulthood_Court_Gardener.titleShort>
+  <UB_Cybranian_Adulthood_Court_Gardener.description>[PAWN_nameDef] worked for a long time as a gardener in the elite palace of the royal family.</UB_Cybranian_Adulthood_Court_Gardener.description>
+  <UB_Cybranian_Adulthood_Court_Designer.title>Court designer</UB_Cybranian_Adulthood_Court_Designer.title>
+  <UB_Cybranian_Adulthood_Court_Designer.titleShort>Designer</UB_Cybranian_Adulthood_Court_Designer.titleShort>
+  <UB_Cybranian_Adulthood_Court_Designer.description>[PAWN_nameDef] designed luxury interiors at the royal castle.</UB_Cybranian_Adulthood_Court_Designer.description>
+  <UB_Cybranian_Adulthood_Court_Confectioner.title>Court confectioner</UB_Cybranian_Adulthood_Court_Confectioner.title>
+  <UB_Cybranian_Adulthood_Court_Confectioner.titleShort>Confectioner</UB_Cybranian_Adulthood_Court_Confectioner.titleShort>
+  <UB_Cybranian_Adulthood_Court_Confectioner.description>[PAWN_nameDef] makes cakes and other pastries of incredible beauty.</UB_Cybranian_Adulthood_Court_Confectioner.description>
+  <UB_Cybranian_Adulthood_Court_Guard.title>Court guard</UB_Cybranian_Adulthood_Court_Guard.title>
+  <UB_Cybranian_Adulthood_Court_Guard.titleShort>Guard</UB_Cybranian_Adulthood_Court_Guard.titleShort>
+  <UB_Cybranian_Adulthood_Court_Guard.description>[PAWN_nameDef] guards the Emperor's chambers at the cost of {PAWN_gender ? his : her} own life.</UB_Cybranian_Adulthood_Court_Guard.description>
+  <UB_Cybranian_Adulthood_Court_Doctor.title>Court doctor</UB_Cybranian_Adulthood_Court_Doctor.title>
+  <UB_Cybranian_Adulthood_Court_Doctor.titleShort>Doctor</UB_Cybranian_Adulthood_Court_Doctor.titleShort>
+  <UB_Cybranian_Adulthood_Court_Doctor.description>[PAWN_nameDef] has a good medical background, working at the royal court.</UB_Cybranian_Adulthood_Court_Doctor.description>
+  <UB_Cybranian_Adulthood_Butler.title>Butler</UB_Cybranian_Adulthood_Butler.title>
+  <UB_Cybranian_Adulthood_Butler.description>For most of {PAWN_gender ? his : her} life, [PAWN_nameDef] works at the court of titled persons, having earned himself an impeccable reputation.</UB_Cybranian_Adulthood_Butler.description>
+  <UB_Cybranian_Adulthood_Combat_Officer.title>Combat officer</UB_Cybranian_Adulthood_Combat_Officer.title>
+  <UB_Cybranian_Adulthood_Combat_Officer.titleShort>Officer</UB_Cybranian_Adulthood_Combat_Officer.titleShort>
+  <UB_Cybranian_Adulthood_Combat_Officer.description>[PAWN_nameDef] served during a terrible trench war that destroyed {PAWN_gender ? his : her} home, country and life.</UB_Cybranian_Adulthood_Combat_Officer.description>
+  <UB_Cybranian_Adulthood_Machine_Gunner.title>Machine gunner</UB_Cybranian_Adulthood_Machine_Gunner.title>
+  <UB_Cybranian_Adulthood_Machine_Gunner.titleShort>Gunner</UB_Cybranian_Adulthood_Machine_Gunner.titleShort>
+  <UB_Cybranian_Adulthood_Machine_Gunner.description>[PAWN_nameDef] went through several local conflicts, invariably defending {PAWN_gender ? his : her} positions with a machine gun.</UB_Cybranian_Adulthood_Machine_Gunner.description>
+  <UB_Cybranian_Adulthood_Mountain_Shooter.title>Mountain shooter</UB_Cybranian_Adulthood_Mountain_Shooter.title>
+  <UB_Cybranian_Adulthood_Mountain_Shooter.titleShort>Shooter</UB_Cybranian_Adulthood_Mountain_Shooter.titleShort>
+  <UB_Cybranian_Adulthood_Mountain_Shooter.description>In adulthood, [PAWN_nameDef] found the beginning of the war, enrolling in a detachment of mountain riflemen defending the passes.</UB_Cybranian_Adulthood_Mountain_Shooter.description>
+  <UB_Cybranian_Adulthood_Tank_Commander.title>Tank commander</UB_Cybranian_Adulthood_Tank_Commander.title>
+  <UB_Cybranian_Adulthood_Tank_Commander.titleShort>Commander</UB_Cybranian_Adulthood_Tank_Commander.titleShort>
+  <UB_Cybranian_Adulthood_Tank_Commander.description>[PAWN_nameDef] led a tank brigade during the war.</UB_Cybranian_Adulthood_Tank_Commander.description>
+  <UB_Cybranian_Adulthood_Winter_Sniper.title>Winter sniper</UB_Cybranian_Adulthood_Winter_Sniper.title>
+  <UB_Cybranian_Adulthood_Winter_Sniper.titleShort>Sniper</UB_Cybranian_Adulthood_Winter_Sniper.titleShort>
+  <UB_Cybranian_Adulthood_Winter_Sniper.description>[PAWN_nameDef] was the deadliest sniper during the Winter War.</UB_Cybranian_Adulthood_Winter_Sniper.description>
+  <UB_Cybranian_Adulthood_Infantry_Commander.title>Infantry commander</UB_Cybranian_Adulthood_Infantry_Commander.title>
+  <UB_Cybranian_Adulthood_Infantry_Commander.titleShort>Commander</UB_Cybranian_Adulthood_Infantry_Commander.titleShort>
+  <UB_Cybranian_Adulthood_Infantry_Commander.description>[PAWN_nameDef] led a small detachment of infantry, conducting sabotage in the rear of the enemy faction.</UB_Cybranian_Adulthood_Infantry_Commander.description>
+  <UB_Cybranian_Adulthood_Driller.title>Driller</UB_Cybranian_Adulthood_Driller.title>
+  <UB_Cybranian_Adulthood_Driller.description>[PAWN_nameDef] is engaged in well drilling for energy and ore exploration.</UB_Cybranian_Adulthood_Driller.description>
+  <UB_Cybranian_Adulthood_Geodesist.title>Geodesist</UB_Cybranian_Adulthood_Geodesist.title>
+  <UB_Cybranian_Adulthood_Geodesist.description>[PAWN_nameDef] studies surface and altitude for strategic purposes.</UB_Cybranian_Adulthood_Geodesist.description>
+  <UB_Cybranian_Adulthood_Molder.title>Molder</UB_Cybranian_Adulthood_Molder.title>
+  <UB_Cybranian_Adulthood_Molder.description>[PAWN_nameDef] is engaged in casting molds for weapons and furniture.</UB_Cybranian_Adulthood_Molder.description>
+  <UB_Cybranian_Adulthood_Metallurgist.title>Metallurgist</UB_Cybranian_Adulthood_Metallurgist.title>
+  <UB_Cybranian_Adulthood_Metallurgist.description>[PAWN_nameDef] researches metal alloys, creating new mixtures for a wide variety of purposes.</UB_Cybranian_Adulthood_Metallurgist.description>
+  <UB_Cybranian_Adulthood_Metrologist.title>Metrologist</UB_Cybranian_Adulthood_Metrologist.title>
+  <UB_Cybranian_Adulthood_Metrologist.description>[PAWN_nameDef] develops methods for measuring various physical quantities based on various instruments.</UB_Cybranian_Adulthood_Metrologist.description>
+  <UB_Cybranian_Adulthood_Installer.title>Installer</UB_Cybranian_Adulthood_Installer.title>
+  <UB_Cybranian_Adulthood_Installer.description>[PAWN_nameDef] is engaged in the installation and assembly of mechanical structures.</UB_Cybranian_Adulthood_Installer.description>
+  <UB_Cybranian_Adulthood_Service_Technician.title>Service technician</UB_Cybranian_Adulthood_Service_Technician.title>
+  <UB_Cybranian_Adulthood_Service_Technician.description>[PAWN_nameDef] maintains the equipment in working order and performs regular technical inspections.</UB_Cybranian_Adulthood_Service_Technician.description>
+  <UB_Cybranian_Adulthood_Welder.title>Welder</UB_Cybranian_Adulthood_Welder.title>
+  <UB_Cybranian_Adulthood_Welder.description>[PAWN_nameDef] is a specialist in welding steel structures.</UB_Cybranian_Adulthood_Welder.description>
+  <UB_Cybranian_Adulthood_Locksmith.title>Locksmith</UB_Cybranian_Adulthood_Locksmith.title>
+  <UB_Cybranian_Adulthood_Locksmith.description>[PAWN_nameDef] repairs complex mechanical and electrical equipment during breakdowns.</UB_Cybranian_Adulthood_Locksmith.description>
+  <UB_Cybranian_Adulthood_Woodworker.title>Woodworker</UB_Cybranian_Adulthood_Woodworker.title>
+  <UB_Cybranian_Adulthood_Woodworker.description>[PAWN_nameDef] makes objects from wood, sometimes amazing others with {PAWN_gender ? his : her} skill.</UB_Cybranian_Adulthood_Woodworker.description>
+  <UB_Cybranian_Adulthood_Thermist.title>Thermist</UB_Cybranian_Adulthood_Thermist.title>
+  <UB_Cybranian_Adulthood_Thermist.description>[PAWN_nameDef] is engaged in the development of cooling and space heating systems.</UB_Cybranian_Adulthood_Thermist.description>
+  <UB_Cybranian_Adulthood_Technician.title>Technician</UB_Cybranian_Adulthood_Technician.title>
+  <UB_Cybranian_Adulthood_Technician.description>[PAWN_nameDef] is the chief engineer of large-scale production.</UB_Cybranian_Adulthood_Technician.description>
+  <UB_Cybranian_Adulthood_Turner.title>Turner</UB_Cybranian_Adulthood_Turner.title>
+  <UB_Cybranian_Adulthood_Turner.description>[PAWN_nameDef] works at the machine and makes metal and wood parts for construction.</UB_Cybranian_Adulthood_Turner.description>
+  <UB_Cybranian_Adulthood_Machiner.title>Machiner</UB_Cybranian_Adulthood_Machiner.title>
+  <UB_Cybranian_Adulthood_Machiner.description>[PAWN_nameDef] creates gears and other parts for complex mechanisms on a machine tool.</UB_Cybranian_Adulthood_Machiner.description>
+  <UB_Cybranian_Adulthood_Electrician.title>Electrician</UB_Cybranian_Adulthood_Electrician.title>
+  <UB_Cybranian_Adulthood_Electrician.description>[PAWN_nameDef] fixes electrical grids in the weapons industry.</UB_Cybranian_Adulthood_Electrician.description>
+  <UB_Cybranian_Adulthood_Watchmaker.title>Watchmaker</UB_Cybranian_Adulthood_Watchmaker.title>
+  <UB_Cybranian_Adulthood_Watchmaker.description>[PAWN_nameDef] tunes mechanical watches and other small movements to order.</UB_Cybranian_Adulthood_Watchmaker.description>
+  <UB_Cybranian_Adulthood_Rocketman.title>Rocketman</UB_Cybranian_Adulthood_Rocketman.title>
+  <UB_Cybranian_Adulthood_Rocketman.description>[PAWN_nameDef] controls the artillery combat system that protects the heavenly space.</UB_Cybranian_Adulthood_Rocketman.description>
+  <UB_Cybranian_Adulthood_Rock_Performer.title>Rock performer</UB_Cybranian_Adulthood_Rock_Performer.title>
+  <UB_Cybranian_Adulthood_Rock_Performer.titleShort>Performer</UB_Cybranian_Adulthood_Rock_Performer.titleShort>
+  <UB_Cybranian_Adulthood_Rock_Performer.description>[PAWN_nameDef] performs music as part of a musical group.</UB_Cybranian_Adulthood_Rock_Performer.description>
+  <UB_Cybranian_Adulthood_Wandering_Musician.title>Wandering musician</UB_Cybranian_Adulthood_Wandering_Musician.title>
+  <UB_Cybranian_Adulthood_Wandering_Musician.titleShort>Musician</UB_Cybranian_Adulthood_Wandering_Musician.titleShort>
+  <UB_Cybranian_Adulthood_Wandering_Musician.description>After the tragic death of the band members, [PAWN_nameDef] is left all alone.</UB_Cybranian_Adulthood_Wandering_Musician.description>
+  <UB_Cybranian_Adulthood_Homeless.title>Homeless</UB_Cybranian_Adulthood_Homeless.title>
+  <UB_Cybranian_Adulthood_Homeless.description>[PAWN_nameDef] has been on the street for so long that it seems {PAWN_gender ? he : she} never had a home.</UB_Cybranian_Adulthood_Homeless.description>
+  <UB_Cybranian_Adulthood_Giant_Thought.title>Giant of thought</UB_Cybranian_Adulthood_Giant_Thought.title>
+  <UB_Cybranian_Adulthood_Giant_Thought.titleShort>Giant</UB_Cybranian_Adulthood_Giant_Thought.titleShort>
+  <UB_Cybranian_Adulthood_Giant_Thought.description>The thoughts of [PAWN_nameDef] are so ingenious that words cannot describe it.</UB_Cybranian_Adulthood_Giant_Thought.description>
+  <UB_Cybranian_Adulthood_Gamer.title>Gamer</UB_Cybranian_Adulthood_Gamer.title>
+  <UB_Cybranian_Adulthood_Gamer.description>[PAWN_nameDef] has been playing games for most of {PAWN_gender ? his : her} life, immersed in another world.</UB_Cybranian_Adulthood_Gamer.description>
+  <UB_Cybranian_Adulthood_Steamer.title>Steamer</UB_Cybranian_Adulthood_Steamer.title>
+  <UB_Cybranian_Adulthood_Steamer.description>[PAWN_nameDef] lives off donations from {PAWN_gender ? his : her} subscribers, not imagining himself without it.</UB_Cybranian_Adulthood_Steamer.description>
+  <UB_Cybranian_Adulthood_Lazy_Student.title>Lazy student</UB_Cybranian_Adulthood_Lazy_Student.title>
+  <UB_Cybranian_Adulthood_Lazy_Student.titleShort>Student</UB_Cybranian_Adulthood_Lazy_Student.titleShort>
+  <UB_Cybranian_Adulthood_Lazy_Student.description>[PAWN_nameDef] enters a prestigious university, but prefers to party.</UB_Cybranian_Adulthood_Lazy_Student.description>
+  <UB_Cybranian_Adulthood_Medical_Student.title>Medical student</UB_Cybranian_Adulthood_Medical_Student.title>
+  <UB_Cybranian_Adulthood_Medical_Student.titleShort>Student</UB_Cybranian_Adulthood_Medical_Student.titleShort>
+  <UB_Cybranian_Adulthood_Medical_Student.description>[PAWN_nameDef] studies anatomy and dreams of healing people.</UB_Cybranian_Adulthood_Medical_Student.description>
+  <UB_Cybranian_Adulthood_Student_Engineer.title>Student engineer</UB_Cybranian_Adulthood_Student_Engineer.title>
+  <UB_Cybranian_Adulthood_Student_Engineer.titleShort>Student</UB_Cybranian_Adulthood_Student_Engineer.titleShort>
+  <UB_Cybranian_Adulthood_Student_Engineer.description>[PAWN_nameDef] is studying the mechanics of war machines, hoping to build {PAWN_gender ? his : her} own artificial intelligence system.</UB_Cybranian_Adulthood_Student_Engineer.description>
+  <UB_Cybranian_Adulthood_Student_Teacher.title>Student teacher</UB_Cybranian_Adulthood_Student_Teacher.title>
+  <UB_Cybranian_Adulthood_Student_Teacher.titleShort>Student</UB_Cybranian_Adulthood_Student_Teacher.titleShort>
+  <UB_Cybranian_Adulthood_Student_Teacher.description>[PAWN_nameDef] loves working with children, so {PAWN_gender ? he : she} decides to enroll in teacher training college.</UB_Cybranian_Adulthood_Student_Teacher.description>
+  <UB_Cybranian_Adulthood_Student.title>Student</UB_Cybranian_Adulthood_Student.title>
+  <UB_Cybranian_Adulthood_Student.description>[PAWN_nameDef] studied at a higher academy, gaining extensive knowledge in the humanities.</UB_Cybranian_Adulthood_Student.description>
+  <UB_Cybranian_Adulthood_Science_Writer.title>Science writer</UB_Cybranian_Adulthood_Science_Writer.title>
+  <UB_Cybranian_Adulthood_Science_Writer.titleShort>Writer</UB_Cybranian_Adulthood_Science_Writer.titleShort>
+  <UB_Cybranian_Adulthood_Science_Writer.description>[PAWN_nameDef] is very fond of science fiction, deciding to write {PAWN_gender ? his : her} own story, which did not resonate with the publisher.</UB_Cybranian_Adulthood_Science_Writer.description>
+  <UB_Cybranian_Adulthood_Novelist.title>Novelist</UB_Cybranian_Adulthood_Novelist.title>
+  <UB_Cybranian_Adulthood_Novelist.description>[PAWN_nameDef] has extensive experience writing romance novels that regularly hit the top sellers.</UB_Cybranian_Adulthood_Novelist.description>
+  <UB_Cybranian_Adulthood_Despot.title>Despot</UB_Cybranian_Adulthood_Despot.title>
+  <UB_Cybranian_Adulthood_Despot.description>Once [PAWN_nameDef] managed to seize power in a faction through a conspiracy. {PAWN_gender ? He : She} very tightly holds on to power, using all methods for this.</UB_Cybranian_Adulthood_Despot.description>
+  <UB_Cybranian_Adulthood_Revolutionary.title>Revolutionary</UB_Cybranian_Adulthood_Revolutionary.title>
+  <UB_Cybranian_Adulthood_Revolutionary.description>Inspired by the ideas of the revolution, [PAWN_nameDef] participates in an illegal coup.</UB_Cybranian_Adulthood_Revolutionary.description>
+  <UB_Cybranian_Adulthood_Invader.title>Invader</UB_Cybranian_Adulthood_Invader.title>
+  <UB_Cybranian_Adulthood_Invader.description>[PAWN_nameDef] was part of the assault army, whose tasks included war in the city.</UB_Cybranian_Adulthood_Invader.description>
+  <UB_Cybranian_Adulthood_Occupant.title>Occupant</UB_Cybranian_Adulthood_Occupant.title>
+  <UB_Cybranian_Adulthood_Occupant.description>[PAWN_nameDef] was garrisoned in the captured city, clearing out saboteurs and resistance units.</UB_Cybranian_Adulthood_Occupant.description>
+  <UB_Cybranian_Adulthood_Revanchist.title>Revanchist</UB_Cybranian_Adulthood_Revanchist.title>
+  <UB_Cybranian_Adulthood_Revanchist.description>The [PAWN_nameDef] faction was crushed by the superior forces of the enemy, but [PAWN_nameDef] does not surrender and has been fighting a guerrilla war for many years.</UB_Cybranian_Adulthood_Revanchist.description>
+  <UB_Cybranian_Adulthood_Border_Guard.title>Border guard</UB_Cybranian_Adulthood_Border_Guard.title>
+  <UB_Cybranian_Adulthood_Border_Guard.titleShort>Guard</UB_Cybranian_Adulthood_Border_Guard.titleShort>
+  <UB_Cybranian_Adulthood_Border_Guard.description>[PAWN_nameDef] serves at the border outpost, guarding faction territory from saboteur groups.</UB_Cybranian_Adulthood_Border_Guard.description>
+  <UB_Cybranian_Adulthood_Outpost_Officer.title>Outpost officer</UB_Cybranian_Adulthood_Outpost_Officer.title>
+  <UB_Cybranian_Adulthood_Outpost_Officer.titleShort>Officer</UB_Cybranian_Adulthood_Outpost_Officer.titleShort>
+  <UB_Cybranian_Adulthood_Outpost_Officer.description>[PAWN_nameDef] serves at the border post as part of the officer corps, commanding security teams.</UB_Cybranian_Adulthood_Outpost_Officer.description>
+  <UB_Cybranian_Adulthood_Resistance_Leader.title>Resistance leader</UB_Cybranian_Adulthood_Resistance_Leader.title>
+  <UB_Cybranian_Adulthood_Resistance_Leader.titleShort>Leader</UB_Cybranian_Adulthood_Resistance_Leader.titleShort>
+  <UB_Cybranian_Adulthood_Resistance_Leader.description>[PAWN_nameDef] is the leader of a banned faction that is trying to overthrow the tyrant from the throne of {PAWN_gender ? his : her} faction.</UB_Cybranian_Adulthood_Resistance_Leader.description>
+  <UB_Cybranian_Adulthood_Cashier.title>Cashier</UB_Cybranian_Adulthood_Cashier.title>
+  <UB_Cybranian_Adulthood_Cashier.description>[PAWN_nameDef] serves customers in the grocery chain of the urbanized world.</UB_Cybranian_Adulthood_Cashier.description>
+  <UB_Cybranian_Adulthood_Secretary.title>Secretary</UB_Cybranian_Adulthood_Secretary.title>
+  <UB_Cybranian_Adulthood_Secretary.description>[PAWN_nameDef] is responsible for reviewing and filtering complaints and documents before sending them to management.</UB_Cybranian_Adulthood_Secretary.description>
+  <UB_Cybranian_Adulthood_Clergyman.title>Clergyman</UB_Cybranian_Adulthood_Clergyman.title>
+  <UB_Cybranian_Adulthood_Clergyman.description>[PAWN_nameDef] was the spiritual leader of {PAWN_gender ? his : her} village during the years of isolation.</UB_Cybranian_Adulthood_Clergyman.description>
+  <UB_Cybranian_Adulthood_Monk.title>Monk</UB_Cybranian_Adulthood_Monk.title>
+  <UB_Cybranian_Adulthood_Monk.description>[PAWN_nameDef] has lived {PAWN_gender ? his : her} life in an isolated fortress serving a religious cult.</UB_Cybranian_Adulthood_Monk.description>
+  <UB_Cybranian_Adulthood_Battle_Monk.title>Battle monk</UB_Cybranian_Adulthood_Battle_Monk.title>
+  <UB_Cybranian_Adulthood_Battle_Monk.titleShort>Monk</UB_Cybranian_Adulthood_Battle_Monk.titleShort>
+  <UB_Cybranian_Adulthood_Battle_Monk.description>[PAWN_nameDef] has lived all {PAWN_gender ? his : her} life in the fortress, having managed to take part in its defense.</UB_Cybranian_Adulthood_Battle_Monk.description>
+  <UB_Cybranian_Adulthood_Paratrooper.title>Paratrooper</UB_Cybranian_Adulthood_Paratrooper.title>
+  <UB_Cybranian_Adulthood_Paratrooper.description>[PAWN_nameDef] was in the amphibious assault group for landing from orbit.</UB_Cybranian_Adulthood_Paratrooper.description>
+  <UB_Cybranian_Adulthood_Historian.title>Historian</UB_Cybranian_Adulthood_Historian.title>
+  <UB_Cybranian_Adulthood_Historian.description>[PAWN_nameDef] explores the rich history of the human race and its intricate experiences.</UB_Cybranian_Adulthood_Historian.description>
+  <UB_Cybranian_Adulthood_Fortress_Commandant.title>Fortress commandant</UB_Cybranian_Adulthood_Fortress_Commandant.title>
+  <UB_Cybranian_Adulthood_Fortress_Commandant.titleShort>Commandant</UB_Cybranian_Adulthood_Fortress_Commandant.titleShort>
+  <UB_Cybranian_Adulthood_Fortress_Commandant.description>[PAWN_nameDef] oversees the defense of the fortress and instructs the militia.</UB_Cybranian_Adulthood_Fortress_Commandant.description>
+  <UB_Cybranian_Adulthood_Serf.title>Serf</UB_Cybranian_Adulthood_Serf.title>
+  <UB_Cybranian_Adulthood_Serf.description>[PAWN_nameDef] работает на своего хозяина, является лично обязанным.</UB_Cybranian_Adulthood_Serf.description>
+  <UB_Cybranian_Adulthood_Boyarin.title>Boyarin</UB_Cybranian_Adulthood_Boyarin.title>
+  <UB_Cybranian_Adulthood_Boyarin.description>[PAWN_nameDef] is of noble origin, using its privileges.</UB_Cybranian_Adulthood_Boyarin.description>
+  <UB_Cybranian_Adulthood_Remote_Identity.title>Remote identity</UB_Cybranian_Adulthood_Remote_Identity.title>
+  <UB_Cybranian_Adulthood_Remote_Identity.titleShort>Remote</UB_Cybranian_Adulthood_Remote_Identity.titleShort>
+  <UB_Cybranian_Adulthood_Remote_Identity.description>[PAWN_nameDef] doesn't remember anything about {PAWN_gender ? his : her} past. In fact, only a shell remained of him.</UB_Cybranian_Adulthood_Remote_Identity.description>
+  <UB_Cybranian_Adulthood_Exiled_Leader.title>Exiled leader</UB_Cybranian_Adulthood_Exiled_Leader.title>
+  <UB_Cybranian_Adulthood_Exiled_Leader.titleShort>Exiled</UB_Cybranian_Adulthood_Exiled_Leader.titleShort>
+  <UB_Cybranian_Adulthood_Exiled_Leader.description>[PAWN_nameDef] The head of an exiled government with no real political power.</UB_Cybranian_Adulthood_Exiled_Leader.description>
+  <UB_Cybranian_Adulthood_Exiled_Soldier.title>Exiled soldier</UB_Cybranian_Adulthood_Exiled_Soldier.title>
+  <UB_Cybranian_Adulthood_Exiled_Soldier.titleShort>Exiled</UB_Cybranian_Adulthood_Exiled_Soldier.titleShort>
+  <UB_Cybranian_Adulthood_Exiled_Soldier.description>[PAWN_nameDef] A member of the exiled volunteer army hoping to restore legitimate authority.</UB_Cybranian_Adulthood_Exiled_Soldier.description>
+  <UB_Cybranian_Adulthood_Bomber.title>Bomber</UB_Cybranian_Adulthood_Bomber.title>
+  <UB_Cybranian_Adulthood_Bomber.description>[PAWN_nameDef] is a dangerous criminal and a failed suicide bomber. During the terrorist attack, {PAWN_gender ? his : her} explosive device did not work.</UB_Cybranian_Adulthood_Bomber.description>
+  <UB_Cybranian_Adulthood_Deserter.title>Deserter</UB_Cybranian_Adulthood_Deserter.title>
+  <UB_Cybranian_Adulthood_Deserter.description>[PAWN_nameDef] surrenders to a hostile military group and gives them strategic intelligence.</UB_Cybranian_Adulthood_Deserter.description>
+  <UB_Cybranian_Adulthood_Shadow_Agent.title>Shadow agent</UB_Cybranian_Adulthood_Shadow_Agent.title>
+  <UB_Cybranian_Adulthood_Shadow_Agent.titleShort>Agent</UB_Cybranian_Adulthood_Shadow_Agent.titleShort>
+  <UB_Cybranian_Adulthood_Shadow_Agent.description>[PAWN_nameDef] An undercover rebel agent who collects information and transmits it to the underground.</UB_Cybranian_Adulthood_Shadow_Agent.description>
+  <UB_Cybranian_Adulthood_Secret_Gendarme.title>Secret gendarme</UB_Cybranian_Adulthood_Secret_Gendarme.title>
+  <UB_Cybranian_Adulthood_Secret_Gendarme.titleShort>Gendarme</UB_Cybranian_Adulthood_Secret_Gendarme.titleShort>
+  <UB_Cybranian_Adulthood_Secret_Gendarme.description>[PAWN_nameDef] a seemingly unremarkable citizen who, however, is engaged in the search and neutralization of saboteurs.</UB_Cybranian_Adulthood_Secret_Gendarme.description>
+  <UB_Cybranian_Adulthood_Spaceship_Engineer.title>Spaceship engineer</UB_Cybranian_Adulthood_Spaceship_Engineer.title>
+  <UB_Cybranian_Adulthood_Spaceship_Engineer.titleShort>Engineer</UB_Cybranian_Adulthood_Spaceship_Engineer.titleShort>
+  <UB_Cybranian_Adulthood_Spaceship_Engineer.description>[PAWN_nameDef] Builds and designs spaceships for multiple crew members.</UB_Cybranian_Adulthood_Spaceship_Engineer.description>
+  <UB_Cybranian_Adulthood_Bloody_Executioner.title>Bloody executioner</UB_Cybranian_Adulthood_Bloody_Executioner.title>
+  <UB_Cybranian_Adulthood_Bloody_Executioner.titleShort>Executioner</UB_Cybranian_Adulthood_Bloody_Executioner.titleShort>
+  <UB_Cybranian_Adulthood_Bloody_Executioner.description>[PAWN_nameDef] is an executioner in a medieval world that has lost its last moral foundations.</UB_Cybranian_Adulthood_Bloody_Executioner.description>
+  <UB_Cybranian_Adulthood_Peacemaker.title>Peacemaker</UB_Cybranian_Adulthood_Peacemaker.title>
+  <UB_Cybranian_Adulthood_Peacemaker.description>[PAWN_nameDef] Soldier in the Interfactional Army Peacekeeping Corps. The balance between them collapses, and their army remains on its own.</UB_Cybranian_Adulthood_Peacemaker.description>
+  <UB_Cybranian_Adulthood_Coordinator.title>Coordinator</UB_Cybranian_Adulthood_Coordinator.title>
+  <UB_Cybranian_Adulthood_Coordinator.description>[PAWN_nameDef] coordinates resistance and intimidation.</UB_Cybranian_Adulthood_Coordinator.description>
+  <UB_Cybranian_Adulthood_Agitator.title>Agitator</UB_Cybranian_Adulthood_Agitator.title>
+  <UB_Cybranian_Adulthood_Agitator.description>[PAWN_nameDef] secretly distributes leaflets and slogans of {PAWN_gender ? his : her} political group to overthrow the regime.</UB_Cybranian_Adulthood_Agitator.description>
+  <UB_Cybranian_Adulthood_Theorist.title>Theorist</UB_Cybranian_Adulthood_Theorist.title>
+  <UB_Cybranian_Adulthood_Theorist.description>[PAWN_nameDef] explores quantum physics and builds models of the universe.</UB_Cybranian_Adulthood_Theorist.description>
+  <UB_Cybranian_Adulthood_Marauder.title>Marauder</UB_Cybranian_Adulthood_Marauder.title>
+  <UB_Cybranian_Adulthood_Marauder.description>He trades in robbery and robbery. One day [PAWN_nameDef] is caught by a counterintelligence agent.</UB_Cybranian_Adulthood_Marauder.description>
+  <UB_Cybranian_Adulthood_Fanatic.title>Fanatic</UB_Cybranian_Adulthood_Fanatic.title>
+  <UB_Cybranian_Adulthood_Fanatic.description>[PAWN_nameDef] is fanatically loyal to {PAWN_gender ? his : her} spiritual leader through acts of retaliation and intimidation.</UB_Cybranian_Adulthood_Fanatic.description>
+  <UB_Cybranian_Adulthood_Nuclear_Scientist.title>Nuclear scientist</UB_Cybranian_Adulthood_Nuclear_Scientist.title>
+  <UB_Cybranian_Adulthood_Nuclear_Scientist.titleShort>Scientist</UB_Cybranian_Adulthood_Nuclear_Scientist.titleShort>
+  <UB_Cybranian_Adulthood_Nuclear_Scientist.description>[PAWN_nameDef] researches radioactive decay of atoms and designs nuclear power plants.</UB_Cybranian_Adulthood_Nuclear_Scientist.description>
+  <UB_Cybranian_Adulthood_Victim.title>Victim</UB_Cybranian_Adulthood_Victim.title>
+  <UB_Cybranian_Adulthood_Victim.description>In {PAWN_gender ? his : her} youth, [PAWN_nameDef] becomes the victim of a terrorist attack, which forever changed {PAWN_gender ? his : her} psyche.</UB_Cybranian_Adulthood_Victim.description>
+  <UB_Cybranian_Adulthood_Political_Prisoner.title>Political prisoner</UB_Cybranian_Adulthood_Political_Prisoner.title>
+  <UB_Cybranian_Adulthood_Political_Prisoner.titleShort>Prisoner</UB_Cybranian_Adulthood_Political_Prisoner.titleShort>
+  <UB_Cybranian_Adulthood_Political_Prisoner.description>[PAWN_nameDef] was held in harsh camps for political prisoners for a long time, having developed immunity to moral turmoil and acquired survival skills.</UB_Cybranian_Adulthood_Political_Prisoner.description>
+  <UB_Cybranian_Adulthood_Navigator.title>Navigator</UB_Cybranian_Adulthood_Navigator.title>
+  <UB_Cybranian_Adulthood_Navigator.description>[PAWN_nameDef] - the captain of a spaceship whose mission was to explore the nearest space.</UB_Cybranian_Adulthood_Navigator.description>
+  <UB_Cybranian_Adulthood_Minister.title>Minister</UB_Cybranian_Adulthood_Minister.title>
+  <UB_Cybranian_Adulthood_Minister.description>[PAWN_nameDef] has held a high political office, successfully doing {PAWN_gender ? his : her} job.</UB_Cybranian_Adulthood_Minister.description>
+  <UB_Cybranian_Adulthood_Stormtrooper.title>Stormtrooper</UB_Cybranian_Adulthood_Stormtrooper.title>
+  <UB_Cybranian_Adulthood_Stormtrooper.description>[PAWN_nameDef] A member of the Assault Team of the Battle Force. Long years in the ranks have left their mark on the psyche.</UB_Cybranian_Adulthood_Stormtrooper.description>
+  <UB_Cybranian_Adulthood_Test_Pilot.title>Test pilot</UB_Cybranian_Adulthood_Test_Pilot.title>
+  <UB_Cybranian_Adulthood_Test_Pilot.titleShort>Pilot</UB_Cybranian_Adulthood_Test_Pilot.titleShort>
+  <UB_Cybranian_Adulthood_Test_Pilot.description>[PAWN_nameDef] tested new flight and aeronautical facilities until one day it crashed on unknown land.</UB_Cybranian_Adulthood_Test_Pilot.description>
+  <UB_Cybranian_Adulthood_Kamikaze.title>Kamikaze</UB_Cybranian_Adulthood_Kamikaze.title>
+  <UB_Cybranian_Adulthood_Kamikaze.description>[PAWN_nameDef] desperate suicide pilot who was tasked with eliminating the enemy by air ramming. In fulfilling {PAWN_gender ? his : her} duty, {PAWN_gender ? he : she} miraculously remains alive.</UB_Cybranian_Adulthood_Kamikaze.description>
+  <UB_Cybranian_Adulthood_Plate_Warrior.title>Plate warrior</UB_Cybranian_Adulthood_Plate_Warrior.title>
+  <UB_Cybranian_Adulthood_Plate_Warrior.titleShort>Warrior</UB_Cybranian_Adulthood_Plate_Warrior.titleShort>
+  <UB_Cybranian_Adulthood_Plate_Warrior.description>[PAWN_nameDef] a soldier of the medieval army, dressed in sturdy full-body armor.</UB_Cybranian_Adulthood_Plate_Warrior.description>
+  <UB_Cybranian_Adulthood_Rebel_Leader.title>Rebel leader</UB_Cybranian_Adulthood_Rebel_Leader.title>
+  <UB_Cybranian_Adulthood_Rebel_Leader.titleShort>Rebel</UB_Cybranian_Adulthood_Rebel_Leader.titleShort>
+  <UB_Cybranian_Adulthood_Rebel_Leader.description>[PAWN_nameDef] The leader of an anarchist group that aims to eliminate the rightful leader of the faction.</UB_Cybranian_Adulthood_Rebel_Leader.description>
+  <UB_Cybranian_Adulthood_Chairman.title>Chairman</UB_Cybranian_Adulthood_Chairman.title>
+  <UB_Cybranian_Adulthood_Chairman.description>[PAWN_nameDef] is in charge of a projectile industrial facility. Years in the profession led to the fact that {PAWN_gender ? he : she} studies the basics of military affairs.</UB_Cybranian_Adulthood_Chairman.description>
+  <UB_Cybranian_Adulthood_Serial_Killer.title>Serial killer</UB_Cybranian_Adulthood_Serial_Killer.title>
+  <UB_Cybranian_Adulthood_Serial_Killer.titleShort>Killer</UB_Cybranian_Adulthood_Serial_Killer.titleShort>
+  <UB_Cybranian_Adulthood_Serial_Killer.description>[PAWN_nameDef] A ruthless psychopath who murdered {PAWN_gender ? his : her} family in cold blood.</UB_Cybranian_Adulthood_Serial_Killer.description>
+  <UB_Cybranian_Adulthood_Maniac.title>Maniac</UB_Cybranian_Adulthood_Maniac.title>
+  <UB_Cybranian_Adulthood_Maniac.description>[PAWN_nameDef] is a serial killer with an unpredictable disposition and thoughts.</UB_Cybranian_Adulthood_Maniac.description>
+  <UB_Cybranian_Adulthood_Destroyer_Planets.title>Destroyer of planets</UB_Cybranian_Adulthood_Destroyer_Planets.title>
+  <UB_Cybranian_Adulthood_Destroyer_Planets.titleShort>Destroyer</UB_Cybranian_Adulthood_Destroyer_Planets.titleShort>
+  <UB_Cybranian_Adulthood_Destroyer_Planets.description>[PAWN_nameDef] becomes a spaceship pilot carrying dangerous weapons capable of destroying an entire planet. Once {PAWN_gender ? he : she} applies it on the orders of the commander.</UB_Cybranian_Adulthood_Destroyer_Planets.description>
+  <UB_Cybranian_Adulthood_Editor.title>Editor</UB_Cybranian_Adulthood_Editor.title>
+  <UB_Cybranian_Adulthood_Editor.description>[PAWN_nameDef] edits and censors scientific journal articles.</UB_Cybranian_Adulthood_Editor.description>
+  <UB_Cybranian_Adulthood_Dancer.title>Dancer</UB_Cybranian_Adulthood_Dancer.title>
+  <UB_Cybranian_Adulthood_Dancer.description>[PAWN_nameDef] has dedicated {PAWN_gender ? his : her} life to dance and theater.</UB_Cybranian_Adulthood_Dancer.description>
+  <UB_Cybranian_Adulthood_Dance_Teacher.title>Dance teacher</UB_Cybranian_Adulthood_Dance_Teacher.title>
+  <UB_Cybranian_Adulthood_Dance_Teacher.titleShort>Teacher</UB_Cybranian_Adulthood_Dance_Teacher.titleShort>
+  <UB_Cybranian_Adulthood_Dance_Teacher.description>FFF</UB_Cybranian_Adulthood_Dance_Teacher.description>
+  <UB_Cybranian_Adulthood_Notary.title>Notary</UB_Cybranian_Adulthood_Notary.title>
+  <UB_Cybranian_Adulthood_Notary.description>[PAWN_nameDef] authenticated documents in a small office in an urbanized world.</UB_Cybranian_Adulthood_Notary.description>
+  <UB_Cybranian_Adulthood_Publisher.title>Publisher</UB_Cybranian_Adulthood_Publisher.title>
+  <UB_Cybranian_Adulthood_Publisher.description>[PAWN_nameDef] publishes magazines and newspapers with a small print shop.</UB_Cybranian_Adulthood_Publisher.description>
+  <UB_Cybranian_Adulthood_School_Doctor.title>School doctor</UB_Cybranian_Adulthood_School_Doctor.title>
+  <UB_Cybranian_Adulthood_School_Doctor.titleShort>Doctor</UB_Cybranian_Adulthood_School_Doctor.titleShort>
+  <UB_Cybranian_Adulthood_School_Doctor.description>[PAWN_nameDef] works in a school in the industrialized world, however, {PAWN_gender ? he : she} is usually difficult to find in {PAWN_gender ? his : her} workplace.</UB_Cybranian_Adulthood_School_Doctor.description>
+  <UB_Cybranian_Adulthood_Captive_Soldier.title>Captive soldier</UB_Cybranian_Adulthood_Captive_Soldier.title>
+  <UB_Cybranian_Adulthood_Captive_Soldier.titleShort>Soldier</UB_Cybranian_Adulthood_Captive_Soldier.titleShort>
+  <UB_Cybranian_Adulthood_Captive_Soldier.description>[PAWN_nameDef] was captured early in the war after being in a POW camp for several years.</UB_Cybranian_Adulthood_Captive_Soldier.description>
+  <UB_Cybranian_Adulthood_Captive_Doctor.title>Captive doctor</UB_Cybranian_Adulthood_Captive_Doctor.title>
+  <UB_Cybranian_Adulthood_Captive_Doctor.titleShort>Doctor</UB_Cybranian_Adulthood_Captive_Doctor.titleShort>
+  <UB_Cybranian_Adulthood_Captive_Doctor.description>[PAWN_nameDef] was captured early in the war after being in a POW camp for several years working as a POW medic.</UB_Cybranian_Adulthood_Captive_Doctor.description>
+  <UB_Cybranian_Adulthood_Volunteer.title>Volunteer</UB_Cybranian_Adulthood_Volunteer.title>
+  <UB_Cybranian_Adulthood_Volunteer.description>[PAWN_nameDef] went to the front as a volunteer motivated by moral imperative.</UB_Cybranian_Adulthood_Volunteer.description>
+  <UB_Cybranian_Adulthood_Combat_Chef.title>Combat chef</UB_Cybranian_Adulthood_Combat_Chef.title>
+  <UB_Cybranian_Adulthood_Combat_Chef.titleShort>Chef</UB_Cybranian_Adulthood_Combat_Chef.titleShort>
+  <UB_Cybranian_Adulthood_Combat_Chef.description>[PAWN_nameDef] prepares food for the mobile army at the front.</UB_Cybranian_Adulthood_Combat_Chef.description>
+  <UB_Cybranian_Adulthood_Combat_Doctor.title>Combat doctor</UB_Cybranian_Adulthood_Combat_Doctor.title>
+  <UB_Cybranian_Adulthood_Combat_Doctor.titleShort>Doctor</UB_Cybranian_Adulthood_Combat_Doctor.titleShort>
+  <UB_Cybranian_Adulthood_Combat_Doctor.description>[PAWN_nameDef] provides first aid to soldiers on the battlefield.</UB_Cybranian_Adulthood_Combat_Doctor.description>
+  <UB_Cybranian_Adulthood_Zoologist.title>Zoologist</UB_Cybranian_Adulthood_Zoologist.title>
+  <UB_Cybranian_Adulthood_Zoologist.description>[PAWN_nameDef] studies animal behavior and physiology.</UB_Cybranian_Adulthood_Zoologist.description>
+  <UB_Cybranian_Adulthood_Guitar_Player.title>Guitar player</UB_Cybranian_Adulthood_Guitar_Player.title>
+  <UB_Cybranian_Adulthood_Guitar_Player.titleShort>Player</UB_Cybranian_Adulthood_Guitar_Player.titleShort>
+  <UB_Cybranian_Adulthood_Guitar_Player.description>[PAWN_nameDef] plays guitar with a traveling music group.</UB_Cybranian_Adulthood_Guitar_Player.description>
+  <UB_Cybranian_Adulthood_Field_Sapper.title>Field sapper</UB_Cybranian_Adulthood_Field_Sapper.title>
+  <UB_Cybranian_Adulthood_Field_Sapper.titleShort>Sapper</UB_Cybranian_Adulthood_Field_Sapper.titleShort>
+  <UB_Cybranian_Adulthood_Field_Sapper.description>[PAWN_nameDef] Expert in building crossings and bridges for a marching army.</UB_Cybranian_Adulthood_Field_Sapper.description>
+  <UB_Cybranian_Adulthood_Minesweeper_Engineer.title>Minesweeper engineer</UB_Cybranian_Adulthood_Minesweeper_Engineer.title>
+  <UB_Cybranian_Adulthood_Minesweeper_Engineer.titleShort>Minesweeper</UB_Cybranian_Adulthood_Minesweeper_Engineer.titleShort>
+  <UB_Cybranian_Adulthood_Minesweeper_Engineer.description>[PAWN_nameDef] disables mines and minefields for the army to pass.</UB_Cybranian_Adulthood_Minesweeper_Engineer.description>
+  <UB_Cybranian_Adulthood_Art_Critic.title>Art critic</UB_Cybranian_Adulthood_Art_Critic.title>
+  <UB_Cybranian_Adulthood_Art_Critic.titleShort>Critic</UB_Cybranian_Adulthood_Art_Critic.titleShort>
+  <UB_Cybranian_Adulthood_Art_Critic.description>[PAWN_nameDef] is well versed in art, criticizing and researching.</UB_Cybranian_Adulthood_Art_Critic.description>
+  <UB_Cybranian_Adulthood_Undergrounder.title>Undergrounder</UB_Cybranian_Adulthood_Undergrounder.title>
+  <UB_Cybranian_Adulthood_Undergrounder.description>[PAWN_nameDef] terrorist group agent underground.</UB_Cybranian_Adulthood_Undergrounder.description>
+  <UB_Cybranian_Adulthood_Underground_Leader.title>Underground leader</UB_Cybranian_Adulthood_Underground_Leader.title>
+  <UB_Cybranian_Adulthood_Underground_Leader.titleShort>Leader</UB_Cybranian_Adulthood_Underground_Leader.titleShort>
+  <UB_Cybranian_Adulthood_Underground_Leader.description>[PAWN_nameDef] leader of an underground terrorist organization.</UB_Cybranian_Adulthood_Underground_Leader.description>
+  <UB_Cybranian_Adulthood_Scientist_Traitor.title>Scientist traitor</UB_Cybranian_Adulthood_Scientist_Traitor.title>
+  <UB_Cybranian_Adulthood_Scientist_Traitor.titleShort>Scientist</UB_Cybranian_Adulthood_Scientist_Traitor.titleShort>
+  <UB_Cybranian_Adulthood_Scientist_Traitor.description>[PAWN_nameDef] fled to the enemy, taking with {PAWN_gender ? him : her} the secret development blueprints.</UB_Cybranian_Adulthood_Scientist_Traitor.description>
+  <UB_Cybranian_Adulthood_Debtor.title>Debtor</UB_Cybranian_Adulthood_Debtor.title>
+  <UB_Cybranian_Adulthood_Debtor.description>[PAWN_nameDef] has been working for a creditor most of {PAWN_gender ? his : her} life, repaying an exorbitant debt.</UB_Cybranian_Adulthood_Debtor.description>
+  <UB_Cybranian_Adulthood_Exorcist.title>Exorcist</UB_Cybranian_Adulthood_Exorcist.title>
+  <UB_Cybranian_Adulthood_Exorcist.description>[PAWN_nameDef] performs rituals of cleansing and banishing evil spirits in the medieval world.</UB_Cybranian_Adulthood_Exorcist.description>
+  <UB_Cybranian_Adulthood_Professor.title>Professor</UB_Cybranian_Adulthood_Professor.title>
+  <UB_Cybranian_Adulthood_Professor.description>[PAWN_nameDef] has a broad knowledge of technical sciences while teaching at the university.</UB_Cybranian_Adulthood_Professor.description>
+  <UB_Cybranian_Adulthood_University_Rector.title>University rector</UB_Cybranian_Adulthood_University_Rector.title>
+  <UB_Cybranian_Adulthood_University_Rector.titleShort>Rector</UB_Cybranian_Adulthood_University_Rector.titleShort>
+  <UB_Cybranian_Adulthood_University_Rector.description>[PAWN_nameDef] manages the university's operations, finances and curriculum.</UB_Cybranian_Adulthood_University_Rector.description>
+  <UB_Cybranian_Adulthood_Impostor.title>Impostor</UB_Cybranian_Adulthood_Impostor.title>
+  <UB_Cybranian_Adulthood_Impostor.description>[PAWN_nameDef] described himself as a miraculously escaped monarch in an attempt to seize power.</UB_Cybranian_Adulthood_Impostor.description>
+  <UB_Cybranian_Adulthood_Ship_Pilot.title>Ship pilot</UB_Cybranian_Adulthood_Ship_Pilot.title>
+  <UB_Cybranian_Adulthood_Ship_Pilot.titleShort>Pilot</UB_Cybranian_Adulthood_Ship_Pilot.titleShort>
+  <UB_Cybranian_Adulthood_Ship_Pilot.description>[PAWN_nameDef] knows how to fly small spaceships.</UB_Cybranian_Adulthood_Ship_Pilot.description>
+  <UB_Cybranian_Adulthood_Charlatan.title>Charlatan</UB_Cybranian_Adulthood_Charlatan.title>
+  <UB_Cybranian_Adulthood_Charlatan.description>[PAWN_nameDef] cheats money from people using dirty methods.</UB_Cybranian_Adulthood_Charlatan.description>
+  <UB_Cybranian_Adulthood_Jester.title>Jester</UB_Cybranian_Adulthood_Jester.title>
+  <UB_Cybranian_Adulthood_Jester.description>[PAWN_nameDef] a clown in the medieval world, living at the court of the monarch.</UB_Cybranian_Adulthood_Jester.description>
+  <UB_Cybranian_Adulthood_Heretic.title>Heretic</UB_Cybranian_Adulthood_Heretic.title>
+  <UB_Cybranian_Adulthood_Heretic.description>[PAWN_nameDef] renounced the official religious faith, condemning himself to persecution.</UB_Cybranian_Adulthood_Heretic.description>
+  <UB_Cybranian_Adulthood_Preacher.title>Preacher</UB_Cybranian_Adulthood_Preacher.title>
+  <UB_Cybranian_Adulthood_Preacher.description>[PAWN_nameDef] distributed forbidden religious literature under persecution.</UB_Cybranian_Adulthood_Preacher.description>
+  <UB_Cybranian_Adulthood_Influence_Agent.title>Influence agent</UB_Cybranian_Adulthood_Influence_Agent.title>
+  <UB_Cybranian_Adulthood_Influence_Agent.titleShort>Agent</UB_Cybranian_Adulthood_Influence_Agent.titleShort>
+  <UB_Cybranian_Adulthood_Influence_Agent.description>[PAWN_nameDef] was a privy councilor, effectively controlling the puppet king with the knowledge of {PAWN_gender ? his : her} faction.</UB_Cybranian_Adulthood_Influence_Agent.description>
+  <UB_Cybranian_Adulthood_Pimp.title>Pimp</UB_Cybranian_Adulthood_Pimp.title>
+  <UB_Cybranian_Adulthood_Pimp.description>[PAWN_nameDef] has several slaves selling their sexual favors.</UB_Cybranian_Adulthood_Pimp.description>
+  <UB_Cybranian_Adulthood_Jailer.title>Jailer</UB_Cybranian_Adulthood_Jailer.title>
+  <UB_Cybranian_Adulthood_Jailer.description>[PAWN_nameDef] works in the underground prison complex, keeping an eye on prisoners.</UB_Cybranian_Adulthood_Jailer.description>
+  <UB_Cybranian_Adulthood_Plumber.title>Plumber</UB_Cybranian_Adulthood_Plumber.title>
+  <UB_Cybranian_Adulthood_Plumber.description>[PAWN_nameDef] repairs water supply and sanitation systems.</UB_Cybranian_Adulthood_Plumber.description>
+  <UB_Cybranian_Adulthood_Military_Academician.title>Military academician</UB_Cybranian_Adulthood_Military_Academician.title>
+  <UB_Cybranian_Adulthood_Military_Academician.titleShort>Academician</UB_Cybranian_Adulthood_Military_Academician.titleShort>
+  <UB_Cybranian_Adulthood_Military_Academician.description>[PAWN_nameDef] designs military blueprints for the military academy researchers.</UB_Cybranian_Adulthood_Military_Academician.description>
+  <UB_Cybranian_Adulthood_Primitiver.title>Primitiver</UB_Cybranian_Adulthood_Primitiver.title>
+  <UB_Cybranian_Adulthood_Primitiver.description>FFF</UB_Cybranian_Adulthood_Primitiver.description>
+  <UB_Cybranian_Adulthood_Chastener.title>Chastener</UB_Cybranian_Adulthood_Chastener.title>
+  <UB_Cybranian_Adulthood_Chastener.description>[PAWN_nameDef] is engaged in the most brutal cleansing of the occupied cities from the rebels.</UB_Cybranian_Adulthood_Chastener.description>
+  <UB_Cybranian_Adulthood_Military_Chemist.title>Military chemist</UB_Cybranian_Adulthood_Military_Chemist.title>
+  <UB_Cybranian_Adulthood_Military_Chemist.titleShort>Chemist</UB_Cybranian_Adulthood_Military_Chemist.titleShort>
+  <UB_Cybranian_Adulthood_Military_Chemist.description>[PAWN_nameDef] creates chemical weapons for global warfare.</UB_Cybranian_Adulthood_Military_Chemist.description>
+  <UB_Cybranian_Adulthood_Loner_Pirate.title>Loner pirate</UB_Cybranian_Adulthood_Loner_Pirate.title>
+  <UB_Cybranian_Adulthood_Loner_Pirate.titleShort>Pirate</UB_Cybranian_Adulthood_Loner_Pirate.titleShort>
+  <UB_Cybranian_Adulthood_Loner_Pirate.description>[PAWN_nameDef] robs small caravans passing by while staying in the shadows.</UB_Cybranian_Adulthood_Loner_Pirate.description>
+  <UB_Cybranian_Adulthood_Pawn.title>Pawn</UB_Cybranian_Adulthood_Pawn.title>
+  <UB_Cybranian_Adulthood_Pawn.description>[PAWN_nameDef] is a simple performer, a pawn in the hands of a skilled manipulator.</UB_Cybranian_Adulthood_Pawn.description>
+  <UB_Cybranian_Adulthood_Manipulator.title>Manipulator</UB_Cybranian_Adulthood_Manipulator.title>
+  <UB_Cybranian_Adulthood_Manipulator.description>[PAWN_nameDef] An unprincipled person who sets {PAWN_gender ? his : her} own goals at the head.</UB_Cybranian_Adulthood_Manipulator.description>
+</LanguageData>

@@ -1,0 +1,115 @@
+=======================================================================
+CREDITS — Backstories Anthology
+=======================================================================
+
+This mod is a unified merge of multiple community-created backstories
+mods for RimWorld. All original work remains the property of their
+respective authors. This merge is provided as a free, non-commercial
+compilation to enhance the RimWorld experience.
+
+-----------------------------------------------------------------------
+SOURCE MODS AND AUTHORS
+-----------------------------------------------------------------------
+
+1. Cybranian - Backstories+
+   Author: DimonSever000
+   PackageId: DimonSever000.BackstoriesPlus.Specific
+   401 backstories | Tribal/Industrial/Spacer | Childhood & Adulthood
+   
+2. Vanilla Backstories Expanded
+   Authors: Oskar Potocki, Legodude17
+   PackageId: VanillaExpanded.VanillaBackstoriesExpanded
+   174 backstories | All categories | Part of Vanilla Expanded
+   NOTE: Included with permission — do not redistribute separately
+   
+3. Before the Crash: Backstories
+   Author: Ostrich-Hungry
+   PackageId: BTC.backstories
+   206 backstories | Multi-category | Narrative-rich
+   
+4. Seal's Backstory Collection
+   Author: SneezingSeal
+   PackageId: sneezingseal.sealsbackstorycollection
+   137 backstories (cumulative v1.0 through v1.3) + 4 PlaceDefs
+   License: CC BY-NC-SA 4.0
+   NOTE: All four versions (v1.0-v1.3) are merged with disjoint defNames.
+   
+5. Medieval Backstories
+   Author: Shenanigans
+   PackageId: Shenanigans.MedievalBackstories
+   107 backstories | Medieval-only | Childhood & Adulthood
+   NOTE: Originally used AlienRace.AlienBackstoryDef — converted to
+   standard BackstoryDef for vanilla compatibility.
+
+6. More Backstories
+   Author: Ravinglegend
+   PackageId: More.Backstories
+   58 backstories | All categories | Childhood & Adulthood
+
+7. Kurzaen's Serious and Silly Backstories (SNS)
+   Author: Kurzaen
+   PackageId: kurzaen.snsbackstories
+   56 backstories | Serious & silly themes
+
+8. Tribal Backstories
+   Author: Shenanigans
+   PackageId: Shenanigans.TribalBackstories1.4
+   55 backstories | Tribal-only | Shuffleable & non-shuffleable
+
+9. Vanilla Backstories Expanded (VBE)
+   Authors: Oskar Potocki, Legodude17
+   PackageId: VanillaExpanded.VanillaBackstoriesExpanded
+   174 backstories | All categories | ~~ Vanilla Expanded series
+   NOTE: Source includes only community backstories (no duplicated vanilla ones).
+
+10. Cybranian - Elderhood Backstory
+    Author: DimonSever000
+    PackageId: DimonSever000.ElderhoodBackstory
+    42 backstories | Elderhood-specific | Code mod (Harmony DLL included)
+
+11. Apocalyptic Backstories
+    Author: Lovely
+    PackageId: Lovely.Apocalypse.stories
+    25 backstories | Wasteland-themed | Adulthood only
+
+12. Saito's Backstories (Continued)
+    Author: Zaljerem (original by Saito Yui)
+    PackageId: zal.saitobackstories
+    12 backstories (curated selection — duplicates removed)
+    License: MIT + CC-BY-SA 4.0
+
+13. Reasonable Moods & Capable Backstories (Integrated System)
+    Author: Legator
+    PackageId: Legator.ReasonableMoodsCapableBackstories
+    No new backstories — 8 backstory balancing patches applied directly.
+    DLL, InteractionDefs, ThoughtDefs, and mood system included.
+    License: MIT
+
+-----------------------------------------------------------------------
+NOTES
+-----------------------------------------------------------------------
+
+- All backstory defNames have been prefixed with 'UB_' to ensure
+  uniqueness and prevent conflicts between any other mods.
+- The Elderhood backstory system (DLL + Patches) has been integrated
+  directly into this mod's assemblies underneath the 1.5/ and 1.6/ folders.
+- PlaceDefs from Seal's Collection are included under Defs/PlaceDefs/ and
+  are used by RimWorld's procedural backstory generation system.
+- Seal's Collection: All four versions (v1.0-v1.3) are included with
+  disjoint defNames — no conflicts between versions. Total: 137 backstories.
+- Medieval Backstories was converted from AlienRace.AlienBackstoryDef to
+  standard BackstoryDef for maximum compatibility (no Alien Races required).
+- Reasonable Moods & Capable Backstories patches have been applied directly
+  to backstory definitions: workDisables removed where nonsensical, skill
+  penalties added instead. The DLL provides mood balancing features.
+- ALL PATCHES USE UB_ PREFIXES — no conflicts with original mods.
+- TOTAL BACKSTORIES IN THIS MOD: 1,273
+- This mod is 100% standalone — none of the 12 original source mods
+  are required for it to function.
+- See individual mod pages on the Steam Workshop for more details
+  about each collection.
+
+If any author wishes to have their work removed or modified, please
+contact the maintainer.
+
+=======================================================================

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <UB_Seal_RadioGuitarist.title>station guitarist</UB_Seal_RadioGuitarist.title>
+  <UB_Seal_RadioGuitarist.titleShort>guitarist</UB_Seal_RadioGuitarist.titleShort>
+  <UB_Seal_RadioGuitarist.description>[PAWN_nameDef] inhabited a derelict station in an unhabitable system where a great war was raging. Safely hidden in high orbit of a gas giant, [PAWN_pronoun] played guitar to keep [PAWN_possessive] mind busy. [PAWN_objective] and some other inhabitants of the station had set up a radio beacon out of scrap components, and emitted in all the system. They would broadcast podcasts, old audiotapes and [PAWN_nameDef]'s songs. Sometimes, [PAWN_pronoun] played all night long, hoping to bring at least some comfort to civilians in the same situation as [PAWN_objective].</UB_Seal_RadioGuitarist.description>
+  <UB_Seal_HydroponicsOverseer.title>hydroponics overseer</UB_Seal_HydroponicsOverseer.title>
+  <UB_Seal_HydroponicsOverseer.titleShort>farmer</UB_Seal_HydroponicsOverseer.titleShort>
+  <UB_Seal_HydroponicsOverseer.description>[PAWN_nameDef] managed an automatic hydroponic farm that sustained dozens of people in an artificial habitat. The machines were old and broke often, but the alternative was starvation, as fewer and fewer supply cargo ships were travelling to the colony.</UB_Seal_HydroponicsOverseer.description>
+  <UB_Seal_ShipEngineer.title>ship engineer</UB_Seal_ShipEngineer.title>
+  <UB_Seal_ShipEngineer.titleShort>engineer</UB_Seal_ShipEngineer.titleShort>
+  <UB_Seal_ShipEngineer.description>[PAWN_nameDef] worked for the army as an engineer. [PAWN_pronoun] conceived various ships, from gravship to simple interstellar carriers. Tired of building war machines, [PAWN_pronoun] eventually deserted and made [PAWN_possessive] skills available to civilians who tried to flee the star system and the war.</UB_Seal_ShipEngineer.description>
+  <UB_Seal_HullbreacherMercenary.title>hullbreacher mercenary</UB_Seal_HullbreacherMercenary.title>
+  <UB_Seal_HullbreacherMercenary.titleShort>mercenary</UB_Seal_HullbreacherMercenary.titleShort>
+  <UB_Seal_HullbreacherMercenary.description>Proficient in orbital mechanics and E.V.A fighting, [PAWN_nameDef] was a highly specialized mercenary. [PAWN_possessive] task was to allow [PAWN_possessive] squad to board a ship by breaching the hull with small explosive charges. Lethal gunfights would follow, as any damage to their suit meant a quick death.\n\nAfter some years of service, [PAWN_nameDef] retired. The weight of the killing proved to be too heavy, even for a seasoned fighter like [PAWN_objective].</UB_Seal_HullbreacherMercenary.description>
+  <UB_Seal_SatelliteHacker.title>satellite hacker</UB_Seal_SatelliteHacker.title>
+  <UB_Seal_SatelliteHacker.titleShort>hacker</UB_Seal_SatelliteHacker.titleShort>
+  <UB_Seal_SatelliteHacker.description>When [PAWN_pronoun] learned how valuable ancient data was on the black market, [PAWN_nameDef] realized that [PAWN_possessive] hacking skills were very precious. [PAWN_pronoun] joined a crew of pirates that hunted ruined satellites to scrap any material and extract all the sensitive data they could find. Sometime though, automated defense system were still intact and [PAWN_pronoun] had to fight for [PAWN_possessive] life.</UB_Seal_SatelliteHacker.description>
+  <UB_Seal_AsteroidMiner.title>asteroid miner</UB_Seal_AsteroidMiner.title>
+  <UB_Seal_AsteroidMiner.titleShort>miner</UB_Seal_AsteroidMiner.titleShort>
+  <UB_Seal_AsteroidMiner.description>[PAWN_nameDef] was part of the crew of a mining ship, travelling in an asteroid belt to collect precious metals from the rocks. [PAWN_pronoun] only knew basic orbital mechanics and leaved the complex thinking to the chief of operation. After all, [PAWN_pronoun] only needed to fire the lasers on the asteroids, and the rest of the crew figured out how to proceed from there.</UB_Seal_AsteroidMiner.description>
+  <UB_Seal_AquaponicsOverseer.title>aquaponics overseer</UB_Seal_AquaponicsOverseer.title>
+  <UB_Seal_AquaponicsOverseer.titleShort>fish breeder</UB_Seal_AquaponicsOverseer.titleShort>
+  <UB_Seal_AquaponicsOverseer.description>[PAWN_nameDef] was in charge of the aquaponics of a deadworld colony. [PAWN_pronoun] had to carefully balance the nutrients and water chemistry by adding various substances to the system or allowing underground natural water to go in the system. The result of this hard work was a daily portion of protein for everyone in the form of fresh fish. While off duty, [PAWN_nameDef] would still go to the bassins, as the well-balanced ecosystem [PAWN_pronoun] had created brought him much joy and pride.</UB_Seal_AquaponicsOverseer.description>
+  <UB_Seal_ShipwreckLooter.title>shipwreck looter</UB_Seal_ShipwreckLooter.title>
+  <UB_Seal_ShipwreckLooter.titleShort>looter</UB_Seal_ShipwreckLooter.titleShort>
+  <UB_Seal_ShipwreckLooter.description>Looking back, [PAWN_nameDef] spent most of [PAWN_possessive] life in peace. Making a profit on disasters is quite easy. [PAWN_pronoun] wandered around and mapped spaceship crashes. [PAWN_pronoun] would then go to the triangulated landing sites and loot the remains to sell everything back to town. Getting rid of any eventual wounded survivor was trivial too: a point-blank shot to the head would do the trick.</UB_Seal_ShipwreckLooter.description>
+  <UB_Seal_SpatioportBarTender.title>station bartender</UB_Seal_SpatioportBarTender.title>
+  <UB_Seal_SpatioportBarTender.titleShort>bar tender</UB_Seal_SpatioportBarTender.titleShort>
+  <UB_Seal_SpatioportBarTender.description>[PAWN_nameDef] owned a bar on a spatioport. It was frequented by various spacers travelling through the system. Miners from the belt, merchants, shipyard workers and newcomers hoping to find a better life spent some time in [PAWN_possessive] establishment. [PAWN_pronoun] kicked out drunk people and struggled to stay clear from the gangs, but [PAWN_possessive] strict management was respected by everyone.</UB_Seal_SpatioportBarTender.description>
+  <UB_Seal_FigureheadSculptor.title>figurehead sculptor</UB_Seal_FigureheadSculptor.title>
+  <UB_Seal_FigureheadSculptor.titleShort>sculptor</UB_Seal_FigureheadSculptor.titleShort>
+  <UB_Seal_FigureheadSculptor.description>[PAWN_nameDef] created figureheads for spacefaring ships. Forged out of plasteel, the model needed to match the cultural references of [PAWN_possessive] clients. From abstract figures to forgotten mythological characters, [PAWN_pronoun] always had to sculpt something unique.</UB_Seal_FigureheadSculptor.description>
+  <UB_Seal_DeadworldProspector.title>deadworld prospector</UB_Seal_DeadworldProspector.title>
+  <UB_Seal_DeadworldProspector.titleShort>prospector</UB_Seal_DeadworldProspector.titleShort>
+  <UB_Seal_DeadworldProspector.description>Each week, [PAWN_nameDef] was given a huge amount of data collected by autonomous surveyor drones. They mapped a deadworld in the system that seemed to have promising resources. The goal was to localise the best ore veins to install a permanent mechanized mining operation.\n\nOver the time [PAWN_nameDef] worked for the corporation, [PAWN_pronoun] recognized a dozen new mining sites, together with a few hundreds ones of lesser importance.</UB_Seal_DeadworldProspector.description>
+</LanguageData>

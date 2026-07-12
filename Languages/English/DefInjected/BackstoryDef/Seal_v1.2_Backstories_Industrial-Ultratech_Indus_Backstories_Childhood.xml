@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <UB_Seal_HouseKid.title>house boy</UB_Seal_HouseKid.title>
+  <UB_Seal_HouseKid.titleFemale>house girl</UB_Seal_HouseKid.titleFemale>
+  <UB_Seal_HouseKid.titleShort>house kid</UB_Seal_HouseKid.titleShort>
+  <UB_Seal_HouseKid.titleShortFemale>house girl</UB_Seal_HouseKid.titleShortFemale>
+  <UB_Seal_HouseKid.description>[PAWN_nameDef] spent most of [PAWN_possessive] childhood at home, doing the chores for [PAWN_possessive] disabled single parent. [PAWN_pronoun] cleaned the house, cooked and carried things around.</UB_Seal_HouseKid.description>
+  <UB_Seal_BoredKid.title>bored kid</UB_Seal_BoredKid.title>
+  <UB_Seal_BoredKid.description>[PAWN_nameDef] did not like school. [PAWN_pronoun] never listened and spent all week daydreaming. [PAWN_pronoun] had very bad grades, but didn't care at all about it.</UB_Seal_BoredKid.description>
+  <UB_Seal_ClonedCelebrity.title>cloned celebrity</UB_Seal_ClonedCelebrity.title>
+  <UB_Seal_ClonedCelebrity.titleShort>clone</UB_Seal_ClonedCelebrity.titleShort>
+  <UB_Seal_ClonedCelebrity.description>Born right after the death of a celebrity, [PAWN_nameDef] shared all [PAWN_possessive] genes with them. [PAWN_pronoun] was a clone created to be their perfect successor. Trained to act like the person [PAWN_pronoun] was supposed to be, [PAWN_pronoun] learned to sing and perform.\n\nOver the years, the interest in the project decreased heavily. It was later cancelled and [PAWN_nameDef] was placed in a family.</UB_Seal_ClonedCelebrity.description>
+  <UB_Seal_BadMusician.title>bad musician</UB_Seal_BadMusician.title>
+  <UB_Seal_BadMusician.titleShort>musician</UB_Seal_BadMusician.titleShort>
+  <UB_Seal_BadMusician.description>[PAWN_nameDef]'s family tried to teach [PAWN_objective] to play violin. [PAWN_pronoun] liked it a lot, unfortunately [PAWN_pronoun] never quite got it. It sounded like a sad metal screeching mixed with car brake noises.\n\nAfter practicing for a few years without getting any better at it, [PAWN_pronoun] made the realization that playing music wasn't for [PAWN_objective].</UB_Seal_BadMusician.description>
+  <UB_Seal_DogFriend.title>dog friend</UB_Seal_DogFriend.title>
+  <UB_Seal_DogFriend.description>[PAWN_nameDef] found a lost puppy at a young age and learned to raise it. [PAWN_pronoun] spent more time with [PAWN_possessive] dog than with other children. The animal quickly became two times bigger than [PAWN_objective] but was very gentle around [PAWN_objective].\n\nWhen [PAWN_possessive] dog died, [PAWN_nameDef] refused to speak to anyone for several months.</UB_Seal_DogFriend.description>
+  <UB_Seal_SpacePirateKid.title>space pirate</UB_Seal_SpacePirateKid.title>
+  <UB_Seal_SpacePirateKid.titleShort>pirate</UB_Seal_SpacePirateKid.titleShort>
+  <UB_Seal_SpacePirateKid.description>The oldest memories of [PAWN_nameDef] are the coldness of a spaceship hull and the noises of battles. [PAWN_pronoun] was raised on a pirate spaceship, where [PAWN_pronoun] was taught how to use a laser beam against enemies. [PAWN_pronoun] was not afraid and quickly learned to enjoy boarding other ships.</UB_Seal_SpacePirateKid.description>
+  <UB_Seal_FleetingKid.title>runaway boy</UB_Seal_FleetingKid.title>
+  <UB_Seal_FleetingKid.titleFemale>runaway girl</UB_Seal_FleetingKid.titleFemale>
+  <UB_Seal_FleetingKid.titleShort>rich boy</UB_Seal_FleetingKid.titleShort>
+  <UB_Seal_FleetingKid.titleShortFemale>rich girl</UB_Seal_FleetingKid.titleShortFemale>
+  <UB_Seal_FleetingKid.description>Born in a wealthy family, [PAWN_nameDef] had everything before [PAWN_pronoun] even wanted it. [PAWN_possessive] parents' efforts to protect [PAWN_possessive] from the outside world only made [PAWN_objective] life even more boring. They were almost total strangers to [PAWN_objective] as [PAWN_pronoun] was raised by the house servants. One day, while everyone was sleeping, [PAWN_pronoun] decided to run away and explore the world.</UB_Seal_FleetingKid.description>
+  <UB_Seal_SkyDweller.title>sky dweller</UB_Seal_SkyDweller.title>
+  <UB_Seal_SkyDweller.description>[PAWN_nameDef] was born on a glitterworld where entire parts of the planet's crust had been modified to float at several kilometers of altitude. [PAWN_pronoun] lived on one of those floating islands, and used to draw the ever changing landscape and architecture.</UB_Seal_SkyDweller.description>
+  <UB_Seal_KidGunner.title>gunner</UB_Seal_KidGunner.title>
+  <UB_Seal_KidGunner.description>[PAWN_nameDef] has always been told that war wasn't for children. People quickly changed their minds when the enemy arrived at the doors of the capital. [PAWN_pronoun] was enrolled in an artillery squad among the ruins of the suburbs. [PAWN_possessive] role was to help experienced soldiers operate a cannon by bringing shells and repairing bits of machinery.</UB_Seal_KidGunner.description>
+</LanguageData>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RMCB.SurvivedBattle>{0} colonists fought through the danger together and grew closer.</RMCB.SurvivedBattle>
+  <RMCB.SurvivedFire>{0} colonists battled the flames together and grew closer.</RMCB.SurvivedFire>
+  <RMCB.SurvivedOutbreak>{0} colonists endured the outbreak together and grew closer.</RMCB.SurvivedOutbreak>
+
+  <RMCB.RestartHeader>These options require a game restart:</RMCB.RestartHeader>
+  <RMCB.LiveHeader>These options apply immediately:</RMCB.LiveHeader>
+  <RMCB.CapableBackstories>Capable backstories</RMCB.CapableBackstories>
+  <RMCB.CapableBackstories.Tip>The hand-review of work disables across vanilla, DLC, and supported backstory mods. Disables that the story doesn't earn are removed, some traded for skill penalties.</RMCB.CapableBackstories.Tip>
+  <RMCB.MoodRebalance>Mood &amp; relationship rebalance</RMCB.MoodRebalance>
+  <RMCB.MoodRebalance.Tip>Rescaled opinion and mood outliers: selling a loved one, cheating, divorce, breakups, kibble, dead man's apparel, recreation/beauty/room-size debuffs, and more.</RMCB.MoodRebalance.Tip>
+  <RMCB.GriefTaper>Grief tapers instead of vanishing</RMCB.GriefTaper>
+  <RMCB.GriefTaper.Tip>Death and loss thoughts start ~1.5x sharper and fade gradually to nothing over 40 days, instead of a flat debuff that falls off a cliff.</RMCB.GriefTaper.Tip>
+  <RMCB.NeedsGracePeriod>Recreation &amp; comfort grace period</RMCB.NeedsGracePeriod>
+  <RMCB.NeedsGracePeriod.Tip>For the colony's first 5 days, recreation and comfort decay at 25% speed, easing back to normal by day 20.</RMCB.NeedsGracePeriod.Tip>
+  <RMCB.HardshipBonding>Shared-hardship bonding</RMCB.HardshipBonding>
+  <RMCB.HardshipBonding.Tip>Colonists who actively fight through a raid, large fire, or disease outbreak together gain mutual opinion.</RMCB.HardshipBonding.Tip>
+  <RMCB.BetrayalWitnesses>Betrayal has witnesses</RMCB.BetrayalWitnesses>
+  <RMCB.BetrayalWitnesses.Tip>When someone cheats on a colonist or sells their loved one, every colonist on the map loses some opinion of the offender.</RMCB.BetrayalWitnesses.Tip>
+  <RMCB.BackstoryPairing>Realistic backstory pairing</RMCB.BackstoryPairing>
+  <RMCB.BackstoryPairing.Tip>Implausible childhood-to-adulthood combos (tribal child into spacer adult, gutter child into nobility) are re-rolled during pawn generation - rare, not impossible.</RMCB.BackstoryPairing.Tip>
+  <RMCB.TraitAlignment>Traits fit backstories</RMCB.TraitAlignment>
+  <RMCB.TraitAlignment.Tip>Generated traits lean toward the pawn's life story: hardened backstories lean tough and brave, pampered ones soft, scholars smart, ice-worlders cold-tolerant. Includes Vanilla Traits Expanded and Combat Extended traits when present.</RMCB.TraitAlignment.Tip>
+  <RMCB.RomanceCooldown>Romance cooldown after rejections</RMCB.RomanceCooldown>
+  <RMCB.RomanceCooldown.Tip>Pawns give up on a specific person after two rebuffs and get generally discouraged after several, recovering as the memories fade.</RMCB.RomanceCooldown.Tip>
+  <RMCB.AwkwardChat>Awkward chat after failed romance</RMCB.AwkwardChat>
+  <RMCB.AwkwardChat.Tip>After a failed romance, the pair's small talk turns into awkward chat (mild opinion friction) until they get over it.</RMCB.AwkwardChat.Tip>
+  <RMCB.AutoDisabled>auto-disabled ({0} handles this)</RMCB.AutoDisabled>
+  <RMCB.AutoDisabled.Tip>{0} is loaded and already provides this feature, so this mod steps aside automatically. Remove that mod and this feature turns back on.</RMCB.AutoDisabled.Tip>
+</LanguageData>
