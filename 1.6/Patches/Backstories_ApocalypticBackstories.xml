@@ -7,25 +7,16 @@
 
 <Operation Class="UnifiedBackstories.PatchOperation_IfSetting"><setting>capableBackstories</setting><operations><!-- Rimworld Apocalyptic Backstories compat. These use the flag-string
        workDisables format. Kept: Bunker Scavenger (trauma-mute), Plague Bringer
-       (left others to die - callous). --><li Class="PatchOperationFindMod">
-    <mods>
-      <li>Rimworld Apocalyptic Backstories</li>
-    </mods>
-    <match Class="PatchOperationSequence">
-      <operations>
+       (left others to die - callous). -->
 
         <!-- Vaulter: the story says he BROKE the cycle and left the dumbed-down
              vault behind - disabling Intellectual contradicts it -->
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="WastelandVaulter4"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Apoc_WastelandVaulter4"]/workDisables</xpath>
         </li>
 
         <!-- Wasteland Cook: desperation cannibalism to survive famine is not
              the same as being incapable of caring for others -->
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="WastelandCook5"]/workDisables</xpath>
-        </li>
-
-      </operations>
-    </match>
-  </li></operations></Operation></Patch>
+          <xpath>Defs/BackstoryDef[defName="UB_Apoc_WastelandCook5"]/workDisables</xpath>
+        </li></operations></Operation></Patch>

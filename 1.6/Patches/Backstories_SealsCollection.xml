@@ -2,253 +2,245 @@
 <Patch>
   
   
-<Operation Class="UnifiedBackstories.PatchOperation_IfSetting"><setting>capableBackstories</setting><operations><!-- Seal's Backstory Collection compat. Kept: JoywiredChild (permanent psyche scar), ShipwreckLooter (executes wounded), Arsonist (fire conviction), PsychicTestSubject keeps Social. --><li Class="PatchOperationFindMod">
-    <mods>
-      <li>Seal's Backstory Collection</li>
-    </mods>
-    <match Class="PatchOperationSequence">
-      <operations>
+<Operation Class="UnifiedBackstories.PatchOperation_IfSetting"><setting>capableBackstories</setting><operations><!-- Seal's Backstory Collection compat. Kept: JoywiredChild (permanent psyche scar), ShipwreckLooter (executes wounded), Arsonist (fire conviction), PsychicTestSubject keeps Social. -->
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="ssB_FleeingConcubine"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_FleeingConcubine"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="ssB_FleeingConcubine"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_FleeingConcubine"]/skillGains</xpath>
           <value><Crafting>-2</Crafting><Melee>-2</Melee><Shooting>-2</Shooting></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="ssB_Terrorist"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_Terrorist"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="ssB_Terrorist"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_Terrorist"]/skillGains</xpath>
           <value><Social>-3</Social><Medicine>-2</Medicine></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="ssB_KindTeacher"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_KindTeacher"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="ssB_KindTeacher"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_KindTeacher"]/skillGains</xpath>
           <value><Melee>-2</Melee><Shooting>-2</Shooting></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="ssB_BabySealHunter"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_BabySealHunter"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="ssB_BabySealHunter"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_BabySealHunter"]/skillGains</xpath>
           <value><Animals>-2</Animals><Medicine>-2</Medicine></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="ssB_ConspiracyTheorist"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_ConspiracyTheorist"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="ssB_ConspiracyTheorist"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_ConspiracyTheorist"]/skillGains</xpath>
           <value><Intellectual>-4</Intellectual></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="ssB_SpatioportExorcist"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_SpatioportExorcist"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="ssB_SpatioportExorcist"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_SpatioportExorcist"]/skillGains</xpath>
           <value><Intellectual>-3</Intellectual></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="ssB_SelfProclamedPhilosopher"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_SelfProclamedPhilosopher"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="ssB_SewerHermit"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_SewerHermit"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="ssB_SewerHermit"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_SewerHermit"]/skillGains</xpath>
           <value><Social>-4</Social><Intellectual>-2</Intellectual><Plants>-3</Plants></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="ssB_TruckDriver"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_TruckDriver"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="ssB_TruckDriver"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_TruckDriver"]/skillGains</xpath>
           <value><Intellectual>-2</Intellectual></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="ssB_SurvivalistPrepper"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_SurvivalistPrepper"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="ssB_WastelandDriver"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_WastelandDriver"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="ssB_WastelandDriver"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_WastelandDriver"]/skillGains</xpath>
           <value><Animals>-2</Animals><Plants>-2</Plants></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="ssB_DrugMaker"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_DrugMaker"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="ssB_DrugMaker"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_DrugMaker"]/skillGains</xpath>
           <value><Social>-3</Social></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="ssB_Smuggler"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_Smuggler"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="ssB_Smuggler"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_Smuggler"]/skillGains</xpath>
           <value><Plants>-2</Plants><Animals>-2</Animals><Mining>-2</Mining></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="ssB_InefficientOfficeWorker"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_InefficientOfficeWorker"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="ssB_InefficientOfficeWorker"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_InefficientOfficeWorker"]/skillGains</xpath>
           <value><Crafting>-2</Crafting></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="ssB_StreetCook"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_StreetCook"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="ssB_Mathematician"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_Mathematician"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="ssB_Mathematician"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_Mathematician"]/skillGains</xpath>
           <value><Plants>-2</Plants><Animals>-2</Animals><Artistic>-2</Artistic></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="ssB_DismissedPresident"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_DismissedPresident"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="ssB_FoldedCityArchitect"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_FoldedCityArchitect"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="ssB_IceboundSpacer"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_IceboundSpacer"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="ssB_IceboundSpacer"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_IceboundSpacer"]/skillGains</xpath>
           <value><Plants>-2</Plants></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="ssB_Peacekeeper"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_Peacekeeper"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="ssB_Peacekeeper"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_Peacekeeper"]/skillGains</xpath>
           <value><Intellectual>-2</Intellectual></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="ssB_AbandonedShelterKid"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_AbandonedShelterKid"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="ssB_AbandonedShelterKid"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_AbandonedShelterKid"]/skillGains</xpath>
           <value><Intellectual>-2</Intellectual></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="ssB_SwampHermit"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_SwampHermit"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="ssB_SwampHermit"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_SwampHermit"]/skillGains</xpath>
           <value><Social>-4</Social></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="ssB_MegafaunaHunter"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_MegafaunaHunter"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="ssB_LoneFlautist"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_LoneFlautist"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="ssB_LoneFlautist"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_LoneFlautist"]/skillGains</xpath>
           <value><Melee>-2</Melee><Shooting>-2</Shooting></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="ssB_ShipEngineer"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_ShipEngineer"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="ssB_ShipEngineer"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_ShipEngineer"]/skillGains</xpath>
           <value><Plants>-2</Plants></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="ssB_Geoengineer"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_Geoengineer"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="ssB_Geoengineer"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_Geoengineer"]/skillGains</xpath>
           <value><Artistic>-2</Artistic></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="ssB_DeepDiver"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_DeepDiver"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="ssB_DeepDiver"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_DeepDiver"]/skillGains</xpath>
           <value><Intellectual>-2</Intellectual></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="ssB_Cyberdoctor"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_Cyberdoctor"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="ssB_Cyberdoctor"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_Cyberdoctor"]/skillGains</xpath>
           <value><Melee>-2</Melee><Shooting>-2</Shooting></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="ssB_SpacePirateKid"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_SpacePirateKid"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="ssB_SpacePirateKid"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_SpacePirateKid"]/skillGains</xpath>
           <value><Intellectual>-2</Intellectual></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="ssB_Ambusher"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_Ambusher"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="ssB_WarriorPoet"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_WarriorPoet"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="ssB_Savage"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_Savage"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="ssB_Savage"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_Savage"]/skillGains</xpath>
           <value><Social>-4</Social><Intellectual>-2</Intellectual></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="ssB_ShamanApprentice"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_ShamanApprentice"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="ssB_ShamanApprentice"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_ShamanApprentice"]/skillGains</xpath>
           <value><Social>-3</Social></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="ssB_CorpseLooter"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_CorpseLooter"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="ssB_Beachgoer"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_Beachgoer"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="ssB_Beachgoer"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_Beachgoer"]/skillGains</xpath>
           <value><Melee>-2</Melee><Shooting>-2</Shooting><Mining>-2</Mining><Construction>-2</Construction></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="ssB_AsteroidMapper"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_AsteroidMapper"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="ssB_AsteroidMapper"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_AsteroidMapper"]/skillGains</xpath>
           <value><Plants>-2</Plants><Animals>-2</Animals></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="ssB_Partygoer"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_Partygoer"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="ssB_Partygoer"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_Partygoer"]/skillGains</xpath>
           <value><Intellectual>-2</Intellectual></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="ssB_GlitterworldChef"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_GlitterworldChef"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="ssB_GlitterworldChef"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_GlitterworldChef"]/skillGains</xpath>
           <value><Mining>-2</Mining></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="ssB_PsychicTestSubject"]/workDisables/li[text()="Firefighting"]</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_PsychicTestSubject"]/workDisables/li[text()="Firefighting"]</xpath>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="ssB_ArduousWarrior"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_ArduousWarrior"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="ssB_ArduousWarrior"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_Seal_ArduousWarrior"]/skillGains</xpath>
           <value><Intellectual>-2</Intellectual></value>
-        </li>
-      </operations>
-    </match>
-  </li></operations></Operation></Patch>
+        </li></operations></Operation></Patch>
 

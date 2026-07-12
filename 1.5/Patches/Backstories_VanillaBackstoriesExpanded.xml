@@ -2,479 +2,471 @@
 <Patch>
   
   
-<Operation Class="UnifiedBackstories.PatchOperation_IfSetting"><setting>capableBackstories</setting><operations><!-- Vanilla Backstories Expanded compat. Kept where trauma/conviction is real; class attitudes and 'never learned it' became skill penalties. --><li Class="PatchOperationFindMod">
-    <mods>
-      <li>Vanilla Backstories Expanded</li>
-    </mods>
-    <match Class="PatchOperationSequence">
-      <operations>
+<Operation Class="UnifiedBackstories.PatchOperation_IfSetting"><setting>capableBackstories</setting><operations><!-- Vanilla Backstories Expanded compat. Kept where trauma/conviction is real; class attitudes and 'never learned it' became skill penalties. -->
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_GeneModdedBeauty"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_GeneModdedBeauty"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="VBE_GeneModdedBeauty"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_GeneModdedBeauty"]/skillGains</xpath>
           <value><Construction>-2</Construction><Crafting>-2</Crafting></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_FanaticInventor"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_FanaticInventor"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="VBE_FanaticInventor"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_FanaticInventor"]/skillGains</xpath>
           <value><Plants>-2</Plants><Social>-3</Social></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_SlaveTrader"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_SlaveTrader"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="VBE_SlaveTrader"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_SlaveTrader"]/skillGains</xpath>
           <value><Medicine>-2</Medicine></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_MidworldNomad"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_MidworldNomad"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_CannibalisticSurgeon"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_CannibalisticSurgeon"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="VBE_CannibalisticSurgeon"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_CannibalisticSurgeon"]/skillGains</xpath>
           <value><Social>-3</Social></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_Freak"]/workDisables/li[text()="Caring"]</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_Freak"]/workDisables/li[text()="Caring"]</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="VBE_Freak"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_Freak"]/skillGains</xpath>
           <value><Medicine>-2</Medicine></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_LighthouseKeeper"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_LighthouseKeeper"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="VBE_LighthouseKeeper"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_LighthouseKeeper"]/skillGains</xpath>
           <value><Social>-3</Social><Plants>-2</Plants><Animals>-2</Animals></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_AtomicBombardier"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_AtomicBombardier"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="VBE_AtomicBombardier"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_AtomicBombardier"]/skillGains</xpath>
           <value><Medicine>-2</Medicine></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_WalkerEngineer"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_WalkerEngineer"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="VBE_WalkerEngineer"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_WalkerEngineer"]/skillGains</xpath>
           <value><Artistic>-3</Artistic><Cooking>-2</Cooking></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_AddictedGamer"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_AddictedGamer"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="VBE_AddictedGamer"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_AddictedGamer"]/skillGains</xpath>
           <value><Social>-3</Social></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_StructuralEngineer"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_StructuralEngineer"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_WretchedChild"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_WretchedChild"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="VBE_WretchedChild"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_WretchedChild"]/skillGains</xpath>
           <value><Medicine>-2</Medicine></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_ForcedPrimitivist"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_ForcedPrimitivist"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="VBE_ForcedPrimitivist"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_ForcedPrimitivist"]/skillGains</xpath>
           <value><Social>-4</Social></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_IndustrialTinkerer"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_IndustrialTinkerer"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="VBE_IndustrialTinkerer"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_IndustrialTinkerer"]/skillGains</xpath>
           <value><Animals>-2</Animals></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_InformationSponge"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_InformationSponge"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_SiloManager"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_SiloManager"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="VBE_SiloManager"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_SiloManager"]/skillGains</xpath>
           <value><Construction>-2</Construction><Crafting>-2</Crafting></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_Commenter"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_Commenter"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="VBE_Commenter"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_Commenter"]/skillGains</xpath>
           <value><Crafting>-2</Crafting></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_FringeShitposter"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_FringeShitposter"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="VBE_FringeShitposter"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_FringeShitposter"]/skillGains</xpath>
           <value><Social>-4</Social></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_Mariner"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_Mariner"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="VBE_Mariner"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_Mariner"]/skillGains</xpath>
           <value><Plants>-2</Plants></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_PreservationistRuler"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_PreservationistRuler"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="VBE_PreservationistRuler"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_PreservationistRuler"]/skillGains</xpath>
           <value><Plants>-2</Plants></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_FoodCritic"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_FoodCritic"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_MarineworldResearcher"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_MarineworldResearcher"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_Oracle"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_Oracle"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="VBE_Oracle"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_Oracle"]/skillGains</xpath>
           <value><Social>-3</Social></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_AbandonedColonist"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_AbandonedColonist"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="VBE_AbandonedColonist"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_AbandonedColonist"]/skillGains</xpath>
           <value><Medicine>-2</Medicine></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_CultLeader"]/workDisables/li[text()="Cleaning"]</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_CultLeader"]/workDisables/li[text()="Cleaning"]</xpath>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_CultLeader"]/workDisables/li[text()="Hauling"]</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_CultLeader"]/workDisables/li[text()="Hauling"]</xpath>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_CultLeader"]/workDisables/li[text()="PlantWork"]</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_CultLeader"]/workDisables/li[text()="PlantWork"]</xpath>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_CultLeader"]/workDisables/li[text()="Mining"]</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_CultLeader"]/workDisables/li[text()="Mining"]</xpath>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_Landsknecht"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_Landsknecht"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_CorporateMascot"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_CorporateMascot"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="VBE_CorporateMascot"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_CorporateMascot"]/skillGains</xpath>
           <value><Intellectual>-2</Intellectual></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_GalleryJanitor"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_GalleryJanitor"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="VBE_GalleryJanitor"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_GalleryJanitor"]/skillGains</xpath>
           <value><Artistic>-3</Artistic></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_StrangeChild"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_StrangeChild"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="VBE_StrangeChild"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_StrangeChild"]/skillGains</xpath>
           <value><Social>-4</Social></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_ChildSoldier"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_ChildSoldier"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="VBE_ChildSoldier"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_ChildSoldier"]/skillGains</xpath>
           <value><Artistic>-2</Artistic></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_ForsakenPatriot"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_ForsakenPatriot"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="VBE_ForsakenPatriot"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_ForsakenPatriot"]/skillGains</xpath>
           <value><Artistic>-2</Artistic></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_Bioweapon"]/workDisables/li[text()="Intellectual"]</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_Bioweapon"]/workDisables/li[text()="Intellectual"]</xpath>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_Bioweapon"]/workDisables/li[text()="Artistic"]</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_Bioweapon"]/workDisables/li[text()="Artistic"]</xpath>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_Bioweapon"]/workDisables/li[text()="Firefighting"]</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_Bioweapon"]/workDisables/li[text()="Firefighting"]</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="VBE_Bioweapon"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_Bioweapon"]/skillGains</xpath>
           <value><Intellectual>-2</Intellectual><Artistic>-2</Artistic></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_Catastrophe"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_Catastrophe"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="VBE_Catastrophe"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_Catastrophe"]/skillGains</xpath>
           <value><Social>-2</Social></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_NatureLover"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_NatureLover"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_Doomsayer"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_Doomsayer"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="VBE_Doomsayer"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_Doomsayer"]/skillGains</xpath>
           <value><Intellectual>-2</Intellectual></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_Rocker"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_Rocker"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="VBE_Rocker"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_Rocker"]/skillGains</xpath>
           <value><Plants>-2</Plants></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_DesertSurvivor"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_DesertSurvivor"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="VBE_DesertSurvivor"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_DesertSurvivor"]/skillGains</xpath>
           <value><Plants>-3</Plants></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_LiteraryCritic"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_LiteraryCritic"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="VBE_LiteraryCritic"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_LiteraryCritic"]/skillGains</xpath>
           <value><Melee>-2</Melee><Shooting>-2</Shooting></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_PathologicalLiar"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_PathologicalLiar"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="VBE_PathologicalLiar"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_PathologicalLiar"]/skillGains</xpath>
           <value><Crafting>-2</Crafting></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_Blackguard"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_Blackguard"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="VBE_Blackguard"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_Blackguard"]/skillGains</xpath>
           <value><Social>-3</Social><Intellectual>-2</Intellectual></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_BountyHunter"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_BountyHunter"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="VBE_BountyHunter"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_BountyHunter"]/skillGains</xpath>
           <value><Artistic>-2</Artistic><Mining>-2</Mining></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_Thane"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_Thane"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="VBE_Thane"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_Thane"]/skillGains</xpath>
           <value><Cooking>-2</Cooking><Mining>-2</Mining></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_TraineeCombatMedic"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_TraineeCombatMedic"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="VBE_TraineeCombatMedic"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_TraineeCombatMedic"]/skillGains</xpath>
           <value><Social>-3</Social><Crafting>-2</Crafting></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_OldWarSurvivor"]/workDisables/li[text()="ManualDumb"]</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_OldWarSurvivor"]/workDisables/li[text()="ManualDumb"]</xpath>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_OldWarSurvivor"]/workDisables/li[text()="ManualSkilled"]</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_OldWarSurvivor"]/workDisables/li[text()="ManualSkilled"]</xpath>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_OldWarSurvivor"]/workDisables/li[text()="Animals"]</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_OldWarSurvivor"]/workDisables/li[text()="Animals"]</xpath>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_OldWarSurvivor"]/workDisables/li[text()="Crafting"]</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_OldWarSurvivor"]/workDisables/li[text()="Crafting"]</xpath>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_OldWarSurvivor"]/workDisables/li[text()="Cooking"]</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_OldWarSurvivor"]/workDisables/li[text()="Cooking"]</xpath>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_OldWarSurvivor"]/workDisables/li[text()="Firefighting"]</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_OldWarSurvivor"]/workDisables/li[text()="Firefighting"]</xpath>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_OldWarSurvivor"]/workDisables/li[text()="Cleaning"]</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_OldWarSurvivor"]/workDisables/li[text()="Cleaning"]</xpath>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_OldWarSurvivor"]/workDisables/li[text()="Hauling"]</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_OldWarSurvivor"]/workDisables/li[text()="Hauling"]</xpath>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_OldWarSurvivor"]/workDisables/li[text()="PlantWork"]</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_OldWarSurvivor"]/workDisables/li[text()="PlantWork"]</xpath>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_OldWarSurvivor"]/workDisables/li[text()="Mining"]</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_OldWarSurvivor"]/workDisables/li[text()="Mining"]</xpath>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_OldWarSurvivor"]/workDisables/li[text()="Hunting"]</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_OldWarSurvivor"]/workDisables/li[text()="Hunting"]</xpath>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_OldWarSurvivor"]/workDisables/li[text()="Constructing"]</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_OldWarSurvivor"]/workDisables/li[text()="Constructing"]</xpath>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_PrivateerCaptain"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_PrivateerCaptain"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="VBE_PrivateerCaptain"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_PrivateerCaptain"]/skillGains</xpath>
           <value><Medicine>-2</Medicine></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_AndroidHunter"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_AndroidHunter"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="VBE_AndroidHunter"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_AndroidHunter"]/skillGains</xpath>
           <value><Crafting>-2</Crafting><Intellectual>-2</Intellectual></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_LifelongPersonalAssistant"]/workDisables/li[text()="Intellectual"]</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_LifelongPersonalAssistant"]/workDisables/li[text()="Intellectual"]</xpath>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_LifelongPersonalAssistant"]/workDisables/li[text()="Artistic"]</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_LifelongPersonalAssistant"]/workDisables/li[text()="Artistic"]</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="VBE_LifelongPersonalAssistant"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_LifelongPersonalAssistant"]/skillGains</xpath>
           <value><Intellectual>-2</Intellectual><Artistic>-2</Artistic></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_FormerChiefFinancialOfficer"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_FormerChiefFinancialOfficer"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="VBE_FormerChiefFinancialOfficer"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_FormerChiefFinancialOfficer"]/skillGains</xpath>
           <value><Melee>-2</Melee><Shooting>-2</Shooting><Animals>-2</Animals></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_NoirDetective"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_NoirDetective"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="VBE_NoirDetective"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_NoirDetective"]/skillGains</xpath>
           <value><Crafting>-2</Crafting></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_CosplayEnthusiast"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_CosplayEnthusiast"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="VBE_CosplayEnthusiast"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_CosplayEnthusiast"]/skillGains</xpath>
           <value><Medicine>-2</Medicine></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_MilitarySurplusSupplier"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_MilitarySurplusSupplier"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="VBE_MilitarySurplusSupplier"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_MilitarySurplusSupplier"]/skillGains</xpath>
           <value><Medicine>-2</Medicine></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_CommunityDoctor"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_CommunityDoctor"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="VBE_CommunityDoctor"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_CommunityDoctor"]/skillGains</xpath>
           <value><Animals>-3</Animals></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_RetiredSoldier"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_RetiredSoldier"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="VBE_RetiredSoldier"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_RetiredSoldier"]/skillGains</xpath>
           <value><Artistic>-2</Artistic><Medicine>-2</Medicine></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_FieldTechnician"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_FieldTechnician"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="VBE_FieldTechnician"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_FieldTechnician"]/skillGains</xpath>
           <value><Social>-3</Social></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_GardenCurator"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_GardenCurator"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="VBE_GardenCurator"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_GardenCurator"]/skillGains</xpath>
           <value><Melee>-3</Melee><Shooting>-2</Shooting></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_SupplyCoordinator"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_SupplyCoordinator"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="VBE_SupplyCoordinator"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_SupplyCoordinator"]/skillGains</xpath>
           <value><Crafting>-2</Crafting><Medicine>-2</Medicine></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_ShipsNavigator"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_ShipsNavigator"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="VBE_ShipsNavigator"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_ShipsNavigator"]/skillGains</xpath>
           <value><Crafting>-3</Crafting></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_EngineRoomTech"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_EngineRoomTech"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="VBE_EngineRoomTech"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_EngineRoomTech"]/skillGains</xpath>
           <value><Social>-3</Social><Medicine>-2</Medicine></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_GalacticMedic"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_GalacticMedic"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="VBE_GalacticMedic"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_GalacticMedic"]/skillGains</xpath>
           <value><Intellectual>-3</Intellectual></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_CorporateFinancier"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_CorporateFinancier"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="VBE_CorporateFinancier"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_CorporateFinancier"]/skillGains</xpath>
           <value><Melee>-2</Melee><Shooting>-2</Shooting></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_Marauder"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_Marauder"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="VBE_Marauder"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_Marauder"]/skillGains</xpath>
           <value><Intellectual>-3</Intellectual></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_ExtranetTroll"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_ExtranetTroll"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="VBE_ExtranetTroll"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_ExtranetTroll"]/skillGains</xpath>
           <value><Crafting>-2</Crafting><Medicine>-2</Medicine></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_PrivateContractor"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_PrivateContractor"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="VBE_PrivateContractor"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_PrivateContractor"]/skillGains</xpath>
           <value><Medicine>-2</Medicine><Artistic>-2</Artistic></value>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_DeposedRoyalty"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_DeposedRoyalty"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>Defs/BackstoryDef[defName="VBE_BloodKnight"]/workDisables</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_BloodKnight"]/workDisables</xpath>
         </li>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/BackstoryDef[defName="VBE_BloodKnight"]/skillGains</xpath>
+          <xpath>Defs/BackstoryDef[defName="UB_VBE_BloodKnight"]/skillGains</xpath>
           <value><Social>-3</Social></value>
-        </li>
-      </operations>
-    </match>
-  </li></operations></Operation></Patch>
+        </li></operations></Operation></Patch>
 
