@@ -37,10 +37,10 @@ COMPATIBILITY:
 See CREDITS.txt for full attributions and licensing details.</description>
 	<modVersion>1.0.0</modVersion>
 	<supportedVersions>
-		<li>1.5</li>
-		<li>1.6</li>
+		<li>1.5.0</li>
+		<li>1.6.0</li>
 	</supportedVersions>
-	<targetVersion>1.6</targetVersion>
+	<targetVersion>1.6.0</targetVersion>
 	<modDependencies>
 		<li>
 			<packageId>brrainz.harmony</packageId>
