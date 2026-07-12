@@ -35,8 +35,7 @@
 		<slot>Adulthood</slot>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
-		<baseDesc>[PAWN_nameDef] was part of an urbworld space program. Due to malfunctionioning equipment they were left stranded in space. Many years later they would be released from cryosleep on a far away planet.
-		</baseDesc>
+		<baseDesc>[PAWN_nameDef] was part of an urbworld space program. Due to malfunctionioning equipment they were left stranded in space. Many years later they would be released from cryosleep on a far away planet.</baseDesc>
 		<spawnCategories>
 			<li>Offworld</li>
 			<li>Scientist</li>
@@ -76,7 +75,7 @@
 		<slot>Adulthood</slot>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
-		<baseDesc>[PAWN_nameDef] was preserved using an early form of cryptosleep to save them from a then uncurable disease. After being revived and cured of the disease, [PAWN_nameDef] was given an enormous medical bill by the megacorp that revived them and [PAWN_pronoun] has been running ever since. </baseDesc>
+		<baseDesc>[PAWN_nameDef] was preserved using an early form of cryptosleep to save them from a then uncurable disease. After being revived and cured of the disease, [PAWN_nameDef] was given an enormous medical bill by the megacorp that revived them and [PAWN_pronoun] has been running ever since.</baseDesc>
 		<spawnCategories>
 			<li>Offworld</li>
 			<li>Outsider</li>
@@ -223,7 +222,7 @@
 		<bodyTypeMale>Fat</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<slot>Adulthood</slot>
-		<baseDesc>[PAWN_nameDef] was always handy around the house. [PAWN_pronoun] even had a show about reparing things around the house called "[PAWN_nameDef]'s Improvements". [PAWN_nameDef]'s catchphrase on the show was "ooh-AH". </baseDesc>
+		<baseDesc>[PAWN_nameDef] was always handy around the house. [PAWN_pronoun] even had a show about reparing things around the house called "[PAWN_nameDef]'s Improvements". [PAWN_nameDef]'s catchphrase on the show was "ooh-AH".</baseDesc>
 		<spawnCategories>
 			<li>Offworld</li>
 			<li>Outlander</li>
@@ -651,7 +650,7 @@
 		<slot>Adulthood</slot>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
-		<baseDesc>No one [PAWN_nameDef] has met knows who [PAWN_nameDef] was before [PAWN_pronoun] lost [PAWN_possessive] memory, but [PAWN_pronoun] remains determined to find out. [PAWN_nameDef]'s travels have led them to acquire various miscellaneous skills, but [PAWN_nameDef] cannot remember what learned in school, or if they even went. </baseDesc>
+		<baseDesc>No one [PAWN_nameDef] has met knows who [PAWN_nameDef] was before [PAWN_pronoun] lost [PAWN_possessive] memory, but [PAWN_pronoun] remains determined to find out. [PAWN_nameDef]'s travels have led them to acquire various miscellaneous skills, but [PAWN_nameDef] cannot remember what learned in school, or if they even went.</baseDesc>
 		<spawnCategories>
 			<li>Outlander</li>
 			<li>Outsider</li>
@@ -935,7 +934,7 @@
 		<slot>Adulthood</slot>
 		<bodyTypeMale>Hulk</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
-		<baseDesc>[PAWN_nameDef] was a revolutionary on a far-off urbworld. When the archo-counsel separated the world with great walls to make it easier to control, [PAWN_pronoun] joined other revolutionaries in tearing them down and uniting the people.  </baseDesc>
+		<baseDesc>[PAWN_nameDef] was a revolutionary on a far-off urbworld. When the archo-counsel separated the world with great walls to make it easier to control, [PAWN_pronoun] joined other revolutionaries in tearing them down and uniting the people.</baseDesc>
 		<spawnCategories>
 			<li>Offworld</li>
 			<li>Outlander</li>
@@ -993,7 +992,7 @@
 		<slot>Adulthood</slot>
 		<bodyTypeMale>Thin</bodyTypeMale>
 		<bodyTypeFemale>Thin</bodyTypeFemale>
-		<baseDesc>[Pawn_nameDef] was once a billionaire, untill the price of [Pawn_nameDef] Coin crashed to the ground. Now [PAWN_pronoun] is on the run from the people [PAWN_pronoun] had convinced to buy the currency under the pretense that cryptocurrency had something to do with the booming cryptosleep industry. Despite being a scam "artist", the only thing [PAWN_pronoun] knows how to make are legally distinct monkey pics. </baseDesc>
+		<baseDesc>[Pawn_nameDef] was once a billionaire, untill the price of [Pawn_nameDef] Coin crashed to the ground. Now [PAWN_pronoun] is on the run from the people [PAWN_pronoun] had convinced to buy the currency under the pretense that cryptocurrency had something to do with the booming cryptosleep industry. Despite being a scam "artist", the only thing [PAWN_pronoun] knows how to make are legally distinct monkey pics.</baseDesc>
 		<spawnCategories>
 			<li>Offworld</li>
 			<li>Pirate</li>

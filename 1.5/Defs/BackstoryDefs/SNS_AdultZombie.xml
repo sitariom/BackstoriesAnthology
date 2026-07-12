@@ -5,7 +5,7 @@
     <title>Zombie survivor</title>
     <titleShort>Survior</titleShort>
     <slot>Adulthood</slot> <!--Adult or Child-->
-    <baseDesc>[PAWN_nameDef] had to struggle to survive on an Urbworld overrun with an unknown contagious virus. [PAWN_nameDef] had to run, shoot, and scavenge what [PAWN_pronoun] could to survive, never settling down in one spot for too long. </baseDesc> <!--Use Namedefs for name and pronouns-->
+    <baseDesc>[PAWN_nameDef] had to struggle to survive on an Urbworld overrun with an unknown contagious virus. [PAWN_nameDef] had to run, shoot, and scavenge what [PAWN_pronoun] could to survive, never settling down in one spot for too long.</baseDesc> <!--Use Namedefs for name and pronouns-->
     <bodyTypeMale>Hulk</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale> <!-- Use Bodydefs for body types-->
     <spawnCategories>

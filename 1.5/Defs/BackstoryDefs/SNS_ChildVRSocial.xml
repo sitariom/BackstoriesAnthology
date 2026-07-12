@@ -5,7 +5,7 @@
     <title>VR socialite</title>
     <titleShort>VR Socialite</titleShort>
     <slot>Childhood</slot> <!--Adult or Child-->
-    <baseDesc>Due to toxic fallout on their homeworld, [PAWN_nameDef] was forced to live underground in a nuclear shelter with [PAWN_possessive] family for years, the only form of outside communication being the VR headset they managed to pull in with them. [PAWN_nameDef] would spend hours at a time using the headset to escape the reality of being stuck in a bomb shelter, talking and playing around with others online, but due to [PAWN_possessive] diet of MREs and dried foods, never learned any survival skills. </baseDesc> <!--Use Namedefs for name and pronouns-->
+    <baseDesc>Due to toxic fallout on their homeworld, [PAWN_nameDef] was forced to live underground in a nuclear shelter with [PAWN_possessive] family for years, the only form of outside communication being the VR headset they managed to pull in with them. [PAWN_nameDef] would spend hours at a time using the headset to escape the reality of being stuck in a bomb shelter, talking and playing around with others online, but due to [PAWN_possessive] diet of MREs and dried foods, never learned any survival skills.</baseDesc> <!--Use Namedefs for name and pronouns-->
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale> <!-- Use Bodydefs for body types-->
     <spawnCategories>

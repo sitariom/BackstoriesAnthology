@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 <!-- baseline backstory, nothing special -->
-	<ZCB.ZCBackstoryDef>
+	<ZCB.ZCBackstoryDef Name="ZCB_ColonyChild">
 		<defName>UB_ZCB_ColonyChild</defName>
 		<title>colony child</title>
 		<titleShort>colonist</titleShort>

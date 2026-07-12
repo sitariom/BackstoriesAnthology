@@ -55,7 +55,7 @@
 	<slot>Childhood</slot>
 	<title>Apprentice healer</title>
 	<titleShort>Healer</titleShort>
-	<baseDesc>[PAWN_nameDef] was chosen to be trained as a healer. [PAWN_possessive] tribe’s kindly medicine woman was a skilled and patient teacher, and taught [PAWN_nameDef] how to tend to the sick, as well as how to grow healing herbs. </baseDesc>
+	<baseDesc>[PAWN_nameDef] was chosen to be trained as a healer. [PAWN_possessive] tribe’s kindly medicine woman was a skilled and patient teacher, and taught [PAWN_nameDef] how to tend to the sick, as well as how to grow healing herbs.</baseDesc>
 	<skillGains>
 	
 			<Plants>4</Plants>
@@ -209,7 +209,7 @@
 	<slot>Childhood</slot>
 	<title>Child of an exile</title>
 	<titleShort>Exile</titleShort>
-	<baseDesc>[PAWN_nameDef]’s mother was exiled from her village while she was pregnant with [PAWN_objective]. She raised [PAWN_nameDef] alone as best she could, teaching [PAWN_objective] how to survive in the wilderness without the support of a tribe. </baseDesc>
+	<baseDesc>[PAWN_nameDef]’s mother was exiled from her village while she was pregnant with [PAWN_objective]. She raised [PAWN_nameDef] alone as best she could, teaching [PAWN_objective] how to survive in the wilderness without the support of a tribe.</baseDesc>
 	<skillGains>
 		
 			<Shooting>2</Shooting>
