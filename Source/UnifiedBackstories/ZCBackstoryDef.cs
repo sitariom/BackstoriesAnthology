@@ -33,6 +33,7 @@ namespace UnifiedBackstories
         public List<string> requiredPassions;     // skill names (pawn must have passion)
         public new List<string> disallowedTraits;  // trait names (pawn must NOT have)
         public List<ZCBPassionGain> passionGains;
+        public List<string> disallowedPassions;
         public List<string> disablingWorkTags;
     }
 

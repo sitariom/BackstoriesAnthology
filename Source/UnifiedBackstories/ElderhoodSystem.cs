@@ -306,7 +306,8 @@ namespace UnifiedBackstories
         private static FieldInfo fiCurY;
         private static FieldInfo fiPawn;
         private static FieldInfo fiLeft;
-        private static readonly Texture2D _infoIcon = ContentFinder<Texture2D>.Get("UI/InfoButton");
+        private static Texture2D _infoIcon;
+        private static bool _infoIconLoaded;
 
         public static MethodBase TargetMethod()
         {
@@ -331,6 +332,15 @@ namespace UnifiedBackstories
             if (comp == null || !comp.HasElderhood) return;
             BackstoryDef elderhood = comp.ElderhoodBS;
             if (elderhood == null) return;
+
+            // Lazy-load info icon texture
+            if (!_infoIconLoaded)
+            {
+                _infoIconLoaded = true;
+                _infoIcon = ContentFinder<Texture2D>.Get("UI/InfoButton", false)
+                           ?? ContentFinder<Texture2D>.Get("UI/Icons/InfoButton", false)
+                           ?? ContentFinder<Texture2D>.Get("UI/Commands/InfoButton", false);
+            }
 
             float curY = (float)fiCurY.GetValue(__instance);
             float width = 196f;

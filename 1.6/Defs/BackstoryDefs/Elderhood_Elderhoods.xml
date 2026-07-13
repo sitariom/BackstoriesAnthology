@@ -60,10 +60,8 @@
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
-
-			<li><skill>Intellectual</skill><amount>3</amount></li>
-			<li><skill>Social</skill><amount>3</amount></li>
-
+			<Intellectual>3</Intellectual>
+			<Social>3</Social>
 		</skillGains>
 	</BackstoryDef>
 	<BackstoryDef ParentName="ElderhoodBackstory">
@@ -81,10 +79,8 @@
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
-
-			<li><skill>Intellectual</skill><amount>2</amount></li>
-			<li><skill>Artistic</skill><amount>3</amount></li>
-
+			<Intellectual>2</Intellectual>
+			<Artistic>3</Artistic>
 		</skillGains>
 		<requiredWorkTags>
 
@@ -113,10 +109,8 @@
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
-
-			<li><skill>Intellectual</skill><amount>4</amount></li>
-			<li><skill>Social</skill><amount>3</amount></li>
-
+			<Intellectual>4</Intellectual>
+			<Social>3</Social>
 		</skillGains>
 		<requiredWorkTags>
 
@@ -145,11 +139,9 @@
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
-
-			<li><skill>Melee</skill><amount>2</amount></li>
-			<li><skill>Shooting</skill><amount>2</amount></li>
-			<li><skill>Social</skill><amount>-3</amount></li>
-
+			<Melee>2</Melee>
+			<Shooting>2</Shooting>
+			<Social>-3</Social>
 		</skillGains>
 		<requiredWorkTags>
 
@@ -172,10 +164,8 @@
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
-
-			<li><skill>Crafting</skill><amount>4</amount></li>
-			<li><skill>Construction</skill><amount>2</amount></li>
-
+			<Crafting>4</Crafting>
+			<Construction>2</Construction>
 		</skillGains>
 		<requiredWorkTags>
 
@@ -199,9 +189,7 @@
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
-
-			<li><skill>Social</skill><amount>4</amount></li>
-
+			<Social>4</Social>
 		</skillGains>
 		<requiredWorkTags>
 
@@ -224,11 +212,9 @@
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
-
-			<li><skill>Medicine</skill><amount>1</amount></li>
-			<li><skill>Melee</skill><amount>1</amount></li>
-			<li><skill>Social</skill><amount>-2</amount></li>
-
+			<Medicine>1</Medicine>
+			<Melee>1</Melee>
+			<Social>-2</Social>
 		</skillGains>
 	</BackstoryDef>
 	<BackstoryDef ParentName="ElderhoodBackstory">
@@ -246,9 +232,7 @@
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
-
-			<li><skill>Intellectual</skill><amount>5</amount></li>
-
+			<Intellectual>5</Intellectual>
 		</skillGains>
 		<requiredWorkTags>
 
@@ -276,10 +260,8 @@
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
-
-			<li><skill>Intellectual</skill><amount>3</amount></li>
-			<li><skill>Social</skill><amount>-2</amount></li>
-
+			<Intellectual>3</Intellectual>
+			<Social>-2</Social>
 		</skillGains>
 		<requiredWorkTags>
 
@@ -302,10 +284,8 @@
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
-
-			<li><skill>Shooting</skill><amount>3</amount></li>
-			<li><skill>Melee</skill><amount>1</amount></li>
-
+			<Shooting>3</Shooting>
+			<Melee>1</Melee>
 		</skillGains>
 		<requiredWorkTags>
 
@@ -328,9 +308,7 @@
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
-
-			<li><skill>Crafting</skill><amount>5</amount></li>
-
+			<Crafting>5</Crafting>
 		</skillGains>
 		<requiredWorkTags>
 
@@ -358,11 +336,9 @@
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
-
-			<li><skill>Crafting</skill><amount>2</amount></li>
-			<li><skill>Cooking</skill><amount>1</amount></li>
-			<li><skill>Social</skill><amount>-2</amount></li>
-
+			<Crafting>2</Crafting>
+			<Cooking>1</Cooking>
+			<Social>-2</Social>
 		</skillGains>
 		<requiredWorkTags>
 
@@ -386,10 +362,8 @@
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
-
-			<li><skill>Intellectual</skill><amount>-3</amount></li>
-			<li><skill>Social</skill><amount>-3</amount></li>
-
+			<Intellectual>-3</Intellectual>
+			<Social>-3</Social>
 		</skillGains>
 		<possessions>
 
@@ -412,11 +386,9 @@
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
-
-			<li><skill>Cooking</skill><amount>1</amount></li>
-			<li><skill>Medicine</skill><amount>1</amount></li>
-			<li><skill>Social</skill><amount>-3</amount></li>
-
+			<Cooking>1</Cooking>
+			<Medicine>1</Medicine>
+			<Social>-3</Social>
 		</skillGains>
 	</BackstoryDef>
 	<BackstoryDef ParentName="ElderhoodBackstory">
@@ -434,11 +406,9 @@
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
-
-			<li><skill>Plants</skill><amount>4</amount></li>
-			<li><skill>Medicine</skill><amount>1</amount></li>
-			<li><skill>Social</skill><amount>-2</amount></li>
-
+			<Plants>4</Plants>
+			<Medicine>1</Medicine>
+			<Social>-2</Social>
 		</skillGains>
 		<requiredWorkTags>
 
@@ -461,11 +431,9 @@
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
-
-			<li><skill>Intellectual</skill><amount>2</amount></li>
-			<li><skill>Medicine</skill><amount>1</amount></li>
-			<li><skill>Social</skill><amount>2</amount></li>
-
+			<Intellectual>2</Intellectual>
+			<Medicine>1</Medicine>
+			<Social>2</Social>
 		</skillGains>
 		<requiredWorkTags>
 
@@ -489,10 +457,8 @@
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
-
-			<li><skill>Melee</skill><amount>2</amount></li>
-			<li><skill>Social</skill><amount>3</amount></li>
-
+			<Melee>2</Melee>
+			<Social>3</Social>
 		</skillGains>
 		<requiredWorkTags>
 
@@ -516,10 +482,8 @@
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
-
-			<li><skill>Intellectual</skill><amount>2</amount></li>
-			<li><skill>Animals</skill><amount>3</amount></li>
-
+			<Intellectual>2</Intellectual>
+			<Animals>3</Animals>
 		</skillGains>
 		<requiredWorkTags>
 
@@ -543,10 +507,8 @@
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
-
-			<li><skill>Crafting</skill><amount>3</amount></li>
-			<li><skill>Cooking</skill><amount>3</amount></li>
-
+			<Crafting>3</Crafting>
+			<Cooking>3</Cooking>
 		</skillGains>
 		<requiredWorkTags>
 
@@ -570,10 +532,8 @@
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
-
-			<li><skill>Social</skill><amount>-3</amount></li>
-			<li><skill>Intellectual</skill><amount>3</amount></li>
-
+			<Social>-3</Social>
+			<Intellectual>3</Intellectual>
 		</skillGains>
 		<requiredWorkTags>
 
@@ -596,10 +556,8 @@
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
-
-			<li><skill>Social</skill><amount>4</amount></li>
-			<li><skill>Intellectual</skill><amount>2</amount></li>
-
+			<Social>4</Social>
+			<Intellectual>2</Intellectual>
 		</skillGains>
 		<requiredWorkTags>
 
@@ -628,9 +586,7 @@
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
-
-			<li><skill>Medicine</skill><amount>6</amount></li>
-
+			<Medicine>6</Medicine>
 		</skillGains>
 		<requiredWorkTags>
 
@@ -653,9 +609,7 @@
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
-
-			<li><skill>Animals</skill><amount>6</amount></li>
-
+			<Animals>6</Animals>
 		</skillGains>
 		<requiredWorkTags>
 
@@ -678,9 +632,7 @@
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
-
-			<li><skill>Social</skill><amount>6</amount></li>
-
+			<Social>6</Social>
 		</skillGains>
 		<requiredWorkTags>
 
@@ -703,10 +655,8 @@
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
-
-			<li><skill>Shooting</skill><amount>3</amount></li>
-			<li><skill>Social</skill><amount>1</amount></li>
-
+			<Shooting>3</Shooting>
+			<Social>1</Social>
 		</skillGains>
 		<requiredWorkTags>
 
@@ -729,10 +679,8 @@
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
-
-			<li><skill>Artistic</skill><amount>3</amount></li>
-			<li><skill>Social</skill><amount>3</amount></li>
-
+			<Artistic>3</Artistic>
+			<Social>3</Social>
 		</skillGains>
 		<requiredWorkTags>
 
@@ -755,10 +703,8 @@
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
-
-			<li><skill>Crafting</skill><amount>2</amount></li>
-			<li><skill>Construction</skill><amount>2</amount></li>
-
+			<Crafting>2</Crafting>
+			<Construction>2</Construction>
 		</skillGains>
 		<requiredWorkTags>
 
@@ -782,9 +728,7 @@
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
-
-			<li><skill>Cooking</skill><amount>6</amount></li>
-
+			<Cooking>6</Cooking>
 		</skillGains>
 		<requiredWorkTags>
 
@@ -807,9 +751,7 @@
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
-
-			<li><skill>Cooking</skill><amount>5</amount></li>
-
+			<Cooking>5</Cooking>
 		</skillGains>
 		<requiredWorkTags>
 
@@ -832,10 +774,8 @@
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
-
-			<li><skill>Social</skill><amount>3</amount></li>
-			<li><skill>Intellectual</skill><amount>2</amount></li>
-
+			<Social>3</Social>
+			<Intellectual>2</Intellectual>
 		</skillGains>
 		<requiredWorkTags>
 
@@ -858,10 +798,8 @@
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
-
-			<li><skill>Social</skill><amount>-2</amount></li>
-			<li><skill>Plants</skill><amount>4</amount></li>
-
+			<Social>-2</Social>
+			<Plants>4</Plants>
 		</skillGains>
 		<requiredWorkTags>
 
@@ -884,10 +822,8 @@
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
-
-			<li><skill>Social</skill><amount>-1</amount></li>
-			<li><skill>Intellectual</skill><amount>3</amount></li>
-
+			<Social>-1</Social>
+			<Intellectual>3</Intellectual>
 		</skillGains>
 		<requiredWorkTags>
 
@@ -910,9 +846,7 @@
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
-
-			<li><skill>Artistic</skill><amount>4</amount></li>
-
+			<Artistic>4</Artistic>
 		</skillGains>
 		<requiredWorkTags>
 
@@ -935,9 +869,7 @@
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
-
-			<li><skill>Crafting</skill><amount>4</amount></li>
-
+			<Crafting>4</Crafting>
 		</skillGains>
 		<requiredWorkTags>
 
@@ -960,9 +892,7 @@
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
-
-			<li><skill>Artistic</skill><amount>5</amount></li>
-
+			<Artistic>5</Artistic>
 		</skillGains>
 		<requiredWorkTags>
 
@@ -990,9 +920,7 @@
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
-
-			<li><skill>Social</skill><amount>-3</amount></li>
-
+			<Social>-3</Social>
 		</skillGains>
 		<workDisables>
 
@@ -1015,9 +943,7 @@
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
-
-			<li><skill>Social</skill><amount>5</amount></li>
-
+			<Social>5</Social>
 		</skillGains>
 		<requiredWorkTags>
 
@@ -1040,10 +966,8 @@
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
-
-			<li><skill>Intellectual</skill><amount>2</amount></li>
-			<li><skill>Crafting</skill><amount>1</amount></li>
-
+			<Intellectual>2</Intellectual>
+			<Crafting>1</Crafting>
 		</skillGains>
 		<requiredWorkTags>
 
@@ -1068,10 +992,8 @@
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
-
-			<li><skill>Artistic</skill><amount>3</amount></li>
-			<li><skill>Social</skill><amount>3</amount></li>
-
+			<Artistic>3</Artistic>
+			<Social>3</Social>
 		</skillGains>
 		<requiredWorkTags>
 
