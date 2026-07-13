@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 
@@ -15,9 +15,7 @@
 		</spawnCategories>
 		<commonality>3.5</commonality>
 		<maxTechLevel>Neolithic</maxTechLevel>	
-		<requiredTraits>
-			 <Gourmand>0</Gourmand>
-		</requiredTraits>
+		<requiredTraits><li>Gourmand</li></requiredTraits>
 		<requiredPassions>
 			<li>Cooking</li>
 		</requiredPassions>
@@ -44,9 +42,7 @@
 		</spawnCategories>
 		<commonality>2</commonality>
 		<maxTechLevel>Neolithic</maxTechLevel>	
-		<requiredTraits>
-			 <Ascetic>0</Ascetic>
-		</requiredTraits>
+		<requiredTraits><li>Ascetic</li></requiredTraits>
 		<skillGains><li><skill>Artistic</skill><amount>-5</amount></li><li><skill>Crafting</skill><amount>3</amount></li><li><skill>Cooking</skill><amount>-2</amount></li></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
 	
@@ -74,12 +70,8 @@
 				<minValue>20</minValue>
 			</li>
 		</requiredRecords>
-		<requiredTraits>
-			<Brawler>0</Brawler>
-		</requiredTraits>
-		<forcedTraits>
-			<Tough>0</Tough>
-		</forcedTraits>
+		<requiredTraits><li>Brawler</li></requiredTraits>
+		<forcedTraits><li>Tough</li></forcedTraits>
 		<skillGains><li><skill>Melee</skill><amount>5</amount></li></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
 	
@@ -98,9 +90,7 @@
 		</spawnCategories>
 		<commonality>2</commonality>
 		<maxTechLevel>Neolithic</maxTechLevel>	
-		<requiredTraits>
-			<FastLearner>0</FastLearner>
-		</requiredTraits>
+		<requiredTraits><li>FastLearner</li></requiredTraits>
 		<skillGains><li><skill>Intellectual</skill><amount>4</amount></li><li><skill>Crafting</skill><amount>2</amount></li><li><skill>Social</skill><amount>-2</amount></li></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
 	
@@ -118,9 +108,7 @@
 		</spawnCategories>
 		<commonality>3</commonality>
 		<maxTechLevel>Neolithic</maxTechLevel>
-		<requiredTraits>
-			<TorturedArtist>0</TorturedArtist>
-		</requiredTraits>	
+		<requiredTraits><li>TorturedArtist</li></requiredTraits>	
 		<requiredPassions>
 			<li>Construction</li>
 		</requiredPassions>
@@ -144,9 +132,7 @@
 			<li>ZCB_NaturalMeditation</li> 			<!-- enables natural meditation focus -->
 		</spawnCategories>
 		<commonality>3</commonality>
-		<requiredTraits>
-			 <Bloodlust>0</Bloodlust>
-		</requiredTraits>
+		<requiredTraits><li>Bloodlust</li></requiredTraits>
 		<requiredPassions>
 			<li>Melee</li>
 		</requiredPassions>

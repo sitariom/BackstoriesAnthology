@@ -7,7 +7,7 @@ using Verse;
 namespace UnifiedBackstories
 {
     /// <summary>
-    /// Custom BackstoryDef subclass for childhood backstories.
+    /// Custom BackstoryDef subclass for ZCB childhood backstories.
     /// Replaces ZCB.ZCBackstoryDef from the original Childhood Backstories mod.
     /// Supports additional XML fields: baseDesc, commonality, techLevel,
     /// requiredRecords, requiredSkills, requiredTraits, disallowedTraits, etc.
@@ -18,16 +18,20 @@ namespace UnifiedBackstories
         public int commonality = 1;
         public string minTechLevel;
         public string maxTechLevel;
-        public int colonySize;
+        public string colonySize;       // range format: "1~99"
         public int developmentalStage;
 
+        public string bodyPartsReplaced; // range format: "1~999"
+        public string bodyPartsMissing;  // range format: "1~999"
+        public string father;            // "Dead", "Present", "Absent, Dead"
+        public string mother;            // "Dead", "Present", "Absent, Dead"
+
         public List<ZCBRecordReq> requiredRecords;
+        public List<ZCBRecordRatio> recordRatios;
         public List<ZCBSkillReq> requiredSkills;
-        public List<ZCBTraitReq> requiredTraits;
-        public List<ZCBPassionReq> requiredPassions;
-        public List<ZCBTraitReq> disallowedTraitsCustom;
-        public List<ZCBPassionReq> disallowedPassions;
-        public List<ZCBColonyReq> colonySizeReqs;
+        public List<string> requiredTraits;       // trait names (pawn must have)
+        public List<string> requiredPassions;     // skill names (pawn must have passion)
+        public new List<string> disallowedTraits;  // trait names (pawn must NOT have)
         public List<ZCBPassionGain> passionGains;
         public List<string> disablingWorkTags;
     }
@@ -41,34 +45,24 @@ namespace UnifiedBackstories
         public int maxValue;
     }
 
+    public class ZCBRecordRatio
+    {
+        public string numerator;
+        public string denominator;
+        public float ratio;
+    }
+
     public class ZCBSkillReq
     {
         public string name;
         public int minValue;
-    }
-
-    public class ZCBTraitReq
-    {
-        public string name;
-        public int degree;
-    }
-
-    public class ZCBPassionReq
-    {
-        public string name;
-        public string level;
+        public int maxValue;
     }
 
     public class ZCBPassionGain
     {
-        public string name;
-        public string level;
-    }
-
-    public class ZCBColonyReq
-    {
-        public int minSize;
-        public int maxSize;
+        public string skill;
+        public int level;
     }
 
     // ================================================================

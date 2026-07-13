@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 
@@ -14,9 +14,7 @@
 		</spawnCategories>
 		<commonality>2</commonality>
 		<minTechLevel>Industrial</minTechLevel>
-		<requiredTraits>
-			 <Immunity>-1</Immunity>
-		</requiredTraits>
+		<requiredTraits><li>Immunity</li></requiredTraits>
 		<requiredRecords>
 			<li>
 				<name>TimeInBedForMedicalReasons</name>
@@ -39,9 +37,7 @@
 		</spawnCategories>
 		<minTechLevel>Medieval</minTechLevel>
 		<commonality>1</commonality>
-		<requiredTraits>
-			 <Gourmand>0</Gourmand>
-		</requiredTraits>
+		<requiredTraits><li>Gourmand</li></requiredTraits>
 		<requiredRecords>
 			<li>
 				<name>MealsCooked</name>
@@ -64,9 +60,7 @@
 			<li>ZCB</li> 
 		</spawnCategories>
 		<commonality>1</commonality>
-		<requiredTraits>
-			 <Brawler>0</Brawler>
-		</requiredTraits>
+		<requiredTraits><li>Brawler</li></requiredTraits>
 		<minTechLevel>Medieval</minTechLevel>
 		<requiredRecords>
 			<li>
@@ -102,8 +96,8 @@
 		<commonality>3</commonality>
 		<minTechLevel>Medieval</minTechLevel>
 		<requiredTraits>
-			 <TorturedArtist>0</TorturedArtist>
-			 <TooSmart>0</TooSmart>
+			 <li>TorturedArtist</li>
+			 <li>TooSmart</li>
 		</requiredTraits>
 		<requiredRecords>
 			<li>
@@ -127,9 +121,7 @@
 		</spawnCategories>
 		<minTechLevel>Medieval</minTechLevel>
 		<commonality>3</commonality>
-		<requiredTraits>
-			 <Bloodlust>0</Bloodlust>
-		</requiredTraits>
+		<requiredTraits><li>Bloodlust</li></requiredTraits>
 		<requiredPassions>
 			<li>Melee</li>
 		</requiredPassions>

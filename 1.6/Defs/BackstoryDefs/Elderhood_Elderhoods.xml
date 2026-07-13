@@ -61,9 +61,9 @@
 		<shuffleable>False</shuffleable>
 		<skillGains>
 
-			<Intellectual>3</Intellectual>
-			<Social>3</Social>
-		
+			<li><skill>Intellectual</skill><amount>3</amount></li>
+			<li><skill>Social</skill><amount>3</amount></li>
+
 		</skillGains>
 	</BackstoryDef>
 	<BackstoryDef ParentName="ElderhoodBackstory">
@@ -82,9 +82,9 @@
 		<shuffleable>False</shuffleable>
 		<skillGains>
 
-			<Intellectual>2</Intellectual>
-			<Artistic>3</Artistic>
-		
+			<li><skill>Intellectual</skill><amount>2</amount></li>
+			<li><skill>Artistic</skill><amount>3</amount></li>
+
 		</skillGains>
 		<requiredWorkTags>
 
@@ -94,8 +94,8 @@
 		</requiredWorkTags>
 		<possessions>
 
-			<Novel>1</Novel>
-		
+			<li><thingDef>Novel</thingDef><count>1</count></li>
+
 		</possessions>
 	</BackstoryDef>
 	<BackstoryDef ParentName="ElderhoodBackstory">
@@ -114,9 +114,9 @@
 		<shuffleable>False</shuffleable>
 		<skillGains>
 
-			<Intellectual>4</Intellectual>
-			<Social>3</Social>
-		
+			<li><skill>Intellectual</skill><amount>4</amount></li>
+			<li><skill>Social</skill><amount>3</amount></li>
+
 		</skillGains>
 		<requiredWorkTags>
 
@@ -126,8 +126,8 @@
 		</requiredWorkTags>
 		<possessions>
 
-			<TextBook>1</TextBook>
-		
+			<li><thingDef>TextBook</thingDef><count>1</count></li>
+
 		</possessions>
 	</BackstoryDef>
 	<BackstoryDef ParentName="ElderhoodBackstory">
@@ -146,10 +146,10 @@
 		<shuffleable>False</shuffleable>
 		<skillGains>
 
-			<Melee>2</Melee>
-			<Shooting>2</Shooting>
-			<Social>-3</Social>
-		
+			<li><skill>Melee</skill><amount>2</amount></li>
+			<li><skill>Shooting</skill><amount>2</amount></li>
+			<li><skill>Social</skill><amount>-3</amount></li>
+
 		</skillGains>
 		<requiredWorkTags>
 
@@ -173,9 +173,9 @@
 		<shuffleable>False</shuffleable>
 		<skillGains>
 
-			<Crafting>4</Crafting>
-			<Construction>2</Construction>
-		
+			<li><skill>Crafting</skill><amount>4</amount></li>
+			<li><skill>Construction</skill><amount>2</amount></li>
+
 		</skillGains>
 		<requiredWorkTags>
 
@@ -200,8 +200,8 @@
 		<shuffleable>False</shuffleable>
 		<skillGains>
 
-			<Social>4</Social>
-		
+			<li><skill>Social</skill><amount>4</amount></li>
+
 		</skillGains>
 		<requiredWorkTags>
 
@@ -225,10 +225,10 @@
 		<shuffleable>False</shuffleable>
 		<skillGains>
 
-			<Medicine>1</Medicine>
-			<Melee>1</Melee>
-			<Social>-2</Social>
-		
+			<li><skill>Medicine</skill><amount>1</amount></li>
+			<li><skill>Melee</skill><amount>1</amount></li>
+			<li><skill>Social</skill><amount>-2</amount></li>
+
 		</skillGains>
 	</BackstoryDef>
 	<BackstoryDef ParentName="ElderhoodBackstory">
@@ -247,8 +247,8 @@
 		<shuffleable>False</shuffleable>
 		<skillGains>
 
-			<Intellectual>5</Intellectual>
-		
+			<li><skill>Intellectual</skill><amount>5</amount></li>
+
 		</skillGains>
 		<requiredWorkTags>
 
@@ -257,8 +257,8 @@
 		</requiredWorkTags>
 		<possessions>
 
-			<Schematic>1</Schematic>
-		
+			<li><thingDef>Schematic</thingDef><count>1</count></li>
+
 		</possessions>
 	</BackstoryDef>
 	<BackstoryDef ParentName="ElderhoodBackstory">
@@ -277,9 +277,9 @@
 		<shuffleable>False</shuffleable>
 		<skillGains>
 
-			<Intellectual>3</Intellectual>
-			<Social>-2</Social>
-		
+			<li><skill>Intellectual</skill><amount>3</amount></li>
+			<li><skill>Social</skill><amount>-2</amount></li>
+
 		</skillGains>
 		<requiredWorkTags>
 
@@ -303,9 +303,9 @@
 		<shuffleable>False</shuffleable>
 		<skillGains>
 
-			<Shooting>3</Shooting>
-			<Melee>1</Melee>
-		
+			<li><skill>Shooting</skill><amount>3</amount></li>
+			<li><skill>Melee</skill><amount>1</amount></li>
+
 		</skillGains>
 		<requiredWorkTags>
 
@@ -329,8 +329,8 @@
 		<shuffleable>False</shuffleable>
 		<skillGains>
 
-			<Crafting>5</Crafting>
-		
+			<li><skill>Crafting</skill><amount>5</amount></li>
+
 		</skillGains>
 		<requiredWorkTags>
 
@@ -339,8 +339,8 @@
 		</requiredWorkTags>
 		<possessions>
 
-			<ComponentIndustrial>4</ComponentIndustrial>
-		
+			<li><thingDef>ComponentIndustrial</thingDef><count>4</count></li>
+
 		</possessions>
 	</BackstoryDef>
 	<BackstoryDef ParentName="ElderhoodBackstory">
@@ -359,10 +359,10 @@
 		<shuffleable>False</shuffleable>
 		<skillGains>
 
-			<Crafting>2</Crafting>
-			<Cooking>1</Cooking>
-			<Social>-2</Social>
-		
+			<li><skill>Crafting</skill><amount>2</amount></li>
+			<li><skill>Cooking</skill><amount>1</amount></li>
+			<li><skill>Social</skill><amount>-2</amount></li>
+
 		</skillGains>
 		<requiredWorkTags>
 
@@ -387,14 +387,14 @@
 		<shuffleable>False</shuffleable>
 		<skillGains>
 
-			<Intellectual>-3</Intellectual>
-			<Social>-3</Social>
-		
+			<li><skill>Intellectual</skill><amount>-3</amount></li>
+			<li><skill>Social</skill><amount>-3</amount></li>
+
 		</skillGains>
 		<possessions>
 
-			<Beer>25</Beer>
-		
+			<li><thingDef>Beer</thingDef><count>25</count></li>
+
 		</possessions>
 	</BackstoryDef>
 	<BackstoryDef ParentName="ElderhoodBackstory">
@@ -413,10 +413,10 @@
 		<shuffleable>False</shuffleable>
 		<skillGains>
 
-			<Cooking>1</Cooking>
-			<Medicine>1</Medicine>
-			<Social>-3</Social>
-		
+			<li><skill>Cooking</skill><amount>1</amount></li>
+			<li><skill>Medicine</skill><amount>1</amount></li>
+			<li><skill>Social</skill><amount>-3</amount></li>
+
 		</skillGains>
 	</BackstoryDef>
 	<BackstoryDef ParentName="ElderhoodBackstory">
@@ -435,10 +435,10 @@
 		<shuffleable>False</shuffleable>
 		<skillGains>
 
-			<Plants>4</Plants>
-			<Medicine>1</Medicine>
-			<Social>-2</Social>
-		
+			<li><skill>Plants</skill><amount>4</amount></li>
+			<li><skill>Medicine</skill><amount>1</amount></li>
+			<li><skill>Social</skill><amount>-2</amount></li>
+
 		</skillGains>
 		<requiredWorkTags>
 
@@ -462,10 +462,10 @@
 		<shuffleable>False</shuffleable>
 		<skillGains>
 
-			<Intellectual>2</Intellectual>
-			<Medicine>1</Medicine>
-			<Social>2</Social>
-		
+			<li><skill>Intellectual</skill><amount>2</amount></li>
+			<li><skill>Medicine</skill><amount>1</amount></li>
+			<li><skill>Social</skill><amount>2</amount></li>
+
 		</skillGains>
 		<requiredWorkTags>
 
@@ -490,9 +490,9 @@
 		<shuffleable>False</shuffleable>
 		<skillGains>
 
-			<Melee>2</Melee>
-			<Social>3</Social>
-		
+			<li><skill>Melee</skill><amount>2</amount></li>
+			<li><skill>Social</skill><amount>3</amount></li>
+
 		</skillGains>
 		<requiredWorkTags>
 
@@ -517,9 +517,9 @@
 		<shuffleable>False</shuffleable>
 		<skillGains>
 
-			<Intellectual>2</Intellectual>
-			<Animals>3</Animals>
-		
+			<li><skill>Intellectual</skill><amount>2</amount></li>
+			<li><skill>Animals</skill><amount>3</amount></li>
+
 		</skillGains>
 		<requiredWorkTags>
 
@@ -544,9 +544,9 @@
 		<shuffleable>False</shuffleable>
 		<skillGains>
 
-			<Crafting>3</Crafting>
-			<Cooking>3</Cooking>
-		
+			<li><skill>Crafting</skill><amount>3</amount></li>
+			<li><skill>Cooking</skill><amount>3</amount></li>
+
 		</skillGains>
 		<requiredWorkTags>
 
@@ -571,9 +571,9 @@
 		<shuffleable>False</shuffleable>
 		<skillGains>
 
-			<Social>-3</Social>
-			<Intellectual>3</Intellectual>
-		
+			<li><skill>Social</skill><amount>-3</amount></li>
+			<li><skill>Intellectual</skill><amount>3</amount></li>
+
 		</skillGains>
 		<requiredWorkTags>
 
@@ -597,9 +597,9 @@
 		<shuffleable>False</shuffleable>
 		<skillGains>
 
-			<Social>4</Social>
-			<Intellectual>2</Intellectual>
-		
+			<li><skill>Social</skill><amount>4</amount></li>
+			<li><skill>Intellectual</skill><amount>2</amount></li>
+
 		</skillGains>
 		<requiredWorkTags>
 
@@ -609,8 +609,8 @@
 		</requiredWorkTags>
 		<forcedTraits>
 
-			<Kind>0</Kind>
-		
+			<li><def>Kind</def><degree>0</degree></li>
+
 		</forcedTraits>
 	</BackstoryDef>
 	<BackstoryDef ParentName="ElderhoodBackstory">
@@ -629,8 +629,8 @@
 		<shuffleable>False</shuffleable>
 		<skillGains>
 
-			<Medicine>6</Medicine>
-		
+			<li><skill>Medicine</skill><amount>6</amount></li>
+
 		</skillGains>
 		<requiredWorkTags>
 
@@ -654,8 +654,8 @@
 		<shuffleable>False</shuffleable>
 		<skillGains>
 
-			<Animals>6</Animals>
-		
+			<li><skill>Animals</skill><amount>6</amount></li>
+
 		</skillGains>
 		<requiredWorkTags>
 
@@ -679,8 +679,8 @@
 		<shuffleable>False</shuffleable>
 		<skillGains>
 
-			<Social>6</Social>
-		
+			<li><skill>Social</skill><amount>6</amount></li>
+
 		</skillGains>
 		<requiredWorkTags>
 
@@ -704,9 +704,9 @@
 		<shuffleable>False</shuffleable>
 		<skillGains>
 
-			<Shooting>3</Shooting>
-			<Social>1</Social>
-		
+			<li><skill>Shooting</skill><amount>3</amount></li>
+			<li><skill>Social</skill><amount>1</amount></li>
+
 		</skillGains>
 		<requiredWorkTags>
 
@@ -730,9 +730,9 @@
 		<shuffleable>False</shuffleable>
 		<skillGains>
 
-			<Artistic>3</Artistic>
-			<Social>3</Social>
-		
+			<li><skill>Artistic</skill><amount>3</amount></li>
+			<li><skill>Social</skill><amount>3</amount></li>
+
 		</skillGains>
 		<requiredWorkTags>
 
@@ -756,9 +756,9 @@
 		<shuffleable>False</shuffleable>
 		<skillGains>
 
-			<Crafting>2</Crafting>
-			<Construction>2</Construction>
-		
+			<li><skill>Crafting</skill><amount>2</amount></li>
+			<li><skill>Construction</skill><amount>2</amount></li>
+
 		</skillGains>
 		<requiredWorkTags>
 
@@ -783,8 +783,8 @@
 		<shuffleable>False</shuffleable>
 		<skillGains>
 
-			<Cooking>6</Cooking>
-		
+			<li><skill>Cooking</skill><amount>6</amount></li>
+
 		</skillGains>
 		<requiredWorkTags>
 
@@ -808,8 +808,8 @@
 		<shuffleable>False</shuffleable>
 		<skillGains>
 
-			<Cooking>5</Cooking>
-		
+			<li><skill>Cooking</skill><amount>5</amount></li>
+
 		</skillGains>
 		<requiredWorkTags>
 
@@ -833,9 +833,9 @@
 		<shuffleable>False</shuffleable>
 		<skillGains>
 
-			<Social>3</Social>
-			<Intellectual>2</Intellectual>
-		
+			<li><skill>Social</skill><amount>3</amount></li>
+			<li><skill>Intellectual</skill><amount>2</amount></li>
+
 		</skillGains>
 		<requiredWorkTags>
 
@@ -859,9 +859,9 @@
 		<shuffleable>False</shuffleable>
 		<skillGains>
 
-			<Social>-2</Social>
-			<Plants>4</Plants>
-		
+			<li><skill>Social</skill><amount>-2</amount></li>
+			<li><skill>Plants</skill><amount>4</amount></li>
+
 		</skillGains>
 		<requiredWorkTags>
 
@@ -885,9 +885,9 @@
 		<shuffleable>False</shuffleable>
 		<skillGains>
 
-			<Social>-1</Social>
-			<Intellectual>3</Intellectual>
-		
+			<li><skill>Social</skill><amount>-1</amount></li>
+			<li><skill>Intellectual</skill><amount>3</amount></li>
+
 		</skillGains>
 		<requiredWorkTags>
 
@@ -911,8 +911,8 @@
 		<shuffleable>False</shuffleable>
 		<skillGains>
 
-			<Artistic>4</Artistic>
-		
+			<li><skill>Artistic</skill><amount>4</amount></li>
+
 		</skillGains>
 		<requiredWorkTags>
 
@@ -936,8 +936,8 @@
 		<shuffleable>False</shuffleable>
 		<skillGains>
 
-			<Crafting>4</Crafting>
-		
+			<li><skill>Crafting</skill><amount>4</amount></li>
+
 		</skillGains>
 		<requiredWorkTags>
 
@@ -961,8 +961,8 @@
 		<shuffleable>False</shuffleable>
 		<skillGains>
 
-			<Artistic>5</Artistic>
-		
+			<li><skill>Artistic</skill><amount>5</amount></li>
+
 		</skillGains>
 		<requiredWorkTags>
 
@@ -971,8 +971,8 @@
 		</requiredWorkTags>
 		<forcedTraits>
 
-			<TorturedArtist>0</TorturedArtist>
-		
+			<li><def>TorturedArtist</def><degree>0</degree></li>
+
 		</forcedTraits>
 	</BackstoryDef>
 	<BackstoryDef ParentName="ElderhoodBackstory">
@@ -991,8 +991,8 @@
 		<shuffleable>False</shuffleable>
 		<skillGains>
 
-			<Social>-3</Social>
-		
+			<li><skill>Social</skill><amount>-3</amount></li>
+
 		</skillGains>
 		<workDisables>
 
@@ -1016,8 +1016,8 @@
 		<shuffleable>False</shuffleable>
 		<skillGains>
 
-			<Social>5</Social>
-		
+			<li><skill>Social</skill><amount>5</amount></li>
+
 		</skillGains>
 		<requiredWorkTags>
 
@@ -1041,9 +1041,9 @@
 		<shuffleable>False</shuffleable>
 		<skillGains>
 
-			<Intellectual>2</Intellectual>
-			<Crafting>1</Crafting>
-		
+			<li><skill>Intellectual</skill><amount>2</amount></li>
+			<li><skill>Crafting</skill><amount>1</amount></li>
+
 		</skillGains>
 		<requiredWorkTags>
 
@@ -1069,9 +1069,9 @@
 		<shuffleable>False</shuffleable>
 		<skillGains>
 
-			<Artistic>3</Artistic>
-			<Social>3</Social>
-		
+			<li><skill>Artistic</skill><amount>3</amount></li>
+			<li><skill>Social</skill><amount>3</amount></li>
+
 		</skillGains>
 		<requiredWorkTags>
 

@@ -298,6 +298,7 @@ namespace UnifiedBackstories
     /// Character card UI: display elderhood info.
     /// Uses the original approach with a Postfix on DoLeftSection.
     /// </summary>
+    [StaticConstructorOnStartup]
     [HarmonyPatch]
     public static class CharacterCardUtility_DoLeftSection_Patch
     {
@@ -305,7 +306,7 @@ namespace UnifiedBackstories
         private static FieldInfo fiCurY;
         private static FieldInfo fiPawn;
         private static FieldInfo fiLeft;
-        private static Texture2D _infoIcon;
+        private static readonly Texture2D _infoIcon = ContentFinder<Texture2D>.Get("UI/InfoButton");
 
         public static MethodBase TargetMethod()
         {
@@ -315,7 +316,6 @@ namespace UnifiedBackstories
                   ?? _ccuType.GetField("currentY", BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public);
             fiPawn = _ccuType.GetField("pawn", BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public);
             fiLeft = _ccuType.GetField("leftRect", BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public);
-            _infoIcon = AccessTools.Field(typeof(Widgets), "InfoButton")?.GetValue(null) as Texture2D;
             return AccessTools.Method(_ccuType, "DoLeftSection");
         }
 

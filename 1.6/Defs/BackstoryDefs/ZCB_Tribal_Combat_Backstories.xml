@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 <!-- child warrior -->
@@ -53,9 +53,7 @@
 				<minValue>7</minValue>
 			</li>
 		</requiredSkills>
-		<disallowedTraits>
-			<ShootingAccuracy>-1</ShootingAccuracy>
-		</disallowedTraits>
+		<disallowedTraits><li>ShootingAccuracy</li></disallowedTraits>
 		<skillGains><li><skill>Shooting</skill><amount>7</amount></li></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
 

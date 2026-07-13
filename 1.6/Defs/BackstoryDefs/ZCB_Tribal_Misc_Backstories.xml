@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 
@@ -110,8 +110,8 @@
 		</requiredRecords>
 		<passionGains>
 			<li>
-				<key>Intellectual</key>
-				<value>1</value>
+				<skill>Intellectual</skill>
+				<level>1</level>
 			</li>
 		</passionGains>
 		<skillGains><li><skill>Intellectual</skill><amount>4</amount></li><li><skill>Artistic</skill><amount>1</amount></li><li><skill>Animals</skill><amount>-2</amount></li></skillGains>
