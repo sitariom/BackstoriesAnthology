@@ -72,30 +72,4 @@ namespace UnifiedBackstories
     }
 
     // ================================================================
-    // HARMONY PATCHES for ZCB system
-    // ================================================================
-
-    /// <summary>
-    /// Provides tooltip for ZCB backstories showing requirements.
-    /// </summary>
-    [HarmonyPatch(typeof(TooltipUtility), "GetAssignmentTooltip")]
-    public static class ZCB_Tooltip_Patch
-    {
-        public static void Postfix(object assignment, ref string __result)
-        {
-            if (assignment is BackstoryDef bs && bs is ZCBackstoryDef zcb)
-            {
-                var sb = new System.Text.StringBuilder();
-                sb.AppendLine(bs.title != null ? bs.title.CapitalizeFirst() : bs.defName);
-
-                if (!string.IsNullOrEmpty(zcb.minTechLevel))
-                    sb.AppendLine("Min tech: " + zcb.minTechLevel);
-
-                if (zcb.commonality > 1)
-                    sb.AppendLine("Commonality: " + zcb.commonality);
-
-                __result = sb.ToString().TrimEnd();
-            }
-        }
-    }
 }
