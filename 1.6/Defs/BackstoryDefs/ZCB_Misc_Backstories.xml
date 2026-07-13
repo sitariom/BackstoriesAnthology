@@ -3,7 +3,7 @@
 
 
 	<!-- fear of fire -->
-	<ZCB.ZCBackstoryDef>
+	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_ChildBurnVictim</defName>
 		<title>burn victim</title>
 		<titleShort>burned</titleShort>
@@ -19,17 +19,15 @@
 				<minValue>30000</minValue>
 			</li>
 		</requiredRecords>
-		<skillGains>
-			<Medicine>2</Medicine>
-		</skillGains>
+		<skillGains><li><skill>Medicine</skill><amount>2</amount></li></skillGains>
 		<workDisables>
 			<li>Firefighting</li>
 		</workDisables>
-	</ZCB.ZCBackstoryDef>
+	</UnifiedBackstories.ZCBackstoryDef>
 
 
 	<!-- juvenile delinquent -->
-	<ZCB.ZCBackstoryDef>
+	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_JuvenileDelinquent</defName>
 		<title>juvenile delinquent</title>
 		<titleShort>delinquent</titleShort>
@@ -46,19 +44,15 @@
 				<ratio>0.1</ratio>
 			</li>
 		</recordRatios>
-		<skillGains>
-			<Melee>2</Melee>
-			<Social>2</Social>
-			<Artistic>2</Artistic>
-		</skillGains>
+		<skillGains><li><skill>Melee</skill><amount>2</amount></li><li><skill>Social</skill><amount>2</amount></li><li><skill>Artistic</skill><amount>2</amount></li></skillGains>
 		<workDisables>
 			<li>Intellectual</li>
 		</workDisables>
-	</ZCB.ZCBackstoryDef>
+	</UnifiedBackstories.ZCBackstoryDef>
 
 
 	<!-- sole survivor -->
-	<ZCB.ZCBackstoryDef>
+	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_SoleSurvivor</defName>
 		<title>sole suvivor</title>
 		<titleShort>suvivor</titleShort>
@@ -70,24 +64,12 @@
 		</spawnCategories>
 		<commonality>100</commonality><!-- this should almost always be picked when the child qualifies -->
 		<colonySize>1~1</colonySize>
-		<skillGains><!-- gains in most skills, loss in social -->
-			<Medicine>2</Medicine>
-			<Social>-3</Social>
-			<Intellectual>1</Intellectual>
-			<Crafting>3</Crafting>
-			<Animals>1</Animals>
-			<Plants>3</Plants>
-			<Cooking>2</Cooking>
-			<Mining>1</Mining>
-			<Construction>3</Construction>
-			<Shooting>2</Shooting>
-			<Melee>2</Melee>
-		</skillGains>
-	</ZCB.ZCBackstoryDef>
+		<skillGains><li><skill>Medicine</skill><amount>2</amount></li><li><skill>Social</skill><amount>-3</amount></li><li><skill>Intellectual</skill><amount>1</amount></li><li><skill>Crafting</skill><amount>3</amount></li><li><skill>Animals</skill><amount>1</amount></li><li><skill>Plants</skill><amount>3</amount></li><li><skill>Cooking</skill><amount>2</amount></li><li><skill>Mining</skill><amount>1</amount></li><li><skill>Construction</skill><amount>3</amount></li><li><skill>Shooting</skill><amount>2</amount></li><li><skill>Melee</skill><amount>2</amount></li></skillGains>
+	</UnifiedBackstories.ZCBackstoryDef>
 
 
 	<!-- serial killer -->
-	<ZCB.ZCBackstoryDef>
+	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_SerialKiller</defName>
 		<title>serial killer</title>
 		<titleShort>killer</titleShort>
@@ -107,19 +89,16 @@
 				<maxValue>5</maxValue>
 			</li>
 		</requiredRecords>
-		<skillGains>
-			<Melee>5</Melee>
-			<Social>3</Social>
-		</skillGains>
+		<skillGains><li><skill>Melee</skill><amount>5</amount></li><li><skill>Social</skill><amount>3</amount></li></skillGains>
 		<workDisables>
 			<li>Caring</li>
 		</workDisables>
-	</ZCB.ZCBackstoryDef>
+	</UnifiedBackstories.ZCBackstoryDef>
 
 
 
 	<!-- morbid curiosity -->
-	<ZCB.ZCBackstoryDef>
+	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_MorbidCuriosity</defName>
 		<title>morbid curiosity</title>
 		<titleShort>morbid</titleShort>
@@ -146,18 +125,15 @@
 		<requiredTraits>
 			<Psychopath>0</Psychopath>
 		</requiredTraits>
-		<skillGains>
-			<Medicine>4</Medicine>
-			<Intellectual>3</Intellectual>
-		</skillGains>
+		<skillGains><li><skill>Medicine</skill><amount>4</amount></li><li><skill>Intellectual</skill><amount>3</amount></li></skillGains>
 		<workDisables>
 			<li>Social</li>
 		</workDisables>
-	</ZCB.ZCBackstoryDef>
+	</UnifiedBackstories.ZCBackstoryDef>
 	
 	
 <!-- bookworm -->
-	<ZCB.ZCBackstoryDef>
+	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_BulliedBookworm</defName>
 		<title>bullied bookworm</title>
 		<titleShort>bookworm</titleShort>
@@ -188,17 +164,14 @@
 		<workDisables>
 			<li>Social</li>
 		</workDisables>
-		<skillGains>
-			<Intellectual>5</Intellectual>
-			<Melee>2</Melee>
-		</skillGains>
-	</ZCB.ZCBackstoryDef>
+		<skillGains><li><skill>Intellectual</skill><amount>5</amount></li><li><skill>Melee</skill><amount>2</amount></li></skillGains>
+	</UnifiedBackstories.ZCBackstoryDef>
 	
 	
 	<!-- ================================== HEALTH ================================== -->
 
 	<!-- surgery victim -->
-	<ZCB.ZCBackstoryDef>
+	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_SurgeryVictim</defName>
 		<title>surgery victim</title>
 		<titleShort>victim</titleShort>
@@ -216,16 +189,12 @@
 		<disallowedTraits>
 			<Transhumanist>0</Transhumanist>
 		</disallowedTraits>
-		<skillGains>
-			<Medicine>-3</Medicine>
-			<Plants>3</Plants>
-			<Animals>1</Animals>
-		</skillGains>
-	</ZCB.ZCBackstoryDef>
+		<skillGains><li><skill>Medicine</skill><amount>-3</amount></li><li><skill>Plants</skill><amount>3</amount></li><li><skill>Animals</skill><amount>1</amount></li></skillGains>
+	</UnifiedBackstories.ZCBackstoryDef>
 
 
 	<!-- amputee -->
-	<ZCB.ZCBackstoryDef>
+	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_Amputee</defName>
 		<title>amputee</title>
 		<titleShort>amputee</titleShort>
@@ -243,16 +212,12 @@
 		<disallowedTraits>
 			<BodyPurist>0</BodyPurist>
 		</disallowedTraits>
-		<skillGains>
-			<Medicine>4</Medicine>
-			<Intellectual>2</Intellectual>
-			<Plants>-1</Plants>
-		</skillGains>
-	</ZCB.ZCBackstoryDef>
+		<skillGains><li><skill>Medicine</skill><amount>4</amount></li><li><skill>Intellectual</skill><amount>2</amount></li><li><skill>Plants</skill><amount>-1</amount></li></skillGains>
+	</UnifiedBackstories.ZCBackstoryDef>
 
 
 	<!-- butchered butcher -->
-	<ZCB.ZCBackstoryDef>
+	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_ButcheredButcher</defName>
 		<title>butchered butcher</title>
 		<titleShort>butchered</titleShort>
@@ -275,17 +240,12 @@
 		<disallowedTraits>
 			<BodyPurist>0</BodyPurist>
 		</disallowedTraits>
-		<skillGains>
-			<Medicine>4</Medicine>
-			<Cooking>2</Cooking>
-			<Intellectual>1</Intellectual>
-			<Social>-2</Social>
-		</skillGains>
-	</ZCB.ZCBackstoryDef>
+		<skillGains><li><skill>Medicine</skill><amount>4</amount></li><li><skill>Cooking</skill><amount>2</amount></li><li><skill>Intellectual</skill><amount>1</amount></li><li><skill>Social</skill><amount>-2</amount></li></skillGains>
+	</UnifiedBackstories.ZCBackstoryDef>
 
 
 	<!-- wimpy transhumanist -->
-	<ZCB.ZCBackstoryDef>
+	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_WimpyTranshumanist</defName>
 		<title>wimpy transhumanist</title>
 		<titleShort>wimp</titleShort>
@@ -305,14 +265,12 @@
 		<disallowedTraits>
 			<BodyPurist>0</BodyPurist>
 		</disallowedTraits>
-		<skillGains>
-			<Medicine>3</Medicine>
-		</skillGains>
-	</ZCB.ZCBackstoryDef>
+		<skillGains><li><skill>Medicine</skill><amount>3</amount></li></skillGains>
+	</UnifiedBackstories.ZCBackstoryDef>
 
 
 	<!-- transhumanist -->
-	<ZCB.ZCBackstoryDef>
+	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_Transhumanist</defName>
 		<title>transhumanist</title>
 		<titleShort>transhumanist</titleShort>
@@ -329,10 +287,8 @@
 		<disallowedTraits>
 			<BodyPurist>0</BodyPurist>
 		</disallowedTraits>
-		<skillGains>
-			<Medicine>5</Medicine>
-		</skillGains>
-	</ZCB.ZCBackstoryDef>
+		<skillGains><li><skill>Medicine</skill><amount>5</amount></li></skillGains>
+	</UnifiedBackstories.ZCBackstoryDef>
 
 
 

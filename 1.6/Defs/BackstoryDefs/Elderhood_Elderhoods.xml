@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<BackstoryDef ParentName="ElderhoodBackstory">
-		<defName>Elderhood_PlayerColonist</defName>
+		<defName>UB_Elderhood_PlayerColonist</defName>
 		<title>Colony old man</title>
 		<titleFemale>Colony old woman</titleFemale>
 		<titleShort>Old man</titleShort>
@@ -16,7 +16,7 @@
 		<shuffleable>False</shuffleable>
 	</BackstoryDef>
 	<BackstoryDef ParentName="ElderhoodBackstory">
-		<defName>Elderhood_PlayerPrisoner</defName>
+		<defName>UB_Elderhood_PlayerPrisoner</defName>
 		<title>Prisoner old man</title>
 		<titleFemale>Prisoner old woman</titleFemale>
 		<titleShort>Old man</titleShort>
@@ -31,7 +31,7 @@
 		<shuffleable>False</shuffleable>
 	</BackstoryDef>
 	<BackstoryDef ParentName="ElderhoodBackstory">
-		<defName>Elderhood_PlayerSlave</defName>
+		<defName>UB_Elderhood_PlayerSlave</defName>
 		<title>Slave old man</title>
 		<titleFemale>Slave old woman</titleFemale>
 		<titleShort>Old man</titleShort>
@@ -1083,9 +1083,11 @@
 
 	<BackstoryDef ParentName="ElderhoodBackstory">
 		<!-- Only for CreepJoiners -->
-		<defName>Elderhood_Unknown</defName>
+		<defName>UB_Elderhood_Unknown</defName>
 		<title>unknown</title>
+		<titleFemale>unknown</titleFemale>
 		<titleShort>unknown</titleShort>
+		<titleShortFemale>unknown</titleShortFemale>
 		<description>[PAWN_nameDef]'s origins are unknown.</description>
 		<spawnCategories Inherit="false">
 			<li>SpecialElderhood</li>

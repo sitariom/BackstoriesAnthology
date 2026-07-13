@@ -3,7 +3,7 @@
 
 
 <!-- ugly -->
-	<ZCB.ZCBackstoryDef>
+	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_UglyChild</defName>
 		<title>ugly child</title>
 		<titleShort>ugly</titleShort>
@@ -20,14 +20,12 @@
 		<requiredTraits>
 			 <Beauty>-1</Beauty>
 		</requiredTraits>
-		<skillGains>
-			<Social>3</Social>
-		</skillGains>
-	</ZCB.ZCBackstoryDef>
+		<skillGains><li><skill>Social</skill><amount>3</amount></li></skillGains>
+	</UnifiedBackstories.ZCBackstoryDef>
 	
 	
 <!-- staggeringly ugly -->
-	<ZCB.ZCBackstoryDef>
+	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_UglyChild2</defName>
 		<title>staggeringly ugly child</title>
 		<titleShort>ugly</titleShort>
@@ -50,15 +48,12 @@
 		<requiredTraits>
 			 <Beauty>-2</Beauty>
 		</requiredTraits>
-		<skillGains>
-			<Social>5</Social>
-			<Cooking>2</Cooking>
-		</skillGains>
-	</ZCB.ZCBackstoryDef>
+		<skillGains><li><skill>Social</skill><amount>5</amount></li><li><skill>Cooking</skill><amount>2</amount></li></skillGains>
+	</UnifiedBackstories.ZCBackstoryDef>
 	
 
 <!-- Undergrounder -->
-	<ZCB.ZCBackstoryDef>
+	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_Undergrounder</defName>
 		<title>tunnel kid</title>
 		<titleShort>tunnel kid</titleShort>
@@ -75,17 +70,13 @@
 		<requiredPassions>
 			<li>Mining</li>
 		</requiredPassions>
-		<skillGains>
-			<Mining>5</Mining>
-			<Plants>4</Plants>
-			<Intellectual>-3</Intellectual>
-		</skillGains>
-	</ZCB.ZCBackstoryDef>
+		<skillGains><li><skill>Mining</skill><amount>5</amount></li><li><skill>Plants</skill><amount>4</amount></li><li><skill>Intellectual</skill><amount>-3</amount></li></skillGains>
+	</UnifiedBackstories.ZCBackstoryDef>
 	
 
 	
 	<!-- Bloodlust ranged -->
-	<ZCB.ZCBackstoryDef>
+	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_Assassin</defName>
 		<title>assassin</title>
 		<titleShort>assassin</titleShort>
@@ -101,11 +92,8 @@
 		<requiredPassions>
 			<li>Shooting</li>
 		</requiredPassions>
-		<skillGains>
-			<Shooting>6</Shooting>
-			<Social>-4</Social>
-		</skillGains>
-	</ZCB.ZCBackstoryDef>
+		<skillGains><li><skill>Shooting</skill><amount>6</amount></li><li><skill>Social</skill><amount>-4</amount></li></skillGains>
+	</UnifiedBackstories.ZCBackstoryDef>
 	
 	
 </Defs>

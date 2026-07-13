@@ -2,7 +2,7 @@
 <Defs>
 
 <!-- child nurse -->
-	<ZCB.ZCBackstoryDef>
+	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_ChildNurse</defName>
 		<title>child nurse</title>
 		<titleShort>nurse</titleShort>
@@ -18,17 +18,12 @@
 				<minValue>30</minValue>
 			</li>
 		</requiredRecords>
-		<skillGains>
-				<Medicine>3</Medicine>
-				<Social>1</Social>
-				<Melee>-1</Melee>
-				<Shooting>-1</Shooting>
-		</skillGains>
-	</ZCB.ZCBackstoryDef>
+		<skillGains><li><skill>Medicine</skill><amount>3</amount></li><li><skill>Social</skill><amount>1</amount></li><li><skill>Melee</skill><amount>-1</amount></li><li><skill>Shooting</skill><amount>-1</amount></li></skillGains>
+	</UnifiedBackstories.ZCBackstoryDef>
 
 
 <!-- child doctor -->
-	<ZCB.ZCBackstoryDef>
+	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_ChildDoctor</defName>
 		<title>child doctor</title>
 		<titleShort>doctor</titleShort>
@@ -48,19 +43,16 @@
 		<requiredPassions>
 			<li>Medicine</li>
 		</requiredPassions>
-		<skillGains>
-				<Medicine>5</Medicine>
-				<Social>1</Social>
-		</skillGains>
+		<skillGains><li><skill>Medicine</skill><amount>5</amount></li><li><skill>Social</skill><amount>1</amount></li></skillGains>
 		<workDisables>
 			<li>Violent</li>
 		</workDisables>
-	</ZCB.ZCBackstoryDef>
+	</UnifiedBackstories.ZCBackstoryDef>
 
 
 
 <!-- farmhand -->
-	<ZCB.ZCBackstoryDef>
+	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_Farmhand</defName>
 		<title>farmhand</title>
 		<titleShort>farmhand</titleShort>
@@ -82,15 +74,12 @@
 				<minValue>5</minValue>
 			</li>
 		</requiredSkills>
-		<skillGains>
-				<Plants>3</Plants>
-				<Animals>1</Animals>
-		</skillGains>
-	</ZCB.ZCBackstoryDef>
+		<skillGains><li><skill>Plants</skill><amount>3</amount></li><li><skill>Animals</skill><amount>1</amount></li></skillGains>
+	</UnifiedBackstories.ZCBackstoryDef>
 	
 	
 <!-- ranch kid -->
-	<ZCB.ZCBackstoryDef>
+	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_RanchKid</defName>
 		<title>ranch kid</title>
 		<titleShort>rancher</titleShort>
@@ -112,15 +101,12 @@
 				<minValue>4</minValue>
 			</li>
 		</requiredSkills>
-		<skillGains>
-				<Medicine>1</Medicine>
-				<Animals>3</Animals>
-		</skillGains>
-	</ZCB.ZCBackstoryDef>
+		<skillGains><li><skill>Medicine</skill><amount>1</amount></li><li><skill>Animals</skill><amount>3</amount></li></skillGains>
+	</UnifiedBackstories.ZCBackstoryDef>
 
 
 <!-- kitchen aid -->
-	<ZCB.ZCBackstoryDef>
+	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_KitchenAid</defName>
 		<title>kitchen aid</title>
 		<titleShort>cook</titleShort>
@@ -141,16 +127,12 @@
 				<maxValue>5</maxValue>
 			</li>
 		</requiredSkills>
-		<skillGains>
-				<Cooking>4</Cooking>
-				<Plants>1</Plants>
-				<Construction>-3</Construction>
-		</skillGains>
-	</ZCB.ZCBackstoryDef>
+		<skillGains><li><skill>Cooking</skill><amount>4</amount></li><li><skill>Plants</skill><amount>1</amount></li><li><skill>Construction</skill><amount>-3</amount></li></skillGains>
+	</UnifiedBackstories.ZCBackstoryDef>
 
 
 <!-- child laborer -->
-	<ZCB.ZCBackstoryDef>
+	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_ChildLaborer</defName>
 		<title>child laborer</title>
 		<titleShort>laborer</titleShort>
@@ -176,19 +158,15 @@
 				<maxValue>2</maxValue>
 			</li>
 		</requiredSkills>
-		<skillGains>
-				<Crafting>3</Crafting>
-				<Construction>3</Construction>
-				<Artistic>2</Artistic>
-		</skillGains>
+		<skillGains><li><skill>Crafting</skill><amount>3</amount></li><li><skill>Construction</skill><amount>3</amount></li><li><skill>Artistic</skill><amount>2</amount></li></skillGains>
 		<workDisables>
 			<li>Intellectual</li>
 		</workDisables>
-	</ZCB.ZCBackstoryDef>
+	</UnifiedBackstories.ZCBackstoryDef>
 
 
 <!-- budding artist -->
-	<ZCB.ZCBackstoryDef>
+	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_BuddingArtist</defName>
 		<title>budding artist</title>
 		<titleShort>artist</titleShort>
@@ -207,11 +185,8 @@
 		<requiredPassions>
 			<li>Artistic</li>
 		</requiredPassions>
-		<skillGains>
-				<Artistic>4</Artistic>
-				<Construction>-3</Construction>
-		</skillGains>
-	</ZCB.ZCBackstoryDef>
+		<skillGains><li><skill>Artistic</skill><amount>4</amount></li><li><skill>Construction</skill><amount>-3</amount></li></skillGains>
+	</UnifiedBackstories.ZCBackstoryDef>
 
 
 </Defs>

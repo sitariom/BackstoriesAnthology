@@ -3,7 +3,7 @@
 
 
 <!-- Sickly Child  -->
-	<ZCB.ZCBackstoryDef>
+	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_SicklyChild</defName>
 		<title>sickly child</title>
 		<titleShort>sickly</titleShort>
@@ -23,15 +23,12 @@
 				<minValue>120000</minValue>
 			</li>
 		</requiredRecords>
-		<skillGains>
-				<Medicine>4</Medicine>
-				<Social>3</Social>
-		</skillGains>
-	</ZCB.ZCBackstoryDef>
+		<skillGains><li><skill>Medicine</skill><amount>4</amount></li><li><skill>Social</skill><amount>3</amount></li></skillGains>
+	</UnifiedBackstories.ZCBackstoryDef>
 	
 		
 <!-- Gourmand -->
-	<ZCB.ZCBackstoryDef>
+	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_Gourmand</defName>
 		<title>gourmand</title>
 		<titleShort>gourmand</titleShort>
@@ -51,15 +48,13 @@
 				<minValue>10</minValue>
 			</li>
 		</requiredRecords>
-		<skillGains>
-				<Cooking>4</Cooking>
-		</skillGains>
-	</ZCB.ZCBackstoryDef>
+		<skillGains><li><skill>Cooking</skill><amount>4</amount></li></skillGains>
+	</UnifiedBackstories.ZCBackstoryDef>
 	
 		
 
 <!-- Brawler -->
-	<ZCB.ZCBackstoryDef>
+	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_Brawler</defName>
 		<title>brawler</title>
 		<titleShort>brawler</titleShort>
@@ -87,19 +82,15 @@
 				<minValue>3</minValue>
 			</li>
 		</requiredRecords>
-		<skillGains>
-				<Melee>5</Melee>
-				<Medicine>2</Medicine>
-				<Social>-5</Social>
-		</skillGains>
-	</ZCB.ZCBackstoryDef>
+		<skillGains><li><skill>Melee</skill><amount>5</amount></li><li><skill>Medicine</skill><amount>2</amount></li><li><skill>Social</skill><amount>-5</amount></li></skillGains>
+	</UnifiedBackstories.ZCBackstoryDef>
 	
 	
 	
 	
 
 <!-- Mad Prodigy -->
-	<ZCB.ZCBackstoryDef>
+	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_MadProdogy</defName>
 		<title>mad prodigy</title>
 		<titleShort>prodigy</titleShort>
@@ -120,16 +111,12 @@
 				<minValue>3</minValue>
 			</li>
 		</requiredRecords>
-		<skillGains>
-				<Artistic>5</Artistic>
-				<Crafting>4</Crafting>
-				<Cooking>2</Cooking>
-		</skillGains>
-	</ZCB.ZCBackstoryDef>
+		<skillGains><li><skill>Artistic</skill><amount>5</amount></li><li><skill>Crafting</skill><amount>4</amount></li><li><skill>Cooking</skill><amount>2</amount></li></skillGains>
+	</UnifiedBackstories.ZCBackstoryDef>
 	
 	
 	<!-- Bloodlust melee -->
-	<ZCB.ZCBackstoryDef>
+	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_Bully</defName>
 		<title>bully</title>
 		<titleShort>bully</titleShort>
@@ -146,11 +133,8 @@
 		<requiredPassions>
 			<li>Melee</li>
 		</requiredPassions>
-		<skillGains>
-				<Melee>5</Melee>
-				<Social>-3</Social>
-		</skillGains>
-	</ZCB.ZCBackstoryDef>
+		<skillGains><li><skill>Melee</skill><amount>5</amount></li><li><skill>Social</skill><amount>-3</amount></li></skillGains>
+	</UnifiedBackstories.ZCBackstoryDef>
 	
 
 	

@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/RimWorld-1.5%20|%201.6-blueviolet?style=flat-square">
+  <img src="https://img.shields.io/badge/RimWorld-1.6-blueviolet?style=flat-square">
   <img src="https://img.shields.io/badge/backstories-1,352-success?style=flat-square">
   <img src="https://img.shields.io/badge/status-stable-brightgreen?style=flat-square">
   <img src="https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-lightgrey?style=flat-square">
@@ -30,7 +30,7 @@
 - **Full English translations** for every single backstory (title + description)
 - **No duplicates** — carefully deduplicated across all source mods
 - **No defName conflicts** — all backstories use the `UB_` prefix
-- **RimWorld 1.5 & 1.6** — fully mirrored load folders
+- **RimWorld 1.6** — fully self-contained mod
 - **Integrated systems:** Reasonable Moods & Capable Backstories (DLL + patches), Elderhood Backstories (DLL), Childhood Backstories (ZCB DLL + RecordDefs)
 - **4 additional PlaceDefs** from Seal's Collection for procedural story generation
 - **All DLCs supported** — Royalty, Ideology, Biotech, Anomaly
@@ -86,7 +86,7 @@
 *Coming soon — subscribe and it will auto-update.*
 
 ### Requirements
-- RimWorld 1.5 or 1.6
+- RimWorld 1.6
 - [Harmony](https://github.com/pardeike/HarmonyRimWorld) (auto-downloaded on Steam)
 - No original mods required
 
@@ -98,7 +98,7 @@
 - **No defName conflicts** — all backstories use the `UB_` prefix
 - **All DLCs supported** — Royalty, Ideology, Biotech, Anomaly
 - **Load order:** loads after all vanilla content (RimWorld, Royalty, Ideology, Biotech, Anomaly) and Harmony
-- **RimWorld 1.5 & 1.6** — separate load folders for each version
+- **RimWorld 1.6**
 
 ---
 

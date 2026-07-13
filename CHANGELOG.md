@@ -7,7 +7,7 @@
 - All mods merged into single, self-contained package (no original mods required)
 - All defNames prefixed with `UB_` to prevent conflicts
 - Full English translations for all 1,273 backstories
-- RimWorld 1.5 and 1.6 support with separate load folders
+- RimWorld 1.6 only (1.5 support removed)
 - 4 PlaceDefs from Seal's Collection for procedural story generation
 
 ### Integrated Mods

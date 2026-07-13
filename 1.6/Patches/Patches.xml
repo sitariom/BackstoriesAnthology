@@ -6,7 +6,7 @@
 			<li Class="PatchOperationAdd">
 				<xpath>*/ThingDef[defName="Human"]/comps</xpath>
 				<value>
-					<li Class="ElderhoodBackstory.CompProperties_ElderhoodBackstory">
+					<li Class="UnifiedBackstories.CompProperties_ElderhoodBackstory">
 						<elderhoodAge>60</elderhoodAge>
 					</li>
 				</value>

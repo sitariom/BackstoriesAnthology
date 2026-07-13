@@ -3,7 +3,7 @@
 
 
 <!-- food thief -->
-	<ZCB.ZCBackstoryDef parentName="ZCB_TribalChild">
+	<UnifiedBackstories.ZCBackstoryDef parentName="ZCB_TribalChild">
 		<defName>UB_ZCB_FoodThief</defName>
 		<title>food thief</title>
 		<titleShort>thief</titleShort>
@@ -27,14 +27,12 @@
 				<minValue>50</minValue>
 			</li>
 		</requiredRecords>
-		<skillGains>
-			<Cooking>7</Cooking>
-		</skillGains>
-	</ZCB.ZCBackstoryDef>
+		<skillGains><li><skill>Cooking</skill><amount>7</amount></li></skillGains>
+	</UnifiedBackstories.ZCBackstoryDef>
 	
 	
 <!-- Ascetic -->
-	<ZCB.ZCBackstoryDef>
+	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_Ascetic</defName>
 		<title>ascetic child</title>
 		<titleShort>ascetic</titleShort>
@@ -49,16 +47,12 @@
 		<requiredTraits>
 			 <Ascetic>0</Ascetic>
 		</requiredTraits>
-		<skillGains>
-			<Artistic>-5</Artistic>
-			<Crafting>3</Crafting>
-			<Cooking>-2</Cooking>
-		</skillGains>
-	</ZCB.ZCBackstoryDef>
+		<skillGains><li><skill>Artistic</skill><amount>-5</amount></li><li><skill>Crafting</skill><amount>3</amount></li><li><skill>Cooking</skill><amount>-2</amount></li></skillGains>
+	</UnifiedBackstories.ZCBackstoryDef>
 	
 	
 <!-- Brawler -->
-	<ZCB.ZCBackstoryDef>
+	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_TribalBrawler</defName>
 		<title>brawler</title>
 		<titleShort>brawler</titleShort>
@@ -86,15 +80,13 @@
 		<forcedTraits>
 			<Tough>0</Tough>
 		</forcedTraits>
-		<skillGains>
-			<Melee>5</Melee>
-		</skillGains>
-	</ZCB.ZCBackstoryDef>
+		<skillGains><li><skill>Melee</skill><amount>5</amount></li></skillGains>
+	</UnifiedBackstories.ZCBackstoryDef>
 	
 
 
 <!-- Fast learner -->
-	<ZCB.ZCBackstoryDef>
+	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_Scavenger</defName>
 		<title>scavenger</title>
 		<titleShort>scavenger</titleShort>
@@ -109,16 +101,12 @@
 		<requiredTraits>
 			<FastLearner>0</FastLearner>
 		</requiredTraits>
-		<skillGains>
-			<Intellectual>4</Intellectual>
-			<Crafting>2</Crafting>
-			<Social>-2</Social>
-		</skillGains>
-	</ZCB.ZCBackstoryDef>
+		<skillGains><li><skill>Intellectual</skill><amount>4</amount></li><li><skill>Crafting</skill><amount>2</amount></li><li><skill>Social</skill><amount>-2</amount></li></skillGains>
+	</UnifiedBackstories.ZCBackstoryDef>
 	
 	
 <!-- Tortured Architect -->
-	<ZCB.ZCBackstoryDef>
+	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_TorturedArchitect</defName>
 		<title>tortured architect</title>
 		<titleShort>architect</titleShort>
@@ -139,16 +127,12 @@
 		<workDisables>
 			<li>ManualDumb</li>
 		</workDisables>
-		<skillGains>
-			<Intellectual>3</Intellectual>
-			<Construction>6</Construction>
-			<Artistic>2</Artistic>
-		</skillGains>
-	</ZCB.ZCBackstoryDef>
+		<skillGains><li><skill>Intellectual</skill><amount>3</amount></li><li><skill>Construction</skill><amount>6</amount></li><li><skill>Artistic</skill><amount>2</amount></li></skillGains>
+	</UnifiedBackstories.ZCBackstoryDef>
 	
 	
 	<!-- Bloodlust melee -->
-	<ZCB.ZCBackstoryDef>
+	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_Barbarian</defName>
 		<title>barbarian</title>
 		<titleShort>barbarian</titleShort>
@@ -166,10 +150,7 @@
 		<requiredPassions>
 			<li>Melee</li>
 		</requiredPassions>
-		<skillGains>
-			<Melee>6</Melee>
-			<Social>-3</Social>
-		</skillGains>
-	</ZCB.ZCBackstoryDef>
+		<skillGains><li><skill>Melee</skill><amount>6</amount></li><li><skill>Social</skill><amount>-3</amount></li></skillGains>
+	</UnifiedBackstories.ZCBackstoryDef>
 	
 </Defs>

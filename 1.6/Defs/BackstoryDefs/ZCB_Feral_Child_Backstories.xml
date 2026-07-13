@@ -10,7 +10,7 @@ Most of these should enable natural meditation focus.
 -->
 
 <!-- feral child -->
-	<ZCB.ZCBackstoryDef>
+	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_FeralChild</defName>
 		<title>feral child</title>
 		<titleShort>feral</titleShort>
@@ -31,21 +31,16 @@ Most of these should enable natural meditation focus.
 		</requiredRecords>
 		<!-- new tags end here-->
 		
-		<skillGains>
-				<Plants>5</Plants>
-				<Animals>3</Animals>
-				<Melee>2</Melee>
-				<Cooking>-2</Cooking>
-		</skillGains>
+		<skillGains><li><skill>Plants</skill><amount>5</amount></li><li><skill>Animals</skill><amount>3</amount></li><li><skill>Melee</skill><amount>2</amount></li><li><skill>Cooking</skill><amount>-2</amount></li></skillGains>
 		<workDisables>
 			<li>Social</li>
 			<li>Intellectual</li>
 		</workDisables>
-	</ZCB.ZCBackstoryDef>
+	</UnifiedBackstories.ZCBackstoryDef>
 
 
 <!-- raised by muffalo  -->
-	<ZCB.ZCBackstoryDef>
+	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_FeralChild2</defName>
 		<title>feral child</title>
 		<titleShort>feral</titleShort>
@@ -69,16 +64,12 @@ Most of these should enable natural meditation focus.
 		</requiredPassions>
 		<!-- new tags end here-->
 		
-		<skillGains>
-				<Animals>4</Animals>
-				<Melee>3</Melee>
-				<Medicine>2</Medicine>
-		</skillGains>
-	</ZCB.ZCBackstoryDef>
+		<skillGains><li><skill>Animals</skill><amount>4</amount></li><li><skill>Melee</skill><amount>3</amount></li><li><skill>Medicine</skill><amount>2</amount></li></skillGains>
+	</UnifiedBackstories.ZCBackstoryDef>
 
 
 <!-- wild child -->
-	<ZCB.ZCBackstoryDef>
+	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_WildChild</defName>
 		<title>wild child</title>
 		<titleShort>wild</titleShort>
@@ -101,11 +92,8 @@ Most of these should enable natural meditation focus.
 			<li>Social</li>
 		</requiredPassions>
 		<!-- new tags end here-->
-		<skillGains>
-				<Plants>3</Plants>
-				<Social>4</Social>
-		</skillGains>
-	</ZCB.ZCBackstoryDef>
+		<skillGains><li><skill>Plants</skill><amount>3</amount></li><li><skill>Social</skill><amount>4</amount></li></skillGains>
+	</UnifiedBackstories.ZCBackstoryDef>
 
   
 </Defs>

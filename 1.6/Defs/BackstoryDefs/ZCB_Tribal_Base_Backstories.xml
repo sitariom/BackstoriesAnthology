@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 <!-- baseline backstory, nothing special -->
-	<ZCB.ZCBackstoryDef Name="ZCB_TribalChild">
+	<UnifiedBackstories.ZCBackstoryDef Name="ZCB_TribalChild">
 		<defName>UB_ZCB_TribalChild</defName>
 		<title>tribal child</title>
 		<titleShort>tribal</titleShort>
@@ -13,6 +13,6 @@
 			<li>ZCB_NaturalMeditation</li>
 		</spawnCategories>
 		<maxTechLevel>Neolithic</maxTechLevel>
-	</ZCB.ZCBackstoryDef>
+	</UnifiedBackstories.ZCBackstoryDef>
 
 </Defs>

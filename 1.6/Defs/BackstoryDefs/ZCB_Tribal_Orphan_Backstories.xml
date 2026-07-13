@@ -3,7 +3,7 @@
 
 
 <!-- tribal orphan -->
-	<ZCB.ZCBackstoryDef>
+	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_TribeOrphan</defName>
 		<title>orphan</title>
 		<titleShort>orphan</titleShort>
@@ -37,17 +37,12 @@
 		</requiredPassions>
 		<!-- new tags end here-->
 		
-		<skillGains>
-			<Melee>3</Melee>
-			<Cooking>3</Cooking>
-			<Plants>2</Plants>
-			<Intellectual>-3</Intellectual>
-		</skillGains>
-	</ZCB.ZCBackstoryDef>
+		<skillGains><li><skill>Melee</skill><amount>3</amount></li><li><skill>Cooking</skill><amount>3</amount></li><li><skill>Plants</skill><amount>2</amount></li><li><skill>Intellectual</skill><amount>-3</amount></li></skillGains>
+	</UnifiedBackstories.ZCBackstoryDef>
 
 
 <!-- tribal orphan -->
-	<ZCB.ZCBackstoryDef>
+	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_TribeOrphan2</defName>
 		<title>orphan</title>
 		<titleShort>orphan</titleShort>
@@ -69,12 +64,8 @@
 		</requiredPassions>
 		<!-- new tags end here-->
 		
-		<skillGains>
-			<Animals>4</Animals>
-			<Medicine>1</Medicine>
-			<Artistic>-3</Artistic>
-		</skillGains>
-	</ZCB.ZCBackstoryDef>
+		<skillGains><li><skill>Animals</skill><amount>4</amount></li><li><skill>Medicine</skill><amount>1</amount></li><li><skill>Artistic</skill><amount>-3</amount></li></skillGains>
+	</UnifiedBackstories.ZCBackstoryDef>
 
 
 </Defs>

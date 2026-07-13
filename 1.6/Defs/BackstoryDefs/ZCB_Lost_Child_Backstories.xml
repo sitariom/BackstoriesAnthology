@@ -4,7 +4,7 @@
 	<!-- Backstories for children not originally from the colony -->
 
 	<!-- lost child -->
-	<ZCB.ZCBackstoryDef>
+	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_LostChild</defName>
 		<title>lost boy</title>
 		<titleFemale>lost girl</titleFemale>
@@ -20,17 +20,12 @@
 				<maxValue>3000000</maxValue>			<!-- one year -->
 			</li>
 		</requiredRecords>
-		<skillGains>
-			<Cooking>1</Cooking>
-			<Melee>2</Melee>
-			<Crafting>2</Crafting>
-			<Plants>-2</Plants>
-		</skillGains>
-	</ZCB.ZCBackstoryDef>
+		<skillGains><li><skill>Cooking</skill><amount>1</amount></li><li><skill>Melee</skill><amount>2</amount></li><li><skill>Crafting</skill><amount>2</amount></li><li><skill>Plants</skill><amount>-2</amount></li></skillGains>
+	</UnifiedBackstories.ZCBackstoryDef>
 	
 
 	<!-- builder -->
-	<ZCB.ZCBackstoryDef>
+	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_Builder</defName>
 		<title>builder</title>
 		<titleShort>builder</titleShort>
@@ -57,15 +52,11 @@
 		<requiredPassions>
 			<li>Construction</li>
 		</requiredPassions>
-		<skillGains>
-			<Melee>2</Melee>
-			<Construction>4</Construction>
-			<Mining>2</Mining>
-		</skillGains>
+		<skillGains><li><skill>Melee</skill><amount>2</amount></li><li><skill>Construction</skill><amount>4</amount></li><li><skill>Mining</skill><amount>2</amount></li></skillGains>
 		<workDisables>
 			<li>Animals</li>
 		</workDisables>
-	</ZCB.ZCBackstoryDef>
+	</UnifiedBackstories.ZCBackstoryDef>
 
 
 

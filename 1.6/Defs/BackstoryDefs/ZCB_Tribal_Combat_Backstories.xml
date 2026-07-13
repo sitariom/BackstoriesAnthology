@@ -2,7 +2,7 @@
 <Defs>
 
 <!-- child warrior -->
-	<ZCB.ZCBackstoryDef>
+	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_ChildWarrior</defName>
 		<title>child warrior</title>
 		<titleShort>warrior</titleShort>
@@ -25,16 +25,12 @@
 				<maxValue>5</maxValue>
 			</li>
 		</requiredRecords>
-		<skillGains>
-			<Shooting>2</Shooting>
-			<Melee>3</Melee>
-			<Social>-4</Social>
-		</skillGains>
-	</ZCB.ZCBackstoryDef>
+		<skillGains><li><skill>Shooting</skill><amount>2</amount></li><li><skill>Melee</skill><amount>3</amount></li><li><skill>Social</skill><amount>-4</amount></li></skillGains>
+	</UnifiedBackstories.ZCBackstoryDef>
 
 
 <!-- child archer -->
-	<ZCB.ZCBackstoryDef>
+	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_ChildArcher</defName>
 		<title>archer</title>
 		<titleShort>sniper</titleShort>
@@ -60,14 +56,12 @@
 		<disallowedTraits>
 			<ShootingAccuracy>-1</ShootingAccuracy>
 		</disallowedTraits>
-		<skillGains>
-			<Shooting>7</Shooting>
-		</skillGains>
-	</ZCB.ZCBackstoryDef>
+		<skillGains><li><skill>Shooting</skill><amount>7</amount></li></skillGains>
+	</UnifiedBackstories.ZCBackstoryDef>
 
 
 <!-- child warrior 2 -->
-	<ZCB.ZCBackstoryDef>
+	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_ChildWarrior2</defName>
 		<title>child warrior</title>
 		<titleShort>soldier</titleShort>
@@ -89,14 +83,11 @@
 				<minValue>50</minValue>
 			</li>
 		</requiredRecords>
-		<skillGains>
-			<Melee>3</Melee>
-			<Shooting>5</Shooting>
-		</skillGains>
+		<skillGains><li><skill>Melee</skill><amount>3</amount></li><li><skill>Shooting</skill><amount>5</amount></li></skillGains>
 		<workDisables>
 			<li>PlantWork</li>
 			<li>Artistic</li>
 		</workDisables>
-	</ZCB.ZCBackstoryDef>
+	</UnifiedBackstories.ZCBackstoryDef>
 
 </Defs>

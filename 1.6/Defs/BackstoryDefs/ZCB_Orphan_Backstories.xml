@@ -3,7 +3,7 @@
 
 
 <!-- war orphan -->
-<ZCB.ZCBackstoryDef>
+<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_WarOrphan</defName>
 		<title>war orphan</title>
 		<titleShort>orphan</titleShort>
@@ -25,21 +25,16 @@
 			</li>
 		</requiredRecords>	
 
-		<skillGains>
-			<Shooting>2</Shooting>
-			<Melee>4</Melee>
-			<Artistic>3</Artistic>
-			<Crafting>1</Crafting>
-		</skillGains>
+		<skillGains><li><skill>Shooting</skill><amount>2</amount></li><li><skill>Melee</skill><amount>4</amount></li><li><skill>Artistic</skill><amount>3</amount></li><li><skill>Crafting</skill><amount>1</amount></li></skillGains>
 		<workDisables>
 			<li>Social</li>
 			<li>Animals</li>
 		</workDisables>
-	</ZCB.ZCBackstoryDef>
+	</UnifiedBackstories.ZCBackstoryDef>
 
 
 <!-- tragic nurse - mother -->
-	<ZCB.ZCBackstoryDef>
+	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_TragicNurse</defName>
 		<title>tragic nurse</title>
 		<titleShort>nurse</titleShort>
@@ -62,14 +57,12 @@
 			<li>Medicine</li>
 		</requiredPassions>
 		<!-- new tags end here-->
-		<skillGains>
-			<Medicine>5</Medicine>
-		</skillGains>
-	</ZCB.ZCBackstoryDef>
+		<skillGains><li><skill>Medicine</skill><amount>5</amount></li></skillGains>
+	</UnifiedBackstories.ZCBackstoryDef>
 
 
 <!-- tragic nurse - father -->
-	<ZCB.ZCBackstoryDef>
+	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_TragicNurse2</defName>
 		<title>tragic nurse</title>
 		<titleShort>nurse</titleShort>
@@ -92,10 +85,8 @@
 			<li>Medicine</li>
 		</requiredPassions>
 		<!-- new tags end here-->
-		<skillGains>
-			<Medicine>5</Medicine>
-		</skillGains>
-	</ZCB.ZCBackstoryDef>
+		<skillGains><li><skill>Medicine</skill><amount>5</amount></li></skillGains>
+	</UnifiedBackstories.ZCBackstoryDef>
 
 
 </Defs>

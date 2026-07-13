@@ -2,7 +2,7 @@
 <Defs>
 
 <!-- child soldier -->
-	<ZCB.ZCBackstoryDef>
+	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_ChildSoldier</defName>
 		<title>child soldier</title>
 		<titleShort>soldier</titleShort>
@@ -24,16 +24,12 @@
 		<spawnCategories>
 			<li>ZCB</li> 
 		</spawnCategories>
-		<skillGains>
-			<Shooting>2</Shooting>
-			<Melee>2</Melee>
-			<Social>-3</Social>
-		</skillGains>
-	</ZCB.ZCBackstoryDef>
+		<skillGains><li><skill>Shooting</skill><amount>2</amount></li><li><skill>Melee</skill><amount>2</amount></li><li><skill>Social</skill><amount>-3</amount></li></skillGains>
+	</UnifiedBackstories.ZCBackstoryDef>
 
 
 <!-- child sniper -->
-	<ZCB.ZCBackstoryDef>
+	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_ChildSniper</defName>
 		<title>child sniper</title>
 		<titleShort>sniper</titleShort>
@@ -58,14 +54,12 @@
 		<disallowedTraits>
 			<ShootingAccuracy>-1</ShootingAccuracy>
 		</disallowedTraits>
-		<skillGains>
-			<Shooting>8</Shooting>
-		</skillGains>
-	</ZCB.ZCBackstoryDef>
+		<skillGains><li><skill>Shooting</skill><amount>8</amount></li></skillGains>
+	</UnifiedBackstories.ZCBackstoryDef>
 
 
 <!-- child supersoldier -->
-	<ZCB.ZCBackstoryDef>
+	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_ChildSuperSoldier</defName>
 		<title>child supersoldier</title>
 		<titleShort>soldier</titleShort>
@@ -86,14 +80,11 @@
 				<minValue>50</minValue>
 			</li>
 		</requiredRecords>
-		<skillGains>
-			<Melee>3</Melee>
-			<Shooting>5</Shooting>
-		</skillGains>
+		<skillGains><li><skill>Melee</skill><amount>3</amount></li><li><skill>Shooting</skill><amount>5</amount></li></skillGains>
 		<workDisables>
 			<li>Social</li>
 			<li>Artistic</li>
 		</workDisables>
-	</ZCB.ZCBackstoryDef>
+	</UnifiedBackstories.ZCBackstoryDef>
 
 </Defs>

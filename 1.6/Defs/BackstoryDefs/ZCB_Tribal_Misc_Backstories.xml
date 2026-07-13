@@ -3,7 +3,7 @@
 
 
 <!-- happy go lucky -->
-	<ZCB.ZCBackstoryDef>
+	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_HappyGoLucky2</defName>
 		<title>happy go lucky</title>
 		<titleShort>happy</titleShort>
@@ -34,18 +34,12 @@
 			</li>
 		</requiredRecords>
 		<!-- new tags end here-->
-		<skillGains>
-			<Shooting>-2</Shooting>
-			<Melee>-2</Melee>
-			<Artistic>4</Artistic>
-			<Social>3</Social>
-			<Intellectual>3</Intellectual>
-		</skillGains>
-	</ZCB.ZCBackstoryDef>
+		<skillGains><li><skill>Shooting</skill><amount>-2</amount></li><li><skill>Melee</skill><amount>-2</amount></li><li><skill>Artistic</skill><amount>4</amount></li><li><skill>Social</skill><amount>3</amount></li><li><skill>Intellectual</skill><amount>3</amount></li></skillGains>
+	</UnifiedBackstories.ZCBackstoryDef>
 
 
 	<!-- dreamer -->
-	<ZCB.ZCBackstoryDef>
+	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_TribalDreamer</defName>
 		<title>dreamer</title>
 		<titleShort>dreamer</titleShort>
@@ -68,15 +62,12 @@
 			<li>Social</li>
 		</disallowedPassions>
 		<!-- new tags end here-->
-		<skillGains>
-			<Social>-3</Social>
-			<Intellectual>3</Intellectual>
-		</skillGains>
-	</ZCB.ZCBackstoryDef>
+		<skillGains><li><skill>Social</skill><amount>-3</amount></li><li><skill>Intellectual</skill><amount>3</amount></li></skillGains>
+	</UnifiedBackstories.ZCBackstoryDef>
 
 
 <!-- animal trainer -->
-	<ZCB.ZCBackstoryDef>
+	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_AnimalTrainer</defName>
 		<title>animal trainer</title>
 		<titleShort>trainer</titleShort>
@@ -94,14 +85,12 @@
 		<workDisables>
 			<li>ManualDumb</li>
 		</workDisables>
-		<skillGains>
-			<Animals>5</Animals>
-		</skillGains>
-	</ZCB.ZCBackstoryDef>
+		<skillGains><li><skill>Animals</skill><amount>5</amount></li></skillGains>
+	</UnifiedBackstories.ZCBackstoryDef>
 	
 	
 <!-- tribal bookworm -->
-	<ZCB.ZCBackstoryDef>
+	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_TribalBookworm</defName>
 		<title>tribal bookworm</title>
 		<titleShort>bookworm</titleShort>
@@ -125,16 +114,12 @@
 				<value>1</value>
 			</li>
 		</passionGains>
-		<skillGains>
-			<Intellectual>4</Intellectual>
-			<Artistic>1</Artistic>
-			<Animals>-2</Animals>
-		</skillGains>
-	</ZCB.ZCBackstoryDef>
+		<skillGains><li><skill>Intellectual</skill><amount>4</amount></li><li><skill>Artistic</skill><amount>1</amount></li><li><skill>Animals</skill><amount>-2</amount></li></skillGains>
+	</UnifiedBackstories.ZCBackstoryDef>
 	
 		
 <!-- budding adventurer -->
-	<ZCB.ZCBackstoryDef>
+	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_BuddingAdventurer</defName>
 		<title>budding adventurer</title>
 		<titleShort>adventurer</titleShort>
@@ -156,16 +141,12 @@
 			<li>Intellectual</li>
 			<li>Melee</li>
 		</requiredPassions>
-		<skillGains>
-			<Intellectual>4</Intellectual>
-			<Melee>4</Melee>
-			<Shooting>2</Shooting>
-		</skillGains>
-	</ZCB.ZCBackstoryDef>
+		<skillGains><li><skill>Intellectual</skill><amount>4</amount></li><li><skill>Melee</skill><amount>4</amount></li><li><skill>Shooting</skill><amount>2</amount></li></skillGains>
+	</UnifiedBackstories.ZCBackstoryDef>
 	
 	
 	<!-- experimenter -->
-	<ZCB.ZCBackstoryDef>
+	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_Experimenter</defName>
 		<title>experimenter</title>
 		<titleShort>experimenter</titleShort>
@@ -186,18 +167,13 @@
 		<requiredPassions>
 			<li>Intellectual</li>
 		</requiredPassions>
-		<skillGains>
-			<Intellectual>3</Intellectual>
-			<Medicine>1</Medicine>
-			<Plants>2</Plants>
-			<Crafting>2</Crafting>
-		</skillGains>
-	</ZCB.ZCBackstoryDef>
+		<skillGains><li><skill>Intellectual</skill><amount>3</amount></li><li><skill>Medicine</skill><amount>1</amount></li><li><skill>Plants</skill><amount>2</amount></li><li><skill>Crafting</skill><amount>2</amount></li></skillGains>
+	</UnifiedBackstories.ZCBackstoryDef>
 	
 	
 <!-- ================================== HEALTH ================================== -->
 <!-- scarred veteran -->
-	<ZCB.ZCBackstoryDef>
+	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_ScarredVeteranTribal</defName>
 		<title>scarred veteran</title>
 		<titleShort>scarred</titleShort>
@@ -210,12 +186,8 @@
 		</spawnCategories>
 		<commonality>3</commonality>
 		<bodyPartsMissing>2~999</bodyPartsMissing>
-		<skillGains>
-			<Medicine>2</Medicine>
-			<Intellectual>3</Intellectual>
-			<Melee>4</Melee>
-		</skillGains>
-	</ZCB.ZCBackstoryDef>
+		<skillGains><li><skill>Medicine</skill><amount>2</amount></li><li><skill>Intellectual</skill><amount>3</amount></li><li><skill>Melee</skill><amount>4</amount></li></skillGains>
+	</UnifiedBackstories.ZCBackstoryDef>
 	
 
 </Defs>
