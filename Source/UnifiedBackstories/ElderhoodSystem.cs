@@ -48,35 +48,40 @@ namespace UnifiedBackstories
     }
 
     // ================================================================
-    // HELPER METHODS
+    // HELPER METHODS (mirrors the original ElderhoodBackstory.Utility)
     // ================================================================
 
     public static class ElderhoodHelper
     {
+        /// <summary>
+        /// Picks elderhood for pawn. Player colonists/prisoners/slaves get special variants.
+        /// Others get a random elderhood from the pool.
+        /// </summary>
         public static BackstoryDef GetElderhoodFor(Pawn pawn)
         {
             if (pawn?.story == null) return null;
             BackstoryDef bs = null;
-            if (pawn.IsColonist)
-                bs = FindDef("UB_Elderhood_PlayerColonist");
-            else if (pawn.IsPrisonerOfColony)
-                bs = FindDef("UB_Elderhood_PlayerPrisoner");
-            else if (pawn.IsSlaveOfColony)
-                bs = FindDef("UB_Elderhood_PlayerSlave");
-            return bs ?? RandomElderhood();
-        }
 
-        private static BackstoryDef FindDef(string name)
-        {
-            return DefDatabase<BackstoryDef>.GetNamedSilentFail(name);
+            // Player-assigned roles get special elderhoods
+            if (pawn.IsColonist)
+                bs = DefDatabase<BackstoryDef>.GetNamedSilentFail("UB_Elderhood_PlayerColonist");
+            if (bs == null && pawn.IsPrisonerOfColony)
+                bs = DefDatabase<BackstoryDef>.GetNamedSilentFail("UB_Elderhood_PlayerPrisoner");
+            if (bs == null && pawn.IsSlaveOfColony)
+                bs = DefDatabase<BackstoryDef>.GetNamedSilentFail("UB_Elderhood_PlayerSlave");
+
+            // Fallback: random elderhood from the pool
+            if (bs == null)
+                bs = RandomElderhood();
+
+            return bs;
         }
 
         private static BackstoryDef RandomElderhood()
         {
             List<BackstoryDef> pool = DefDatabase<BackstoryDef>.AllDefsListForReading
                 .Where(d => d.spawnCategories != null &&
-                    (d.spawnCategories.Contains("Elderhood") ||
-                     d.spawnCategories.Contains("SpecialElderhood")))
+                    d.spawnCategories.Contains("Elderhood"))
                 .ToList();
             return pool.Count > 0 ? pool.RandomElement() : null;
         }
@@ -122,7 +127,6 @@ namespace UnifiedBackstories
 
         /// <summary>
         /// Ensures the CompElderhoodBackstory exists on a pawn.
-        /// For saves created before this mod, the comp won't exist yet.
         /// </summary>
         public static CompElderhoodBackstory GetOrCreateElderhoodComp(Pawn pawn)
         {
@@ -133,30 +137,32 @@ namespace UnifiedBackstories
             comp = new CompElderhoodBackstory();
             comp.parent = pawn;
             comp.Initialize(props);
-            // Add comp via reflection (ThingWithComps.comps may not be public)
+
             var compsField = typeof(ThingWithComps).GetField("comps", BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public);
             if (compsField != null)
             {
                 var list = compsField.GetValue(pawn);
                 if (list is System.Collections.IList ilist)
-                {
                     ilist.Add(comp);
-                }
             }
             return comp;
         }
 
         /// <summary>
-        /// Assigns elderhood if pawn qualifies. Used by birthday, load, and generation patches.
+        /// Core method: fills the elderhood slot for the pawn.
+        /// Mirrors original Utility.FillBackstorySlotShuffled.
         /// </summary>
-        public static void TryAssignElderhood(Pawn pawn)
+        public static void FillBackstorySlotShuffled(Pawn pawn, Faction faction = null)
         {
             if (pawn == null || !pawn.RaceProps.Humanlike) return;
             if (UB_Mod.Settings != null && !UB_Mod.Settings.elderhoodEnabled) return;
+            if (pawn.ageTracker == null) return;
 
             CompElderhoodBackstory comp = GetOrCreateElderhoodComp(pawn);
             if (comp.HasElderhood) return;
-            if (pawn.ageTracker == null || pawn.ageTracker.AgeBiologicalYears < comp.ElderhoodAge) return;
+
+            // Original mod uses age 50 minimum
+            if (pawn.ageTracker.AgeBiologicalYears < 50) return;
 
             BackstoryDef elderhood = GetElderhoodFor(pawn);
             if (elderhood != null)
@@ -165,12 +171,92 @@ namespace UnifiedBackstories
                 pawn.skills?.Notify_SkillDisablesChanged();
             }
         }
+
+        /// <summary>
+        /// Assigns elderhood from existing patches (birthday, load, etc.)
+        /// </summary>
+        public static void TryAssignElderhood(Pawn pawn)
+        {
+            FillBackstorySlotShuffled(pawn, null);
+        }
     }
 
     // ================================================================
     // HARMONY PATCHES
     // ================================================================
 
+    /// <summary>
+    /// When TryGiveSolidBioTo succeeds, fill the elderhood slot.
+    /// Original: ElderhoodBackstory.Patches.PawnBioAndNameGenerator_TryGiveSolidBioTo_ElderhoodBackstoryPatch
+    /// </summary>
+    [HarmonyPatch(typeof(PawnBioAndNameGenerator), "TryGiveSolidBioTo")]
+    public static class PawnBioAndNameGenerator_TryGiveSolidBioTo_Patch
+    {
+        public static void Postfix(Pawn pawn, string requiredLastName,
+            List<BackstoryCategoryFilter> backstoryCategories, ref bool __result)
+        {
+            if (__result)
+                ElderhoodHelper.FillBackstorySlotShuffled(pawn, null);
+        }
+    }
+
+    /// <summary>
+    /// When GiveShuffledBioTo runs and didn't force no-backstory, fill elderhood slot.
+    /// Original: ElderhoodBackstory.Patches.PawnBioAndNameGenerator_GiveShuffledBioTo_ElderhoodBackstoryPatch
+    /// </summary>
+    [HarmonyPatch(typeof(PawnBioAndNameGenerator), "GiveShuffledBioTo")]
+    public static class PawnBioAndNameGenerator_GiveShuffledBioTo_Patch
+    {
+        public static void Postfix(Pawn pawn, FactionDef factionType,
+            string requiredLastName, List<BackstoryCategoryFilter> backstoryCategories,
+            bool forceNoBackstory, bool forceNoNick, XenotypeDef xenotype,
+            bool onlyForcedBackstories)
+        {
+            if (!forceNoBackstory)
+                ElderhoodHelper.FillBackstorySlotShuffled(pawn, null);
+        }
+    }
+
+    /// <summary>
+    /// Apply forced traits from elderhood backstory.
+    /// Original: ElderhoodBackstory.Patches.PawnGenerator_GenerateTraits_ElderhoodBackstoryPatch
+    /// </summary>
+    [HarmonyPatch(typeof(PawnGenerator), "GenerateTraits")]
+    public static class PawnGenerator_GenerateTraits_ElderhoodPatch
+    {
+        public static void Postfix(Pawn pawn, PawnGenerationRequest request)
+        {
+            if (pawn?.story == null) return;
+            if (UB_Mod.Settings != null && !UB_Mod.Settings.elderhoodEnabled) return;
+
+            CompElderhoodBackstory comp = pawn.GetComp<CompElderhoodBackstory>();
+            if (comp == null || !comp.HasElderhood) return;
+            BackstoryDef elderhood = comp.ElderhoodBS;
+            if (elderhood?.forcedTraits == null) return;
+
+            for (int i = 0; i < elderhood.forcedTraits.Count; i++)
+            {
+                BackstoryTrait te = elderhood.forcedTraits[i];
+                if (te == null || te.def == null) continue;
+                if (pawn.story.traits == null) continue;
+
+                // Skip if pawn already has this trait
+                if (pawn.story.traits.HasTrait(te.def)) continue;
+
+                // Skip if trait is prohibited
+                var prohibited = request.ProhibitedTraits;
+                if (prohibited != null && prohibited.Contains(te.def))
+                    continue;
+
+                if (te.def != null)
+                    pawn.story.traits.GainTrait(new Trait(te.def, te.degree, false));
+            }
+        }
+    }
+
+    /// <summary>
+    /// Birthday patch: assign elderhood when pawn turns old enough.
+    /// </summary>
     [HarmonyPatch(typeof(Pawn_AgeTracker), "BirthdayBiological")]
     public static class Pawn_AgeTracker_BirthdayBiological_Patch
     {
@@ -182,6 +268,9 @@ namespace UnifiedBackstories
         }
     }
 
+    /// <summary>
+    /// Post-load: assign elderhood for save game compatibility.
+    /// </summary>
     [HarmonyPatch(typeof(Pawn_StoryTracker), "ExposeData")]
     public static class Pawn_StoryTracker_ExposeData_Patch
     {
@@ -194,6 +283,9 @@ namespace UnifiedBackstories
         }
     }
 
+    /// <summary>
+    /// GeneratePawn postfix (backup, may not trigger in all cases).
+    /// </summary>
     [HarmonyPatch(typeof(PawnGenerator), "GeneratePawn", new Type[] { typeof(PawnGenerationRequest) })]
     public static class PawnGenerator_GeneratePawn_Patch
     {
@@ -204,6 +296,10 @@ namespace UnifiedBackstories
         }
     }
 
+    /// <summary>
+    /// Character card UI: display elderhood info.
+    /// Uses the original approach with a Postfix on DoLeftSection.
+    /// </summary>
     [HarmonyPatch]
     public static class CharacterCardUtility_DoLeftSection_Patch
     {
@@ -242,15 +338,14 @@ namespace UnifiedBackstories
             float width = 196f;
             if (fiLeft?.GetValue(__instance) is Rect lr) width = lr.width;
 
-            // 1. Category label
+            // Category label
             Text.Font = GameFont.Medium;
             Widgets.Label(new Rect(0f, curY, width, 30f), "Elderhood".Translate());
             curY += 28f;
 
-            // 2. Title + info button
+            // Title + info button
             Text.Font = GameFont.Small;
             string title = ElderhoodHelper.TitleFor(elderhood, pawn);
-            string shortTitle = ElderhoodHelper.TitleShortFor(elderhood, pawn);
             Vector2 titleSize = Text.CalcSize(title);
             float titleW = Math.Min(titleSize.x, width - 28f);
             Widgets.Label(new Rect(0f, curY, titleW, 24f), title);
@@ -263,7 +358,8 @@ namespace UnifiedBackstories
             }
             curY += 24f;
 
-            // 3. Short title
+            // Short title
+            string shortTitle = ElderhoodHelper.TitleShortFor(elderhood, pawn);
             if (!shortTitle.NullOrEmpty() && shortTitle != title)
             {
                 Text.Font = GameFont.Tiny;
@@ -272,7 +368,7 @@ namespace UnifiedBackstories
                 Text.Font = GameFont.Small;
             }
 
-            // 4. Skill gains
+            // Skill gains
             if (elderhood.skillGains != null)
             {
                 float sx = 10f, sy = curY;
@@ -289,7 +385,7 @@ namespace UnifiedBackstories
                 curY = Math.Max(curY, sy + 22f);
             }
 
-            // 5. Description
+            // Description
             string desc = elderhood.FullDescriptionFor(pawn);
             if (!desc.NullOrEmpty())
             {
@@ -303,6 +399,9 @@ namespace UnifiedBackstories
         }
     }
 
+    /// <summary>
+    /// Elderly body type override.
+    /// </summary>
     [HarmonyPatch(typeof(PawnGenerator), "GetBodyTypeFor")]
     public static class PawnGenerator_GetBodyTypeFor_Patch
     {
@@ -318,6 +417,9 @@ namespace UnifiedBackstories
         }
     }
 
+    /// <summary>
+    /// Skill level bonus from elderhood.
+    /// </summary>
     [HarmonyPatch(typeof(PawnGenerator), "FinalLevelOfSkill")]
     public static class PawnGenerator_FinalLevelOfSkill_Patch
     {
@@ -337,6 +439,9 @@ namespace UnifiedBackstories
         }
     }
 
+    /// <summary>
+    /// Work disables from elderhood.
+    /// </summary>
     [HarmonyPatch(typeof(Pawn_StoryTracker), "get_DisabledWorkTagsBackstoryAndTraits")]
     public static class Pawn_StoryTracker_DisabledWorkTags_Patch
     {
@@ -353,6 +458,9 @@ namespace UnifiedBackstories
         }
     }
 
+    /// <summary>
+    /// Starting possessions from elderhood.
+    /// </summary>
     [HarmonyPatch(typeof(StartingPawnUtility), "GeneratePossessions")]
     public static class StartingPawnUtility_GeneratePossessions_Patch
     {
@@ -364,9 +472,8 @@ namespace UnifiedBackstories
             if (comp == null || !comp.HasElderhood) return;
             BackstoryDef eb = comp.ElderhoodBS;
             if (eb?.possessions == null) return;
-            for (int i = 0; i < eb.possessions.Count; i++)
+            foreach (var item in eb.possessions)
             {
-                object item = eb.possessions[i];
                 if (item == null) continue;
                 ThingDef tDef = item.GetType().GetField("thingDef")?.GetValue(item) as ThingDef;
                 int tCount = item.GetType().GetField("count")?.GetValue(item) is int cv ? cv : 0;
@@ -380,6 +487,9 @@ namespace UnifiedBackstories
         }
     }
 
+    /// <summary>
+    /// Suppress old ZCB/ElderhoodBackstory settings screens.
+    /// </summary>
     [HarmonyPatch(typeof(Mod), "SettingsCategory")]
     public static class Mod_SettingsCategory_Suppress_Patch
     {
