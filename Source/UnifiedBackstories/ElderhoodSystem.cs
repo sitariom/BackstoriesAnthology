@@ -9,11 +9,10 @@ using Verse;
 
 namespace UnifiedBackstories
 {
-    /// <summary>
-    /// ThingComp properties for the Elderhood backstory system.
-    /// Attached to Human ThingDef via Patches.xml.
-    /// Replaces ElderhoodBackstory.CompProperties_ElderhoodBackstory.
-    /// </summary>
+    // ================================================================
+    // COMP PROPERTIES & COMP
+    // ================================================================
+
     public class CompProperties_ElderhoodBackstory : CompProperties
     {
         public int elderhoodAge = 60;
@@ -23,10 +22,6 @@ namespace UnifiedBackstories
         }
     }
 
-    /// <summary>
-    /// Stores the elderhood backstory on a pawn. Assigned on birthday when age >= elderhoodAge.
-    /// Saved/loaded automatically via Scribe.
-    /// </summary>
     public class CompElderhoodBackstory : ThingComp
     {
         private int elderhoodAge = 60;
@@ -52,9 +47,10 @@ namespace UnifiedBackstories
         }
     }
 
-    /// <summary>
-    /// Helper methods for elderhood backstory logic.
-    /// </summary>
+    // ================================================================
+    // HELPER METHODS
+    // ================================================================
+
     public static class ElderhoodHelper
     {
         public static BackstoryDef GetElderhoodFor(Pawn pawn)
@@ -95,7 +91,7 @@ namespace UnifiedBackstories
         public static string TitleFor(BackstoryDef bs, Pawn pawn)
         {
             if (bs == null) return "";
-            return (pawn.gender == Gender.Female && !bs.titleFemale.NullOrEmpty()) 
+            return (pawn.gender == Gender.Female && !bs.titleFemale.NullOrEmpty())
                 ? bs.titleFemale : bs.title;
         }
 
@@ -111,16 +107,11 @@ namespace UnifiedBackstories
             return TitleFor(bs, pawn).CapitalizeFirst();
         }
 
-        /// <summary>
-        /// Gets the pawn field from Pawn_AgeTracker or Pawn_StoryTracker via reflection
-        /// (field name may vary between RimWorld versions).
-        /// </summary>
         private static FieldInfo _pawnFieldCache;
         public static Pawn GetPawnFromTracker(object tracker)
         {
             if (tracker == null) return null;
             Type t = tracker.GetType();
-            
             if (_pawnFieldCache == null || _pawnFieldCache.DeclaringType != t)
             {
                 _pawnFieldCache = t.GetField("pawn", BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public)
@@ -128,29 +119,46 @@ namespace UnifiedBackstories
             }
             return _pawnFieldCache?.GetValue(tracker) as Pawn;
         }
-    }
 
-    // ================================================================
-    // HARMONY PATCHES
-    // ================================================================
-
-    /// <summary>
-    /// Assigns elderhood backstory on birthday when pawn reaches elderhood age.
-    /// </summary>
-    [HarmonyPatch(typeof(Pawn_AgeTracker), "BirthdayBiological")]
-    public static class Pawn_AgeTracker_BirthdayBiological_Patch
-    {
-        public static void Postfix(Pawn_AgeTracker __instance)
+        /// <summary>
+        /// Ensures the CompElderhoodBackstory exists on a pawn.
+        /// For saves created before this mod, the comp won't exist yet.
+        /// </summary>
+        public static CompElderhoodBackstory GetOrCreateElderhoodComp(Pawn pawn)
         {
-            Pawn pawn = ElderhoodHelper.GetPawnFromTracker(__instance);
-            if (pawn == null || !pawn.RaceProps.Humanlike || pawn.story == null) return;
+            CompElderhoodBackstory comp = pawn.GetComp<CompElderhoodBackstory>();
+            if (comp != null) return comp;
+
+            var props = new CompProperties_ElderhoodBackstory();
+            comp = new CompElderhoodBackstory();
+            comp.parent = pawn;
+            comp.Initialize(props);
+            // Add comp via reflection (ThingWithComps.comps may not be public)
+            var compsField = typeof(ThingWithComps).GetField("comps", BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public);
+            if (compsField != null)
+            {
+                var list = compsField.GetValue(pawn);
+                if (list is System.Collections.IList ilist)
+                {
+                    ilist.Add(comp);
+                }
+            }
+            return comp;
+        }
+
+        /// <summary>
+        /// Assigns elderhood if pawn qualifies. Used by birthday, load, and generation patches.
+        /// </summary>
+        public static void TryAssignElderhood(Pawn pawn)
+        {
+            if (pawn == null || !pawn.RaceProps.Humanlike) return;
             if (UB_Mod.Settings != null && !UB_Mod.Settings.elderhoodEnabled) return;
 
-            CompElderhoodBackstory comp = pawn.GetComp<CompElderhoodBackstory>();
-            if (comp == null || comp.HasElderhood) return;
-            if (pawn.ageTracker.AgeBiologicalYears < comp.ElderhoodAge) return;
+            CompElderhoodBackstory comp = GetOrCreateElderhoodComp(pawn);
+            if (comp.HasElderhood) return;
+            if (pawn.ageTracker == null || pawn.ageTracker.AgeBiologicalYears < comp.ElderhoodAge) return;
 
-            BackstoryDef elderhood = ElderhoodHelper.GetElderhoodFor(pawn);
+            BackstoryDef elderhood = GetElderhoodFor(pawn);
             if (elderhood != null)
             {
                 comp.SetElderhood(elderhood);
@@ -159,9 +167,21 @@ namespace UnifiedBackstories
         }
     }
 
-    /// <summary>
-    /// Assigns elderhood on post-load for pawns that qualify.
-    /// </summary>
+    // ================================================================
+    // HARMONY PATCHES
+    // ================================================================
+
+    [HarmonyPatch(typeof(Pawn_AgeTracker), "BirthdayBiological")]
+    public static class Pawn_AgeTracker_BirthdayBiological_Patch
+    {
+        public static void Postfix(Pawn_AgeTracker __instance)
+        {
+            Pawn pawn = ElderhoodHelper.GetPawnFromTracker(__instance);
+            if (pawn == null) return;
+            ElderhoodHelper.TryAssignElderhood(pawn);
+        }
+    }
+
     [HarmonyPatch(typeof(Pawn_StoryTracker), "ExposeData")]
     public static class Pawn_StoryTracker_ExposeData_Patch
     {
@@ -169,50 +189,21 @@ namespace UnifiedBackstories
         {
             if (Scribe.mode != LoadSaveMode.PostLoadInit) return;
             Pawn pawn = ElderhoodHelper.GetPawnFromTracker(__instance);
-            if (pawn == null || !pawn.RaceProps.Humanlike) return;
-            if (UB_Mod.Settings != null && !UB_Mod.Settings.elderhoodEnabled) return;
-
-            CompElderhoodBackstory comp = pawn.GetComp<CompElderhoodBackstory>();
-            if (comp == null || comp.HasElderhood) return;
-            if (pawn.ageTracker == null || pawn.ageTracker.AgeBiologicalYears < comp.ElderhoodAge) return;
-
-            BackstoryDef elderhood = ElderhoodHelper.GetElderhoodFor(pawn);
-            if (elderhood != null) comp.SetElderhood(elderhood);
+            if (pawn == null) return;
+            ElderhoodHelper.TryAssignElderhood(pawn);
         }
     }
 
-    /// <summary>
-    /// Ensures elderhood backstory is assigned when ANY pawn is generated,
-    /// including via EdB Prepare Carefully and Character Editor.
-    /// These mods bypass birthday events, so this patch guarantees eligibility.
-    /// </summary>
     [HarmonyPatch(typeof(PawnGenerator), "GeneratePawn", new Type[] { typeof(PawnGenerationRequest) })]
     public static class PawnGenerator_GeneratePawn_Patch
     {
         public static void Postfix(Pawn __result)
         {
-            Pawn pawn = __result;
-            if (pawn == null || !pawn.RaceProps.Humanlike || pawn.story == null) return;
-            if (UB_Mod.Settings != null && !UB_Mod.Settings.elderhoodEnabled) return;
-
-            CompElderhoodBackstory comp = pawn.GetComp<CompElderhoodBackstory>();
-            if (comp == null || comp.HasElderhood) return;
-            if (pawn.ageTracker == null || pawn.ageTracker.AgeBiologicalYears < comp.ElderhoodAge) return;
-
-            BackstoryDef elderhood = ElderhoodHelper.GetElderhoodFor(pawn);
-            if (elderhood != null)
-            {
-                comp.SetElderhood(elderhood);
-                pawn.skills?.Notify_SkillDisablesChanged();
-            }
+            if (__result == null) return;
+            ElderhoodHelper.TryAssignElderhood(__result);
         }
     }
 
-    /// <summary>
-    /// THE MAIN FIX: Adds elderhood section to character card.
-    /// Properly calculates Y position to prevent text overlap with adulthood section.
-    /// Uses runtime type resolution for compatibility.
-    /// </summary>
     [HarmonyPatch]
     public static class CharacterCardUtility_DoLeftSection_Patch
     {
@@ -260,12 +251,9 @@ namespace UnifiedBackstories
             Text.Font = GameFont.Small;
             string title = ElderhoodHelper.TitleFor(elderhood, pawn);
             string shortTitle = ElderhoodHelper.TitleShortFor(elderhood, pawn);
-
             Vector2 titleSize = Text.CalcSize(title);
             float titleW = Math.Min(titleSize.x, width - 28f);
-
             Widgets.Label(new Rect(0f, curY, titleW, 24f), title);
-
             if (_infoIcon != null)
             {
                 Rect infoRect = new Rect(titleW + 2f, curY, 22f, 22f);
@@ -315,9 +303,6 @@ namespace UnifiedBackstories
         }
     }
 
-    /// <summary>
-    /// Elderly body type for elderhood pawns.
-    /// </summary>
     [HarmonyPatch(typeof(PawnGenerator), "GetBodyTypeFor")]
     public static class PawnGenerator_GetBodyTypeFor_Patch
     {
@@ -327,16 +312,12 @@ namespace UnifiedBackstories
             if (UB_Mod.Settings != null && !UB_Mod.Settings.elderhoodEnabled) return;
             CompElderhoodBackstory comp = pawn.GetComp<CompElderhoodBackstory>();
             if (comp == null || !comp.HasElderhood) return;
-
             BodyTypeDef bt = DefDatabase<BodyTypeDef>.GetNamedSilentFail(
                 pawn.gender == Gender.Female ? "FemaleElderly" : "MaleElderly");
             if (bt != null) __result = bt;
         }
     }
 
-    /// <summary>
-    /// Applies elderhood skill gains.
-    /// </summary>
     [HarmonyPatch(typeof(PawnGenerator), "FinalLevelOfSkill")]
     public static class PawnGenerator_FinalLevelOfSkill_Patch
     {
@@ -348,7 +329,6 @@ namespace UnifiedBackstories
             if (comp == null || !comp.HasElderhood) return;
             BackstoryDef eb = comp.ElderhoodBS;
             if (eb?.skillGains == null) return;
-
             for (int i = 0; i < eb.skillGains.Count; i++)
             {
                 if (eb.skillGains[i].skill == skill)
@@ -357,9 +337,6 @@ namespace UnifiedBackstories
         }
     }
 
-    /// <summary>
-    /// Applies elderhood work disables.
-    /// </summary>
     [HarmonyPatch(typeof(Pawn_StoryTracker), "get_DisabledWorkTagsBackstoryAndTraits")]
     public static class Pawn_StoryTracker_DisabledWorkTags_Patch
     {
@@ -376,9 +353,6 @@ namespace UnifiedBackstories
         }
     }
 
-    /// <summary>
-    /// Generates elderhood-specific possessions for starting pawns.
-    /// </summary>
     [HarmonyPatch(typeof(StartingPawnUtility), "GeneratePossessions")]
     public static class StartingPawnUtility_GeneratePossessions_Patch
     {
@@ -390,12 +364,10 @@ namespace UnifiedBackstories
             if (comp == null || !comp.HasElderhood) return;
             BackstoryDef eb = comp.ElderhoodBS;
             if (eb?.possessions == null) return;
-
             for (int i = 0; i < eb.possessions.Count; i++)
             {
                 object item = eb.possessions[i];
                 if (item == null) continue;
-                // Reflection-safe field access (PossessionThingDefCountClass API varies)
                 ThingDef tDef = item.GetType().GetField("thingDef")?.GetValue(item) as ThingDef;
                 int tCount = item.GetType().GetField("count")?.GetValue(item) is int cv ? cv : 0;
                 if (tDef != null && tCount > 0)
@@ -408,10 +380,6 @@ namespace UnifiedBackstories
         }
     }
 
-    /// <summary>
-    /// Suppresses settings screens from embedded legacy DLLs (ZCB, ElderhoodBackstory).
-    /// These settings are already unified in UBSettings — no need for separate screens.
-    /// </summary>
     [HarmonyPatch(typeof(Mod), "SettingsCategory")]
     public static class Mod_SettingsCategory_Suppress_Patch
     {
@@ -423,24 +391,17 @@ namespace UnifiedBackstories
 
         public static bool Prefix(Mod __instance, ref string __result)
         {
-            // Let UB settings through
             if (__instance is UB_Mod) return true;
-
-            // Suppress settings from legacy embedded DLLs
             string name = __instance.GetType().Assembly.GetName().Name;
             if (SuppressedAssemblies.Contains(name))
             {
                 __result = null;
-                return false; // skip original
+                return false;
             }
             return true;
         }
     }
 
-    /// <summary>
-    /// Registers Harmony patches for the Elderhood system.
-    /// Runs at game startup via StaticConstructorOnStartup.
-    /// </summary>
     [StaticConstructorOnStartup]
     public static class ElderhoodPatcher
     {
