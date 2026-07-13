@@ -161,9 +161,7 @@ namespace UnifiedBackstories
             CompElderhoodBackstory comp = GetOrCreateElderhoodComp(pawn);
             if (comp.HasElderhood) return;
 
-            // Original mod uses age 50 minimum
-            if (pawn.ageTracker.AgeBiologicalYears < 50) return;
-
+            // No age check — original mod assigns elderhood to all generated pawns
             BackstoryDef elderhood = GetElderhoodFor(pawn);
             if (elderhood != null)
             {
