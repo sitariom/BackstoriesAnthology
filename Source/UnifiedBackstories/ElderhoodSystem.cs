@@ -321,7 +321,7 @@ namespace UnifiedBackstories
     [HarmonyPatch(typeof(PawnGenerator), "FinalLevelOfSkill")]
     public static class PawnGenerator_FinalLevelOfSkill_Patch
     {
-        public static void Postfix(Pawn pawn, SkillDef skill, ref int __result)
+        public static void Postfix(Pawn pawn, SkillDef sk, ref int __result)
         {
             if (pawn?.story == null) return;
             if (UB_Mod.Settings != null && !UB_Mod.Settings.elderhoodEnabled) return;
@@ -331,7 +331,7 @@ namespace UnifiedBackstories
             if (eb?.skillGains == null) return;
             for (int i = 0; i < eb.skillGains.Count; i++)
             {
-                if (eb.skillGains[i].skill == skill)
+                if (eb.skillGains[i].skill == sk)
                     __result += eb.skillGains[i].amount;
             }
         }
