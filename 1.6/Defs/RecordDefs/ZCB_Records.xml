@@ -7,7 +7,7 @@
     <label>time as wild man</label>
     <description>Total time spent as a wild man or feral child.</description>
     <type>Time</type>
-    <workerClass>ZCB.RecordWorker_TimeAsWildMan</workerClass>
+    <!-- workerClass removido: classe ZCB.RecordWorker_TimeAsWildMan foi removida com o ZCB.dll -->
   </RecordDef>
   
     <RecordDef>
