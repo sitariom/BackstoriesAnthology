@@ -329,15 +329,75 @@ namespace UnifiedBackstories
     }
 
     /// <summary>
-    /// GeneratePawn postfix (backup, may not trigger in all cases).
+    /// GeneratePawn postfix — primary entry point for elderhood assignment.
+    /// Runs AFTER all initialization, so age is guaranteed correct.
+    /// Also applies effects (traits, skills, body type) since the per-step
+    /// patches may have fired before elderhood was set.
     /// </summary>
     [HarmonyPatch(typeof(PawnGenerator), "GeneratePawn", new Type[] { typeof(PawnGenerationRequest) })]
     public static class PawnGenerator_GeneratePawn_Patch
     {
-        public static void Postfix(Pawn __result)
+        public static void Postfix(Pawn __result, PawnGenerationRequest request)
         {
             if (__result == null) return;
-            ElderhoodHelper.TryAssignElderhood(__result);
+            if (UB_Mod.Settings != null && !UB_Mod.Settings.elderhoodEnabled) return;
+            if (__result.ageTracker == null) return;
+            if (__result.ageTracker.AgeBiologicalYears < 60) return;
+
+            CompElderhoodBackstory comp = ElderhoodHelper.GetOrCreateElderhoodComp(__result);
+            if (comp == null) return;
+
+            // Assign elderhood if not already set
+            if (!comp.HasElderhood)
+            {
+                BackstoryDef elderhood = ElderhoodHelper.GetElderhoodFor(__result);
+                if (elderhood == null) return;
+                comp.SetElderhood(elderhood);
+                __result.skills?.Notify_SkillDisablesChanged();
+            }
+
+            // Apply effects that the per-step patches may have missed
+            // because they fired before elderhood was assigned.
+            ApplyElderhoodEffects(__result, comp, request);
+        }
+
+        private static void ApplyElderhoodEffects(Pawn pawn, CompElderhoodBackstory comp, PawnGenerationRequest request)
+        {
+            BackstoryDef eb = comp.ElderhoodBS;
+            if (eb == null) return;
+
+            // Apply forced traits
+            if (eb.forcedTraits != null && pawn.story?.traits != null)
+            {
+                for (int i = 0; i < eb.forcedTraits.Count; i++)
+                {
+                    BackstoryTrait te = eb.forcedTraits[i];
+                    if (te?.def == null) continue;
+                    if (pawn.story.traits.HasTrait(te.def)) continue;
+                    var prohibited = request.ProhibitedTraits;
+                    if (prohibited != null && prohibited.Contains(te.def)) continue;
+                    pawn.story.traits.GainTrait(new Trait(te.def, te.degree, false));
+                }
+            }
+
+            // Apply skill bonuses
+            if (eb.skillGains != null && pawn.skills != null)
+            {
+                for (int i = 0; i < eb.skillGains.Count; i++)
+                {
+                    var sg = eb.skillGains[i];
+                    if (sg.skill == null) continue;
+                    var skill = pawn.skills.GetSkill(sg.skill);
+                    if (skill != null)
+                        skill.Level += sg.amount;
+                }
+            }
+
+            // Apply body type
+            BodyTypeDef bt = DefDatabase<BodyTypeDef>.GetNamedSilentFail(
+                pawn.gender == Gender.Female ? "FemaleElderly" : "MaleElderly");
+            if (bt != null && pawn.story?.bodyType != null)
+                pawn.story.bodyType = bt;
         }
     }
 
