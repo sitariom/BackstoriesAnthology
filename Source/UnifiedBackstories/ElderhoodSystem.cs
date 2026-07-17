@@ -808,7 +808,10 @@ namespace UnifiedBackstories
         static ElderhoodPatcher()
         {
             new Harmony("UnifiedBackstories.ElderhoodSystem").PatchAll();
-            Log.Message("[UB] Elderhood system initialized (replaces ElderhoodBackstory.dll)");
+            string ver = System.IO.File.GetLastWriteTime(
+                System.Reflection.Assembly.GetExecutingAssembly().Location)
+                .ToString("yyyy-MM-dd HH:mm");
+            Log.Message("[UB] v1.2.0 loaded (build " + ver + ") — Elderhood + Gender tokens + Age 60+ + UI edit");
         }
     }
 }
