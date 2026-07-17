@@ -238,12 +238,18 @@ namespace UnifiedBackstories
     /// Processes {PAWN_gender ? X : Y} tokens in all backstory descriptions.
     /// Handles the custom gender markup from the original ElderhoodBackstory mod.
     /// </summary>
+    /// <summary>
+    /// NOTE: In RimWorld 1.6, FullDescriptionFor returns TaggedString (not string).
+    /// The __result type MUST match the exact return type or Harmony throws:
+    /// "Cannot assign method return type TaggedString to __result type String"
+    /// TaggedString implicitly converts to/from string, so the logic is unchanged.
+    /// </summary>
     [HarmonyPatch(typeof(BackstoryDef), "FullDescriptionFor")]
     public static class BackstoryDef_FullDescriptionFor_Patch
     {
-        public static void Postfix(BackstoryDef __instance, Pawn p, ref string __result)
+        public static void Postfix(BackstoryDef __instance, Pawn p, ref Verse.TaggedString __result)
         {
-            if (string.IsNullOrEmpty(__result) || p == null) return;
+            if (__result.NullOrEmpty() || p == null) return;
             __result = ElderhoodHelper.ProcessGenderTokens(__result, p);
         }
     }
