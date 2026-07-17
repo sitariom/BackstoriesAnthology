@@ -11,7 +11,7 @@
 		<spawnCategories>
 			<li>ZCB</li> 					
 		</spawnCategories>
-		<commonality>1.5</commonality>
+		<commonality>2</commonality>
 		<!-- new tags start here -->
 		<requiredRecords>
 			<li>

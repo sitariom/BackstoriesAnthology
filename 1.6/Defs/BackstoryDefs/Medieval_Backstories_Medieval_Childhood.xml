@@ -31,8 +31,7 @@
             <defName>Psychopath</defName>
         </li>
     </disallowedTraits>
-	<linkedBackstory>UB_Medieval_Alchemist</linkedBackstory>
-</BackstoryDef>
+	</BackstoryDef>
 
 <!-- Squire -->
 
@@ -57,18 +56,7 @@
 		 <li>Uncommon</li>
 		 <li>MedievalKnight</li>
 	</spawnCategories>
-		 <relationSettings>
-          <relationChanceModifierLover>0</relationChanceModifierLover>
-            <relationChanceModifierExLover>0</relationChanceModifierExLover>
-            <relationChanceModifierFiance>0</relationChanceModifierFiance>
-            <relationChanceModifierSpouse>0</relationChanceModifierSpouse>
-            <relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
-            <relationChanceModifierParent>0</relationChanceModifierParent>
-            <relationChanceModifierChild>0</relationChanceModifierChild>
-            <relationChanceModifierSibling>0</relationChanceModifierSibling>     
-      </relationSettings>
-	<linkedBackstory>UB_Medieval_ChivalrousKnight</linkedBackstory>
-</BackstoryDef>
+		 </BackstoryDef>
 
 <BackstoryDef>
 	<defName>UB_Medieval_CorruptSquire</defName>
@@ -94,18 +82,7 @@
             <defName>Kind</defName>
         </li>
     </disallowedTraits>
-		 <relationSettings>
-          <relationChanceModifierLover>0</relationChanceModifierLover>
-            <relationChanceModifierExLover>0</relationChanceModifierExLover>
-            <relationChanceModifierFiance>0</relationChanceModifierFiance>
-            <relationChanceModifierSpouse>0</relationChanceModifierSpouse>
-            <relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
-            <relationChanceModifierParent>0</relationChanceModifierParent>
-            <relationChanceModifierChild>0</relationChanceModifierChild>
-            <relationChanceModifierSibling>0</relationChanceModifierSibling>     
-      </relationSettings>
-	<linkedBackstory>UB_Medieval_UnscrupulousKnight</linkedBackstory>
-</BackstoryDef>
+		 </BackstoryDef>
 
 <BackstoryDef>
 	<defName>UB_Medieval_LowbornSquire</defName>
@@ -131,18 +108,7 @@
 			<li>MedievalKnight</li>
 		 <li>Uncommon</li>
 	</spawnCategories>
-		 <relationSettings>
-          <relationChanceModifierLover>0</relationChanceModifierLover>
-            <relationChanceModifierExLover>0</relationChanceModifierExLover>
-            <relationChanceModifierFiance>0</relationChanceModifierFiance>
-            <relationChanceModifierSpouse>0</relationChanceModifierSpouse>
-            <relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
-            <relationChanceModifierParent>0</relationChanceModifierParent>
-            <relationChanceModifierChild>0</relationChanceModifierChild>
-            <relationChanceModifierSibling>0</relationChanceModifierSibling>     
-      </relationSettings>
-	<linkedBackstory>UB_Medieval_QuestingKnight</linkedBackstory>
-</BackstoryDef>
+		 </BackstoryDef>
 
 <BackstoryDef>
 	<defName>UB_Medieval_ReluctantSquire</defName>
@@ -163,18 +129,7 @@
 			<li>MedievalKnight</li>
 		 <li>Uncommon</li>
 	</spawnCategories>
-		 <relationSettings>
-          <relationChanceModifierLover>0</relationChanceModifierLover>
-            <relationChanceModifierExLover>0</relationChanceModifierExLover>
-            <relationChanceModifierFiance>0</relationChanceModifierFiance>
-            <relationChanceModifierSpouse>0</relationChanceModifierSpouse>
-            <relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
-            <relationChanceModifierParent>0</relationChanceModifierParent>
-            <relationChanceModifierChild>0</relationChanceModifierChild>
-            <relationChanceModifierSibling>0</relationChanceModifierSibling>     
-      </relationSettings>
-	<linkedBackstory>UB_Medieval_DisgracedKnight</linkedBackstory>
-</BackstoryDef>
+		 </BackstoryDef>
 
 
 
@@ -207,18 +162,7 @@
 			<li>MedievalMerchant</li>
 		 <li>Uncommon</li>
 	</spawnCategories>
-		 <relationSettings>
-          <relationChanceModifierLover>0</relationChanceModifierLover>
-            <relationChanceModifierExLover>0</relationChanceModifierExLover>
-            <relationChanceModifierFiance>0</relationChanceModifierFiance>
-            <relationChanceModifierSpouse>0</relationChanceModifierSpouse>
-            <relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
-            <relationChanceModifierParent>0</relationChanceModifierParent>
-            <relationChanceModifierChild>0</relationChanceModifierChild>
-            <relationChanceModifierSibling>0</relationChanceModifierSibling>     
-      </relationSettings>
-	<linkedBackstory>UB_Medieval_WellTravelledMerchant</linkedBackstory>
-</BackstoryDef>
+		 </BackstoryDef>
 
 <BackstoryDef>
 	<defName>UB_Medieval_MerchantChild</defName>
@@ -240,18 +184,7 @@
 		<li>Medieval</li>
 			<li>MedievalMerchant</li>
 	</spawnCategories>
-		 <relationSettings>
-          <relationChanceModifierLover>0</relationChanceModifierLover>
-            <relationChanceModifierExLover>0</relationChanceModifierExLover>
-            <relationChanceModifierFiance>0</relationChanceModifierFiance>
-            <relationChanceModifierSpouse>0</relationChanceModifierSpouse>
-            <relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
-            <relationChanceModifierParent>0</relationChanceModifierParent>
-            <relationChanceModifierChild>0</relationChanceModifierChild>
-            <relationChanceModifierSibling>0</relationChanceModifierSibling>     
-      </relationSettings>
-	<linkedBackstory>UB_Medieval_LocalMerchant</linkedBackstory>
-</BackstoryDef>
+		 </BackstoryDef>
 
 
 <!-- Royal -->
@@ -272,25 +205,12 @@
        <li>ManualDumb</li>
 	   <li>ManualSkilled</li>
     </workDisables>
-	 <maleCommonality>100</maleCommonality>
-    <femaleCommonality>0</femaleCommonality>
-	<spawnCategories>
+	 <spawnCategories>
 		<li>Medieval</li>
 			<li>MedievalRoyal</li>
 		<li>Rare</li>
 	</spawnCategories>
-		 <relationSettings>
-          <relationChanceModifierLover>0</relationChanceModifierLover>
-            <relationChanceModifierExLover>0</relationChanceModifierExLover>
-            <relationChanceModifierFiance>0</relationChanceModifierFiance>
-            <relationChanceModifierSpouse>0</relationChanceModifierSpouse>
-            <relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
-            <relationChanceModifierParent>0</relationChanceModifierParent>
-            <relationChanceModifierChild>0</relationChanceModifierChild>
-            <relationChanceModifierSibling>0</relationChanceModifierSibling>     
-      </relationSettings>
-	
-</BackstoryDef>
+		 </BackstoryDef>
 
 <BackstoryDef>
 	<defName>UB_Medieval_YoungQueen</defName>
@@ -308,24 +228,12 @@
        <li>ManualDumb</li>
 	   <li>ManualSkilled</li>
     </workDisables>
-	    <maleCommonality>0</maleCommonality>
-    <femaleCommonality>100</femaleCommonality>
-	<spawnCategories>
+	    <spawnCategories>
 		<li>Medieval</li>
 			<li>MedievalRoyal</li>
 		<li>Rare</li>
 	</spawnCategories>
-		 <relationSettings>
-          <relationChanceModifierLover>0</relationChanceModifierLover>
-            <relationChanceModifierExLover>0</relationChanceModifierExLover>
-            <relationChanceModifierFiance>0</relationChanceModifierFiance>
-            <relationChanceModifierSpouse>0</relationChanceModifierSpouse>
-            <relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
-            <relationChanceModifierParent>0</relationChanceModifierParent>
-            <relationChanceModifierChild>0</relationChanceModifierChild>
-            <relationChanceModifierSibling>0</relationChanceModifierSibling>     
-      </relationSettings>
-</BackstoryDef>
+		 </BackstoryDef>
 
 <BackstoryDef>
 	<defName>UB_Medieval_HeirToTheThrone</defName>
@@ -350,17 +258,7 @@
 			<li>MedievalRoyal</li>
 		<li>Rare</li>
 	</spawnCategories>
-		 <relationSettings>
-          <relationChanceModifierLover>0</relationChanceModifierLover>
-            <relationChanceModifierExLover>0</relationChanceModifierExLover>
-            <relationChanceModifierFiance>0</relationChanceModifierFiance>
-            <relationChanceModifierSpouse>0</relationChanceModifierSpouse>
-            <relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
-            <relationChanceModifierParent>0</relationChanceModifierParent>
-            <relationChanceModifierChild>0</relationChanceModifierChild>
-            <relationChanceModifierSibling>0</relationChanceModifierSibling>     
-      </relationSettings>
-</BackstoryDef>
+		 </BackstoryDef>
 
 <BackstoryDef>
 	<defName>UB_Medieval_YoungRoyal</defName>
@@ -385,17 +283,7 @@
 			<li>MedievalRoyal</li>
 		<li>Rare</li>
 	</spawnCategories>
-		 <relationSettings>
-          <relationChanceModifierLover>0</relationChanceModifierLover>
-            <relationChanceModifierExLover>0</relationChanceModifierExLover>
-            <relationChanceModifierFiance>0</relationChanceModifierFiance>
-            <relationChanceModifierSpouse>0</relationChanceModifierSpouse>
-            <relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
-            <relationChanceModifierParent>0</relationChanceModifierParent>
-            <relationChanceModifierChild>0</relationChanceModifierChild>
-            <relationChanceModifierSibling>0</relationChanceModifierSibling>     
-      </relationSettings>
-</BackstoryDef>
+		 </BackstoryDef>
 
 <!-- Noble -->
 
@@ -421,17 +309,7 @@
 			<li>MedievalNoble</li>
 		<li>Rare</li>
 	</spawnCategories>
-		 <relationSettings>
-          <relationChanceModifierLover>0</relationChanceModifierLover>
-            <relationChanceModifierExLover>0</relationChanceModifierExLover>
-            <relationChanceModifierFiance>0</relationChanceModifierFiance>
-            <relationChanceModifierSpouse>0</relationChanceModifierSpouse>
-            <relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
-            <relationChanceModifierParent>0</relationChanceModifierParent>
-            <relationChanceModifierChild>0</relationChanceModifierChild>
-            <relationChanceModifierSibling>0</relationChanceModifierSibling>     
-      </relationSettings>
-</BackstoryDef>
+		 </BackstoryDef>
 
 <BackstoryDef>
 	<defName>UB_Medieval_PlayfulNobleChild</defName>
@@ -456,17 +334,7 @@
 			<li>MedievalNoble</li>
 		<li>Rare</li>
 	</spawnCategories>
-		 <relationSettings>
-          <relationChanceModifierLover>0</relationChanceModifierLover>
-            <relationChanceModifierExLover>0</relationChanceModifierExLover>
-            <relationChanceModifierFiance>0</relationChanceModifierFiance>
-            <relationChanceModifierSpouse>0</relationChanceModifierSpouse>
-            <relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
-            <relationChanceModifierParent>0</relationChanceModifierParent>
-            <relationChanceModifierChild>0</relationChanceModifierChild>
-            <relationChanceModifierSibling>0</relationChanceModifierSibling>     
-      </relationSettings>
-</BackstoryDef>
+		 </BackstoryDef>
 
 <BackstoryDef>
 	<defName>UB_Medieval_SpoiledNobleChild</defName>
@@ -495,17 +363,7 @@
 			<li>MedievalNoble</li>
 		<li>Rare</li>
 	</spawnCategories>
-		 <relationSettings>
-          <relationChanceModifierLover>0</relationChanceModifierLover>
-            <relationChanceModifierExLover>0</relationChanceModifierExLover>
-            <relationChanceModifierFiance>0</relationChanceModifierFiance>
-            <relationChanceModifierSpouse>0</relationChanceModifierSpouse>
-            <relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
-            <relationChanceModifierParent>0</relationChanceModifierParent>
-            <relationChanceModifierChild>0</relationChanceModifierChild>
-            <relationChanceModifierSibling>0</relationChanceModifierSibling>     
-      </relationSettings>
-</BackstoryDef>
+		 </BackstoryDef>
 
 <BackstoryDef>
 	<defName>UB_Medieval_RoyalBastard</defName>
@@ -528,17 +386,7 @@
 			<li>MedievalNoble</li>
 		<li>Rare</li>
 	</spawnCategories>
-		 <relationSettings>
-          <relationChanceModifierLover>0</relationChanceModifierLover>
-            <relationChanceModifierExLover>0</relationChanceModifierExLover>
-            <relationChanceModifierFiance>0</relationChanceModifierFiance>
-            <relationChanceModifierSpouse>0</relationChanceModifierSpouse>
-            <relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
-            <relationChanceModifierParent>0</relationChanceModifierParent>
-            <relationChanceModifierChild>0</relationChanceModifierChild>
-            <relationChanceModifierSibling>0</relationChanceModifierSibling>     
-      </relationSettings>
-</BackstoryDef>
+		 </BackstoryDef>
 
 <!-- Servant -->
 
@@ -563,8 +411,7 @@
 		<li>Medieval</li>
 			<li>MedievalServant</li>
 	</spawnCategories>
-	<linkedBackstory>UB_Medieval_StableMaster</linkedBackstory>
-</BackstoryDef>
+	</BackstoryDef>
 
 <BackstoryDef>
 	<defName>UB_Medieval_KitchenHelper</defName>
@@ -710,17 +557,7 @@
 		<li>Medieval</li>
 			<li>MedievalArtist</li>
 	</spawnCategories>
-		 <relationSettings>
-          <relationChanceModifierLover>0</relationChanceModifierLover>
-            <relationChanceModifierExLover>0</relationChanceModifierExLover>
-            <relationChanceModifierFiance>0</relationChanceModifierFiance>
-            <relationChanceModifierSpouse>0</relationChanceModifierSpouse>
-            <relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
-            <relationChanceModifierParent>0</relationChanceModifierParent>
-            <relationChanceModifierChild>0</relationChanceModifierChild>
-            <relationChanceModifierSibling>0</relationChanceModifierSibling>     
-      </relationSettings>
-</BackstoryDef>
+		 </BackstoryDef>
 
 <BackstoryDef>
 	<defName>UB_Medieval_YoungWordsmith</defName>
@@ -764,17 +601,7 @@
 		<li>Medieval</li>
 			<li>MedievalArtist</li>
 	</spawnCategories>
-		 <relationSettings>
-          <relationChanceModifierLover>0</relationChanceModifierLover>
-            <relationChanceModifierExLover>0</relationChanceModifierExLover>
-            <relationChanceModifierFiance>0</relationChanceModifierFiance>
-            <relationChanceModifierSpouse>0</relationChanceModifierSpouse>
-            <relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
-            <relationChanceModifierParent>0</relationChanceModifierParent>
-            <relationChanceModifierChild>0</relationChanceModifierChild>
-            <relationChanceModifierSibling>0</relationChanceModifierSibling>     
-      </relationSettings>
-</BackstoryDef>
+		 </BackstoryDef>
 
 <!-- Townsfolk -->
 
@@ -821,17 +648,7 @@
 		<li>Medieval</li>
 			<li>MedievalTownsfolk</li>
 	</spawnCategories>
-		 <relationSettings>
-          <relationChanceModifierLover>0</relationChanceModifierLover>
-            <relationChanceModifierExLover>0</relationChanceModifierExLover>
-            <relationChanceModifierFiance>0</relationChanceModifierFiance>
-            <relationChanceModifierSpouse>0</relationChanceModifierSpouse>
-            <relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
-            <relationChanceModifierParent>0</relationChanceModifierParent>
-            <relationChanceModifierChild>0</relationChanceModifierChild>
-            <relationChanceModifierSibling>0</relationChanceModifierSibling>     
-      </relationSettings>
-</BackstoryDef>
+		 </BackstoryDef>
 
 <BackstoryDef>
 	<defName>UB_Medieval_HelpfulChild</defName>
@@ -899,17 +716,7 @@
 		<li>Medieval</li>
 			<li>MedievalTownsfolk</li>
 	</spawnCategories>
-		 <relationSettings>
-          <relationChanceModifierLover>0</relationChanceModifierLover>
-            <relationChanceModifierExLover>0</relationChanceModifierExLover>
-            <relationChanceModifierFiance>0</relationChanceModifierFiance>
-            <relationChanceModifierSpouse>0</relationChanceModifierSpouse>
-            <relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
-            <relationChanceModifierParent>0</relationChanceModifierParent>
-            <relationChanceModifierChild>0</relationChanceModifierChild>
-            <relationChanceModifierSibling>0</relationChanceModifierSibling>     
-      </relationSettings>
-</BackstoryDef>
+		 </BackstoryDef>
 
 <BackstoryDef>
 	<defName>UB_Medieval_BoastfulChild</defName>
@@ -956,17 +763,7 @@
 		<li>Medieval</li>
 			<li>MedievalCriminal</li>
 	</spawnCategories>
-		 <relationSettings>
-          <relationChanceModifierLover>0</relationChanceModifierLover>
-            <relationChanceModifierExLover>0</relationChanceModifierExLover>
-            <relationChanceModifierFiance>0</relationChanceModifierFiance>
-            <relationChanceModifierSpouse>0</relationChanceModifierSpouse>
-            <relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
-            <relationChanceModifierParent>0</relationChanceModifierParent>
-            <relationChanceModifierChild>0</relationChanceModifierChild>
-            <relationChanceModifierSibling>0</relationChanceModifierSibling>     
-      </relationSettings>
-</BackstoryDef>
+		 </BackstoryDef>
 
 <BackstoryDef>
 	<defName>UB_Medieval_StreetOrphan</defName>
@@ -992,17 +789,7 @@
 		<li>Medieval</li>
 			<li>MedievalCriminal</li>
 	</spawnCategories>
-		 <relationSettings>
-          <relationChanceModifierLover>0</relationChanceModifierLover>
-            <relationChanceModifierExLover>0</relationChanceModifierExLover>
-            <relationChanceModifierFiance>0</relationChanceModifierFiance>
-            <relationChanceModifierSpouse>0</relationChanceModifierSpouse>
-            <relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
-            <relationChanceModifierParent>0</relationChanceModifierParent>
-            <relationChanceModifierChild>0</relationChanceModifierChild>
-            <relationChanceModifierSibling>0</relationChanceModifierSibling>     
-      </relationSettings>
-</BackstoryDef>
+		 </BackstoryDef>
 
 <!-- Clergy -->
 
@@ -1022,23 +809,11 @@
 		<li>ManualSkilled</li>
 		<li>ManualDumb</li>
     </requiredWorkTags>
-	<maleCommonality>100</maleCommonality>
-    <femaleCommonality>0</femaleCommonality>
 	<spawnCategories>
 		<li>Medieval</li>
 			<li>MedievalClergy</li>
 	</spawnCategories>
-		 <relationSettings>
-          <relationChanceModifierLover>0</relationChanceModifierLover>
-            <relationChanceModifierExLover>0</relationChanceModifierExLover>
-            <relationChanceModifierFiance>0</relationChanceModifierFiance>
-            <relationChanceModifierSpouse>0</relationChanceModifierSpouse>
-            <relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
-            <relationChanceModifierParent>0</relationChanceModifierParent>
-            <relationChanceModifierChild>0</relationChanceModifierChild>
-            <relationChanceModifierSibling>0</relationChanceModifierSibling>     
-      </relationSettings>
-</BackstoryDef>
+		 </BackstoryDef>
 
 <BackstoryDef>
 	<defName>UB_Medieval_OrphanGirl</defName>
@@ -1056,23 +831,11 @@
 		<li>ManualSkilled</li>
 		<li>ManualDumb</li>
     </requiredWorkTags>
-	<maleCommonality>0</maleCommonality>
-    <femaleCommonality>100</femaleCommonality>
 	<spawnCategories>
 		<li>Medieval</li>
 			<li>MedievalClergy</li>
 	</spawnCategories>
-		 <relationSettings>
-          <relationChanceModifierLover>0</relationChanceModifierLover>
-            <relationChanceModifierExLover>0</relationChanceModifierExLover>
-            <relationChanceModifierFiance>0</relationChanceModifierFiance>
-            <relationChanceModifierSpouse>0</relationChanceModifierSpouse>
-            <relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
-            <relationChanceModifierParent>0</relationChanceModifierParent>
-            <relationChanceModifierChild>0</relationChanceModifierChild>
-            <relationChanceModifierSibling>0</relationChanceModifierSibling>     
-      </relationSettings>
-</BackstoryDef>
+		 </BackstoryDef>
 
 <!-- Scholar -->
 
@@ -1097,17 +860,7 @@
 		<li>Medieval</li>
 			<li>MedievalScholar</li>
 	</spawnCategories>
-		 <relationSettings>
-          <relationChanceModifierLover>0</relationChanceModifierLover>
-            <relationChanceModifierExLover>0</relationChanceModifierExLover>
-            <relationChanceModifierFiance>0</relationChanceModifierFiance>
-            <relationChanceModifierSpouse>0</relationChanceModifierSpouse>
-            <relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
-            <relationChanceModifierParent>0</relationChanceModifierParent>
-            <relationChanceModifierChild>0</relationChanceModifierChild>
-            <relationChanceModifierSibling>0</relationChanceModifierSibling>     
-      </relationSettings>
-</BackstoryDef>
+		 </BackstoryDef>
 
 <!-- Misc -->
 
@@ -1135,17 +888,7 @@
             <degree>-1</degree>
         </li>
     </forcedTraits>
-		 <relationSettings>
-          <relationChanceModifierLover>0</relationChanceModifierLover>
-            <relationChanceModifierExLover>0</relationChanceModifierExLover>
-            <relationChanceModifierFiance>0</relationChanceModifierFiance>
-            <relationChanceModifierSpouse>0</relationChanceModifierSpouse>
-            <relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
-            <relationChanceModifierParent>0</relationChanceModifierParent>
-            <relationChanceModifierChild>0</relationChanceModifierChild>
-            <relationChanceModifierSibling>0</relationChanceModifierSibling>     
-      </relationSettings>
-</BackstoryDef>
+		 </BackstoryDef>
 
 <BackstoryDef>
 	<defName>UB_Medieval_FlowerPicker</defName>
@@ -1162,20 +905,7 @@
 		<li>Medieval</li>
 			<li>MedievalMisc</li>
 			</spawnCategories>
-	<maleCommonality>10</maleCommonality>
-    <femaleCommonality>90</femaleCommonality>
-		 <relationSettings>
-          <relationChanceModifierLover>0</relationChanceModifierLover>
-            <relationChanceModifierExLover>0</relationChanceModifierExLover>
-            <relationChanceModifierFiance>0</relationChanceModifierFiance>
-            <relationChanceModifierSpouse>0</relationChanceModifierSpouse>
-            <relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
-            <relationChanceModifierParent>0</relationChanceModifierParent>
-            <relationChanceModifierChild>0</relationChanceModifierChild>
-            <relationChanceModifierSibling>0</relationChanceModifierSibling>     
-      </relationSettings>
-	<linkedBackstory>UB_Medieval_ReclusiveWitch</linkedBackstory>
-</BackstoryDef>
+	</BackstoryDef>
 
 <BackstoryDef>
 	<defName>UB_Medieval_Changeling</defName>
@@ -1209,18 +939,7 @@
 		<li>Medieval</li>
 			<li>MedievalMisc</li>
 	</spawnCategories>
-		 <relationSettings>
-          <relationChanceModifierLover>0</relationChanceModifierLover>
-            <relationChanceModifierExLover>0</relationChanceModifierExLover>
-            <relationChanceModifierFiance>0</relationChanceModifierFiance>
-            <relationChanceModifierSpouse>0</relationChanceModifierSpouse>
-            <relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
-            <relationChanceModifierParent>0</relationChanceModifierParent>
-            <relationChanceModifierChild>0</relationChanceModifierChild>
-            <relationChanceModifierSibling>0</relationChanceModifierSibling>     
-      </relationSettings>
-	<linkedBackstory>UB_Medieval_VillageFool</linkedBackstory>
-</BackstoryDef>
+		 </BackstoryDef>
 
 <BackstoryDef>
 	<defName>UB_Medieval_AdventurousYouth</defName>
@@ -1241,16 +960,6 @@
 			<li>MedievalMisc</li>
 		<li>Uncommon</li>
 	</spawnCategories>
-		 <relationSettings>
-          <relationChanceModifierLover>0</relationChanceModifierLover>
-            <relationChanceModifierExLover>0</relationChanceModifierExLover>
-            <relationChanceModifierFiance>0</relationChanceModifierFiance>
-            <relationChanceModifierSpouse>0</relationChanceModifierSpouse>
-            <relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
-            <relationChanceModifierParent>0</relationChanceModifierParent>
-            <relationChanceModifierChild>0</relationChanceModifierChild>
-            <relationChanceModifierSibling>0</relationChanceModifierSibling>     
-      </relationSettings>
-</BackstoryDef>
+		 </BackstoryDef>
 
 </Defs>

@@ -179,7 +179,7 @@
 			<li>ZCB</li>
 			<li>ZCB_NaturalMeditation</li>
 		</spawnCategories>
-		<commonality>1.5</commonality>
+		<commonality>2</commonality>
 		<bodyPartsReplaced>2~999</bodyPartsReplaced>
 		<forcedTraits><li>BodyPurist</li></forcedTraits>
 		<disallowedTraits><li>Transhumanist</li></disallowedTraits>
@@ -197,7 +197,7 @@
 		<spawnCategories>
 			<li>ZCB</li>
 		</spawnCategories>
-		<commonality>1.5</commonality>
+		<commonality>2</commonality>
 		<bodyPartsReplaced>1~999</bodyPartsReplaced>
 		<bodyPartsMissing>1~999</bodyPartsMissing>
 		<forcedTraits><li>Transhumanist</li></forcedTraits>
@@ -216,7 +216,7 @@
 		<spawnCategories>
 			<li>ZCB</li>
 		</spawnCategories>
-		<commonality>1.5</commonality>
+		<commonality>2</commonality>
 		<requiredRecords>
 			<li>
 				<name>OperationsReceived</name>

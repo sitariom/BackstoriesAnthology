@@ -45,7 +45,7 @@
 			<li>ZCB_NaturalMeditation</li>
 		</spawnCategories>
 		<!-- new tags start here -->
-		<commonality>3.5</commonality>		<!-- this one is kinda specific -->
+		<commonality>4</commonality>		<!-- this one is kinda specific -->
 		<mother>Dead</mother>
 		<requiredRecords>
 			<li>
@@ -73,7 +73,7 @@
 			<li>ZCB_NaturalMeditation</li> 	
 		</spawnCategories>
 		<!-- new tags start here -->
-		<commonality>3.5</commonality>		<!-- this one is kinda specific -->
+		<commonality>4</commonality>		<!-- this one is kinda specific -->
 		<father>Dead</father>
 		<requiredRecords>
 			<li>

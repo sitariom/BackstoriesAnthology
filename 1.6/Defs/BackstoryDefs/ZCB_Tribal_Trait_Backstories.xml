@@ -13,7 +13,7 @@
 			<li>ZCB</li> 
 			<li>ZCB_NaturalMeditation</li>
 		</spawnCategories>
-		<commonality>3.5</commonality>
+		<commonality>4</commonality>
 		<maxTechLevel>Neolithic</maxTechLevel>	
 		<requiredTraits><li>Gourmand</li></requiredTraits>
 		<requiredPassions>

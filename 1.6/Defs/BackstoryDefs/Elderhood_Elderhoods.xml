@@ -11,7 +11,7 @@
 		<spawnCategories Inherit="false">
 
 			<li>SpecialElderhood</li>
-		
+
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 	</BackstoryDef>
@@ -26,7 +26,7 @@
 		<spawnCategories Inherit="false">
 
 			<li>SpecialElderhood</li>
-		
+
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 	</BackstoryDef>
@@ -41,7 +41,7 @@
 		<spawnCategories Inherit="false">
 
 			<li>SpecialElderhood</li>
-		
+
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 	</BackstoryDef>
@@ -56,7 +56,7 @@
 		<spawnCategories>
 
 			<li>Elderhood</li>
-		
+
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
@@ -75,7 +75,7 @@
 		<spawnCategories>
 
 			<li>Elderhood</li>
-		
+
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
@@ -86,7 +86,7 @@
 
 			<li>Intellectual</li>
 			<li>Artistic</li>
-		
+
 		</requiredWorkTags>
 		<possessions>
 
@@ -105,7 +105,7 @@
 		<spawnCategories>
 
 			<li>Elderhood</li>
-		
+
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
@@ -116,7 +116,7 @@
 
 			<li>Intellectual</li>
 			<li>Social</li>
-		
+
 		</requiredWorkTags>
 		<possessions>
 
@@ -135,7 +135,7 @@
 		<spawnCategories>
 
 			<li>Elderhood</li>
-		
+
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
@@ -146,7 +146,7 @@
 		<requiredWorkTags>
 
 			<li>Violent</li>
-		
+
 		</requiredWorkTags>
 	</BackstoryDef>
 	<BackstoryDef ParentName="ElderhoodBackstory">
@@ -160,7 +160,7 @@
 		<spawnCategories>
 
 			<li>Elderhood</li>
-		
+
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
@@ -171,7 +171,7 @@
 
 			<li>Constructing</li>
 			<li>Crafting</li>
-		
+
 		</requiredWorkTags>
 	</BackstoryDef>
 	<BackstoryDef ParentName="ElderhoodBackstory">
@@ -185,7 +185,7 @@
 		<spawnCategories>
 
 			<li>Elderhood</li>
-		
+
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
@@ -194,7 +194,7 @@
 		<requiredWorkTags>
 
 			<li>Social</li>
-		
+
 		</requiredWorkTags>
 	</BackstoryDef>
 	<BackstoryDef ParentName="ElderhoodBackstory">
@@ -208,7 +208,7 @@
 		<spawnCategories>
 
 			<li>Elderhood</li>
-		
+
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
@@ -228,7 +228,7 @@
 		<spawnCategories>
 
 			<li>Elderhood</li>
-		
+
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
@@ -237,7 +237,7 @@
 		<requiredWorkTags>
 
 			<li>Intellectual</li>
-		
+
 		</requiredWorkTags>
 		<possessions>
 
@@ -256,7 +256,7 @@
 		<spawnCategories>
 
 			<li>Elderhood</li>
-		
+
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
@@ -266,7 +266,7 @@
 		<requiredWorkTags>
 
 			<li>Intellectual</li>
-		
+
 		</requiredWorkTags>
 	</BackstoryDef>
 	<BackstoryDef ParentName="ElderhoodBackstory">
@@ -280,7 +280,7 @@
 		<spawnCategories>
 
 			<li>Elderhood</li>
-		
+
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
@@ -290,7 +290,7 @@
 		<requiredWorkTags>
 
 			<li>Violent</li>
-		
+
 		</requiredWorkTags>
 	</BackstoryDef>
 	<BackstoryDef ParentName="ElderhoodBackstory">
@@ -304,7 +304,7 @@
 		<spawnCategories>
 
 			<li>Elderhood</li>
-		
+
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
@@ -313,7 +313,7 @@
 		<requiredWorkTags>
 
 			<li>Crafting</li>
-		
+
 		</requiredWorkTags>
 		<possessions>
 
@@ -332,7 +332,7 @@
 		<spawnCategories>
 
 			<li>Elderhood</li>
-		
+
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
@@ -344,7 +344,7 @@
 
 			<li>Crafting</li>
 			<li>Cooking</li>
-		
+
 		</requiredWorkTags>
 	</BackstoryDef>
 	<BackstoryDef ParentName="ElderhoodBackstory">
@@ -358,7 +358,7 @@
 		<spawnCategories>
 
 			<li>Elderhood</li>
-		
+
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
@@ -382,7 +382,7 @@
 		<spawnCategories>
 
 			<li>Elderhood</li>
-		
+
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
@@ -402,7 +402,7 @@
 		<spawnCategories>
 
 			<li>Elderhood</li>
-		
+
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
@@ -413,7 +413,7 @@
 		<requiredWorkTags>
 
 			<li>PlantWork</li>
-		
+
 		</requiredWorkTags>
 	</BackstoryDef>
 	<BackstoryDef ParentName="ElderhoodBackstory">
@@ -427,7 +427,7 @@
 		<spawnCategories>
 
 			<li>Elderhood</li>
-		
+
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
@@ -439,7 +439,7 @@
 
 			<li>Intellectual</li>
 			<li>Violent</li>
-		
+
 		</requiredWorkTags>
 	</BackstoryDef>
 	<BackstoryDef ParentName="ElderhoodBackstory">
@@ -453,7 +453,7 @@
 		<spawnCategories>
 
 			<li>Elderhood</li>
-		
+
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
@@ -464,7 +464,7 @@
 
 			<li>Social</li>
 			<li>Violent</li>
-		
+
 		</requiredWorkTags>
 	</BackstoryDef>
 	<BackstoryDef ParentName="ElderhoodBackstory">
@@ -478,7 +478,7 @@
 		<spawnCategories>
 
 			<li>Elderhood</li>
-		
+
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
@@ -489,7 +489,7 @@
 
 			<li>Animals</li>
 			<li>Intellectual</li>
-		
+
 		</requiredWorkTags>
 	</BackstoryDef>
 	<BackstoryDef ParentName="ElderhoodBackstory">
@@ -503,7 +503,7 @@
 		<spawnCategories>
 
 			<li>Elderhood</li>
-		
+
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
@@ -514,7 +514,7 @@
 
 			<li>Crafting</li>
 			<li>Cooking</li>
-		
+
 		</requiredWorkTags>
 	</BackstoryDef>
 	<BackstoryDef ParentName="ElderhoodBackstory">
@@ -528,7 +528,7 @@
 		<spawnCategories>
 
 			<li>Elderhood</li>
-		
+
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
@@ -538,7 +538,7 @@
 		<requiredWorkTags>
 
 			<li>Intellectual</li>
-		
+
 		</requiredWorkTags>
 	</BackstoryDef>
 	<BackstoryDef ParentName="ElderhoodBackstory">
@@ -552,7 +552,7 @@
 		<spawnCategories>
 
 			<li>Elderhood</li>
-		
+
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
@@ -563,7 +563,7 @@
 
 			<li>Social</li>
 			<li>Intellectual</li>
-		
+
 		</requiredWorkTags>
 		<forcedTraits>
 
@@ -582,7 +582,7 @@
 		<spawnCategories>
 
 			<li>Elderhood</li>
-		
+
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
@@ -591,7 +591,7 @@
 		<requiredWorkTags>
 
 			<li>Caring</li>
-		
+
 		</requiredWorkTags>
 	</BackstoryDef>
 	<BackstoryDef ParentName="ElderhoodBackstory">
@@ -605,7 +605,7 @@
 		<spawnCategories>
 
 			<li>Elderhood</li>
-		
+
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
@@ -614,7 +614,7 @@
 		<requiredWorkTags>
 
 			<li>Animals</li>
-		
+
 		</requiredWorkTags>
 	</BackstoryDef>
 	<BackstoryDef ParentName="ElderhoodBackstory">
@@ -628,7 +628,7 @@
 		<spawnCategories>
 
 			<li>Elderhood</li>
-		
+
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
@@ -637,7 +637,7 @@
 		<requiredWorkTags>
 
 			<li>Social</li>
-		
+
 		</requiredWorkTags>
 	</BackstoryDef>
 	<BackstoryDef ParentName="ElderhoodBackstory">
@@ -651,7 +651,7 @@
 		<spawnCategories>
 
 			<li>Elderhood</li>
-		
+
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
@@ -661,7 +661,7 @@
 		<requiredWorkTags>
 
 			<li>Violent</li>
-		
+
 		</requiredWorkTags>
 	</BackstoryDef>
 	<BackstoryDef ParentName="ElderhoodBackstory">
@@ -675,7 +675,7 @@
 		<spawnCategories>
 
 			<li>Elderhood</li>
-		
+
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
@@ -685,7 +685,7 @@
 		<requiredWorkTags>
 
 			<li>Artistic</li>
-		
+
 		</requiredWorkTags>
 	</BackstoryDef>
 	<BackstoryDef ParentName="ElderhoodBackstory">
@@ -699,7 +699,7 @@
 		<spawnCategories>
 
 			<li>Elderhood</li>
-		
+
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
@@ -710,7 +710,7 @@
 
 			<li>Constructing</li>
 			<li>Crafting</li>
-		
+
 		</requiredWorkTags>
 	</BackstoryDef>
 	<BackstoryDef ParentName="ElderhoodBackstory">
@@ -724,7 +724,7 @@
 		<spawnCategories>
 
 			<li>Elderhood</li>
-		
+
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
@@ -733,7 +733,7 @@
 		<requiredWorkTags>
 
 			<li>Cooking</li>
-		
+
 		</requiredWorkTags>
 	</BackstoryDef>
 	<BackstoryDef ParentName="ElderhoodBackstory">
@@ -747,7 +747,7 @@
 		<spawnCategories>
 
 			<li>Elderhood</li>
-		
+
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
@@ -756,7 +756,7 @@
 		<requiredWorkTags>
 
 			<li>Cooking</li>
-		
+
 		</requiredWorkTags>
 	</BackstoryDef>
 	<BackstoryDef ParentName="ElderhoodBackstory">
@@ -770,7 +770,7 @@
 		<spawnCategories>
 
 			<li>Elderhood</li>
-		
+
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
@@ -780,7 +780,7 @@
 		<requiredWorkTags>
 
 			<li>Social</li>
-		
+
 		</requiredWorkTags>
 	</BackstoryDef>
 	<BackstoryDef ParentName="ElderhoodBackstory">
@@ -794,7 +794,7 @@
 		<spawnCategories>
 
 			<li>Elderhood</li>
-		
+
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
@@ -804,7 +804,7 @@
 		<requiredWorkTags>
 
 			<li>PlantWork</li>
-		
+
 		</requiredWorkTags>
 	</BackstoryDef>
 	<BackstoryDef ParentName="ElderhoodBackstory">
@@ -818,7 +818,7 @@
 		<spawnCategories>
 
 			<li>Elderhood</li>
-		
+
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
@@ -828,7 +828,7 @@
 		<requiredWorkTags>
 
 			<li>Intellectual</li>
-		
+
 		</requiredWorkTags>
 	</BackstoryDef>
 	<BackstoryDef ParentName="ElderhoodBackstory">
@@ -842,7 +842,7 @@
 		<spawnCategories>
 
 			<li>Elderhood</li>
-		
+
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
@@ -851,7 +851,7 @@
 		<requiredWorkTags>
 
 			<li>Artistic</li>
-		
+
 		</requiredWorkTags>
 	</BackstoryDef>
 	<BackstoryDef ParentName="ElderhoodBackstory">
@@ -865,7 +865,7 @@
 		<spawnCategories>
 
 			<li>Elderhood</li>
-		
+
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
@@ -874,7 +874,7 @@
 		<requiredWorkTags>
 
 			<li>Crafting</li>
-		
+
 		</requiredWorkTags>
 	</BackstoryDef>
 	<BackstoryDef ParentName="ElderhoodBackstory">
@@ -888,7 +888,7 @@
 		<spawnCategories>
 
 			<li>Elderhood</li>
-		
+
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
@@ -897,7 +897,7 @@
 		<requiredWorkTags>
 
 			<li>Artistic</li>
-		
+
 		</requiredWorkTags>
 		<forcedTraits>
 
@@ -916,7 +916,7 @@
 		<spawnCategories>
 
 			<li>Elderhood</li>
-		
+
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
@@ -925,7 +925,7 @@
 		<workDisables>
 
 			<li>Violent</li>
-		
+
 		</workDisables>
 	</BackstoryDef>
 	<BackstoryDef ParentName="ElderhoodBackstory">
@@ -939,7 +939,7 @@
 		<spawnCategories>
 
 			<li>Elderhood</li>
-		
+
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
@@ -948,7 +948,7 @@
 		<requiredWorkTags>
 
 			<li>Social</li>
-		
+
 		</requiredWorkTags>
 	</BackstoryDef>
 	<BackstoryDef ParentName="ElderhoodBackstory">
@@ -962,7 +962,7 @@
 		<spawnCategories>
 
 			<li>Elderhood</li>
-		
+
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
@@ -974,7 +974,7 @@
 			<li>Intellectual</li>
 			<li>Cleaning</li>
 			<li>Hauling</li>
-		
+
 		</requiredWorkTags>
 	</BackstoryDef>
 	<BackstoryDef ParentName="ElderhoodBackstory">
@@ -988,7 +988,7 @@
 		<spawnCategories>
 
 			<li>Elderhood</li>
-		
+
 		</spawnCategories>
 		<shuffleable>False</shuffleable>
 		<skillGains>
@@ -999,7 +999,7 @@
 
 			<li>Artistic</li>
 			<li>Social</li>
-		
+
 		</requiredWorkTags>
 	</BackstoryDef>
 

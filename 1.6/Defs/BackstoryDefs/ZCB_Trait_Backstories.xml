@@ -79,7 +79,7 @@
 		<spawnCategories>
 			<li>ZCB</li> 
 		</spawnCategories>
-		<commonality>2.5</commonality>
+		<commonality>3</commonality>
 		<requiredTraits><li>Bloodlust</li></requiredTraits>
 		<requiredPassions>
 			<li>Shooting</li>
