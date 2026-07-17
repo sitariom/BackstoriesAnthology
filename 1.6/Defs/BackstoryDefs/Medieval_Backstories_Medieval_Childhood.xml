@@ -12,19 +12,10 @@
 	<titleShort>Alchemist’s apprentice</titleShort>
 	<baseDesc>[PAWN_nameDef] was the apprentice of a prominent alchemist. [PAWN_nameDef]’s master was determined to discover the formula for the legendary Panacea Elixir, a remedy to all illnesses. Under his tutelage, [PAWN_nameDef] learned about the medical sciences, including how to brew medicines from plants and herbs.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Medicine</key>
-				<value>3</value>
-        </li>
-		<li>
-			<key>Plants</key>
-				<value>2</value>
-        </li>
-		<li>
-			<key>Cooking</key>
-				<value>2</value>
-        </li>
-	</skillGains>
+	<Medicine>3</Medicine>
+	<Plants>2</Plants>
+	<Cooking>2</Cooking>
+</skillGains>
 	<requiredWorkTags>
         <li>Caring</li>
 		 <li>PlantWork</li>
@@ -50,25 +41,13 @@
 	<slot>Childhood</slot>
 	<title>Educated squire</title>
 	 <titleShort>Squire</titleShort>
-	<baseDesc>[PAWN_nameDef] was a squire training to become a full-fledged knight. [PAWN_possessive] duties included polishing and maintaining equipment and caring for [PAWN_possessive] master’s horse. The knight [PAWN_nameDef] served was well-educated, and passed along his knowledge about history and philosophy to [PAWN_objective].</baseDesc>
+	<baseDesc>[PAWN_nameDef] was a squire training to become a full-fledged knight. {PAWN_gender ? his : her} duties included polishing and maintaining equipment and caring for {PAWN_gender ? his : her} master’s horse. The knight [PAWN_nameDef] served was well-educated, and passed along his knowledge about history and philosophy to {PAWN_gender ? him : her}.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Melee</key>
-				<value>4</value>
-        </li>
-		<li>
-			<key>Animals</key>
-				<value>3</value>
-        </li>
-		<li>
-			<key>Crafting</key>
-				<value>3</value>
-        </li>
-			<li>
-			<key>Intellectual</key>
-				<value>3</value>
-        </li>
-	</skillGains>
+	<Melee>4</Melee>
+	<Animals>3</Animals>
+	<Crafting>3</Crafting>
+	<Intellectual>3</Intellectual>
+</skillGains>
 	<requiredWorkTags>
         <li>Violent</li>
 		 <li>Intellectual</li>
@@ -96,21 +75,12 @@
 	<slot>Childhood</slot>
 	<title>Corrupt squire</title>
 	 <titleShort>Squire</titleShort>
-	<baseDesc>[PAWN_nameDef] was a squire in the service of a dishonourable knight. [PAWN_pronoun] was routinely ordered to help [PAWN_possessive] master win tournaments by any means necessary. [PAWN_nameDef] would sabotage equipment, blackmail opponents, and even poison horses.</baseDesc>
+	<baseDesc>[PAWN_nameDef] was a squire in the service of a dishonourable knight. {PAWN_gender ? he : she} was routinely ordered to help {PAWN_gender ? his : her} master win tournaments by any means necessary. [PAWN_nameDef] would sabotage equipment, blackmail opponents, and even poison horses.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Melee</key>
-				<value>4</value>
-        </li>
-		<li>
-			<key>Animals</key>
-				<value>2</value>
-        </li>
-		<li>
-			<key>Crafting</key>
-				<value>3</value>
-        </li>
-	</skillGains>
+	<Melee>4</Melee>
+	<Animals>2</Animals>
+	<Crafting>3</Crafting>
+</skillGains>
 	<requiredWorkTags>
         <li>Violent</li>
     </requiredWorkTags>
@@ -142,21 +112,12 @@
 	<slot>Childhood</slot>
 	<title>Lowborn squire</title>
 	 <titleShort>Squire</titleShort>
-	<baseDesc>Despite not being of noble blood, [PAWN_nameDef] was taken on as a squire by a kind and chivalrous knight. The knight spent very little time at court, preferring to wander the kingdom helping others, [PAWN_nameDef] ever at his side. [PAWN_nameDef] gained an appreciation for adventure, travel, and aiding those in need, and resolved to see [PAWN_possessive] training as a knight through so that [PAWN_pronoun] could continue to do so.</baseDesc>
+	<baseDesc>Despite not being of noble blood, [PAWN_nameDef] was taken on as a squire by a kind and chivalrous knight. The knight spent very little time at court, preferring to wander the kingdom helping others, [PAWN_nameDef] ever at his side. [PAWN_nameDef] gained an appreciation for adventure, travel, and aiding those in need, and resolved to see {PAWN_gender ? his : her} training as a knight through so that {PAWN_gender ? he : she} could continue to do so.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Melee</key>
-				<value>4</value>
-        </li>
-		<li>
-			<key>Animals</key>
-				<value>3</value>
-        </li>
-		<li>
-			<key>Crafting</key>
-				<value>3</value>
-        </li>
-	</skillGains>
+	<Melee>4</Melee>
+	<Animals>3</Animals>
+	<Crafting>3</Crafting>
+</skillGains>
 	<requiredWorkTags>
         <li>Violent</li>
     </requiredWorkTags>
@@ -188,21 +149,12 @@
 	<slot>Childhood</slot>
 	<title>Reluctant squire</title>
 	 <titleShort>Squire</titleShort>
-	<baseDesc>[PAWN_nameDef] didn't want to be a squire, and most certainly didn’t want anything to do with tournaments or battles or things of that sort. However, [PAWN_possessive] family gave [PAWN_objective] little choice in the matter, and [PAWN_nameDef] found [PAWN_objective]self in the service of a particularly demanding knight as soon as [PAWN_pronoun] was of age.</baseDesc>
+	<baseDesc>[PAWN_nameDef] didn't want to be a squire, and most certainly didn’t want anything to do with tournaments or battles or things of that sort. However, {PAWN_gender ? his : her} family gave {PAWN_gender ? him : her} little choice in the matter, and [PAWN_nameDef] found {PAWN_gender ? him : her}self in the service of a particularly demanding knight as soon as {PAWN_gender ? he : she} was of age.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Melee</key>
-				<value>2</value>
-        </li>
-		<li>
-			<key>Animals</key>
-				<value>1</value>
-        </li>
-		<li>
-			<key>Crafting</key>
-				<value>1</value>
-        </li>
-	</skillGains>
+	<Melee>2</Melee>
+	<Animals>1</Animals>
+	<Crafting>1</Crafting>
+</skillGains>
 	<requiredWorkTags>
         <li>Violent</li>
     </requiredWorkTags>
@@ -234,13 +186,10 @@
 	<title>Wealthy merchant’s child</title>
 	 <titleShort>Merchant’s son</titleShort>
 	 <titleShortFemale>Merchant’s daughter</titleShortFemale>
-	<baseDesc>[PAWN_nameDef] was the child of a wealthy merchant who traded in exotic goods. [PAWN_pronoun] spent [PAWN_possessive] childhood surrounded by fine silks and foods made with expensive ingredients. [PAWN_possessive] family was able to afford a private tutor for [PAWN_objective] as well as several servants who attended to [PAWN_objective] every need.</baseDesc>
+	<baseDesc>[PAWN_nameDef] was the child of a wealthy merchant who traded in exotic goods. {PAWN_gender ? he : she} spent {PAWN_gender ? his : her} childhood surrounded by fine silks and foods made with expensive ingredients. {PAWN_gender ? his : her} family was able to afford a private tutor for {PAWN_gender ? him : her} as well as several servants who attended to {PAWN_gender ? him : her} every need.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Intellectual</key>
-				<value>4</value>
-        </li>
-	</skillGains>
+	<Intellectual>4</Intellectual>
+</skillGains>
 	<workDisables>
        <li>ManualDumb</li>
     </workDisables>
@@ -277,17 +226,11 @@
 	<title>Helpful merchant’s child</title>
 	 <titleShort>Merchant’s son</titleShort>
 	 <titleShortFemale>Merchant’s daughter</titleShortFemale>
-	<baseDesc>[PAWN_nameDef] was the child of a merchant. [PAWN_pronoun] often helped on market days by loading up the pack animals and making sure they were fit to travel. [PAWN_nameDef]'s family was moderately wealthy, and [PAWN_pronoun] was able to receive a basic education.</baseDesc>
+	<baseDesc>[PAWN_nameDef] was the child of a merchant. {PAWN_gender ? he : she} often helped on market days by loading up the pack animals and making sure they were fit to travel. [PAWN_nameDef]'s family was moderately wealthy, and {PAWN_gender ? he : she} was able to receive a basic education.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Intellectual</key>
-				<value>3</value>
-        </li>
-		<li>
-			<key>Animals</key>
-				<value>4</value>
-        </li>
-	</skillGains>
+	<Intellectual>3</Intellectual>
+	<Animals>4</Animals>
+</skillGains>
 	<requiredWorkTags>
         <li>Intellectual</li>
 		<li>Social</li>
@@ -318,13 +261,10 @@
 	<slot>Childhood</slot>
 	<title>Young king</title>
 	 <titleShort>Young king</titleShort>
-	<baseDesc>[PAWN_nameDef] was still a child when [PAWN_possessive] father, the king, died. As his oldest son, [PAWN_nameDef] was crowned as ruler despite [PAWN_possessive] young age.</baseDesc>
+	<baseDesc>[PAWN_nameDef] was still a child when {PAWN_gender ? his : her} father, the king, died. As his oldest son, [PAWN_nameDef] was crowned as ruler despite {PAWN_gender ? his : her} young age.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Social</key>
-				<value>3</value>
-        </li>
-	</skillGains>
+	<Social>3</Social>
+</skillGains>
 	<requiredWorkTags>
 		<li>Social</li>
     </requiredWorkTags>
@@ -357,13 +297,10 @@
 	<slot>Childhood</slot>
 	<title>Young queen</title>
 	 <titleShort>Young queen</titleShort>
-	<baseDesc>[PAWN_nameDef] was still a child when [PAWN_possessive] mother, the queen, died. As her oldest daughter, [PAWN_nameDef] was crowned as ruler despite [PAWN_possessive] young age.</baseDesc>
+	<baseDesc>[PAWN_nameDef] was still a child when {PAWN_gender ? his : her} mother, the queen, died. As her oldest daughter, [PAWN_nameDef] was crowned as ruler despite {PAWN_gender ? his : her} young age.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Social</key>
-				<value>3</value>
-        </li>
-	</skillGains>
+	<Social>3</Social>
+</skillGains>
 	<requiredWorkTags>
 		<li>Social</li>
     </requiredWorkTags>
@@ -396,17 +333,11 @@
 	<title>Heir to the throne</title>
 	 <titleShort>Crown Prince</titleShort>
 	 <titleShortFemale>Crown Princess</titleShortFemale>
-	<baseDesc>[PAWN_nameDef] was the next in line to become ruler of the kingdom. [PAWN_pronoun] received the best education possible from tutors who came from all over the world in order to ensure [PAWN_pronoun] was fit to rule.</baseDesc>
+	<baseDesc>[PAWN_nameDef] was the next in line to become ruler of the kingdom. {PAWN_gender ? he : she} received the best education possible from tutors who came from all over the world in order to ensure {PAWN_gender ? he : she} was fit to rule.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Social</key>
-				<value>5</value>
-        </li>
-		<li>
-			<key>Intellectual</key>
-				<value>4</value>
-        </li>
-	</skillGains>
+	<Social>5</Social>
+	<Intellectual>4</Intellectual>
+</skillGains>
 	<requiredWorkTags>
 		<li>Social</li>
     </requiredWorkTags>
@@ -437,17 +368,11 @@
 	<title>Young royal</title>
 	 <titleShort>Little prince</titleShort>
 	 <titleShortFemale>Little princess</titleShortFemale>
-	<baseDesc>[PAWN_nameDef] was one of the king and queen’s children. Because [PAWN_pronoun] was not the firstborn, [PAWN_pronoun] most likely would never inherit the crown. However, just in case, [PAWN_nameDef] received the type of education that a future ruler would need.</baseDesc>
+	<baseDesc>[PAWN_nameDef] was one of the king and queen’s children. Because {PAWN_gender ? he : she} was not the firstborn, {PAWN_gender ? he : she} most likely would never inherit the crown. However, just in case, [PAWN_nameDef] received the type of education that a future ruler would need.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Social</key>
-				<value>5</value>
-        </li>
-		<li>
-			<key>Intellectual</key>
-				<value>4</value>
-        </li>
-	</skillGains>
+	<Social>5</Social>
+	<Intellectual>4</Intellectual>
+</skillGains>
 	<requiredWorkTags>
 		<li>Social</li>
     </requiredWorkTags>
@@ -480,17 +405,11 @@
 	<title>Proper noble child</title>
 	 <titleShort>Little lord</titleShort>
 	 <titleShortFemale>Little lady</titleShortFemale>
-	<baseDesc>[PAWN_nameDef] was born into a noble family. Even as a very young child, [PAWN_nameDef] had to behave with propriety in all situations, lest [PAWN_possessive] actions reflect poorly on [PAWN_possessive] family. As [PAWN_pronoun] grew, much of [PAWN_possessive] time was spent attending lessons on reading, writing and etiquette.</baseDesc>
+	<baseDesc>[PAWN_nameDef] was born into a noble family. Even as a very young child, [PAWN_nameDef] had to behave with propriety in all situations, lest {PAWN_gender ? his : her} actions reflect poorly on {PAWN_gender ? his : her} family. As {PAWN_gender ? he : she} grew, much of {PAWN_gender ? his : her} time was spent attending lessons on reading, writing and etiquette.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Social</key>
-				<value>4</value>
-        </li>
-		<li>
-			<key>Intellectual</key>
-				<value>3</value>
-        </li>
-	</skillGains>
+	<Social>4</Social>
+	<Intellectual>3</Intellectual>
+</skillGains>
 	<requiredWorkTags>
 		<li>Social</li>
     </requiredWorkTags>
@@ -520,21 +439,12 @@
 	<title>Playful noble child</title>
 	 <titleShort>Little lord</titleShort>
 	 <titleShortFemale>Little lady</titleShortFemale>
-	<baseDesc>[PAWN_nameDef] was born into a noble family. [PAWN_nameDef] was given many toys and games to play with, [PAWN_possessive] favourite being a little wooden horse. [PAWN_nameDef] was easily distracted when it came to lessons and caused endless frustration for [PAWN_possessive] tutors. The exception to this was riding lessons, which [PAWN_pronoun] was always enthusiastic about.</baseDesc>
+	<baseDesc>[PAWN_nameDef] was born into a noble family. [PAWN_nameDef] was given many toys and games to play with, {PAWN_gender ? his : her} favourite being a little wooden horse. [PAWN_nameDef] was easily distracted when it came to lessons and caused endless frustration for {PAWN_gender ? his : her} tutors. The exception to this was riding lessons, which {PAWN_gender ? he : she} was always enthusiastic about.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Social</key>
-				<value>3</value>
-        </li>
-		<li>
-			<key>Animals</key>
-				<value>2</value>
-        </li>
-		<li>
-			<key>Intellectual</key>
-				<value>-2</value>
-        </li>
-	</skillGains>
+	<Social>3</Social>
+	<Animals>2</Animals>
+	<Intellectual>-2</Intellectual>
+</skillGains>
 	<requiredWorkTags>
 		<li>Social</li>
     </requiredWorkTags>
@@ -564,13 +474,10 @@
 	<title>Spoiled noble child</title>
 	 <titleShort>Little lord</titleShort>
 	 <titleShortFemale>Little lady</titleShortFemale>
-	<baseDesc>[PAWN_nameDef] was born into a noble family. [PAWN_nameDef] was extremely spoiled, and was allowed to do whatever [PAWN_pronoun] pleased and to have whatever [PAWN_pronoun] asked for. [PAWN_pronoun] would scream and cry if told “no” and was feared by [PAWN_possessive] family’s servants as a tiny tyrant.</baseDesc>
+	<baseDesc>[PAWN_nameDef] was born into a noble family. [PAWN_nameDef] was extremely spoiled, and was allowed to do whatever {PAWN_gender ? he : she} pleased and to have whatever {PAWN_gender ? he : she} asked for. {PAWN_gender ? he : she} would scream and cry if told “no” and was feared by {PAWN_gender ? his : her} family’s servants as a tiny tyrant.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Social</key>
-				<value>3</value>
-        </li>
-	</skillGains>
+	<Social>3</Social>
+</skillGains>
 	<requiredWorkTags>
 		<li>Social</li>
     </requiredWorkTags>
@@ -605,18 +512,11 @@
 	<slot>Childhood</slot>
 	<title>Royal bastard</title>
 	 <titleShort>Royal bastard</titleShort>
-	<baseDesc>[PAWN_nameDef] was the bastard child of a king, the result of an “indiscretion” with a noblewoman. To avoid scandal, [PAWN_nameDef]’s mother sent [PAWN_objective] to live with relatives in a neighbouring kingdom. [PAWN_nameDef] received the standard education given to children of noble houses, but lacked many of the privileges that those born legitimately had.</baseDesc>
+	<baseDesc>[PAWN_nameDef] was the bastard child of a king, the result of an “indiscretion” with a noblewoman. To avoid scandal, [PAWN_nameDef]’s mother sent {PAWN_gender ? him : her} to live with relatives in a neighbouring kingdom. [PAWN_nameDef] received the standard education given to children of noble houses, but lacked many of the privileges that those born legitimately had.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Social</key>
-				<value>3</value>
-        </li>
-		
-			<li>
-			<key>Intellectual</key>
-				<value>3</value>
-        </li>
-	</skillGains>
+	<Social>3</Social>
+	<Intellectual>3</Intellectual>
+</skillGains>
 	<requiredWorkTags>
 		<li>Social</li>
     </requiredWorkTags>
@@ -648,13 +548,10 @@
 	<title>Stable hand</title>
 	 <titleShort>Stable boy</titleShort>
 	  <titleShortFemale>Stable Girl</titleShortFemale>
-	<baseDesc>[PAWN_nameDef] worked as a stable hand for a noble family. [PAWN_pronoun] fed and groomed the horses, mucked out their stalls, and made sure they were ready to ride when needed.</baseDesc>
+	<baseDesc>[PAWN_nameDef] worked as a stable hand for a noble family. {PAWN_gender ? he : she} fed and groomed the horses, mucked out their stalls, and made sure they were ready to ride when needed.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Animals</key>
-				<value>5</value>
-        </li>
-	</skillGains>
+	<Animals>5</Animals>
+</skillGains>
 	<requiredWorkTags>
 		<li>Animals</li>
 		<li>ManualDumb</li>
@@ -675,17 +572,11 @@
 	<title>Kitchen helper</title>
 	 <titleShort>Kitchen boy</titleShort>
 	  <titleShortFemale>Kitchen girl</titleShortFemale>
-	<baseDesc>[PAWN_nameDef] worked in the royal kitchens. [PAWN_pronoun] was tasked with scrubbing the cookware clean, as well as peeling vegetables, plucking fowl, and scaling fish. During mealtimes, [PAWN_nameDef] had to stay in the kitchens to keep an eye on any food that was still cooking, and never got to eat together with the other servants.</baseDesc>
+	<baseDesc>[PAWN_nameDef] worked in the royal kitchens. {PAWN_gender ? he : she} was tasked with scrubbing the cookware clean, as well as peeling vegetables, plucking fowl, and scaling fish. During mealtimes, [PAWN_nameDef] had to stay in the kitchens to keep an eye on any food that was still cooking, and never got to eat together with the other servants.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Cooking</key>
-				<value>4</value>
-        </li>
-			<li>
-			<key>Social</key>
-				<value>-2</value>
-        </li>
-	</skillGains>
+	<Cooking>4</Cooking>
+	<Social>-2</Social>
+</skillGains>
 	<requiredWorkTags>
 		<li>Animals</li>
 		<li>ManualDumb</li>
@@ -704,25 +595,13 @@
 	<slot>Childhood</slot>
 	<title>Young servant</title>
 	 <titleShort>Young servant</titleShort>
-	<baseDesc>[PAWN_nameDef]’s parents were servants in the royal castle. As soon as [PAWN_pronoun] was old enough, [PAWN_nameDef] began work as a servant as well, mostly doing the odd jobs that no one else wanted to do.</baseDesc>
+	<baseDesc>[PAWN_nameDef]’s parents were servants in the royal castle. As soon as {PAWN_gender ? he : she} was old enough, [PAWN_nameDef] began work as a servant as well, mostly doing the odd jobs that no one else wanted to do.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Cooking</key>
-				<value>1</value>
-        </li>
-		<li>
-			<key>Crafting</key>
-				<value>1</value>
-        </li>
-		<li>
-			<key>Plants</key>
-				<value>1</value>
-        </li>
-		<li>
-			<key>Animals</key>
-				<value>1</value>
-        </li>
-	</skillGains>
+	<Cooking>1</Cooking>
+	<Crafting>1</Crafting>
+	<Plants>1</Plants>
+	<Animals>1</Animals>
+</skillGains>
 	<requiredWorkTags>
 		<li>Animals</li>
 		<li>ManualDumb</li>
@@ -743,13 +622,10 @@
 	<slot>Childhood</slot>
 	<title>Apprentice</title>
 	 <titleShort>Apprentice</titleShort>
-	<baseDesc>[PAWN_nameDef] was an apprentice to a skilled craftsman. [PAWN_pronoun] was paid almost nothing at all, but received valuable training in exchange for [PAWN_possessive] work.</baseDesc>
+	<baseDesc>[PAWN_nameDef] was an apprentice to a skilled craftsman. {PAWN_gender ? he : she} was paid almost nothing at all, but received valuable training in exchange for {PAWN_gender ? his : her} work.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Crafting</key>
-				<value>4</value>
-        </li>
-	</skillGains>
+	<Crafting>4</Crafting>
+</skillGains>
 	<requiredWorkTags>
 		<li>ManualSkilled</li>
 		<li>ManualDumb</li>
@@ -767,13 +643,10 @@
 	<slot>Childhood</slot>
 	<title>Peasant child</title>
 	 <titleShort>Peasant child</titleShort>
-	<baseDesc>[PAWN_nameDef] grew up in a small, rural village. [PAWN_possessive] parents farmed a plot of land that was owned by a wealthy landlord. In order for the family to be able to afford rent and taxes, everyone, including [PAWN_nameDef], had to pitch in to work the farm.</baseDesc>
+	<baseDesc>[PAWN_nameDef] grew up in a small, rural village. {PAWN_gender ? his : her} parents farmed a plot of land that was owned by a wealthy landlord. In order for the family to be able to afford rent and taxes, everyone, including [PAWN_nameDef], had to pitch in to work the farm.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Plants</key>
-				<value>4</value>
-        </li>
-	</skillGains>
+	<Plants>4</Plants>
+</skillGains>
 	<requiredWorkTags>
 		<li>ManualSkilled</li>
 		<li>ManualDumb</li>
@@ -793,17 +666,11 @@
 	<slot>Childhood</slot>
 	<title>Fisherman’s child</title>
 	 <titleShort>Fisherman’s child</titleShort>
-	<baseDesc>[PAWN_nameDef] was the child of a fisherman. [PAWN_pronoun] often helped out by repairing nets and fishing lines, catching bait worms, and performing simple maintenance on [PAWN_possessive] father’s boat.</baseDesc>
+	<baseDesc>[PAWN_nameDef] was the child of a fisherman. {PAWN_gender ? he : she} often helped out by repairing nets and fishing lines, catching bait worms, and performing simple maintenance on {PAWN_gender ? his : her} father’s boat.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Crafting</key>
-				<value>3</value>
-        </li>
-			<li>
-			<key>Animals</key>
-				<value>3</value>
-        </li>
-	</skillGains>
+	<Crafting>3</Crafting>
+	<Animals>3</Animals>
+</skillGains>
 	<requiredWorkTags>
 		<li>ManualSkilled</li>
 		<li>ManualDumb</li>
@@ -824,21 +691,12 @@
 	<slot>Childhood</slot>
 	<title>Travelling minstrel child</title>
 	 <titleShort>Minstrel child</titleShort>
-	<baseDesc>[PAWN_nameDef] and [PAWN_possessive] parents were members of a travelling troupe of entertainers. [PAWN_nameDef] had naturally good hand-eye coordination and performed as a juggler. When [PAWN_pronoun] got a bit older, [PAWN_pronoun] also performed a knife throwing act.</baseDesc>
+	<baseDesc>[PAWN_nameDef] and {PAWN_gender ? his : her} parents were members of a travelling troupe of entertainers. [PAWN_nameDef] had naturally good hand-eye coordination and performed as a juggler. When {PAWN_gender ? he : she} got a bit older, {PAWN_gender ? he : she} also performed a knife throwing act.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Artistic</key>
-				<value>3</value>
-        </li>
-		<li>
-			<key>Social</key>
-				<value>3</value>
-        </li>
-			<li>
-			<key>Shooting</key>
-				<value>4</value>
-        </li>
-	</skillGains>
+	<Artistic>3</Artistic>
+	<Social>3</Social>
+	<Shooting>4</Shooting>
+</skillGains>
 	<requiredWorkTags>
 		<li>Social</li>
 		<li>Artistic</li>
@@ -869,17 +727,11 @@
 	<slot>Childhood</slot>
 	<title>Young wordsmith</title>
 	 <titleShort>Young wordsmith</titleShort>
-	<baseDesc>[PAWN_nameDef] loved to be told stories as a child. Every adult who knew [PAWN_objective] knew to expect to hear “please, tell me a story!” several times a day. As [PAWN_pronoun] got older, [PAWN_nameDef] began to make-up tales and stories of [PAWN_possessive] own.  [PAWN_pronoun] was quite good at it, and [PAWN_possessive] family often spent part of their evenings sitting around a fire listening to [PAWN_objective].</baseDesc>
+	<baseDesc>[PAWN_nameDef] loved to be told stories as a child. Every adult who knew {PAWN_gender ? him : her} knew to expect to hear “please, tell me a story!” several times a day. As {PAWN_gender ? he : she} got older, [PAWN_nameDef] began to make-up tales and stories of {PAWN_gender ? his : her} own.  {PAWN_gender ? he : she} was quite good at it, and {PAWN_gender ? his : her} family often spent part of their evenings sitting around a fire listening to {PAWN_gender ? him : her}.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Artistic</key>
-				<value>3</value>
-        </li>
-		<li>
-			<key>Social</key>
-				<value>4</value>
-        </li>
-	</skillGains>
+	<Artistic>3</Artistic>
+	<Social>4</Social>
+</skillGains>
 	<requiredWorkTags>
 		<li>Social</li>
 		<li>Artistic</li>
@@ -900,13 +752,10 @@
 	<slot>Childhood</slot>
 	<title>Noble's bastard</title>
 	 <titleShort>Bastard</titleShort>
-	<baseDesc>[PAWN_nameDef] was the illegitimate child of a nobleman, the result of an affair with a comely maid. In exchange for being discreet, [PAWN_nameDef]’s mother received a modest allowance, which she used to rent comfortable lodgings for herself and her child. [PAWN_nameDef] eventually began to develop an interest in the arts, and [PAWN_possessive] father increased the allowance in order to pay for an art tutor.</baseDesc>
+	<baseDesc>[PAWN_nameDef] was the illegitimate child of a nobleman, the result of an affair with a comely maid. In exchange for being discreet, [PAWN_nameDef]’s mother received a modest allowance, which she used to rent comfortable lodgings for herself and her child. [PAWN_nameDef] eventually began to develop an interest in the arts, and {PAWN_gender ? his : her} father increased the allowance in order to pay for an art tutor.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Artistic</key>
-				<value>4</value>
-        </li>
-	</skillGains>
+	<Artistic>4</Artistic>
+</skillGains>
 	<requiredWorkTags>
 		<li>Social</li>
 		<li>Artistic</li>
@@ -935,13 +784,10 @@
 	<title>Lantern bearer</title>
 	 <titleShort>Lantern boy</titleShort>
 	 <titleShortFemale>Lantern girl</titleShortFemale>
-	<baseDesc>[PAWN_nameDef] lived in a town that had no street lamps. Instead, lantern bearing children like [PAWN_nameDef] helped to light the way for travellers at night. [PAWN_pronoun] was polite, quick, knew the streets well, and was about as highly regarded as a lantern bearer could be.</baseDesc>
+	<baseDesc>[PAWN_nameDef] lived in a town that had no street lamps. Instead, lantern bearing children like [PAWN_nameDef] helped to light the way for travellers at night. {PAWN_gender ? he : she} was polite, quick, knew the streets well, and was about as highly regarded as a lantern bearer could be.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Social</key>
-				<value>3</value>
-        </li>
-	</skillGains>
+	<Social>3</Social>
+</skillGains>
 	<requiredWorkTags>
 		<li>Social</li>
 		<li>ManualDumb</li>
@@ -960,13 +806,10 @@
 	<slot>Childhood</slot>
 	<title>Innkeeper’s child</title>
 	 <titleShort>Innkeeper’s child</titleShort>
-	<baseDesc>[PAWN_nameDef]’s family owned a busy inn. Ever since [PAWN_pronoun] was old enough, [PAWN_nameDef] was required to help with the cooking, cleaning, and other tasks that were needed to keep the inn running.</baseDesc>
+	<baseDesc>[PAWN_nameDef]’s family owned a busy inn. Ever since {PAWN_gender ? he : she} was old enough, [PAWN_nameDef] was required to help with the cooking, cleaning, and other tasks that were needed to keep the inn running.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Cooking</key>
-				<value>3</value>
-        </li>
-	</skillGains>
+	<Cooking>3</Cooking>
+</skillGains>
 	<requiredWorkTags>
 		<li>Cooking</li>
 		<li>ManualDumb</li>
@@ -995,25 +838,13 @@
 	<slot>Childhood</slot>
 	<title>Helpful child</title>
 	 <titleShort>Helpful child</titleShort>
-	<baseDesc>[PAWN_nameDef] grew up in a small town where everyone knew everyone. [PAWN_pronoun] often wandered the town doing miscellaneous chores and tasks and was always willing to offer a helping hand to anyone who asked. This led to [PAWN_nameDef] picking up a variety of different skills.</baseDesc>
+	<baseDesc>[PAWN_nameDef] grew up in a small town where everyone knew everyone. {PAWN_gender ? he : she} often wandered the town doing miscellaneous chores and tasks and was always willing to offer a helping hand to anyone who asked. This led to [PAWN_nameDef] picking up a variety of different skills.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Cooking</key>
-				<value>1</value>
-        </li>
-			<li>
-			<key>Crafting</key>
-				<value>1</value>
-        </li>
-			<li>
-			<key>Plants</key>
-				<value>1</value>
-        </li>
-			<li>
-			<key>Construction</key>
-				<value>1</value>
-        </li>
-	</skillGains>
+	<Cooking>1</Cooking>
+	<Crafting>1</Crafting>
+	<Plants>1</Plants>
+	<Construction>1</Construction>
+</skillGains>
 	<requiredWorkTags>
 		<li>Cooking</li>
 		<li>ManualDumb</li>
@@ -1034,13 +865,10 @@
 	<slot>Childhood</slot>
 	<title>Little soldier</title>
 	 <titleShort>Little soldier</titleShort>
-	<baseDesc>[PAWN_nameDef] loved to play soldier, pretending to be a member of the royal infantry. [PAWN_pronoun] diligently practised [PAWN_possessive] marching every day and trained swordsmanship by swinging around fallen tree branches.</baseDesc>
+	<baseDesc>[PAWN_nameDef] loved to play soldier, pretending to be a member of the royal infantry. {PAWN_gender ? he : she} diligently practised {PAWN_gender ? his : her} marching every day and trained swordsmanship by swinging around fallen tree branches.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Melee</key>
-				<value>3</value>
-        </li>
-	</skillGains>
+	<Melee>3</Melee>
+</skillGains>
 	<requiredWorkTags>
 		<li>Violent</li>
     </requiredWorkTags>
@@ -1055,21 +883,12 @@
 	<slot>Childhood</slot>
 	<title>Farrier’s child</title>
 	 <titleShort>Farrier’s child</titleShort>
-	<baseDesc>[PAWN_nameDef] was the child of a blacksmith who specialised in shoeing horses. [PAWN_nameDef] helped to keep the horses calm while [PAWN_possessive] father worked on their hooves. When not working, [PAWN_nameDef] played with the other children of  [PAWN_possessive] village, [PAWN_possessive] favourite game, of course, being horseshoes.</baseDesc>
+	<baseDesc>[PAWN_nameDef] was the child of a blacksmith who specialised in shoeing horses. [PAWN_nameDef] helped to keep the horses calm while {PAWN_gender ? his : her} father worked on their hooves. When not working, [PAWN_nameDef] played with the other children of  {PAWN_gender ? his : her} village, {PAWN_gender ? his : her} favourite game, of course, being horseshoes.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Animals</key>
-				<value>4</value>
-        </li>
-			<li>
-			<key>Crafting</key>
-				<value>2</value>
-        </li>
-			<li>
-			<key>Shooting</key>
-				<value>1</value>
-        </li>
-	</skillGains>
+	<Animals>4</Animals>
+	<Crafting>2</Crafting>
+	<Shooting>1</Shooting>
+</skillGains>
 	<requiredWorkTags>
 		<li>Violent</li>
     </requiredWorkTags>
@@ -1097,17 +916,11 @@
 	<slot>Childhood</slot>
 	<title>Boastful child</title>
 	 <titleShort>Boastful child</titleShort>
-	<baseDesc>[PAWN_nameDef] was the best Hoop and Stick player out of all of the children in [PAWN_possessive] village. The game was played by racing wooden hoops along the ground using sticks to keep them in motion. [PAWN_nameDef] was not a gracious winner, and  [PAWN_possessive] boastfulness eventually meant that nobody wanted to play with [PAWN_objective].</baseDesc>
+	<baseDesc>[PAWN_nameDef] was the best Hoop and Stick player out of all of the children in {PAWN_gender ? his : her} village. The game was played by racing wooden hoops along the ground using sticks to keep them in motion. [PAWN_nameDef] was not a gracious winner, and  {PAWN_gender ? his : her} boastfulness eventually meant that nobody wanted to play with {PAWN_gender ? him : her}.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Shooting</key>
-				<value>2</value>
-        </li>
-			<li>
-			<key>Social</key>
-				<value>-4</value>
-        </li>
-	</skillGains>
+	<Shooting>2</Shooting>
+	<Social>-4</Social>
+</skillGains>
 	<forcedTraits>
         <li>
             <defName>Nimble</defName>
@@ -1132,13 +945,10 @@
 	<slot>Childhood</slot>
 	<title>Child beggar</title>
 	 <titleShort>Child beggar</titleShort>
-	<baseDesc>[PAWN_nameDef] came from a very poor and very large family. [PAWN_pronoun] had far too many siblings for [PAWN_possessive] parents to even hope to feed them all. As soon as [PAWN_pronoun] was old enough, [PAWN_nameDef] was kicked out onto the streets and told to beg from others to earn [PAWN_possessive] keep.</baseDesc>
+	<baseDesc>[PAWN_nameDef] came from a very poor and very large family. {PAWN_gender ? he : she} had far too many siblings for {PAWN_gender ? his : her} parents to even hope to feed them all. As soon as {PAWN_gender ? he : she} was old enough, [PAWN_nameDef] was kicked out onto the streets and told to beg from others to earn {PAWN_gender ? his : her} keep.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Social</key>
-				<value>2</value>
-        </li>
-	</skillGains>
+	<Social>2</Social>
+</skillGains>
 	<workDisables>
        <li>Intellectual</li>
     </workDisables>
@@ -1163,13 +973,10 @@
 	<slot>Childhood</slot>
 	<title>Street orphan</title>
 	 <titleShort>Orphan</titleShort>
-	<baseDesc>[PAWN_nameDef]’s parents died when [PAWN_pronoun] was very young. In order to survive, [PAWN_pronoun] joined a gang of child criminals. The gang worked together to steal food and valuables, distributing the goods amongst themselves so that everyone could eat. [PAWN_nameDef] began as a lookout, but soon moved on to robbery due to  [PAWN_possessive] intimidating demeanour and skill with a knife.</baseDesc>
+	<baseDesc>[PAWN_nameDef]’s parents died when {PAWN_gender ? he : she} was very young. In order to survive, {PAWN_gender ? he : she} joined a gang of child criminals. The gang worked together to steal food and valuables, distributing the goods amongst themselves so that everyone could eat. [PAWN_nameDef] began as a lookout, but soon moved on to robbery due to  {PAWN_gender ? his : her} intimidating demeanour and skill with a knife.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Melee</key>
-				<value>3</value>
-        </li>
-	</skillGains>
+	<Melee>3</Melee>
+</skillGains>
 	   <forcedTraits>
         <li>
             <defName>Tough</defName>
@@ -1204,17 +1011,11 @@
 	<slot>Childhood</slot>
 	<title>Orphan boy</title>
 	 <titleShort>Orphan</titleShort>
-	<baseDesc>[PAWN_nameDef]’s parents abandoned [PAWN_objective] as an infant, leaving [PAWN_objective] at a monastery. The monks who took care of [PAWN_nameDef] taught [PAWN_objective] how to read and write, as well as how to make the wine that the monks sold so that they could buy food for the poor.</baseDesc>
+	<baseDesc>[PAWN_nameDef]’s parents abandoned {PAWN_gender ? him : her} as an infant, leaving {PAWN_gender ? him : her} at a monastery. The monks who took care of [PAWN_nameDef] taught {PAWN_gender ? him : her} how to read and write, as well as how to make the wine that the monks sold so that they could buy food for the poor.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Intellectual</key>
-				<value>3</value>
-        </li>
-			<li>
-			<key>Cooking</key>
-				<value>3</value>
-        </li>
-	</skillGains>
+	<Intellectual>3</Intellectual>
+	<Cooking>3</Cooking>
+</skillGains>
 	<requiredWorkTags>
 		<li>PlantWork</li>
 		<li>Intellectual</li>
@@ -1244,17 +1045,11 @@
 	<slot>Childhood</slot>
 	<title>Orphan girl</title>
 	 <titleShort>Orphan</titleShort>
-	<baseDesc>[PAWN_nameDef]’s parents abandoned [PAWN_objective] as an infant, leaving [PAWN_objective] at a monastery. The nuns who took care of [PAWN_nameDef] taught [PAWN_objective] how to read and write, as well as how to weave the cloth that was used to make clothing for the poor.</baseDesc>
+	<baseDesc>[PAWN_nameDef]’s parents abandoned {PAWN_gender ? him : her} as an infant, leaving {PAWN_gender ? him : her} at a monastery. The nuns who took care of [PAWN_nameDef] taught {PAWN_gender ? him : her} how to read and write, as well as how to weave the cloth that was used to make clothing for the poor.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Intellectual</key>
-				<value>3</value>
-        </li>
-			<li>
-			<key>Crafting</key>
-				<value>3</value>
-        </li>
-	</skillGains>
+	<Intellectual>3</Intellectual>
+	<Crafting>3</Crafting>
+</skillGains>
 	<requiredWorkTags>
 		<li>PlantWork</li>
 		<li>Intellectual</li>
@@ -1286,13 +1081,10 @@
 	<slot>Childhood</slot>
 	<title>Student</title>
 	 <titleShort>Student</titleShort>
-	<baseDesc>[PAWN_nameDef] was a very bright child. [PAWN_possessive] family was wealthy enough to afford school and [PAWN_pronoun] was sent off to the city to attend classes as soon as [PAWN_pronoun] was old enough. [PAWN_nameDef] was taught the trivium: grammar, logic, and rhetoric, as well as the quadrivium: arithmetic, geometry, music, and astronomy.</baseDesc>
+	<baseDesc>[PAWN_nameDef] was a very bright child. {PAWN_gender ? his : her} family was wealthy enough to afford school and {PAWN_gender ? he : she} was sent off to the city to attend classes as soon as {PAWN_gender ? he : she} was old enough. [PAWN_nameDef] was taught the trivium: grammar, logic, and rhetoric, as well as the quadrivium: arithmetic, geometry, music, and astronomy.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Intellectual</key>
-				<value>4</value>
-        </li>
-	</skillGains>
+	<Intellectual>4</Intellectual>
+</skillGains>
 	<requiredWorkTags>
 		<li>Intellectual</li>
     </requiredWorkTags>
@@ -1324,13 +1116,10 @@
 	<slot>Childhood</slot>
 	<title>Cursed child</title>
 	 <titleShort>Cursed child</titleShort>
-	<baseDesc>[PAWN_nameDef] was constantly sick as a child, coming close to death many times. [PAWN_possessive] family believed [PAWN_pronoun] had been hexed by a witch, and tried all manner of rituals and prayers in order to remove the curse, such as burning herbs and covering [PAWN_nameDef] in leeches to drain [PAWN_possessive] tainted blood. [PAWN_nameDef] was quite frail, and had trouble doing physically demanding tasks.</baseDesc>
+	<baseDesc>[PAWN_nameDef] was constantly sick as a child, coming close to death many times. {PAWN_gender ? his : her} family believed {PAWN_gender ? he : she} had been hexed by a witch, and tried all manner of rituals and prayers in order to remove the curse, such as burning herbs and covering [PAWN_nameDef] in leeches to drain {PAWN_gender ? his : her} tainted blood. [PAWN_nameDef] was quite frail, and had trouble doing physically demanding tasks.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Medicine</key>
-				<value>1</value>
-        </li>
-	</skillGains>
+	<Medicine>1</Medicine>
+</skillGains>
 	<spawnCategories>
 		<li>Medieval</li>
 			<li>MedievalMisc</li>
@@ -1363,21 +1152,12 @@
 	<slot>Childhood</slot>
 	<title>Flower picker</title>
 	 <titleShort>Flower picker</titleShort>
-	<baseDesc>[PAWN_nameDef] had trouble getting along with other children. [PAWN_pronoun] much preferred picking flowers alone to playing with the others. [PAWN_nameDef] liked to braid the flowers [PAWN_pronoun] picked into garlands and crowns.</baseDesc>
+	<baseDesc>[PAWN_nameDef] had trouble getting along with other children. {PAWN_gender ? he : she} much preferred picking flowers alone to playing with the others. [PAWN_nameDef] liked to braid the flowers {PAWN_gender ? he : she} picked into garlands and crowns.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Plants</key>
-				<value>3</value>
-        </li>
-		<li>
-			<key>Crafting</key>
-				<value>3</value>
-        </li>
-			<li>
-			<key>Social</key>
-				<value>-3</value>
-        </li>
-	</skillGains>
+	<Plants>3</Plants>
+	<Crafting>3</Crafting>
+	<Social>-3</Social>
+</skillGains>
 	<spawnCategories>
 		<li>Medieval</li>
 			<li>MedievalMisc</li>
@@ -1402,7 +1182,7 @@
 	<slot>Childhood</slot>
 	<title>Changeling</title>
 	 <titleShort>Changeling</titleShort>
-	<baseDesc>It was believed that [PAWN_nameDef] was a changeling, a fae who was left in place of a human baby stolen by fairies, due in part to [PAWN_possessive] unfortunate looks and low intelligence. Because [PAWN_possessive] parents didn’t believe [PAWN_pronoun] was their real child, [PAWN_nameDef] was often mistreated and forced to do extra chores.</baseDesc>
+	<baseDesc>It was believed that [PAWN_nameDef] was a changeling, a fae who was left in place of a human baby stolen by fairies, due in part to {PAWN_gender ? his : her} unfortunate looks and low intelligence. Because {PAWN_gender ? his : her} parents didn’t believe {PAWN_gender ? he : she} was their real child, [PAWN_nameDef] was often mistreated and forced to do extra chores.</baseDesc>
 	    <forcedTraits>
         <li>
             <defName>Beauty</defName>
@@ -1410,11 +1190,8 @@
         </li>
     </forcedTraits>
 	   <skillGains>
-	   <li>
-        <key>Animals</key>
-        <value>1</value>
-      </li>
-    </skillGains>
+	<Animals>1</Animals>
+</skillGains>
 	<workDisables>
         <li>Artistic</li>
 		<li>Violent</li>
@@ -1450,13 +1227,10 @@
 	<slot>Childhood</slot>
 	<title>Adventurous youth</title>
 	 <titleShort>Adventurous youth</titleShort>
-	<baseDesc>[PAWN_nameDef] lived in a town that was on the main road to the kingdom’s capital. Watching the comings and goings of travellers filled [PAWN_objective] with a desire to see the world. A passerby once told [PAWN_nameDef] that to travel, one must either know how to swing a sword or have the money to pay someone who can. Taking these words to heart, [PAWN_nameDef] began practising every day with a large, vaguely sword-like tree branch.</baseDesc>
+	<baseDesc>[PAWN_nameDef] lived in a town that was on the main road to the kingdom’s capital. Watching the comings and goings of travellers filled {PAWN_gender ? him : her} with a desire to see the world. A passerby once told [PAWN_nameDef] that to travel, one must either know how to swing a sword or have the money to pay someone who can. Taking these words to heart, [PAWN_nameDef] began practising every day with a large, vaguely sword-like tree branch.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Melee</key>
-				<value>3</value>
-        </li>
-	</skillGains>
+	<Melee>3</Melee>
+</skillGains>
 	 <forcedTraits>
        <li>
             <defName>Tough</defName>

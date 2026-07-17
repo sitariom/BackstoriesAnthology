@@ -96,13 +96,23 @@ namespace UnifiedBackstories
             return bs;
         }
 
+        private static List<BackstoryDef> _cachedElderhoods;
+        private static List<BackstoryDef> _cachedAllElderhoods;
+
+        private static void RebuildElderhoodCache()
+        {
+            var all = DefDatabase<BackstoryDef>.AllDefsListForReading;
+            _cachedElderhoods = all.Where(d => d.spawnCategories != null &&
+                d.spawnCategories.Contains("Elderhood")).ToList();
+            _cachedAllElderhoods = all.Where(d => d.spawnCategories != null &&
+                (d.spawnCategories.Contains("Elderhood") ||
+                 d.spawnCategories.Contains("SpecialElderhood"))).ToList();
+        }
+
         private static BackstoryDef RandomElderhood()
         {
-            List<BackstoryDef> pool = DefDatabase<BackstoryDef>.AllDefsListForReading
-                .Where(d => d.spawnCategories != null &&
-                    d.spawnCategories.Contains("Elderhood"))
-                .ToList();
-            return pool.Count > 0 ? pool.RandomElement() : null;
+            if (_cachedElderhoods == null) RebuildElderhoodCache();
+            return _cachedElderhoods.Count > 0 ? _cachedElderhoods.RandomElement() : null;
         }
 
         public static bool IsElderhood(this BackstoryDef bs)
@@ -117,11 +127,8 @@ namespace UnifiedBackstories
         /// </summary>
         public static List<BackstoryDef> ListElderhoods()
         {
-            return DefDatabase<BackstoryDef>.AllDefsListForReading
-                .Where(d => d.spawnCategories != null &&
-                    (d.spawnCategories.Contains("Elderhood") ||
-                     d.spawnCategories.Contains("SpecialElderhood")))
-                .ToList();
+            if (_cachedAllElderhoods == null) RebuildElderhoodCache();
+            return _cachedAllElderhoods;
         }
 
         public static string TitleFor(BackstoryDef bs, Pawn pawn)
@@ -161,20 +168,31 @@ namespace UnifiedBackstories
         /// </summary>
         public static CompElderhoodBackstory GetOrCreateElderhoodComp(Pawn pawn)
         {
+            if (pawn == null) return null;
             CompElderhoodBackstory comp = pawn.GetComp<CompElderhoodBackstory>();
             if (comp != null) return comp;
 
+            // Manual creation fallback — this should rarely execute since
+            // CompProperties_ElderhoodBackstory is added to Human via XML patch.
             var props = new CompProperties_ElderhoodBackstory();
             comp = new CompElderhoodBackstory();
             comp.parent = pawn;
             comp.Initialize(props);
 
-            var compsField = typeof(ThingWithComps).GetField("comps", BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public);
-            if (compsField != null)
+            try
             {
-                var list = compsField.GetValue(pawn);
-                if (list is System.Collections.IList ilist)
-                    ilist.Add(comp);
+                var compsField = typeof(ThingWithComps).GetField("comps",
+                    BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public);
+                if (compsField != null)
+                {
+                    var list = compsField.GetValue(pawn);
+                    if (list is System.Collections.IList ilist)
+                        ilist.Add(comp);
+                }
+            }
+            catch (Exception ex)
+            {
+                Log.Warning("[UB] GetOrCreateElderhoodComp reflection failed: " + ex.Message);
             }
             return comp;
         }
@@ -380,18 +398,9 @@ namespace UnifiedBackstories
                 }
             }
 
-            // Apply skill bonuses
-            if (eb.skillGains != null && pawn.skills != null)
-            {
-                for (int i = 0; i < eb.skillGains.Count; i++)
-                {
-                    var sg = eb.skillGains[i];
-                    if (sg.skill == null) continue;
-                    var skill = pawn.skills.GetSkill(sg.skill);
-                    if (skill != null)
-                        skill.Level += sg.amount;
-                }
-            }
+            // Skill bonuses are applied by PawnGenerator_FinalLevelOfSkill_Patch.
+            // Do NOT apply them here — doing so would double-count for pawns whose
+            // elderhood was already set during bio generation (the normal path).
 
             // Apply body type
             BodyTypeDef bt = DefDatabase<BodyTypeDef>.GetNamedSilentFail(
@@ -465,7 +474,7 @@ namespace UnifiedBackstories
 
             // === Category label ===
             Text.Font = GameFont.Medium;
-            Widgets.Label(new Rect(0f, curY, width, 30f), "Elderhood".Translate());
+            Widgets.Label(new Rect(0f, curY, width, 30f), "UB.ElderhoodHeader".Translate());
 
             // === Edit / Clear buttons (top-right of header) ===
             Text.Font = GameFont.Tiny;
@@ -739,12 +748,29 @@ namespace UnifiedBackstories
         {
             Pawn pawn = ElderhoodHelper.GetPawnFromTracker(__instance);
             if (pawn == null) return;
-            if (UB_Mod.Settings != null && !UB_Mod.Settings.elderhoodEnabled) return;
-            CompElderhoodBackstory comp = pawn.GetComp<CompElderhoodBackstory>();
-            if (comp == null || !comp.HasElderhood) return;
-            BackstoryDef eb = comp.ElderhoodBS;
-            if (eb == null) return;
-            __result |= eb.workDisables;
+
+            // Elderhood disabling work tags
+            if (UB_Mod.Settings == null || UB_Mod.Settings.elderhoodEnabled)
+            {
+                CompElderhoodBackstory comp = pawn.GetComp<CompElderhoodBackstory>();
+                if (comp != null && comp.HasElderhood && comp.ElderhoodBS != null)
+                {
+                    __result |= comp.ElderhoodBS.workDisables;
+                }
+            }
+
+            // ZCB disablingWorkTags (applied per-pawn, NOT via def mutation)
+            if (UB_Mod.Settings == null || UB_Mod.Settings.zcbEnabled)
+            {
+                if (pawn.story?.Childhood is ZCBackstoryDef zcb && zcb.disablingWorkTags != null)
+                {
+                    for (int i = 0; i < zcb.disablingWorkTags.Count; i++)
+                    {
+                        if (Enum.TryParse(zcb.disablingWorkTags[i], true, out WorkTags tag))
+                            __result |= tag;
+                    }
+                }
+            }
         }
     }
 
@@ -765,8 +791,9 @@ namespace UnifiedBackstories
             foreach (var item in eb.possessions)
             {
                 if (item == null) continue;
-                ThingDef tDef = item.GetType().GetField("thingDef")?.GetValue(item) as ThingDef;
-                int tCount = item.GetType().GetField("count")?.GetValue(item) is int cv ? cv : 0;
+                var tdcType = item.GetType();
+                ThingDef tDef = tdcType.GetField("thingDef")?.GetValue(item) as ThingDef;
+                int tCount = tdcType.GetField("count")?.GetValue(item) is int cv ? cv : 0;
                 if (tDef != null && tCount > 0)
                 {
                     Thing thing = ThingMaker.MakeThing(tDef);
@@ -795,23 +822,33 @@ namespace UnifiedBackstories
             string name = __instance.GetType().Assembly.GetName().Name;
             if (SuppressedAssemblies.Contains(name))
             {
-                __result = null;
+                __result = string.Empty;
                 return false;
             }
             return true;
         }
     }
 
+    /// <summary>
+    /// SINGLE patch-all entry point. There MUST be only one class with
+    /// [StaticConstructorOnStartup] that calls PatchAll() in the assembly.
+    /// Having two such classes caused every [HarmonyPatch] to register
+    /// twice — resulting in doubled skill bonuses, incorrect need-decay
+    /// restoration (43.75% instead of 75%), duplicated CharacterCard UI
+    /// elements, and potential item duplication.
+    /// </summary>
     [StaticConstructorOnStartup]
-    public static class ElderhoodPatcher
+    public static class UnifiedBackstoriesPatcher
     {
-        static ElderhoodPatcher()
+        static UnifiedBackstoriesPatcher()
         {
-            new Harmony("UnifiedBackstories.ElderhoodSystem").PatchAll();
+            new Harmony("UnifiedBackstories.UnifiedBackstories").PatchAll();
             string ver = System.IO.File.GetLastWriteTime(
                 System.Reflection.Assembly.GetExecutingAssembly().Location)
                 .ToString("yyyy-MM-dd HH:mm");
-            Log.Message("[UB] v1.2.0 loaded (build " + ver + ") — Elderhood + Gender tokens + Age 60+ + UI edit");
+            Log.Message("[UB] v1.2.1 loaded (build " + ver
+                + ") — Elderhood + Gender tokens + Age 60+ + UI edit"
+                + " + Mood rebalance + Need grace period + ZCB validator");
         }
     }
 }

@@ -16,43 +16,16 @@
             <li>Outlander</li>
             <li>ImperialCommon</li>
          </spawnCategories>
-         <forcedTraits>
-            <!--<li>
-               <defName>Industriousness</defName>
-               <degree>2</degree>
-            </li>
-            <li>
-               <defName>SpeedOffset</defName>
-               <degree>2</degree>
-            </li>
-            <li>
-               <defName>Neurotic</defName>
-               <degree>2</degree>
-            </li>-->
-   		<Industriousness>2</Industriousness>
-   		<SpeedOffset>2</SpeedOffset>
-   		<Neurotic>2</Neurotic>
-
-   		 <!-- PATCH: VTE: Neat Trait -->
-         </forcedTraits>
-         <workDisables>
-   		 <li>Hauling</li>
-            <li>Violent</li>
-            <li>Caring</li>
-            <li>Social</li>
-            <li>Intellectual</li>
-            <li>Animals</li>
-            <li>Artistic</li>
-            <li>Crafting</li>
-            <li>Cooking</li>
-            <li>Firefighting</li>
-            <li>Hauling</li>
-            <li>PlantWork</li>
-            <li>Mining</li>
-            <li>Hunting</li>
-            <li>Constructing</li>
-            <li>Shooting</li>
-         </workDisables>
+          <forcedTraits>
+             <li><def>Industriousness</def><degree>2</degree></li>
+             <li><def>SpeedOffset</def><degree>2</degree></li>
+             <li><def>Neurotic</def><degree>2</degree></li>
+          </forcedTraits>
+          <workDisables>
+             <li>Violent</li>
+             <li>Shooting</li>
+             <li>Hunting</li>
+          </workDisables>
    	  <!--<maleCommonality>20</maleCommonality>
    	  <femaleCommonality>20</femaleCommonality>-->
       </BackstoryDef>
@@ -72,33 +45,15 @@
             <li>Outlander</li>
             <li>ImperialCommon</li>
          </spawnCategories>
-         <forcedTraits>        
-   		 <SpeedOffset>2</SpeedOffset>
-   		 <QuickSleeper>0</QuickSleeper>
-         </forcedTraits>
-         <workDisables>
-            <li>Cleaning</li>
-            <li>Violent</li>
-            <li>Caring</li>
-            <li>Social</li>
-            <li>Intellectual</li>
-            <li>Animals</li>
-            <li>Artistic</li>
-            <li>Crafting</li>
-            <li>Cooking</li>
-            <li>Firefighting</li>
-            <li>PlantWork</li>
-            <li>Mining</li>
-            <li>Hunting</li>
-            <li>Constructing</li>
-            <li>Shooting</li>
-         </workDisables>
-       <!--<forcedHediffs>
-   			<li>ArchotechLeg</li>
-   			<li>ArchotechLeg</li>
-   			<li>BionicSpine</li>
-   			 PATCH: Royalty: Circadian half cycler
-       </forcedHediffs>-->
+          <forcedTraits>
+             <li><def>SpeedOffset</def><degree>2</degree></li>
+             <li><def>QuickSleeper</def><degree>0</degree></li>
+          </forcedTraits>
+          <workDisables>
+             <li>Intellectual</li>
+             <li>Artistic</li>
+             <li>Crafting</li>
+          </workDisables>
    	  <!--<maleCommonality>20</maleCommonality>
    	  <femaleCommonality>20</femaleCommonality>-->
       </BackstoryDef>
@@ -118,32 +73,21 @@
             <li>Outlander</li>
             <li>ImperialCommon</li>
          </spawnCategories>
-         <skillGains>
-            <Shooting>17</Shooting>
-         </skillGains>
-         <forcedTraits>      
-   		 <SpeedOffset>2</SpeedOffset>
-   		 <Bloodlust>0</Bloodlust>
-   		 <ShootingAccuracy>1</ShootingAccuracy>
-   		 <Abrasive>0</Abrasive>
-   		 <!-- PATCH: RWoM: Sniper Trait -->
-         </forcedTraits>
-         <workDisables>
-            <li>Caring</li>
-            <li>Social</li>
-            <li>Intellectual</li>
-            <li>Animals</li>
-            <li>Artistic</li>
-            <li>Crafting</li>
-            <li>Cooking</li>
-            <li>Firefighting</li>
-            <li>Cleaning</li>
-            <li>Hauling</li>
-            <li>PlantWork</li>
-            <li>Mining</li>
-            <li>Hunting</li>
-            <li>Constructing</li>
-         </workDisables>
+          <skillGains>
+             <Shooting>6</Shooting>
+          </skillGains>
+          <forcedTraits>
+             <li><def>SpeedOffset</def><degree>2</degree></li>
+             <li><def>Bloodlust</def><degree>0</degree></li>
+             <li><def>ShootingAccuracy</def><degree>1</degree></li>
+             <li><def>Abrasive</def><degree>0</degree></li>
+          </forcedTraits>
+          <workDisables>
+             <li>Caring</li>
+             <li>Intellectual</li>
+             <li>Animals</li>
+             <li>Cooking</li>
+          </workDisables>
    	  <!--<maleCommonality>20</maleCommonality>
    	  <femaleCommonality>20</femaleCommonality>-->
       </BackstoryDef>
@@ -163,33 +107,22 @@
             <li>Outlander</li>
             <li>ImperialCommon</li>
          </spawnCategories>
-         <skillGains>
-            <Melee>17</Melee>
-         </skillGains>
-         <forcedTraits>
-            <Tough>0</Tough>
-   		 <SpeedOffset>2</SpeedOffset>
-            <Bloodlust>0</Bloodlust>
-           <Brawler>0</Brawler>
-            <Abrasive>0</Abrasive>         
-   		 <!-- PATCH: RWoM: Gladiator Trait -->
-         </forcedTraits>
-         <workDisables>
-            <li>Caring</li>
-            <li>Social</li>
-            <li>Intellectual</li>
-            <li>Animals</li>
-            <li>Artistic</li>
-            <li>Crafting</li>
-            <li>Cooking</li>
-            <li>Firefighting</li>
-            <li>Cleaning</li>
-            <li>Hauling</li>
-            <li>PlantWork</li>
-            <li>Mining</li>
-            <li>Constructing</li>
-            <li>Shooting</li>
-         </workDisables>
+          <skillGains>
+             <Melee>6</Melee>
+          </skillGains>
+          <forcedTraits>
+             <li><def>Tough</def><degree>0</degree></li>
+             <li><def>SpeedOffset</def><degree>2</degree></li>
+             <li><def>Bloodlust</def><degree>0</degree></li>
+             <li><def>Brawler</def><degree>0</degree></li>
+             <li><def>Abrasive</def><degree>0</degree></li>
+          </forcedTraits>
+          <workDisables>
+             <li>Caring</li>
+             <li>Intellectual</li>
+             <li>Animals</li>
+             <li>Cooking</li>
+          </workDisables>
    	  <!--<maleCommonality>30</maleCommonality>
    	  <femaleCommonality>10</femaleCommonality>-->
       </BackstoryDef>
@@ -209,30 +142,18 @@
             <li>Outlander</li>
             <li>ImperialCommon</li>
          </spawnCategories>
-         <skillGains>
-            <Construction>17</Construction>
-         </skillGains>
-         <forcedTraits>
-            <Industriousness>2</Industriousness>
-              <Neurotic>2</Neurotic>           
-         </forcedTraits>
-   	<workDisables>
-   		<li>ManualDumb</li>
-   		<li>Violent</li>
-   		<li>Caring</li>
-   		<li>Social</li>
-   		<li>Intellectual</li>
-   		<li>Animals</li>
-   		<li>Artistic</li>
-   		<li>Cooking</li>
-   		<li>Firefighting</li>
-   		<li>Cleaning</li>
-   		<li>Hauling</li>
-   		<li>PlantWork</li>
-   		<li>Mining</li>
-   		<li>Hunting</li>
-   		<li>Shooting</li>
-         </workDisables>
+          <skillGains>
+             <Construction>6</Construction>
+          </skillGains>
+          <forcedTraits>
+             <li><def>Industriousness</def><degree>2</degree></li>
+             <li><def>Neurotic</def><degree>2</degree></li>
+          </forcedTraits>
+          <workDisables>
+             <li>Violent</li>
+             <li>Shooting</li>
+             <li>Hunting</li>
+          </workDisables>
    	  <!--<maleCommonality>25</maleCommonality>
    	  <femaleCommonality>15</femaleCommonality>-->
       </BackstoryDef>
@@ -252,31 +173,20 @@
             <li>Outlander</li>
             <li>ImperialCommon</li>
          </spawnCategories>
-         <skillGains>
-            <Mining>17</Mining>
-         </skillGains>
-         <forcedTraits>
-   	  <Industriousness>2</Industriousness>
-   	  <Neurotic>2</Neurotic>
-   	  <Undergrounder>0</Undergrounder>       
-         </forcedTraits>
-         <workDisables>
-            <li>Violent</li>
-            <li>Caring</li>
-            <li>Social</li>
-            <li>Intellectual</li>
-            <li>Animals</li>
-            <li>Artistic</li>
-            <li>Crafting</li>
-            <li>Cooking</li>
-            <li>Firefighting</li>
-            <li>Cleaning</li>
-            <li>Hauling</li>
-            <li>PlantWork</li>
-            <li>Hunting</li>
-            <li>Constructing</li>
-            <li>Shooting</li>
-         </workDisables>
+          <skillGains>
+             <Mining>6</Mining>
+          </skillGains>
+          <forcedTraits>
+             <li><def>Industriousness</def><degree>2</degree></li>
+             <li><def>Neurotic</def><degree>2</degree></li>
+             <li><def>Undergrounder</def><degree>0</degree></li>
+          </forcedTraits>
+          <workDisables>
+             <li>Social</li>
+             <li>Artistic</li>
+             <li>Cooking</li>
+             <li>Shooting</li>
+          </workDisables>
    	  <!--<maleCommonality>25</maleCommonality>
    	  <femaleCommonality>15</femaleCommonality>-->
       </BackstoryDef>
@@ -296,28 +206,21 @@
             <li>Outlander</li>
             <li>ImperialCommon</li>
          </spawnCategories>
-         <skillGains>
-            <Cooking>17</Cooking>
-         </skillGains>
-         <forcedTraits>
-   	  <Industriousness>2</Industriousness>
-   	  <Neurotic>2</Neurotic>
-   	  <Gourmand>0</Gourmand> 
-   <Cannibal>0</Cannibal>	         
-         </forcedTraits>
-         <workDisables>
-            <li>ManualDumb</li>
-            <li>Violent</li>
-            <li>Caring</li>
-            <li>Social</li>
-            <li>Intellectual</li>
-            <li>Artistic</li>
-            <li>Crafting</li>
-            <li>Hauling</li>
-            <li>Mining</li>
-            <li>Constructing</li>
-            <li>Shooting</li>
-         </workDisables>
+          <skillGains>
+             <Cooking>6</Cooking>
+          </skillGains>
+          <forcedTraits>
+             <li><def>Industriousness</def><degree>2</degree></li>
+             <li><def>Neurotic</def><degree>2</degree></li>
+             <li><def>Gourmand</def><degree>0</degree></li>
+             <li><def>Cannibal</def><degree>0</degree></li>
+          </forcedTraits>
+          <workDisables>
+             <li>Violent</li>
+             <li>Shooting</li>
+             <li>Mining</li>
+             <li>Constructing</li>
+          </workDisables>
    	  <!--<maleCommonality>20</maleCommonality>
    	  <femaleCommonality>20</femaleCommonality>-->
       </BackstoryDef>
@@ -337,28 +240,19 @@
             <li>Outlander</li>
             <li>ImperialCommon</li>
          </spawnCategories>
-         <skillGains>
-            <Plants>17</Plants>
-         </skillGains>
-         <forcedTraits>
-           <Industriousness>2</Industriousness>
-   	  <Neurotic>2</Neurotic>
-         </forcedTraits>
-         <workDisables>
-            <li>Violent</li>
-            <li>Caring</li>
-            <li>Social</li>
-            <li>Intellectual</li>
-            <li>Artistic</li>
-            <li>Crafting</li>
-            <li>Cooking</li>
-            <li>Firefighting</li>
-            <li>Cleaning</li>
-            <li>Mining</li>
-            <li>Hunting</li>
-            <li>Constructing</li>
-            <li>Shooting</li>
-         </workDisables>
+          <skillGains>
+             <Plants>6</Plants>
+          </skillGains>
+          <forcedTraits>
+             <li><def>Industriousness</def><degree>2</degree></li>
+             <li><def>Neurotic</def><degree>2</degree></li>
+          </forcedTraits>
+          <workDisables>
+             <li>Violent</li>
+             <li>Shooting</li>
+             <li>Hunting</li>
+             <li>Artistic</li>
+          </workDisables>
    	  <!--<maleCommonality>20</maleCommonality>
    	  <femaleCommonality>20</femaleCommonality>-->
       </BackstoryDef>
@@ -378,28 +272,19 @@
             <li>Outlander</li>
             <li>ImperialCommon</li>
          </spawnCategories>
-         <skillGains>
-            <Animals>17</Animals>
-         </skillGains>
-         <forcedTraits>
-          <Industriousness>2</Industriousness>
-   	  <Neurotic>2</Neurotic>
-         </forcedTraits>
-         <workDisables>
-            <li>Violent</li>
-            <li>Caring</li>
-            <li>Social</li>
-            <li>Intellectual</li>
-            <li>Artistic</li>
-            <li>Crafting</li>
-            <li>Cooking</li>
-            <li>Firefighting</li>
-            <li>Cleaning</li>
-            <li>Hauling</li>
-            <li>Mining</li>
-            <li>Constructing</li>
-            <li>Shooting</li>
-         </workDisables>
+          <skillGains>
+             <Animals>6</Animals>
+          </skillGains>
+          <forcedTraits>
+             <li><def>Industriousness</def><degree>2</degree></li>
+             <li><def>Neurotic</def><degree>2</degree></li>
+          </forcedTraits>
+          <workDisables>
+             <li>Violent</li>
+             <li>Shooting</li>
+             <li>Mining</li>
+             <li>Constructing</li>
+          </workDisables>
    	 <!--<maleCommonality>20</maleCommonality>
    	  <femaleCommonality>20</femaleCommonality>-->
       </BackstoryDef>
@@ -419,31 +304,21 @@
             <li>Outlander</li>
             <li>ImperialCommon</li>
          </spawnCategories>
-         <skillGains>
-            <Crafting>17</Crafting>
-            <Construction>6</Construction>
-         </skillGains>
-         <forcedTraits>
-            <Industriousness>2</Industriousness>
-   	  <Neurotic>2</Neurotic>
-            <TorturedArtist>0</TorturedArtist>            
-         </forcedTraits>
-         <workDisables>
-            <li>Violent</li>
-            <li>Caring</li>
-            <li>Social</li>
-            <li>Intellectual</li>
-            <li>Animals</li>
-            <li>Artistic</li>
-            <li>Cooking</li>
-            <li>Firefighting</li>
-            <li>Cleaning</li>
-            <li>Hauling</li>
-            <li>PlantWork</li>
-            <li>Mining</li>
-            <li>Hunting</li>
-            <li>Shooting</li>
-         </workDisables>
+          <skillGains>
+             <Crafting>6</Crafting>
+             <Construction>6</Construction>
+          </skillGains>
+          <forcedTraits>
+             <li><def>Industriousness</def><degree>2</degree></li>
+             <li><def>Neurotic</def><degree>2</degree></li>
+             <li><def>TorturedArtist</def><degree>0</degree></li>
+          </forcedTraits>
+          <workDisables>
+             <li>Violent</li>
+             <li>Shooting</li>
+             <li>Hunting</li>
+             <li>Animals</li>
+          </workDisables>
    	  <!--<maleCommonality>20</maleCommonality>
    	  <femaleCommonality>20</femaleCommonality>-->
       </BackstoryDef>
@@ -463,31 +338,21 @@
             <li>Outlander</li>
             <li>ImperialCommon</li>
          </spawnCategories>
-         <skillGains>
-            <Artistic>17</Artistic>
-         </skillGains>
-         <forcedTraits>
-            <Industriousness>2</Industriousness>
-   	  <Neurotic>2</Neurotic>
-            <TorturedArtist>0</TorturedArtist>   
-         </forcedTraits>
-         <workDisables>
-            <li>Violent</li>
-            <li>Caring</li>
-            <li>Social</li>
-            <li>Intellectual</li>
-            <li>Animals</li>
-            <li>Crafting</li>
-            <li>Cooking</li>
-            <li>Firefighting</li>
-            <li>Cleaning</li>
-            <li>Hauling</li>
-            <li>PlantWork</li>
-            <li>Mining</li>
-            <li>Hunting</li>
-            <li>Constructing</li>
-            <li>Shooting</li>
-         </workDisables>
+          <skillGains>
+             <Artistic>6</Artistic>
+          </skillGains>
+          <forcedTraits>
+             <li><def>Industriousness</def><degree>2</degree></li>
+             <li><def>Neurotic</def><degree>2</degree></li>
+             <li><def>TorturedArtist</def><degree>0</degree></li>
+          </forcedTraits>
+          <workDisables>
+             <li>Violent</li>
+             <li>Shooting</li>
+             <li>Hunting</li>
+             <li>Mining</li>
+             <li>Constructing</li>
+          </workDisables>
    	  <!--<maleCommonality>15</maleCommonality>
    	  <femaleCommonality>25</femaleCommonality>-->
       </BackstoryDef>
@@ -507,28 +372,20 @@
             <li>Outlander</li>
             <li>ImperialCommon</li>
          </spawnCategories>
-         <skillGains>
-            <Medicine>17</Medicine>
-         </skillGains>
-         <forcedTraits>
-             <Industriousness>2</Industriousness>
-   	  <Neurotic>2</Neurotic>       
-         </forcedTraits>
-         <workDisables>
-            <li>ManualDumb</li>
-            <li>Violent</li>
-            <li>Animals</li>
-            <li>Artistic</li>
-            <li>Crafting</li>
-            <li>Cooking</li>
-            <li>Firefighting</li>
-            <li>Hauling</li>
-            <li>PlantWork</li>
-            <li>Mining</li>
-            <li>Hunting</li>
-            <li>Constructing</li>
-            <li>Shooting</li>
-         </workDisables>
+          <skillGains>
+             <Medicine>6</Medicine>
+          </skillGains>
+          <forcedTraits>
+             <li><def>Industriousness</def><degree>2</degree></li>
+             <li><def>Neurotic</def><degree>2</degree></li>
+          </forcedTraits>
+          <workDisables>
+             <li>Violent</li>
+             <li>Animals</li>
+             <li>Hunting</li>
+             <li>Mining</li>
+             <li>Constructing</li>
+          </workDisables>
    	  <!--<maleCommonality>20</maleCommonality>
    	  <femaleCommonality>20</femaleCommonality>-->
       </BackstoryDef>

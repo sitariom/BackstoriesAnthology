@@ -9,9 +9,18 @@ namespace UnifiedBackstories
     /// <summary>
     /// Custom BackstoryDef subclass for ZCB childhood backstories.
     /// Replaces ZCB.ZCBackstoryDef from the original Childhood Backstories mod.
-    /// Supports additional XML fields: baseDesc, commonality, techLevel,
-    /// requiredRecords, requiredSkills, requiredTraits, disallowedTraits, etc.
+    ///
+    /// Supports additional XML fields: commonality, minTechLevel, maxTechLevel,
+    /// colonySize, bodyPartsReplaced, bodyPartsMissing, father, mother,
+    /// requiredRecords, recordRatios, requiredSkills, requiredTraits,
+    /// requiredPassions, disallowedTraits, disallowedPassions, passionGains,
+    /// disablingWorkTags, and developmentalStage.
+    ///
+    /// These 24+ fields are now ENFORCED by ZCBackstoryValidator during pawn
+    /// generation. See ZCBackstoryValidator.cs for the validation logic.
+    ///
     /// skillGains must use standard RimWorld format (List of li/skill/amount).
+    /// requiredTraits/disallowedTraits use trait defName strings, not TraitDef refs.
     /// </summary>
     public class ZCBackstoryDef : BackstoryDef
     {

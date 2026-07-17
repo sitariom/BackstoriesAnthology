@@ -7,3 +7,6 @@ Source/**/bin/
 .pi/
 .pi-lens/
 _ul
+
+# CodeGraph local index (regenerated per-project)
+.codegraph/

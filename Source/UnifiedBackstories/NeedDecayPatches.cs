@@ -5,15 +5,6 @@ using Verse;
 
 namespace UnifiedBackstories
 {
-    [StaticConstructorOnStartup]
-    public static class ReasonableMoodsMod
-    {
-        static ReasonableMoodsMod()
-        {
-            new Harmony("Legator.ReasonableMoodsCapableBackstories").PatchAll();
-        }
-    }
-
     /// <summary>
     /// Survivors scraping a camp together don't expect a game of horseshoes.
     /// Recreation and comfort decay slowly during the colony's first days and

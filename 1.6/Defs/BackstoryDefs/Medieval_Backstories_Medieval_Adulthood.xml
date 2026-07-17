@@ -13,21 +13,12 @@
 	<slot>Adulthood</slot>
 	<title>Alchemist</title>
 	<titleShort>Alchemist</titleShort>
-	<baseDesc>[PAWN_nameDef] devoted [PAWN_possessive] life to continuing [PAWN_possessive] master’s quest to discover the formula for the legendary Panacea Elixir and cure all of the world’s illnesses. [PAWN_pronoun] became renowned as an expert in medicine, and many people came to [PAWN_objective] when they were sick or injured.</baseDesc>
+	<baseDesc>[PAWN_nameDef] devoted {PAWN_gender ? his : her} life to continuing {PAWN_gender ? his : her} master’s quest to discover the formula for the legendary Panacea Elixir and cure all of the world’s illnesses. {PAWN_gender ? he : she} became renowned as an expert in medicine, and many people came to {PAWN_gender ? him : her} when they were sick or injured.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Medicine</key>
-				<value>5</value>
-        </li>
-		<li>
-			<key>Plants</key>
-				<value>4</value>
-        </li>
-		<li>
-			<key>Cooking</key>
-				<value>3</value>
-        </li>
-	</skillGains>
+	<Medicine>5</Medicine>
+	<Plants>4</Plants>
+	<Cooking>3</Cooking>
+</skillGains>
 		<requiredWorkTags>
         <li>Caring</li>
 		  <li>PlantWork</li>
@@ -47,17 +38,11 @@
 	<slot>Adulthood</slot>
 	<title>Chivalrous knight</title>
 	<titleShort>Knight</titleShort>
-	<baseDesc>[PAWN_nameDef] lived to uphold [PAWN_possessive] oaths as a knight. [PAWN_pronoun] protected the weak and defenseless, gave succour to the poor, and always refused any form of reward beyond a word of thanks for [PAWN_possessive] actions.</baseDesc>
+	<baseDesc>[PAWN_nameDef] lived to uphold {PAWN_gender ? his : her} oaths as a knight. {PAWN_gender ? he : she} protected the weak and defenseless, gave succour to the poor, and always refused any form of reward beyond a word of thanks for {PAWN_gender ? his : her} actions.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Melee</key>
-				<value>6</value>
-        </li>
-		<li>
-			<key>Animals</key>
-				<value>4</value>
-        </li>
-	</skillGains>
+	<Melee>6</Melee>
+	<Animals>4</Animals>
+</skillGains>
 	<spawnCategories>
 		<li>Medieval</li>
 		 <li>Uncommon</li>
@@ -91,17 +76,11 @@
 	<slot>Adulthood</slot>
 	<title>Disgraced knight</title>
 	<titleShort>Knight</titleShort>
-	<baseDesc>[PAWN_nameDef] swore an oath when [PAWN_pronoun] became a knight to "never refuse a challenge from an equal." However, when challenged to a duel by a fellow knight for accidentally causing offense, [PAWN_nameDef] fled.</baseDesc>
+	<baseDesc>[PAWN_nameDef] swore an oath when {PAWN_gender ? he : she} became a knight to "never refuse a challenge from an equal." However, when challenged to a duel by a fellow knight for accidentally causing offense, [PAWN_nameDef] fled.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Melee</key>
-				<value>6</value>
-        </li>
-		<li>
-			<key>Animals</key>
-				<value>4</value>
-        </li>
-	</skillGains>
+	<Melee>6</Melee>
+	<Animals>4</Animals>
+</skillGains>
 	<spawnCategories>
 		<li>Medieval</li>
 		 <li>Uncommon</li>
@@ -136,17 +115,11 @@
 	<slot>Adulthood</slot>
 	<title>Knight errant</title>
 	<titleShort>Knight</titleShort>
-	<baseDesc>In order to prove [PAWN_objective]self, [PAWN_nameDef] set off on a quest to seek a legendary relic. Many said that such a thing was impossible, and that the relic did not even exist. However, [PAWN_nameDef]'s oaths as a knight stated that [PAWN_pronoun] must “persevere to the end in any enterprise begun” and [PAWN_pronoun] refused to lose hope.</baseDesc>
+	<baseDesc>In order to prove {PAWN_gender ? him : her}self, [PAWN_nameDef] set off on a quest to seek a legendary relic. Many said that such a thing was impossible, and that the relic did not even exist. However, [PAWN_nameDef]'s oaths as a knight stated that {PAWN_gender ? he : she} must “persevere to the end in any enterprise begun” and {PAWN_gender ? he : she} refused to lose hope.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Melee</key>
-				<value>6</value>
-        </li>
-		<li>
-			<key>Animals</key>
-				<value>4</value>
-        </li>
-	</skillGains>
+	<Melee>6</Melee>
+	<Animals>4</Animals>
+</skillGains>
 	<spawnCategories>
 		<li>Medieval</li>
 		 <li>Uncommon</li>
@@ -181,17 +154,11 @@
 	<slot>Adulthood</slot>
 	<title>Unscrupulous knight</title>
 	<titleShort>Knight</titleShort>
-	<baseDesc>[PAWN_nameDef] held to [PAWN_possessive] oaths as a knight to help those in need, but only if there was something in it for [PAWN_objective]. [PAWN_pronoun] frequently accepted payments and bribes and was very slow to do anything for those that couldn’t pay.</baseDesc>
+	<baseDesc>[PAWN_nameDef] held to {PAWN_gender ? his : her} oaths as a knight to help those in need, but only if there was something in it for {PAWN_gender ? him : her}. {PAWN_gender ? he : she} frequently accepted payments and bribes and was very slow to do anything for those that couldn’t pay.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Melee</key>
-				<value>6</value>
-        </li>
-		<li>
-			<key>Animals</key>
-				<value>4</value>
-        </li>
-	</skillGains>
+	<Melee>6</Melee>
+	<Animals>4</Animals>
+</skillGains>
 	<spawnCategories>
 		<li>Medieval</li>
 		 <li>Uncommon</li>
@@ -232,13 +199,10 @@
 	<slot>Adulthood</slot>
 	<title>Well-travelled merchant</title>
 	<titleShort>Merchant</titleShort>
-	<baseDesc>[PAWN_nameDef] dealt in luxury wares. [PAWN_pronoun] frequently travelled far from home in order to acquire rare goods. [PAWN_nameDef] was extremely personable, and was always able to get the price [PAWN_pronoun] wanted.</baseDesc>
+	<baseDesc>[PAWN_nameDef] dealt in luxury wares. {PAWN_gender ? he : she} frequently travelled far from home in order to acquire rare goods. [PAWN_nameDef] was extremely personable, and was always able to get the price {PAWN_gender ? he : she} wanted.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Social</key>
-				<value>6</value>
-        </li>
-	</skillGains>
+	<Social>6</Social>
+</skillGains>
 	<spawnCategories>
 		<li>Medieval</li>
 		 <li>Uncommon</li>
@@ -275,13 +239,10 @@
 	<slot>Adulthood</slot>
 	<title>Local merchant</title>
 	<titleShort>Merchant</titleShort>
-	<baseDesc>[PAWN_nameDef] dealt in everyday goods. [PAWN_pronoun] rarely journeyed as far as merchants who dealt in more exotic wares, instead travelling to small local farming villages to buy basics like wool and flour that [PAWN_pronoun] brought back to the city to sell.</baseDesc>
+	<baseDesc>[PAWN_nameDef] dealt in everyday goods. {PAWN_gender ? he : she} rarely journeyed as far as merchants who dealt in more exotic wares, instead travelling to small local farming villages to buy basics like wool and flour that {PAWN_gender ? he : she} brought back to the city to sell.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Social</key>
-				<value>5</value>
-        </li>
-	</skillGains>
+	<Social>5</Social>
+</skillGains>
 	<spawnCategories>
 		<li>Medieval</li>
 		 <li>MedievalMerchant</li>
@@ -321,13 +282,10 @@
 	<slot>Adulthood</slot>
 	<title>Beloved king</title>
 	<titleShort>King</titleShort>
-	<baseDesc>[PAWN_nameDef] was the king of the realm. [PAWN_pronoun] did [PAWN_possessive] best to be a wise and just ruler and was widely loved by [PAWN_possessive] subjects.</baseDesc>
+	<baseDesc>[PAWN_nameDef] was the king of the realm. {PAWN_gender ? he : she} did {PAWN_gender ? his : her} best to be a wise and just ruler and was widely loved by {PAWN_gender ? his : her} subjects.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Social</key>
-				<value>7</value>
-        </li>
-	</skillGains>
+	<Social>7</Social>
+</skillGains>
 	<spawnCategories>
 		<li>Medieval</li>
 		 <li>MedievalRoyal</li>
@@ -373,13 +331,10 @@
 	<slot>Adulthood</slot>
 	<title>Beloved queen</title>
 	<titleShort>Queen</titleShort>
-	<baseDesc>[PAWN_nameDef] was the queen of the realm. [PAWN_pronoun] did [PAWN_possessive] best to be a wise and just ruler and was widely loved by [PAWN_possessive] subjects.</baseDesc>
+	<baseDesc>[PAWN_nameDef] was the queen of the realm. {PAWN_gender ? he : she} did {PAWN_gender ? his : her} best to be a wise and just ruler and was widely loved by {PAWN_gender ? his : her} subjects.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Social</key>
-				<value>7</value>
-        </li>
-	</skillGains>
+	<Social>7</Social>
+</skillGains>
 	<spawnCategories>
 		<li>Medieval</li>
 		 <li>MedievalRoyal</li>
@@ -425,17 +380,11 @@
 	<slot>Adulthood</slot>
 	<title>Mad king</title>
 	<titleShort>King</titleShort>
-	<baseDesc>[PAWN_nameDef] was the king of the realm. The absolute power [PAWN_pronoun] had drove [PAWN_objective] insane and [PAWN_pronoun] was widely considered to be a dangerous tyrant. [PAWN_pronoun] remained unchecked due to the machinations of those who benefitted from [PAWN_possessive] madness. [PAWN_nameDef] was incredibly paranoid, and frequently ordered the execution of innocent people for imagined assassination plots.</baseDesc>
+	<baseDesc>[PAWN_nameDef] was the king of the realm. The absolute power {PAWN_gender ? he : she} had drove {PAWN_gender ? him : her} insane and {PAWN_gender ? he : she} was widely considered to be a dangerous tyrant. {PAWN_gender ? he : she} remained unchecked due to the machinations of those who benefitted from {PAWN_gender ? his : her} madness. [PAWN_nameDef] was incredibly paranoid, and frequently ordered the execution of innocent people for imagined assassination plots.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Melee</key>
-				<value>1</value>
-        </li>
-			<li>
-			<key>Social</key>
-				<value>-1</value>
-        </li>
-	</skillGains>
+	<Melee>1</Melee>
+	<Social>-1</Social>
+</skillGains>
 	<spawnCategories>
 		<li>Medieval</li>
 		 <li>MedievalRoyal</li>
@@ -474,17 +423,11 @@
 	<slot>Adulthood</slot>
 	<title>Mad queen</title>
 	<titleShort>Queen</titleShort>
-	<baseDesc>[PAWN_nameDef] was the queen of the realm. The absolute power [PAWN_pronoun] had drove [PAWN_objective] insane and [PAWN_pronoun] was widely considered to be a dangerous tyrant. [PAWN_pronoun] remained unchecked due to the machinations of those who benefitted from [PAWN_possessive] madness. [PAWN_nameDef] was incredibly paranoid, and frequently ordered the execution of innocent people for imagined assassination plots.</baseDesc>
+	<baseDesc>[PAWN_nameDef] was the queen of the realm. The absolute power {PAWN_gender ? he : she} had drove {PAWN_gender ? him : her} insane and {PAWN_gender ? he : she} was widely considered to be a dangerous tyrant. {PAWN_gender ? he : she} remained unchecked due to the machinations of those who benefitted from {PAWN_gender ? his : her} madness. [PAWN_nameDef] was incredibly paranoid, and frequently ordered the execution of innocent people for imagined assassination plots.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Melee</key>
-				<value>1</value>
-        </li>
-			<li>
-			<key>Social</key>
-				<value>-1</value>
-        </li>
-	</skillGains>
+	<Melee>1</Melee>
+	<Social>-1</Social>
+</skillGains>
 	<spawnCategories>
 		<li>Medieval</li>
 		 <li>MedievalRoyal</li>
@@ -524,13 +467,10 @@
 	<title>Heir apparent</title>
 	<titleShort>Crown prince</titleShort>
 	<titleShortFemale>Crown princess</titleShortFemale>
-	<baseDesc>As the heir to the crown, [PAWN_nameDef] had an endless list of royal duties to attend to. [PAWN_possessive] future as monarch depended on gaining the confidence of the royal court and [PAWN_pronoun] took every opportunity to display [PAWN_possessive] leadership and decision making skills. [PAWN_nameDef] also frequently had to meet with prospective marriage partners.</baseDesc>
+	<baseDesc>As the heir to the crown, [PAWN_nameDef] had an endless list of royal duties to attend to. {PAWN_gender ? his : her} future as monarch depended on gaining the confidence of the royal court and {PAWN_gender ? he : she} took every opportunity to display {PAWN_gender ? his : her} leadership and decision making skills. [PAWN_nameDef] also frequently had to meet with prospective marriage partners.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Social</key>
-				<value>5</value>
-        </li>
-	</skillGains>
+	<Social>5</Social>
+</skillGains>
 	<spawnCategories>
 		<li>Medieval</li>
 		 <li>MedievalRoyal</li>
@@ -565,13 +505,10 @@
 	<slot>Adulthood</slot>
 	<title>Renegade royal</title>
 	<titleShort>Renegade royal</titleShort>
-	<baseDesc>[PAWN_nameDef]’s father was a cruel and corrupt king. He outright ignored his starving subjects and had anyone who said anything against him tortured and killed. [PAWN_nameDef] could stand for it no longer, and fled the kingdom with [PAWN_possessive] allies and some peasant refugees in order to begin building an army to overthrow the tyrant.</baseDesc>
+	<baseDesc>[PAWN_nameDef]’s father was a cruel and corrupt king. He outright ignored his starving subjects and had anyone who said anything against him tortured and killed. [PAWN_nameDef] could stand for it no longer, and fled the kingdom with {PAWN_gender ? his : her} allies and some peasant refugees in order to begin building an army to overthrow the tyrant.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Social</key>
-				<value>6</value>
-        </li>
-	</skillGains>
+	<Social>6</Social>
+</skillGains>
 	<spawnCategories>
 		<li>Medieval</li>
 		 <li>MedievalRoyal</li>
@@ -621,13 +558,10 @@
 	<title>Runaway royal</title>
 	<titleShort>Runaway prince</titleShort>
 	<titleShortFemale>Runaway princess</titleShortFemale>
-	<baseDesc>[PAWN_nameDef] couldn’t take the pressure of being the future ruler of the kingdom. [PAWN_pronoun] fled to distant lands, disguising [PAWN_objective]self as a wealthy merchant who happened to be selling some “legitimately acquired” royal silverware.</baseDesc>
+	<baseDesc>[PAWN_nameDef] couldn’t take the pressure of being the future ruler of the kingdom. {PAWN_gender ? he : she} fled to distant lands, disguising {PAWN_gender ? him : her}self as a wealthy merchant who happened to be selling some “legitimately acquired” royal silverware.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Social</key>
-				<value>5</value>
-        </li>
-	</skillGains>
+	<Social>5</Social>
+</skillGains>
 	<spawnCategories>
 		<li>Medieval</li>
 		 <li>MedievalRoyal</li>
@@ -670,17 +604,11 @@
 	<slot>Adulthood</slot>
 	<title>Lady-in-waiting</title>
 	<titleShort>Lady-in-waiting</titleShort>
-	<baseDesc>[PAWN_nameDef] was the personal attendant to the queen herself. [PAWN_pronoun] kept the queen informed about all of the gossip and goings-on of the court, took care of correspondence on the queen’s behalf, and supervised the queen’s other attendants. [PAWN_nameDef] enjoyed sewing and embroidery, and sometimes helped in taking care of the queen’s extensive wardrobe, even though such a task was below her station.</baseDesc>
+	<baseDesc>[PAWN_nameDef] was the personal attendant to the queen herself. {PAWN_gender ? he : she} kept the queen informed about all of the gossip and goings-on of the court, took care of correspondence on the queen’s behalf, and supervised the queen’s other attendants. [PAWN_nameDef] enjoyed sewing and embroidery, and sometimes helped in taking care of the queen’s extensive wardrobe, even though such a task was below her station.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Social</key>
-				<value>5</value>
-        </li>
-			<li>
-			<key>Crafting</key>
-				<value>3</value>
-        </li>
-	</skillGains>
+	<Social>5</Social>
+	<Crafting>3</Crafting>
+</skillGains>
 	<spawnCategories>
 		<li>Medieval</li>
 		 <li>MedievalNoble</li>
@@ -718,17 +646,11 @@
 	<slot>Adulthood</slot>
 	<title>Wise royal advisor</title>
 	<titleShort>Royal advisor</titleShort>
-	<baseDesc>[PAWN_nameDef] was an advisor to the reigning monarch. [PAWN_pronoun] tried [PAWN_possessive] best to advocate for the interests of the commonfolk, being of the opinion that without the peasantry, the kingdom would collapse.</baseDesc>
+	<baseDesc>[PAWN_nameDef] was an advisor to the reigning monarch. {PAWN_gender ? he : she} tried {PAWN_gender ? his : her} best to advocate for the interests of the commonfolk, being of the opinion that without the peasantry, the kingdom would collapse.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Social</key>
-				<value>5</value>
-        </li>
-			<li>
-			<key>Intellectual</key>
-				<value>5</value>
-        </li>
-	</skillGains>
+	<Social>5</Social>
+	<Intellectual>5</Intellectual>
+</skillGains>
 	<spawnCategories>
 		<li>Medieval</li>
 		 <li>MedievalNoble</li>
@@ -767,17 +689,11 @@
 	<slot>Adulthood</slot>
 	<title>Greedy royal advisor</title>
 	<titleShort>Royal advisor</titleShort>
-	<baseDesc>[PAWN_nameDef] was an advisor to the reigning monarch. Most of [PAWN_possessive] advice was self-serving, and [PAWN_nameDef] was able to become obscenely wealthy and powerful by subtly guiding the decisions of the Crown to always favour [PAWN_possessive] interests.</baseDesc>
+	<baseDesc>[PAWN_nameDef] was an advisor to the reigning monarch. Most of {PAWN_gender ? his : her} advice was self-serving, and [PAWN_nameDef] was able to become obscenely wealthy and powerful by subtly guiding the decisions of the Crown to always favour {PAWN_gender ? his : her} interests.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Social</key>
-				<value>5</value>
-        </li>
-			<li>
-			<key>Intellectual</key>
-				<value>3</value>
-        </li>
-	</skillGains>
+	<Social>5</Social>
+	<Intellectual>3</Intellectual>
+</skillGains>
 	<spawnCategories>
 		<li>Medieval</li>
 		 <li>MedievalNoble</li>
@@ -816,17 +732,11 @@
 	<slot>Adulthood</slot>
 	<title>Landowner</title>
 	<titleShort>Landowner</titleShort>
-	<baseDesc>[PAWN_nameDef] held a considerable amount of land. [PAWN_pronoun] granted use of this land to vassal farmers in exchange for a share of what they grew. [PAWN_nameDef] had to be at least vaguely knowledgeable about agriculture in order to properly manage [PAWN_possessive] lands.</baseDesc>
+	<baseDesc>[PAWN_nameDef] held a considerable amount of land. {PAWN_gender ? he : she} granted use of this land to vassal farmers in exchange for a share of what they grew. [PAWN_nameDef] had to be at least vaguely knowledgeable about agriculture in order to properly manage {PAWN_gender ? his : her} lands.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Social</key>
-				<value>5</value>
-        </li>
-			<li>
-			<key>Plants</key>
-				<value>2</value>
-        </li>
-	</skillGains>
+	<Social>5</Social>
+	<Plants>2</Plants>
+</skillGains>
 	<spawnCategories>
 		<li>Medieval</li>
 		 <li>MedievalNoble</li>
@@ -858,13 +768,10 @@
 	<slot>Adulthood</slot>
 	<title>Courtier</title>
 	<titleShort>Courtier</titleShort>
-	<baseDesc>[PAWN_nameDef] was a member of the royal court. [PAWN_pronoun] had very little political knowledge and did not have a formal role within the court. [PAWN_pronoun] was simply there as a “close friend of the royal family.” Despite this, [PAWN_nameDef] tried to make [PAWN_objective]self useful in various ways, such as keeping the king and queen informed of any useful gossip and offering advice on personal matters.</baseDesc>
+	<baseDesc>[PAWN_nameDef] was a member of the royal court. {PAWN_gender ? he : she} had very little political knowledge and did not have a formal role within the court. {PAWN_gender ? he : she} was simply there as a “close friend of the royal family.” Despite this, [PAWN_nameDef] tried to make {PAWN_gender ? him : her}self useful in various ways, such as keeping the king and queen informed of any useful gossip and offering advice on personal matters.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Social</key>
-				<value>5</value>
-        </li>
-	</skillGains>
+	<Social>5</Social>
+</skillGains>
 	<spawnCategories>
 		<li>Medieval</li>
 		 <li>MedievalNoble</li>
@@ -898,23 +805,12 @@
 	<slot>Adulthood</slot>
 	<title>Stable master</title>
 	<titleShort>Stable master</titleShort>
-	<baseDesc>[PAWN_nameDef] ran the stables of a noble family. [PAWN_pronoun] oversaw the stablehands, helped with caring for the animals, and provided veterinary care. [PAWN_nameDef] was even entrusted with assisting with the buying and selling of the horses due to [PAWN_possessive] extensive knowledge.</baseDesc>
+	<baseDesc>[PAWN_nameDef] ran the stables of a noble family. {PAWN_gender ? he : she} oversaw the stablehands, helped with caring for the animals, and provided veterinary care. [PAWN_nameDef] was even entrusted with assisting with the buying and selling of the horses due to {PAWN_gender ? his : her} extensive knowledge.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Animals</key>
-				<value>5</value>
-        </li>
-		
-		<li>
-			<key>Medicine</key>
-				<value>3</value>
-        </li>
-		
-		<li>
-			<key>Social</key>
-				<value>2</value>
-        </li>
-	</skillGains>
+	<Animals>5</Animals>
+	<Medicine>3</Medicine>
+	<Social>2</Social>
+</skillGains>
 	<requiredWorkTags>
 		<li>Animals</li>
 		<li>ManualDumb</li>
@@ -937,23 +833,12 @@
 	<slot>Adulthood</slot>
 	<title>Milkmaid</title>
 	<titleShort>Milkmaid</titleShort>
-	<baseDesc>[PAWN_nameDef] was employed by a wealthy family to milk their cows. [PAWN_pronoun] was also tasked with churning the milk into cream and butter. [PAWN_nameDef] worked with a number of other milkmaids, and [PAWN_pronoun] enjoyed chatting with them as [PAWN_pronoun] worked.</baseDesc>
+	<baseDesc>[PAWN_nameDef] was employed by a wealthy family to milk their cows. {PAWN_gender ? he : she} was also tasked with churning the milk into cream and butter. [PAWN_nameDef] worked with a number of other milkmaids, and {PAWN_gender ? he : she} enjoyed chatting with them as {PAWN_gender ? he : she} worked.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Animals</key>
-				<value>5</value>
-        </li>
-		
-		<li>
-			<key>Cooking</key>
-				<value>2</value>
-        </li>
-		
-		<li>
-			<key>Social</key>
-				<value>2</value>
-        </li>
-	</skillGains>
+	<Animals>5</Animals>
+	<Cooking>2</Cooking>
+	<Social>2</Social>
+</skillGains>
 	<requiredWorkTags>
 		<li>Animals</li>
 		<li>ManualDumb</li>
@@ -983,17 +868,11 @@
 	<slot>Adulthood</slot>
 	<title>Houndmaster</title>
 	<titleShort>Houndmaster</titleShort>
-	<baseDesc>[PAWN_nameDef] took care of the royal hunting hounds. [PAWN_pronoun] trained the dogs to respond to the sound of [PAWN_possessive] hunting horn. [PAWN_nameDef] cared deeply for every single one of his charges. If a dog was injured or sick, [PAWN_pronoun] spared no effort in nursing it back to health.</baseDesc>
+	<baseDesc>[PAWN_nameDef] took care of the royal hunting hounds. {PAWN_gender ? he : she} trained the dogs to respond to the sound of {PAWN_gender ? his : her} hunting horn. [PAWN_nameDef] cared deeply for every single one of his charges. If a dog was injured or sick, {PAWN_gender ? he : she} spared no effort in nursing it back to health.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Animals</key>
-				<value>5</value>
-        </li>
-		<li>
-			<key>Medicine</key>
-				<value>3</value>
-        </li>
-	</skillGains>
+	<Animals>5</Animals>
+	<Medicine>3</Medicine>
+</skillGains>
 	<requiredWorkTags>
 		<li>Animals</li>
 		<li>ManualDumb</li>
@@ -1013,13 +892,10 @@
 	<slot>Adulthood</slot>
 	<title>Chambermaid</title>
 	<titleShort>Chambermaid</titleShort>
-	<baseDesc>[PAWN_nameDef] kept the castle [PAWN_pronoun] worked in clean. [PAWN_possessive] most common task was sweeping up. [PAWN_pronoun] also polished any gold or silver, kept the fireplaces lit, and made the beds. If [PAWN_pronoun] managed to finish [PAWN_possessive] work early, [PAWN_nameDef] would go to help out in the kitchens and chat with the cooks there.</baseDesc>
+	<baseDesc>[PAWN_nameDef] kept the castle {PAWN_gender ? he : she} worked in clean. {PAWN_gender ? his : her} most common task was sweeping up. {PAWN_gender ? he : she} also polished any gold or silver, kept the fireplaces lit, and made the beds. If {PAWN_gender ? he : she} managed to finish {PAWN_gender ? his : her} work early, [PAWN_nameDef] would go to help out in the kitchens and chat with the cooks there.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Cooking</key>
-				<value>2</value>
-        </li>
-	</skillGains>
+	<Cooking>2</Cooking>
+</skillGains>
 	<requiredWorkTags>
 		<li>ManualDumb</li>
     </requiredWorkTags>
@@ -1048,17 +924,11 @@
 	<slot>Adulthood</slot>
 	<title>Castle laundress</title>
 	<titleShort>Laundress</titleShort>
-	<baseDesc>[PAWN_nameDef] washed the bedding and clothes of everyone who lived in the castle. [PAWN_pronoun] was quite strong from carrying the water used to fill the wooden washing basins and from handling heavy, wet linen every day.</baseDesc>
+	<baseDesc>[PAWN_nameDef] washed the bedding and clothes of everyone who lived in the castle. {PAWN_gender ? he : she} was quite strong from carrying the water used to fill the wooden washing basins and from handling heavy, wet linen every day.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Crafting</key>
-				<value>3</value>
-        </li>
-			<li>
-			<key>Melee</key>
-				<value>2</value>
-        </li>
-	</skillGains>
+	<Crafting>3</Crafting>
+	<Melee>2</Melee>
+</skillGains>
 	<requiredWorkTags>
 		<li>ManualDumb</li>
     </requiredWorkTags>
@@ -1081,17 +951,11 @@
 	<slot>Adulthood</slot>
 	<title>Royal cook</title>
 	<titleShort>Royal cook</titleShort>
-	<baseDesc>[PAWN_nameDef] was in charge of the royal kitchens and all who worked within them. [PAWN_pronoun] was a fantastic cook and was especially renowned for [PAWN_possessive] banquet feasts. [PAWN_pronoun] ran [PAWN_possessive] kitchen well, and was generally liked and respected by those who worked under [PAWN_objective].</baseDesc>
+	<baseDesc>[PAWN_nameDef] was in charge of the royal kitchens and all who worked within them. {PAWN_gender ? he : she} was a fantastic cook and was especially renowned for {PAWN_gender ? his : her} banquet feasts. {PAWN_gender ? he : she} ran {PAWN_gender ? his : her} kitchen well, and was generally liked and respected by those who worked under {PAWN_gender ? him : her}.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Cooking</key>
-				<value>7</value>
-        </li>
-			<li>
-			<key>Social</key>
-				<value>2</value>
-        </li>
-	</skillGains>
+	<Cooking>7</Cooking>
+	<Social>2</Social>
+</skillGains>
 	<requiredWorkTags>
 		<li>ManualDumb</li>
     </requiredWorkTags>
@@ -1115,21 +979,12 @@
 	<slot>Adulthood</slot>
 	<title>Goldsmith</title>
 	<titleShort>Goldsmith</titleShort>
-	<baseDesc>[PAWN_nameDef] crafted jewellery and other trinkets out of gold. Because he worked with such valuable materials, [PAWN_possessive] customers tended to be almost exclusively wealthy nobles. [PAWN_nameDef] had to know how to behave appropriately when dealing with the upper class, and was an expert on etiquette.</baseDesc>
+	<baseDesc>[PAWN_nameDef] crafted jewellery and other trinkets out of gold. Because he worked with such valuable materials, {PAWN_gender ? his : her} customers tended to be almost exclusively wealthy nobles. [PAWN_nameDef] had to know how to behave appropriately when dealing with the upper class, and was an expert on etiquette.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Crafting</key>
-				<value>5</value>
-        </li>
-			<li>
-			<key>Artistic</key>
-				<value>4</value>
-        </li>
-			<li>
-			<key>Social</key>
-				<value>2</value>
-        </li>
-	</skillGains>
+	<Crafting>5</Crafting>
+	<Artistic>4</Artistic>
+	<Social>2</Social>
+</skillGains>
 	<requiredWorkTags>
 		<li>ManualDumb</li>
 		<li>ManualSkilled</li>
@@ -1151,21 +1006,12 @@
 	<slot>Adulthood</slot>
 	<title>Silversmith</title>
 	<titleShort>Silversmith</titleShort>
-	<baseDesc>[PAWN_nameDef] crafted jewellery and other trinkets out of silver. Most of [PAWN_possessive] customers were successful, worldly merchants. [PAWN_nameDef] learned a great deal about all manner of things from listening to tales of [PAWN_possessive] customers’ travels.</baseDesc>
+	<baseDesc>[PAWN_nameDef] crafted jewellery and other trinkets out of silver. Most of {PAWN_gender ? his : her} customers were successful, worldly merchants. [PAWN_nameDef] learned a great deal about all manner of things from listening to tales of {PAWN_gender ? his : her} customers’ travels.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Crafting</key>
-				<value>5</value>
-        </li>
-			<li>
-			<key>Artistic</key>
-				<value>4</value>
-        </li>
-			<li>
-			<key>Intellectual</key>
-				<value>2</value>
-        </li>
-	</skillGains>
+	<Crafting>5</Crafting>
+	<Artistic>4</Artistic>
+	<Intellectual>2</Intellectual>
+</skillGains>
 	<requiredWorkTags>
 		<li>ManualDumb</li>
 		<li>ManualSkilled</li>
@@ -1187,17 +1033,11 @@
 	<slot>Adulthood</slot>
 	<title>Busy blacksmith</title>
 	<titleShort>Blacksmith</titleShort>
-	<baseDesc>[PAWN_nameDef] forged tools and weapons from metal. [PAWN_pronoun] worked in a town that was along a busy trade route, and had to be skilled at making and repairing a large variety of goods for the people who lived there, as well as for the many travellers who passed through. Constantly hammering metal made [PAWN_nameDef] extremely strong.</baseDesc>
+	<baseDesc>[PAWN_nameDef] forged tools and weapons from metal. {PAWN_gender ? he : she} worked in a town that was along a busy trade route, and had to be skilled at making and repairing a large variety of goods for the people who lived there, as well as for the many travellers who passed through. Constantly hammering metal made [PAWN_nameDef] extremely strong.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Crafting</key>
-				<value>6</value>
-        </li>
-			<li>
-			<key>Melee</key>
-				<value>4</value>
-        </li>
-	</skillGains>
+	<Crafting>6</Crafting>
+	<Melee>4</Melee>
+</skillGains>
 	<requiredWorkTags>
 		<li>ManualDumb</li>
 		<li>ManualSkilled</li>
@@ -1216,21 +1056,12 @@
 	<slot>Adulthood</slot>
 	<title>Village blacksmith</title>
 	<titleShort>Blacksmith</titleShort>
-	<baseDesc>[PAWN_nameDef] forged tools and weapons from metal. [PAWN_pronoun] worked in a small village and mostly made and repaired farming tools. Proper coal for the smithy was hard to come by, and [PAWN_nameDef] instead used charcoal made from wood that [PAWN_pronoun] chopped [PAWN_objective]self. Constantly hammering metal made [PAWN_nameDef] extremely strong.</baseDesc>
+	<baseDesc>[PAWN_nameDef] forged tools and weapons from metal. {PAWN_gender ? he : she} worked in a small village and mostly made and repaired farming tools. Proper coal for the smithy was hard to come by, and [PAWN_nameDef] instead used charcoal made from wood that {PAWN_gender ? he : she} chopped {PAWN_gender ? him : her}self. Constantly hammering metal made [PAWN_nameDef] extremely strong.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Crafting</key>
-				<value>5</value>
-        </li>
-			<li>
-			<key>Melee</key>
-				<value>4</value>
-        </li>
-		<li>
-			<key>Plants</key>
-				<value>3</value>
-        </li>
-	</skillGains>
+	<Crafting>5</Crafting>
+	<Melee>4</Melee>
+	<Plants>3</Plants>
+</skillGains>
 	<requiredWorkTags>
 		<li>ManualDumb</li>
 		<li>ManualSkilled</li>
@@ -1249,17 +1080,11 @@
 	<slot>Adulthood</slot>
 	<title>Cobbler</title>
 	<titleShort>Cobbler</titleShort>
-	<baseDesc>[PAWN_nameDef] made and repaired boots, shoes, and clogs. [PAWN_nameDef] was very good with [PAWN_possessive] customers, and often engaged in idle chit-chat with them while [PAWN_pronoun] was taking their measurements.</baseDesc>
+	<baseDesc>[PAWN_nameDef] made and repaired boots, shoes, and clogs. [PAWN_nameDef] was very good with {PAWN_gender ? his : her} customers, and often engaged in idle chit-chat with them while {PAWN_gender ? he : she} was taking their measurements.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Crafting</key>
-				<value>5</value>
-        </li>
-			<li>
-			<key>Social</key>
-				<value>4</value>
-        </li>
-	</skillGains>
+	<Crafting>5</Crafting>
+	<Social>4</Social>
+</skillGains>
 	<requiredWorkTags>
 		<li>ManualDumb</li>
 		<li>ManualSkilled</li>
@@ -1278,17 +1103,11 @@
 	<slot>Adulthood</slot>
 	<title>Kindly cartwright</title>
 	<titleShort>Cartwright</titleShort>
-	<baseDesc>[PAWN_nameDef] built and repaired wooden carts and wagons. Merchants and traders frequented [PAWN_possessive] workshop. However, [PAWN_pronoun] most commonly provided [PAWN_possessive] services to poor farmers, often at a discount. The grateful farmers provided [PAWN_nameDef] with so many home-cooked meals, that [PAWN_pronoun] hardly ever had to cook for [PAWN_objective]self.</baseDesc>
+	<baseDesc>[PAWN_nameDef] built and repaired wooden carts and wagons. Merchants and traders frequented {PAWN_gender ? his : her} workshop. However, {PAWN_gender ? he : she} most commonly provided {PAWN_gender ? his : her} services to poor farmers, often at a discount. The grateful farmers provided [PAWN_nameDef] with so many home-cooked meals, that {PAWN_gender ? he : she} hardly ever had to cook for {PAWN_gender ? him : her}self.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Crafting</key>
-				<value>5</value>
-        </li>
-			<li>
-			<key>Cooking</key>
-				<value>-2</value>
-        </li>
-	</skillGains>
+	<Crafting>5</Crafting>
+	<Cooking>-2</Cooking>
+</skillGains>
 	<forcedTraits>
 	<li>
 	 <defName>Kind</defName>
@@ -1312,17 +1131,11 @@
 	<slot>Adulthood</slot>
 	<title>Seamstress</title>
 	<titleShort>Seamstress</titleShort>
-	<baseDesc>[PAWN_nameDef] sewed and mended clothing and other items made of fabric. Time and materials permitting, [PAWN_pronoun] liked to add little embroidered flowers to the things [PAWN_pronoun] made.</baseDesc>
+	<baseDesc>[PAWN_nameDef] sewed and mended clothing and other items made of fabric. Time and materials permitting, {PAWN_gender ? he : she} liked to add little embroidered flowers to the things {PAWN_gender ? he : she} made.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Crafting</key>
-				<value>5</value>
-        </li>
-			<li>
-			<key>Artistic</key>
-				<value>2</value>
-        </li>
-	</skillGains>
+	<Crafting>5</Crafting>
+	<Artistic>2</Artistic>
+</skillGains>
 	<requiredWorkTags>
 		<li>ManualDumb</li>
 		<li>ManualSkilled</li>
@@ -1342,21 +1155,12 @@
 	<slot>Adulthood</slot>
 	<title>Stonemason</title>
 	<titleShort>Stonemason</titleShort>
-	<baseDesc>[PAWN_nameDef] shaped rough chunks of rock into usable bricks, which [PAWN_pronoun] used to build with. [PAWN_pronoun] never lived in one place for long, going wherever there was work to do.</baseDesc>
+	<baseDesc>[PAWN_nameDef] shaped rough chunks of rock into usable bricks, which {PAWN_gender ? he : she} used to build with. {PAWN_gender ? he : she} never lived in one place for long, going wherever there was work to do.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Crafting</key>
-				<value>5</value>
-        </li>
-			<li>
-			<key>Construction</key>
-				<value>5</value>
-        </li>
-			<li>
-			<key>Mining</key>
-				<value>4</value>
-        </li>
-	</skillGains>
+	<Crafting>5</Crafting>
+	<Construction>5</Construction>
+	<Mining>4</Mining>
+</skillGains>
 	<requiredWorkTags>
 		<li>ManualDumb</li>
 		<li>ManualSkilled</li>
@@ -1375,21 +1179,12 @@
 	<slot>Adulthood</slot>
 	<title>Carpenter</title>
 	<titleShort>Carpenter</titleShort>
-	<baseDesc>[PAWN_nameDef] cut wood into usable planks which [PAWN_pronoun] provided to builders. [PAWN_pronoun] also created finely crafted furniture, utensils, and tools. [PAWN_nameDef] had to be quite good at math in order to correctly calculate measurements for [PAWN_possessive] work.</baseDesc>
+	<baseDesc>[PAWN_nameDef] cut wood into usable planks which {PAWN_gender ? he : she} provided to builders. {PAWN_gender ? he : she} also created finely crafted furniture, utensils, and tools. [PAWN_nameDef] had to be quite good at math in order to correctly calculate measurements for {PAWN_gender ? his : her} work.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Crafting</key>
-				<value>5</value>
-        </li>
-			<li>
-			<key>Plants</key>
-				<value>4</value>
-        </li>
-			<li>
-			<key>Intellectual</key>
-				<value>3</value>
-        </li>
-	</skillGains>
+	<Crafting>5</Crafting>
+	<Plants>4</Plants>
+	<Intellectual>3</Intellectual>
+</skillGains>
 	<requiredWorkTags>
 		<li>ManualDumb</li>
 		<li>ManualSkilled</li>
@@ -1411,17 +1206,11 @@
 	<title>Fishmonger</title>
 	<titleShort>Fishmonger</titleShort>
 	<titleShortFemale>Fishlass</titleShortFemale>
-	<baseDesc>[PAWN_nameDef] sold fish at the market. Because [PAWN_possessive] wares were quick to spoil, [PAWN_nameDef] had to be relentless when it came to sales in order to unload [PAWN_possessive] stock quickly. [PAWN_pronoun] was well known for [PAWN_possessive] loud voice carrying across the market all day long, crying out “fish for sale!”</baseDesc>
+	<baseDesc>[PAWN_nameDef] sold fish at the market. Because {PAWN_gender ? his : her} wares were quick to spoil, [PAWN_nameDef] had to be relentless when it came to sales in order to unload {PAWN_gender ? his : her} stock quickly. {PAWN_gender ? he : she} was well known for {PAWN_gender ? his : her} loud voice carrying across the market all day long, crying out “fish for sale!”</baseDesc>
 	<skillGains>
-		<li>
-			<key>Animals</key>
-				<value>3</value>
-        </li>
-			<li>
-			<key>Social</key>
-				<value>5</value>
-        </li>
-	</skillGains>
+	<Animals>3</Animals>
+	<Social>5</Social>
+</skillGains>
 	<requiredWorkTags>
 		<li>ManualDumb</li>
 		<li>ManualSkilled</li>
@@ -1444,17 +1233,11 @@
 	<slot>Adulthood</slot>
 	<title>Net fisher</title>
 	<titleShort>Fisher</titleShort>
-	<baseDesc>[PAWN_nameDef] owned a small boat which [PAWN_pronoun] used to earn a living through fishing. [PAWN_pronoun] mainly fished using nets which [PAWN_pronoun] wove and repaired [PAWN_objective]self.</baseDesc>
+	<baseDesc>[PAWN_nameDef] owned a small boat which {PAWN_gender ? he : she} used to earn a living through fishing. {PAWN_gender ? he : she} mainly fished using nets which {PAWN_gender ? he : she} wove and repaired {PAWN_gender ? him : her}self.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Animals</key>
-				<value>4</value>
-        </li>
-			<li>
-			<key>Crafting</key>
-				<value>3</value>
-        </li>
-	</skillGains>
+	<Animals>4</Animals>
+	<Crafting>3</Crafting>
+</skillGains>
 	<requiredWorkTags>
 		<li>ManualDumb</li>
 		<li>ManualSkilled</li>
@@ -1478,17 +1261,11 @@
 	<slot>Adulthood</slot>
 	<title>Weir fisher</title>
 	<titleShort>Fisher</titleShort>
-	<baseDesc>[PAWN_nameDef] built a weir across the river that [PAWN_pronoun] lived next to in order to catch fish. The flow of the river was rapid, meaning [PAWN_nameDef] had to frequently repair and replace [PAWN_possessive] fish traps.</baseDesc>
+	<baseDesc>[PAWN_nameDef] built a weir across the river that {PAWN_gender ? he : she} lived next to in order to catch fish. The flow of the river was rapid, meaning [PAWN_nameDef] had to frequently repair and replace {PAWN_gender ? his : her} fish traps.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Animals</key>
-				<value>4</value>
-        </li>
-			<li>
-			<key>Construction</key>
-				<value>3</value>
-        </li>
-	</skillGains>
+	<Animals>4</Animals>
+	<Construction>3</Construction>
+</skillGains>
 	<requiredWorkTags>
 		<li>ManualDumb</li>
 		<li>ManualSkilled</li>
@@ -1509,17 +1286,11 @@
 	<slot>Adulthood</slot>
 	<title>Woodcutter</title>
 	<titleShort>Woodcutter</titleShort>
-	<baseDesc>[PAWN_nameDef] chopped wood which [PAWN_pronoun] sold as fuel and building material. [PAWN_pronoun] spent much of [PAWN_possessive] time deep inside a dense and dangerous forest, and had to know how to defend [PAWN_objective]self from animal attacks.</baseDesc>
+	<baseDesc>[PAWN_nameDef] chopped wood which {PAWN_gender ? he : she} sold as fuel and building material. {PAWN_gender ? he : she} spent much of {PAWN_gender ? his : her} time deep inside a dense and dangerous forest, and had to know how to defend {PAWN_gender ? him : her}self from animal attacks.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Plants</key>
-				<value>5</value>
-        </li>
-			<li>
-			<key>Melee</key>
-				<value>4</value>
-        </li>
-	</skillGains>
+	<Plants>5</Plants>
+	<Melee>4</Melee>
+</skillGains>
 	<requiredWorkTags>
 		<li>ManualDumb</li>
 		<li>PlantWork</li>
@@ -1542,17 +1313,11 @@
 	<slot>Adulthood</slot>
 	<title>Shepherd</title>
 	<titleShort>Shepherd</titleShort>
-	<baseDesc>[PAWN_nameDef] tended to a large flock of sheep. [PAWN_pronoun] led a relatively isolated life, living far from civilization in a small covered wagon with [PAWN_possessive] sheep and herding dogs.</baseDesc>
+	<baseDesc>[PAWN_nameDef] tended to a large flock of sheep. {PAWN_gender ? he : she} led a relatively isolated life, living far from civilization in a small covered wagon with {PAWN_gender ? his : her} sheep and herding dogs.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Animals</key>
-				<value>5</value>
-        </li>
-			<li>
-			<key>Social</key>
-				<value>-5</value>
-        </li>
-	</skillGains>
+	<Animals>5</Animals>
+	<Social>-5</Social>
+</skillGains>
 	<requiredWorkTags>
 		<li>ManualDumb</li>
 		<li>Animals</li>
@@ -1576,17 +1341,11 @@
 	<slot>Adulthood</slot>
 	<title>Crop farmer</title>
 	<titleShort>Farmer</titleShort>
-	<baseDesc>[PAWN_nameDef] worked the fields, growing crops such as wheat, barley, and various vegetables. It was often gruelling work, but [PAWN_nameDef]’s fellow farmers were always willing to pitch in and help [PAWN_objective], just as [PAWN_pronoun] was always willing to help them.</baseDesc>
+	<baseDesc>[PAWN_nameDef] worked the fields, growing crops such as wheat, barley, and various vegetables. It was often gruelling work, but [PAWN_nameDef]’s fellow farmers were always willing to pitch in and help {PAWN_gender ? him : her}, just as {PAWN_gender ? he : she} was always willing to help them.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Plants</key>
-				<value>5</value>
-        </li>
-			<li>
-			<key>Social</key>
-				<value>2</value>
-        </li>
-	</skillGains>
+	<Plants>5</Plants>
+	<Social>2</Social>
+</skillGains>
 	<requiredWorkTags>
 		<li>ManualDumb</li>
 		<li>PlantWork</li>
@@ -1616,19 +1375,10 @@
 	<titleShort>Miller</titleShort>
 	<baseDesc>[PAWN_nameDef] owned and operated a mill, which was used to grind grain into flour. While the mill usually used windpower to run, [PAWN_nameDef] had a donkey that helped to turn the millstone on days when the weather was unfavourable.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Animals</key>
-				<value>2</value>
-        </li>
-			<li>
-			<key>Cooking</key>
-				<value>4</value>
-        </li>
-			<li>
-			<key>Plants</key>
-				<value>4</value>
-        </li>
-	</skillGains>
+	<Animals>2</Animals>
+	<Cooking>4</Cooking>
+	<Plants>4</Plants>
+</skillGains>
 	<requiredWorkTags>
 		<li>ManualDumb</li>
 		<li>PlantWork</li>
@@ -1652,17 +1402,11 @@
 	<slot>Adulthood</slot>
 	<title>Vassal footsoldier</title>
 	<titleShort>Footsoldier</titleShort>
-	<baseDesc>[PAWN_nameDef] was often called upon for military service by [PAWN_possessive] liege lord. Because [PAWN_pronoun] could not afford a horse, [PAWN_nameDef] served as a footsoldier. [PAWN_pronoun] was promised that any military campaign [PAWN_pronoun] served in would be finished by harvest season so [PAWN_pronoun] could get back to [PAWN_possessive] farm.</baseDesc>
+	<baseDesc>[PAWN_nameDef] was often called upon for military service by {PAWN_gender ? his : her} liege lord. Because {PAWN_gender ? he : she} could not afford a horse, [PAWN_nameDef] served as a footsoldier. {PAWN_gender ? he : she} was promised that any military campaign {PAWN_gender ? he : she} served in would be finished by harvest season so {PAWN_gender ? he : she} could get back to {PAWN_gender ? his : her} farm.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Melee</key>
-				<value>4</value>
-        </li>
-			<li>
-			<key>Plants</key>
-				<value>5</value>
-        </li>
-	</skillGains>
+	<Melee>4</Melee>
+	<Plants>5</Plants>
+</skillGains>
 	<requiredWorkTags>
 		<li>ManualDumb</li>
 		<li>PlantWork</li>
@@ -1687,17 +1431,11 @@
 	<slot>Adulthood</slot>
 	<title>Vassal longbowman</title>
 	<titleShort>longbowman</titleShort>
-	<baseDesc>[PAWN_nameDef] marched with [PAWN_possessive] liege lord’s army as a longbowman. [PAWN_pronoun] was well practised at marksmanship, having often hunted for food with a small homemade bow, and proved to be incredibly deadly when given a professionally made weapon.</baseDesc>
+	<baseDesc>[PAWN_nameDef] marched with {PAWN_gender ? his : her} liege lord’s army as a longbowman. {PAWN_gender ? he : she} was well practised at marksmanship, having often hunted for food with a small homemade bow, and proved to be incredibly deadly when given a professionally made weapon.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Shooting</key>
-				<value>5</value>
-        </li>
-			<li>
-			<key>Animals</key>
-				<value>5</value>
-        </li>
-	</skillGains>
+	<Shooting>5</Shooting>
+	<Animals>5</Animals>
+</skillGains>
 	<requiredWorkTags>
 		<li>ManualDumb</li>
 		<li>Violent</li>
@@ -1724,17 +1462,11 @@
 	<slot>Adulthood</slot>
 	<title>Playwright</title>
 	<titleShort>Playwright</titleShort>
-	<baseDesc>[PAWN_nameDef] was a dramatist. While such a profession was normally not particularly lucrative, [PAWN_nameDef] and the actors [PAWN_pronoun] worked with had a wealthy patron who paid them all handsomely.</baseDesc>
+	<baseDesc>[PAWN_nameDef] was a dramatist. While such a profession was normally not particularly lucrative, [PAWN_nameDef] and the actors {PAWN_gender ? he : she} worked with had a wealthy patron who paid them all handsomely.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Artistic</key>
-				<value>5</value>
-        </li>
-			<li>
-			<key>Social</key>
-				<value>2</value>
-        </li>
-	</skillGains>
+	<Artistic>5</Artistic>
+	<Social>2</Social>
+</skillGains>
 	<requiredWorkTags>
 		<li>Artistic</li>
     </requiredWorkTags>
@@ -1752,17 +1484,11 @@
 	<slot>Adulthood</slot>
 	<title>Poet</title>
 	<titleShort>Poet</titleShort>
-	<baseDesc>[PAWN_nameDef] was renowned for [PAWN_possessive] poetry. [PAWN_possessive] works were often quite bawdy, earning [PAWN_objective] both fans and detractors.</baseDesc>
+	<baseDesc>[PAWN_nameDef] was renowned for {PAWN_gender ? his : her} poetry. {PAWN_gender ? his : her} works were often quite bawdy, earning {PAWN_gender ? him : her} both fans and detractors.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Artistic</key>
-				<value>5</value>
-        </li>
-			<li>
-			<key>Social</key>
-				<value>3</value>
-        </li>
-	</skillGains>
+	<Artistic>5</Artistic>
+	<Social>3</Social>
+</skillGains>
 	<requiredWorkTags>
 		<li>Artistic</li>
     </requiredWorkTags>
@@ -1785,17 +1511,11 @@
 	<slot>Adulthood</slot>
 	<title>Portrait artist</title>
 	<titleShort>Portrait artist</titleShort>
-	<baseDesc>[PAWN_nameDef] painted portraits for wealthy aristocrats. [PAWN_pronoun] was always careful to depict [PAWN_possessive] clients as flatteringly as possible, and was praised for [PAWN_possessive] dedication to “realism” by those [PAWN_pronoun] painted.</baseDesc>
+	<baseDesc>[PAWN_nameDef] painted portraits for wealthy aristocrats. {PAWN_gender ? he : she} was always careful to depict {PAWN_gender ? his : her} clients as flatteringly as possible, and was praised for {PAWN_gender ? his : her} dedication to “realism” by those {PAWN_gender ? he : she} painted.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Artistic</key>
-				<value>5</value>
-        </li>
-			<li>
-			<key>Social</key>
-				<value>3</value>
-        </li>
-	</skillGains>
+	<Artistic>5</Artistic>
+	<Social>3</Social>
+</skillGains>
 	<requiredWorkTags>
 		<li>Artistic</li>
     </requiredWorkTags>
@@ -1823,21 +1543,12 @@
 	<slot>Adulthood</slot>
 	<title>Puppeteer</title>
 	<titleShort>Puppeteer</titleShort>
-	<baseDesc>[PAWN_nameDef] travelled around in [PAWN_possessive] brightly painted donkey cart, putting on comedic puppet shows wherever there was an audience. [PAWN_nameDef] crafted the marionettes for [PAWN_possessive] show [PAWN_objective]self, and occasionally spoke to them as though they were real people when there was nobody else around.</baseDesc>
+	<baseDesc>[PAWN_nameDef] travelled around in {PAWN_gender ? his : her} brightly painted donkey cart, putting on comedic puppet shows wherever there was an audience. [PAWN_nameDef] crafted the marionettes for {PAWN_gender ? his : her} show {PAWN_gender ? him : her}self, and occasionally spoke to them as though they were real people when there was nobody else around.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Artistic</key>
-				<value>5</value>
-        </li>
-			<li>
-			<key>Crafting</key>
-				<value>4</value>
-        </li>
-			<li>
-			<key>Social</key>
-				<value>-1</value>
-        </li>
-	</skillGains>
+	<Artistic>5</Artistic>
+	<Crafting>4</Crafting>
+	<Social>-1</Social>
+</skillGains>
 	<requiredWorkTags>
 		<li>Artistic</li>
     </requiredWorkTags>
@@ -1855,21 +1566,12 @@
 	<slot>Adulthood</slot>
 	<title>Jester</title>
 	<titleShort>Jester</titleShort>
-	<baseDesc>[PAWN_nameDef] was employed by the royal court to provide amusement. Although [PAWN_nameDef] acted foolish in order to entertain, [PAWN_pronoun] was actually extremely smart and was a master at wordplay.</baseDesc>
+	<baseDesc>[PAWN_nameDef] was employed by the royal court to provide amusement. Although [PAWN_nameDef] acted foolish in order to entertain, {PAWN_gender ? he : she} was actually extremely smart and was a master at wordplay.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Artistic</key>
-				<value>5</value>
-        </li>
-			<li>
-			<key>Intellectual</key>
-				<value>3</value>
-        </li>
-			<li>
-			<key>Social</key>
-				<value>5</value>
-        </li>
-	</skillGains>
+	<Artistic>5</Artistic>
+	<Intellectual>3</Intellectual>
+	<Social>5</Social>
+</skillGains>
 	<requiredWorkTags>
 		<li>Artistic</li>
 		<li>Social</li>
@@ -1888,21 +1590,12 @@
 	<slot>Adulthood</slot>
 	<title>Acrobat</title>
 	<titleShort>Acrobat</titleShort>
-	<baseDesc>[PAWN_nameDef] travelled the kingdom performing amazing feats of acrobatics for audiences both noble and common. The highlight of [PAWN_possessive] act was contorting [PAWN_objective]self into a seemingly impossible position and then shooting a bow and arrow using [PAWN_possessive] feet.</baseDesc>
+	<baseDesc>[PAWN_nameDef] travelled the kingdom performing amazing feats of acrobatics for audiences both noble and common. The highlight of {PAWN_gender ? his : her} act was contorting {PAWN_gender ? him : her}self into a seemingly impossible position and then shooting a bow and arrow using {PAWN_gender ? his : her} feet.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Artistic</key>
-				<value>2</value>
-        </li>
-			<li>
-			<key>Shooting</key>
-				<value>5</value>
-        </li>
-			<li>
-			<key>Social</key>
-				<value>4</value>
-        </li>
-	</skillGains>
+	<Artistic>2</Artistic>
+	<Shooting>5</Shooting>
+	<Social>4</Social>
+</skillGains>
 	<requiredWorkTags>
 		<li>Artistic</li>
 		<li>Social</li>
@@ -1928,13 +1621,10 @@
 	<slot>Adulthood</slot>
 	<title>Town crier</title>
 	<titleShort>Town crier</titleShort>
-	<baseDesc>[PAWN_nameDef] was employed as an official town crier. Everyday, [PAWN_pronoun] rang [PAWN_possessive] handbell and made announcements to the people of [PAWN_possessive] town. [PAWN_nameDef] had a booming voice and an air of authority, causing many to look to [PAWN_objective] as a community leader.</baseDesc>
+	<baseDesc>[PAWN_nameDef] was employed as an official town crier. Everyday, {PAWN_gender ? he : she} rang {PAWN_gender ? his : her} handbell and made announcements to the people of {PAWN_gender ? his : her} town. [PAWN_nameDef] had a booming voice and an air of authority, causing many to look to {PAWN_gender ? him : her} as a community leader.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Social</key>
-				<value>4</value>
-        </li>
-	</skillGains>
+	<Social>4</Social>
+</skillGains>
 	<requiredWorkTags>
 		<li>Social</li>
     </requiredWorkTags>
@@ -1955,15 +1645,9 @@
 	<titleShort>Innkeeper</titleShort>
 	<baseDesc>[PAWN_nameDef] ran a large inn. The inn was used as both lodgings for travellers and as a community meeting spot for locals. [PAWN_nameDef] was kept busy hosting and providing food and drink for everyone.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Social</key>
-				<value>4</value>
-        </li>
-		<li>
-			<key>Cooking</key>
-				<value>5</value>
-        </li>
-	</skillGains>
+	<Social>4</Social>
+	<Cooking>5</Cooking>
+</skillGains>
 	<requiredWorkTags>
 		<li>Social</li>
     </requiredWorkTags>
@@ -1982,17 +1666,11 @@
 	<slot>Adulthood</slot>
 	<title>Barber surgeon</title>
 	<titleShort>Barber surgeon</titleShort>
-	<baseDesc>On most days, [PAWN_nameDef] simply cut hair and trimmed and shaved beards. However, when required, [PAWN_pronoun] was called upon to perform amputations and surgeries due [PAWN_possessive] to steady hand and skill with a razor.</baseDesc>
+	<baseDesc>On most days, [PAWN_nameDef] simply cut hair and trimmed and shaved beards. However, when required, {PAWN_gender ? he : she} was called upon to perform amputations and surgeries due {PAWN_gender ? his : her} to steady hand and skill with a razor.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Medicine</key>
-				<value>4</value>
-        </li>
-		<li>
-			<key>Crafting</key>
-				<value>4</value>
-        </li>
-	</skillGains>
+	<Medicine>4</Medicine>
+	<Crafting>4</Crafting>
+</skillGains>
 	<requiredWorkTags>
 		<li>Social</li>
     </requiredWorkTags>
@@ -2012,17 +1690,11 @@
 	<slot>Adulthood</slot>
 	<title>Midwife</title>
 	<titleShort>Midwife</titleShort>
-	<baseDesc>[PAWN_nameDef] assisted women during pregnancy and childbirth. [PAWN_pronoun] mostly practiced in the small town that [PAWN_pronoun] lived in, but occasionally travelled to the smaller surrounding villages when needed.</baseDesc>
+	<baseDesc>[PAWN_nameDef] assisted women during pregnancy and childbirth. {PAWN_gender ? he : she} mostly practiced in the small town that {PAWN_gender ? he : she} lived in, but occasionally travelled to the smaller surrounding villages when needed.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Medicine</key>
-				<value>5</value>
-        </li>
-			<li>
-			<key>Social</key>
-				<value>3</value>
-        </li>
-	</skillGains>
+	<Medicine>5</Medicine>
+	<Social>3</Social>
+</skillGains>
 	<requiredWorkTags>
 		<li>Social</li>
     </requiredWorkTags>
@@ -2042,21 +1714,12 @@
 	<slot>Adulthood</slot>
 	<title>Tavern wench</title>
 	<titleShort>Tavern wench</titleShort>
-	<baseDesc>[PAWN_nameDef] served ale at a popular tavern. The customers were often rowdy, but [PAWN_nameDef] was both tough and charming and [PAWN_pronoun] always managed to keep them in line.</baseDesc>
+	<baseDesc>[PAWN_nameDef] served ale at a popular tavern. The customers were often rowdy, but [PAWN_nameDef] was both tough and charming and {PAWN_gender ? he : she} always managed to keep them in line.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Social</key>
-				<value>5</value>
-        </li>
-		<li>
-			<key>Cooking</key>
-				<value>4</value>
-        </li>
-		<li>
-			<key>Melee</key>
-				<value>2</value>
-        </li>
-	</skillGains>
+	<Social>5</Social>
+	<Cooking>4</Cooking>
+	<Melee>2</Melee>
+</skillGains>
 	<requiredWorkTags>
 		<li>Social</li>
     </requiredWorkTags>
@@ -2085,13 +1748,10 @@
 	<slot>Adulthood</slot>
 	<title>Hostler</title>
 	<titleShort>Hostler</titleShort>
-	<baseDesc>[PAWN_nameDef] tended to guests’ horses at an inn along a busy travelling route. [PAWN_pronoun] made sure the animals were fed, watered, rested, and even brushed. [PAWN_nameDef] could get even the most skittish or stubborn horses to cooperate with [PAWN_objective].</baseDesc>
+	<baseDesc>[PAWN_nameDef] tended to guests’ horses at an inn along a busy travelling route. {PAWN_gender ? he : she} made sure the animals were fed, watered, rested, and even brushed. [PAWN_nameDef] could get even the most skittish or stubborn horses to cooperate with {PAWN_gender ? him : her}.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Animals</key>
-				<value>4</value>
-        </li>
-	</skillGains>
+	<Animals>4</Animals>
+</skillGains>
 	<requiredWorkTags>
 		<li>Animals</li>
     </requiredWorkTags>
@@ -2113,17 +1773,11 @@
 	<slot>Adulthood</slot>
 	<title>Town guard</title>
 	<titleShort>Town guard</titleShort>
-	<baseDesc>[PAWN_nameDef] was responsible for the protection of [PAWN_possessive] town. [PAWN_pronoun] had to be skilled with both a sword and a bow in order to more effectively protect the townspeople from threats that came from both outside the walls and from within.</baseDesc>
+	<baseDesc>[PAWN_nameDef] was responsible for the protection of {PAWN_gender ? his : her} town. {PAWN_gender ? he : she} had to be skilled with both a sword and a bow in order to more effectively protect the townspeople from threats that came from both outside the walls and from within.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Melee</key>
-				<value>4</value>
-        </li>
-			<li>
-			<key>Shooting</key>
-				<value>4</value>
-        </li>
-	</skillGains>
+	<Melee>4</Melee>
+	<Shooting>4</Shooting>
+</skillGains>
 	<requiredWorkTags>
 		<li>Violent</li>
     </requiredWorkTags>
@@ -2142,13 +1796,10 @@
 	<slot>Adulthood</slot>
 	<title>Lamplighter</title>
 	<titleShort>Lamplighter</titleShort>
-	<baseDesc>[PAWN_nameDef] was responsible for lighting the candles in the lamps that lined the streets of [PAWN_possessive] town. [PAWN_pronoun] preferred the dawn shift, enjoying the solitude that the early morning brought.</baseDesc>
+	<baseDesc>[PAWN_nameDef] was responsible for lighting the candles in the lamps that lined the streets of {PAWN_gender ? his : her} town. {PAWN_gender ? he : she} preferred the dawn shift, enjoying the solitude that the early morning brought.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Social</key>
-				<value>-3</value>
-        </li>
-	</skillGains>
+	<Social>-3</Social>
+</skillGains>
 	<requiredWorkTags>
 		<li>ManualDumb</li>
     </requiredWorkTags>
@@ -2170,17 +1821,11 @@
 	<slot>Adulthood</slot>
 	<title>Graveyard keeper</title>
 	<titleShort>Graveyard keeper</titleShort>
-	<baseDesc>[PAWN_nameDef] tended to the town cemetery. [PAWN_pronoun] dug graves as needed and made sure the cemetery was kept tidy. [PAWN_nameDef] knew the names on every tombstone and planted flowers for any of the deceased who did not get visitors.</baseDesc>
+	<baseDesc>[PAWN_nameDef] tended to the town cemetery. {PAWN_gender ? he : she} dug graves as needed and made sure the cemetery was kept tidy. [PAWN_nameDef] knew the names on every tombstone and planted flowers for any of the deceased who did not get visitors.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Plants</key>
-				<value>3</value>
-        </li>
-		<li>
-			<key>Mining</key>
-				<value>2</value>
-        </li>
-	</skillGains>
+	<Plants>3</Plants>
+	<Mining>2</Mining>
+</skillGains>
 	<requiredWorkTags>
 		<li>ManualDumb</li>
 		<li>PlantWork</li>
@@ -2209,17 +1854,11 @@
 	<slot>Adulthood</slot>
 	<title>Laundress</title>
 	<titleShort>Laundress</titleShort>
-	<baseDesc>[PAWN_nameDef] washed linens and clothes for the local inn. Thieves would sometimes attempt to steal the things that [PAWN_pronoun] hung up to dry, but the only thing they ever came away with were bumps and bruises from [PAWN_nameDef] deftly wielded broom.</baseDesc>
+	<baseDesc>[PAWN_nameDef] washed linens and clothes for the local inn. Thieves would sometimes attempt to steal the things that {PAWN_gender ? he : she} hung up to dry, but the only thing they ever came away with were bumps and bruises from [PAWN_nameDef] deftly wielded broom.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Crafting</key>
-				<value>3</value>
-        </li>
-		<li>
-			<key>Melee</key>
-				<value>2</value>
-        </li>
-	</skillGains>
+	<Crafting>3</Crafting>
+	<Melee>2</Melee>
+</skillGains>
 	<requiredWorkTags>
 		<li>ManualDumb</li>
 		<li>Violent</li>
@@ -2244,17 +1883,11 @@
 	<slot>Adulthood</slot>
 	<title>Graverobber</title>
 	<titleShort>Graverobber</titleShort>
-	<baseDesc>[PAWN_nameDef] robbed graves, relieving the dead of any valuables they had been buried with. [PAWN_pronoun] travelled frequently so as not to be caught, masquerading as a simple, honest merchant. [PAWN_possessive] prices were so cheap that customers rarely questioned why [PAWN_possessive] wares were so often covered in dirt.</baseDesc>
+	<baseDesc>[PAWN_nameDef] robbed graves, relieving the dead of any valuables they had been buried with. {PAWN_gender ? he : she} travelled frequently so as not to be caught, masquerading as a simple, honest merchant. {PAWN_gender ? his : her} prices were so cheap that customers rarely questioned why {PAWN_gender ? his : her} wares were so often covered in dirt.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Social</key>
-				<value>3</value>
-        </li>
-		<li>
-			<key>Mining</key>
-				<value>2</value>
-        </li>
-	</skillGains>
+	<Social>3</Social>
+	<Mining>2</Mining>
+</skillGains>
 	<requiredWorkTags>
 		<li>ManualDumb</li>
 		<li>Violent</li>
@@ -2289,13 +1922,10 @@
 	<slot>Adulthood</slot>
 	<title>Highwayman</title>
 	<titleShort>Highwayman</titleShort>
-	<baseDesc>[PAWN_nameDef] stalked an isolated stretch of road, ambushing travellers in order to steal their valuables. He always offered [PAWN_possessive] victims a choice: “your money or your life.” Most chose the former, and [PAWN_nameDef] would ride away with [PAWN_possessive] loot before anyone had the time to get help.</baseDesc>
+	<baseDesc>[PAWN_nameDef] stalked an isolated stretch of road, ambushing travellers in order to steal their valuables. He always offered {PAWN_gender ? his : her} victims a choice: “your money or your life.” Most chose the former, and [PAWN_nameDef] would ride away with {PAWN_gender ? his : her} loot before anyone had the time to get help.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Melee</key>
-				<value>4</value>
-        </li>
-	</skillGains>
+	<Melee>4</Melee>
+</skillGains>
 	<requiredWorkTags>
 		<li>Violent</li>
     </requiredWorkTags>
@@ -2331,17 +1961,11 @@
 	<slot>Adulthood</slot>
 	<title>Charitable nun</title>
 	<titleShort>Nun</titleShort>
-	<baseDesc>[PAWN_nameDef] took a vow of poverty so that [PAWN_pronoun] could wholly devote [PAWN_objective]self to helping the needy. [PAWN_pronoun] often worked with the sick and dying poor, aiding those who could be healed and comforting those who couldn’t be.</baseDesc>
+	<baseDesc>[PAWN_nameDef] took a vow of poverty so that {PAWN_gender ? he : she} could wholly devote {PAWN_gender ? him : her}self to helping the needy. {PAWN_gender ? he : she} often worked with the sick and dying poor, aiding those who could be healed and comforting those who couldn’t be.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Social</key>
-				<value>4</value>
-        </li>
-		<li>
-			<key>Medicine</key>
-				<value>5</value>
-        </li>
-	</skillGains>
+	<Social>4</Social>
+	<Medicine>5</Medicine>
+</skillGains>
 	<requiredWorkTags>
 		<li>Social</li>
     </requiredWorkTags>
@@ -2385,17 +2009,11 @@
 	<slot>Adulthood</slot>
 	<title>Monk scribe</title>
 	<titleShort>Monk</titleShort>
-	<baseDesc>[PAWN_nameDef] took a vow of silence so that [PAWN_pronoun] could wholly devote [PAWN_objective]self to serving and worshipping [PAWN_possessive] God. [PAWN_nameDef] spent most of [PAWN_objective] days painstakingly creating beautiful illuminated manuscripts, for which [PAWN_pronoun] mixed the inks [PAWN_objective]self.</baseDesc>
+	<baseDesc>[PAWN_nameDef] took a vow of silence so that {PAWN_gender ? he : she} could wholly devote {PAWN_gender ? him : her}self to serving and worshipping {PAWN_gender ? his : her} God. [PAWN_nameDef] spent most of {PAWN_gender ? him : her} days painstakingly creating beautiful illuminated manuscripts, for which {PAWN_gender ? he : she} mixed the inks {PAWN_gender ? him : her}self.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Artistic</key>
-				<value>6</value>
-        </li>
-		<li>
-			<key>Crafting</key>
-				<value>3</value>
-        </li>
-	</skillGains>
+	<Artistic>6</Artistic>
+	<Crafting>3</Crafting>
+</skillGains>
 	<requiredWorkTags>
 		<li>Intellectual</li>
     </requiredWorkTags>
@@ -2435,17 +2053,11 @@
 	<slot>Adulthood</slot>
 	<title>Scholar of philosophy</title>
 	<titleShort>Scholar</titleShort>
-	<baseDesc>[PAWN_nameDef] wrote extensively on moral philosophy. The nature of ethics, of what it truly means to be “good” or “evil,” fascinated [PAWN_objective]. [PAWN_nameDef] was quite sociable for someone who spent hours locked away writing, and enjoyed having friendly discussions and debates with [PAWN_possessive] scholarly cohorts.</baseDesc>
+	<baseDesc>[PAWN_nameDef] wrote extensively on moral philosophy. The nature of ethics, of what it truly means to be “good” or “evil,” fascinated {PAWN_gender ? him : her}. [PAWN_nameDef] was quite sociable for someone who spent hours locked away writing, and enjoyed having friendly discussions and debates with {PAWN_gender ? his : her} scholarly cohorts.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Intellectual</key>
-				<value>6</value>
-        </li>
-		<li>
-			<key>Social</key>
-				<value>3</value>
-        </li>
-	</skillGains>
+	<Intellectual>6</Intellectual>
+	<Social>3</Social>
+</skillGains>
 	<requiredWorkTags>
 		<li>Intellectual</li>
     </requiredWorkTags>
@@ -2479,21 +2091,12 @@
 	<slot>Adulthood</slot>
 	<title>Reclusive witch</title>
 	<titleShort>Witch</titleShort>
-	<baseDesc>[PAWN_nameDef] was accused of practising witchcraft, an offence punishable by death.  [PAWN_pronoun] fled [PAWN_possessive] village and travelled far away until [PAWN_pronoun] finally settled deep in a secluded forest. Desperate travellers who heard rumours of [PAWN_possessive] existence sometimes visited, begging for magic potions to cure their woes.</baseDesc>
+	<baseDesc>[PAWN_nameDef] was accused of practising witchcraft, an offence punishable by death.  {PAWN_gender ? he : she} fled {PAWN_gender ? his : her} village and travelled far away until {PAWN_gender ? he : she} finally settled deep in a secluded forest. Desperate travellers who heard rumours of {PAWN_gender ? his : her} existence sometimes visited, begging for magic potions to cure their woes.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Plants</key>
-				<value>4</value>
-        </li>
-		<li>
-			<key>Cooking</key>
-				<value>3</value>
-        </li>
-			<li>
-			<key>Social</key>
-				<value>-5</value>
-        </li>
-	</skillGains>
+	<Plants>4</Plants>
+	<Cooking>3</Cooking>
+	<Social>-5</Social>
+</skillGains>
 	<requiredWorkTags>
 		<li>Intellectual</li>
 		<li>PlantWork</li>
@@ -2514,17 +2117,11 @@
 	<slot>Adulthood</slot>
 	<title>Seer</title>
 	<titleShort>Seer</titleShort>
-	<baseDesc>On a seemingly normal day, [PAWN_nameDef] suddenly developed a strange sensitivity to something hard to describe. [PAWN_pronoun] could somehow sense things before they happened and was able to make uncannily accurate predictions about the future. While some feared this power, many others willingly went to [PAWN_nameDef] for advice.</baseDesc>
+	<baseDesc>On a seemingly normal day, [PAWN_nameDef] suddenly developed a strange sensitivity to something hard to describe. {PAWN_gender ? he : she} could somehow sense things before they happened and was able to make uncannily accurate predictions about the future. While some feared this power, many others willingly went to [PAWN_nameDef] for advice.</baseDesc>
 	<skillGains>
-		<li>
-			<key>Intellectual</key>
-				<value>3</value>
-        </li>
-		<li>
-			<key>Social</key>
-				<value>2</value>
-        </li>
-	</skillGains>
+	<Intellectual>3</Intellectual>
+	<Social>2</Social>
+</skillGains>
 	<requiredWorkTags>
 		<li>Intellectual</li>
     </requiredWorkTags>
@@ -2548,7 +2145,7 @@
 	<slot>Adulthood</slot>
 	<title>Village fool</title>
 	<titleShort>Village fool</titleShort>
-	<baseDesc>[PAWN_nameDef]’s very existence served as a form of entertainment for [PAWN_possessive] village. [PAWN_possessive] strange appearance and lack of intelligence was a source of derision, pity, and amusement for those around [PAWN_objective]. The people of [PAWN_nameDef]’s village fed and clothed [PAWN_objective] in exchange for  [PAWN_possessive] unwitting service.</baseDesc>
+	<baseDesc>[PAWN_nameDef]’s very existence served as a form of entertainment for {PAWN_gender ? his : her} village. {PAWN_gender ? his : her} strange appearance and lack of intelligence was a source of derision, pity, and amusement for those around {PAWN_gender ? him : her}. The people of [PAWN_nameDef]’s village fed and clothed {PAWN_gender ? him : her} in exchange for  {PAWN_gender ? his : her} unwitting service.</baseDesc>
 	<workDisables>
         <li>Artistic</li>
 		<li>Violent</li>
@@ -2558,11 +2155,8 @@
 		<li>Caring</li>
     </workDisables>
 	   <skillGains>
-	   <li>
-        <key>Animals</key>
-        <value>1</value>
-      </li>
-    </skillGains>
+	<Animals>1</Animals>
+</skillGains>
 		<requiredWorkTags>
 		<li>ManualDumb</li>
     </requiredWorkTags>
@@ -2595,17 +2189,11 @@
 	<slot>Adulthood</slot>
 	<title>Monster slayer</title>
 	<titleShort>Monster slayer</titleShort>
-	<baseDesc>[PAWN_nameDef] travelled far and wide, offering [PAWN_possessive] services as a slayer of monsters. [PAWN_pronoun] received a decent amount of work, mostly from peasants terrified of horrifying creatures stealing their children and livestock. The “monsters” almost always turned out to be wolves, but [PAWN_nameDef] got paid all the same. [PAWN_pronoun] held out hope that, someday, he would get to test [PAWN_objective]self against a real monster.</baseDesc>
+	<baseDesc>[PAWN_nameDef] travelled far and wide, offering {PAWN_gender ? his : her} services as a slayer of monsters. {PAWN_gender ? he : she} received a decent amount of work, mostly from peasants terrified of horrifying creatures stealing their children and livestock. The “monsters” almost always turned out to be wolves, but [PAWN_nameDef] got paid all the same. {PAWN_gender ? he : she} held out hope that, someday, he would get to test {PAWN_gender ? him : her}self against a real monster.</baseDesc>
 		<skillGains>
-		<li>
-			<key>Melee</key>
-				<value>5</value>
-        </li>
-		<li>
-			<key>Shooting</key>
-				<value>5</value>
-        </li>
-	</skillGains>
+	<Melee>5</Melee>
+	<Shooting>5</Shooting>
+</skillGains>
 	<requiredWorkTags>
 		<li>Violent</li>
     </requiredWorkTags>

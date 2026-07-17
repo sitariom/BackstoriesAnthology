@@ -23,7 +23,9 @@ namespace UnifiedBackstories
             {
                 return;
             }
-            if (newThought.def != ThoughtDefOf.CheatedOnMe && newThought.def != UB_DefOf.SoldMyLovedOne)
+            // SoldMyLovedOne is from Ideology DLC — resolve dynamically to avoid crash without it
+            ThoughtDef soldMyLovedOne = UB_DefOf.SoldMyLovedOneResolved();
+            if (newThought.def != ThoughtDefOf.CheatedOnMe && (soldMyLovedOne == null || newThought.def != soldMyLovedOne))
             {
                 return;
             }

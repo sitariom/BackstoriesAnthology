@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- ZCB_Base_Backstories.xml -->
+  <UB_ZCB_ColonyChild.title>colony child</UB_ZCB_ColonyChild.title>
+  <UB_ZCB_ColonyChild.titleShort>colonist</UB_ZCB_ColonyChild.titleShort>
+  <UB_ZCB_ColonyChild.description>{PAWN_nameDef} grew up in our colony.</UB_ZCB_ColonyChild.description>
+
+  <!-- ZCB_Feral_Child_Backstories.xml -->
+  <UB_ZCB_FeralChild.title>feral child</UB_ZCB_FeralChild.title>
+  <UB_ZCB_FeralChild.titleShort>feral</UB_ZCB_FeralChild.titleShort>
+  <UB_ZCB_FeralChild.description>{PAWN_nameDef} was left to survive on {PAWN_gender ? his : her} own after some trauma that {PAWN_gender ? he : she} refuses to talk about. {PAWN_gender ? He : She} learned to appreciate the nature that protected and cared for {PAWN_gender ? him : her}.</UB_ZCB_FeralChild.description>
+
+  <UB_ZCB_FeralChild2.title>feral child</UB_ZCB_FeralChild2.title>
+  <UB_ZCB_FeralChild2.titleShort>feral</UB_ZCB_FeralChild2.titleShort>
+  <UB_ZCB_FeralChild2.description>Abandoned by {PAWN_gender ? his : her} parents at an early age, {PAWN_nameDef} was raised by a herd of friendly muffalo. {PAWN_gender ? He : She} cared for the herd, fighting off predators and tending to minor wounds.</UB_ZCB_FeralChild2.description>
+
+  <UB_ZCB_WildChild.title>wild child</UB_ZCB_WildChild.title>
+  <UB_ZCB_WildChild.titleShort>wild</UB_ZCB_WildChild.titleShort>
+  <UB_ZCB_WildChild.description>{PAWN_nameDef} survived alone in the wilderness for years before being adopted into {PAWN_factionName}. {PAWN_gender ? He : She} missed having company, and became very outgoing after finding {PAWN_gender ? his : her} new family.</UB_ZCB_WildChild.description>
+
+  <!-- ZCB_Lost_Child_Backstories.xml -->
+  <UB_ZCB_LostChild.title>lost boy</UB_ZCB_LostChild.title>
+  <UB_ZCB_LostChild.titleFemale>lost girl</UB_ZCB_LostChild.titleFemale>
+  <UB_ZCB_LostChild.titleShort>lost</UB_ZCB_LostChild.titleShort>
+  <UB_ZCB_LostChild.description>Much of {PAWN_gender ? his : her} early childhood is a mystery, but {PAWN_nameDef} came of age in our colony.</UB_ZCB_LostChild.description>
+
+  <UB_ZCB_Builder.title>builder</UB_ZCB_Builder.title>
+  <UB_ZCB_Builder.titleShort>builder</UB_ZCB_Builder.titleShort>
+  <UB_ZCB_Builder.description>After {PAWN_gender ? his : her} parents abandoned {PAWN_gender ? him : her}, {PAWN_gender ? he : she} was taken in by pirates and forced to fight. Later {PAWN_gender ? he : she} jonied {PAWN_factionName} and discovered a passion for building, quickly signing up to help renovate {PAWN_gender ? his : her} new home.</UB_ZCB_Builder.description>
+
+  <!-- ZCB_Misc_Backstories.xml -->
+  <UB_ZCB_ChildBurnVictim.title>burn victim</UB_ZCB_ChildBurnVictim.title>
+  <UB_ZCB_ChildBurnVictim.titleShort>burned</UB_ZCB_ChildBurnVictim.titleShort>
+  <UB_ZCB_ChildBurnVictim.description>After being terribly burned as a child, {PAWN_nameDef} developed a life-long fear of fire.</UB_ZCB_ChildBurnVictim.description>
+
+  <UB_ZCB_JuvenileDelinquent.title>juvenile delinquent</UB_ZCB_JuvenileDelinquent.title>
+  <UB_ZCB_JuvenileDelinquent.titleShort>delinquent</UB_ZCB_JuvenileDelinquent.titleShort>
+  <UB_ZCB_JuvenileDelinquent.description>{PAWN_nameDef} has a troubled childhood. Frequently on the wrong side of the law, {PAWN_gender ? he : she} spent a lot of time in jail.</UB_ZCB_JuvenileDelinquent.description>
+
+  <UB_ZCB_SoleSurvivor.title>sole suvivor</UB_ZCB_SoleSurvivor.title>
+  <UB_ZCB_SoleSurvivor.titleShort>suvivor</UB_ZCB_SoleSurvivor.titleShort>
+  <UB_ZCB_SoleSurvivor.description>Left completely alone, {PAWN_nameDef} was forced to fend for {PAWN_gender ? him : her}self at a young age.</UB_ZCB_SoleSurvivor.description>
+
+  <UB_ZCB_SerialKiller.title>serial killer</UB_ZCB_SerialKiller.title>
+  <UB_ZCB_SerialKiller.titleShort>killer</UB_ZCB_SerialKiller.titleShort>
+  <UB_ZCB_SerialKiller.description>{PAWN_nameDef} spent {PAWN_gender ? his : her} childhood learning how to take people apart. {PAWN_gender ? He : She} never learned how to put them back together.</UB_ZCB_SerialKiller.description>
+
+  <UB_ZCB_MorbidCuriosity.title>morbid curiosity</UB_ZCB_MorbidCuriosity.title>
+  <UB_ZCB_MorbidCuriosity.titleShort>morbid</UB_ZCB_MorbidCuriosity.titleShort>
+  <UB_ZCB_MorbidCuriosity.description>{PAWN_nameDef} was always fascinated by the dead. {PAWN_gender ? He : She} found any excuse to hang around the battlefield, burying the bodies of raiders after stealing their stuff. {PAWN_gender ? His : Her} peers found this uncomfortable and ostracised {PAWN_gender ? him : her}. As {PAWN_gender ? he : she} grew older, {PAWN_gender ? he : she} increasingly preferred the company of the dead to that of the living.</UB_ZCB_MorbidCuriosity.description>
+
+  <UB_ZCB_BulliedBookworm.title>bullied bookworm</UB_ZCB_BulliedBookworm.title>
+  <UB_ZCB_BulliedBookworm.titleShort>bookworm</UB_ZCB_BulliedBookworm.titleShort>
+  <UB_ZCB_BulliedBookworm.description>As a child, {PAWN_nameDef} never fit in with the other kids. Instead, {PAWN_gender ? he : she} spent {PAWN_gender ? his : her} time reading, and occasionally fighting off bullies.</UB_ZCB_BulliedBookworm.description>
+
+  <UB_ZCB_SurgeryVictim.title>surgery victim</UB_ZCB_SurgeryVictim.title>
+  <UB_ZCB_SurgeryVictim.titleShort>victim</UB_ZCB_SurgeryVictim.titleShort>
+  <UB_ZCB_SurgeryVictim.description>{PAWN_nameDef} distrusts doctors, as every hospital visit seems to result in a new artificial part - {PAWN_gender ? he : she} would much prefer to stay intact. When not under the knife, {PAWN_nameDef} enjoyed spending time in nature.\n\nAdds trait: Body purist</UB_ZCB_SurgeryVictim.description>
+
+  <UB_ZCB_Amputee.title>amputee</UB_ZCB_Amputee.title>
+  <UB_ZCB_Amputee.titleShort>amputee</UB_ZCB_Amputee.titleShort>
+  <UB_ZCB_Amputee.description>{PAWN_nameDef} was distraught the first time {PAWN_gender ? he : she} had to replace one of {PAWN_gender ? his : her} natural body parts, but soon grew to appreciate the replacement. {PAWN_gender ? He : She} looks forward to getting more replacement parts for the ones {PAWN_gender ? he : she} is still missing.\n\nAdds trait: Transhumanist</UB_ZCB_Amputee.description>
+
+  <UB_ZCB_ButcheredButcher.title>butchered butcher</UB_ZCB_ButcheredButcher.title>
+  <UB_ZCB_ButcheredButcher.titleShort>butchered</UB_ZCB_ButcheredButcher.titleShort>
+  <UB_ZCB_ButcheredButcher.description>Having been under the knife several times, {PAWN_nameDef} is quite comfortable with butchery of both animals and people.\n\nAdds trait: Psychopath</UB_ZCB_ButcheredButcher.description>
+
+  <UB_ZCB_WimpyTranshumanist.title>wimpy transhumanist</UB_ZCB_WimpyTranshumanist.title>
+  <UB_ZCB_WimpyTranshumanist.titleShort>wimp</UB_ZCB_WimpyTranshumanist.titleShort>
+  <UB_ZCB_WimpyTranshumanist.description>{PAWN_nameDef} discovered that each new artificial part reduced {PAWN_gender ? his : her} ability to feel pain. {PAWN_gender ? He : She} made it {PAWN_gender ? his : her} mission to replace as much as possible of {PAWN_gender ? his : her} weak flesh.\n\nAdds trait: Transhumanist</UB_ZCB_WimpyTranshumanist.description>
+
+  <UB_ZCB_Transhumanist.title>transhumanist</UB_ZCB_Transhumanist.title>
+  <UB_ZCB_Transhumanist.titleShort>transhumanist</UB_ZCB_Transhumanist.titleShort>
+  <UB_ZCB_Transhumanist.description>{PAWN_nameDef} felt that {PAWN_gender ? his : her} arficial parts were improvements over {PAWN_gender ? his : her} natural flesh.\n\nAdds trait: Transhumanist</UB_ZCB_Transhumanist.description>
+
+  <!-- ZCB_Orphan_Backstories.xml -->
+  <UB_ZCB_WarOrphan.title>war orphan</UB_ZCB_WarOrphan.title>
+  <UB_ZCB_WarOrphan.titleShort>orphan</UB_ZCB_WarOrphan.titleShort>
+  <UB_ZCB_WarOrphan.description>After losing both parents, {PAWN_nameDef} was frequently forced to defend {PAWN_gender ? him : her}self. {PAWN_gender ? He : She} withdrew from society, finding solace in art.</UB_ZCB_WarOrphan.description>
+
+  <UB_ZCB_TragicNurse.title>tragic nurse</UB_ZCB_TragicNurse.title>
+  <UB_ZCB_TragicNurse.titleShort>nurse</UB_ZCB_TragicNurse.titleShort>
+  <UB_ZCB_TragicNurse.description>After the death of {PAWN_gender ? his : her} mother, {PAWN_nameDef} started studying medicine. {PAWN_gender ? He : She} vowed that no other child would suffer the same grief.</UB_ZCB_TragicNurse.description>
+
+  <UB_ZCB_TragicNurse2.title>tragic nurse</UB_ZCB_TragicNurse2.title>
+  <UB_ZCB_TragicNurse2.titleShort>nurse</UB_ZCB_TragicNurse2.titleShort>
+  <UB_ZCB_TragicNurse2.description>After the death of {PAWN_gender ? his : her} father, {PAWN_nameDef} started studying medicine. {PAWN_gender ? He : She} vowed that no other child would suffer the same grief.</UB_ZCB_TragicNurse2.description>
+
+  <!-- ZCB_Outlander_Combat_Backstories.xml -->
+  <UB_ZCB_ChildSoldier.title>child soldier</UB_ZCB_ChildSoldier.title>
+  <UB_ZCB_ChildSoldier.titleShort>soldier</UB_ZCB_ChildSoldier.titleShort>
+  <UB_ZCB_ChildSoldier.description>{PAWN_nameDef} was exposed to the harsh realities of battle at a young age. 
+{PAWN_gender ? He : She} is skilled in combat, but the trauma has stunted {PAWN_gender ? his : her} social skills.</UB_ZCB_ChildSoldier.description>
+
+  <UB_ZCB_ChildSniper.title>child sniper</UB_ZCB_ChildSniper.title>
+  <UB_ZCB_ChildSniper.titleShort>sniper</UB_ZCB_ChildSniper.titleShort>
+  <UB_ZCB_ChildSniper.description>{PAWN_nameDef} grew up practicing with all manner of ranged weapons.</UB_ZCB_ChildSniper.description>
+
+  <UB_ZCB_ChildSuperSoldier.title>child supersoldier</UB_ZCB_ChildSuperSoldier.title>
+  <UB_ZCB_ChildSuperSoldier.titleShort>soldier</UB_ZCB_ChildSuperSoldier.titleShort>
+  <UB_ZCB_ChildSuperSoldier.description>{PAWN_nameDef} grew up on the battlefield. All {PAWN_gender ? he : she} knows is combat.</UB_ZCB_ChildSuperSoldier.description>
+
+  <!-- ZCB_Outlander_Workskill_Backstories.xml -->
+  <UB_ZCB_ChildNurse.title>child nurse</UB_ZCB_ChildNurse.title>
+  <UB_ZCB_ChildNurse.titleShort>nurse</UB_ZCB_ChildNurse.titleShort>
+  <UB_ZCB_ChildNurse.description>{PAWN_nameDef} grew up taking care of the sick and injured.</UB_ZCB_ChildNurse.description>
+
+  <UB_ZCB_ChildDoctor.title>child doctor</UB_ZCB_ChildDoctor.title>
+  <UB_ZCB_ChildDoctor.titleShort>doctor</UB_ZCB_ChildDoctor.titleShort>
+  <UB_ZCB_ChildDoctor.description>{PAWN_nameDef} was a medical prodigy, caring for the sick and injured and even performing surgery at a young age. Having seen so many injuries, {PAWN_gender ? he : she} abhors violence.</UB_ZCB_ChildDoctor.description>
+
+  <UB_ZCB_Farmhand.title>farmhand</UB_ZCB_Farmhand.title>
+  <UB_ZCB_Farmhand.titleShort>farmhand</UB_ZCB_Farmhand.titleShort>
+  <UB_ZCB_Farmhand.description>{PAWN_nameDef} grew up helping around the farm, gaining insight into both planting and animal husbandry.</UB_ZCB_Farmhand.description>
+
+  <UB_ZCB_RanchKid.title>ranch kid</UB_ZCB_RanchKid.title>
+  <UB_ZCB_RanchKid.titleShort>rancher</UB_ZCB_RanchKid.titleShort>
+  <UB_ZCB_RanchKid.description>{PAWN_nameDef} took care of the colony's animals.</UB_ZCB_RanchKid.description>
+
+  <UB_ZCB_KitchenAid.title>kitchen aid</UB_ZCB_KitchenAid.title>
+  <UB_ZCB_KitchenAid.titleShort>cook</UB_ZCB_KitchenAid.titleShort>
+  <UB_ZCB_KitchenAid.description>{PAWN_nameDef} helped in the kitchen, chopping vegetables and preparing simple meals for the colony. {PAWN_gender ? He : She} learned how to make delicious meals efficiently while avoiding food poisoning.</UB_ZCB_KitchenAid.description>
+
+  <UB_ZCB_ChildLaborer.title>child laborer</UB_ZCB_ChildLaborer.title>
+  <UB_ZCB_ChildLaborer.titleShort>laborer</UB_ZCB_ChildLaborer.titleShort>
+  <UB_ZCB_ChildLaborer.description>{PAWN_nameDef} worked manual jobs around the colony, carrying materials for construction and crafting equipment.</UB_ZCB_ChildLaborer.description>
+
+  <UB_ZCB_BuddingArtist.title>budding artist</UB_ZCB_BuddingArtist.title>
+  <UB_ZCB_BuddingArtist.titleShort>artist</UB_ZCB_BuddingArtist.titleShort>
+  <UB_ZCB_BuddingArtist.description>{PAWN_nameDef} loved art from a young age, spending hours drawing on the floor and even dabbling in sculpture. However, {PAWN_gender ? he : she} never learned to use {PAWN_gender ? his : her} skills in a practical way.</UB_ZCB_BuddingArtist.description>
+
+  <!-- ZCB_Outlander_Trait_Backstories.xml -->
+  <UB_ZCB_SicklyChild.title>sickly child</UB_ZCB_SicklyChild.title>
+  <UB_ZCB_SicklyChild.titleShort>sickly</UB_ZCB_SicklyChild.titleShort>
+  <UB_ZCB_SicklyChild.description>{PAWN_nameDef} was a sickly child. {PAWN_gender ? He : She} spent days on end recuperating in the hospital, where {PAWN_gender ? he : she} befriended all the nurses and picked up some basic medical training.</UB_ZCB_SicklyChild.description>
+
+  <UB_ZCB_Gourmand.title>gourmand</UB_ZCB_Gourmand.title>
+  <UB_ZCB_Gourmand.titleShort>gourmand</UB_ZCB_Gourmand.titleShort>
+  <UB_ZCB_Gourmand.description>{PAWN_nameDef} always had a love for food. {PAWN_gender ? He : She} spent {PAWN_gender ? his : her} spare time hanging around the kitchen, pilfering snacks and learning the secrets of cooking a good meal.</UB_ZCB_Gourmand.description>
+
+  <UB_ZCB_Brawler.title>brawler</UB_ZCB_Brawler.title>
+  <UB_ZCB_Brawler.titleShort>brawler</UB_ZCB_Brawler.titleShort>
+  <UB_ZCB_Brawler.description>{PAWN_nameDef} was quick to anger and loved getting up close and personal, resolving arguments with {PAWN_gender ? his : her} fists. {PAWN_gender ? He : She} didn't make many friends, but {PAWN_gender ? he : she} did get a lot of practice patching up wounds.</UB_ZCB_Brawler.description>
+
+  <UB_ZCB_MadProdogy.title>mad prodigy</UB_ZCB_MadProdogy.title>
+  <UB_ZCB_MadProdogy.titleShort>prodigy</UB_ZCB_MadProdogy.titleShort>
+  <UB_ZCB_MadProdogy.description>{PAWN_nameDef} was an unstable prodigy. He applied his genius to the arts, and frequently broke under the pressure of his chaotic mind.</UB_ZCB_MadProdogy.description>
+
+  <UB_ZCB_Bully.title>bully</UB_ZCB_Bully.title>
+  <UB_ZCB_Bully.titleShort>bully</UB_ZCB_Bully.titleShort>
+  <UB_ZCB_Bully.description>{PAWN_nameDef} enjoyed hurting people, often picking on the smaller children. {PAWN_gender ? He : She} loved utterly crushing {PAWN_gender ? his : her} unfortunate targets.</UB_ZCB_Bully.description>
+
+  <!-- ZCB_Outlander_Misc_Backstories.xml -->
+  <UB_ZCB_HappyGoLucky.title>sheltered child</UB_ZCB_HappyGoLucky.title>
+  <UB_ZCB_HappyGoLucky.titleShort>sheltered</UB_ZCB_HappyGoLucky.titleShort>
+  <UB_ZCB_HappyGoLucky.description>{PAWN_nameDef} had a sheltered childhood. {PAWN_gender ? His : Her} childhood had little strife, and {PAWN_gender ? he : she} spent {PAWN_gender ? his : her} time daydreaming and drawing.</UB_ZCB_HappyGoLucky.description>
+
+  <UB_ZCB_Bookworm.title>bookworm</UB_ZCB_Bookworm.title>
+  <UB_ZCB_Bookworm.titleShort>bookworm</UB_ZCB_Bookworm.titleShort>
+  <UB_ZCB_Bookworm.description>{PAWN_nameDef}'s parents started a small colony on a remote planet, so as a small child there wasn't much to do except read a ton of books. Now {PAWN_nameDef} loves book so much that {PAWN_gender ? he : she} can't imagine doing without.</UB_ZCB_Bookworm.description>
+
+  <UB_ZCB_ReluctantBookworm.title>reluctant bookworm</UB_ZCB_ReluctantBookworm.title>
+  <UB_ZCB_ReluctantBookworm.titleShort>bookworm</UB_ZCB_ReluctantBookworm.titleShort>
+  <UB_ZCB_ReluctantBookworm.description>{PAWN_nameDef}'s parents started a small colony on a remote planet, so as a small child there wasn't much to do except read a ton of books. {PAWN_nameDef} read so many books that now {PAWN_gender ? he : she} can barely stand the sight of one, much preferring to spend time outdoors.</UB_ZCB_ReluctantBookworm.description>
+
+  <UB_ZCB_AspiringChef.title>aspiring chef</UB_ZCB_AspiringChef.title>
+  <UB_ZCB_AspiringChef.titleShort>chef</UB_ZCB_AspiringChef.titleShort>
+  <UB_ZCB_AspiringChef.description>{PAWN_nameDef} grew up reading all sorts of book, but {PAWN_gender ? his : her} favorites were always cookbooks. {PAWN_gender ? He : She} learned everything {PAWN_gender ? he : she} could about recipes and ingredients from all over the world. {PAWN_nameDef} dreamed of one day opening {PAWN_gender ? his : her} own restaurant and writing books filled with all {PAWN_gender ? his : her} best recipes.</UB_ZCB_AspiringChef.description>
+
+  <UB_ZCB_ScarredVeteran.title>scarred veteran</UB_ZCB_ScarredVeteran.title>
+  <UB_ZCB_ScarredVeteran.titleShort>scarred</UB_ZCB_ScarredVeteran.titleShort>
+  <UB_ZCB_ScarredVeteran.description>{PAWN_nameDef} reached adulthood with {PAWN_gender ? his : her} mind intact, but not {PAWN_gender ? his : her} body.</UB_ZCB_ScarredVeteran.description>
+
+  <!-- ZCB_Tribal_Base_Backstories.xml -->
+  <UB_ZCB_TribalChild.title>tribal child</UB_ZCB_TribalChild.title>
+  <UB_ZCB_TribalChild.titleShort>tribal</UB_ZCB_TribalChild.titleShort>
+  <UB_ZCB_TribalChild.description>{PAWN_nameDef} grew up in our tribe.</UB_ZCB_TribalChild.description>
+
+  <!-- ZCB_Tribal_Combat_Backstories.xml -->
+  <UB_ZCB_ChildWarrior.title>child warrior</UB_ZCB_ChildWarrior.title>
+  <UB_ZCB_ChildWarrior.titleShort>warrior</UB_ZCB_ChildWarrior.titleShort>
+  <UB_ZCB_ChildWarrior.description>{PAWN_nameDef} was exposed to the harsh realities of battle at a young age. 
+{PAWN_gender ? He : She} is skilled in combat, but the trauma has stunted {PAWN_gender ? his : her} social skills.</UB_ZCB_ChildWarrior.description>
+
+  <UB_ZCB_ChildArcher.title>archer</UB_ZCB_ChildArcher.title>
+  <UB_ZCB_ChildArcher.titleShort>sniper</UB_ZCB_ChildArcher.titleShort>
+  <UB_ZCB_ChildArcher.description>{PAWN_nameDef} grew up practicing with bows and other ranged weapons.</UB_ZCB_ChildArcher.description>
+
+  <UB_ZCB_ChildWarrior2.title>child warrior</UB_ZCB_ChildWarrior2.title>
+  <UB_ZCB_ChildWarrior2.titleShort>soldier</UB_ZCB_ChildWarrior2.titleShort>
+  <UB_ZCB_ChildWarrior2.description>{PAWN_nameDef} grew up on the battlefield, defending his tribe and vanquishing their enemies. All {PAWN_gender ? he : she} knows is combat.</UB_ZCB_ChildWarrior2.description>
+
+  <!-- ZCB_Tribal_Workskill_Backstories.xml -->
+  <UB_ZCB_ShamanApprentice.title>shaman's apprentice</UB_ZCB_ShamanApprentice.title>
+  <UB_ZCB_ShamanApprentice.titleShort>shaman</UB_ZCB_ShamanApprentice.titleShort>
+  <UB_ZCB_ShamanApprentice.description>{PAWN_nameDef} learned to care for all living things - including doing what's necessary to maintain the balance.</UB_ZCB_ShamanApprentice.description>
+
+  <UB_ZCB_TribalHunter.title>tribal hunter</UB_ZCB_TribalHunter.title>
+  <UB_ZCB_TribalHunter.titleShort>hunter</UB_ZCB_TribalHunter.titleShort>
+  <UB_ZCB_TribalHunter.description>{PAWN_nameDef} wasn't very skilled with a bow, but {PAWN_gender ? he : she} still managed to successfully hunt, helping feed {PAWN_gender ? his : her} tribe.</UB_ZCB_TribalHunter.description>
+
+  <UB_ZCB_Gatherer.title>gatherer</UB_ZCB_Gatherer.title>
+  <UB_ZCB_Gatherer.titleShort>gatherer</UB_ZCB_Gatherer.titleShort>
+  <UB_ZCB_Gatherer.description>{PAWN_nameDef} gathered roots and berries to help feed {PAWN_gender ? his : her} tribe.</UB_ZCB_Gatherer.description>
+
+  <UB_ZCB_Storyteller.title>storyteller</UB_ZCB_Storyteller.title>
+  <UB_ZCB_Storyteller.titleShort>storyteller</UB_ZCB_Storyteller.titleShort>
+  <UB_ZCB_Storyteller.description>{PAWN_nameDef} loved telling stories, inventing new worlds with {PAWN_gender ? his : her} imagination and enthralling her peers around the campfire. {PAWN_gender ? He : She} frequently used this talent to get out of doing chores.</UB_ZCB_Storyteller.description>
+
+  <UB_ZCB_TunnelKid2.title>tunnel kid</UB_ZCB_TunnelKid2.title>
+  <UB_ZCB_TunnelKid2.titleShort>tunneller</UB_ZCB_TunnelKid2.titleShort>
+  <UB_ZCB_TunnelKid2.description>{PAWN_nameDef} spent much of {PAWN_gender ? his : her} childhood underground, helping to expand {PAWN_gender ? his : her} tribe's caves. {PAWN_gender ? He : She} loved the work, and rarely went outside or saw the sun.</UB_ZCB_TunnelKid2.description>
+
+  <UB_ZCB_TribalArtist.title>artist</UB_ZCB_TribalArtist.title>
+  <UB_ZCB_TribalArtist.titleShort>artist</UB_ZCB_TribalArtist.titleShort>
+  <UB_ZCB_TribalArtist.description>{PAWN_nameDef} was fascinated by colors and shapes. {PAWN_gender ? He : She} spent much of {PAWN_gender ? his : her} childhood drawing on every available surface, or planning out {PAWN_gender ? his : her} next creation.</UB_ZCB_TribalArtist.description>
+
+  <UB_ZCB_TribalCrafter.title>crafter</UB_ZCB_TribalCrafter.title>
+  <UB_ZCB_TribalCrafter.titleShort>crafter</UB_ZCB_TribalCrafter.titleShort>
+  <UB_ZCB_TribalCrafter.description>{PAWN_nameDef} loved working with {PAWN_gender ? his : her} hands to create useful things. {PAWN_gender ? He : She} also learned everything {PAWN_gender ? he : she} could about gathering materials for {PAWN_gender ? his : her} crafts.</UB_ZCB_TribalCrafter.description>
+
+  <UB_ZCB_TribalCook.title>cook</UB_ZCB_TribalCook.title>
+  <UB_ZCB_TribalCook.titleShort>cook</UB_ZCB_TribalCook.titleShort>
+  <UB_ZCB_TribalCook.description>{PAWN_nameDef} spent {PAWN_gender ? his : her} time in the kitchen, helping to feed {PAWN_gender ? his : her} tribe and occasionally stealing snacks.</UB_ZCB_TribalCook.description>
+
+  <UB_ZCB_TribalBuilder.title>builder</UB_ZCB_TribalBuilder.title>
+  <UB_ZCB_TribalBuilder.titleShort>builder</UB_ZCB_TribalBuilder.titleShort>
+  <UB_ZCB_TribalBuilder.description>{PAWN_nameDef} helped {PAWN_gender ? his : her} tribe with construction projects. {PAWN_gender ? His : Her} favourite part was using a hammer.</UB_ZCB_TribalBuilder.description>
+
+  <UB_ZCB_ChildShaman.title>child shaman</UB_ZCB_ChildShaman.title>
+  <UB_ZCB_ChildShaman.titleShort>nurse</UB_ZCB_ChildShaman.titleShort>
+  <UB_ZCB_ChildShaman.description>{PAWN_nameDef} grew up taking care of the sick and injured.</UB_ZCB_ChildShaman.description>
+
+  <UB_ZCB_Healer.title>child healer</UB_ZCB_Healer.title>
+  <UB_ZCB_Healer.titleShort>healer</UB_ZCB_Healer.titleShort>
+  <UB_ZCB_Healer.description>{PAWN_nameDef} was a medical prodigy, caring for the sick and injured of {PAWN_gender ? his : her} tribe and even performing surgery at a young age. Having seen so many injuries, {PAWN_gender ? he : she} abhors violence.</UB_ZCB_Healer.description>
+
+  <UB_ZCB_AnimalWhisperer.title>animal whisperer</UB_ZCB_AnimalWhisperer.title>
+  <UB_ZCB_AnimalWhisperer.titleShort>whisperer</UB_ZCB_AnimalWhisperer.titleShort>
+  <UB_ZCB_AnimalWhisperer.description>{PAWN_nameDef} took care of the colony's animals, tending to their neesd and persuading them to share their resources with {PAWN_gender ? his : her} tribe.</UB_ZCB_AnimalWhisperer.description>
+
+  <UB_ZCB_ChildLaborerTribal.title>child laborer</UB_ZCB_ChildLaborerTribal.title>
+  <UB_ZCB_ChildLaborerTribal.titleShort>laborer</UB_ZCB_ChildLaborerTribal.titleShort>
+  <UB_ZCB_ChildLaborerTribal.description>{PAWN_nameDef} worked manual jobs around the settlement, building furniture and doing basic crafts.</UB_ZCB_ChildLaborerTribal.description>
+
+  <UB_ZCB_TribalArtist2.title>artist</UB_ZCB_TribalArtist2.title>
+  <UB_ZCB_TribalArtist2.titleShort>artist</UB_ZCB_TribalArtist2.titleShort>
+  <UB_ZCB_TribalArtist2.description>{PAWN_nameDef} loved art from a young age, spending hours drawing on the floor and painting with traditional dyes. However, {PAWN_gender ? he : she} never learned to use {PAWN_gender ? his : her} skills in a practical way.</UB_ZCB_TribalArtist2.description>
+
+  <UB_ZCB_TribalLookout.title>lookout</UB_ZCB_TribalLookout.title>
+  <UB_ZCB_TribalLookout.titleShort>lookout</UB_ZCB_TribalLookout.titleShort>
+  <UB_ZCB_TribalLookout.description>{PAWN_nameDef} was assigned to watch over the animal herds when young, and keep an eye out for predators. As {PAWN_gender ? he : she} got older, {PAWN_gender ? he : she} would chase the predators away with a bow.</UB_ZCB_TribalLookout.description>
+
+  <!-- ZCB_Tribal_Trait_Backstories.xml -->
+  <UB_ZCB_FoodThief.title>food thief</UB_ZCB_FoodThief.title>
+  <UB_ZCB_FoodThief.titleShort>thief</UB_ZCB_FoodThief.titleShort>
+  <UB_ZCB_FoodThief.description>{PAWN_nameDef} loved to eat, often getting into trouble for stealing more of {PAWN_gender ? his : her} share of the tribe's food. As punishment {PAWN_gender ? he : she} was put to work in the kitchens, where {PAWN_gender ? he : she} learned to love the art of cooking.</UB_ZCB_FoodThief.description>
+
+  <UB_ZCB_Ascetic.title>ascetic child</UB_ZCB_Ascetic.title>
+  <UB_ZCB_Ascetic.titleShort>ascetic</UB_ZCB_Ascetic.titleShort>
+  <UB_ZCB_Ascetic.description>{PAWN_nameDef} was never interested in furniture with ostantatious filigree or fancy, gluttonous meals. However, {PAWN_gender ? he : she} could still appreciate good craftsmanship when it counted.</UB_ZCB_Ascetic.description>
+
+  <UB_ZCB_TribalBrawler.title>brawler</UB_ZCB_TribalBrawler.title>
+  <UB_ZCB_TribalBrawler.titleShort>brawler</UB_ZCB_TribalBrawler.titleShort>
+  <UB_ZCB_TribalBrawler.description>{PAWN_nameDef} was good in a fight, always training to be stronger. {PAWN_gender ? He : She} learned to shrug off hits that would have a lesser fighter on the ground.\n\Adds trait: Tough</UB_ZCB_TribalBrawler.description>
+
+  <UB_ZCB_Scavenger.title>scavenger</UB_ZCB_Scavenger.title>
+  <UB_ZCB_Scavenger.titleShort>scavenger</UB_ZCB_Scavenger.titleShort>
+  <UB_ZCB_Scavenger.description>{PAWN_nameDef} spent {PAWN_gender ? his : her} childhood learning as much as {PAWN_gender ? he : she} could about everything, making {PAWN_gender ? him : her} a bit eccentric to the rest of {PAWN_gender ? his : her} tribe. {PAWN_gender ? He : She} was especially interested in disassembling old mechs to see how they are made, with the hope of advancing technology for {PAWN_gender ? his : her} tribe.</UB_ZCB_Scavenger.description>
+
+  <UB_ZCB_TorturedArchitect.title>tortured architect</UB_ZCB_TorturedArchitect.title>
+  <UB_ZCB_TorturedArchitect.titleShort>architect</UB_ZCB_TorturedArchitect.titleShort>
+  <UB_ZCB_TorturedArchitect.description>{PAWN_nameDef} was tortured by visions of architectural grandeur that his tribe could never live up to.</UB_ZCB_TorturedArchitect.description>
+
+  <UB_ZCB_Barbarian.title>barbarian</UB_ZCB_Barbarian.title>
+  <UB_ZCB_Barbarian.titleShort>barbarian</UB_ZCB_Barbarian.titleShort>
+  <UB_ZCB_Barbarian.description>{PAWN_nameDef} enjoyed hurting people, often getting into fights. {PAWN_gender ? He : She} loved utterly crushing {PAWN_gender ? his : her} unfortunate targets.</UB_ZCB_Barbarian.description>
+
+  <!-- ZCB_Tribal_Orphan_Backstories.xml -->
+  <UB_ZCB_TribeOrphan.title>orphan</UB_ZCB_TribeOrphan.title>
+  <UB_ZCB_TribeOrphan.titleShort>orphan</UB_ZCB_TribeOrphan.titleShort>
+  <UB_ZCB_TribeOrphan.description>Growing up an orphan in a small tribe, {PAWN_nameDef} loved proving {PAWN_gender ? him : her}self in a fight. {PAWN_gender ? He : She} also learned the basics of gathering edible plants and cooking them into delicious meals, so that {PAWN_gender ? he : she} would never go hungry again.</UB_ZCB_TribeOrphan.description>
+
+  <UB_ZCB_TribeOrphan2.title>orphan</UB_ZCB_TribeOrphan2.title>
+  <UB_ZCB_TribeOrphan2.titleShort>orphan</UB_ZCB_TribeOrphan2.titleShort>
+  <UB_ZCB_TribeOrphan2.description>{PAWN_nameDef} lost {PAWN_gender ? his : her} parents at a young age. {PAWN_gender ? He : She} found solace caring for the livestock and other animals of {PAWN_gender ? his : her} tribe.</UB_ZCB_TribeOrphan2.description>
+
+  <!-- ZCB_Tribal_Misc_Backstories.xml -->
+  <UB_ZCB_HappyGoLucky2.title>happy go lucky</UB_ZCB_HappyGoLucky2.title>
+  <UB_ZCB_HappyGoLucky2.titleShort>happy</UB_ZCB_HappyGoLucky2.titleShort>
+  <UB_ZCB_HappyGoLucky2.description>{PAWN_nameDef} had a peaceful childhood, shielded from hardship by {PAWN_gender ? his : her} tribe. {PAWN_gender ? His : Her} childhood had little strife, and {PAWN_gender ? he : she} spent {PAWN_gender ? his : her} time daydreaming and drawing.</UB_ZCB_HappyGoLucky2.description>
+
+  <UB_ZCB_TribalDreamer.title>dreamer</UB_ZCB_TribalDreamer.title>
+  <UB_ZCB_TribalDreamer.titleShort>dreamer</UB_ZCB_TribalDreamer.titleShort>
+  <UB_ZCB_TribalDreamer.description>Always running off to watch the clouds, {PAWN_nameDef} spent hardly any time at home. {PAWN_gender ? He : She} never learned how to interact with people, but whenever forced to do chores would come up with ways to do them faster than anyone else.</UB_ZCB_TribalDreamer.description>
+
+  <UB_ZCB_AnimalTrainer.title>animal trainer</UB_ZCB_AnimalTrainer.title>
+  <UB_ZCB_AnimalTrainer.titleShort>trainer</UB_ZCB_AnimalTrainer.titleShort>
+  <UB_ZCB_AnimalTrainer.description>{PAWN_nameDef} has a way with animals, and has been training them since the moment {PAWN_gender ? he : she} was old enough. Why carry firewood when a dog can do it for you?</UB_ZCB_AnimalTrainer.description>
+
+  <UB_ZCB_TribalBookworm.title>tribal bookworm</UB_ZCB_TribalBookworm.title>
+  <UB_ZCB_TribalBookworm.titleShort>bookworm</UB_ZCB_TribalBookworm.titleShort>
+  <UB_ZCB_TribalBookworm.description>Despite growing up in a primitive tribe, {PAWN_nameDef} spent as much of {PAWN_gender ? his : her} time reading as possible. {PAWN_gender ? He : She} loved getting lost in the worlds of stories, and dreaming about what might be.</UB_ZCB_TribalBookworm.description>
+
+  <UB_ZCB_BuddingAdventurer.title>budding adventurer</UB_ZCB_BuddingAdventurer.title>
+  <UB_ZCB_BuddingAdventurer.titleShort>adventurer</UB_ZCB_BuddingAdventurer.titleShort>
+  <UB_ZCB_BuddingAdventurer.description>{PAWN_nameDef} grew up reading all sorts of adventure stories. {PAWN_gender ? He : She} dreamed of one day going on {PAWN_gender ? his : her} own adventures, and writing bestselling books of {PAWN_gender ? his : her} exploits.</UB_ZCB_BuddingAdventurer.description>
+
+  <UB_ZCB_Experimenter.title>experimenter</UB_ZCB_Experimenter.title>
+  <UB_ZCB_Experimenter.titleShort>experimenter</UB_ZCB_Experimenter.titleShort>
+  <UB_ZCB_Experimenter.description>{PAWN_nameDef} loved to learn, but had little access to books. Instead, {PAWN_gender ? he : she} turned {PAWN_gender ? his : her} attention to practical experiments.</UB_ZCB_Experimenter.description>
+
+  <UB_ZCB_ScarredVeteranTribal.title>scarred veteran</UB_ZCB_ScarredVeteranTribal.title>
+  <UB_ZCB_ScarredVeteranTribal.titleShort>scarred</UB_ZCB_ScarredVeteranTribal.titleShort>
+  <UB_ZCB_ScarredVeteranTribal.description>{PAWN_nameDef} fought to protect {PAWN_gender ? his : her} tribe, sustaining permenant injuries that plagued {PAWN_gender ? him : her} into adulthood.</UB_ZCB_ScarredVeteranTribal.description>
+
+  <!-- ZCB_Workskill_Backstories.xml -->
+  <UB_ZCB_TunnelKid.title>tunnel kid</UB_ZCB_TunnelKid.title>
+  <UB_ZCB_TunnelKid.titleShort>tunneler</UB_ZCB_TunnelKid.titleShort>
+  <UB_ZCB_TunnelKid.description>{PAWN_nameDef} spent much of {PAWN_gender ? his : her} time underground, working in the mines. {PAWN_gender ? He : She} loved every minute of it.</UB_ZCB_TunnelKid.description>
+
+  <!-- ZCB_Trait_Backstories.xml -->
+  <UB_ZCB_UglyChild.title>ugly child</UB_ZCB_UglyChild.title>
+  <UB_ZCB_UglyChild.titleShort>ugly</UB_ZCB_UglyChild.titleShort>
+  <UB_ZCB_UglyChild.description>{PAWN_nameDef} was quite an ugly child. {PAWN_gender ? He : She} worked extra hard to make friends.</UB_ZCB_UglyChild.description>
+
+  <UB_ZCB_UglyChild2.title>staggeringly ugly child</UB_ZCB_UglyChild2.title>
+  <UB_ZCB_UglyChild2.titleShort>ugly</UB_ZCB_UglyChild2.titleShort>
+  <UB_ZCB_UglyChild2.description>{PAWN_nameDef} was a staggeringly ugly child. {PAWN_gender ? He : She} worked extra hard to make friends, baking treats for the rest of the colony to win favor.</UB_ZCB_UglyChild2.description>
+
+  <UB_ZCB_Undergrounder.title>tunnel kid</UB_ZCB_Undergrounder.title>
+  <UB_ZCB_Undergrounder.titleShort>tunnel kid</UB_ZCB_Undergrounder.titleShort>
+  <UB_ZCB_Undergrounder.description>{PAWN_nameDef} loved exploring and expanding the tunnels that extended from his home. {PAWN_gender ? He : She} enjoyed any kind of digging, even helping plow and till {PAWN_gender ? his : her} colony's farms.</UB_ZCB_Undergrounder.description>
+
+  <UB_ZCB_Assassin.title>assassin</UB_ZCB_Assassin.title>
+  <UB_ZCB_Assassin.titleShort>assassin</UB_ZCB_Assassin.titleShort>
+  <UB_ZCB_Assassin.description>{PAWN_nameDef} loved watching {PAWN_gender ? his : her} enemies die through a scope. Or {PAWN_gender ? his : her} friends, {PAWN_gender ? he : she} wasn't picky.</UB_ZCB_Assassin.description>
+
+</LanguageData>

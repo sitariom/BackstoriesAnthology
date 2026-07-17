@@ -62,7 +62,7 @@ namespace UnifiedBackstories
                 }
                 foreach (Pawn p in map.mapPawns.FreeColonistsSpawned)
                 {
-                    if (IsFighting(p, tick) && !combatParticipants.Contains(p))
+                    if (IsFighting(p, tick))
                     {
                         combatParticipants.Add(p);
                     }
@@ -108,7 +108,7 @@ namespace UnifiedBackstories
                 }
                 foreach (Pawn p in map.mapPawns.FreeColonistsSpawned)
                 {
-                    if (p.CurJobDef == JobDefOf.BeatFire && !fireParticipants.Contains(p))
+                    if (p.CurJobDef == JobDefOf.BeatFire)
                     {
                         fireParticipants.Add(p);
                     }
@@ -135,7 +135,7 @@ namespace UnifiedBackstories
                     continue;
                 }
                 sickNow++;
-                if (outbreakActive && !outbreakParticipants.Contains(p))
+                if (outbreakActive)
                 {
                     outbreakParticipants.Add(p);
                 }
@@ -183,7 +183,6 @@ namespace UnifiedBackstories
         {
             List<Pawn> survivors = pawns
                 .Where(p => p != null && !p.Dead && !p.Destroyed && p.needs?.mood != null && p.IsFreeColonist)
-                .Distinct()
                 .ToList();
             if (survivors.Count < 2)
             {
@@ -223,9 +222,9 @@ namespace UnifiedBackstories
                 combatParticipants = combatParticipants ?? new List<Pawn>();
                 fireParticipants = fireParticipants ?? new List<Pawn>();
                 outbreakParticipants = outbreakParticipants ?? new List<Pawn>();
-                combatParticipants.RemoveAll(p => p == null);
-                fireParticipants.RemoveAll(p => p == null);
-                outbreakParticipants.RemoveAll(p => p == null);
+                combatParticipants.RemoveWhere(p => p == null);
+                fireParticipants.RemoveWhere(p => p == null);
+                outbreakParticipants.RemoveWhere(p => p == null);
             }
         }
     }
