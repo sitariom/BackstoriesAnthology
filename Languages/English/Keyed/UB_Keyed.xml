@@ -38,5 +38,14 @@
   <UB.Header.Elderhood>Elderhood Backstories</UB.Header.Elderhood>
   <UB.Header.ZCB>Childhood-Only Backstories (ZCB)</UB.Header.ZCB>
 
+  <UB.ChooseElderhood>Choose Elderhood</UB.ChooseElderhood>
+  <UB.ClearElderhood>Clear</UB.ClearElderhood>
+  <UB.ClearElderhood.Tip>Remove this pawn's elderhood backstory.</UB.ClearElderhood.Tip>
+  <UB.ChangeElderhood.Tip>Change this pawn's elderhood backstory.</UB.ChangeElderhood.Tip>
+  <UB.AddElderhood.Tip>Add an elderhood backstory for this pawn.</UB.AddElderhood.Tip>
+  <UB.NoElderhood>No elderhood</UB.NoElderhood>
+  <UB.ClickToAddElderhood>Click + to add an elderhood backstory</UB.ClickToAddElderhood>
+  <UB.Cancel>Cancel</UB.Cancel>
+
   <UB.ModName>Unified Backstories</UB.ModName>
 </LanguageData>

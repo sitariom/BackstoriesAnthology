@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
+using System.Text.RegularExpressions;
 using HarmonyLib;
 using RimWorld;
 using UnityEngine;
@@ -53,6 +54,24 @@ namespace UnifiedBackstories
 
     public static class ElderhoodHelper
     {
+        private static readonly Regex GenderTokenRegex = new Regex(@"\{PAWN_gender \? (.+?) : (.+?)\}", RegexOptions.Compiled);
+
+        /// <summary>
+        /// Processes {PAWN_gender ? male_text : female_text} tokens in backstory descriptions.
+        /// This was originally handled by the ElderhoodBackstory.dll's custom formatter.
+        /// </summary>
+        public static string ProcessGenderTokens(string text, Pawn pawn)
+        {
+            if (string.IsNullOrEmpty(text) || pawn == null)
+                return text;
+            return GenderTokenRegex.Replace(text, match =>
+            {
+                string maleOpt = match.Groups[1].Value.Trim();
+                string femaleOpt = match.Groups[2].Value.Trim();
+                return (pawn.gender == Gender.Female) ? femaleOpt : maleOpt;
+            });
+        }
+
         /// <summary>
         /// Picks elderhood for pawn. Player colonists/prisoners/slaves get special variants.
         /// Others get a random elderhood from the pool.
@@ -91,6 +110,18 @@ namespace UnifiedBackstories
             if (bs?.spawnCategories == null) return false;
             return bs.spawnCategories.Contains("Elderhood") ||
                    bs.spawnCategories.Contains("SpecialElderhood");
+        }
+
+        /// <summary>
+        /// Returns all valid elderhood backstories for selection UI.
+        /// </summary>
+        public static List<BackstoryDef> ListElderhoods()
+        {
+            return DefDatabase<BackstoryDef>.AllDefsListForReading
+                .Where(d => d.spawnCategories != null &&
+                    (d.spawnCategories.Contains("Elderhood") ||
+                     d.spawnCategories.Contains("SpecialElderhood")))
+                .ToList();
         }
 
         public static string TitleFor(BackstoryDef bs, Pawn pawn)
@@ -161,7 +192,9 @@ namespace UnifiedBackstories
             CompElderhoodBackstory comp = GetOrCreateElderhoodComp(pawn);
             if (comp.HasElderhood) return;
 
-            // No age check — original mod assigns elderhood to all generated pawns
+            // Only assign elderhood to pawns aged 60+
+            if (pawn.ageTracker.AgeBiologicalYears < comp.ElderhoodAge) return;
+
             BackstoryDef elderhood = GetElderhoodFor(pawn);
             if (elderhood != null)
             {
@@ -182,6 +215,20 @@ namespace UnifiedBackstories
     // ================================================================
     // HARMONY PATCHES
     // ================================================================
+
+    /// <summary>
+    /// Processes {PAWN_gender ? X : Y} tokens in all backstory descriptions.
+    /// Handles the custom gender markup from the original ElderhoodBackstory mod.
+    /// </summary>
+    [HarmonyPatch(typeof(BackstoryDef), "FullDescriptionFor")]
+    public static class BackstoryDef_FullDescriptionFor_Patch
+    {
+        public static void Postfix(BackstoryDef __instance, Pawn pawn, ref string __result)
+        {
+            if (string.IsNullOrEmpty(__result) || pawn == null) return;
+            __result = ElderhoodHelper.ProcessGenderTokens(__result, pawn);
+        }
+    }
 
     /// <summary>
     /// When TryGiveSolidBioTo succeeds, fill the elderhood slot.
@@ -307,7 +354,9 @@ namespace UnifiedBackstories
         private static FieldInfo fiPawn;
         private static FieldInfo fiLeft;
         private static Texture2D _infoIcon;
-        private static bool _infoIconLoaded;
+        private static Texture2D _editIcon;
+        private static Texture2D _clearIcon;
+        private static bool _iconsLoaded;
 
         public static MethodBase TargetMethod()
         {
@@ -329,29 +378,103 @@ namespace UnifiedBackstories
             if (UB_Mod.Settings != null && !UB_Mod.Settings.elderhoodEnabled) return;
 
             CompElderhoodBackstory comp = pawn.GetComp<CompElderhoodBackstory>();
-            if (comp == null || !comp.HasElderhood) return;
-            BackstoryDef elderhood = comp.ElderhoodBS;
-            if (elderhood == null) return;
+            if (comp == null)
+                comp = ElderhoodHelper.GetOrCreateElderhoodComp(pawn);
+            bool hasElderhood = comp != null && comp.HasElderhood;
 
-            // Lazy-load info icon texture
-            if (!_infoIconLoaded)
+            // Only show section for pawns 60+ or with existing elderhood
+            if (!hasElderhood && (pawn.ageTracker == null || pawn.ageTracker.AgeBiologicalYears < 60))
+                return;
+            if (comp == null) return;
+
+            // Lazy-load icons
+            if (!_iconsLoaded)
             {
-                _infoIconLoaded = true;
+                _iconsLoaded = true;
                 _infoIcon = ContentFinder<Texture2D>.Get("UI/InfoButton", false)
-                           ?? ContentFinder<Texture2D>.Get("UI/Icons/InfoButton", false)
-                           ?? ContentFinder<Texture2D>.Get("UI/Commands/InfoButton", false);
+                           ?? ContentFinder<Texture2D>.Get("UI/Icons/InfoButton", false);
+                _editIcon = ContentFinder<Texture2D>.Get("UI/Buttons/Edit", false)
+                           ?? ContentFinder<Texture2D>.Get("UI/Icons/Edit", false);
+                _clearIcon = ContentFinder<Texture2D>.Get("UI/Buttons/Delete", false)
+                            ?? ContentFinder<Texture2D>.Get("UI/Icons/Delete", false);
             }
 
             float curY = (float)fiCurY.GetValue(__instance);
             float width = 196f;
             if (fiLeft?.GetValue(__instance) is Rect lr) width = lr.width;
 
-            // Category label
+            // === Category label ===
             Text.Font = GameFont.Medium;
             Widgets.Label(new Rect(0f, curY, width, 30f), "Elderhood".Translate());
+
+            // === Edit / Clear buttons (top-right of header) ===
+            Text.Font = GameFont.Tiny;
+            float btnSize = 22f;
+            float btnX = width - btnSize;
+
+            if (hasElderhood)
+            {
+                // Clear button
+                Texture2D clearTex = _clearIcon ?? _infoIcon;
+                Rect clearRect = new Rect(btnX, curY + 2f, btnSize, btnSize);
+                if (Widgets.ButtonImage(clearRect, clearTex, Color.white, Color.grey * 1.5f))
+                {
+                    List<FloatMenuOption> options = new List<FloatMenuOption>
+                    {
+                        new FloatMenuOption("UB.ClearElderhood".Translate(), delegate
+                        {
+                            comp.SetElderhood(null);
+                            pawn.skills?.Notify_SkillDisablesChanged();
+                        }),
+                        new FloatMenuOption("UB.Cancel".Translate(), null),
+                    };
+                    Find.WindowStack.Add(new FloatMenu(options));
+                }
+                TooltipHandler.TipRegion(clearRect, "UB.ClearElderhood.Tip".Translate());
+                btnX -= btnSize + 2f;
+
+                // Edit (change) button
+                Texture2D editTex = _editIcon ?? _infoIcon;
+                Rect editRect = new Rect(btnX, curY + 2f, btnSize, btnSize);
+                if (Widgets.ButtonImage(editRect, editTex))
+                {
+                    Find.WindowStack.Add(new Dialog_ChooseElderhood(pawn, comp));
+                }
+                TooltipHandler.TipRegion(editRect, "UB.ChangeElderhood.Tip".Translate());
+            }
+            else
+            {
+                // No elderhood yet — show "Add" button
+                Rect addRect = new Rect(btnX, curY + 2f, btnSize, btnSize);
+                Texture2D addTex = _editIcon ?? _infoIcon;
+                if (Widgets.ButtonImage(addRect, addTex))
+                {
+                    Find.WindowStack.Add(new Dialog_ChooseElderhood(pawn, comp));
+                }
+                TooltipHandler.TipRegion(addRect, "UB.AddElderhood.Tip".Translate());
+            }
+
             curY += 28f;
 
-            // Title + info button
+            if (!hasElderhood)
+            {
+                // No elderhood assigned — show hint
+                Text.Font = GameFont.Small;
+                Widgets.Label(new Rect(0f, curY, width, 20f), "UB.NoElderhood".Translate());
+                curY += 22f;
+                Text.Font = GameFont.Tiny;
+                Widgets.Label(new Rect(0f, curY, width, 16f), "UB.ClickToAddElderhood".Translate());
+                curY += 18f;
+
+                curY += 4f;
+                fiCurY.SetValue(__instance, curY);
+                return;
+            }
+
+            BackstoryDef elderhood = comp.ElderhoodBS;
+            if (elderhood == null) return;
+
+            // === Title + info button ===
             Text.Font = GameFont.Small;
             string title = ElderhoodHelper.TitleFor(elderhood, pawn);
             Vector2 titleSize = Text.CalcSize(title);
@@ -366,7 +489,7 @@ namespace UnifiedBackstories
             }
             curY += 24f;
 
-            // Short title
+            // === Short title ===
             string shortTitle = ElderhoodHelper.TitleShortFor(elderhood, pawn);
             if (!shortTitle.NullOrEmpty() && shortTitle != title)
             {
@@ -376,7 +499,7 @@ namespace UnifiedBackstories
                 Text.Font = GameFont.Small;
             }
 
-            // Skill gains
+            // === Skill gains ===
             if (elderhood.skillGains != null)
             {
                 float sx = 10f, sy = curY;
@@ -393,7 +516,7 @@ namespace UnifiedBackstories
                 curY = Math.Max(curY, sy + 22f);
             }
 
-            // Description
+            // === Description ===
             string desc = elderhood.FullDescriptionFor(pawn);
             if (!desc.NullOrEmpty())
             {
@@ -404,6 +527,105 @@ namespace UnifiedBackstories
 
             curY += 4f;
             fiCurY.SetValue(__instance, curY);
+        }
+    }
+
+    // ================================================================
+    // ELDERHOOD SELECTION DIALOG
+    // ================================================================
+
+    /// <summary>
+    /// Selection window listing all valid elderhood backstories.
+    /// Opens from the character card Edit/Add button.
+    /// Compatible with Character Editor — uses the same comp data that CE reads.
+    /// </summary>
+    public class Dialog_ChooseElderhood : Window
+    {
+        private Pawn pawn;
+        private CompElderhoodBackstory comp;
+        private Vector2 scrollPos;
+        private List<BackstoryDef> elderhoods;
+        private const float RowHeight = 50f;
+
+        public override Vector2 InitialSize => new Vector2(520f, 580f);
+
+        public Dialog_ChooseElderhood(Pawn pawn, CompElderhoodBackstory comp)
+        {
+            this.pawn = pawn;
+            this.comp = comp;
+            this.elderhoods = ElderhoodHelper.ListElderhoods();
+            this.doCloseButton = true;
+            this.doCloseX = true;
+            this.closeOnClickedOutside = true;
+            this.absorbInputAroundWindow = true;
+            this.forcePause = true;
+        }
+
+        public override void DoWindowContents(Rect inRect)
+        {
+            Text.Font = GameFont.Medium;
+            Widgets.Label(new Rect(0f, 0f, inRect.width, 30f), "UB.ChooseElderhood".Translate());
+
+            Text.Font = GameFont.Small;
+            Rect listRect = new Rect(0f, 35f, inRect.width, inRect.height - 35f - 40f);
+            float contentHeight = elderhoods.Count * RowHeight;
+            Rect viewRect = new Rect(0f, 0f, listRect.width - 20f, contentHeight);
+
+            Widgets.BeginScrollView(listRect, ref scrollPos, viewRect);
+
+            for (int i = 0; i < elderhoods.Count; i++)
+            {
+                BackstoryDef bs = elderhoods[i];
+                Rect row = new Rect(0f, i * RowHeight, viewRect.width, RowHeight - 2f);
+
+                bool isSelected = comp.HasElderhood && comp.ElderhoodBS == bs;
+
+                if (isSelected)
+                    Widgets.DrawHighlightSelected(row);
+
+                if (Widgets.ButtonInvisible(row))
+                {
+                    comp.SetElderhood(bs);
+                    pawn.skills?.Notify_SkillDisablesChanged();
+                    Find.WindowStack.TryRemove(this);
+                }
+
+                // Title
+                Text.Font = GameFont.Small;
+                string title = ElderhoodHelper.TitleFor(bs, pawn);
+                Widgets.Label(new Rect(5f, row.y + 2f, viewRect.width - 10f, 22f), title);
+
+                // Description (1 line truncated)
+                Text.Font = GameFont.Tiny;
+                string desc = bs.FullDescriptionFor(pawn);
+                if (desc.Length > 120)
+                    desc = desc.Substring(0, 117) + "...";
+                Widgets.Label(new Rect(5f, row.y + 22f, viewRect.width - 10f, 20f), desc);
+
+                // Skill tags on the right
+                if (bs.skillGains != null)
+                {
+                    float tagX = viewRect.width - 10f;
+                    Text.Font = GameFont.Tiny;
+                    for (int j = bs.skillGains.Count - 1; j >= 0; j--)
+                    {
+                        SkillGain sg = bs.skillGains[j];
+                        if (sg.skill == null) continue;
+                        string tag = sg.skill.LabelCap + (sg.amount >= 0 ? "+" : "") + sg.amount;
+                        Vector2 tagSize = Text.CalcSize(tag);
+                        tagX -= tagSize.x + 4f;
+                        Rect tagRect = new Rect(tagX, row.y + 1f, tagSize.x + 4f, 18f);
+                        Widgets.DrawHighlight(tagRect);
+                        Widgets.Label(new Rect(tagX + 2f, row.y + 1f, tagSize.x, 18f), tag);
+                    }
+                }
+
+                // Divider
+                if (i < elderhoods.Count - 1)
+                    Widgets.DrawLineHorizontal(5f, row.yMax, viewRect.width - 10f);
+            }
+
+            Widgets.EndScrollView();
         }
     }
 

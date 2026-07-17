@@ -2,3 +2,8 @@
 Source/**/obj/
 Source/**/bin/
 *.bak
+
+# Pix Agent
+.pi/
+.pi-lens/
+_ul
