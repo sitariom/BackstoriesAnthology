@@ -223,10 +223,10 @@ namespace UnifiedBackstories
     [HarmonyPatch(typeof(BackstoryDef), "FullDescriptionFor")]
     public static class BackstoryDef_FullDescriptionFor_Patch
     {
-        public static void Postfix(BackstoryDef __instance, Pawn pawn, ref string __result)
+        public static void Postfix(BackstoryDef __instance, Pawn p, ref string __result)
         {
-            if (string.IsNullOrEmpty(__result) || pawn == null) return;
-            __result = ElderhoodHelper.ProcessGenderTokens(__result, pawn);
+            if (string.IsNullOrEmpty(__result) || p == null) return;
+            __result = ElderhoodHelper.ProcessGenderTokens(__result, p);
         }
     }
 
