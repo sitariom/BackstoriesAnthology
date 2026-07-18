@@ -17,8 +17,10 @@
             <li>ImperialCommon</li>
          </spawnCategories>
           <forcedTraits>
-				<li><def>Industriousness</def><degree>2</degree></li>
-			</forcedTraits>
+             <Industriousness>2</Industriousness>
+             <SpeedOffset>2</SpeedOffset>
+             <Neurotic>2</Neurotic>
+          </forcedTraits>
           <workDisables>
              <li>Violent</li>
              <li>Shooting</li>
@@ -44,8 +46,9 @@
             <li>ImperialCommon</li>
          </spawnCategories>
           <forcedTraits>
-			<SpeedOffset>2</SpeedOffset>
-		</forcedTraits>
+             <SpeedOffset>2</SpeedOffset>
+             <QuickSleeper>0</QuickSleeper>
+          </forcedTraits>
           <workDisables>
              <li>Intellectual</li>
              <li>Artistic</li>
@@ -74,8 +77,11 @@
              <Shooting>6</Shooting>
           </skillGains>
           <forcedTraits>
-			<SpeedOffset>2</SpeedOffset>
-		</forcedTraits>
+             <SpeedOffset>2</SpeedOffset>
+             <Bloodlust>0</Bloodlust>
+             <ShootingAccuracy>1</ShootingAccuracy>
+             <Abrasive>0</Abrasive>
+          </forcedTraits>
           <workDisables>
              <li>Caring</li>
              <li>Intellectual</li>
@@ -105,8 +111,12 @@
              <Melee>6</Melee>
           </skillGains>
           <forcedTraits>
-			<Tough>0</Tough>
-		</forcedTraits>
+             <Tough>0</Tough>
+             <SpeedOffset>2</SpeedOffset>
+             <Bloodlust>0</Bloodlust>
+             <Brawler>0</Brawler>
+             <Abrasive>0</Abrasive>
+          </forcedTraits>
           <workDisables>
              <li>Caring</li>
              <li>Intellectual</li>
@@ -136,8 +146,9 @@
              <Construction>6</Construction>
           </skillGains>
           <forcedTraits>
-				<li><def>Industriousness</def><degree>2</degree></li>
-			</forcedTraits>
+             <Industriousness>2</Industriousness>
+             <Neurotic>2</Neurotic>
+          </forcedTraits>
           <workDisables>
              <li>Violent</li>
              <li>Shooting</li>
@@ -166,8 +177,10 @@
              <Mining>6</Mining>
           </skillGains>
           <forcedTraits>
-				<li><def>Industriousness</def><degree>2</degree></li>
-			</forcedTraits>
+             <Industriousness>2</Industriousness>
+             <Neurotic>2</Neurotic>
+             <Undergrounder>0</Undergrounder>
+          </forcedTraits>
           <workDisables>
              <li>Social</li>
              <li>Artistic</li>
@@ -197,8 +210,11 @@
              <Cooking>6</Cooking>
           </skillGains>
           <forcedTraits>
-				<li><def>Industriousness</def><degree>2</degree></li>
-			</forcedTraits>
+             <Industriousness>2</Industriousness>
+             <Neurotic>2</Neurotic>
+             <Gourmand>0</Gourmand>
+             <Cannibal>0</Cannibal>
+          </forcedTraits>
           <workDisables>
              <li>Violent</li>
              <li>Shooting</li>
@@ -228,8 +244,9 @@
              <Plants>6</Plants>
           </skillGains>
           <forcedTraits>
-				<li><def>Industriousness</def><degree>2</degree></li>
-			</forcedTraits>
+             <Industriousness>2</Industriousness>
+             <Neurotic>2</Neurotic>
+          </forcedTraits>
           <workDisables>
              <li>Violent</li>
              <li>Shooting</li>
@@ -259,8 +276,9 @@
              <Animals>6</Animals>
           </skillGains>
           <forcedTraits>
-				<li><def>Industriousness</def><degree>2</degree></li>
-			</forcedTraits>
+             <Industriousness>2</Industriousness>
+             <Neurotic>2</Neurotic>
+          </forcedTraits>
           <workDisables>
              <li>Violent</li>
              <li>Shooting</li>
@@ -291,8 +309,10 @@
              <Construction>6</Construction>
           </skillGains>
           <forcedTraits>
-				<li><def>Industriousness</def><degree>2</degree></li>
-			</forcedTraits>
+             <Industriousness>2</Industriousness>
+             <Neurotic>2</Neurotic>
+             <TorturedArtist>0</TorturedArtist>
+          </forcedTraits>
           <workDisables>
              <li>Violent</li>
              <li>Shooting</li>
@@ -322,8 +342,10 @@
              <Artistic>6</Artistic>
           </skillGains>
           <forcedTraits>
-				<li><def>Industriousness</def><degree>2</degree></li>
-			</forcedTraits>
+             <Industriousness>2</Industriousness>
+             <Neurotic>2</Neurotic>
+             <TorturedArtist>0</TorturedArtist>
+          </forcedTraits>
           <workDisables>
              <li>Violent</li>
              <li>Shooting</li>
@@ -354,8 +376,9 @@
              <Medicine>6</Medicine>
           </skillGains>
           <forcedTraits>
-				<li><def>Industriousness</def><degree>2</degree></li>
-			</forcedTraits>
+             <Industriousness>2</Industriousness>
+             <Neurotic>2</Neurotic>
+          </forcedTraits>
           <workDisables>
              <li>Violent</li>
              <li>Animals</li>

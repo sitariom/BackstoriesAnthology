@@ -546,7 +546,9 @@
 
 		</requiredWorkTags>
 		<forcedTraits>
-			<li>Kind</li>
+
+			<Kind>0</Kind>
+
 		</forcedTraits>
 	</BackstoryDef>
 	<BackstoryDef ParentName="ElderhoodBackstory">
@@ -743,7 +745,7 @@
 		<titleFemale>Museum curator</titleFemale>
 		<titleShort>Curator</titleShort>
 		<titleShortFemale>Curator</titleShortFemale>
-		<baseDesc>[PAWN_nameDef] has dedicated {PAWN_gender ? his : her} life to preserving the past. In {PAWN_gender ? his : her} old age, {PAWN_gender ? he : she} knows the sound of the silence of abandoned halls, and can tell the story of any object â€” even if no one is listening.</baseDesc>
+		<baseDesc>[PAWN_nameDef] has dedicated {PAWN_gender ? his : her} life to preserving the past. In {PAWN_gender ? his : her} old age, {PAWN_gender ? he : she} knows the sound of the silence of abandoned halls, and can tell the story of any object ÔÇö even if no one is listening.</baseDesc>
 		<slot>Adulthood</slot>
 		<spawnCategories>
 
@@ -878,7 +880,9 @@
 
 		</requiredWorkTags>
 		<forcedTraits>
+
 			<TorturedArtist>0</TorturedArtist>
+
 		</forcedTraits>
 	</BackstoryDef>
 	<BackstoryDef ParentName="ElderhoodBackstory">
