@@ -31,6 +31,7 @@ namespace UnifiedBackstories
                 && CheckColonySize(def)
                 && CheckBodyParts(pawn, def)
                 && CheckParents(pawn, def)
+                && CheckDevelopmentalStage(pawn, def)
                 && CheckRecords(pawn, def)
                 && CheckRequiredSkills(pawn, def)
                 && CheckTraits(pawn, def)
@@ -221,6 +222,25 @@ namespace UnifiedBackstories
         }
 
         /// <summary>
+        /// Developmental stage: checks if the pawn's developmental stage matches
+        /// the required stage from the backstory. 0=any, 1=child, 2=adult.
+        /// Uses the pawn's age to determine stage (children are under 13).
+        /// </summary>
+        private static bool CheckDevelopmentalStage(Pawn pawn, ZCBackstoryDef def)
+        {
+            if (def.developmentalStage <= 0)
+                return true; // 0 means no restriction
+
+            if (pawn.ageTracker == null)
+                return true;
+
+            bool isChild = pawn.ageTracker.AgeBiologicalYears < 13;
+            int stage = isChild ? 1 : 2;
+
+            return stage == def.developmentalStage;
+        }
+
+        /// <summary>
         /// Records: requiredRecords checks pawn records (e.g. time spent feral).
         /// recordRatios checks ratios between two records.
         /// Handles the ZCB_* records defined in ZCB_Records.xml.
@@ -397,32 +417,68 @@ namespace UnifiedBackstories
         /// Commonality-weighted random selection from a pool of ZCB backstories.
         /// Backstories with higher commonality are more likely to be chosen.
         /// Commonality of 0 excludes the backstory entirely.
+        /// Filters by developmental stage when specified.
         /// </summary>
-        public static ZCBackstoryDef SelectByCommonality(List<ZCBackstoryDef> pool)
+        public static ZCBackstoryDef SelectByCommonality(List<ZCBackstoryDef> pool, int devStage = 0)
         {
             if (pool == null || pool.Count == 0) return null;
-            if (pool.Count == 1) return pool[0];
+
+            // Filter by developmental stage
+            List<ZCBackstoryDef> filtered;
+            if (devStage > 0)
+            {
+                filtered = new List<ZCBackstoryDef>(pool.Count);
+                for (int i = 0; i < pool.Count; i++)
+                {
+                    if (pool[i].developmentalStage <= 0 || pool[i].developmentalStage == devStage)
+                        filtered.Add(pool[i]);
+                }
+            }
+            else
+            {
+                filtered = pool;
+            }
+
+            if (filtered.Count == 0) return null;
+            if (filtered.Count == 1) return filtered[0];
 
             int totalWeight = 0;
-            for (int i = 0; i < pool.Count; i++)
+            for (int i = 0; i < filtered.Count; i++)
             {
-                int weight = pool[i].commonality;
+                int weight = filtered[i].commonality;
                 if (weight > 0) totalWeight += weight;
             }
 
-            if (totalWeight <= 0) return pool.RandomElement();
+            if (totalWeight <= 0) return filtered.RandomElement();
 
             int roll = Rand.RangeInclusive(1, totalWeight);
             int cumulative = 0;
-            for (int i = 0; i < pool.Count; i++)
+            for (int i = 0; i < filtered.Count; i++)
             {
-                int weight = pool[i].commonality;
+                int weight = filtered[i].commonality;
                 if (weight <= 0) continue;
                 cumulative += weight;
-                if (roll <= cumulative) return pool[i];
+                if (roll <= cumulative) return filtered[i];
             }
 
-            return pool[pool.Count - 1];
+            return filtered[filtered.Count - 1];
+        }
+
+        /// <summary>
+        /// Gets all ZCB backstories valid for the given pawn, filtered by
+        /// the validator's standard checks. Used to provide a commonality-weighted
+        /// pool for re-rolls instead of RimWorld's uniform random selection.
+        /// </summary>
+        public static List<ZCBackstoryDef> ValidPoolFor(Pawn pawn)
+        {
+            var all = DefDatabase<BackstoryDef>.AllDefsListForReading;
+            List<ZCBackstoryDef> pool = new List<ZCBackstoryDef>();
+            for (int i = 0; i < all.Count; i++)
+            {
+                if (all[i] is ZCBackstoryDef zcb && IsValidFor(pawn, zcb))
+                    pool.Add(zcb);
+            }
+            return pool;
         }
     }
 
@@ -466,6 +522,9 @@ namespace UnifiedBackstories
             _reentrant = true;
             try
             {
+                // Pre-select a commonality-weighted pool for re-roll efficiency
+                List<ZCBackstoryDef> commonalityPool = null;
+
                 for (int i = 0; i < MaxRetries; i++)
                 {
                     if (ZCBackstoryValidator.IsValidFor(pawn, zcb))
@@ -475,7 +534,22 @@ namespace UnifiedBackstories
                         return;
                     }
 
-                    // Re-roll the childhood backstory
+                    // Try commonality-weighted selection first (respects spawn weights)
+                    if (commonalityPool == null)
+                        commonalityPool = ZCBackstoryValidator.ValidPoolFor(pawn);
+
+                    ZCBackstoryDef commonalityPick = ZCBackstoryValidator.SelectByCommonality(commonalityPool,
+                        pawn.ageTracker != null ? (pawn.ageTracker.AgeBiologicalYears < 13 ? 1 : 2) : 0);
+
+                    if (commonalityPick != null && commonalityPick != zcb)
+                    {
+                        // Manually assign the commonality-picked backstory
+                        pawn.story.Childhood = commonalityPick;
+                        zcb = commonalityPick;
+                        continue; // skip the FillBackstorySlotShuffled call
+                    }
+
+                    // Fallback: re-roll using RimWorld's default random selection
                     PawnBioAndNameGenerator.FillBackstorySlotShuffled(
                         pawn, slot, backstoryCategories, factionType, mustBeCompatibleTo);
 
