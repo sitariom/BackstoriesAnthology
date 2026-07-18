@@ -852,7 +852,7 @@ namespace UnifiedBackstories
             string ver = System.IO.File.GetLastWriteTime(
                 System.Reflection.Assembly.GetExecutingAssembly().Location)
                 .ToString("yyyy-MM-dd HH:mm");
-            Log.Message("[UB] v1.2.9 loaded (build " + ver
+            Log.Message("[UB] v1.3.0 loaded (build " + ver
                 + ") — Elderhood + Gender tokens + Age 60+ + UI edit"
                 + " + Mood rebalance + Need grace period + ZCB validator");
         }

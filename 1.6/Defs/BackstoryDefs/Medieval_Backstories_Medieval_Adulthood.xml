@@ -26,7 +26,8 @@
 	<spawnCategories>
 		<li>Medieval</li>
 	</spawnCategories>
-	 <bodyTypeGlobal>Thin</bodyTypeGlobal>
+	 <bodyTypeMale>Thin</bodyTypeMale>
+		<bodyTypeFemale>Thin</bodyTypeFemale>
 		</BackstoryDef>
 
 <!-- Knight -->
@@ -223,7 +224,8 @@
 	   	<li>PlantWork</li>
 	    <li>Animals</li>
     </workDisables>
-	<bodyTypeGlobal>Male</bodyTypeGlobal>
+	<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Male</bodyTypeFemale>
 		 </BackstoryDef>
 
 <BackstoryDef>
@@ -255,7 +257,8 @@
 	   	<li>PlantWork</li>
 	    <li>Animals</li>
     </workDisables>
-	<bodyTypeGlobal>Female</bodyTypeGlobal>
+	<bodyTypeMale>Female</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		 </BackstoryDef>
 
 <BackstoryDef>
@@ -283,7 +286,8 @@
 			<li>PlantWork</li>
 		 <li>Caring</li>
     </workDisables>
-	<bodyTypeGlobal>Male</bodyTypeGlobal>
+	<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Male</bodyTypeFemale>
 		 </BackstoryDef>
 
 <BackstoryDef>
@@ -311,7 +315,8 @@
 		<li>PlantWork</li>
 		 <li>Caring</li>
     </workDisables>
-	<bodyTypeGlobal>Female</bodyTypeGlobal>
+	<bodyTypeMale>Female</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		 </BackstoryDef>
 
 <BackstoryDef>
@@ -441,7 +446,8 @@
 	<requiredWorkTags>
         <li>Social</li>
     </requiredWorkTags>
-	<bodyTypeGlobal>Female</bodyTypeGlobal>
+	<bodyTypeMale>Female</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		 </BackstoryDef>
 
 <BackstoryDef>
@@ -501,7 +507,8 @@
 	<requiredWorkTags>
         <li>Social</li>
     </requiredWorkTags>
-	 <bodyTypeGlobal>Fat</bodyTypeGlobal>
+	 <bodyTypeMale>Fat</bodyTypeMale>
+		<bodyTypeFemale>Fat</bodyTypeFemale>
 	 	 </BackstoryDef>
 
 <BackstoryDef>
@@ -611,7 +618,8 @@
 			<li>MedievalServant</li>
 			<li>MedievalLow</li>
 	</spawnCategories>
-		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<bodyTypeMale>Female</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		</BackstoryDef>
 
 <BackstoryDef>
@@ -663,7 +671,8 @@
 			<li>MedievalServant</li>
 			<li>MedievalLow</li>
 	</spawnCategories>
-		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<bodyTypeMale>Female</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		</BackstoryDef>
 
 <BackstoryDef>
@@ -687,7 +696,8 @@
 			<li>MedievalServant</li>
 			<li>MedievalLow</li>
 	</spawnCategories>
-		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<bodyTypeMale>Female</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		</BackstoryDef>
 
 <BackstoryDef>
@@ -873,7 +883,8 @@
 		<li>Medieval</li>
 			<li>MedievalCraftsman</li>
 	</spawnCategories>
-			<bodyTypeGlobal>Female</bodyTypeGlobal>
+			<bodyTypeMale>Female</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		</BackstoryDef>
 
 <BackstoryDef>
@@ -1370,7 +1381,8 @@
 			<li>MedievalTownsfolk</li>
 			<li>MedievalLow</li>
 	</spawnCategories>
-	<bodyTypeGlobal>Male</bodyTypeGlobal>
+	<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Male</bodyTypeFemale>
 		</BackstoryDef>
 
 <BackstoryDef>
@@ -1391,7 +1403,8 @@
 			<li>MedievalTownsfolk</li>
 			<li>MedievalLow</li>
 	</spawnCategories>
-	<bodyTypeGlobal>Female</bodyTypeGlobal>
+	<bodyTypeMale>Female</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		</BackstoryDef>
 
 <BackstoryDef>
@@ -1422,7 +1435,8 @@
             <degree>2</degree>
         </li>
     </forcedTraits>
-	<bodyTypeGlobal>Female</bodyTypeGlobal>
+	<bodyTypeMale>Female</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		</BackstoryDef>
 
 <BackstoryDef>
@@ -1545,7 +1559,8 @@
 			<li>MedievalTownsfolk</li>
 			<li>MedievalLow</li>
 	</spawnCategories>
-	<bodyTypeGlobal>Female</bodyTypeGlobal>
+	<bodyTypeMale>Female</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		</BackstoryDef>
 
 <!-- Criminal -->
@@ -1629,7 +1644,8 @@
 	  <workDisables>
         <li>Violent</li>
     </workDisables>
-	<bodyTypeGlobal>Female</bodyTypeGlobal>
+	<bodyTypeMale>Female</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
 		 </BackstoryDef>
 
 <BackstoryDef>
@@ -1656,7 +1672,8 @@
         <li>Violent</li>
 		 <li>Social</li>
     </workDisables>
-	<bodyTypeGlobal>Male</bodyTypeGlobal>
+	<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Male</bodyTypeFemale>
 		 </BackstoryDef>
 
 <!-- Scholar -->
@@ -1683,7 +1700,8 @@
 		<li>Medieval</li>
 			<li>MedievalScholar</li>
 	</spawnCategories>
-	<bodyTypeGlobal>Thin</bodyTypeGlobal>
+	<bodyTypeMale>Thin</bodyTypeMale>
+		<bodyTypeFemale>Thin</bodyTypeFemale>
 		 </BackstoryDef>
 
 <!-- Misc -->
@@ -1708,7 +1726,8 @@
 			<li>MedievalMisc</li>
 			<li>MedievalLow</li>
 	</spawnCategories>
-	<bodyTypeGlobal>Thin</bodyTypeGlobal>
+	<bodyTypeMale>Thin</bodyTypeMale>
+		<bodyTypeFemale>Thin</bodyTypeFemale>
 		</BackstoryDef>
 
 <BackstoryDef>
@@ -1735,7 +1754,8 @@
 			<li>MedievalMisc</li>
 			<li>MedievalLow</li>
 	</spawnCategories>
-	<bodyTypeGlobal>Thin</bodyTypeGlobal>
+	<bodyTypeMale>Thin</bodyTypeMale>
+		<bodyTypeFemale>Thin</bodyTypeFemale>
 		</BackstoryDef>
 
 <BackstoryDef>
