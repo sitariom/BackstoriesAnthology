@@ -88,11 +88,7 @@
 			<li>Artistic</li>
 
 		</requiredWorkTags>
-		<possessions>
-
-			<li><thingDef>Novel</thingDef><count>1~1</count></li>
-
-		</possessions>
+		
 	</BackstoryDef>
 	<BackstoryDef ParentName="ElderhoodBackstory">
 		<defName>UB_Elderhood_TiredPhilosopher</defName>
@@ -118,11 +114,7 @@
 			<li>Social</li>
 
 		</requiredWorkTags>
-		<possessions>
-
-			<li><thingDef>TextBook</thingDef><count>1</count></li>
-
-		</possessions>
+		
 	</BackstoryDef>
 	<BackstoryDef ParentName="ElderhoodBackstory">
 		<defName>UB_Elderhood_RetiredSoldier</defName>
@@ -239,11 +231,7 @@
 			<li>Intellectual</li>
 
 		</requiredWorkTags>
-		<possessions>
-
-			<li><thingDef>Schematic</thingDef><count>1</count></li>
-
-		</possessions>
+		
 	</BackstoryDef>
 	<BackstoryDef ParentName="ElderhoodBackstory">
 		<defName>UB_Elderhood_BoringProfessor</defName>
@@ -315,11 +303,7 @@
 			<li>Crafting</li>
 
 		</requiredWorkTags>
-		<possessions>
-
-			<li><thingDef>ComponentIndustrial</thingDef><count>4</count></li>
-
-		</possessions>
+		
 	</BackstoryDef>
 	<BackstoryDef ParentName="ElderhoodBackstory">
 		<defName>UB_Elderhood_Homeless</defName>
@@ -365,11 +349,7 @@
 			<Intellectual>-3</Intellectual>
 			<Social>-3</Social>
 		</skillGains>
-		<possessions>
-
-			<li><thingDef>Beer</thingDef><count>25</count></li>
-
-		</possessions>
+		
 	</BackstoryDef>
 	<BackstoryDef ParentName="ElderhoodBackstory">
 		<defName>UB_Elderhood_AbandonedOldMan</defName>

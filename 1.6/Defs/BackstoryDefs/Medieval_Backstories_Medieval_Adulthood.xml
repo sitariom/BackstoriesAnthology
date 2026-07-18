@@ -48,9 +48,7 @@
 		 <li>MedievalKnight</li>
 	</spawnCategories>
 		 <forcedTraits>
-       <li>
-            <defName>Kind</defName>
-        </li>
+       <li>Kind</li>
     </forcedTraits>
 		<requiredWorkTags>
         <li>Violent</li>
@@ -131,14 +129,10 @@
 		 <li>MedievalKnight</li>
 	</spawnCategories>
 		 <forcedTraits>
-      <li>
-            <defName>Greedy</defName>
-      </li>
+      <li>Greedy</li>
     </forcedTraits>
 	 <disallowedTraits>
-        <li>
-            <defName>Kind</defName>
-        </li>
+        <li>Kind</li>
     </disallowedTraits>
 		<requiredWorkTags>
         <li>Violent</li>
@@ -164,9 +158,7 @@
 		 <li>MedievalMerchant</li>
 	</spawnCategories>
 	  <disallowedTraits>
-        <li>
-            <defName>Abrasive</defName>
-        </li>
+        <li>Abrasive</li>
     </disallowedTraits>
 		<requiredWorkTags>
         <li>Social</li>
@@ -189,9 +181,7 @@
 		 <li>MedievalMerchant</li>
 	</spawnCategories>
 	  <disallowedTraits>
-        <li>
-            <defName>Abrasive</defName>
-        </li>
+        <li>Abrasive</li>
     </disallowedTraits>
 		<requiredWorkTags>
         <li>Social</li>
@@ -219,14 +209,10 @@
 		<li>Rare</li>
 	</spawnCategories>
 	<forcedTraits>
-       <li>
-            <defName>Kind</defName>
-        </li>
+       <li>Kind</li>
     </forcedTraits>
 	  <disallowedTraits>
-        <li>
-            <defName>Abrasive</defName>
-        </li>
+        <li>Abrasive</li>
     </disallowedTraits>
 		<requiredWorkTags>
         <li>Social</li>
@@ -255,14 +241,10 @@
 		<li>Rare</li>
 	</spawnCategories>
 	<forcedTraits>
-       <li>
-            <defName>Kind</defName>
-        </li>
+       <li>Kind</li>
     </forcedTraits>
 	  <disallowedTraits>
-        <li>
-            <defName>Abrasive</defName>
-        </li>
+        <li>Abrasive</li>
     </disallowedTraits>
 		<requiredWorkTags>
         <li>Social</li>
@@ -292,9 +274,7 @@
 		<li>Rare</li>
 	</spawnCategories>
 	<forcedTraits>
-       <li>
-            <defName>Psychopath</defName>
-        </li>
+       <li>Psychopath</li>
     </forcedTraits>
 		<workDisables>
        <li>ManualDumb</li>
@@ -322,9 +302,7 @@
 		<li>Rare</li>
 	</spawnCategories>
 	<forcedTraits>
-       <li>
-            <defName>Psychopath</defName>
-        </li>
+       <li>Psychopath</li>
     </forcedTraits>
 		<workDisables>
         <li>ManualDumb</li>
@@ -379,18 +357,14 @@
 		<li>Rare</li>
 	</spawnCategories>
 	<forcedTraits>
-       <li>
-            <defName>Kind</defName>
-        </li>
+       <li>Kind</li>
 		<li>
             <defName>Nerves</defName>
             <degree>1</degree>
         </li>
     </forcedTraits>
 	  <disallowedTraits>
-        <li>
-            <defName>Abrasive</defName>
-        </li>
+        <li>Abrasive</li>
     </disallowedTraits>
 		<requiredWorkTags>
         <li>Social</li>
@@ -486,9 +460,7 @@
 		<li>Rare</li>
 	</spawnCategories>
 	<forcedTraits>
-       <li>
-            <defName>Kind</defName>
-        </li>
+       <li>Kind</li>
     </forcedTraits>
 		<workDisables>
        <li>ManualDumb</li>
@@ -518,9 +490,7 @@
 		<li>Rare</li>
 	</spawnCategories>
 	<forcedTraits>
-       <li>
-            <defName>Greedy</defName>
-        </li>
+       <li>Greedy</li>
     </forcedTraits>
 		<workDisables>
        <li>ManualDumb</li>
@@ -871,9 +841,7 @@
 	<Cooking>-2</Cooking>
 </skillGains>
 	<forcedTraits>
-	<li>
-	 <defName>Kind</defName>
-	   </li>
+	<li>Kind</li>
 	</forcedTraits>
 	<requiredWorkTags>
 		<li>ManualDumb</li>
@@ -1105,9 +1073,7 @@
        <li>Intellectual</li>
     </workDisables>
 	 <forcedTraits>
-       <li>
-            <defName>Kind</defName>
-        </li>
+       <li>Kind</li>
     </forcedTraits>
 	<spawnCategories>
 		<li>Medieval</li>
@@ -1243,9 +1209,7 @@
 			<li>MedievalArtist</li>
 	</spawnCategories>
 	    <disallowedTraits>
-        <li>
-            <defName>AnnoyingVoice</defName>
-        </li>
+        <li>AnnoyingVoice</li>
     </disallowedTraits>
 		<bodyTypeMale>Male</bodyTypeMale>
 	<bodyTypeFemale>Female</bodyTypeFemale>
@@ -1333,9 +1297,7 @@
 		<li>Social</li>
     </requiredWorkTags>
 		 <forcedTraits>
-        <li>
-            <defName>Nimble</defName>
-        </li>
+        <li>Nimble</li>
     </forcedTraits>
 	<spawnCategories>
 		<li>Medieval</li>
@@ -1549,12 +1511,8 @@
 		<li>Mining</li>
     </requiredWorkTags>
 	   <forcedTraits>
-        <li>
-            <defName>NightOwl</defName>
-        </li>
-		  <li>
-            <defName>Kind</defName>
-        </li>
+        <li>NightOwl</li>
+		  <li>Kind</li>
     </forcedTraits>
 	<spawnCategories>
 		<li>Medieval</li>
@@ -1611,9 +1569,7 @@
 			<li>MedievalLow</li>
 	</spawnCategories>
 	   <forcedTraits>
-        <li>
-            <defName>NightOwl</defName>
-        </li>
+        <li>NightOwl</li>
     </forcedTraits>
 	<bodyTypeMale>Male</bodyTypeMale>
 	<bodyTypeFemale>Female</bodyTypeFemale>
@@ -1637,9 +1593,7 @@
 			<li>MedievalLow</li>
 	</spawnCategories>
 	   <forcedTraits>
-        <li>
-            <defName>Bloodlust</defName>
-        </li>
+        <li>Bloodlust</li>
     </forcedTraits>
 	<bodyTypeMale>Male</bodyTypeMale>
 	<bodyTypeFemale>Female</bodyTypeFemale>
@@ -1669,12 +1623,8 @@
             <defName>Immunity</defName>
             <degree>1</degree>
         </li>
-		  <li>
-            <defName>Ascetic</defName>
-        </li>
-		  <li>
-            <defName>Kind</defName>
-        </li>
+		  <li>Ascetic</li>
+		  <li>Kind</li>
     </forcedTraits>
 	  <workDisables>
         <li>Violent</li>
@@ -1700,9 +1650,7 @@
 			<li>MedievalClergy</li>
 	</spawnCategories>
 	   <forcedTraits>
-		  <li>
-            <defName>Ascetic</defName>
-        </li>
+		  <li>Ascetic</li>
     </forcedTraits>
 	<workDisables>
         <li>Violent</li>

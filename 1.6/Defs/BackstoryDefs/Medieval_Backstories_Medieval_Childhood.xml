@@ -24,12 +24,8 @@
 		<li>Medieval</li>
 	</spawnCategories>
 	 <disallowedTraits>
-        <li>
-            <defName>Bloodlust</defName>
-        </li>
-		<li>
-            <defName>Psychopath</defName>
-        </li>
+        <li>Bloodlust</li>
+		<li>Psychopath</li>
     </disallowedTraits>
 	</BackstoryDef>
 
@@ -78,9 +74,7 @@
 		 <li>Uncommon</li>
 	</spawnCategories>
 	 <disallowedTraits>
-        <li>
-            <defName>Kind</defName>
-        </li>
+        <li>Kind</li>
     </disallowedTraits>
 		 </BackstoryDef>
 
@@ -99,9 +93,7 @@
         <li>Violent</li>
     </requiredWorkTags>
 		 <forcedTraits>
-       <li>
-            <defName>Kind</defName>
-        </li>
+       <li>Kind</li>
     </forcedTraits>
 	<spawnCategories>
 		<li>Medieval</li>
@@ -153,9 +145,7 @@
 		<li>Social</li>
     </requiredWorkTags>
 	<forcedTraits>
-       <li>
-            <defName>Greedy</defName>
-        </li>
+       <li>Greedy</li>
     </forcedTraits>
 	<spawnCategories>
 		<li>Medieval</li>
@@ -350,9 +340,7 @@
 		<li>Social</li>
     </requiredWorkTags>
 	<forcedTraits>
-       <li>
-            <defName>Greedy</defName>
-        </li>
+       <li>Greedy</li>
     </forcedTraits>
 	<workDisables>
        <li>ManualDumb</li>
@@ -549,9 +537,7 @@
 		<li>Artistic</li>
     </requiredWorkTags>
 	 <forcedTraits>
-        <li>
-            <defName>Nimble</defName>
-        </li>
+        <li>Nimble</li>
     </forcedTraits>
 	<spawnCategories>
 		<li>Medieval</li>
@@ -574,9 +560,7 @@
 		<li>Artistic</li>
     </requiredWorkTags>
    <disallowedTraits>
-        <li>
-            <defName>AnnoyingVoice</defName>
-        </li>
+        <li>AnnoyingVoice</li>
     </disallowedTraits>
 	<spawnCategories>
 		<li>Medieval</li>
@@ -667,9 +651,7 @@
 		<li>ManualDumb</li>
     </requiredWorkTags>
 	<forcedTraits>
-       <li>
-            <defName>Kind</defName>
-        </li>
+       <li>Kind</li>
     </forcedTraits>
 	<spawnCategories>
 		<li>Medieval</li>
@@ -729,12 +711,8 @@
 	<Social>-4</Social>
 </skillGains>
 	<forcedTraits>
-        <li>
-            <defName>Nimble</defName>
-        </li>
-		<li>
-		<defName>Abrasive</defName>
-		</li>
+        <li>Nimble</li>
+		<li>Abrasive</li>
     </forcedTraits>
 	<workDisables>
        <li>Intellectual</li>
@@ -775,9 +753,7 @@
 	<Melee>3</Melee>
 </skillGains>
 	   <forcedTraits>
-        <li>
-            <defName>Tough</defName>
-        </li>
+        <li>Tough</li>
     </forcedTraits>
 		<requiredWorkTags>
 		<li>Violent</li>
@@ -852,9 +828,7 @@
 		<li>Intellectual</li>
     </requiredWorkTags>
 		 <forcedTraits>
-       <li>
-            <defName>FastLearner</defName>
-        </li>
+       <li>FastLearner</li>
     </forcedTraits>
 	<spawnCategories>
 		<li>Medieval</li>
@@ -951,9 +925,7 @@
 	<Melee>3</Melee>
 </skillGains>
 	 <forcedTraits>
-       <li>
-            <defName>Tough</defName>
-        </li>
+       <li>Tough</li>
     </forcedTraits>
 	<spawnCategories>
 		<li>Medieval</li>
