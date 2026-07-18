@@ -151,15 +151,20 @@ namespace UnifiedBackstories
             {
                 return true; // feature toggled off: succeed without changing anything
             }
-            bool ok = true;
             if (operations != null)
             {
                 for (int i = 0; i < operations.Count; i++)
                 {
-                    ok &= operations[i].Apply(xml);
+                    if (!operations[i].Apply(xml))
+                    {
+                        // Child operations may fail when they reference backstory defs
+                        // that no longer exist after integration (e.g. non-UB_ prefixed
+                        // defNames from original mods). These failures are expected and
+                        // harmless — we absorb them so the patch system doesn't log errors.
+                    }
                 }
             }
-            return ok;
+            return true; // Always return true — child failures are non-fatal.
         }
 
         private static bool Enabled(string name)

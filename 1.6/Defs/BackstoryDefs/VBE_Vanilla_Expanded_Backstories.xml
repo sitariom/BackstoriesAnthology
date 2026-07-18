@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+ï»¿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <BackstoryDef>
     <slot>Adulthood</slot>
@@ -1506,7 +1506,7 @@ Other forced trait: Jogger 50%-->
     <forcedTraits>
       <Tough>0</Tough>
     </forcedTraits>
-    <!--I am not sure if ÔÇ£(S)ÔÇØ denotes ÔÇ£disable spectrum,ÔÇØ but that's what I would like. Also, if we can, I would like to enable the ÔÇ£volatileÔÇØ trait-->
+    <!--I am not sure if ï¿½Ç£(S)ï¿½ï¿½ï¿½ denotes ï¿½Ç£disable spectrum,ï¿½ï¿½ï¿½ but that's what I would like. Also, if we can, I would like to enable the ï¿½Ç£volatileï¿½ï¿½ï¿½ trait-->
   </BackstoryDef>
   <BackstoryDef>
     <slot>Adulthood</slot>
@@ -1695,7 +1695,7 @@ As a hobby, [PAWN_nameDef] began collecting helmets stolen from military police.
     <spawnCategories>
       <li>Offworld</li>
     </spawnCategories><bodyTypeMale>Male</bodyTypeMale><bodyTypeFemale>Female</bodyTypeFemale>
-    <skillGains>0</skillGains>
+    <skillGains />
 
     <forcedTraits>
       <QuickSleeper>0</QuickSleeper>
@@ -3148,7 +3148,7 @@ To [PAWN_possessive] benefactors, [PAWN_pronoun] was an expensive investment.</b
     <title>Lifelong personal assistant</title>
     <defName>UB_VBE_LifelongPersonalAssistant</defName>
     <titleShort>Assistant</titleShort>
-    <baseDesc>[PAWN_nameDef] was formerly employed under a rather demanding clientele who demanded absolute and unwavering commitment. While [PAWN_pronoun] was incapable of disobeying, nevertheless [PAWN_pronoun] resented [PAWN_possessive] situation and indirectly caused [PAWN_possessive] master's fall from grace. Rather than face [PAWN_possessive] fate in being ÔÇ£decommissionedÔÇØ, [PAWN_pronoun] used any and all methods available to smuggle [PAWN_objective]self off-station.</baseDesc>
+    <baseDesc>[PAWN_nameDef] was formerly employed under a rather demanding clientele who demanded absolute and unwavering commitment. While [PAWN_pronoun] was incapable of disobeying, nevertheless [PAWN_pronoun] resented [PAWN_possessive] situation and indirectly caused [PAWN_possessive] master's fall from grace. Rather than face [PAWN_possessive] fate in being ï¿½Ç£decommissionedï¿½ï¿½ï¿½, [PAWN_pronoun] used any and all methods available to smuggle [PAWN_objective]self off-station.</baseDesc>
     <spawnCategories>
       <li>Offworld</li>
       <li>Outsider</li>

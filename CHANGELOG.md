@@ -1,5 +1,18 @@
 # Changelog — Backstories Anthology
 
+## [1.5.1] — 2026-07-18
+
+### Fixed (from RimWorld player.log analysis)
+- **CRITICAL**: XML format errors `Raw text found inside a list element` — 3 occurrences of
+  `<forcedTraits>0</forcedTraits>`, `<disallowedTraits>0</disallowedTraits>`, and
+  `<skillGains>0</skillGains>` with raw "0" text instead of empty element or proper list items.
+  Fixed in BTC_BTC_Adult.xml and VBE_Vanilla_Expanded_Backstories.xml.
+- **PatchOperation_IfSetting**: Changed `ApplyWorker` to return `true` even when child
+  operations fail. Previously, 4 patch files (Cybranian, Seals, Tribal, VBE) logged
+  "Patch operation failed" because their XPath referenced old non-UB_ defNames that
+  no longer exist after integration. Child operation failures are now silently absorbed.
+- Trailing whitespace in baseDesc/description fields trimmed across all XML files.
+
 ## [1.5.0] — 2026-07-18
 
 ### Fixed
