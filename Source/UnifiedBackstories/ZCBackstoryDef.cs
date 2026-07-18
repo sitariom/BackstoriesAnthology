@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Xml;
 using HarmonyLib;
@@ -13,36 +14,41 @@ namespace UnifiedBackstories
     /// Supports additional XML fields: commonality, minTechLevel, maxTechLevel,
     /// colonySize, bodyPartsReplaced, bodyPartsMissing, father, mother,
     /// requiredRecords, recordRatios, requiredSkills, requiredTraits,
-    /// requiredPassions, disallowedTraits, disallowedPassions, passionGains,
+    /// requiredPassions, disallowedPassions, passionGains,
     /// disablingWorkTags, and developmentalStage.
     ///
-    /// These 24+ fields are now ENFORCED by ZCBackstoryValidator during pawn
-    /// generation. See ZCBackstoryValidator.cs for the validation logic.
+    /// All fields are enforced by ZCBackstoryValidator during pawn generation.
+    /// Matches the original ZCB field semantics (float commonality, IntRange for
+    /// colonySize/bodyParts, FamilyStatusFlags for parents, additive passion gains,
+    /// child aging rate scaling for records/skills).
     ///
-    /// skillGains must use standard RimWorld format (List of li/skill/amount).
-    /// requiredTraits/disallowedTraits use trait defName strings, not TraitDef refs.
+    /// XML parsing: standard RimWire types (IntRange, TechLevel, FamilyStatusFlags)
+    /// are parsed natively. Complex lists use LoadDataFromXmlCustom.
+    ///
+    /// skillGains use standard RimWorld format (List of li/skill/amount).
+    /// requiredTraits/disallowedTraits use DIRECT format: &lt;TraitDefName&gt;degree&lt;/TraitDefName&gt;
+    /// passionGains use DIRECT format: &lt;SkillDefName&gt;degree&lt;/SkillDefName&gt;
     /// </summary>
     public class ZCBackstoryDef : BackstoryDef
     {
-        public int commonality = 1;
-        public string minTechLevel;
-        public string maxTechLevel;
-        public string colonySize;       // range format: "1~99"
+        public float commonality = 1f;
+        public TechLevel minTechLevel;
+        public TechLevel maxTechLevel;
+        public IntRange colonySize = new IntRange(0, 9999);
         public int developmentalStage;
-
-        public string bodyPartsReplaced; // range format: "1~999"
-        public string bodyPartsMissing;  // range format: "1~999"
-        public string father;            // "Dead", "Present", "Absent, Dead"
-        public string mother;            // "Dead", "Present", "Absent, Dead"
+        public IntRange bodyPartsMissing = new IntRange(0, 999);
+        public IntRange bodyPartsReplaced = new IntRange(0, 999);
+        public FamilyStatusFlags father = FamilyStatusFlags.Any;
+        public FamilyStatusFlags mother = FamilyStatusFlags.Any;
 
         public List<ZCBRecordReq> requiredRecords;
         public List<ZCBRecordRatio> recordRatios;
         public List<ZCBSkillReq> requiredSkills;
-        public List<string> requiredTraits;       // trait names (pawn must have)
-        public List<string> requiredPassions;     // skill names (pawn must have passion)
-        public new List<string> disallowedTraits;  // trait names (pawn must NOT have)
-        public List<ZCBPassionGain> passionGains;
-        public List<string> disallowedPassions;
+        public List<BackstoryTrait> requiredTraits;       // trait def+degree (pawn must have)
+        // NOTE: disallowedTraits is inherited from BackstoryDef (List<BackstoryTrait>)
+        public List<string> requiredPassions;              // skill defNames (pawn must have passion)
+        public List<string> disallowedPassions;            // skill defNames (pawn must NOT have passion)
+        public List<ZCBPassionGain> passionGains;          // ADDITIVE passion changes (matched to original ZCB)
         public List<string> disablingWorkTags;
     }
 
@@ -73,6 +79,19 @@ namespace UnifiedBackstories
     {
         public string skill;
         public int level;
+    }
+
+    /// <summary>
+    /// Matches the original ZCB FamilyStatusFlags for parent requirements.
+    /// [Flags] enum for bitwise combination.
+    /// </summary>
+    [Flags]
+    public enum FamilyStatusFlags
+    {
+        Any = 1,
+        Present = 2,
+        Absent = 4,
+        Dead = 8
     }
 
     // ================================================================

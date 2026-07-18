@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 
@@ -124,7 +124,10 @@
 				<minValue>2</minValue>
 			</li>
 		</requiredRecords>
-		<requiredTraits><li>Psychopath</li></requiredTraits>
+		<requiredTraits>
+			<Psychopath>0</Psychopath>
+		
+		</requiredTraits>
 		<skillGains><Medicine>4</Medicine><Intellectual>3</Intellectual></skillGains>
 		<workDisables>
 			<li>Social</li>
@@ -187,7 +190,7 @@
 			<BodyPurist>0</BodyPurist>
 		</forcedTraits>
 		<disallowedTraits>
-			<li>Transhumanist</li>
+			<Transhumanist>0</Transhumanist>
 		</disallowedTraits>
 		<skillGains><Medicine>-3</Medicine><Plants>3</Plants><Animals>1</Animals></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
@@ -210,7 +213,7 @@
 			<Transhumanist>0</Transhumanist>
 		</forcedTraits>
 		<disallowedTraits>
-			<li>BodyPurist</li>
+			<BodyPurist>0</BodyPurist>
 		</disallowedTraits>
 		<skillGains><Medicine>4</Medicine><Intellectual>2</Intellectual><Plants>-1</Plants></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
@@ -238,7 +241,7 @@
 			<Psychopath>0</Psychopath>
 		</forcedTraits>
 		<disallowedTraits>
-			<li>BodyPurist</li>
+			<BodyPurist>0</BodyPurist>
 		</disallowedTraits>
 		<skillGains><Medicine>4</Medicine><Cooking>2</Cooking><Intellectual>1</Intellectual><Social>-2</Social></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
@@ -256,12 +259,15 @@
 		</spawnCategories>
 		<commonality>3</commonality>
 		<bodyPartsReplaced>1~999</bodyPartsReplaced>
-		<requiredTraits><li>Wimp</li></requiredTraits>
+		<requiredTraits>
+			<Wimp>0</Wimp>
+		
+		</requiredTraits>
 		<forcedTraits>
 			<Transhumanist>0</Transhumanist>
 		</forcedTraits>
 		<disallowedTraits>
-			<li>BodyPurist</li>
+			<BodyPurist>0</BodyPurist>
 		</disallowedTraits>
 		<skillGains>
 			<Medicine>3</Medicine>
@@ -285,7 +291,7 @@
 			<Transhumanist>0</Transhumanist>
 		</forcedTraits>
 		<disallowedTraits>
-			<li>BodyPurist</li>
+			<BodyPurist>0</BodyPurist>
 		</disallowedTraits>
 		<skillGains>
 			<Medicine>5</Medicine>

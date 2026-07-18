@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 
@@ -15,7 +15,10 @@
 		</spawnCategories>
 		<commonality>4</commonality>
 		<maxTechLevel>Neolithic</maxTechLevel>
-		<requiredTraits><li>Gourmand</li></requiredTraits>
+		<requiredTraits>
+			<Gourmand>0</Gourmand>
+		
+		</requiredTraits>
 		<requiredPassions>
 			<li>Cooking</li>
 		</requiredPassions>
@@ -44,7 +47,10 @@
 		</spawnCategories>
 		<commonality>2</commonality>
 		<maxTechLevel>Neolithic</maxTechLevel>
-		<requiredTraits><li>Ascetic</li></requiredTraits>
+		<requiredTraits>
+			<Ascetic>0</Ascetic>
+		
+		</requiredTraits>
 		<skillGains><Artistic>-5</Artistic><Crafting>3</Crafting><Cooking>-2</Cooking></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
 
@@ -72,7 +78,10 @@
 				<minValue>20</minValue>
 			</li>
 		</requiredRecords>
-		<requiredTraits><li>Brawler</li></requiredTraits>
+		<requiredTraits>
+			<Brawler>0</Brawler>
+		
+		</requiredTraits>
 		<forcedTraits>
 			<Tough>0</Tough>
 		</forcedTraits>
@@ -96,7 +105,10 @@
 		</spawnCategories>
 		<commonality>2</commonality>
 		<maxTechLevel>Neolithic</maxTechLevel>
-		<requiredTraits><li>FastLearner</li></requiredTraits>
+		<requiredTraits>
+			<FastLearner>0</FastLearner>
+		
+		</requiredTraits>
 		<skillGains><Intellectual>4</Intellectual><Crafting>2</Crafting><Social>-2</Social></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
 
@@ -114,7 +126,10 @@
 		</spawnCategories>
 		<commonality>3</commonality>
 		<maxTechLevel>Neolithic</maxTechLevel>
-		<requiredTraits><li>TorturedArtist</li></requiredTraits>
+		<requiredTraits>
+			<TorturedArtist>0</TorturedArtist>
+		
+		</requiredTraits>
 		<requiredPassions>
 			<li>Construction</li>
 		</requiredPassions>
@@ -138,7 +153,10 @@
 			<li>ZCB_NaturalMeditation</li> 			<!-- enables natural meditation focus -->
 		</spawnCategories>
 		<commonality>3</commonality>
-		<requiredTraits><li>Bloodlust</li></requiredTraits>
+		<requiredTraits>
+			<Bloodlust>0</Bloodlust>
+		
+		</requiredTraits>
 		<requiredPassions>
 			<li>Melee</li>
 		</requiredPassions>

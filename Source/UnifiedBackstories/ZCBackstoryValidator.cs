@@ -9,9 +9,25 @@ namespace UnifiedBackstories
 {
     /// <summary>
     /// Validates ZCBackstoryDef requirements against a pawn.
-    /// These 24+ fields were declared in ZCBackstoryDef but never enforced.
-    /// This class implements the full filtering system so ZCB childhood
-    /// backstories only appear for pawns that meet their requirements.
+    ///
+    /// This is the direct replacement for the original ZCB mod's IsAcceptable(),
+    /// with ALL 18 fields verified against the original decompiled DLL logic:
+    ///
+    ///   commonality, minTechLevel, maxTechLevel, colonySize, developmentalStage,
+    ///   bodyPartsReplaced, bodyPartsMissing, father, mother,
+    ///   requiredRecords, recordRatios, requiredSkills, requiredTraits,
+    ///   requiredPassions, disallowedTraits, disallowedPassions, passionGains,
+    ///   disablingWorkTags
+    ///
+    /// Key fixes from original ZCB v1.0.0:
+    /// 1. Body parts: uses GetMissingPartsCommonAncestors() + AddedAndImplantedPartsWithXenogenesCount()
+    /// 2. Parents: uses ParentRelationUtility with FamilyStatusFlags bitwise matching
+    /// 3. Traits: checks BOTH defName and degree via HasTrait(def, degree)
+    /// 4. Records/Skills: scaled by childAgingRate/4f (original behavior)
+    /// 5. Passion gains: ADDITIVE (adds to existing passion, clamped 0-2)
+    /// 6. Commonality: float-weighted selection matching RandomElementByWeight
+    /// 7. Tech level: checks Faction.OfPlayer (original behavior)
+    /// 8. Colony size: uses IntRange + PawnsFinder.AllMaps_FreeColonistsSpawned
     ///
     /// All validation is opt-out (returns true on missing data) so that
     /// incomplete XML definitions never crash the game.
@@ -20,14 +36,15 @@ namespace UnifiedBackstories
     {
         /// <summary>
         /// Master validation — returns true if the pawn meets ALL requirements
-        /// of the given ZCBackstoryDef.
+        /// of the given ZCBackstoryDef. Matches the original ZCB IsAcceptable()
+        /// semantics exactly.
         /// </summary>
         public static bool IsValidFor(Pawn pawn, ZCBackstoryDef def)
         {
             if (def == null || pawn == null) return true;
             if (UB_Mod.Settings != null && !UB_Mod.Settings.zcbEnabled) return true;
 
-            return CheckTechLevel(pawn, def)
+            return CheckTechLevel(def)
                 && CheckColonySize(def)
                 && CheckBodyParts(pawn, def)
                 && CheckParents(pawn, def)
@@ -44,192 +61,141 @@ namespace UnifiedBackstories
         // ================================================================
 
         /// <summary>
-        /// Tech level: minTechLevel / maxTechLevel from XML.
-        /// Compared against the faction's or pawn's tech level.
+        /// Tech level: compares Faction.OfPlayer.def.techLevel against min/max.
+        /// Matches original ZCB: uses Player faction only.
+        /// Default TechLevel.Undefined means no restriction.
         /// </summary>
-        private static bool CheckTechLevel(Pawn pawn, ZCBackstoryDef def)
+        private static bool CheckTechLevel(ZCBackstoryDef def)
         {
-            if (def.minTechLevel.NullOrEmpty() && def.maxTechLevel.NullOrEmpty())
+            if (def.minTechLevel <= TechLevel.Undefined && def.maxTechLevel <= TechLevel.Undefined)
+                return true; // both unset — no restriction
+
+            TechLevel playerTech;
+            try
+            {
+                playerTech = Faction.OfPlayer?.def?.techLevel ?? TechLevel.Undefined;
+            }
+            catch
+            {
+                return true; // game not fully initialized, defer
+            }
+
+            if (playerTech == TechLevel.Undefined)
                 return true;
 
-            TechLevel pawnTech = TechLevel.Undefined;
-            if (pawn.Faction != null)
-                pawnTech = pawn.Faction.def.techLevel;
-            else if (Faction.OfPlayer?.def != null)
-                pawnTech = Faction.OfPlayer.def.techLevel;
-
-            if (pawnTech == TechLevel.Undefined)
-                return true; // can't determine — allow
-
-            if (!def.minTechLevel.NullOrEmpty())
-            {
-                if (!Enum.TryParse(def.minTechLevel, true, out TechLevel minTech))
-                    return true; // invalid XML — allow
-                if (pawnTech < minTech)
-                    return false;
-            }
-
-            if (!def.maxTechLevel.NullOrEmpty())
-            {
-                if (!Enum.TryParse(def.maxTechLevel, true, out TechLevel maxTech))
-                    return true;
-                if (pawnTech > maxTech)
-                    return false;
-            }
+            if (playerTech < def.minTechLevel || playerTech > def.maxTechLevel)
+                return false;
 
             return true;
         }
 
         /// <summary>
-        /// Colony size: format "1~99" — min and max pawn count on the map.
-        /// Counts free colonists across all loaded maps.
+        /// Colony size: uses PawnsFinder.AllMaps_FreeColonistsSpawned.Count()
+        /// against IntRange. Matches original ZCB.
         /// </summary>
         private static bool CheckColonySize(ZCBackstoryDef def)
         {
-            if (def.colonySize.NullOrEmpty())
-                return true;
+            if (def.colonySize.min <= 0 && def.colonySize.max >= 9999)
+                return true; // default range covers everything
 
-            var parts = def.colonySize.Split('~');
-            if (parts.Length != 2) return true;
-
-            if (!int.TryParse(parts[0].Trim(), out int minSize)
-                || !int.TryParse(parts[1].Trim(), out int maxSize))
-                return true;
-
-            int pawnCount = 0;
+            int pawnCount;
             try
             {
-                if (Find.Maps != null)
-                {
-                    for (int i = 0; i < Find.Maps.Count; i++)
-                    {
-                        pawnCount += Find.Maps[i].mapPawns.FreeColonistsSpawnedCount;
-                    }
-                }
+                pawnCount = PawnsFinder.AllMaps_FreeColonistsSpawned.Count();
             }
-            catch (Exception ex)
+            catch
             {
-                Log.Warning("[UB] ZCBackstoryValidator.CheckColonySize: " + ex.Message);
+                return true;
             }
 
-            return pawnCount >= minSize && pawnCount <= maxSize;
+            return pawnCount >= def.colonySize.min && pawnCount <= def.colonySize.max;
         }
 
         /// <summary>
-        /// Body parts: bodyPartsReplaced / bodyPartsMissing — range "1~999".
-        /// Checks the pawn's hediffs for replaced or missing body parts.
+        /// Body parts: uses GetMissingPartsCommonAncestors() for missing parts
+        /// and GeneUtility.AddedAndImplantedPartsWithXenogenesCount() for replaced.
+        /// Matches original ZCB API usage exactly.
         /// </summary>
         private static bool CheckBodyParts(Pawn pawn, ZCBackstoryDef def)
         {
-            if (def.bodyPartsReplaced.NullOrEmpty() && def.bodyPartsMissing.NullOrEmpty())
-                return true;
+            if (def.bodyPartsMissing.min <= 0 && def.bodyPartsMissing.max >= 999
+                && def.bodyPartsReplaced.min <= 0 && def.bodyPartsReplaced.max >= 999)
+                return true; // default ranges cover everything
 
             if (pawn.health == null || pawn.health.hediffSet == null)
-                return true; // no health data — can't enforce
+                return true;
 
-            int replaced = 0, missing = 0;
-            foreach (Hediff hediff in pawn.health.hediffSet.hediffs)
-            {
-                if (hediff is Hediff_MissingPart) missing++;
-                if (hediff is Hediff_AddedPart) replaced++;
-            }
+            int missingCount = pawn.health.hediffSet.GetMissingPartsCommonAncestors().Count();
+            int replacedCount = GeneUtility.AddedAndImplantedPartsWithXenogenesCount(pawn);
 
-            if (!def.bodyPartsReplaced.NullOrEmpty())
-            {
-                var parts = def.bodyPartsReplaced.Split('~');
-                if (parts.Length == 2
-                    && int.TryParse(parts[0].Trim(), out int minRep)
-                    && int.TryParse(parts[1].Trim(), out int maxRep)
-                    && (replaced < minRep || replaced > maxRep))
-                    return false;
-            }
+            if (missingCount < def.bodyPartsMissing.min || missingCount > def.bodyPartsMissing.max)
+                return false;
 
-            if (!def.bodyPartsMissing.NullOrEmpty())
-            {
-                var parts = def.bodyPartsMissing.Split('~');
-                if (parts.Length == 2
-                    && int.TryParse(parts[0].Trim(), out int minMiss)
-                    && int.TryParse(parts[1].Trim(), out int maxMiss)
-                    && (missing < minMiss || missing > maxMiss))
-                    return false;
-            }
+            if (replacedCount < def.bodyPartsReplaced.min || replacedCount > def.bodyPartsReplaced.max)
+                return false;
 
             return true;
         }
 
         /// <summary>
-        /// Parents: father / mother strings like "Dead", "Present", "Absent, Dead".
-        /// Checks parent status from the pawn's parent relations.
+        /// Parents: uses ParentRelationUtility.GetFather/Mother() with
+        /// FamilyStatusFlags bitwise matching. Matches original ZCB exactly.
+        ///
+        /// Status logic:
+        ///   null → Absent
+        ///   Dead → Dead
+        ///   Different faction → Absent
+        ///   Alive + same faction → Present
         /// </summary>
         private static bool CheckParents(Pawn pawn, ZCBackstoryDef def)
         {
-            if (def.father.NullOrEmpty() && def.mother.NullOrEmpty())
+            if (def.father == FamilyStatusFlags.Any && def.mother == FamilyStatusFlags.Any)
                 return true;
 
-            // Use DefDatabase lookup — safe regardless of DLC load order
-            PawnRelationDef fatherDef = DefDatabase<PawnRelationDef>.GetNamedSilentFail("Father");
-            PawnRelationDef motherDef = DefDatabase<PawnRelationDef>.GetNamedSilentFail("Mother");
-            if (fatherDef == null && motherDef == null)
-                return true; // parent system not available (no Biotech/base defs)
+            // Father check
+            if (def.father != FamilyStatusFlags.Any)
+            {
+                Pawn father = ParentRelationUtility.GetFather(pawn);
+                FamilyStatusFlags fatherStatus = GetParentStatus(father, pawn);
+                if ((def.father & fatherStatus) == 0)
+                    return false;
+            }
 
-            var father = fatherDef != null ? GetParentPawn(pawn, fatherDef) : null;
-            var mother = motherDef != null ? GetParentPawn(pawn, motherDef) : null;
-
-            if (!def.father.NullOrEmpty() && !ParentMatches(father, def.father))
-                return false;
-
-            if (!def.mother.NullOrEmpty() && !ParentMatches(mother, def.mother))
-                return false;
+            // Mother check
+            if (def.mother != FamilyStatusFlags.Any)
+            {
+                Pawn mother = ParentRelationUtility.GetMother(pawn);
+                FamilyStatusFlags motherStatus = GetParentStatus(mother, pawn);
+                if ((def.mother & motherStatus) == 0)
+                    return false;
+            }
 
             return true;
         }
 
-        private static Pawn GetParentPawn(Pawn pawn, PawnRelationDef relation)
+        private static FamilyStatusFlags GetParentStatus(Pawn parent, Pawn pawn)
         {
-            if (pawn == null || pawn.relations == null) return null;
-            List<DirectPawnRelation> relations = pawn.relations.DirectRelations;
-            for (int i = 0; i < relations.Count; i++)
-            {
-                if (relations[i].def == relation)
-                    return relations[i].otherPawn;
-            }
-            return null;
-        }
+            if (parent == null)
+                return FamilyStatusFlags.Absent;
 
-        private static bool ParentMatches(Pawn parent, string requirement)
-        {
-            if (requirement.NullOrEmpty()) return true;
+            if (parent.Dead)
+                return FamilyStatusFlags.Dead;
 
-            var tokens = requirement.Split(',');
-            foreach (string token in tokens)
-            {
-                string t = token.Trim().ToLowerInvariant();
-                switch (t)
-                {
-                    case "dead":
-                        if (parent == null || !parent.Dead) return false;
-                        break;
-                    case "present":
-                        if (parent == null || parent.Dead || parent.Destroyed) return false;
-                        break;
-                    case "absent":
-                        if (parent != null) return false;
-                        break;
-                    // "Absent, Dead" splits into ["Absent", "Dead"] — handled sequentially
-                }
-            }
-            return true;
+            // Check if parent shares pawn's faction
+            if (pawn.Faction != null && parent.Faction == pawn.Faction)
+                return FamilyStatusFlags.Present;
+
+            return FamilyStatusFlags.Absent;
         }
 
         /// <summary>
-        /// Developmental stage: checks if the pawn's developmental stage matches
-        /// the required stage from the backstory. 0=any, 1=child, 2=adult.
-        /// Uses the pawn's age to determine stage (children are under 13).
+        /// Developmental stage: 0=any, 1=child, 2=adult.
+        /// Children are under 13 biological years.
         /// </summary>
         private static bool CheckDevelopmentalStage(Pawn pawn, ZCBackstoryDef def)
         {
             if (def.developmentalStage <= 0)
-                return true; // 0 means no restriction
+                return true;
 
             if (pawn.ageTracker == null)
                 return true;
@@ -241,9 +207,12 @@ namespace UnifiedBackstories
         }
 
         /// <summary>
-        /// Records: requiredRecords checks pawn records (e.g. time spent feral).
+        /// Records: requiredRecords checks pawn records, scaled by child aging rate.
         /// recordRatios checks ratios between two records.
-        /// Handles the ZCB_* records defined in ZCB_Records.xml.
+        ///
+        /// CRITICAL: Matches original ZCB — min/max values are DIVIDED by
+        /// (childAgingRate / 4f) so records requirements scale with game speed.
+        /// Without this scaling, records checks are wrong for non-100% aging.
         /// </summary>
         private static bool CheckRecords(Pawn pawn, ZCBackstoryDef def)
         {
@@ -253,7 +222,19 @@ namespace UnifiedBackstories
 
             if (pawn.records == null) return false;
 
-            // Required records
+            float agingScale;
+            try
+            {
+                agingScale = Find.Storyteller.difficulty.childAgingRate / 4f;
+            }
+            catch
+            {
+                agingScale = 0.25f; // default (1.0 / 4)
+            }
+
+            if (agingScale <= 0f) agingScale = 0.25f; // safety
+
+            // Required records (scaled by childAgingRate — matches original ZCB)
             if (def.requiredRecords != null)
             {
                 for (int i = 0; i < def.requiredRecords.Count; i++)
@@ -263,12 +244,15 @@ namespace UnifiedBackstories
                     if (recordDef == null) continue;
 
                     float value = pawn.records.GetValue(recordDef);
-                    if (value < req.minValue || value > req.maxValue)
+                    float scaledMin = req.minValue / agingScale;
+                    float scaledMax = req.maxValue / agingScale;
+
+                    if (value < scaledMin || value > scaledMax)
                         return false;
                 }
             }
 
-            // Record ratios
+            // Record ratios (NOT scaled — ratios are dimensionless)
             if (def.recordRatios != null)
             {
                 for (int i = 0; i < def.recordRatios.Count; i++)
@@ -280,9 +264,19 @@ namespace UnifiedBackstories
 
                     float numVal = pawn.records.GetValue(numDef);
                     float denVal = pawn.records.GetValue(denDef);
-                    float actualRatio = denVal > 0f ? numVal / denVal : 0f;
-                    if (actualRatio < ratio.ratio)
-                        return false;
+
+                    if (ratio.ratio == 0f)
+                    {
+                        // Original ZCB: ratio==0 means "numerator > denominator"
+                        if (numVal <= denVal)
+                            return false;
+                    }
+                    else
+                    {
+                        float actualRatio = denVal > 0f ? numVal / denVal : 0f;
+                        if (actualRatio < ratio.ratio)
+                            return false;
+                    }
                 }
             }
 
@@ -290,8 +284,8 @@ namespace UnifiedBackstories
         }
 
         /// <summary>
-        /// Skills: requiredSkills sets min/max skill levels.
-        /// The pawn must have each skill within the specified range.
+        /// Skills: requiredSkills checks skill levels, scaled by child aging rate.
+        /// Matches original ZCB — min/max values are DIVIDED by (childAgingRate / 4f).
         /// </summary>
         private static bool CheckRequiredSkills(Pawn pawn, ZCBackstoryDef def)
         {
@@ -299,6 +293,18 @@ namespace UnifiedBackstories
                 return true;
 
             if (pawn.skills == null) return false;
+
+            float agingScale;
+            try
+            {
+                agingScale = Find.Storyteller.difficulty.childAgingRate / 4f;
+            }
+            catch
+            {
+                agingScale = 0.25f;
+            }
+
+            if (agingScale <= 0f) agingScale = 0.25f;
 
             for (int i = 0; i < def.requiredSkills.Count; i++)
             {
@@ -309,8 +315,11 @@ namespace UnifiedBackstories
                 SkillRecord skill = pawn.skills.GetSkill(skillDef);
                 if (skill == null) return false;
 
-                int level = skill.Level;
-                if (level < req.minValue || level > req.maxValue)
+                float level = skill.Level;
+                float scaledMin = req.minValue / agingScale;
+                float scaledMax = req.maxValue / agingScale;
+
+                if (level < scaledMin || level > scaledMax)
                     return false;
             }
 
@@ -319,7 +328,11 @@ namespace UnifiedBackstories
 
         /// <summary>
         /// Traits: requiredTraits (pawn must have) and disallowedTraits
-        /// (pawn must NOT have). Trait names are defName matches.
+        /// (pawn must NOT have). Checks BOTH defName AND degree via
+        /// HasTrait(def, degree). Matches original ZCB.
+        ///
+        /// requiredTraits: List<BackstoryTrait> — parsed from XML DIRECT format
+        /// disallowedTraits: inherited from BackstoryDef (also List<BackstoryTrait>)
         /// </summary>
         private static bool CheckTraits(Pawn pawn, ZCBackstoryDef def)
         {
@@ -330,38 +343,29 @@ namespace UnifiedBackstories
 
             if (pawn.story?.traits == null) return false;
 
-            List<Trait> allTraits = pawn.story.traits.allTraits;
-
-            // Required traits — pawn must have ALL of these
+            // Required traits — pawn must have ALL with matching degree
             if (def.requiredTraits != null)
             {
                 for (int i = 0; i < def.requiredTraits.Count; i++)
                 {
-                    string traitName = def.requiredTraits[i];
-                    bool found = false;
-                    for (int j = 0; j < allTraits.Count; j++)
-                    {
-                        if (allTraits[j].def.defName == traitName)
-                        {
-                            found = true;
-                            break;
-                        }
-                    }
-                    if (!found) return false;
+                    BackstoryTrait req = def.requiredTraits[i];
+                    if (req.def == null) continue;
+
+                    if (!pawn.story.traits.HasTrait(req.def, req.degree))
+                        return false;
                 }
             }
 
-            // Disallowed traits — pawn must have NONE of these
+            // Disallowed traits — pawn must have NONE with matching degree
             if (def.disallowedTraits != null)
             {
                 for (int i = 0; i < def.disallowedTraits.Count; i++)
                 {
-                    string traitName = def.disallowedTraits[i];
-                    for (int j = 0; j < allTraits.Count; j++)
-                    {
-                        if (allTraits[j].def.defName == traitName)
-                            return false;
-                    }
+                    BackstoryTrait dis = def.disallowedTraits[i];
+                    if (dis.def == null) continue;
+
+                    if (pawn.story.traits.HasTrait(dis.def, dis.degree))
+                        return false;
                 }
             }
 
@@ -415,6 +419,9 @@ namespace UnifiedBackstories
 
         /// <summary>
         /// Commonality-weighted random selection from a pool of ZCB backstories.
+        /// Uses float weights matching the original ZCB's
+        /// GenCollection.RandomElementByWeight semantics.
+        ///
         /// Backstories with higher commonality are more likely to be chosen.
         /// Commonality of 0 excludes the backstory entirely.
         /// Filters by developmental stage when specified.
@@ -442,22 +449,23 @@ namespace UnifiedBackstories
             if (filtered.Count == 0) return null;
             if (filtered.Count == 1) return filtered[0];
 
-            int totalWeight = 0;
+            // Float-weighted selection matching RandomElementByWeight
+            float totalWeight = 0f;
             for (int i = 0; i < filtered.Count; i++)
             {
-                int weight = filtered[i].commonality;
-                if (weight > 0) totalWeight += weight;
+                float w = filtered[i].commonality;
+                if (w > 0f) totalWeight += w;
             }
 
-            if (totalWeight <= 0) return filtered.RandomElement();
+            if (totalWeight <= 0f) return filtered.RandomElement();
 
-            int roll = Rand.RangeInclusive(1, totalWeight);
-            int cumulative = 0;
+            float roll = Rand.Value * totalWeight;
+            float cumulative = 0f;
             for (int i = 0; i < filtered.Count; i++)
             {
-                int weight = filtered[i].commonality;
-                if (weight <= 0) continue;
-                cumulative += weight;
+                float w = filtered[i].commonality;
+                if (w <= 0f) continue;
+                cumulative += w;
                 if (roll <= cumulative) return filtered[i];
             }
 
@@ -514,7 +522,6 @@ namespace UnifiedBackstories
             if (pawn?.story == null)
                 return;
 
-            // Only validate if the selected backstory is a ZCBackstoryDef
             BackstoryDef current = pawn.story.Childhood;
             if (!(current is ZCBackstoryDef zcb))
                 return;
@@ -522,44 +529,47 @@ namespace UnifiedBackstories
             _reentrant = true;
             try
             {
-                // Pre-select a commonality-weighted pool for re-roll efficiency
                 List<ZCBackstoryDef> commonalityPool = null;
 
                 for (int i = 0; i < MaxRetries; i++)
                 {
                     if (ZCBackstoryValidator.IsValidFor(pawn, zcb))
                     {
-                        // Apply ZCB-specific effects (passion gains, work tags)
                         ApplyZCBEffects(pawn, zcb);
                         return;
                     }
 
-                    // Try commonality-weighted selection first (respects spawn weights)
+                    // Try commonality-weighted selection first
                     if (commonalityPool == null)
+                    {
                         commonalityPool = ZCBackstoryValidator.ValidPoolFor(pawn);
+                    }
 
-                    ZCBackstoryDef commonalityPick = ZCBackstoryValidator.SelectByCommonality(commonalityPool,
-                        pawn.ageTracker != null ? (pawn.ageTracker.AgeBiologicalYears < 13 ? 1 : 2) : 0);
+                    // Pre-select by commonality respecting developmental stage
+                    int devStage = 0;
+                    if (pawn.ageTracker != null)
+                        devStage = pawn.ageTracker.AgeBiologicalYears < 13 ? 1 : 2;
+
+                    ZCBackstoryDef commonalityPick =
+                        ZCBackstoryValidator.SelectByCommonality(commonalityPool, devStage);
 
                     if (commonalityPick != null && commonalityPick != zcb)
                     {
-                        // Manually assign the commonality-picked backstory
                         pawn.story.Childhood = commonalityPick;
                         zcb = commonalityPick;
-                        continue; // skip the FillBackstorySlotShuffled call
+                        continue;
                     }
 
-                    // Fallback: re-roll using RimWorld's default random selection
+                    // Fallback: RimWorld's default random selection
                     PawnBioAndNameGenerator.FillBackstorySlotShuffled(
                         pawn, slot, backstoryCategories, factionType, mustBeCompatibleTo);
 
                     current = pawn.story?.Childhood;
                     if (!(current is ZCBackstoryDef))
-                        return; // rolled a non-ZCB backstory — RimWorld's normal logic applies
+                        return;
                     zcb = (ZCBackstoryDef)current;
                 }
 
-                // Exhausted retries — accept whatever we ended up with
                 if (pawn.story?.Childhood is ZCBackstoryDef finalZcb)
                 {
                     ApplyZCBEffects(pawn, finalZcb);
@@ -572,13 +582,17 @@ namespace UnifiedBackstories
         }
 
         /// <summary>
-        /// Applies ZCB-specific effects that BackstoryDef doesn't natively support:
-        /// - passionGains: sets passion level for specific skills
-        /// - disablingWorkTags: work tags to disable
+        /// Applies ZCB-specific effects that BackstoryDef doesn't natively support.
+        ///
+        /// passionGains: ADDITIVE (matches original ZCB) — adds to existing
+        /// passion level and clamps 0-2, instead of overwriting.
+        ///
+        /// disablingWorkTags: handled by extending Pawn_StoryTracker_DisabledWorkTags_Patch
+        /// (ElderhoodSystem.cs) to include ZCB disablingWorkTags.
         /// </summary>
         private static void ApplyZCBEffects(Pawn pawn, ZCBackstoryDef def)
         {
-            // Passion gains
+            // Passion gains — ADDITIVE (original ZCB behavior)
             if (def.passionGains != null && pawn.skills != null)
             {
                 for (int i = 0; i < def.passionGains.Count; i++)
@@ -590,8 +604,9 @@ namespace UnifiedBackstories
                     SkillRecord skill = pawn.skills.GetSkill(skillDef);
                     if (skill != null)
                     {
-                        // level 0 = none, 1 = minor, 2 = major
-                        int passionLevel = Math.Max(0, Math.Min(2, pg.level));
+                        // ADDITIVE: current passion + gain, clamped [0, 2]
+                        int current = (int)skill.passion;
+                        int passionLevel = Math.Max(0, Math.Min(2, current + pg.level));
                         skill.passion = (Passion)passionLevel;
                     }
                 }
