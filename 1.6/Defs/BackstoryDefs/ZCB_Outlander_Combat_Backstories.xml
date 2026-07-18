@@ -24,7 +24,7 @@
 		<spawnCategories>
 			<li>ZCB</li> 
 		</spawnCategories>
-		<skillGains><li><skill>Shooting</skill><amount>2</amount></li><li><skill>Melee</skill><amount>2</amount></li><li><skill>Social</skill><amount>-3</amount></li></skillGains>
+		<skillGains><Shooting>2</Shooting><Melee>2</Melee><Social>-3</Social></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
 
 
@@ -51,8 +51,12 @@
 				<minValue>6</minValue>
 			</li>
 		</requiredSkills>
-		<disallowedTraits><li>ShootingAccuracy</li></disallowedTraits>
-		<skillGains><li><skill>Shooting</skill><amount>8</amount></li></skillGains>
+		<disallowedTraits>
+			<li><def>ShootingAccuracy</def><degree>0</degree></li>
+		</disallowedTraits>
+		<skillGains>
+			<Shooting>8</Shooting>
+		</skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
 
 
@@ -78,7 +82,7 @@
 				<minValue>50</minValue>
 			</li>
 		</requiredRecords>
-		<skillGains><li><skill>Melee</skill><amount>3</amount></li><li><skill>Shooting</skill><amount>5</amount></li></skillGains>
+		<skillGains><Melee>3</Melee><Shooting>5</Shooting></skillGains>
 		<workDisables>
 			<li>Social</li>
 			<li>Artistic</li>

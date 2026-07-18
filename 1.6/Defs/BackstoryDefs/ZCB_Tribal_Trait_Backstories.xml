@@ -25,7 +25,9 @@
 				<minValue>50</minValue>
 			</li>
 		</requiredRecords>
-		<skillGains><li><skill>Cooking</skill><amount>7</amount></li></skillGains>
+		<skillGains>
+			<Cooking>7</Cooking>
+		</skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
 	
 	
@@ -43,7 +45,7 @@
 		<commonality>2</commonality>
 		<maxTechLevel>Neolithic</maxTechLevel>	
 		<requiredTraits><li>Ascetic</li></requiredTraits>
-		<skillGains><li><skill>Artistic</skill><amount>-5</amount></li><li><skill>Crafting</skill><amount>3</amount></li><li><skill>Cooking</skill><amount>-2</amount></li></skillGains>
+		<skillGains><Artistic>-5</Artistic><Crafting>3</Crafting><Cooking>-2</Cooking></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
 	
 	
@@ -71,8 +73,12 @@
 			</li>
 		</requiredRecords>
 		<requiredTraits><li>Brawler</li></requiredTraits>
-		<forcedTraits><li>Tough</li></forcedTraits>
-		<skillGains><li><skill>Melee</skill><amount>5</amount></li></skillGains>
+		<forcedTraits>
+			<li><def>Tough</def><degree>0</degree></li>
+		</forcedTraits>
+		<skillGains>
+			<Melee>5</Melee>
+		</skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
 	
 
@@ -91,7 +97,7 @@
 		<commonality>2</commonality>
 		<maxTechLevel>Neolithic</maxTechLevel>	
 		<requiredTraits><li>FastLearner</li></requiredTraits>
-		<skillGains><li><skill>Intellectual</skill><amount>4</amount></li><li><skill>Crafting</skill><amount>2</amount></li><li><skill>Social</skill><amount>-2</amount></li></skillGains>
+		<skillGains><Intellectual>4</Intellectual><Crafting>2</Crafting><Social>-2</Social></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
 	
 	
@@ -115,7 +121,7 @@
 		<workDisables>
 			<li>ManualDumb</li>
 		</workDisables>
-		<skillGains><li><skill>Intellectual</skill><amount>3</amount></li><li><skill>Construction</skill><amount>6</amount></li><li><skill>Artistic</skill><amount>2</amount></li></skillGains>
+		<skillGains><Intellectual>3</Intellectual><Construction>6</Construction><Artistic>2</Artistic></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
 	
 	
@@ -136,7 +142,7 @@
 		<requiredPassions>
 			<li>Melee</li>
 		</requiredPassions>
-		<skillGains><li><skill>Melee</skill><amount>6</amount></li><li><skill>Social</skill><amount>-3</amount></li></skillGains>
+		<skillGains><Melee>6</Melee><Social>-3</Social></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
 	
 </Defs>

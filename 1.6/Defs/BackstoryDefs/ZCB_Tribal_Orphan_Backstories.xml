@@ -37,7 +37,7 @@
 		</requiredPassions>
 		<!-- new tags end here-->
 		
-		<skillGains><li><skill>Melee</skill><amount>3</amount></li><li><skill>Cooking</skill><amount>3</amount></li><li><skill>Plants</skill><amount>2</amount></li><li><skill>Intellectual</skill><amount>-3</amount></li></skillGains>
+		<skillGains><Melee>3</Melee><Cooking>3</Cooking><Plants>2</Plants><Intellectual>-3</Intellectual></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
 
 
@@ -64,7 +64,7 @@
 		</requiredPassions>
 		<!-- new tags end here-->
 		
-		<skillGains><li><skill>Animals</skill><amount>4</amount></li><li><skill>Medicine</skill><amount>1</amount></li><li><skill>Artistic</skill><amount>-3</amount></li></skillGains>
+		<skillGains><Animals>4</Animals><Medicine>1</Medicine><Artistic>-3</Artistic></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
 
 

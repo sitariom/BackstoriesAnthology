@@ -18,7 +18,9 @@
 			<li>Social</li>
 		</requiredPassions>
 		<requiredTraits><li>Beauty</li></requiredTraits>
-		<skillGains><li><skill>Social</skill><amount>3</amount></li></skillGains>
+		<skillGains>
+			<Social>3</Social>
+		</skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
 	
 	
@@ -33,7 +35,7 @@
 			<li>ZCB</li> 		
 			<li>ZCB_NaturalMeditation</li> 	
 		</spawnCategories>
-		<commonality>2.2</commonality>
+		<commonality>2</commonality>
 		<requiredRecords>
 			<li>
 				<name>MealsCooked</name>
@@ -44,7 +46,7 @@
 			<li>Social</li>
 		</requiredPassions>
 		<requiredTraits><li>Beauty</li></requiredTraits>
-		<skillGains><li><skill>Social</skill><amount>5</amount></li><li><skill>Cooking</skill><amount>2</amount></li></skillGains>
+		<skillGains><Social>5</Social><Cooking>2</Cooking></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
 	
 
@@ -64,7 +66,7 @@
 		<requiredPassions>
 			<li>Mining</li>
 		</requiredPassions>
-		<skillGains><li><skill>Mining</skill><amount>5</amount></li><li><skill>Plants</skill><amount>4</amount></li><li><skill>Intellectual</skill><amount>-3</amount></li></skillGains>
+		<skillGains><Mining>5</Mining><Plants>4</Plants><Intellectual>-3</Intellectual></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
 	
 
@@ -84,7 +86,7 @@
 		<requiredPassions>
 			<li>Shooting</li>
 		</requiredPassions>
-		<skillGains><li><skill>Shooting</skill><amount>6</amount></li><li><skill>Social</skill><amount>-4</amount></li></skillGains>
+		<skillGains><Shooting>6</Shooting><Social>-4</Social></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
 	
 	

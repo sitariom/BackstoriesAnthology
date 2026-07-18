@@ -24,7 +24,7 @@
 		</requiredPassions>
 		<!-- new tags end here-->
 		
-		<skillGains><li><skill>Mining</skill><amount>4</amount></li><li><skill>Artistic</skill><amount>-2</amount></li><li><skill>Plants</skill><amount>-2</amount></li></skillGains>
+		<skillGains><Mining>4</Mining><Artistic>-2</Artistic><Plants>-2</Plants></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
 
 

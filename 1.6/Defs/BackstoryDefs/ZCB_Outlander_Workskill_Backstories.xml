@@ -18,7 +18,7 @@
 				<minValue>30</minValue>
 			</li>
 		</requiredRecords>
-		<skillGains><li><skill>Medicine</skill><amount>3</amount></li><li><skill>Social</skill><amount>1</amount></li><li><skill>Melee</skill><amount>-1</amount></li><li><skill>Shooting</skill><amount>-1</amount></li></skillGains>
+		<skillGains><Medicine>3</Medicine><Social>1</Social><Melee>-1</Melee><Shooting>-1</Shooting></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
 
 
@@ -43,7 +43,7 @@
 		<requiredPassions>
 			<li>Medicine</li>
 		</requiredPassions>
-		<skillGains><li><skill>Medicine</skill><amount>5</amount></li><li><skill>Social</skill><amount>1</amount></li></skillGains>
+		<skillGains><Medicine>5</Medicine><Social>1</Social></skillGains>
 		<workDisables>
 			<li>Violent</li>
 		</workDisables>
@@ -74,7 +74,7 @@
 				<minValue>5</minValue>
 			</li>
 		</requiredSkills>
-		<skillGains><li><skill>Plants</skill><amount>3</amount></li><li><skill>Animals</skill><amount>1</amount></li></skillGains>
+		<skillGains><Plants>3</Plants><Animals>1</Animals></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
 	
 	
@@ -101,7 +101,7 @@
 				<minValue>4</minValue>
 			</li>
 		</requiredSkills>
-		<skillGains><li><skill>Medicine</skill><amount>1</amount></li><li><skill>Animals</skill><amount>3</amount></li></skillGains>
+		<skillGains><Medicine>1</Medicine><Animals>3</Animals></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
 
 
@@ -127,7 +127,7 @@
 				<maxValue>5</maxValue>
 			</li>
 		</requiredSkills>
-		<skillGains><li><skill>Cooking</skill><amount>4</amount></li><li><skill>Plants</skill><amount>1</amount></li><li><skill>Construction</skill><amount>-3</amount></li></skillGains>
+		<skillGains><Cooking>4</Cooking><Plants>1</Plants><Construction>-3</Construction></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
 
 
@@ -158,7 +158,7 @@
 				<maxValue>2</maxValue>
 			</li>
 		</requiredSkills>
-		<skillGains><li><skill>Crafting</skill><amount>3</amount></li><li><skill>Construction</skill><amount>3</amount></li><li><skill>Artistic</skill><amount>2</amount></li></skillGains>
+		<skillGains><Crafting>3</Crafting><Construction>3</Construction><Artistic>2</Artistic></skillGains>
 		<workDisables>
 			<li>Intellectual</li>
 		</workDisables>
@@ -185,7 +185,7 @@
 		<requiredPassions>
 			<li>Artistic</li>
 		</requiredPassions>
-		<skillGains><li><skill>Artistic</skill><amount>4</amount></li><li><skill>Construction</skill><amount>-3</amount></li></skillGains>
+		<skillGains><Artistic>4</Artistic><Construction>-3</Construction></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
 
 

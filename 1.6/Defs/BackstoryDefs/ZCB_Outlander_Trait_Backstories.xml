@@ -21,7 +21,7 @@
 				<minValue>120000</minValue>
 			</li>
 		</requiredRecords>
-		<skillGains><li><skill>Medicine</skill><amount>4</amount></li><li><skill>Social</skill><amount>3</amount></li></skillGains>
+		<skillGains><Medicine>4</Medicine><Social>3</Social></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
 	
 		
@@ -44,7 +44,9 @@
 				<minValue>10</minValue>
 			</li>
 		</requiredRecords>
-		<skillGains><li><skill>Cooking</skill><amount>4</amount></li></skillGains>
+		<skillGains>
+			<Cooking>4</Cooking>
+		</skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
 	
 		
@@ -76,7 +78,7 @@
 				<minValue>3</minValue>
 			</li>
 		</requiredRecords>
-		<skillGains><li><skill>Melee</skill><amount>5</amount></li><li><skill>Medicine</skill><amount>2</amount></li><li><skill>Social</skill><amount>-5</amount></li></skillGains>
+		<skillGains><Melee>5</Melee><Medicine>2</Medicine><Social>-5</Social></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
 	
 	
@@ -105,7 +107,7 @@
 				<minValue>3</minValue>
 			</li>
 		</requiredRecords>
-		<skillGains><li><skill>Artistic</skill><amount>5</amount></li><li><skill>Crafting</skill><amount>4</amount></li><li><skill>Cooking</skill><amount>2</amount></li></skillGains>
+		<skillGains><Artistic>5</Artistic><Crafting>4</Crafting><Cooking>2</Cooking></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
 	
 	
@@ -125,7 +127,7 @@
 		<requiredPassions>
 			<li>Melee</li>
 		</requiredPassions>
-		<skillGains><li><skill>Melee</skill><amount>5</amount></li><li><skill>Social</skill><amount>-3</amount></li></skillGains>
+		<skillGains><Melee>5</Melee><Social>-3</Social></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
 	
 

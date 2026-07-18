@@ -25,7 +25,7 @@
 				<maxValue>5</maxValue>
 			</li>
 		</requiredRecords>
-		<skillGains><li><skill>Shooting</skill><amount>2</amount></li><li><skill>Melee</skill><amount>3</amount></li><li><skill>Social</skill><amount>-4</amount></li></skillGains>
+		<skillGains><Shooting>2</Shooting><Melee>3</Melee><Social>-4</Social></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
 
 
@@ -53,8 +53,12 @@
 				<minValue>7</minValue>
 			</li>
 		</requiredSkills>
-		<disallowedTraits><li>ShootingAccuracy</li></disallowedTraits>
-		<skillGains><li><skill>Shooting</skill><amount>7</amount></li></skillGains>
+		<disallowedTraits>
+			<li><def>ShootingAccuracy</def><degree>0</degree></li>
+		</disallowedTraits>
+		<skillGains>
+			<Shooting>7</Shooting>
+		</skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
 
 
@@ -81,7 +85,7 @@
 				<minValue>50</minValue>
 			</li>
 		</requiredRecords>
-		<skillGains><li><skill>Melee</skill><amount>3</amount></li><li><skill>Shooting</skill><amount>5</amount></li></skillGains>
+		<skillGains><Melee>3</Melee><Shooting>5</Shooting></skillGains>
 		<workDisables>
 			<li>PlantWork</li>
 			<li>Artistic</li>

@@ -29,7 +29,7 @@
 		<requiredPassions>
 			<li>Medicine</li>
 		</requiredPassions>
-		<skillGains><li><skill>Medicine</skill><amount>3</amount></li><li><skill>Plants</skill><amount>4</amount></li><li><skill>Melee</skill><amount>2</amount></li><li><skill>Construction</skill><amount>-4</amount></li><li><skill>Mining</skill><amount>-2</amount></li></skillGains>
+		<skillGains><Medicine>3</Medicine><Plants>4</Plants><Melee>2</Melee><Construction>-4</Construction><Mining>-2</Mining></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
 
 
@@ -66,7 +66,7 @@
 		</requiredSkills>
 		
 		<!-- new tags end here-->
-		<skillGains><li><skill>Shooting</skill><amount>3</amount></li><li><skill>Animals</skill><amount>2</amount></li></skillGains>
+		<skillGains><Shooting>3</Shooting><Animals>2</Animals></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
 
 
@@ -92,7 +92,7 @@
 		<requiredPassions>
 			<li>Plants</li>
 		</requiredPassions>
-		<skillGains><li><skill>Plants</skill><amount>4</amount></li><li><skill>Cooking</skill><amount>2</amount></li></skillGains>
+		<skillGains><Plants>4</Plants><Cooking>2</Cooking></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
 
 
@@ -119,7 +119,7 @@
 				<minValue>3</minValue>
 			</li>
 		</requiredSkills>
-		<skillGains><li><skill>Social</skill><amount>4</amount></li><li><skill>Intellectual</skill><amount>2</amount></li></skillGains>
+		<skillGains><Social>4</Social><Intellectual>2</Intellectual></skillGains>
 		<workDisables>
 			<li>ManualDumb</li>
 		</workDisables>
@@ -158,7 +158,7 @@
 		<li>Mining</li>
 	</requiredPassions>
 	<!-- new tags end here-->
-	<skillGains><li><skill>Mining</skill><amount>4</amount></li><li><skill>Construction</skill><amount>1</amount></li><li><skill>Plants</skill><amount>-3</amount></li></skillGains>
+	<skillGains><Mining>4</Mining><Construction>1</Construction><Plants>-3</Plants></skillGains>
 </UnifiedBackstories.ZCBackstoryDef>
 
 
@@ -183,7 +183,7 @@
 	</requiredPassions>
 	<!-- new tags end here-->
 	
-	<skillGains><li><skill>Artistic</skill><amount>3</amount></li><li><skill>Intellectual</skill><amount>2</amount></li><li><skill>Animals</skill><amount>-2</amount></li></skillGains>
+	<skillGains><Artistic>3</Artistic><Intellectual>2</Intellectual><Animals>-2</Animals></skillGains>
 </UnifiedBackstories.ZCBackstoryDef>
 
 
@@ -209,7 +209,7 @@
 	</requiredPassions>
 	<!-- new tags end here-->
 	
-	<skillGains><li><skill>Crafting</skill><amount>3</amount></li><li><skill>Plants</skill><amount>1</amount></li></skillGains>
+	<skillGains><Crafting>3</Crafting><Plants>1</Plants></skillGains>
 </UnifiedBackstories.ZCBackstoryDef>
 
 
@@ -239,7 +239,9 @@
 		<li>Cooking</li>
 	</requiredPassions>
 	<!-- new tags end here-->
-	<skillGains><li><skill>Cooking</skill><amount>3</amount></li></skillGains>
+	<skillGains>
+			<Cooking>3</Cooking>
+		</skillGains>
 	<workDisables>
 		<li>Intellectual</li>
 	</workDisables>
@@ -267,7 +269,7 @@
 	</requiredPassions>
 	<!-- new tags end here-->
 	
-	<skillGains><li><skill>Construction</skill><amount>3</amount></li><li><skill>Melee</skill><amount>2</amount></li><li><skill>Shooting</skill><amount>-2</amount></li></skillGains>
+	<skillGains><Construction>3</Construction><Melee>2</Melee><Shooting>-2</Shooting></skillGains>
 </UnifiedBackstories.ZCBackstoryDef>
 
 
@@ -289,7 +291,7 @@
 				<minValue>20</minValue>
 			</li>
 		</requiredRecords>
-		<skillGains><li><skill>Medicine</skill><amount>3</amount></li><li><skill>Social</skill><amount>2</amount></li><li><skill>Melee</skill><amount>-1</amount></li><li><skill>Shooting</skill><amount>-1</amount></li></skillGains>
+		<skillGains><Medicine>3</Medicine><Social>2</Social><Melee>-1</Melee><Shooting>-1</Shooting></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
 
 
@@ -315,7 +317,7 @@
 		<requiredPassions>
 			<li>Medicine</li>
 		</requiredPassions>
-		<skillGains><li><skill>Medicine</skill><amount>5</amount></li><li><skill>Plants</skill><amount>1</amount></li><li><skill>Social</skill><amount>2</amount></li></skillGains>
+		<skillGains><Medicine>5</Medicine><Plants>1</Plants><Social>2</Social></skillGains>
 		<workDisables>
 			<li>Violent</li>
 		</workDisables>
@@ -346,7 +348,7 @@
 				<minValue>5</minValue>
 			</li>
 		</requiredSkills>
-		<skillGains><li><skill>Medicine</skill><amount>2</amount></li><li><skill>Animals</skill><amount>4</amount></li></skillGains>
+		<skillGains><Medicine>2</Medicine><Animals>4</Animals></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
 
 
@@ -378,7 +380,7 @@
 				<maxValue>2</maxValue>
 			</li>
 		</requiredSkills>
-		<skillGains><li><skill>Crafting</skill><amount>3</amount></li><li><skill>Construction</skill><amount>3</amount></li><li><skill>Artistic</skill><amount>2</amount></li></skillGains>
+		<skillGains><Crafting>3</Crafting><Construction>3</Construction><Artistic>2</Artistic></skillGains>
 		<workDisables>
 			<li>Intellectual</li>
 		</workDisables>
@@ -406,7 +408,7 @@
 		<requiredPassions>
 			<li>Artistic</li>
 		</requiredPassions>
-		<skillGains><li><skill>Artistic</skill><amount>4</amount></li><li><skill>Construction</skill><amount>-3</amount></li><li><skill>Crafting</skill><amount>-1</amount></li></skillGains>
+		<skillGains><Artistic>4</Artistic><Construction>-3</Construction><Crafting>-1</Crafting></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
 	
 	
@@ -435,7 +437,7 @@
 		<requiredPassions>
 			<li>Animals</li>
 		</requiredPassions>
-		<skillGains><li><skill>Animals</skill><amount>4</amount></li><li><skill>Plants</skill><amount>1</amount></li><li><skill>Shooting</skill><amount>2</amount></li><li><skill>Social</skill><amount>-1</amount></li></skillGains>
+		<skillGains><Animals>4</Animals><Plants>1</Plants><Shooting>2</Shooting><Social>-1</Social></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
 
 </Defs>

@@ -31,7 +31,7 @@ Most of these should enable natural meditation focus.
 		</requiredRecords>
 		<!-- new tags end here-->
 		
-		<skillGains><li><skill>Plants</skill><amount>5</amount></li><li><skill>Animals</skill><amount>3</amount></li><li><skill>Melee</skill><amount>2</amount></li><li><skill>Cooking</skill><amount>-2</amount></li></skillGains>
+		<skillGains><Plants>5</Plants><Animals>3</Animals><Melee>2</Melee><Cooking>-2</Cooking></skillGains>
 		<workDisables>
 			<li>Social</li>
 			<li>Intellectual</li>
@@ -64,7 +64,7 @@ Most of these should enable natural meditation focus.
 		</requiredPassions>
 		<!-- new tags end here-->
 		
-		<skillGains><li><skill>Animals</skill><amount>4</amount></li><li><skill>Melee</skill><amount>3</amount></li><li><skill>Medicine</skill><amount>2</amount></li></skillGains>
+		<skillGains><Animals>4</Animals><Melee>3</Melee><Medicine>2</Medicine></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
 
 
@@ -92,7 +92,7 @@ Most of these should enable natural meditation focus.
 			<li>Social</li>
 		</requiredPassions>
 		<!-- new tags end here-->
-		<skillGains><li><skill>Plants</skill><amount>3</amount></li><li><skill>Social</skill><amount>4</amount></li></skillGains>
+		<skillGains><Plants>3</Plants><Social>4</Social></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
 
   
