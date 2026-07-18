@@ -184,10 +184,10 @@
 		<commonality>2</commonality>
 		<bodyPartsReplaced>2~999</bodyPartsReplaced>
 		<forcedTraits>
-			<li><def>BodyPurist</def><degree>0</degree></li>
+			<li>BodyPurist</li>
 		</forcedTraits>
 		<disallowedTraits>
-			<li><def>Transhumanist</def><degree>0</degree></li>
+			<li>Transhumanist</li>
 		</disallowedTraits>
 		<skillGains><Medicine>-3</Medicine><Plants>3</Plants><Animals>1</Animals></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
@@ -207,10 +207,10 @@
 		<bodyPartsReplaced>1~999</bodyPartsReplaced>
 		<bodyPartsMissing>1~999</bodyPartsMissing>
 		<forcedTraits>
-			<li><def>Transhumanist</def><degree>0</degree></li>
+			<li>Transhumanist</li>
 		</forcedTraits>
 		<disallowedTraits>
-			<li><def>BodyPurist</def><degree>0</degree></li>
+			<li>BodyPurist</li>
 		</disallowedTraits>
 		<skillGains><Medicine>4</Medicine><Intellectual>2</Intellectual><Plants>-1</Plants></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
@@ -235,10 +235,10 @@
 		</requiredRecords>
 		<bodyPartsReplaced>1~999</bodyPartsReplaced>
 		<forcedTraits>
-			<li><def>Psychopath</def><degree>0</degree></li>
+			<li>Psychopath</li>
 		</forcedTraits>
 		<disallowedTraits>
-			<li><def>BodyPurist</def><degree>0</degree></li>
+			<li>BodyPurist</li>
 		</disallowedTraits>
 		<skillGains><Medicine>4</Medicine><Cooking>2</Cooking><Intellectual>1</Intellectual><Social>-2</Social></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
@@ -258,10 +258,10 @@
 		<bodyPartsReplaced>1~999</bodyPartsReplaced>
 		<requiredTraits><li>Wimp</li></requiredTraits>
 		<forcedTraits>
-			<li><def>Transhumanist</def><degree>0</degree></li>
+			<li>Transhumanist</li>
 		</forcedTraits>
 		<disallowedTraits>
-			<li><def>BodyPurist</def><degree>0</degree></li>
+			<li>BodyPurist</li>
 		</disallowedTraits>
 		<skillGains>
 			<Medicine>3</Medicine>
@@ -282,10 +282,10 @@
 		<commonality>2</commonality>
 		<bodyPartsReplaced>2~999</bodyPartsReplaced>
 		<forcedTraits>
-			<li><def>Transhumanist</def><degree>0</degree></li>
+			<li>Transhumanist</li>
 		</forcedTraits>
 		<disallowedTraits>
-			<li><def>BodyPurist</def><degree>0</degree></li>
+			<li>BodyPurist</li>
 		</disallowedTraits>
 		<skillGains>
 			<Medicine>5</Medicine>

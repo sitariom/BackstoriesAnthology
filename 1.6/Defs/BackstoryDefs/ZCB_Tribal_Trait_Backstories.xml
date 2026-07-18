@@ -74,7 +74,7 @@
 		</requiredRecords>
 		<requiredTraits><li>Brawler</li></requiredTraits>
 		<forcedTraits>
-			<li><def>Tough</def><degree>0</degree></li>
+			<li>Tough</li>
 		</forcedTraits>
 		<skillGains>
 			<Melee>5</Melee>

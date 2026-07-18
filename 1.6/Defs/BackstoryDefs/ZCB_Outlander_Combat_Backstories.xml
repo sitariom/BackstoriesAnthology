@@ -52,7 +52,7 @@
 			</li>
 		</requiredSkills>
 		<disallowedTraits>
-			<li><def>ShootingAccuracy</def><degree>0</degree></li>
+			<li>ShootingAccuracy</li>
 		</disallowedTraits>
 		<skillGains>
 			<Shooting>8</Shooting>
