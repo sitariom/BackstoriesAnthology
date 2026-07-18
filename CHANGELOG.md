@@ -1,5 +1,117 @@
 # Changelog — Backstories Anthology
 
+## [1.5.0] — 2026-07-18
+
+### Fixed
+- **CRITICAL**: Medieval forcedTraits in OLD LI format (`<li><defName>Nerves</defName><degree>-1</degree></li>`) converted to DIRECT format (`<Nerves>-1</Nerves>`) — 12 traits across 2 files were NOT being applied to pawns since RimWorld 1.6's BackstoryTrait parser requires DIRECT format
+- **CRITICAL**: About.xml modVersion corrected from 1.0.0 to 1.5.0 (was showing wrong version in-game)
+- **CRITICAL**: Simples LI forcedTraits (`<li>Kind</li>`) converted to DIRECT format (`<Kind>0</Kind>`) in Medieval files — 4 entries fixed
+- Dev artifacts removed from git tracking (`.codegraph/`, `.pi/`, `*.bak`, `obj/`)
+- CHANGELOG.md updated with complete version history v1.2.2 through v1.5.0
+
+## [1.4.0] — 2026-07-18
+
+### Fixed — Complete ZCB Field Integration (matches original ZCB v1.0.0)
+
+All 18 ZCB fields now behave identically to the original decompiled ZCB.dll (3000770956):
+
+- **bodyPartsMissing / bodyPartsReplaced**: Now uses `GetMissingPartsCommonAncestors()` and `GeneUtility.AddedAndImplantedPartsWithXenogenesCount()` instead of manual `Hediff_MissingPart`/`Hediff_AddedPart` counting
+- **father / mother**: Now uses `ParentRelationUtility.GetFather/Mother()` with `FamilyStatusFlags` bitwise matching instead of manual `DirectPawnRelation` scanning
+- **requiredTraits / disallowedTraits**: Changed from `List<string>` (defName only) to `List<BackstoryTrait>` (defName + degree via `HasTrait(def, degree)`)
+- **requiredRecords / requiredSkills**: Values now scaled by `childAgingRate / 4f` matching original ZCB behavior
+- **passionGains**: Changed from ABSOLUTE (overwrite) to ADDITIVE (sum + clamp 0-2)
+- **commonality**: Changed from `int` to `float` with `Rand.Value * totalWeight` matching `RandomElementByWeight`
+
+### Type Changes (ZCBackstoryDef)
+- `commonality`: int → float
+- `minTechLevel/maxTechLevel`: string → TechLevel enum
+- `colonySize`, `bodyPartsMissing`, `bodyPartsReplaced`: string → IntRange
+- `father`, `mother`: string → FamilyStatusFlags (Flags enum)
+- `requiredTraits`: List<string> → List<BackstoryTrait>
+- `disallowedTraits`: removed `new` shadow (inherited from BackstoryDef)
+
+### XML
+- 85 files converted from UTF-16 to UTF-8
+- 7 ZCB files: LI → DIRECT format for requiredTraits/disallowedTraits
+- `FamilyStatusFlags` enum added for parent checks
+
+## [1.3.2] — 2026-07-18
+
+### Added
+- `SelectByCommonality()` now used during ZCB re-rolls (commonality-weighted selection)
+- `ValidPoolFor()` method for filtered commonality pool
+- `CheckDevelopmentalStage()` validation (1=child, 2=adult)
+
+### Changed
+- ZCB re-roll logic: tries commonality-weighted selection before falling back to FillBackstorySlotShuffled
+- Version string updated
+
+## [1.3.1] — 2026-07-18
+
+### Removed
+- Dead code `StartingPawnUtility_GeneratePossessions_Patch` (21 lines, never executed)
+
+### Changed
+- Version string updated to v1.3.1
+
+## [1.3.0] — 2026-07-18
+
+### Fixed
+- `bodyTypeGlobal` → `bodyTypeMale` + `bodyTypeFemale` in 2 XML files
+- Version string updated to v1.3.0
+
+## [1.2.9] — 2026-07-17
+
+### Fixed
+- Standardized ALL forcedTraits/disallowedTraits to DIRECT format across 37 files
+- Converted 15 empty `<TraitName />` entries and 16 MayRequire entries to `<TraitName>0</TraitName>`
+- Fixed Medieval_Childhood disallowedTraits from LI to DIRECT
+
+## [1.2.8] — 2026-07-17
+
+### Fixed
+- **CRITICAL**: Restored 112 XML files corrupted in v1.2.7 from git v1.2.6
+- Fixed Elderhood forcedTraits to DIRECT format `<Kind>0</Kind>`
+
+## [1.2.7] — 2026-07-17
+
+### Changed
+- Converted 22 files from forcedTraits DIRECT format to LI format
+
+### Known Issues
+- INTRODUCED XML CORRUPTION in 112 files — reverted in v1.2.8
+
+## [1.2.6] — 2026-07-17
+
+### Fixed
+- Removed Elderhood possessions entirely (caused NRE in PossessionThingDefCountClass)
+- Fixed trailing whitespace in baseDesc across all XML files via Trim()
+- Fixed Medieval disallowedTraits from `<defName>Kind</defName>` to simple format
+
+## [1.2.5] — 2026-07-17
+
+### Changed
+- Reverted forcedTraits/disallowedTraits to SIMPLE `<li>` format for ZCB files (List<string\>)
+
+## [1.2.4] — 2026-07-17
+
+### Fixed
+- Fixed Elderhood possessions format
+
+## [1.2.3] — 2026-07-17
+
+### Fixed
+- Converted 209 ZCB skillGain entries from `<li><skill>X</skill><amount>Y</amount></li>` to `<X>Y</X>` format
+- Changed ZCB forcedTraits from simple `<li>X</li>` to complex format (reverted in v1.2.5)
+
+## [1.2.2] — 2026-07-17
+
+### Removed
+- 232 obsolete Medieval XML fields (linkedBackstory, relationSettings, maleCommonality, femaleCommonality, forcedItems)
+
+### Changed
+- Rounded 7 ZCB commonality floats to ints
+
 ## [1.2.1] — 2026-07-17
 
 ### Fixed

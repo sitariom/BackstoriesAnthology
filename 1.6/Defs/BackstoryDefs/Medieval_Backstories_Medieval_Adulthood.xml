@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+ï»¿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 
@@ -13,7 +13,7 @@
 	<slot>Adulthood</slot>
 	<title>Alchemist</title>
 	<titleShort>Alchemist</titleShort>
-	<baseDesc>[PAWN_nameDef] devoted {PAWN_gender ? his : her} life to continuing {PAWN_gender ? his : her} masterÔÇÖs quest to discover the formula for the legendary Panacea Elixir and cure all of the worldÔÇÖs illnesses. {PAWN_gender ? he : she} became renowned as an expert in medicine, and many people came to {PAWN_gender ? him : her} when they were sick or injured.</baseDesc>
+	<baseDesc>[PAWN_nameDef] devoted {PAWN_gender ? his : her} life to continuing {PAWN_gender ? his : her} masterï¿½ï¿½ï¿½s quest to discover the formula for the legendary Panacea Elixir and cure all of the worldï¿½ï¿½ï¿½s illnesses. {PAWN_gender ? he : she} became renowned as an expert in medicine, and many people came to {PAWN_gender ? him : her} when they were sick or injured.</baseDesc>
 	<skillGains>
 	<Medicine>5</Medicine>
 	<Plants>4</Plants>
@@ -74,10 +74,7 @@
 		 <li>MedievalKnight</li>
 	</spawnCategories>
 		 <forcedTraits>
-      <li>
-            <defName>Nerves</defName>
-            <degree>-1</degree>
-      </li>
+      <Nerves>-1</Nerves>
     </forcedTraits>
 		<requiredWorkTags>
         <li>Violent</li>
@@ -91,7 +88,7 @@
 	<slot>Adulthood</slot>
 	<title>Knight errant</title>
 	<titleShort>Knight</titleShort>
-	<baseDesc>In order to prove {PAWN_gender ? him : her}self, [PAWN_nameDef] set off on a quest to seek a legendary relic. Many said that such a thing was impossible, and that the relic did not even exist. However, [PAWN_nameDef]'s oaths as a knight stated that {PAWN_gender ? he : she} must ÔÇ£persevere to the end in any enterprise begunÔÇØ and {PAWN_gender ? he : she} refused to lose hope.</baseDesc>
+	<baseDesc>In order to prove {PAWN_gender ? him : her}self, [PAWN_nameDef] set off on a quest to seek a legendary relic. Many said that such a thing was impossible, and that the relic did not even exist. However, [PAWN_nameDef]'s oaths as a knight stated that {PAWN_gender ? he : she} must ï¿½Ç£persevere to the end in any enterprise begunï¿½ï¿½ï¿½ and {PAWN_gender ? he : she} refused to lose hope.</baseDesc>
 	<skillGains>
 	<Melee>6</Melee>
 	<Animals>4</Animals>
@@ -102,10 +99,7 @@
 		 <li>MedievalKnight</li>
 	</spawnCategories>
 		 <forcedTraits>
-      <li>
-            <defName>Nerves</defName>
-            <degree>1</degree>
-      </li>
+      <Nerves>1</Nerves>
     </forcedTraits>
 		<requiredWorkTags>
         <li>Violent</li>
@@ -119,7 +113,7 @@
 	<slot>Adulthood</slot>
 	<title>Unscrupulous knight</title>
 	<titleShort>Knight</titleShort>
-	<baseDesc>[PAWN_nameDef] held to {PAWN_gender ? his : her} oaths as a knight to help those in need, but only if there was something in it for {PAWN_gender ? him : her}. {PAWN_gender ? he : she} frequently accepted payments and bribes and was very slow to do anything for those that couldnÔÇÖt pay.</baseDesc>
+	<baseDesc>[PAWN_nameDef] held to {PAWN_gender ? his : her} oaths as a knight to help those in need, but only if there was something in it for {PAWN_gender ? him : her}. {PAWN_gender ? he : she} frequently accepted payments and bribes and was very slow to do anything for those that couldnï¿½ï¿½ï¿½t pay.</baseDesc>
 	<skillGains>
 	<Melee>6</Melee>
 	<Animals>4</Animals>
@@ -352,7 +346,7 @@
 	<slot>Adulthood</slot>
 	<title>Renegade royal</title>
 	<titleShort>Renegade royal</titleShort>
-	<baseDesc>[PAWN_nameDef]ÔÇÖs father was a cruel and corrupt king. He outright ignored his starving subjects and had anyone who said anything against him tortured and killed. [PAWN_nameDef] could stand for it no longer, and fled the kingdom with {PAWN_gender ? his : her} allies and some peasant refugees in order to begin building an army to overthrow the tyrant.</baseDesc>
+	<baseDesc>[PAWN_nameDef]ï¿½ï¿½ï¿½s father was a cruel and corrupt king. He outright ignored his starving subjects and had anyone who said anything against him tortured and killed. [PAWN_nameDef] could stand for it no longer, and fled the kingdom with {PAWN_gender ? his : her} allies and some peasant refugees in order to begin building an army to overthrow the tyrant.</baseDesc>
 	<skillGains>
 	<Social>6</Social>
 </skillGains>
@@ -362,11 +356,8 @@
 		<li>Rare</li>
 	</spawnCategories>
 	<forcedTraits>
-       <li>Kind</li>
-		<li>
-            <defName>Nerves</defName>
-            <degree>1</degree>
-        </li>
+       <Kind>0</Kind>
+		<Nerves>1</Nerves>
     </forcedTraits>
 	  <disallowedTraits>
 			<Abrasive>0</Abrasive>
@@ -390,7 +381,7 @@
 	<title>Runaway royal</title>
 	<titleShort>Runaway prince</titleShort>
 	<titleShortFemale>Runaway princess</titleShortFemale>
-	<baseDesc>[PAWN_nameDef] couldnÔÇÖt take the pressure of being the future ruler of the kingdom. {PAWN_gender ? he : she} fled to distant lands, disguising {PAWN_gender ? him : her}self as a wealthy merchant who happened to be selling some ÔÇ£legitimately acquiredÔÇØ royal silverware.</baseDesc>
+	<baseDesc>[PAWN_nameDef] couldnï¿½ï¿½ï¿½t take the pressure of being the future ruler of the kingdom. {PAWN_gender ? he : she} fled to distant lands, disguising {PAWN_gender ? him : her}self as a wealthy merchant who happened to be selling some ï¿½Ç£legitimately acquiredï¿½ï¿½ï¿½ royal silverware.</baseDesc>
 	<skillGains>
 	<Social>5</Social>
 </skillGains>
@@ -400,10 +391,7 @@
 		<li>Rare</li>
 	</spawnCategories>
 	<forcedTraits>
-		  <li>
-            <defName>Nerves</defName>
-            <degree>-1</degree>
-        </li>
+		  <Nerves>-1</Nerves>
     </forcedTraits>
 		<requiredWorkTags>
         <li>Social</li>
@@ -425,7 +413,7 @@
 	<slot>Adulthood</slot>
 	<title>Lady-in-waiting</title>
 	<titleShort>Lady-in-waiting</titleShort>
-	<baseDesc>[PAWN_nameDef] was the personal attendant to the queen herself. {PAWN_gender ? he : she} kept the queen informed about all of the gossip and goings-on of the court, took care of correspondence on the queenÔÇÖs behalf, and supervised the queenÔÇÖs other attendants. [PAWN_nameDef] enjoyed sewing and embroidery, and sometimes helped in taking care of the queenÔÇÖs extensive wardrobe, even though such a task was below her station.</baseDesc>
+	<baseDesc>[PAWN_nameDef] was the personal attendant to the queen herself. {PAWN_gender ? he : she} kept the queen informed about all of the gossip and goings-on of the court, took care of correspondence on the queenï¿½ï¿½ï¿½s behalf, and supervised the queenï¿½ï¿½ï¿½s other attendants. [PAWN_nameDef] enjoyed sewing and embroidery, and sometimes helped in taking care of the queenï¿½ï¿½ï¿½s extensive wardrobe, even though such a task was below her station.</baseDesc>
 	<skillGains>
 	<Social>5</Social>
 	<Crafting>3</Crafting>
@@ -541,7 +529,7 @@
 	<slot>Adulthood</slot>
 	<title>Courtier</title>
 	<titleShort>Courtier</titleShort>
-	<baseDesc>[PAWN_nameDef] was a member of the royal court. {PAWN_gender ? he : she} had very little political knowledge and did not have a formal role within the court. {PAWN_gender ? he : she} was simply there as a ÔÇ£close friend of the royal family.ÔÇØ Despite this, [PAWN_nameDef] tried to make {PAWN_gender ? him : her}self useful in various ways, such as keeping the king and queen informed of any useful gossip and offering advice on personal matters.</baseDesc>
+	<baseDesc>[PAWN_nameDef] was a member of the royal court. {PAWN_gender ? he : she} had very little political knowledge and did not have a formal role within the court. {PAWN_gender ? he : she} was simply there as a ï¿½Ç£close friend of the royal family.ï¿½ï¿½ï¿½ Despite this, [PAWN_nameDef] tried to make {PAWN_gender ? him : her}self useful in various ways, such as keeping the king and queen informed of any useful gossip and offering advice on personal matters.</baseDesc>
 	<skillGains>
 	<Social>5</Social>
 </skillGains>
@@ -608,10 +596,7 @@
        <li>Intellectual</li>
     </workDisables>
 	 <forcedTraits>
-        <li>
-            <defName>Immunity</defName>
-            <degree>1</degree>
-        </li>
+        <Immunity>1</Immunity>
     </forcedTraits>
 	<spawnCategories>
 		<li>Medieval</li>
@@ -661,10 +646,7 @@
        <li>Intellectual</li>
     </workDisables>
 		<forcedTraits>
-		  <li>
-            <defName>Industriousness</defName>
-            <degree>1</degree>
-        </li>
+		  <Industriousness>1</Industriousness>
     </forcedTraits>
 	<spawnCategories>
 		<li>Medieval</li>
@@ -755,7 +737,7 @@
 	<slot>Adulthood</slot>
 	<title>Silversmith</title>
 	<titleShort>Silversmith</titleShort>
-	<baseDesc>[PAWN_nameDef] crafted jewellery and other trinkets out of silver. Most of {PAWN_gender ? his : her} customers were successful, worldly merchants. [PAWN_nameDef] learned a great deal about all manner of things from listening to tales of {PAWN_gender ? his : her} customersÔÇÖ travels.</baseDesc>
+	<baseDesc>[PAWN_nameDef] crafted jewellery and other trinkets out of silver. Most of {PAWN_gender ? his : her} customers were successful, worldly merchants. [PAWN_nameDef] learned a great deal about all manner of things from listening to tales of {PAWN_gender ? his : her} customersï¿½ï¿½ï¿½ travels.</baseDesc>
 	<skillGains>
 	<Crafting>5</Crafting>
 	<Artistic>4</Artistic>
@@ -941,7 +923,7 @@
 	<title>Fishmonger</title>
 	<titleShort>Fishmonger</titleShort>
 	<titleShortFemale>Fishlass</titleShortFemale>
-	<baseDesc>[PAWN_nameDef] sold fish at the market. Because {PAWN_gender ? his : her} wares were quick to spoil, [PAWN_nameDef] had to be relentless when it came to sales in order to unload {PAWN_gender ? his : her} stock quickly. {PAWN_gender ? he : she} was well known for {PAWN_gender ? his : her} loud voice carrying across the market all day long, crying out ÔÇ£fish for sale!ÔÇØ</baseDesc>
+	<baseDesc>[PAWN_nameDef] sold fish at the market. Because {PAWN_gender ? his : her} wares were quick to spoil, [PAWN_nameDef] had to be relentless when it came to sales in order to unload {PAWN_gender ? his : her} stock quickly. {PAWN_gender ? he : she} was well known for {PAWN_gender ? his : her} loud voice carrying across the market all day long, crying out ï¿½Ç£fish for sale!ï¿½ï¿½ï¿½</baseDesc>
 	<skillGains>
 	<Animals>3</Animals>
 	<Social>5</Social>
@@ -1071,7 +1053,7 @@
 	<slot>Adulthood</slot>
 	<title>Crop farmer</title>
 	<titleShort>Farmer</titleShort>
-	<baseDesc>[PAWN_nameDef] worked the fields, growing crops such as wheat, barley, and various vegetables. It was often gruelling work, but [PAWN_nameDef]ÔÇÖs fellow farmers were always willing to pitch in and help {PAWN_gender ? him : her}, just as {PAWN_gender ? he : she} was always willing to help them.</baseDesc>
+	<baseDesc>[PAWN_nameDef] worked the fields, growing crops such as wheat, barley, and various vegetables. It was often gruelling work, but [PAWN_nameDef]ï¿½ï¿½ï¿½s fellow farmers were always willing to pitch in and help {PAWN_gender ? him : her}, just as {PAWN_gender ? he : she} was always willing to help them.</baseDesc>
 	<skillGains>
 	<Plants>5</Plants>
 	<Social>2</Social>
@@ -1156,7 +1138,7 @@
 	<slot>Adulthood</slot>
 	<title>Vassal longbowman</title>
 	<titleShort>longbowman</titleShort>
-	<baseDesc>[PAWN_nameDef] marched with {PAWN_gender ? his : her} liege lordÔÇÖs army as a longbowman. {PAWN_gender ? he : she} was well practised at marksmanship, having often hunted for food with a small homemade bow, and proved to be incredibly deadly when given a professionally made weapon.</baseDesc>
+	<baseDesc>[PAWN_nameDef] marched with {PAWN_gender ? his : her} liege lordï¿½ï¿½ï¿½s army as a longbowman. {PAWN_gender ? he : she} was well practised at marksmanship, having often hunted for food with a small homemade bow, and proved to be incredibly deadly when given a professionally made weapon.</baseDesc>
 	<skillGains>
 	<Shooting>5</Shooting>
 	<Animals>5</Animals>
@@ -1231,7 +1213,7 @@
 	<slot>Adulthood</slot>
 	<title>Portrait artist</title>
 	<titleShort>Portrait artist</titleShort>
-	<baseDesc>[PAWN_nameDef] painted portraits for wealthy aristocrats. {PAWN_gender ? he : she} was always careful to depict {PAWN_gender ? his : her} clients as flatteringly as possible, and was praised for {PAWN_gender ? his : her} dedication to ÔÇ£realismÔÇØ by those {PAWN_gender ? he : she} painted.</baseDesc>
+	<baseDesc>[PAWN_nameDef] painted portraits for wealthy aristocrats. {PAWN_gender ? he : she} was always careful to depict {PAWN_gender ? his : her} clients as flatteringly as possible, and was praised for {PAWN_gender ? his : her} dedication to ï¿½Ç£realismï¿½ï¿½ï¿½ by those {PAWN_gender ? he : she} painted.</baseDesc>
 	<skillGains>
 	<Artistic>5</Artistic>
 	<Social>3</Social>
@@ -1430,10 +1412,7 @@
 			<li>MedievalLow</li>
 	</spawnCategories>
 	   <forcedTraits>
-        <li>
-            <defName>Beauty</defName>
-            <degree>2</degree>
-        </li>
+        <Beauty>2</Beauty>
     </forcedTraits>
 	<bodyTypeMale>Female</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
@@ -1444,7 +1423,7 @@
 	<slot>Adulthood</slot>
 	<title>Hostler</title>
 	<titleShort>Hostler</titleShort>
-	<baseDesc>[PAWN_nameDef] tended to guestsÔÇÖ horses at an inn along a busy travelling route. {PAWN_gender ? he : she} made sure the animals were fed, watered, rested, and even brushed. [PAWN_nameDef] could get even the most skittish or stubborn horses to cooperate with {PAWN_gender ? him : her}.</baseDesc>
+	<baseDesc>[PAWN_nameDef] tended to guestsï¿½ï¿½ï¿½ horses at an inn along a busy travelling route. {PAWN_gender ? he : she} made sure the animals were fed, watered, rested, and even brushed. [PAWN_nameDef] could get even the most skittish or stubborn horses to cooperate with {PAWN_gender ? him : her}.</baseDesc>
 	<skillGains>
 	<Animals>4</Animals>
 </skillGains>
@@ -1525,8 +1504,8 @@
 		<li>Mining</li>
     </requiredWorkTags>
 	   <forcedTraits>
-        <li>NightOwl</li>
-		  <li>Kind</li>
+        <NightOwl>0</NightOwl>
+		  <Kind>0</Kind>
     </forcedTraits>
 	<spawnCategories>
 		<li>Medieval</li>
@@ -1595,7 +1574,7 @@
 	<slot>Adulthood</slot>
 	<title>Highwayman</title>
 	<titleShort>Highwayman</titleShort>
-	<baseDesc>[PAWN_nameDef] stalked an isolated stretch of road, ambushing travellers in order to steal their valuables. He always offered {PAWN_gender ? his : her} victims a choice: ÔÇ£your money or your life.ÔÇØ Most chose the former, and [PAWN_nameDef] would ride away with {PAWN_gender ? his : her} loot before anyone had the time to get help.</baseDesc>
+	<baseDesc>[PAWN_nameDef] stalked an isolated stretch of road, ambushing travellers in order to steal their valuables. He always offered {PAWN_gender ? his : her} victims a choice: ï¿½Ç£your money or your life.ï¿½ï¿½ï¿½ Most chose the former, and [PAWN_nameDef] would ride away with {PAWN_gender ? his : her} loot before anyone had the time to get help.</baseDesc>
 	<skillGains>
 	<Melee>4</Melee>
 </skillGains>
@@ -1621,7 +1600,7 @@
 	<slot>Adulthood</slot>
 	<title>Charitable nun</title>
 	<titleShort>Nun</titleShort>
-	<baseDesc>[PAWN_nameDef] took a vow of poverty so that {PAWN_gender ? he : she} could wholly devote {PAWN_gender ? him : her}self to helping the needy. {PAWN_gender ? he : she} often worked with the sick and dying poor, aiding those who could be healed and comforting those who couldnÔÇÖt be.</baseDesc>
+	<baseDesc>[PAWN_nameDef] took a vow of poverty so that {PAWN_gender ? he : she} could wholly devote {PAWN_gender ? him : her}self to helping the needy. {PAWN_gender ? he : she} often worked with the sick and dying poor, aiding those who could be healed and comforting those who couldnï¿½ï¿½ï¿½t be.</baseDesc>
 	<skillGains>
 	<Social>4</Social>
 	<Medicine>5</Medicine>
@@ -1634,12 +1613,9 @@
 			<li>MedievalClergy</li>
 	</spawnCategories>
 	   <forcedTraits>
-        <li>
-            <defName>Immunity</defName>
-            <degree>1</degree>
-        </li>
-		  <li>Ascetic</li>
-		  <li>Kind</li>
+        <Immunity>1</Immunity>
+		  <Ascetic>0</Ascetic>
+		  <Kind>0</Kind>
     </forcedTraits>
 	  <workDisables>
         <li>Violent</li>
@@ -1683,7 +1659,7 @@
 	<slot>Adulthood</slot>
 	<title>Scholar of philosophy</title>
 	<titleShort>Scholar</titleShort>
-	<baseDesc>[PAWN_nameDef] wrote extensively on moral philosophy. The nature of ethics, of what it truly means to be ÔÇ£goodÔÇØ or ÔÇ£evil,ÔÇØ fascinated {PAWN_gender ? him : her}. [PAWN_nameDef] was quite sociable for someone who spent hours locked away writing, and enjoyed having friendly discussions and debates with {PAWN_gender ? his : her} scholarly cohorts.</baseDesc>
+	<baseDesc>[PAWN_nameDef] wrote extensively on moral philosophy. The nature of ethics, of what it truly means to be ï¿½Ç£goodï¿½ï¿½ï¿½ or ï¿½Ç£evil,ï¿½ï¿½ï¿½ fascinated {PAWN_gender ? him : her}. [PAWN_nameDef] was quite sociable for someone who spent hours locked away writing, and enjoyed having friendly discussions and debates with {PAWN_gender ? his : her} scholarly cohorts.</baseDesc>
 	<skillGains>
 	<Intellectual>6</Intellectual>
 	<Social>3</Social>
@@ -1744,10 +1720,7 @@
 		<li>Intellectual</li>
     </requiredWorkTags>
 	    <forcedTraits>
-        <li>
-            <defName>PsychicSensitivity</defName>
-            <degree>2</degree>
-        </li>
+        <PsychicSensitivity>2</PsychicSensitivity>
     </forcedTraits>
 	<spawnCategories>
 		<li>Medieval</li>
@@ -1763,7 +1736,7 @@
 	<slot>Adulthood</slot>
 	<title>Village fool</title>
 	<titleShort>Village fool</titleShort>
-	<baseDesc>[PAWN_nameDef]ÔÇÖs very existence served as a form of entertainment for {PAWN_gender ? his : her} village. {PAWN_gender ? his : her} strange appearance and lack of intelligence was a source of derision, pity, and amusement for those around {PAWN_gender ? him : her}. The people of [PAWN_nameDef]ÔÇÖs village fed and clothed {PAWN_gender ? him : her} in exchange for  {PAWN_gender ? his : her} unwitting service.</baseDesc>
+	<baseDesc>[PAWN_nameDef]ï¿½ï¿½ï¿½s very existence served as a form of entertainment for {PAWN_gender ? his : her} village. {PAWN_gender ? his : her} strange appearance and lack of intelligence was a source of derision, pity, and amusement for those around {PAWN_gender ? him : her}. The people of [PAWN_nameDef]ï¿½ï¿½ï¿½s village fed and clothed {PAWN_gender ? him : her} in exchange for  {PAWN_gender ? his : her} unwitting service.</baseDesc>
 	<workDisables>
         <li>Artistic</li>
 		<li>Violent</li>
@@ -1779,10 +1752,7 @@
 		<li>ManualDumb</li>
     </requiredWorkTags>
 	  <forcedTraits>
-	 <li>
-            <defName>NaturalMood</defName>
-            <degree>2</degree>
-        </li>
+	 <NaturalMood>2</NaturalMood>
 		</forcedTraits>
 	<spawnCategories>
 		<li>Medieval</li>
@@ -1796,7 +1766,7 @@
 	<slot>Adulthood</slot>
 	<title>Monster slayer</title>
 	<titleShort>Monster slayer</titleShort>
-	<baseDesc>[PAWN_nameDef] travelled far and wide, offering {PAWN_gender ? his : her} services as a slayer of monsters. {PAWN_gender ? he : she} received a decent amount of work, mostly from peasants terrified of horrifying creatures stealing their children and livestock. The ÔÇ£monstersÔÇØ almost always turned out to be wolves, but [PAWN_nameDef] got paid all the same. {PAWN_gender ? he : she} held out hope that, someday, he would get to test {PAWN_gender ? him : her}self against a real monster.</baseDesc>
+	<baseDesc>[PAWN_nameDef] travelled far and wide, offering {PAWN_gender ? his : her} services as a slayer of monsters. {PAWN_gender ? he : she} received a decent amount of work, mostly from peasants terrified of horrifying creatures stealing their children and livestock. The ï¿½Ç£monstersï¿½ï¿½ï¿½ almost always turned out to be wolves, but [PAWN_nameDef] got paid all the same. {PAWN_gender ? he : she} held out hope that, someday, he would get to test {PAWN_gender ? him : her}self against a real monster.</baseDesc>
 		<skillGains>
 	<Melee>5</Melee>
 	<Shooting>5</Shooting>

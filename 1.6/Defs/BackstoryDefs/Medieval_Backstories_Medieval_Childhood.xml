@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+ï»¿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 <!-- CHILDHOOD MEDIEVAL BACKSTORIES -->
@@ -8,9 +8,9 @@
 <BackstoryDef>
 	<defName>UB_Medieval_AlchemistsApprentice</defName>
 	<slot>Childhood</slot>
-	<title>AlchemistÔÇÖs apprentice</title>
-	<titleShort>AlchemistÔÇÖs apprentice</titleShort>
-	<baseDesc>[PAWN_nameDef] was the apprentice of a prominent alchemist. [PAWN_nameDef]ÔÇÖs master was determined to discover the formula for the legendary Panacea Elixir, a remedy to all illnesses. Under his tutelage, [PAWN_nameDef] learned about the medical sciences, including how to brew medicines from plants and herbs.</baseDesc>
+	<title>Alchemistï¿½ï¿½ï¿½s apprentice</title>
+	<titleShort>Alchemistï¿½ï¿½ï¿½s apprentice</titleShort>
+	<baseDesc>[PAWN_nameDef] was the apprentice of a prominent alchemist. [PAWN_nameDef]ï¿½ï¿½ï¿½s master was determined to discover the formula for the legendary Panacea Elixir, a remedy to all illnesses. Under his tutelage, [PAWN_nameDef] learned about the medical sciences, including how to brew medicines from plants and herbs.</baseDesc>
 	<skillGains>
 	<Medicine>3</Medicine>
 	<Plants>2</Plants>
@@ -36,7 +36,7 @@
 	<slot>Childhood</slot>
 	<title>Educated squire</title>
 	 <titleShort>Squire</titleShort>
-	<baseDesc>[PAWN_nameDef] was a squire training to become a full-fledged knight. {PAWN_gender ? his : her} duties included polishing and maintaining equipment and caring for {PAWN_gender ? his : her} masterÔÇÖs horse. The knight [PAWN_nameDef] served was well-educated, and passed along his knowledge about history and philosophy to {PAWN_gender ? him : her}.</baseDesc>
+	<baseDesc>[PAWN_nameDef] was a squire training to become a full-fledged knight. {PAWN_gender ? his : her} duties included polishing and maintaining equipment and caring for {PAWN_gender ? his : her} masterï¿½ï¿½ï¿½s horse. The knight [PAWN_nameDef] served was well-educated, and passed along his knowledge about history and philosophy to {PAWN_gender ? him : her}.</baseDesc>
 	<skillGains>
 	<Melee>4</Melee>
 	<Animals>3</Animals>
@@ -107,7 +107,7 @@
 	<slot>Childhood</slot>
 	<title>Reluctant squire</title>
 	 <titleShort>Squire</titleShort>
-	<baseDesc>[PAWN_nameDef] didn't want to be a squire, and most certainly didnÔÇÖt want anything to do with tournaments or battles or things of that sort. However, {PAWN_gender ? his : her} family gave {PAWN_gender ? him : her} little choice in the matter, and [PAWN_nameDef] found {PAWN_gender ? him : her}self in the service of a particularly demanding knight as soon as {PAWN_gender ? he : she} was of age.</baseDesc>
+	<baseDesc>[PAWN_nameDef] didn't want to be a squire, and most certainly didnï¿½ï¿½ï¿½t want anything to do with tournaments or battles or things of that sort. However, {PAWN_gender ? his : her} family gave {PAWN_gender ? him : her} little choice in the matter, and [PAWN_nameDef] found {PAWN_gender ? him : her}self in the service of a particularly demanding knight as soon as {PAWN_gender ? he : she} was of age.</baseDesc>
 	<skillGains>
 	<Melee>2</Melee>
 	<Animals>1</Animals>
@@ -130,9 +130,9 @@
 <BackstoryDef>
 	<defName>UB_Medieval_WealthyMerchantChild</defName>
 	<slot>Childhood</slot>
-	<title>Wealthy merchantÔÇÖs child</title>
-	 <titleShort>MerchantÔÇÖs son</titleShort>
-	 <titleShortFemale>MerchantÔÇÖs daughter</titleShortFemale>
+	<title>Wealthy merchantï¿½ï¿½ï¿½s child</title>
+	 <titleShort>Merchantï¿½ï¿½ï¿½s son</titleShort>
+	 <titleShortFemale>Merchantï¿½ï¿½ï¿½s daughter</titleShortFemale>
 	<baseDesc>[PAWN_nameDef] was the child of a wealthy merchant who traded in exotic goods. {PAWN_gender ? he : she} spent {PAWN_gender ? his : her} childhood surrounded by fine silks and foods made with expensive ingredients. {PAWN_gender ? his : her} family was able to afford a private tutor for {PAWN_gender ? him : her} as well as several servants who attended to {PAWN_gender ? him : her} every need.</baseDesc>
 	<skillGains>
 	<Intellectual>4</Intellectual>
@@ -157,9 +157,9 @@
 <BackstoryDef>
 	<defName>UB_Medieval_MerchantChild</defName>
 	<slot>Childhood</slot>
-	<title>Helpful merchantÔÇÖs child</title>
-	 <titleShort>MerchantÔÇÖs son</titleShort>
-	 <titleShortFemale>MerchantÔÇÖs daughter</titleShortFemale>
+	<title>Helpful merchantï¿½ï¿½ï¿½s child</title>
+	 <titleShort>Merchantï¿½ï¿½ï¿½s son</titleShort>
+	 <titleShortFemale>Merchantï¿½ï¿½ï¿½s daughter</titleShortFemale>
 	<baseDesc>[PAWN_nameDef] was the child of a merchant. {PAWN_gender ? he : she} often helped on market days by loading up the pack animals and making sure they were fit to travel. [PAWN_nameDef]'s family was moderately wealthy, and {PAWN_gender ? he : she} was able to receive a basic education.</baseDesc>
 	<skillGains>
 	<Intellectual>3</Intellectual>
@@ -256,7 +256,7 @@
 	<title>Young royal</title>
 	 <titleShort>Little prince</titleShort>
 	 <titleShortFemale>Little princess</titleShortFemale>
-	<baseDesc>[PAWN_nameDef] was one of the king and queenÔÇÖs children. Because {PAWN_gender ? he : she} was not the firstborn, {PAWN_gender ? he : she} most likely would never inherit the crown. However, just in case, [PAWN_nameDef] received the type of education that a future ruler would need.</baseDesc>
+	<baseDesc>[PAWN_nameDef] was one of the king and queenï¿½ï¿½ï¿½s children. Because {PAWN_gender ? he : she} was not the firstborn, {PAWN_gender ? he : she} most likely would never inherit the crown. However, just in case, [PAWN_nameDef] received the type of education that a future ruler would need.</baseDesc>
 	<skillGains>
 	<Social>5</Social>
 	<Intellectual>4</Intellectual>
@@ -332,7 +332,7 @@
 	<title>Spoiled noble child</title>
 	 <titleShort>Little lord</titleShort>
 	 <titleShortFemale>Little lady</titleShortFemale>
-	<baseDesc>[PAWN_nameDef] was born into a noble family. [PAWN_nameDef] was extremely spoiled, and was allowed to do whatever {PAWN_gender ? he : she} pleased and to have whatever {PAWN_gender ? he : she} asked for. {PAWN_gender ? he : she} would scream and cry if told ÔÇ£noÔÇØ and was feared by {PAWN_gender ? his : her} familyÔÇÖs servants as a tiny tyrant.</baseDesc>
+	<baseDesc>[PAWN_nameDef] was born into a noble family. [PAWN_nameDef] was extremely spoiled, and was allowed to do whatever {PAWN_gender ? he : she} pleased and to have whatever {PAWN_gender ? he : she} asked for. {PAWN_gender ? he : she} would scream and cry if told ï¿½Ç£noï¿½ï¿½ï¿½ and was feared by {PAWN_gender ? his : her} familyï¿½ï¿½ï¿½s servants as a tiny tyrant.</baseDesc>
 	<skillGains>
 	<Social>3</Social>
 </skillGains>
@@ -358,7 +358,7 @@
 	<slot>Childhood</slot>
 	<title>Royal bastard</title>
 	 <titleShort>Royal bastard</titleShort>
-	<baseDesc>[PAWN_nameDef] was the bastard child of a king, the result of an ÔÇ£indiscretionÔÇØ with a noblewoman. To avoid scandal, [PAWN_nameDef]ÔÇÖs mother sent {PAWN_gender ? him : her} to live with relatives in a neighbouring kingdom. [PAWN_nameDef] received the standard education given to children of noble houses, but lacked many of the privileges that those born legitimately had.</baseDesc>
+	<baseDesc>[PAWN_nameDef] was the bastard child of a king, the result of an ï¿½Ç£indiscretionï¿½ï¿½ï¿½ with a noblewoman. To avoid scandal, [PAWN_nameDef]ï¿½ï¿½ï¿½s mother sent {PAWN_gender ? him : her} to live with relatives in a neighbouring kingdom. [PAWN_nameDef] received the standard education given to children of noble houses, but lacked many of the privileges that those born legitimately had.</baseDesc>
 	<skillGains>
 	<Social>3</Social>
 	<Intellectual>3</Intellectual>
@@ -430,7 +430,7 @@
 	<slot>Childhood</slot>
 	<title>Young servant</title>
 	 <titleShort>Young servant</titleShort>
-	<baseDesc>[PAWN_nameDef]ÔÇÖs parents were servants in the royal castle. As soon as {PAWN_gender ? he : she} was old enough, [PAWN_nameDef] began work as a servant as well, mostly doing the odd jobs that no one else wanted to do.</baseDesc>
+	<baseDesc>[PAWN_nameDef]ï¿½ï¿½ï¿½s parents were servants in the royal castle. As soon as {PAWN_gender ? he : she} was old enough, [PAWN_nameDef] began work as a servant as well, mostly doing the odd jobs that no one else wanted to do.</baseDesc>
 	<skillGains>
 	<Cooking>1</Cooking>
 	<Crafting>1</Crafting>
@@ -499,9 +499,9 @@
 <BackstoryDef>
 	<defName>UB_Medieval_FishermansChild</defName>
 	<slot>Childhood</slot>
-	<title>FishermanÔÇÖs child</title>
-	 <titleShort>FishermanÔÇÖs child</titleShort>
-	<baseDesc>[PAWN_nameDef] was the child of a fisherman. {PAWN_gender ? he : she} often helped out by repairing nets and fishing lines, catching bait worms, and performing simple maintenance on {PAWN_gender ? his : her} fatherÔÇÖs boat.</baseDesc>
+	<title>Fishermanï¿½ï¿½ï¿½s child</title>
+	 <titleShort>Fishermanï¿½ï¿½ï¿½s child</titleShort>
+	<baseDesc>[PAWN_nameDef] was the child of a fisherman. {PAWN_gender ? he : she} often helped out by repairing nets and fishing lines, catching bait worms, and performing simple maintenance on {PAWN_gender ? his : her} fatherï¿½ï¿½ï¿½s boat.</baseDesc>
 	<skillGains>
 	<Crafting>3</Crafting>
 	<Animals>3</Animals>
@@ -550,7 +550,7 @@
 	<slot>Childhood</slot>
 	<title>Young wordsmith</title>
 	 <titleShort>Young wordsmith</titleShort>
-	<baseDesc>[PAWN_nameDef] loved to be told stories as a child. Every adult who knew {PAWN_gender ? him : her} knew to expect to hear ÔÇ£please, tell me a story!ÔÇØ several times a day. As {PAWN_gender ? he : she} got older, [PAWN_nameDef] began to make-up tales and stories of {PAWN_gender ? his : her} own.  {PAWN_gender ? he : she} was quite good at it, and {PAWN_gender ? his : her} family often spent part of their evenings sitting around a fire listening to {PAWN_gender ? him : her}.</baseDesc>
+	<baseDesc>[PAWN_nameDef] loved to be told stories as a child. Every adult who knew {PAWN_gender ? him : her} knew to expect to hear ï¿½Ç£please, tell me a story!ï¿½ï¿½ï¿½ several times a day. As {PAWN_gender ? he : she} got older, [PAWN_nameDef] began to make-up tales and stories of {PAWN_gender ? his : her} own.  {PAWN_gender ? he : she} was quite good at it, and {PAWN_gender ? his : her} family often spent part of their evenings sitting around a fire listening to {PAWN_gender ? him : her}.</baseDesc>
 	<skillGains>
 	<Artistic>3</Artistic>
 	<Social>4</Social>
@@ -573,7 +573,7 @@
 	<slot>Childhood</slot>
 	<title>Noble's bastard</title>
 	 <titleShort>Bastard</titleShort>
-	<baseDesc>[PAWN_nameDef] was the illegitimate child of a nobleman, the result of an affair with a comely maid. In exchange for being discreet, [PAWN_nameDef]ÔÇÖs mother received a modest allowance, which she used to rent comfortable lodgings for herself and her child. [PAWN_nameDef] eventually began to develop an interest in the arts, and {PAWN_gender ? his : her} father increased the allowance in order to pay for an art tutor.</baseDesc>
+	<baseDesc>[PAWN_nameDef] was the illegitimate child of a nobleman, the result of an affair with a comely maid. In exchange for being discreet, [PAWN_nameDef]ï¿½ï¿½ï¿½s mother received a modest allowance, which she used to rent comfortable lodgings for herself and her child. [PAWN_nameDef] eventually began to develop an interest in the arts, and {PAWN_gender ? his : her} father increased the allowance in order to pay for an art tutor.</baseDesc>
 	<skillGains>
 	<Artistic>4</Artistic>
 </skillGains>
@@ -615,9 +615,9 @@
 <BackstoryDef>
 	<defName>UB_Medieval_InnkeepersChild</defName>
 	<slot>Childhood</slot>
-	<title>InnkeeperÔÇÖs child</title>
-	 <titleShort>InnkeeperÔÇÖs child</titleShort>
-	<baseDesc>[PAWN_nameDef]ÔÇÖs family owned a busy inn. Ever since {PAWN_gender ? he : she} was old enough, [PAWN_nameDef] was required to help with the cooking, cleaning, and other tasks that were needed to keep the inn running.</baseDesc>
+	<title>Innkeeperï¿½ï¿½ï¿½s child</title>
+	 <titleShort>Innkeeperï¿½ï¿½ï¿½s child</titleShort>
+	<baseDesc>[PAWN_nameDef]ï¿½ï¿½ï¿½s family owned a busy inn. Ever since {PAWN_gender ? he : she} was old enough, [PAWN_nameDef] was required to help with the cooking, cleaning, and other tasks that were needed to keep the inn running.</baseDesc>
 	<skillGains>
 	<Cooking>3</Cooking>
 </skillGains>
@@ -680,8 +680,8 @@
 <BackstoryDef>
 	<defName>UB_Medieval_FarriersChild</defName>
 	<slot>Childhood</slot>
-	<title>FarrierÔÇÖs child</title>
-	 <titleShort>FarrierÔÇÖs child</titleShort>
+	<title>Farrierï¿½ï¿½ï¿½s child</title>
+	 <titleShort>Farrierï¿½ï¿½ï¿½s child</titleShort>
 	<baseDesc>[PAWN_nameDef] was the child of a blacksmith who specialised in shoeing horses. [PAWN_nameDef] helped to keep the horses calm while {PAWN_gender ? his : her} father worked on their hooves. When not working, [PAWN_nameDef] played with the other children of  {PAWN_gender ? his : her} village, {PAWN_gender ? his : her} favourite game, of course, being horseshoes.</baseDesc>
 	<skillGains>
 	<Animals>4</Animals>
@@ -711,8 +711,8 @@
 	<Social>-4</Social>
 </skillGains>
 	<forcedTraits>
-        <li>Nimble</li>
-		<li>Abrasive</li>
+        <Nimble>0</Nimble>
+		<Abrasive>0</Abrasive>
     </forcedTraits>
 	<workDisables>
        <li>Intellectual</li>
@@ -748,7 +748,7 @@
 	<slot>Childhood</slot>
 	<title>Street orphan</title>
 	 <titleShort>Orphan</titleShort>
-	<baseDesc>[PAWN_nameDef]ÔÇÖs parents died when {PAWN_gender ? he : she} was very young. In order to survive, {PAWN_gender ? he : she} joined a gang of child criminals. The gang worked together to steal food and valuables, distributing the goods amongst themselves so that everyone could eat. [PAWN_nameDef] began as a lookout, but soon moved on to robbery due to  {PAWN_gender ? his : her} intimidating demeanour and skill with a knife.</baseDesc>
+	<baseDesc>[PAWN_nameDef]ï¿½ï¿½ï¿½s parents died when {PAWN_gender ? he : she} was very young. In order to survive, {PAWN_gender ? he : she} joined a gang of child criminals. The gang worked together to steal food and valuables, distributing the goods amongst themselves so that everyone could eat. [PAWN_nameDef] began as a lookout, but soon moved on to robbery due to  {PAWN_gender ? his : her} intimidating demeanour and skill with a knife.</baseDesc>
 	<skillGains>
 	<Melee>3</Melee>
 </skillGains>
@@ -774,7 +774,7 @@
 	<slot>Childhood</slot>
 	<title>Orphan boy</title>
 	 <titleShort>Orphan</titleShort>
-	<baseDesc>[PAWN_nameDef]ÔÇÖs parents abandoned {PAWN_gender ? him : her} as an infant, leaving {PAWN_gender ? him : her} at a monastery. The monks who took care of [PAWN_nameDef] taught {PAWN_gender ? him : her} how to read and write, as well as how to make the wine that the monks sold so that they could buy food for the poor.</baseDesc>
+	<baseDesc>[PAWN_nameDef]ï¿½ï¿½ï¿½s parents abandoned {PAWN_gender ? him : her} as an infant, leaving {PAWN_gender ? him : her} at a monastery. The monks who took care of [PAWN_nameDef] taught {PAWN_gender ? him : her} how to read and write, as well as how to make the wine that the monks sold so that they could buy food for the poor.</baseDesc>
 	<skillGains>
 	<Intellectual>3</Intellectual>
 	<Cooking>3</Cooking>
@@ -796,7 +796,7 @@
 	<slot>Childhood</slot>
 	<title>Orphan girl</title>
 	 <titleShort>Orphan</titleShort>
-	<baseDesc>[PAWN_nameDef]ÔÇÖs parents abandoned {PAWN_gender ? him : her} as an infant, leaving {PAWN_gender ? him : her} at a monastery. The nuns who took care of [PAWN_nameDef] taught {PAWN_gender ? him : her} how to read and write, as well as how to weave the cloth that was used to make clothing for the poor.</baseDesc>
+	<baseDesc>[PAWN_nameDef]ï¿½ï¿½ï¿½s parents abandoned {PAWN_gender ? him : her} as an infant, leaving {PAWN_gender ? him : her} at a monastery. The nuns who took care of [PAWN_nameDef] taught {PAWN_gender ? him : her} how to read and write, as well as how to weave the cloth that was used to make clothing for the poor.</baseDesc>
 	<skillGains>
 	<Intellectual>3</Intellectual>
 	<Crafting>3</Crafting>
@@ -857,10 +857,7 @@
 		 <li>ManualSkilled</li>
     </workDisables>
 	<forcedTraits>
-        <li>
-            <defName>Immunity</defName>
-            <degree>-1</degree>
-        </li>
+        <Immunity>-1</Immunity>
     </forcedTraits>
 		 </BackstoryDef>
 
@@ -886,12 +883,9 @@
 	<slot>Childhood</slot>
 	<title>Changeling</title>
 	 <titleShort>Changeling</titleShort>
-	<baseDesc>It was believed that [PAWN_nameDef] was a changeling, a fae who was left in place of a human baby stolen by fairies, due in part to {PAWN_gender ? his : her} unfortunate looks and low intelligence. Because {PAWN_gender ? his : her} parents didnÔÇÖt believe {PAWN_gender ? he : she} was their real child, [PAWN_nameDef] was often mistreated and forced to do extra chores.</baseDesc>
+	<baseDesc>It was believed that [PAWN_nameDef] was a changeling, a fae who was left in place of a human baby stolen by fairies, due in part to {PAWN_gender ? his : her} unfortunate looks and low intelligence. Because {PAWN_gender ? his : her} parents didnï¿½ï¿½ï¿½t believe {PAWN_gender ? he : she} was their real child, [PAWN_nameDef] was often mistreated and forced to do extra chores.</baseDesc>
 	    <forcedTraits>
-        <li>
-            <defName>Beauty</defName>
-            <degree>-2</degree>
-        </li>
+        <Beauty>-2</Beauty>
     </forcedTraits>
 	   <skillGains>
 	<Animals>1</Animals>
@@ -920,7 +914,7 @@
 	<slot>Childhood</slot>
 	<title>Adventurous youth</title>
 	 <titleShort>Adventurous youth</titleShort>
-	<baseDesc>[PAWN_nameDef] lived in a town that was on the main road to the kingdomÔÇÖs capital. Watching the comings and goings of travellers filled {PAWN_gender ? him : her} with a desire to see the world. A passerby once told [PAWN_nameDef] that to travel, one must either know how to swing a sword or have the money to pay someone who can. Taking these words to heart, [PAWN_nameDef] began practising every day with a large, vaguely sword-like tree branch.</baseDesc>
+	<baseDesc>[PAWN_nameDef] lived in a town that was on the main road to the kingdomï¿½ï¿½ï¿½s capital. Watching the comings and goings of travellers filled {PAWN_gender ? him : her} with a desire to see the world. A passerby once told [PAWN_nameDef] that to travel, one must either know how to swing a sword or have the money to pay someone who can. Taking these words to heart, [PAWN_nameDef] began practising every day with a large, vaguely sword-like tree branch.</baseDesc>
 	<skillGains>
 	<Melee>3</Melee>
 </skillGains>
