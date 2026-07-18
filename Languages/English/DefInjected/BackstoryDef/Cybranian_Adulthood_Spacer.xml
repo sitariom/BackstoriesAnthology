@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   <UB_Cybranian_Adulthood_Implant_Specialist.title>Implant specialist</UB_Cybranian_Adulthood_Implant_Specialist.title>
   <UB_Cybranian_Adulthood_Implant_Specialist.titleShort>Specialist</UB_Cybranian_Adulthood_Implant_Specialist.titleShort>
@@ -54,5 +54,4 @@
   <UB_Cybranian_Adulthood_Airship_Engineer.description>[PAWN_nameDef] builds and designs enormous aircraft called airships.</UB_Cybranian_Adulthood_Airship_Engineer.description>
   <UB_Cybranian_Adulthood_Rebel_Space.title>Space rebel</UB_Cybranian_Adulthood_Rebel_Space.title>
   <UB_Cybranian_Adulthood_Rebel_Space.titleShort>Rebel</UB_Cybranian_Adulthood_Rebel_Space.titleShort>
-  <UB_Cybranian_Adulthood_Rebel_Space.description>[PAWN_nameDef] is part of a small anarchist organization that seeks to return to the past.</UB_Cybranian_Adulthood_Rebel_Space.description>
-</LanguageData>
+  <UB_Cybranian_Adulthood_Rebel_Space.description>[PAWN_nameDef] is part of a small anarchist organization that seeks to return to the past.</UB_Cybranian_Adulthood_Rebel_Space.description></LanguageData>

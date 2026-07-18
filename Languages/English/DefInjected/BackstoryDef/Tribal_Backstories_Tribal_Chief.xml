@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   <UB_Tribal_ChildChief.title>Child of the chief</UB_Tribal_ChildChief.title>
   <UB_Tribal_ChildChief.titleShort>Future chief</UB_Tribal_ChildChief.titleShort>
   <UB_Tribal_ChildChief.description>As the firstborn of [PAWN_possessive] tribe’s chief, [PAWN_nameDef]’s training as the tribe’s future leader began almost from birth. [PAWN_pronoun] was taught that a wise leader must always carefully listen to what [PAWN_possessive] people want, but never lose sight of what they need.</UB_Tribal_ChildChief.description>
   <UB_Tribal_FutureChief.title>Future chief</UB_Tribal_FutureChief.title>
-  <UB_Tribal_FutureChief.description>[PAWN_nameDef] was next in line to become the chief of [PAWN_possessive] tribe. [PAWN_pronoun] performed many of the duties that a chief would, such as resolving disputes and assisting in performing important ceremonies. [PAWN_nameDef] was very well-liked, and almost everyone agreed that [PAWN_pronoun] would be a wonderful leader.</UB_Tribal_FutureChief.description>
-</LanguageData>
+  <UB_Tribal_FutureChief.description>[PAWN_nameDef] was next in line to become the chief of [PAWN_possessive] tribe. [PAWN_pronoun] performed many of the duties that a chief would, such as resolving disputes and assisting in performing important ceremonies. [PAWN_nameDef] was very well-liked, and almost everyone agreed that [PAWN_pronoun] would be a wonderful leader.</UB_Tribal_FutureChief.description></LanguageData>

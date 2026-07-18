@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   <UB_SNS_ChildEngineer.title>Vent crawler</UB_SNS_ChildEngineer.title>
   <UB_SNS_ChildEngineer.titleShort>Vent Crawler</UB_SNS_ChildEngineer.titleShort>
-  <UB_SNS_ChildEngineer.description>[PAWN_nameDef] was born aboard a tightly-packed gravship with barely any room for them. [PAWN_pronoun] would commonly spend any time not doing chores inside of the ships ventilation system reading books, doodling, and messing with random wires and cables into little gadgets and doo-dads.</UB_SNS_ChildEngineer.description>
-</LanguageData>
+  <UB_SNS_ChildEngineer.description>[PAWN_nameDef] was born aboard a tightly-packed gravship with barely any room for them. [PAWN_pronoun] would commonly spend any time not doing chores inside of the ships ventilation system reading books, doodling, and messing with random wires and cables into little gadgets and doo-dads.</UB_SNS_ChildEngineer.description></LanguageData>

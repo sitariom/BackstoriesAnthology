@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   <UB_Seal_SwampHermit.title>swamp hermit</UB_Seal_SwampHermit.title>
   <UB_Seal_SwampHermit.titleShort>hermit</UB_Seal_SwampHermit.titleShort>
@@ -26,5 +26,4 @@
   <UB_Seal_MegalithBuilder.description>[PAWN_nameDef] built megaliths in honor of higher powers. [PAWN_pronoun] extracted gigantic stone blocks from cliffs and carried them with other builders to the spot where they would be erected. Sometimes the location chosed was several kilometers away. Such a journey required careful planning and lots of strength.</UB_Seal_MegalithBuilder.description>
   <UB_Seal_BoneCrafter.title>bone crafter</UB_Seal_BoneCrafter.title>
   <UB_Seal_BoneCrafter.titleShort>crafter</UB_Seal_BoneCrafter.titleShort>
-  <UB_Seal_BoneCrafter.description>[PAWN_nameDef] used to wander the forest and the littoral looking for wild animal skeletons. After an attentive cleaning process, [PAWN_pronoun] would craft trinkets out of the bones or put on display the most impressive skulls.</UB_Seal_BoneCrafter.description>
-</LanguageData>
+  <UB_Seal_BoneCrafter.description>[PAWN_nameDef] used to wander the forest and the littoral looking for wild animal skeletons. After an attentive cleaning process, [PAWN_pronoun] would craft trinkets out of the bones or put on display the most impressive skulls.</UB_Seal_BoneCrafter.description></LanguageData>

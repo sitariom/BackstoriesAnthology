@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   <UB_BTC_Adulthood_Terrorist02.title>demolitions showman</UB_BTC_Adulthood_Terrorist02.title>
   <UB_BTC_Adulthood_Terrorist02.titleShort>fatman</UB_BTC_Adulthood_Terrorist02.titleShort>
@@ -11,5 +11,4 @@
 
 <UB_BTC_Adulthood_Planetbreaker.description>[PAWN_nameDef] neutralized IEDs for a frontier bomb disposal unit, until pirates conscripted [PAWN_objective] to breach rival compounds. Now [PAWN_pronoun] compulsively rigs defensive positions with improvised munitions, muttering about "artistic detonations".</UB_BTC_Adulthood_Planetbreaker.description>
 <UB_BTC_Adulthood_PowderGanger01.description>[PAWN_nameDef] neutralized IEDs for a frontier bomb disposal unit, until pirates conscripted [PAWN_objective] to breach rival compounds. Now [PAWN_pronoun] compulsively rigs defensive positions with improvised munitions, muttering about "artistic detonations".</UB_BTC_Adulthood_PowderGanger01.description>
-<UB_BTC_Adulthood_StaticEater.description>[PAWN_nameDef] neutralized IEDs for a frontier bomb disposal unit, until pirates conscripted [PAWN_objective] to breach rival compounds. Now [PAWN_pronoun] compulsively rigs defensive positions with improvised munitions, muttering about "artistic detonations".</UB_BTC_Adulthood_StaticEater.description>
-</LanguageData>
+<UB_BTC_Adulthood_StaticEater.description>[PAWN_nameDef] neutralized IEDs for a frontier bomb disposal unit, until pirates conscripted [PAWN_objective] to breach rival compounds. Now [PAWN_pronoun] compulsively rigs defensive positions with improvised munitions, muttering about "artistic detonations".</UB_BTC_Adulthood_StaticEater.description></LanguageData>

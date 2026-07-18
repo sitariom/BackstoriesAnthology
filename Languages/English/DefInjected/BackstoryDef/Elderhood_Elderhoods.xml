@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   <UB_Elderhood_PlayerColonist.title>Colony old man</UB_Elderhood_PlayerColonist.title>
   <UB_Elderhood_PlayerColonist.titleFemale>Colony old woman</UB_Elderhood_PlayerColonist.titleFemale>
@@ -214,5 +214,4 @@
   <UB_Elderhood_Anchorman.titleFemale>Anchorwoman</UB_Elderhood_Anchorman.titleFemale>
   <UB_Elderhood_Anchorman.titleShort>Anchorman</UB_Elderhood_Anchorman.titleShort>
   <UB_Elderhood_Anchorman.titleShortFemale>Anchorwoman</UB_Elderhood_Anchorman.titleShortFemale>
-  <UB_Elderhood_Anchorman.description>[PAWN_nameDef] has been broadcasting on one of the TV channels of {PAWN_gender ? his : her} outlying world for many years. It seems that {PAWN_gender ? his : her} face is known to every inhabitant of the planet, but {PAWN_gender ? he : she} understands that sooner or later {PAWN_gender ? he : she} will have to leave.</UB_Elderhood_Anchorman.description>
-</LanguageData>
+  <UB_Elderhood_Anchorman.description>[PAWN_nameDef] has been broadcasting on one of the TV channels of {PAWN_gender ? his : her} outlying world for many years. It seems that {PAWN_gender ? his : her} face is known to every inhabitant of the planet, but {PAWN_gender ? he : she} understands that sooner or later {PAWN_gender ? he : she} will have to leave.</UB_Elderhood_Anchorman.description></LanguageData>

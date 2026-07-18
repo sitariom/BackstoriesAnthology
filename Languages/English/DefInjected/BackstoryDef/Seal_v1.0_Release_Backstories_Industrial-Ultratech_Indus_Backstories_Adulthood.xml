@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   <UB_Seal_LostTourist.title>lost tourist</UB_Seal_LostTourist.title>
   <UB_Seal_LostTourist.titleShort>tourist</UB_Seal_LostTourist.titleShort>
@@ -112,5 +112,4 @@
   <UB_Seal_Peacekeeper.description>[PAWN_nameDef] maintained order in the street of an overpopulated urbworld. [PAWN_pronoun] was allowed to use [PAWN_possessive] lethal weapons if [PAWN_pronoun] deemed it necessary.\n\nOf course, incidents were frequent and [PAWN_pronoun] wasn't welcomed in a lot of streets, to the point where most of the city became dangerous for [PAWN_objective].</UB_Seal_Peacekeeper.description>
   <UB_Seal_PigFarmer.title>pig farmer</UB_Seal_PigFarmer.title>
   <UB_Seal_PigFarmer.titleShort>farmer</UB_Seal_PigFarmer.titleShort>
-  <UB_Seal_PigFarmer.description>[PAWN_nameDef] worked in an industrial pig farm, where several thousand of animals were tightly kept and fed nutrient paste full of growth hormones. [PAWN_pronoun] had to maintain the dispensers and bring the pigs to the butchering section. Almost everything in the complex was automated, but [PAWN_possessive] help was often needed whenever machines broke.</UB_Seal_PigFarmer.description>
-</LanguageData>
+  <UB_Seal_PigFarmer.description>[PAWN_nameDef] worked in an industrial pig farm, where several thousand of animals were tightly kept and fed nutrient paste full of growth hormones. [PAWN_pronoun] had to maintain the dispensers and bring the pigs to the butchering section. Almost everything in the complex was automated, but [PAWN_possessive] help was often needed whenever machines broke.</UB_Seal_PigFarmer.description></LanguageData>

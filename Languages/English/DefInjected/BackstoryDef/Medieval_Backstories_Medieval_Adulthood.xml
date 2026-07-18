@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   <UB_Medieval_Alchemist.title>Alchemist</UB_Medieval_Alchemist.title>
   <UB_Medieval_Alchemist.description>[PAWN_nameDef] devoted [PAWN_possessive] life to continuing [PAWN_possessive] master’s quest to discover the formula for the legendary Panacea Elixir and cure all of the world’s illnesses. [PAWN_pronoun] became renowned as an expert in medicine, and many people came to [PAWN_objective] when they were sick or injured.</UB_Medieval_Alchemist.description>
@@ -70,7 +70,7 @@
   <UB_Medieval_Goldsmith.title>Goldsmith</UB_Medieval_Goldsmith.title>
   <UB_Medieval_Goldsmith.description>[PAWN_nameDef] crafted jewellery and other trinkets out of gold. Because he worked with such valuable materials, [PAWN_possessive] customers tended to be almost exclusively wealthy nobles. [PAWN_nameDef] had to know how to behave appropriately when dealing with the upper class, and was an expert on etiquette.</UB_Medieval_Goldsmith.description>
   <UB_Medieval_Silversmith.title>Silversmith</UB_Medieval_Silversmith.title>
-  <UB_Medieval_Silversmith.description>[PAWN_nameDef] crafted jewellery and other trinkets out of silver. Most of [PAWN_possessive] customers were successful, worldly merchants. [PAWN_nameDef] learned a great deal about all manner of things from listening to tales of [PAWN_possessive] customers’ travels. </UB_Medieval_Silversmith.description>
+  <UB_Medieval_Silversmith.description>[PAWN_nameDef] crafted jewellery and other trinkets out of silver. Most of [PAWN_possessive] customers were successful, worldly merchants. [PAWN_nameDef] learned a great deal about all manner of things from listening to tales of [PAWN_possessive] customers’ travels.</UB_Medieval_Silversmith.description>
   <UB_Medieval_BusyBlacksmith.title>Busy blacksmith</UB_Medieval_BusyBlacksmith.title>
   <UB_Medieval_BusyBlacksmith.titleShort>Blacksmith</UB_Medieval_BusyBlacksmith.titleShort>
   <UB_Medieval_BusyBlacksmith.description>[PAWN_nameDef] forged tools and weapons from metal. [PAWN_pronoun] worked in a town that was along a busy trade route, and had to be skilled at making and repairing a large variety of goods for the people who lived there, as well as for the many travellers who passed through. Constantly hammering metal made [PAWN_nameDef] extremely strong.</UB_Medieval_BusyBlacksmith.description>
@@ -165,5 +165,4 @@
   <UB_Medieval_VillageFool.title>Village fool</UB_Medieval_VillageFool.title>
   <UB_Medieval_VillageFool.description>[PAWN_nameDef]’s very existence served as a form of entertainment for [PAWN_possessive] village. [PAWN_possessive] strange appearance and lack of intelligence was a source of derision, pity, and amusement for those around [PAWN_objective]. The people of [PAWN_nameDef]’s village fed and clothed [PAWN_objective] in exchange for  [PAWN_possessive] unwitting service.</UB_Medieval_VillageFool.description>
   <UB_Medieval_MonsterSlayer.title>Monster slayer</UB_Medieval_MonsterSlayer.title>
-  <UB_Medieval_MonsterSlayer.description>[PAWN_nameDef] travelled far and wide, offering [PAWN_possessive] services as a slayer of monsters. [PAWN_pronoun] received a decent amount of work, mostly from peasants terrified of horrifying creatures stealing their children and livestock. The “monsters” almost always turned out to be wolves, but [PAWN_nameDef] got paid all the same. [PAWN_pronoun] held out hope that, someday, he would get to test [PAWN_objective]self against a real monster.</UB_Medieval_MonsterSlayer.description>
-</LanguageData>
+  <UB_Medieval_MonsterSlayer.description>[PAWN_nameDef] travelled far and wide, offering [PAWN_possessive] services as a slayer of monsters. [PAWN_pronoun] received a decent amount of work, mostly from peasants terrified of horrifying creatures stealing their children and livestock. The “monsters” almost always turned out to be wolves, but [PAWN_nameDef] got paid all the same. [PAWN_pronoun] held out hope that, someday, he would get to test [PAWN_objective]self against a real monster.</UB_Medieval_MonsterSlayer.description></LanguageData>

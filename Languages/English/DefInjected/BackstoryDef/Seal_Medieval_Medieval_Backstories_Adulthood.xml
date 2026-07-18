@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   <UB_Seal_Arsonist.title>arsonist</UB_Seal_Arsonist.title>
   <UB_Seal_Arsonist.description>[PAWN_nameDef] strongly believed that the world needed to be purified with fire. It was the solution to most problems and if needed, [PAWN_pronoun] started the fire [PAWN_objective]self. Wanted for arson and destruction of private property, [PAWN_pronoun] fled across the country and managed to never get caught.</UB_Seal_Arsonist.description>
   <UB_Seal_QuarrySlave.title>quarry slave</UB_Seal_QuarrySlave.title>
   <UB_Seal_QuarrySlave.titleShort>slave</UB_Seal_QuarrySlave.titleShort>
-  <UB_Seal_QuarrySlave.description>After being found guilty of theft, [PAWN_nameDef] was sent to work in a quarry as a punishment. Living conditions were disastrous and the work was dangerous. Other slaves often ended up severly injured, and protests were severely repressed by reducing the daily food rations.</UB_Seal_QuarrySlave.description>
-</LanguageData>
+  <UB_Seal_QuarrySlave.description>After being found guilty of theft, [PAWN_nameDef] was sent to work in a quarry as a punishment. Living conditions were disastrous and the work was dangerous. Other slaves often ended up severly injured, and protests were severely repressed by reducing the daily food rations.</UB_Seal_QuarrySlave.description></LanguageData>

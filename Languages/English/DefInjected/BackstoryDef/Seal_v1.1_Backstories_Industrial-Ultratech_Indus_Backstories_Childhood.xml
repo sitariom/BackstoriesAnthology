@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   <UB_Seal_IllegalHabitatDweller.title>habitat dweller</UB_Seal_IllegalHabitatDweller.title>
   <UB_Seal_IllegalHabitatDweller.description>[PAWN_nameDef] began [PAWN_possessive] life in a pressurized deadworld habitat where resources and space were scarce. [PAWN_possessive] birth was deemed illegal by the local authorities, as the right to procreate was only given to upper-class dwellers. [PAWN_possessive] parents being recent migrants, they were punished by a gargantuan taxation rate and doomed to live in poverty. [PAWN_nameDef] had no other choice than to help them by working hard doing various menial jobs to afford their familial closet-sized habitation. [PAWN_pronoun] unfortunately had little time to study.</UB_Seal_IllegalHabitatDweller.description>
@@ -15,5 +15,4 @@
   <UB_Seal_ChemfuelFarmChild.titleFemale>chemfuel farm girl</UB_Seal_ChemfuelFarmChild.titleFemale>
   <UB_Seal_ChemfuelFarmChild.titleShort>farm boy</UB_Seal_ChemfuelFarmChild.titleShort>
   <UB_Seal_ChemfuelFarmChild.titleShortFemale>farm girl</UB_Seal_ChemfuelFarmChild.titleShortFemale>
-  <UB_Seal_ChemfuelFarmChild.description>[PAWN_nameDef]'s family owned a small chemfuel farm. They had dozens of rocketrees and tapped them to sell fuel to nearby settlements. Fires often broke out, but they were quickly contained by the autonomous firefoam launchers.</UB_Seal_ChemfuelFarmChild.description>
-</LanguageData>
+  <UB_Seal_ChemfuelFarmChild.description>[PAWN_nameDef]'s family owned a small chemfuel farm. They had dozens of rocketrees and tapped them to sell fuel to nearby settlements. Fires often broke out, but they were quickly contained by the autonomous firefoam launchers.</UB_Seal_ChemfuelFarmChild.description></LanguageData>

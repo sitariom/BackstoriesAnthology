@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   <UB_More_Replicant.title>Replicant</UB_More_Replicant.title>
-  <UB_More_Replicant.description>[PAWN_nameDef] was part of a line of androids that were designed to be indistinguishable from humans. Despite their ingenious design, their lack of significant advantages over regular humans lead to them being mostly discontinued. </UB_More_Replicant.description>
+  <UB_More_Replicant.description>[PAWN_nameDef] was part of a line of androids that were designed to be indistinguishable from humans. Despite their ingenious design, their lack of significant advantages over regular humans lead to them being mostly discontinued.</UB_More_Replicant.description>
   <UB_More_Childworker.title>Child Worker</UB_More_Childworker.title>
   <UB_More_Childworker.titleShort>Worker</UB_More_Childworker.titleShort>
   <UB_More_Childworker.description>[PAWN_nameDef] was made to work in an urbworld factory producing a part which [PAWN_nameDef] still doesn't know the purpose of.</UB_More_Childworker.description>
   <UB_More_Smart_Aleck.title>Smart Aleck</UB_More_Smart_Aleck.title>
   <UB_More_Smart_Aleck.titleShort>Smart</UB_More_Smart_Aleck.titleShort>
-  <UB_More_Smart_Aleck.description>[PAWN_nameDef] was always at the top of [PAWN_possessive] class, but [PAWN_possessive] classmates found [PAWN_possessive] constant trivia to be annoying. </UB_More_Smart_Aleck.description>
+  <UB_More_Smart_Aleck.description>[PAWN_nameDef] was always at the top of [PAWN_possessive] class, but [PAWN_possessive] classmates found [PAWN_possessive] constant trivia to be annoying.</UB_More_Smart_Aleck.description>
   <UB_More_Sacrifice.title>Sacrifice</UB_More_Sacrifice.title>
   <UB_More_Sacrifice.description>[PAWN_nameDef] was born to be ritually sacrificed and have [PAWN_possessive] flesh consumed by the congregation. A criminal investigator helped [PAWN_objective] to escape. [PAWN_nameDef] still remembers what [PAWN_pronoun] learned on the compound.</UB_More_Sacrifice.description>
   <UB_More_Raisedbyapes.title>Raised by Apes</UB_More_Raisedbyapes.title>
@@ -27,7 +27,7 @@
   <UB_More_TheaterKid.description>[PAWN_nameDef] never shy'd away from the melodramatic. [PAWN_nameDef] has starred in dozens of productions showcasing teenage angst, violence, and a face value view of romance.</UB_More_TheaterKid.description>
   <UB_More_Bandit.title>Uneducated bandit</UB_More_Bandit.title>
   <UB_More_Bandit.titleShort>Bandit</UB_More_Bandit.titleShort>
-  <UB_More_Bandit.description>[PAWN_nameDef] didn't need none of that "booklernin". [PAWN_nameDef] learned everything [PAWN_pronoun] needed to know about, like making weapons, killing, and raiding, and [PAWN_nameDef]'s never seen a book that covers all of that. Although, that might also be because [PAWN_pronoun] can't read. </UB_More_Bandit.description>
+  <UB_More_Bandit.description>[PAWN_nameDef] didn't need none of that "booklernin". [PAWN_nameDef] learned everything [PAWN_pronoun] needed to know about, like making weapons, killing, and raiding, and [PAWN_nameDef]'s never seen a book that covers all of that. Although, that might also be because [PAWN_pronoun] can't read.</UB_More_Bandit.description>
   <UB_More_CloneDiver.title>Clone Diver</UB_More_CloneDiver.title>
   <UB_More_CloneDiver.titleShort>Diver</UB_More_CloneDiver.titleShort>
   <UB_More_CloneDiver.description>[PAWN_nameDef] was vatgrown for the purpose of harvesting algae off the ocean floor on a land-less world. While not the most glamorous of jobs, [PAWN_nameDef] enjoyed the beautiful scenery. [PAWN_possessive] time underwater prevented [PAWN_objective] from having many friends.</UB_More_CloneDiver.description>
@@ -36,5 +36,4 @@
   <UB_More_ChildSoldier.description>[PAWN_nameDef] was born to be a soldier in a great war. After spending their whole childhood preparing for battle, peacetalks with rival nations ended [PAWN_possessive] chance to become a hero. Although they didn't get a true education, [PAWN_possessive] time working in the cantine taught them how to make a mean grill cheese sandwhich.</UB_More_ChildSoldier.description>
   <UB_More_FaithHealer.title>Faith Healer</UB_More_FaithHealer.title>
   <UB_More_FaithHealer.titleShort>Healer</UB_More_FaithHealer.titleShort>
-  <UB_More_FaithHealer.description>[PAWN_nameDef] was the child of a doctor left behind on a tribal world. [PAWN_pronoun] used [PAWN_possessive] knowledge of medicine to heal the people, disguising [PAWN_possessive] true methods with rituals and magical rites. Disinfecting a wound became the ritual of Blood and Wine, while the act of putting pressure on a wound became the Pounding of Sin. [PAWN_nameDef]'s actions made [PAWN_objective] popular among the tribes. </UB_More_FaithHealer.description>
-</LanguageData>
+  <UB_More_FaithHealer.description>[PAWN_nameDef] was the child of a doctor left behind on a tribal world. [PAWN_pronoun] used [PAWN_possessive] knowledge of medicine to heal the people, disguising [PAWN_possessive] true methods with rituals and magical rites. Disinfecting a wound became the ritual of Blood and Wine, while the act of putting pressure on a wound became the Pounding of Sin. [PAWN_nameDef]'s actions made [PAWN_objective] popular among the tribes.</UB_More_FaithHealer.description></LanguageData>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   <UB_Medieval_AlchemistsApprentice.title>Alchemist’s apprentice</UB_Medieval_AlchemistsApprentice.title>
   <UB_Medieval_AlchemistsApprentice.description>[PAWN_nameDef] was the apprentice of a prominent alchemist. [PAWN_nameDef]’s master was determined to discover the formula for the legendary Panacea Elixir, a remedy to all illnesses. Under his tutelage, [PAWN_nameDef] learned about the medical sciences, including how to brew medicines from plants and herbs.</UB_Medieval_AlchemistsApprentice.description>
@@ -23,7 +23,7 @@
   <UB_Medieval_MerchantChild.titleShortFemale>Merchant’s daughter</UB_Medieval_MerchantChild.titleShortFemale>
   <UB_Medieval_MerchantChild.description>[PAWN_nameDef] was the child of a merchant. [PAWN_pronoun] often helped on market days by loading up the pack animals and making sure they were fit to travel. [PAWN_nameDef]'s family was moderately wealthy, and [PAWN_pronoun] was able to receive a basic education.</UB_Medieval_MerchantChild.description>
   <UB_Medieval_YoungKing.title>Young king</UB_Medieval_YoungKing.title>
-  <UB_Medieval_YoungKing.description>[PAWN_nameDef] was still a child when [PAWN_possessive] father, the king, died. As his oldest son, [PAWN_nameDef] was crowned as ruler despite [PAWN_possessive] young age. </UB_Medieval_YoungKing.description>
+  <UB_Medieval_YoungKing.description>[PAWN_nameDef] was still a child when [PAWN_possessive] father, the king, died. As his oldest son, [PAWN_nameDef] was crowned as ruler despite [PAWN_possessive] young age.</UB_Medieval_YoungKing.description>
   <UB_Medieval_YoungQueen.title>Young queen</UB_Medieval_YoungQueen.title>
   <UB_Medieval_YoungQueen.description>[PAWN_nameDef] was still a child when [PAWN_possessive] mother, the queen, died. As her oldest daughter, [PAWN_nameDef] was crowned as ruler despite [PAWN_possessive] young age.</UB_Medieval_YoungQueen.description>
   <UB_Medieval_HeirToTheThrone.title>Heir to the throne</UB_Medieval_HeirToTheThrone.title>
@@ -106,5 +106,4 @@
   <UB_Medieval_Changeling.title>Changeling</UB_Medieval_Changeling.title>
   <UB_Medieval_Changeling.description>It was believed that [PAWN_nameDef] was a changeling, a fae who was left in place of a human baby stolen by fairies, due in part to [PAWN_possessive] unfortunate looks and low intelligence. Because [PAWN_possessive] parents didn’t believe [PAWN_pronoun] was their real child, [PAWN_nameDef] was often mistreated and forced to do extra chores.</UB_Medieval_Changeling.description>
   <UB_Medieval_AdventurousYouth.title>Adventurous youth</UB_Medieval_AdventurousYouth.title>
-  <UB_Medieval_AdventurousYouth.description>[PAWN_nameDef] lived in a town that was on the main road to the kingdom’s capital. Watching the comings and goings of travellers filled [PAWN_objective] with a desire to see the world. A passerby once told [PAWN_nameDef] that to travel, one must either know how to swing a sword or have the money to pay someone who can. Taking these words to heart, [PAWN_nameDef] began practising every day with a large, vaguely sword-like tree branch.</UB_Medieval_AdventurousYouth.description>
-</LanguageData>
+  <UB_Medieval_AdventurousYouth.description>[PAWN_nameDef] lived in a town that was on the main road to the kingdom’s capital. Watching the comings and goings of travellers filled [PAWN_objective] with a desire to see the world. A passerby once told [PAWN_nameDef] that to travel, one must either know how to swing a sword or have the money to pay someone who can. Taking these words to heart, [PAWN_nameDef] began practising every day with a large, vaguely sword-like tree branch.</UB_Medieval_AdventurousYouth.description></LanguageData>

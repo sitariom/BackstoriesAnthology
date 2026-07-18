@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   <UB_Tribal_SacredDancer.title>Sacred dancer</UB_Tribal_SacredDancer.title>
   <UB_Tribal_SacredDancer.titleShort>Dancer</UB_Tribal_SacredDancer.titleShort>
@@ -7,7 +7,7 @@
   <UB_Tribal_EscapedSacrifice.titleShort>Escapee</UB_Tribal_EscapedSacrifice.titleShort>
   <UB_Tribal_EscapedSacrifice.description>[PAWN_nameDef] was the sole survivor of another tribe’s raid on [PAWN_possessive] village. Taken prisoner, [PAWN_pronoun] was intended as a sacrifice to appease the enemy’s bloodthirsty god. Through strength, cunning, and luck, [PAWN_nameDef] made a daring escape.</UB_Tribal_EscapedSacrifice.description>
   <UB_Tribal_CalendarKeeper.title>Calendar keeper</UB_Tribal_CalendarKeeper.title>
-  <UB_Tribal_CalendarKeeper.description>[PAWN_nameDef] was responsible for keeping track of counting the days for [PAWN_possessive] tribe. [PAWN_possessive] job involved tracking lunar cycles, studying constellations, and predicting the optimal growing seasons. </UB_Tribal_CalendarKeeper.description>
+  <UB_Tribal_CalendarKeeper.description>[PAWN_nameDef] was responsible for keeping track of counting the days for [PAWN_possessive] tribe. [PAWN_possessive] job involved tracking lunar cycles, studying constellations, and predicting the optimal growing seasons.</UB_Tribal_CalendarKeeper.description>
   <UB_Tribal_BeastMaster.title>Beast master</UB_Tribal_BeastMaster.title>
   <UB_Tribal_BeastMaster.description>[PAWN_nameDef] was believed to have supernatural powers that allowed [PAWN_objective] to tame any animal. [PAWN_pronoun] was often called upon when dangerous creatures were spotted near [PAWN_possessive] village in order to soothe the wild beasts.</UB_Tribal_BeastMaster.description>
   <UB_Tribal_MonumentCarver.title>Monument carver</UB_Tribal_MonumentCarver.title>
@@ -40,14 +40,14 @@
   <UB_Tribal_VisionGuide.title>Vision guide</UB_Tribal_VisionGuide.title>
   <UB_Tribal_VisionGuide.description>With the aid of hallucinogenic plants, [PAWN_nameDef] helped to guide members of [PAWN_possessive] tribe on their spiritual journeys.</UB_Tribal_VisionGuide.description>
   <UB_Tribal_FurTrader.title>Fur trader</UB_Tribal_FurTrader.title>
-  <UB_Tribal_FurTrader.description>[PAWN_nameDef] traveled far and wide, trading the furs of the creatures [PAWN_possessive] tribe hunted for other goods. [PAWN_pronoun] was skilled with words, and was always able to make a favourable deal. </UB_Tribal_FurTrader.description>
+  <UB_Tribal_FurTrader.description>[PAWN_nameDef] traveled far and wide, trading the furs of the creatures [PAWN_possessive] tribe hunted for other goods. [PAWN_pronoun] was skilled with words, and was always able to make a favourable deal.</UB_Tribal_FurTrader.description>
   <UB_Tribal_RecordKeeper.title>Record keeper</UB_Tribal_RecordKeeper.title>
   <UB_Tribal_RecordKeeper.description>[PAWN_nameDef] recorded important information relating to trade using clay tablets and small knotted ropes. [PAWN_pronoun] kept track of numbers and values and helped to resolve disputes.</UB_Tribal_RecordKeeper.description>
   <UB_Tribal_ClubHunter.title>Club hunter</UB_Tribal_ClubHunter.title>
-  <UB_Tribal_ClubHunter.description>[PAWN_nameDef] hunted for food for [PAWN_possessive] tribe using a large club. [PAWN_pronoun] refused to use a bow and arrow like the other hunters, much preferring to bludgeon things to death. </UB_Tribal_ClubHunter.description>
+  <UB_Tribal_ClubHunter.description>[PAWN_nameDef] hunted for food for [PAWN_possessive] tribe using a large club. [PAWN_pronoun] refused to use a bow and arrow like the other hunters, much preferring to bludgeon things to death.</UB_Tribal_ClubHunter.description>
   <UB_Tribal_TreeTender.title>Sacred tree tender</UB_Tribal_TreeTender.title>
   <UB_Tribal_TreeTender.titleShort>Tree tender</UB_Tribal_TreeTender.titleShort>
-  <UB_Tribal_TreeTender.description>[PAWN_nameDef] tended to [PAWN_possessive] tribe’s sacred tree, meditating beneath it in order to commune with it and ascertain its needs. [PAWN_nameDef]’s tree-assigned duties included keeping the area around it clear of any man-made structures, bringing it water during the dry months, and encouraging pest-eating creatures to live near it. </UB_Tribal_TreeTender.description>
+  <UB_Tribal_TreeTender.description>[PAWN_nameDef] tended to [PAWN_possessive] tribe’s sacred tree, meditating beneath it in order to commune with it and ascertain its needs. [PAWN_nameDef]’s tree-assigned duties included keeping the area around it clear of any man-made structures, bringing it water during the dry months, and encouraging pest-eating creatures to live near it.</UB_Tribal_TreeTender.description>
   <UB_Tribal_CavePainter.title>Cave painter</UB_Tribal_CavePainter.title>
   <UB_Tribal_CavePainter.description>[PAWN_nameDef] painted the stories of [PAWN_possessive] tribe on the walls of the cave system that they dwelt in. From commemorating marriages, births, and deaths, memorializing great hunts, and depicting important aspects of the tribe’s belief system, [PAWN_nameDef] was kept busy and seldom had a chance to wander outside.</UB_Tribal_CavePainter.description>
   <UB_Tribal_PloughPuller.title>Plough puller</UB_Tribal_PloughPuller.title>
@@ -60,5 +60,4 @@
   <UB_Tribal_FraudulentWitchDoctor.titleShort>Witch doctor</UB_Tribal_FraudulentWitchDoctor.titleShort>
   <UB_Tribal_FraudulentWitchDoctor.description>[PAWN_nameDef] enjoyed the prestige and power that came from being [PAWN_possessive] tribe’s witch doctor. [PAWN_nameDef] would invent fake ailments that [PAWN_pronoun] would claim [PAWN_pronoun] "knew" tribe members were suffering from in order to keep [PAWN_possessive] place of importance secure. In most cases, [PAWN_nameDef] would prescribe useless placebo herbs. Other times, [PAWN_pronoun] used mild poisons to make [PAWN_possessive] lies seem more legitimate.</UB_Tribal_FraudulentWitchDoctor.description>
   <UB_Tribal_CrazedWarrior.title>Crazed warrior</UB_Tribal_CrazedWarrior.title>
-  <UB_Tribal_CrazedWarrior.description>After surviving a battle that turned into a massacre, something in [PAWN_nameDef] simply snapped. [PAWN_pronoun] would constantly mutter to [PAWN_objective]self, get into fights with inanimate objects, and scream at random. Sometimes, [PAWN_nameDef] would attempt to injure [PAWN_objective]self, always eerily silent as [PAWN_pronoun] did so.</UB_Tribal_CrazedWarrior.description>
-</LanguageData>
+  <UB_Tribal_CrazedWarrior.description>After surviving a battle that turned into a massacre, something in [PAWN_nameDef] simply snapped. [PAWN_pronoun] would constantly mutter to [PAWN_objective]self, get into fights with inanimate objects, and scream at random. Sometimes, [PAWN_nameDef] would attempt to injure [PAWN_objective]self, always eerily silent as [PAWN_pronoun] did so.</UB_Tribal_CrazedWarrior.description></LanguageData>

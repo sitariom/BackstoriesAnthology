@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   <UB_SNS_ChildWildClowns.title>Clown-Raised</UB_SNS_ChildWildClowns.title>
   <UB_SNS_ChildWildClowns.titleShort>Clownborne</UB_SNS_ChildWildClowns.titleShort>
-  <UB_SNS_ChildWildClowns.description>[PAWN_nameDef] was raised in the wilderness by a pack of wild clowns. Whether they were feral humans who found the clothes, or simply a comedy act gone too far, nobody knows. They tried, and failed to teach [PAWN_nameDef] any skills to survive in the wild. But they did teach [PAWN_objective] to have a good sense of 'humor.'</UB_SNS_ChildWildClowns.description>
-</LanguageData>
+  <UB_SNS_ChildWildClowns.description>[PAWN_nameDef] was raised in the wilderness by a pack of wild clowns. Whether they were feral humans who found the clothes, or simply a comedy act gone too far, nobody knows. They tried, and failed to teach [PAWN_nameDef] any skills to survive in the wild. But they did teach [PAWN_objective] to have a good sense of 'humor.'</UB_SNS_ChildWildClowns.description></LanguageData>

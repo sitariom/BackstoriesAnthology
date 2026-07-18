@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   <UB_SNS_BlacksiteEscapee.title>Blacksite escapee</UB_SNS_BlacksiteEscapee.title>
   <UB_SNS_BlacksiteEscapee.titleShort>Escapee</UB_SNS_BlacksiteEscapee.titleShort>
-  <UB_SNS_BlacksiteEscapee.description>[PAWN_nameDef] was in the wrong place at the wrong time. Kidnapped and convicted of a crime [PAWN_pronoun] didn't commit, [PAWN_nameDef] was sent to a prison planet. While incarcerated, [PAWN_pronoun] saw people being tortured almost daily, and had to do be resourceful to avoid being tortured themselves. [PAWN_nameDef] managed to escape one day after a pirate raid gave them enough time to reach the emergency escape shuttles.</UB_SNS_BlacksiteEscapee.description>
-</LanguageData>
+  <UB_SNS_BlacksiteEscapee.description>[PAWN_nameDef] was in the wrong place at the wrong time. Kidnapped and convicted of a crime [PAWN_pronoun] didn't commit, [PAWN_nameDef] was sent to a prison planet. While incarcerated, [PAWN_pronoun] saw people being tortured almost daily, and had to do be resourceful to avoid being tortured themselves. [PAWN_nameDef] managed to escape one day after a pirate raid gave them enough time to reach the emergency escape shuttles.</UB_SNS_BlacksiteEscapee.description></LanguageData>

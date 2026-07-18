@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   <UB_Saito_Cleaner.title>purgeworld janitor</UB_Saito_Cleaner.title>
   <UB_Saito_Cleaner.titleShort>janitor</UB_Saito_Cleaner.titleShort>
@@ -35,5 +35,4 @@
   <UB_Saito_Artist.description>[PAWN_nameDef] grew up on an artistic purgeworld, where all citizens were forced to compete in various art contests, and those whose art was judged below their peers would forcibly converted into biomass for use in art projects. [PAWN_nameDef]'s art proved to be among the best, but the ordeal scarred [PAWN_objective] greatly.</UB_Saito_Artist.description>
   <UB_Saito_Doctor.title>purgeworld doctor</UB_Saito_Doctor.title>
   <UB_Saito_Doctor.titleShort>doctor</UB_Saito_Doctor.titleShort>
-  <UB_Saito_Doctor.description>[PAWN_nameDef] grew up on a purgeworld obsessed with the human form, where all citizens were forced to study human anatomy, or be dissected alive. The constant studies under threat of slow, agonizing death gave [PAWN_nameDef] an intimate knowledge of the human body, while scarring [PAWN_objective] mentally.</UB_Saito_Doctor.description>
-</LanguageData>
+  <UB_Saito_Doctor.description>[PAWN_nameDef] grew up on a purgeworld obsessed with the human form, where all citizens were forced to study human anatomy, or be dissected alive. The constant studies under threat of slow, agonizing death gave [PAWN_nameDef] an intimate knowledge of the human body, while scarring [PAWN_objective] mentally.</UB_Saito_Doctor.description></LanguageData>

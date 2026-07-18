@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   <UB_SNS_KidMothFarmer.title>Moth farmer</UB_SNS_KidMothFarmer.title>
   <UB_SNS_KidMothFarmer.titleShort>Moth Farmer</UB_SNS_KidMothFarmer.titleShort>
-  <UB_SNS_KidMothFarmer.description>[PAWN_nameDef] was raised on [PAWN_possessive]'s family farm raising and caring for Silkmoths. [PAWN_possessive] main job was to harvest the delicate silk the moths would produce, and process it into beautiful bolts of moth silk and silken clothes. </UB_SNS_KidMothFarmer.description>
-</LanguageData>
+  <UB_SNS_KidMothFarmer.description>[PAWN_nameDef] was raised on [PAWN_possessive]'s family farm raising and caring for Silkmoths. [PAWN_possessive] main job was to harvest the delicate silk the moths would produce, and process it into beautiful bolts of moth silk and silken clothes.</UB_SNS_KidMothFarmer.description></LanguageData>

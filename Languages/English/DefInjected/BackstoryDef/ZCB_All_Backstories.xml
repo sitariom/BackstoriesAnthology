@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
   <!-- ZCB_Base_Backstories.xml -->
@@ -335,6 +335,4 @@
 
   <UB_ZCB_Assassin.title>assassin</UB_ZCB_Assassin.title>
   <UB_ZCB_Assassin.titleShort>assassin</UB_ZCB_Assassin.titleShort>
-  <UB_ZCB_Assassin.description>{PAWN_nameDef} loved watching {PAWN_gender ? his : her} enemies die through a scope. Or {PAWN_gender ? his : her} friends, {PAWN_gender ? he : she} wasn't picky.</UB_ZCB_Assassin.description>
-
-</LanguageData>
+  <UB_ZCB_Assassin.description>{PAWN_nameDef} loved watching {PAWN_gender ? his : her} enemies die through a scope. Or {PAWN_gender ? his : her} friends, {PAWN_gender ? he : she} wasn't picky.</UB_ZCB_Assassin.description></LanguageData>

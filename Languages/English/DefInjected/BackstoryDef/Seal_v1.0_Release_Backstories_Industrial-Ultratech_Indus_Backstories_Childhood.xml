@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   <UB_Seal_ChildMechanic.title>child mechanic</UB_Seal_ChildMechanic.title>
   <UB_Seal_ChildMechanic.titleShort>mechanic</UB_Seal_ChildMechanic.titleShort>
@@ -26,5 +26,4 @@
   <UB_Seal_FanfictionWriter.description>[PAWN_nameDef] spent most of [PAWN_possessive] free time writing stories about his [PAWN_possessive] favorite characters. [PAWN_pronoun] shared [PAWN_possessive] writings on the net on a niche forum.</UB_Seal_FanfictionWriter.description>
   <UB_Seal_JoywiredChild.title>joywired child</UB_Seal_JoywiredChild.title>
   <UB_Seal_JoywiredChild.titleShort>joywired</UB_Seal_JoywiredChild.titleShort>
-  <UB_Seal_JoywiredChild.description>[PAWN_nameDef] was born at a time where it was unfortunately common to implant newborns with joywires. A few years later, this practice was banned and joywires made illegal on [PAWN_possessive] homeworld. The chip was removed surgically and [PAWN_nameDef] discovered how the world truly felt. The reeducation was never enough to heal the permanent scar those early years left on [PAWN_possessive] psyche.</UB_Seal_JoywiredChild.description>
-</LanguageData>
+  <UB_Seal_JoywiredChild.description>[PAWN_nameDef] was born at a time where it was unfortunately common to implant newborns with joywires. A few years later, this practice was banned and joywires made illegal on [PAWN_possessive] homeworld. The chip was removed surgically and [PAWN_nameDef] discovered how the world truly felt. The reeducation was never enough to heal the permanent scar those early years left on [PAWN_possessive] psyche.</UB_Seal_JoywiredChild.description></LanguageData>

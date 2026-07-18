@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   <UB_Cybranian_Childhood_Gatherer_Assistant.title>Gatherer assistant</UB_Cybranian_Childhood_Gatherer_Assistant.title>
   <UB_Cybranian_Childhood_Gatherer_Assistant.titleShort>Assistant</UB_Cybranian_Childhood_Gatherer_Assistant.titleShort>
@@ -121,5 +121,4 @@
   <UB_Cybranian_Childhood_Keeper_Of_Children.title>Keeper of children</UB_Cybranian_Childhood_Keeper_Of_Children.title>
   <UB_Cybranian_Childhood_Keeper_Of_Children.description>[PAWN_nameDef] looks after the little children in the tribe.</UB_Cybranian_Childhood_Keeper_Of_Children.description>
   <UB_Cybranian_Childhood_Disobedient_Child.title>Disobedient child</UB_Cybranian_Childhood_Disobedient_Child.title>
-  <UB_Cybranian_Childhood_Disobedient_Child.description>[PAWN_nameDef] loves to get into trouble and does it regularly, despite punishment from the tribe.</UB_Cybranian_Childhood_Disobedient_Child.description>
-</LanguageData>
+  <UB_Cybranian_Childhood_Disobedient_Child.description>[PAWN_nameDef] loves to get into trouble and does it regularly, despite punishment from the tribe.</UB_Cybranian_Childhood_Disobedient_Child.description></LanguageData>

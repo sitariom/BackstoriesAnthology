@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   <UB_Seal_TribalKidNomad.title>nomad</UB_Seal_TribalKidNomad.title>
   <UB_Seal_TribalKidNomad.description>[PAWN_nameDef]'s parents were wanderers. They didn't belong to any tribe and travelled from village to village. [PAWN_pronoun] learned to forage for food and followed them on fishing and hunting trips when winter was harsh. Unfortunately, [PAWN_pronoun] never really socialized with other children, and preferred to stay with [PAWN_possessive] parents whenever they were staying in a settlement.</UB_Seal_TribalKidNomad.description>
@@ -11,5 +11,4 @@
   <UB_Seal_TribalKidTender.description>Learning from [PAWN_possessive] parents, [PAWN_nameDef] helped them heal injured warriors or sick people. [PAWN_pronoun] cleaned the wounds and sew them close again, or prepared various infusions.\n\nDeaths occured frequently, and each time, [PAWN_nameDef] couldn't chase the sad thoughts from [PAWN_possessive] mind.</UB_Seal_TribalKidTender.description>
   <UB_Seal_ShamanApprentice.title>shaman apprentice</UB_Seal_ShamanApprentice.title>
   <UB_Seal_ShamanApprentice.titleShort>shaman</UB_Seal_ShamanApprentice.titleShort>
-  <UB_Seal_ShamanApprentice.description>[PAWN_nameDef] was found very young in the wilderness and was taken by a local tribe. People never trusted [PAWN_objective] and believed [PAWN_pronoun] was some sort of monstrous night creature in hiding. [PAWN_pronoun] was eventually adopted and raised by a shaman, from which [PAWN_pronoun] learned to mix herbs and talk to the spirits.</UB_Seal_ShamanApprentice.description>
-</LanguageData>
+  <UB_Seal_ShamanApprentice.description>[PAWN_nameDef] was found very young in the wilderness and was taken by a local tribe. People never trusted [PAWN_objective] and believed [PAWN_pronoun] was some sort of monstrous night creature in hiding. [PAWN_pronoun] was eventually adopted and raised by a shaman, from which [PAWN_pronoun] learned to mix herbs and talk to the spirits.</UB_Seal_ShamanApprentice.description></LanguageData>

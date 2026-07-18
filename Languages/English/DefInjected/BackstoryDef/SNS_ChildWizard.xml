@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   <UB_SNS_ChildWizard.title>Young wizard</UB_SNS_ChildWizard.title>
   <UB_SNS_ChildWizard.titleShort>Young Wizard</UB_SNS_ChildWizard.titleShort>
-  <UB_SNS_ChildWizard.description>[PAWN_nameDef] claims to have been trained in herbology and charms in a mystical private magic school. Though this cannot be proven, [PAWN_nameDef] seems to be unusually adept at handling plants and calming animals, as well as whispering and occasionally chanting in an unknown language.</UB_SNS_ChildWizard.description>
-</LanguageData>
+  <UB_SNS_ChildWizard.description>[PAWN_nameDef] claims to have been trained in herbology and charms in a mystical private magic school. Though this cannot be proven, [PAWN_nameDef] seems to be unusually adept at handling plants and calming animals, as well as whispering and occasionally chanting in an unknown language.</UB_SNS_ChildWizard.description></LanguageData>

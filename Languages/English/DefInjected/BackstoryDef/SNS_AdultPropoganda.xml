@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   <UB_SNS_propaganda.title>Failed propaganda artist</UB_SNS_propaganda.title>
   <UB_SNS_propaganda.titleShort>Propaganda Artist</UB_SNS_propaganda.titleShort>
-  <UB_SNS_propaganda.description>[PAWN_nameDef] was one of the many citizens who tried to win their government's propaganda poster competition. [PAWN_pronoun] spent months trying to come up with an original idea, but was only able to come up with a picture of grass, with Comic Sans text that read 'Love big Government'. [PAWN_nameDef] not only didn't win the competition, but [PAWN_possessive] poster was shown and publicly shamed, leading to [PAWN_objective] being socially outcasted by many.</UB_SNS_propaganda.description>
-</LanguageData>
+  <UB_SNS_propaganda.description>[PAWN_nameDef] was one of the many citizens who tried to win their government's propaganda poster competition. [PAWN_pronoun] spent months trying to come up with an original idea, but was only able to come up with a picture of grass, with Comic Sans text that read 'Love big Government'. [PAWN_nameDef] not only didn't win the competition, but [PAWN_possessive] poster was shown and publicly shamed, leading to [PAWN_objective] being socially outcasted by many.</UB_SNS_propaganda.description></LanguageData>

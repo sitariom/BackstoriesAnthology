@@ -420,7 +420,6 @@ namespace UnifiedBackstories
     /// Character card UI: display elderhood info.
     /// Uses the original approach with a Postfix on DoLeftSection.
     /// </summary>
-    [StaticConstructorOnStartup]
     [HarmonyPatch]
     public static class CharacterCardUtility_DoLeftSection_Patch
     {
@@ -824,7 +823,7 @@ namespace UnifiedBackstories
             string ver = System.IO.File.GetLastWriteTime(
                 System.Reflection.Assembly.GetExecutingAssembly().Location)
                 .ToString("yyyy-MM-dd HH:mm");
-            Log.Message("[UB] v1.5.0 loaded (build " + ver
+            Log.Message("[UB] v1.5.2 loaded (build " + ver
                 + ") — Elderhood + Gender tokens + Age 60+ + UI edit"
                 + " + Mood rebalance + Need grace period + ZCB validator");
         }

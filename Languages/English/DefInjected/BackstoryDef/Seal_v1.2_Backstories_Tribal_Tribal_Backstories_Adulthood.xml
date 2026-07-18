@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   <UB_Seal_SmallGameHunter.title>hunter</UB_Seal_SmallGameHunter.title>
   <UB_Seal_SmallGameHunter.titleFemale>huntress</UB_Seal_SmallGameHunter.titleFemale>
@@ -10,5 +10,4 @@
   <UB_Seal_Ambusher.description>As one of the best archers of [PAWN_possessive] tribe, [PAWN_nameDef] lurked in the woods to fend off any dangerous intruder. Hiding high in the trees, [PAWN_pronoun] could stay hours in ambush, observing the surroundings in search of any trespasser.</UB_Seal_Ambusher.description>
   <UB_Seal_WarriorPoet.title>warrior poet</UB_Seal_WarriorPoet.title>
   <UB_Seal_WarriorPoet.titleShort>warrior</UB_Seal_WarriorPoet.titleShort>
-  <UB_Seal_WarriorPoet.description>[PAWN_nameDef] was a great fighter. [PAWN_pronoun] defeated many enemies and told everyone about [PAWN_possessive] accomplishments. [PAWN_pronoun] always added new elements in [PAWN_possessive] stories to make them feel grander, at the price of them being often less believable.\n\n[PAWN_nameDef] created a whole poetic saga about [PAWN_objective] and [PAWN_possessive] trusty spear.</UB_Seal_WarriorPoet.description>
-</LanguageData>
+  <UB_Seal_WarriorPoet.description>[PAWN_nameDef] was a great fighter. [PAWN_pronoun] defeated many enemies and told everyone about [PAWN_possessive] accomplishments. [PAWN_pronoun] always added new elements in [PAWN_possessive] stories to make them feel grander, at the price of them being often less believable.\n\n[PAWN_nameDef] created a whole poetic saga about [PAWN_objective] and [PAWN_possessive] trusty spear.</UB_Seal_WarriorPoet.description></LanguageData>

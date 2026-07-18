@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   <UB_Cybranian_Childhood_Pilots_Child.title>Pilot's child</UB_Cybranian_Childhood_Pilots_Child.title>
   <UB_Cybranian_Childhood_Pilots_Child.description>[PAWN_nameDef] grows up in the family of a military pilot. [PAWN_nameDef]'s father taught {PAWN_gender ? him : her} many lessons.</UB_Cybranian_Childhood_Pilots_Child.description>
@@ -140,5 +140,4 @@
   <UB_Cybranian_Childhood_Hostage.description>[PAWN_nameDef] was captured while walking through the city, demanding an impressive ransom. [PAWN_nameDef] was able to escape from captivity only after a few years.</UB_Cybranian_Childhood_Hostage.description>
   <UB_Cybranian_Childhood_Remote_Identity.title>Remote identity</UB_Cybranian_Childhood_Remote_Identity.title>
   <UB_Cybranian_Childhood_Remote_Identity.titleShort>Remote</UB_Cybranian_Childhood_Remote_Identity.titleShort>
-  <UB_Cybranian_Childhood_Remote_Identity.description>[PAWN_nameDef] doesn't remember anything about {PAWN_gender ? his : her} past. In fact, only a shell remained of {PAWN_gender ? him : her}.</UB_Cybranian_Childhood_Remote_Identity.description>
-</LanguageData>
+  <UB_Cybranian_Childhood_Remote_Identity.description>[PAWN_nameDef] doesn't remember anything about {PAWN_gender ? his : her} past. In fact, only a shell remained of {PAWN_gender ? him : her}.</UB_Cybranian_Childhood_Remote_Identity.description></LanguageData>

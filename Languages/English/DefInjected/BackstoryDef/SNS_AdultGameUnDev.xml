@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   <UB_SNS_GameDevBad.title>Game "developer"</UB_SNS_GameDevBad.title>
   <UB_SNS_GameDevBad.titleShort>Game "Dev"</UB_SNS_GameDevBad.titleShort>
-  <UB_SNS_GameDevBad.description>[PAWN_nameDef] worked for a large game development company, riding the coattails of [PAWN_possessive] father, who owned the business. [PAWN_pronoun] would use [PAWN_possessive] position of power to demean those under [PAWN_objective], and constantly take credit for their work.</UB_SNS_GameDevBad.description>
-</LanguageData>
+  <UB_SNS_GameDevBad.description>[PAWN_nameDef] worked for a large game development company, riding the coattails of [PAWN_possessive] father, who owned the business. [PAWN_pronoun] would use [PAWN_possessive] position of power to demean those under [PAWN_objective], and constantly take credit for their work.</UB_SNS_GameDevBad.description></LanguageData>

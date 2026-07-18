@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   <UB_SNS_DogVictim.title>Bite suit worker</UB_SNS_DogVictim.title>
   <UB_SNS_DogVictim.titleShort>Bite Suit Worker</UB_SNS_DogVictim.titleShort>
-  <UB_SNS_DogVictim.description>[PAWN_nameDef] worked at a local police station to work in the K9 unit as a handler. Unfortunately [PAWN_pronoun] didn't read the job description close enough, and was hired as a bite suit worker. Forced to wear a cheap bite suit and be assaulted by K9 training dogs, [PAWN_nameDef] would commonly end up in the hospital with bite wounds and scratches, but was paraded as a local hero for their hardiness.</UB_SNS_DogVictim.description>
-</LanguageData>
+  <UB_SNS_DogVictim.description>[PAWN_nameDef] worked at a local police station to work in the K9 unit as a handler. Unfortunately [PAWN_pronoun] didn't read the job description close enough, and was hired as a bite suit worker. Forced to wear a cheap bite suit and be assaulted by K9 training dogs, [PAWN_nameDef] would commonly end up in the hospital with bite wounds and scratches, but was paraded as a local hero for their hardiness.</UB_SNS_DogVictim.description></LanguageData>

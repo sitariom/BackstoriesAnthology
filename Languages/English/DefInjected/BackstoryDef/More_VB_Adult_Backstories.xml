@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   <UB_More_Serial_Cleaner.title>Serial cleaner</UB_More_Serial_Cleaner.title>
   <UB_More_Serial_Cleaner.titleShort>Cleaner</UB_More_Serial_Cleaner.titleShort>
@@ -9,7 +9,7 @@
   <UB_More_Sleepingbeauty.titleShort>beauty</UB_More_Sleepingbeauty.titleShort>
   <UB_More_Sleepingbeauty.description>[PAWN_nameDef]'s cryptosleep casket was found on an undeveloped world. People from around this world would come to admire [PAWN_possessive] beauty. After someone managed to unlock the casket, [PAWN_nameDef] was forced to flee from [PAWN_possessive] admirers. [PAWN_nameDef] has gotten used to being waited on hand and foot.</UB_More_Sleepingbeauty.description>
   <UB_More_Oldworlder.title>Oldworlder</UB_More_Oldworlder.title>
-  <UB_More_Oldworlder.description>[PAWN_nameDef] was preserved using an early form of cryptosleep to save them from a then uncurable disease. After being revived and cured of the disease, [PAWN_nameDef] was given an enormous medical bill by the megacorp that revived them and [PAWN_pronoun] has been running ever since. </UB_More_Oldworlder.description>
+  <UB_More_Oldworlder.description>[PAWN_nameDef] was preserved using an early form of cryptosleep to save them from a then uncurable disease. After being revived and cured of the disease, [PAWN_nameDef] was given an enormous medical bill by the megacorp that revived them and [PAWN_pronoun] has been running ever since.</UB_More_Oldworlder.description>
   <UB_More_Overseer.title>Overseer</UB_More_Overseer.title>
   <UB_More_Overseer.description>[PAWN_nameDef] had the job of managing an organization that prevented the population of an urbworld from knowing about otherworldly forces. [PAWN_nameDef] had successfully neutralized anything from animal-maddening psychic devices to bald humanoids with elongated fingers, and did so under the organization's motto of secure, capture, and destroy.</UB_More_Overseer.description>
   <UB_More_Xenotechnician.title>Xenotechnician</UB_More_Xenotechnician.title>
@@ -24,7 +24,7 @@
   <UB_More_Handyman.title>Handyman</UB_More_Handyman.title>
   <UB_More_Handyman.titleFemale>Handywoman</UB_More_Handyman.titleFemale>
   <UB_More_Handyman.titleShort>Fixer</UB_More_Handyman.titleShort>
-  <UB_More_Handyman.description>[PAWN_nameDef] was always handy around the house. [PAWN_pronoun] even had a show about reparing things around the house called "[PAWN_nameDef]'s Improvements". [PAWN_nameDef]'s catchphrase on the show was "ooh-AH". </UB_More_Handyman.description>
+  <UB_More_Handyman.description>[PAWN_nameDef] was always handy around the house. [PAWN_pronoun] even had a show about reparing things around the house called "[PAWN_nameDef]'s Improvements". [PAWN_nameDef]'s catchphrase on the show was "ooh-AH".</UB_More_Handyman.description>
   <UB_More_Wrestler.title>Wrestler</UB_More_Wrestler.title>
   <UB_More_Wrestler.description>[PAWN_nameDef] was a popular wrestler on [PAWN_possessive] homeworld. Even after retiring, [PAWN_nameDef] still feels the need to smash furniture over someone's head.</UB_More_Wrestler.description>
   <UB_More_Talkshow.title>Show Host</UB_More_Talkshow.title>
@@ -72,7 +72,7 @@
   <UB_More_Meat_Vendor.description>[PAWN_nameDef] was known to travel the polluted wastes selling meat on a stick. Few know how [PAWN_nameDef] obtained the meat, and the ones that do could never tell the tale.</UB_More_Meat_Vendor.description>
   <UB_More_Wanderer.title>Amnesiac wanderer</UB_More_Wanderer.title>
   <UB_More_Wanderer.titleShort>Wanderer</UB_More_Wanderer.titleShort>
-  <UB_More_Wanderer.description>No one [PAWN_nameDef] has met knows who [PAWN_nameDef] was before [PAWN_pronoun] lost [PAWN_possessive] memory, but [PAWN_pronoun] remains determined to find out. [PAWN_nameDef]'s travels have led them to acquire various miscellaneous skills, but [PAWN_nameDef] cannot remember what learned in school, or if they even went. </UB_More_Wanderer.description>
+  <UB_More_Wanderer.description>No one [PAWN_nameDef] has met knows who [PAWN_nameDef] was before [PAWN_pronoun] lost [PAWN_possessive] memory, but [PAWN_pronoun] remains determined to find out. [PAWN_nameDef]'s travels have led them to acquire various miscellaneous skills, but [PAWN_nameDef] cannot remember what learned in school, or if they even went.</UB_More_Wanderer.description>
   <UB_More_ParkMascot.title>Park Mascot</UB_More_ParkMascot.title>
   <UB_More_ParkMascot.titleShort>Mascot</UB_More_ParkMascot.titleShort>
   <UB_More_ParkMascot.description>[PAWN_nameDef] used to work at an urbworld amusement park as an animal mascot. [PAWN_nameDef] got to be pretty good at interacting with the kids, but had to fight off the teenagers who thought pushing [PAWN_objective] over was funny.</UB_More_ParkMascot.description>
@@ -106,7 +106,7 @@
   <UB_More_Archivist.description>[PAWN_nameDef] was an archivist of ancient and archotech technology. [PAWN_pronoun] was known for [PAWN_possessive] dedication to discovering the secrets of the archotechs and came to this world following tales of a great archotech intelligence.</UB_More_Archivist.description>
   <UB_More_WallBreaker.title>Wall Breaker</UB_More_WallBreaker.title>
   <UB_More_WallBreaker.titleShort>Breaker</UB_More_WallBreaker.titleShort>
-  <UB_More_WallBreaker.description>[PAWN_nameDef] was a revolutionary on a far-off urbworld. When the archo-counsel separated the world with great walls to make it easier to control, [PAWN_pronoun] joined other revolutionaries in tearing them down and uniting the people.  </UB_More_WallBreaker.description>
+  <UB_More_WallBreaker.description>[PAWN_nameDef] was a revolutionary on a far-off urbworld. When the archo-counsel separated the world with great walls to make it easier to control, [PAWN_pronoun] joined other revolutionaries in tearing them down and uniting the people.</UB_More_WallBreaker.description>
   <UB_More_Investigator.title>Investigator</UB_More_Investigator.title>
   <UB_More_Investigator.description>[PAWN_nameDef] was an investigator on a far-off glitterworld. Despite the time period, [PAWN_pronoun] insisted on solving crimes while dressed as a classic private eye. [PAWN_pronoun] may not have solved many crimes, but [PAWN_possessive] retro-futuristic charm was infectious.</UB_More_Investigator.description>
   <UB_More_AndroidHunter.title>Android Hunter</UB_More_AndroidHunter.title>
@@ -114,5 +114,4 @@
   <UB_More_AndroidHunter.description>[PAWN_nameDef] was a hunter of androids. Despite [PAWN_possessive] profession, [PAWN_pronoun] was terrible at being able to tell who was and was not an android, a trait [PAWN_possessive] employers often used to their advantage. After discovering that [PAWN_pronoun] had been committing wanton murder for megacorporations under the guise of android reclamation, [PAWN_pronoun] fled for the first ship off-world.</UB_More_AndroidHunter.description>
   <UB_More_ScamArtist.title>Scam Artist</UB_More_ScamArtist.title>
   <UB_More_ScamArtist.titleShort>Scammer</UB_More_ScamArtist.titleShort>
-  <UB_More_ScamArtist.description>[Pawn_nameDef] was once a billionaire, untill the price of [Pawn_nameDef] Coin crashed to the ground. Now [PAWN_pronoun] is on the run from the people [PAWN_pronoun] had convinced to buy the currency under the pretense that cryptocurrency had something to do with the booming cryptosleep industry. Despite being a scam "artist", the only thing [PAWN_pronoun] knows how to make are legally distinct monkey pics. </UB_More_ScamArtist.description>
-</LanguageData>
+  <UB_More_ScamArtist.description>[Pawn_nameDef] was once a billionaire, untill the price of [Pawn_nameDef] Coin crashed to the ground. Now [PAWN_pronoun] is on the run from the people [PAWN_pronoun] had convinced to buy the currency under the pretense that cryptocurrency had something to do with the booming cryptosleep industry. Despite being a scam "artist", the only thing [PAWN_pronoun] knows how to make are legally distinct monkey pics.</UB_More_ScamArtist.description></LanguageData>

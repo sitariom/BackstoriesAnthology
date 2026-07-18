@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   <UB_Seal_ArduousWarrior.title>arduous warrior</UB_Seal_ArduousWarrior.title>
   <UB_Seal_ArduousWarrior.titleShort>warrior</UB_Seal_ArduousWarrior.titleShort>
   <UB_Seal_ArduousWarrior.description>[PAWN_nameDef] was desperate to prove [PAWN_possessive] worth. To [PAWN_possessive] eyes, every little challenge or provocation was worth a violent display of power. [PAWN_pronoun] trained almost everyday to be able to fend off the best warrior of the tribe in a duel and finally show [PAWN_possessive] skills.\n\nThis day never came as the elders had always forbidden any useless bloodshed.</UB_Seal_ArduousWarrior.description>
   <UB_Seal_StarWatcher.title>star watcher</UB_Seal_StarWatcher.title>
   <UB_Seal_StarWatcher.titleShort>astronomer</UB_Seal_StarWatcher.titleShort>
-  <UB_Seal_StarWatcher.description>After years of contemplating the night sky, [PAWN_nameDef] developed good skills to recognize and name constellations. People often relied on [PAWN_objective] for guidance when caravanning and [PAWN_pronoun] always took this opportunity to share [PAWN_possessive] knowledge. [PAWN_pronoun] often told stories to the tribe's children to explain to them how the stars and constellations formed.</UB_Seal_StarWatcher.description>
-</LanguageData>
+  <UB_Seal_StarWatcher.description>After years of contemplating the night sky, [PAWN_nameDef] developed good skills to recognize and name constellations. People often relied on [PAWN_objective] for guidance when caravanning and [PAWN_pronoun] always took this opportunity to share [PAWN_possessive] knowledge. [PAWN_pronoun] often told stories to the tribe's children to explain to them how the stars and constellations formed.</UB_Seal_StarWatcher.description></LanguageData>

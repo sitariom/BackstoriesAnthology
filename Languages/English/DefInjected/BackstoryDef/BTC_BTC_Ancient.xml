@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   <UB_BTC_Vaultborn.title>vaultborn</UB_BTC_Vaultborn.title>
   <UB_BTC_Vaultborn.description>[PAWN_nameDef] was born inside a massive underground vault, the last refuge of a collapsing empire. While other children played, [PAWN_pronoun] studied history, engineering, and survival—preparing for a world [PAWN_pronoun] would never see until it was too late.</UB_BTC_Vaultborn.description>
@@ -107,5 +107,4 @@
 <UB_BTC_StructuralEngineer.description>[PAWN_nameDef] was part of a rebel cell that used cryptosleep caskets to skip decades between operations, waiting to strike at the empire's weak points.
 \nWhen [PAWN_pronoun] finally emerged for [PAWN_possessive] last mission, [PAWN_pronoun] found [PAWN_possessive] entire network obliterated by shifting politics and forgotten wars. The years in stasis left [PAWN_pronoun] with sharpened combat instincts and technical knowledge, but no cause to fight for.</UB_BTC_StructuralEngineer.description>
 <UB_BTC_TrappedElite.description>[PAWN_nameDef] was part of a rebel cell that used cryptosleep caskets to skip decades between operations, waiting to strike at the empire's weak points.
-\nWhen [PAWN_pronoun] finally emerged for [PAWN_possessive] last mission, [PAWN_pronoun] found [PAWN_possessive] entire network obliterated by shifting politics and forgotten wars. The years in stasis left [PAWN_pronoun] with sharpened combat instincts and technical knowledge, but no cause to fight for.</UB_BTC_TrappedElite.description>
-</LanguageData>
+\nWhen [PAWN_pronoun] finally emerged for [PAWN_possessive] last mission, [PAWN_pronoun] found [PAWN_possessive] entire network obliterated by shifting politics and forgotten wars. The years in stasis left [PAWN_pronoun] with sharpened combat instincts and technical knowledge, but no cause to fight for.</UB_BTC_TrappedElite.description></LanguageData>

@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   <UB_SNS_WormKid.title>Worm Child</UB_SNS_WormKid.title>
   <UB_SNS_WormKid.titleShort>Wormkid</UB_SNS_WormKid.titleShort>
-  <UB_SNS_WormKid.description>[PAWN_nameDef] was raised in a cult worshipping earthworms. [PAWN_possessive] entire childhood was based on learning to do things without [PAWN_objective] arms and legs. While this was horrible for [PAWN_possessive] limb development, it did give [PAWN_objective] a good view and understanding of plantlife. </UB_SNS_WormKid.description>
-</LanguageData>
+  <UB_SNS_WormKid.description>[PAWN_nameDef] was raised in a cult worshipping earthworms. [PAWN_possessive] entire childhood was based on learning to do things without [PAWN_objective] arms and legs. While this was horrible for [PAWN_possessive] limb development, it did give [PAWN_objective] a good view and understanding of plantlife.</UB_SNS_WormKid.description></LanguageData>

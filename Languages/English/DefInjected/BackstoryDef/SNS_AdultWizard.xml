@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   <UB_SNS_Wizard.title>Wizard</UB_SNS_Wizard.title>
-  <UB_SNS_Wizard.description>[PAWN_nameDef] claims to be a famous and powerful wizard, bragging about being able to summon fire and ice elementals, and casting fireballs at anyone who dares stand in [PAWN_possessive] way. [PAWN_nameDef] claims to be unable to cast any spells due to 'bad vibes and no spell slots', completely refusing to learn anything new until they are able to rise to the rank of 'Master Thaumaturge' once again.</UB_SNS_Wizard.description>
-</LanguageData>
+  <UB_SNS_Wizard.description>[PAWN_nameDef] claims to be a famous and powerful wizard, bragging about being able to summon fire and ice elementals, and casting fireballs at anyone who dares stand in [PAWN_possessive] way. [PAWN_nameDef] claims to be unable to cast any spells due to 'bad vibes and no spell slots', completely refusing to learn anything new until they are able to rise to the rank of 'Master Thaumaturge' once again.</UB_SNS_Wizard.description></LanguageData>

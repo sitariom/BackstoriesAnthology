@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   <UB_Seal_GeneWriter.title>genome writer</UB_Seal_GeneWriter.title>
   <UB_Seal_GeneWriter.titleShort>geneticist</UB_Seal_GeneWriter.titleShort>
@@ -54,5 +54,4 @@
   <UB_Seal_Railgunner.description>[PAWN_nameDef] was a soldier and an excellent sharpshooter. Carrying a portable railgun, [PAWN_pronoun] stayed several hundred meters behind the frontline protecting [PAWN_possessive] squadron with devastating shots. [PAWN_pronoun] knew how to find the weak points on the mechanoids and could blow up a centipede with a single well-placed shot.</UB_Seal_Railgunner.description>
   <UB_Seal_AntimatterCarrier.title>antimatter carrier</UB_Seal_AntimatterCarrier.title>
   <UB_Seal_AntimatterCarrier.titleShort>carrier</UB_Seal_AntimatterCarrier.titleShort>
-  <UB_Seal_AntimatterCarrier.description>In dire need of money, [PAWN_nameDef] signed up to become an antimatter carrier. While he simply had to regularly transport several antimatter grains a dozen kilometers away, the job was extremely dangerous, as any small accident could have devastating consequences. Preferring to be overcautious, [PAWN_pronoun] often personally checked the proper functioning of the antimatter isolation systems.\n\nAfter several of [PAWN_possessive] colleagues were obliterated in tragic accidents, [PAWN_pronoun] decided to finally resign.</UB_Seal_AntimatterCarrier.description>
-</LanguageData>
+  <UB_Seal_AntimatterCarrier.description>In dire need of money, [PAWN_nameDef] signed up to become an antimatter carrier. While he simply had to regularly transport several antimatter grains a dozen kilometers away, the job was extremely dangerous, as any small accident could have devastating consequences. Preferring to be overcautious, [PAWN_pronoun] often personally checked the proper functioning of the antimatter isolation systems.\n\nAfter several of [PAWN_possessive] colleagues were obliterated in tragic accidents, [PAWN_pronoun] decided to finally resign.</UB_Seal_AntimatterCarrier.description></LanguageData>

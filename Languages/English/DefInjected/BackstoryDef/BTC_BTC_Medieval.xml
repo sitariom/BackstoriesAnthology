@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   <UB_BTC_ScarletCrusader01.title>scarlet crusader</UB_BTC_ScarletCrusader01.title>
   <UB_BTC_ScarletCrusader01.titleShort>crusader</UB_BTC_ScarletCrusader01.titleShort>
@@ -22,5 +22,4 @@
 <UB_BTC_ScarletCrusader04.description>[PAWN_nameDef] waged war against the shamblers—cursed undead that mocked the purity of life.
 \nWith fire and steel, [PAWN_pronoun] struck them down, seeking to cleanse the world of their corruption.</UB_BTC_ScarletCrusader04.description>
 <UB_BTC_TheHound.description>[PAWN_nameDef] waged war against the shamblers—cursed undead that mocked the purity of life.
-\nWith fire and steel, [PAWN_pronoun] struck them down, seeking to cleanse the world of their corruption.</UB_BTC_TheHound.description>
-</LanguageData>
+\nWith fire and steel, [PAWN_pronoun] struck them down, seeking to cleanse the world of their corruption.</UB_BTC_TheHound.description></LanguageData>

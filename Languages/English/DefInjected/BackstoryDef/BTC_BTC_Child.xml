@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   <UB_BTC_Childhood_OrbitalFarmhand.title>orbital farmhand</UB_BTC_Childhood_OrbitalFarmhand.title>
   <UB_BTC_Childhood_OrbitalFarmhand.titleShort>farmer</UB_BTC_Childhood_OrbitalFarmhand.titleShort>
@@ -40,5 +40,4 @@
 <UB_BTC_Childhood_PenalWorld.description>[PAWN_nameDef] grew up maintaining hydroponic bays on a crowded orbital station. Zero-gravity crop rotations and battling fungal infestations taught [PAWN_objective] plant mastery, but left [PAWN_pronoun] unprepared for terrestrial life.</UB_BTC_Childhood_PenalWorld.description>
 <UB_BTC_Childhood_SlumDweller.description>[PAWN_nameDef] grew up maintaining hydroponic bays on a crowded orbital station. Zero-gravity crop rotations and battling fungal infestations taught [PAWN_objective] plant mastery, but left [PAWN_pronoun] unprepared for terrestrial life.</UB_BTC_Childhood_SlumDweller.description>
 <UB_BTC_Childhood_Voidborn.description>[PAWN_nameDef] grew up maintaining hydroponic bays on a crowded orbital station. Zero-gravity crop rotations and battling fungal infestations taught [PAWN_objective] plant mastery, but left [PAWN_pronoun] unprepared for terrestrial life.</UB_BTC_Childhood_Voidborn.description>
-<UB_BTC_Childhood_Waterworld.description>[PAWN_nameDef] grew up maintaining hydroponic bays on a crowded orbital station. Zero-gravity crop rotations and battling fungal infestations taught [PAWN_objective] plant mastery, but left [PAWN_pronoun] unprepared for terrestrial life.</UB_BTC_Childhood_Waterworld.description>
-</LanguageData>
+<UB_BTC_Childhood_Waterworld.description>[PAWN_nameDef] grew up maintaining hydroponic bays on a crowded orbital station. Zero-gravity crop rotations and battling fungal infestations taught [PAWN_objective] plant mastery, but left [PAWN_pronoun] unprepared for terrestrial life.</UB_BTC_Childhood_Waterworld.description></LanguageData>

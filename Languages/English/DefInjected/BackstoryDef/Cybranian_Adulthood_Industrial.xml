@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   <UB_Cybranian_Adulthood_Stonecutter.title>Stonecutter</UB_Cybranian_Adulthood_Stonecutter.title>
   <UB_Cybranian_Adulthood_Stonecutter.description>[PAWN_nameDef] is involved in creating whimsical stone statues, as well as carving stone bricks.</UB_Cybranian_Adulthood_Stonecutter.description>
@@ -546,5 +546,4 @@
   <UB_Cybranian_Adulthood_Pawn.title>Pawn</UB_Cybranian_Adulthood_Pawn.title>
   <UB_Cybranian_Adulthood_Pawn.description>[PAWN_nameDef] is a simple performer, a pawn in the hands of a skilled manipulator.</UB_Cybranian_Adulthood_Pawn.description>
   <UB_Cybranian_Adulthood_Manipulator.title>Manipulator</UB_Cybranian_Adulthood_Manipulator.title>
-  <UB_Cybranian_Adulthood_Manipulator.description>[PAWN_nameDef] An unprincipled person who sets {PAWN_gender ? his : her} own goals at the head.</UB_Cybranian_Adulthood_Manipulator.description>
-</LanguageData>
+  <UB_Cybranian_Adulthood_Manipulator.description>[PAWN_nameDef] An unprincipled person who sets {PAWN_gender ? his : her} own goals at the head.</UB_Cybranian_Adulthood_Manipulator.description></LanguageData>

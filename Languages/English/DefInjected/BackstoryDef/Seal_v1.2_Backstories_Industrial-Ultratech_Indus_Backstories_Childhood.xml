@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   <UB_Seal_HouseKid.title>house boy</UB_Seal_HouseKid.title>
   <UB_Seal_HouseKid.titleFemale>house girl</UB_Seal_HouseKid.titleFemale>
@@ -26,5 +26,4 @@
   <UB_Seal_SkyDweller.title>sky dweller</UB_Seal_SkyDweller.title>
   <UB_Seal_SkyDweller.description>[PAWN_nameDef] was born on a glitterworld where entire parts of the planet's crust had been modified to float at several kilometers of altitude. [PAWN_pronoun] lived on one of those floating islands, and used to draw the ever changing landscape and architecture.</UB_Seal_SkyDweller.description>
   <UB_Seal_KidGunner.title>gunner</UB_Seal_KidGunner.title>
-  <UB_Seal_KidGunner.description>[PAWN_nameDef] has always been told that war wasn't for children. People quickly changed their minds when the enemy arrived at the doors of the capital. [PAWN_pronoun] was enrolled in an artillery squad among the ruins of the suburbs. [PAWN_possessive] role was to help experienced soldiers operate a cannon by bringing shells and repairing bits of machinery.</UB_Seal_KidGunner.description>
-</LanguageData>
+  <UB_Seal_KidGunner.description>[PAWN_nameDef] has always been told that war wasn't for children. People quickly changed their minds when the enemy arrived at the doors of the capital. [PAWN_pronoun] was enrolled in an artillery squad among the ruins of the suburbs. [PAWN_possessive] role was to help experienced soldiers operate a cannon by bringing shells and repairing bits of machinery.</UB_Seal_KidGunner.description></LanguageData>

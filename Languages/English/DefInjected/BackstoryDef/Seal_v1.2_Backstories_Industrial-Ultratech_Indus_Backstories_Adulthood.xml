@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   <UB_Seal_KeenFisherman.title>keen fisherman</UB_Seal_KeenFisherman.title>
   <UB_Seal_KeenFisherman.titleShort>fisherman</UB_Seal_KeenFisherman.titleShort>
@@ -30,5 +30,4 @@
   <UB_Seal_PsychedelicWriter.titleShort>writer</UB_Seal_PsychedelicWriter.titleShort>
   <UB_Seal_PsychedelicWriter.description>[PAWN_nameDef] wrote various stories set in a vast world [PAWN_pronoun] created. People loved the originality of the various plots and stories [PAWN_pronoun] would come up with. To keep the inspiration coming, [PAWN_pronoun] had the habit of consuming psychedelic mushrooms. [PAWN_possessive] hallucinated trips became myths and gods.</UB_Seal_PsychedelicWriter.description>
   <UB_Seal_Cyberdoctor.title>cyberdoctor</UB_Seal_Cyberdoctor.title>
-  <UB_Seal_Cyberdoctor.description>With an expertise in cybernetics, [PAWN_nameDef] worked as a cyberdoctor, creating and installing bionic limbs on [PAWN_possessive] patients. Because of the relatively low technological level of the planet, [PAWN_possessive] knowledge was highly sought after. [PAWN_possessive] work made countless people walk again and gave them a new chance.</UB_Seal_Cyberdoctor.description>
-</LanguageData>
+  <UB_Seal_Cyberdoctor.description>With an expertise in cybernetics, [PAWN_nameDef] worked as a cyberdoctor, creating and installing bionic limbs on [PAWN_possessive] patients. Because of the relatively low technological level of the planet, [PAWN_possessive] knowledge was highly sought after. [PAWN_possessive] work made countless people walk again and gave them a new chance.</UB_Seal_Cyberdoctor.description></LanguageData>

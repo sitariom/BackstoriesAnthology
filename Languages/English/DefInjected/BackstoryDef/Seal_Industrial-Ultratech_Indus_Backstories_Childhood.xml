@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   <UB_Seal_AdoptedSlave.title>adopted slave</UB_Seal_AdoptedSlave.title>
   <UB_Seal_AdoptedSlave.titleShort>adopted</UB_Seal_AdoptedSlave.titleShort>
   <UB_Seal_AdoptedSlave.description>Captured in a raid and sold as a slave at a young age, [PAWN_nameDef] knew nothing of [PAWN_possessive] origins. [PAWN_pronoun] was bought by a family that raised [PAWN_objective] as their own child. Unfortunately, [PAWN_pronoun] never had access to school like the others, and had to learn at home.</UB_Seal_AdoptedSlave.description>
   <UB_Seal_PsychicTestSubject.title>psychic test subject</UB_Seal_PsychicTestSubject.title>
   <UB_Seal_PsychicTestSubject.titleShort>test subject</UB_Seal_PsychicTestSubject.titleShort>
-  <UB_Seal_PsychicTestSubject.description>[PAWN_nameDef] was an orphan captured at a very young age by a scientific institute. They used [PAWN_objective] as a test subject and artificially enhanced [PAWN_possessive] psychic potential. Unlike other unlucky subjects, [PAWN_pronoun] survived the operation.\n\nLocked deep underground in a bedroom, [PAWN_pronoun] was regularly subjected to various experiments: simple psychiatric tests, measurements of [PAWN_possessive] brainwaves, or exposure to mysterious archotech devices to understand psychic phenomena.</UB_Seal_PsychicTestSubject.description>
-</LanguageData>
+  <UB_Seal_PsychicTestSubject.description>[PAWN_nameDef] was an orphan captured at a very young age by a scientific institute. They used [PAWN_objective] as a test subject and artificially enhanced [PAWN_possessive] psychic potential. Unlike other unlucky subjects, [PAWN_pronoun] survived the operation.\n\nLocked deep underground in a bedroom, [PAWN_pronoun] was regularly subjected to various experiments: simple psychiatric tests, measurements of [PAWN_possessive] brainwaves, or exposure to mysterious archotech devices to understand psychic phenomena.</UB_Seal_PsychicTestSubject.description></LanguageData>

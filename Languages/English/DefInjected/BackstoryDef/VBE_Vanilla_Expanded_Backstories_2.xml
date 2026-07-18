@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   <UB_VBE_CommunityDoctor.title>Community doctor</UB_VBE_CommunityDoctor.title>
   <UB_VBE_CommunityDoctor.titleShort>Doctor</UB_VBE_CommunityDoctor.titleShort>
@@ -62,5 +62,4 @@
   <UB_VBE_StorytellersKin.description>As the kin to the tribe's storyteller, [PAWN_nameDef] learned the ancient tales and legends by heart, understanding the moral and lessons within each story. [PAWN_pronoun] could captivate any audience with [PAWN_possessive] words, but [PAWN_pronoun] struggled with the practical skills of hunting and crafting, finding more comfort in tales than tools.</UB_VBE_StorytellersKin.description>
   <UB_VBE_HerbalKin.title>Herbal kin</UB_VBE_HerbalKin.title>
   <UB_VBE_HerbalKin.titleShort>Kin</UB_VBE_HerbalKin.titleShort>
-  <UB_VBE_HerbalKin.description>[PAWN_nameDef] was raised by the tribe's herbal healer, learning the properties of each plant and how to use them to cure ailments. This early exposure to natural medicine made [PAWN_pronoun] proficient in healing practices, though [PAWN_pronoun] never took to the more violent aspects of tribal life, such as hunting or defending the tribe.</UB_VBE_HerbalKin.description>
-</LanguageData>
+  <UB_VBE_HerbalKin.description>[PAWN_nameDef] was raised by the tribe's herbal healer, learning the properties of each plant and how to use them to cure ailments. This early exposure to natural medicine made [PAWN_pronoun] proficient in healing practices, though [PAWN_pronoun] never took to the more violent aspects of tribal life, such as hunting or defending the tribe.</UB_VBE_HerbalKin.description></LanguageData>

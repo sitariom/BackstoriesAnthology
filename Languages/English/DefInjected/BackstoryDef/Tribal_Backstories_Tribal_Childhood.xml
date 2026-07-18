@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   <UB_Tribal_AspiringHunter.title>Aspiring hunter</UB_Tribal_AspiringHunter.title>
   <UB_Tribal_AspiringHunter.titleShort>Hunter</UB_Tribal_AspiringHunter.titleShort>
@@ -8,7 +8,7 @@
   <UB_Tribal_ChildWarrior.description>After many years of war with a much stronger tribe, [PAWN_nameDef]’s people were all but wiped out. With very few able-bodied adults left to fight, the children of the tribe, including [PAWN_nameDef], were forced to take up arms to defend their homes and loved ones.</UB_Tribal_ChildWarrior.description>
   <UB_Tribal_ApprenticeHealer.title>Apprentice healer</UB_Tribal_ApprenticeHealer.title>
   <UB_Tribal_ApprenticeHealer.titleShort>Healer</UB_Tribal_ApprenticeHealer.titleShort>
-  <UB_Tribal_ApprenticeHealer.description>[PAWN_nameDef] was chosen to be trained as a healer. [PAWN_possessive] tribe’s kindly medicine woman was a skilled and patient teacher, and taught [PAWN_nameDef] how to tend to the sick, as well as how to grow healing herbs. </UB_Tribal_ApprenticeHealer.description>
+  <UB_Tribal_ApprenticeHealer.description>[PAWN_nameDef] was chosen to be trained as a healer. [PAWN_possessive] tribe’s kindly medicine woman was a skilled and patient teacher, and taught [PAWN_nameDef] how to tend to the sick, as well as how to grow healing herbs.</UB_Tribal_ApprenticeHealer.description>
   <UB_Tribal_RaisedByWolves.title>Raised by wolves</UB_Tribal_RaisedByWolves.title>
   <UB_Tribal_RaisedByWolves.titleShort>Wild child</UB_Tribal_RaisedByWolves.titleShort>
   <UB_Tribal_RaisedByWolves.description>Whether on purpose or by accident, [PAWN_nameDef] was somehow seperated from [PAWN_possessive] parents as a baby. A pack of wolves came across the helpless infant and adopted [PAWN_objective] as one of their own. It wasn’t until many years later that [PAWN_nameDef] was finally found by a tribe of [PAWN_possessive] own species. By then, it was too late for [PAWN_objective] to fully learn many fundamental social skills.</UB_Tribal_RaisedByWolves.description>
@@ -27,7 +27,7 @@
   <UB_Tribal_Winterborn.description>According to the beliefs of [PAWN_nameDef]’s tribe, children who are born during harsh winters and survive are destined to become mighty warriors. [PAWN_nameDef] was born during just such a winter.</UB_Tribal_Winterborn.description>
   <UB_Tribal_ExileChild.title>Child of an exile</UB_Tribal_ExileChild.title>
   <UB_Tribal_ExileChild.titleShort>Exile</UB_Tribal_ExileChild.titleShort>
-  <UB_Tribal_ExileChild.description>[PAWN_nameDef]’s mother was exiled from her village while she was pregnant with [PAWN_objective]. She raised [PAWN_nameDef] alone as best she could, teaching [PAWN_objective] how to survive in the wilderness without the support of a tribe. </UB_Tribal_ExileChild.description>
+  <UB_Tribal_ExileChild.description>[PAWN_nameDef]’s mother was exiled from her village while she was pregnant with [PAWN_objective]. She raised [PAWN_nameDef] alone as best she could, teaching [PAWN_objective] how to survive in the wilderness without the support of a tribe.</UB_Tribal_ExileChild.description>
   <UB_Tribal_TreeClimber.title>Tree climber</UB_Tribal_TreeClimber.title>
   <UB_Tribal_TreeClimber.description>[PAWN_nameDef] loved climbing trees more than anything else. [PAWN_pronoun] could climb higher than any of the other children in [PAWN_possessive] tribe, and enjoyed spending time watching the world below from up in the branches of the tallest trees.</UB_Tribal_TreeClimber.description>
   <UB_Tribal_DollMaker.title>Doll maker</UB_Tribal_DollMaker.title>
@@ -63,5 +63,4 @@
   <UB_Tribal_ChildSacrifice.title>Child sacrifice</UB_Tribal_ChildSacrifice.title>
   <UB_Tribal_ChildSacrifice.description>[PAWN_nameDef] was chosen to be one of the children who were annually sacrificed to [PAWN_possessive] tribe’s gods, something that was considered a great honour. However, when the time came, [PAWN_nameDef] ran away. [PAWN_pronoun] survived on roots and berries in the wild until a different tribe, who worshiped gods that did not demand death, found [PAWN_objective].</UB_Tribal_ChildSacrifice.description>
   <UB_Tribal_StolenChild.title>Stolen child</UB_Tribal_StolenChild.title>
-  <UB_Tribal_StolenChild.description>[PAWN_nameDef] was barely a toddler when [PAWN_pronoun] was kidnapped from [PAWN_possessive] settlement in a raid. The tribe who stole [PAWN_objective] believed that the advanced technology [PAWN_possessive] people had was magic, and that [PAWN_nameDef] was magic too. Although [PAWN_pronoun] did not manifest magical powers, the superior nutrition [PAWN_nameDef] received as an infant meant [PAWN_pronoun] was stronger than the other children in the tribe.</UB_Tribal_StolenChild.description>
-</LanguageData>
+  <UB_Tribal_StolenChild.description>[PAWN_nameDef] was barely a toddler when [PAWN_pronoun] was kidnapped from [PAWN_possessive] settlement in a raid. The tribe who stole [PAWN_objective] believed that the advanced technology [PAWN_possessive] people had was magic, and that [PAWN_nameDef] was magic too. Although [PAWN_pronoun] did not manifest magical powers, the superior nutrition [PAWN_nameDef] received as an infant meant [PAWN_pronoun] was stronger than the other children in the tribe.</UB_Tribal_StolenChild.description></LanguageData>
