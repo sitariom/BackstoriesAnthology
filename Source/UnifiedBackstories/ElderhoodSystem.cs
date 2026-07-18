@@ -780,35 +780,7 @@ namespace UnifiedBackstories
         }
     }
 
-    /// <summary>
-    /// Starting possessions from elderhood.
-    /// </summary>
-    [HarmonyPatch(typeof(StartingPawnUtility), "GeneratePossessions")]
-    public static class StartingPawnUtility_GeneratePossessions_Patch
-    {
-        public static void Postfix(Pawn pawn)
-        {
-            if (pawn?.story == null) return;
-            if (UB_Mod.Settings != null && !UB_Mod.Settings.elderhoodEnabled) return;
-            CompElderhoodBackstory comp = pawn.GetComp<CompElderhoodBackstory>();
-            if (comp == null || !comp.HasElderhood) return;
-            BackstoryDef eb = comp.ElderhoodBS;
-            if (eb?.possessions == null) return;
-            foreach (var item in eb.possessions)
-            {
-                if (item == null) continue;
-                var tdcType = item.GetType();
-                ThingDef tDef = tdcType.GetField("thingDef")?.GetValue(item) as ThingDef;
-                int tCount = tdcType.GetField("count")?.GetValue(item) is int cv ? cv : 0;
-                if (tDef != null && tCount > 0)
-                {
-                    Thing thing = ThingMaker.MakeThing(tDef);
-                    thing.stackCount = tCount;
-                    pawn.inventory?.innerContainer?.TryAdd(thing);
-                }
-            }
-        }
-    }
+
 
     /// <summary>
     /// Suppress old ZCB/ElderhoodBackstory settings screens.
@@ -852,7 +824,7 @@ namespace UnifiedBackstories
             string ver = System.IO.File.GetLastWriteTime(
                 System.Reflection.Assembly.GetExecutingAssembly().Location)
                 .ToString("yyyy-MM-dd HH:mm");
-            Log.Message("[UB] v1.3.0 loaded (build " + ver
+            Log.Message("[UB] v1.3.1 loaded (build " + ver
                 + ") — Elderhood + Gender tokens + Age 60+ + UI edit"
                 + " + Mood rebalance + Need grace period + ZCB validator");
         }
