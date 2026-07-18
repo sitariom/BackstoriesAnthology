@@ -10,11 +10,11 @@
 		<baseDesc>[PAWN_nameDef] loved to eat, often getting into trouble for stealing more of [PAWN_possessive] share of the tribe's food. As punishment [PAWN_pronoun] was put to work in the kitchens, where [PAWN_pronoun] learned to love the art of cooking.</baseDesc>
 		<slot>Childhood</slot>
 		<spawnCategories>
-			<li>ZCB</li> 
+			<li>ZCB</li>
 			<li>ZCB_NaturalMeditation</li>
 		</spawnCategories>
 		<commonality>4</commonality>
-		<maxTechLevel>Neolithic</maxTechLevel>	
+		<maxTechLevel>Neolithic</maxTechLevel>
 		<requiredTraits><li>Gourmand</li></requiredTraits>
 		<requiredPassions>
 			<li>Cooking</li>
@@ -29,8 +29,8 @@
 			<Cooking>7</Cooking>
 		</skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
-	
-	
+
+
 <!-- Ascetic -->
 	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_Ascetic</defName>
@@ -39,16 +39,16 @@
 		<baseDesc>[PAWN_nameDef] was never interested in furniture with ostantatious filigree or fancy, gluttonous meals. However, [PAWN_pronoun] could still appreciate good craftsmanship when it counted.</baseDesc>
 		<slot>Childhood</slot>
 		<spawnCategories>
-			<li>ZCB</li> 
+			<li>ZCB</li>
 			<li>ZCB_NaturalMeditation</li>
 		</spawnCategories>
 		<commonality>2</commonality>
-		<maxTechLevel>Neolithic</maxTechLevel>	
+		<maxTechLevel>Neolithic</maxTechLevel>
 		<requiredTraits><li>Ascetic</li></requiredTraits>
 		<skillGains><Artistic>-5</Artistic><Crafting>3</Crafting><Cooking>-2</Cooking></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
-	
-	
+
+
 <!-- Brawler -->
 	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_TribalBrawler</defName>
@@ -57,11 +57,11 @@
 		<baseDesc>[PAWN_nameDef] was good in a fight, always training to be stronger. [PAWN_pronoun] learned to shrug off hits that would have a lesser fighter on the ground.\n\Adds trait: Tough</baseDesc>
 		<slot>Childhood</slot>
 		<spawnCategories>
-			<li>ZCB</li> 
+			<li>ZCB</li>
 			<li>ZCB_NaturalMeditation</li>
 		</spawnCategories>
 		<commonality>2</commonality>
-		<maxTechLevel>Neolithic</maxTechLevel>	
+		<maxTechLevel>Neolithic</maxTechLevel>
 		<requiredRecords>
 			<li>
 				<name>DamageDealt</name>
@@ -80,7 +80,7 @@
 			<Melee>5</Melee>
 		</skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
-	
+
 
 
 <!-- Fast learner -->
@@ -91,16 +91,16 @@
 		<baseDesc>[PAWN_nameDef] spent [PAWN_possessive] childhood learning as much as [PAWN_pronoun] could about everything, making [PAWN_objective] a bit eccentric to the rest of [PAWN_possessive] tribe. [PAWN_pronoun] was especially interested in disassembling old mechs to see how they are made, with the hope of advancing technology for [PAWN_possessive] tribe.</baseDesc>
 		<slot>Childhood</slot>
 		<spawnCategories>
-			<li>ZCB</li> 
+			<li>ZCB</li>
 			<li>ZCB_NaturalMeditation</li>
 		</spawnCategories>
 		<commonality>2</commonality>
-		<maxTechLevel>Neolithic</maxTechLevel>	
+		<maxTechLevel>Neolithic</maxTechLevel>
 		<requiredTraits><li>FastLearner</li></requiredTraits>
 		<skillGains><Intellectual>4</Intellectual><Crafting>2</Crafting><Social>-2</Social></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
-	
-	
+
+
 <!-- Tortured Architect -->
 	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_TorturedArchitect</defName>
@@ -109,12 +109,12 @@
 		<baseDesc>[PAWN_nameDef] was tortured by visions of architectural grandeur that his tribe could never live up to.</baseDesc>
 		<slot>Childhood</slot>
 		<spawnCategories>
-			<li>ZCB</li> 
+			<li>ZCB</li>
 			<li>ZCB_NaturalMeditation</li>
 		</spawnCategories>
 		<commonality>3</commonality>
 		<maxTechLevel>Neolithic</maxTechLevel>
-		<requiredTraits><li>TorturedArtist</li></requiredTraits>	
+		<requiredTraits><li>TorturedArtist</li></requiredTraits>
 		<requiredPassions>
 			<li>Construction</li>
 		</requiredPassions>
@@ -123,8 +123,8 @@
 		</workDisables>
 		<skillGains><Intellectual>3</Intellectual><Construction>6</Construction><Artistic>2</Artistic></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
-	
-	
+
+
 	<!-- Bloodlust melee -->
 	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_Barbarian</defName>
@@ -134,7 +134,7 @@
 		<slot>Childhood</slot>
 		<maxTechLevel>Neolithic</maxTechLevel>
 		<spawnCategories>
-			<li>ZCB</li> 							
+			<li>ZCB</li>
 			<li>ZCB_NaturalMeditation</li> 			<!-- enables natural meditation focus -->
 		</spawnCategories>
 		<commonality>3</commonality>
@@ -144,5 +144,5 @@
 		</requiredPassions>
 		<skillGains><Melee>6</Melee><Social>-3</Social></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
-	
+
 </Defs>

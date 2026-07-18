@@ -235,7 +235,7 @@
 	<li>Pirate</li>
 	</spawnCategories>
 	<forcedTraits>
-	<NightOwl /> 
+	<NightOwl />
     </forcedTraits>
 	<bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
@@ -245,7 +245,7 @@
     <defName>UB_BTC_Childhood_IceWorld</defName>
     <title>iceworlder</title>
     <titleShort>iceworlder</titleShort>
-<description>Ice worlds have a way of passing their chill on to those who live there, and [PAWN_nameDef] was no exception. From an early age, the brutal cold of [PAWN_possessive] homeworld's endless wasteland shaped [PAWN_objective].  
+<description>Ice worlds have a way of passing their chill on to those who live there, and [PAWN_nameDef] was no exception. From an early age, the brutal cold of [PAWN_possessive] homeworld's endless wasteland shaped [PAWN_objective].
 \nAs soon as [PAWN_pronoun] could walk, [PAWN_pronoun] was learning to adapt—bundling up in insulated layers, keeping the settlement’s energy systems running, and mastering the art of survival in a frozen hellscape. [PAWN_possessive] earliest lessons didn’t come from books, but from the harshness of nature.</description>
     <slot>Childhood</slot>
     <workDisables>
@@ -269,7 +269,7 @@
 	<li>ImperialFighter</li>
 	</spawnCategories>
 	<forcedTraits>
-	<VTE_ColdInclined MayRequire="VanillaExpanded.VanillaTraitsExpanded"/> 
+	<VTE_ColdInclined MayRequire="VanillaExpanded.VanillaTraitsExpanded"/>
     </forcedTraits>
 	<disallowedTraits>
       <Kind />
@@ -300,7 +300,7 @@
 	<li>Pirate</li>
 	</spawnCategories>
 	<forcedTraits>
-	<VTE_Kleptomaniac MayRequire="VanillaExpanded.VanillaTraitsExpanded"/> 
+	<VTE_Kleptomaniac MayRequire="VanillaExpanded.VanillaTraitsExpanded"/>
     </forcedTraits>
 	<disallowedTraits>
       <Kind />

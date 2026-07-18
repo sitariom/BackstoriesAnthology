@@ -11,7 +11,7 @@
 		<slot>Childhood</slot>
 		<maxTechLevel>Neolithic</maxTechLevel>
 		<spawnCategories>
-			<li>ZCB</li> 							
+			<li>ZCB</li>
 			<li>ZCB_NaturalMeditation</li> 			<!-- enables natural meditation focus -->
 		</spawnCategories>
 		<!-- new tags start here -->
@@ -24,11 +24,11 @@
 				<name>TimeDrafted</name>
 				<maxValue>15000</maxValue>
 			</li>
-			<li>		
+			<li>
 				<name>Kills</name>
 				<maxValue>0</maxValue>
 			</li>
-			<li>		
+			<li>
 				<name>ShotsFired</name>
 				<maxValue>8</maxValue>
 			</li>
@@ -47,7 +47,7 @@
 		<slot>Childhood</slot>
 		<maxTechLevel>Neolithic</maxTechLevel>
 		<spawnCategories>
-			<li>ZCB</li> 							
+			<li>ZCB</li>
 			<li>ZCB_NaturalMeditation</li> 			<!-- enables natural meditation focus -->
 		</spawnCategories>
 		<!-- new tags start here -->
@@ -74,7 +74,7 @@
 		<baseDesc>[PAWN_nameDef] has a way with animals, and has been training them since the moment [PAWN_pronoun] was old enough. Why carry firewood when a dog can do it for you?</baseDesc>
 		<slot>Childhood</slot>
 		<spawnCategories>
-			<li>ZCB</li> 
+			<li>ZCB</li>
 			<li>ZCB_NaturalMeditation</li>
 		</spawnCategories>
 		<commonality>1</commonality>
@@ -89,8 +89,8 @@
 			<Animals>5</Animals>
 		</skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
-	
-	
+
+
 <!-- tribal bookworm -->
 	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_TribalBookworm</defName>
@@ -99,7 +99,7 @@
 		<baseDesc>Despite growing up in a primitive tribe, [PAWN_nameDef] spent as much of [PAWN_possessive] time reading as possible. [PAWN_pronoun] loved getting lost in the worlds of stories, and dreaming about what might be.</baseDesc>
 		<slot>Childhood</slot>
 		<spawnCategories>
-			<li>ZCB</li> 
+			<li>ZCB</li>
 			<li>ZCB_NaturalMeditation</li>
 		</spawnCategories>
 		<commonality>1</commonality>
@@ -118,8 +118,8 @@
 		</passionGains>
 		<skillGains><Intellectual>4</Intellectual><Artistic>1</Artistic><Animals>-2</Animals></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
-	
-		
+
+
 <!-- budding adventurer -->
 	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_BuddingAdventurer</defName>
@@ -128,7 +128,7 @@
 		<baseDesc>[PAWN_nameDef] grew up reading all sorts of adventure stories. [PAWN_pronoun] dreamed of one day going on [PAWN_pronoun] own adventures, and writing bestselling books of [PAWN_possessive] exploits.</baseDesc>
 		<slot>Childhood</slot>
 		<spawnCategories>
-			<li>ZCB</li> 
+			<li>ZCB</li>
 			<li>ZCB_NaturalMeditation</li>
 		</spawnCategories>
 		<commonality>1</commonality>
@@ -145,8 +145,8 @@
 		</requiredPassions>
 		<skillGains><Intellectual>4</Intellectual><Melee>4</Melee><Shooting>2</Shooting></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
-	
-	
+
+
 	<!-- experimenter -->
 	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_Experimenter</defName>
@@ -155,7 +155,7 @@
 		<baseDesc>[PAWN_nameDef] loved to learn, but had little access to books. Instead, [PAWN_pronoun] turned [PAWN_possessive] attention to practical experiments.</baseDesc>
 		<slot>Childhood</slot>
 		<spawnCategories>
-			<li>ZCB</li> 
+			<li>ZCB</li>
 			<li>ZCB_NaturalMeditation</li>
 		</spawnCategories>
 		<commonality>1</commonality>
@@ -171,8 +171,8 @@
 		</requiredPassions>
 		<skillGains><Intellectual>3</Intellectual><Medicine>1</Medicine><Plants>2</Plants><Crafting>2</Crafting></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
-	
-	
+
+
 <!-- ================================== HEALTH ================================== -->
 <!-- scarred veteran -->
 	<UnifiedBackstories.ZCBackstoryDef>
@@ -183,13 +183,13 @@
 		<slot>Childhood</slot>
 		<maxTechLevel>Neolithic</maxTechLevel>
 		<spawnCategories>
-			<li>ZCB</li> 							
+			<li>ZCB</li>
 			<li>ZCB_NaturalMeditation</li> 			<!-- enables natural meditation focus -->
 		</spawnCategories>
 		<commonality>3</commonality>
 		<bodyPartsMissing>2~999</bodyPartsMissing>
 		<skillGains><Medicine>2</Medicine><Intellectual>3</Intellectual><Melee>4</Melee></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
-	
+
 
 </Defs>

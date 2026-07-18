@@ -10,7 +10,7 @@
 		<baseDesc>[PAWN_nameDef] learned to care for all living things - including doing what's necessary to maintain the balance.</baseDesc>
 		<slot>Childhood</slot>
 		<spawnCategories>
-			<li>ZCB</li> 
+			<li>ZCB</li>
 			<li>ZCB_NaturalMeditation</li>
 		</spawnCategories>
 		<commonality>3</commonality>
@@ -45,7 +45,7 @@
 			<li>ZCB</li> 							<!-- required -->
 			<li>ZCB_NaturalMeditation</li> 			<!-- enables natural meditation focus -->
 		</spawnCategories>
-		
+
 		<!-- new tags start here -->
 		<maxTechLevel>Neolithic</maxTechLevel>
 		<requiredRecords>
@@ -64,7 +64,7 @@
 				<maxValue>6</maxValue>
 			</li>
 		</requiredSkills>
-		
+
 		<!-- new tags end here-->
 		<skillGains><Shooting>3</Shooting><Animals>2</Animals></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
@@ -79,7 +79,7 @@
 		<slot>Childhood</slot>
 		<commonality>2</commonality>
 		<spawnCategories>
-			<li>ZCB</li> 
+			<li>ZCB</li>
 			<li>ZCB_NaturalMeditation</li>
 		</spawnCategories>
 		<maxTechLevel>Neolithic</maxTechLevel>
@@ -106,7 +106,7 @@
 		<slot>Childhood</slot>
 		<commonality>1</commonality>
 		<spawnCategories>
-			<li>ZCB</li> 
+			<li>ZCB</li>
 			<li>ZCB_NaturalMeditation</li>
 		</spawnCategories>
 		<maxTechLevel>Neolithic</maxTechLevel>
@@ -137,7 +137,7 @@
 		<li>ZCB</li> 					<!-- required -->
 		<li>ZCB_NaturalMeditation</li> 			<!-- enables natural meditation focus, use for tribal backstories -->
 	</spawnCategories>
-	
+
 	<!-- new tags start here -->
 	<commonality>1</commonality>
 	<maxTechLevel>Neolithic</maxTechLevel>
@@ -174,7 +174,7 @@
 		<li>ZCB</li> 					<!-- required -->
 		<li>ZCB_NaturalMeditation</li> 			<!-- enables natural meditation focus, use for tribal backstories -->
 	</spawnCategories>
-	
+
 	<!-- new tags start here -->
 	<commonality>1</commonality>
 	<maxTechLevel>Neolithic</maxTechLevel>
@@ -182,7 +182,7 @@
 		<li>Artistic</li>
 	</requiredPassions>
 	<!-- new tags end here-->
-	
+
 	<skillGains><Artistic>3</Artistic><Intellectual>2</Intellectual><Animals>-2</Animals></skillGains>
 </UnifiedBackstories.ZCBackstoryDef>
 
@@ -199,16 +199,16 @@
 		<li>ZCB</li> 					<!-- required -->
 		<li>ZCB_NaturalMeditation</li> 			<!-- enables natural meditation focus, use for tribal backstories -->
 	</spawnCategories>
-	
+
 	<!-- new tags start here -->
 	<commonality>1</commonality>
 	<maxTechLevel>Neolithic</maxTechLevel>
-	
+
 	<requiredPassions>
 		<li>Crafting</li>
 	</requiredPassions>
 	<!-- new tags end here-->
-	
+
 	<skillGains><Crafting>3</Crafting><Plants>1</Plants></skillGains>
 </UnifiedBackstories.ZCBackstoryDef>
 
@@ -225,12 +225,12 @@
 		<li>ZCB</li> 					<!-- required -->
 		<li>ZCB_NaturalMeditation</li> 			<!-- enables natural meditation focus, use for tribal backstories -->
 	</spawnCategories>
-	
+
 	<!-- new tags start here -->
 	<commonality>1</commonality>
 	<maxTechLevel>Neolithic</maxTechLevel>
 	<requiredRecords>
-		<li>	
+		<li>
 			<name>MealsCooked</name>
 			<minValue>20</minValue>
 		</li>
@@ -260,15 +260,15 @@
 		<li>ZCB</li> 					<!-- required -->
 		<li>ZCB_NaturalMeditation</li> 			<!-- enables natural meditation focus, use for tribal backstories -->
 	</spawnCategories>
-	
+
 	<!-- new tags start here -->
 	<commonality>1</commonality>
-	<maxTechLevel>Neolithic</maxTechLevel>	
+	<maxTechLevel>Neolithic</maxTechLevel>
 	<requiredPassions>
 		<li>Construction</li>
 	</requiredPassions>
 	<!-- new tags end here-->
-	
+
 	<skillGains><Construction>3</Construction><Melee>2</Melee><Shooting>-2</Shooting></skillGains>
 </UnifiedBackstories.ZCBackstoryDef>
 
@@ -282,7 +282,7 @@
 		<slot>Childhood</slot>
 		<maxTechLevel>Neolithic</maxTechLevel>
 		<spawnCategories>
-			<li>ZCB</li> 							
+			<li>ZCB</li>
 			<li>ZCB_NaturalMeditation</li> 			<!-- enables natural meditation focus -->
 		</spawnCategories>
 		<requiredRecords>
@@ -304,7 +304,7 @@
 		<slot>Childhood</slot>
 		<maxTechLevel>Neolithic</maxTechLevel>
 		<spawnCategories>
-			<li>ZCB</li> 							
+			<li>ZCB</li>
 			<li>ZCB_NaturalMeditation</li> 			<!-- enables natural meditation focus -->
 		</spawnCategories>
 		<commonality>3</commonality>
@@ -323,7 +323,7 @@
 		</workDisables>
 	</UnifiedBackstories.ZCBackstoryDef>
 
-	
+
 <!-- animal whisperer -->
 	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_AnimalWhisperer</defName>
@@ -333,7 +333,7 @@
 		<slot>Childhood</slot>
 		<maxTechLevel>Neolithic</maxTechLevel>
 		<spawnCategories>
-			<li>ZCB</li> 							
+			<li>ZCB</li>
 			<li>ZCB_NaturalMeditation</li> 			<!-- enables natural meditation focus -->
 		</spawnCategories>
 		<requiredRecords>
@@ -361,7 +361,7 @@
 		<slot>Childhood</slot>
 		<maxTechLevel>Neolithic</maxTechLevel>
 		<spawnCategories>
-			<li>ZCB</li> 							
+			<li>ZCB</li>
 			<li>ZCB_NaturalMeditation</li> 			<!-- enables natural meditation focus -->
 		</spawnCategories>
 		<requiredRecords>
@@ -396,7 +396,7 @@
 		<slot>Childhood</slot>
 		<maxTechLevel>Neolithic</maxTechLevel>
 		<spawnCategories>
-			<li>ZCB</li> 							
+			<li>ZCB</li>
 			<li>ZCB_NaturalMeditation</li> 			<!-- enables natural meditation focus -->
 		</spawnCategories>
 		<requiredSkills>
@@ -410,8 +410,8 @@
 		</requiredPassions>
 		<skillGains><Artistic>4</Artistic><Construction>-3</Construction><Crafting>-1</Crafting></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
-	
-	
+
+
 <!-- lookout -->
 	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_TribalLookout</defName>
@@ -421,7 +421,7 @@
 		<slot>Childhood</slot>
 		<maxTechLevel>Neolithic</maxTechLevel>
 		<spawnCategories>
-			<li>ZCB</li> 							
+			<li>ZCB</li>
 			<li>ZCB_NaturalMeditation</li>
 		</spawnCategories>
 		<requiredSkills>

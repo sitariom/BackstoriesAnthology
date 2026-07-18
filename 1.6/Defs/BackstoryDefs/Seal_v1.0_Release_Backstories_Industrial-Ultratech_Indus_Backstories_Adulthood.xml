@@ -108,7 +108,7 @@
 	  <bodyTypeFemale>Female</bodyTypeFemale>
     <skillGains>
       <Social>6</Social>
-    
+
 <Crafting>-2</Crafting><Melee>-2</Melee><Shooting>-2</Shooting></skillGains><forcedTraits>
       <Beauty>2</Beauty>
     </forcedTraits>
@@ -160,7 +160,7 @@
       <Shooting>5</Shooting>
       <Crafting>3</Crafting>
 	    <Melee>3</Melee>
-    
+
 <Social>-3</Social><Medicine>-2</Medicine></skillGains>
     <forcedTraits>
       <Psychopath />
@@ -188,7 +188,7 @@
       <Plants>2</Plants>
       <Animals>1</Animals>
       <Medicine>2</Medicine>
-    
+
 <Melee>-2</Melee><Shooting>-2</Shooting></skillGains>
     <forcedTraits>
       <Kind />
@@ -217,7 +217,7 @@
     <skillGains>
       <Melee>3</Melee>
       <Social>-5</Social>
-    
+
 <Animals>-2</Animals><Medicine>-2</Medicine></skillGains>
     <forcedTraits>
       <Brawler />
@@ -292,7 +292,7 @@
 	  <bodyTypeFemale>Thin</bodyTypeFemale>
     <skillGains>
       <Social>-5</Social>
-    
+
 <Intellectual>-4</Intellectual></skillGains><possessions>
       <Apparel_PsychicFoilHelmet>1</Apparel_PsychicFoilHelmet>
     </possessions>
@@ -378,7 +378,7 @@
 	    <Social>4</Social>
 	    <Plants>-2</Plants>
 	    <Animals>-2</Animals>
-    
+
 <Intellectual>-3</Intellectual></skillGains></BackstoryDef>
 
   <BackstoryDef>
@@ -457,7 +457,7 @@
     <skillGains>
 	    <Animals>4</Animals>
 	    <Melee>1</Melee>
-    
+
 <Social>-4</Social><Intellectual>-2</Intellectual><Plants>-3</Plants></skillGains>
     <forcedTraits>
       <Undergrounder>0</Undergrounder>
@@ -480,7 +480,7 @@
     <skillGains>
 	    <Melee>3</Melee>
 	    <Social>1</Social>
-    
+
 <Intellectual>-2</Intellectual></skillGains>
     <forcedTraits>
       <Brawler />
@@ -533,7 +533,7 @@
 	    <Crafting>3</Crafting>
 	    <Construction>3</Construction>
 	    <Social>-3</Social>
-    
+
 <Animals>-2</Animals><Plants>-2</Plants></skillGains><requiredWorkTags>
       <li>Violent</li>
     </requiredWorkTags>
@@ -555,7 +555,7 @@
 	    <Plants>5</Plants>
 	    <Crafting>3</Crafting>
 	    <Intellectual>3</Intellectual>
-    
+
 <Social>-3</Social></skillGains><requiredWorkTags>
       <li>PlantWork</li>
       <li>ManualSkilled</li>
@@ -601,7 +601,7 @@
     <skillGains>
 	    <Social>6</Social>
 	    <Shooting>3</Shooting>
-    
+
 <Plants>-2</Plants><Animals>-2</Animals><Mining>-2</Mining></skillGains><requiredWorkTags>
       <li>Social</li>
     </requiredWorkTags>
@@ -645,7 +645,7 @@
     <skillGains>
 	    <Social>1</Social>
 	    <Intellectual>-5</Intellectual>
-	  
+
 <Crafting>-2</Crafting></skillGains><requiredWorkTags>
       <li>Social</li>
 	  </requiredWorkTags>
@@ -757,7 +757,7 @@
     <skillGains>
 	    <Intellectual>8</Intellectual>
 	    <Social>-1</Social>
-    
+
 <Plants>-2</Plants><Animals>-2</Animals><Artistic>-2</Artistic></skillGains><requiredWorkTags>
       <li>Intellectual</li>
     </requiredWorkTags>
@@ -870,7 +870,7 @@
       <Construction>3</Construction>
       <Animals>1</Animals>
       <Social>-2</Social>
-    
+
 <Plants>-2</Plants></skillGains>
 	  <requiredWorkTags>
       <li>Violent</li>
@@ -942,7 +942,7 @@
       <Social>-4</Social>
       <Plants>-3</Plants>
       <Animals>-3</Animals>
-    
+
 <Intellectual>-2</Intellectual></skillGains>
 	  <requiredWorkTags>
       <li>Violent</li>

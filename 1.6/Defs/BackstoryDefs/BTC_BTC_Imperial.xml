@@ -112,26 +112,26 @@
 <!---->
 <BackstoryDef>
     <defName>UB_BTC_Adulthood_RoyalGuard02</defName>
-    <title>chamber sentinel</title>  
-    <titleShort>sentinel</titleShort>  
+    <title>chamber sentinel</title>
+    <titleShort>sentinel</titleShort>
     <baseDesc>[PAWN_nameDef] protected high-ranking nobles in the imperial court. [PAWN_pronoun] learned to spot concealed weapons during audiences and defuse conflicts with measured words, though [PAWN_pronoun] never touched a tool in [PAWN_possessive] life.</baseDesc>
-    <bodyTypeMale>Male</bodyTypeMale>  
-    <bodyTypeFemale>Female</bodyTypeFemale>  
-    <slot>Adulthood</slot>  
-    <spawnCategories>  
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <spawnCategories>
         <li>ImperialFighter</li>
         <li>ImperialCommon</li>
-    </spawnCategories>  
-    <skillGains>  
+    </spawnCategories>
+    <skillGains>
         <Melee>5</Melee>
         <Shooting>4</Shooting>
         <Social>3</Social>
-    </skillGains>  
-    <workDisables>  
+    </skillGains>
+    <workDisables>
         <li>ManualDumb</li>
         <li>ManualSkilled</li>
-    </workDisables>  
-    <requiredWorkTags>  
+    </workDisables>
+    <requiredWorkTags>
         <li>Violent</li>
 		<li>Social</li>
     </requiredWorkTags>
@@ -190,7 +190,7 @@
     <li>ImperialCommon</li>
   </spawnCategories>
     <requiredWorkTags>
-    <li>Intellectual</li> 
+    <li>Intellectual</li>
 	</requiredWorkTags>
   <forcedTraits>
   <PsychicSensitivity>2</PsychicSensitivity>

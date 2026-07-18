@@ -10,7 +10,7 @@
 		<baseDesc>[PAWN_nameDef] was a sickly child. [PAWN_pronoun] spent days on end recuperating in the hospital, where [PAWN_pronoun] befriended all the nurses and picked up some basic medical training.</baseDesc>
 		<slot>Childhood</slot>
 		<spawnCategories>
-			<li>ZCB</li> 
+			<li>ZCB</li>
 		</spawnCategories>
 		<commonality>2</commonality>
 		<minTechLevel>Industrial</minTechLevel>
@@ -23,8 +23,8 @@
 		</requiredRecords>
 		<skillGains><Medicine>4</Medicine><Social>3</Social></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
-	
-		
+
+
 <!-- Gourmand -->
 	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_Gourmand</defName>
@@ -33,7 +33,7 @@
 		<baseDesc>[PAWN_nameDef] always had a love for food. [PAWN_pronoun] spent [PAWN_possessive] spare time hanging around the kitchen, pilfering snacks and learning the secrets of cooking a good meal.</baseDesc>
 		<slot>Childhood</slot>
 		<spawnCategories>
-			<li>ZCB</li> 
+			<li>ZCB</li>
 		</spawnCategories>
 		<minTechLevel>Medieval</minTechLevel>
 		<commonality>1</commonality>
@@ -48,8 +48,8 @@
 			<Cooking>4</Cooking>
 		</skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
-	
-		
+
+
 
 <!-- Brawler -->
 	<UnifiedBackstories.ZCBackstoryDef>
@@ -59,7 +59,7 @@
 		<baseDesc>[PAWN_nameDef] was quick to anger and loved getting up close and personal, resolving arguments with  [PAWN_possessive] fists. [PAWN_pronoun] didn't make many friends, but [PAWN_pronoun] did get a lot of practice patching up wounds.</baseDesc>
 		<slot>Childhood</slot>
 		<spawnCategories>
-			<li>ZCB</li> 
+			<li>ZCB</li>
 		</spawnCategories>
 		<commonality>1</commonality>
 		<requiredTraits><li>Brawler</li></requiredTraits>
@@ -80,10 +80,10 @@
 		</requiredRecords>
 		<skillGains><Melee>5</Melee><Medicine>2</Medicine><Social>-5</Social></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
-	
-	
-	
-	
+
+
+
+
 
 <!-- Mad Prodigy -->
 	<UnifiedBackstories.ZCBackstoryDef>
@@ -93,7 +93,7 @@
 		<baseDesc>[PAWN_nameDef] was an unstable prodigy. He applied his genius to the arts, and frequently broke under the pressure of his chaotic mind.</baseDesc>
 		<slot>Childhood</slot>
 		<spawnCategories>
-			<li>ZCB</li> 
+			<li>ZCB</li>
 		</spawnCategories>
 		<commonality>3</commonality>
 		<minTechLevel>Medieval</minTechLevel>
@@ -109,8 +109,8 @@
 		</requiredRecords>
 		<skillGains><Artistic>5</Artistic><Crafting>4</Crafting><Cooking>2</Cooking></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
-	
-	
+
+
 	<!-- Bloodlust melee -->
 	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_Bully</defName>
@@ -119,7 +119,7 @@
 		<baseDesc>[PAWN_nameDef] enjoyed hurting people, often picking on the smaller children. [PAWN_pronoun] loved utterly crushing [PAWN_possessive] unfortunate targets.</baseDesc>
 		<slot>Childhood</slot>
 		<spawnCategories>
-			<li>ZCB</li> 
+			<li>ZCB</li>
 		</spawnCategories>
 		<minTechLevel>Medieval</minTechLevel>
 		<commonality>3</commonality>
@@ -129,8 +129,8 @@
 		</requiredPassions>
 		<skillGains><Melee>5</Melee><Social>-3</Social></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
-	
 
-	
-	
+
+
+
 </Defs>

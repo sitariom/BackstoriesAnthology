@@ -69,7 +69,7 @@
 			<TooSmart>0</TooSmart>
 		</forcedTraits>
 	</BackstoryDef>
-	
+
 	<BackstoryDef>
 		<defName>UB_More_Sacrifice</defName>
 		<title>Sacrifice</title>
@@ -115,7 +115,7 @@
 			<li>ManualSkilled</li>
 		</workDisables>
 	</BackstoryDef>
-	
+
 	<BackstoryDef>
 		<defName>UB_More_Coalkid</defName>
 		<title>Coal Miner</title>
@@ -265,7 +265,7 @@
 			<li>Intellectual</li>
 		</workDisables>
 	</BackstoryDef>
-	
+
 	<BackstoryDef>
 		<defName>UB_More_CloneDiver</defName>
 		<title>Clone Diver</title>
@@ -285,7 +285,7 @@
 			<Social>-3</Social>
 		</skillGains>
 	</BackstoryDef>
-	
+
 	<BackstoryDef>
 		<defName>UB_More_ChildSoldier</defName>
 		<title>Child Soldier</title>
@@ -306,7 +306,7 @@
 			<Intellectual>-3</Intellectual>
 		</skillGains>
 	</BackstoryDef>
-	
+
 	<BackstoryDef>
 		<defName>UB_More_FaithHealer</defName>
 		<title>Faith Healer</title>

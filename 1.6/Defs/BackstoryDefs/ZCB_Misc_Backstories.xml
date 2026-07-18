@@ -130,8 +130,8 @@
 			<li>Social</li>
 		</workDisables>
 	</UnifiedBackstories.ZCBackstoryDef>
-	
-	
+
+
 <!-- bookworm -->
 	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_BulliedBookworm</defName>
@@ -166,8 +166,8 @@
 		</workDisables>
 		<skillGains><Intellectual>5</Intellectual><Melee>2</Melee></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
-	
-	
+
+
 	<!-- ================================== HEALTH ================================== -->
 
 	<!-- surgery victim -->

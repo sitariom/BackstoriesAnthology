@@ -311,7 +311,7 @@
 		<skillGains>
 			<Melee>8</Melee>
 			<Shooting>2</Shooting>
-		
+
       <Social>-4</Social></skillGains>
 <requiredWorkTags>
 			<li>Violent</li>

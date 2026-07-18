@@ -297,7 +297,7 @@
   </spawnCategories>
   <skillGains>
     <Shooting>7</Shooting>
-    <Melee>5</Melee> 
+    <Melee>5</Melee>
     <Animals>-4</Animals>
 	<Social>-5</Social>
   </skillGains>
@@ -652,21 +652,21 @@ It was dangerous, but the credits were worth it.</description>
     </requiredWorkTags>
   </BackstoryDef>
 <!---->
-<BackstoryDef>  
-    <defName>UB_BTC_Adulthood_OrdnancePilot</defName>  
-    <title>heavy ordnance pilot</title>  
-    <titleShort>pilot</titleShort>  
+<BackstoryDef>
+    <defName>UB_BTC_Adulthood_OrdnancePilot</defName>
+    <title>heavy ordnance pilot</title>
+    <titleShort>pilot</titleShort>
     <description>[PAWN_nameDef] flew strike runs in a gunship too large to land, built to ferry bunker-busters and drop pod battalions through hostile skies. The missions were short, loud, and final. Pilots like [PAWN_nameDef] didn't need finesse — just the nerve to fly low and the aim to leave nothing standing.
 \nEven grounded, [PAWN_pronoun] still thinks in vectors and payloads. If it can be moved, it can be dropped. If it can be dropped, it can be weaponized.</description>
-    <bodyTypeMale>Male</bodyTypeMale>  
-    <bodyTypeFemale>Female</bodyTypeFemale>  
-    <slot>Adulthood</slot>  
-    <spawnCategories>  
-        <li>Offworld</li>  
-        <li>ImperialFighter</li>  
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+        <li>Offworld</li>
+        <li>ImperialFighter</li>
 		<li>Military</li>
-    </spawnCategories>  
-    <skillGains>  
+    </spawnCategories>
+    <skillGains>
         <Shooting>4</Shooting>
         <Crafting>1</Crafting>
     </skillGains>
@@ -676,7 +676,7 @@ It was dangerous, but the credits were worth it.</description>
 </BackstoryDef>
 <!---->
 	<BackstoryDef>
-		<defName>UB_BTC_Adulthood_MeatVendor</defName> <!-- liked this one from VB_Backstories, I improved upon the description and added consistency with capital letters -->  
+		<defName>UB_BTC_Adulthood_MeatVendor</defName> <!-- liked this one from VB_Backstories, I improved upon the description and added consistency with capital letters -->
 		<title>meat vendor</title>
 		<titleShort>vendor</titleShort>
 		<slot>Adulthood</slot>
@@ -783,7 +783,7 @@ It was dangerous, but the credits were worth it.</description>
         <li>Pirate</li>
         <li>Outsider</li>
         <li>Outlander</li>
-		<li>Offworld</li> 
+		<li>Offworld</li>
     </spawnCategories>
     <skillGains>
         <Melee>3</Melee>          <!-- Close-quarters protection detail -->
@@ -796,7 +796,7 @@ It was dangerous, but the credits were worth it.</description>
     </requiredWorkTags>
     <workDisables>
         <li>Artistic</li>
-        <li>Cleaning</li>  
+        <li>Cleaning</li>
     </workDisables>
 </BackstoryDef>
 <!---->
@@ -1028,7 +1028,7 @@ It was dangerous, but the credits were worth it.</description>
     </spawnCategories>
     <skillGains>
         <Social>3</Social>
-        <Animals>2</Animals> 
+        <Animals>2</Animals>
         <Intellectual>-3</Intellectual>
     </skillGains>
     <forcedTraits>
@@ -1929,7 +1929,7 @@ It was all discipline without danger; glitterworlds rarely see real threats, and
 </BackstoryDef>
 <!---->
 <BackstoryDef>
-    
+
     <defName>UB_BTC_Adulthood_TaxationDissident</defName>
     <title>taxation dissident</title>
     <titleShort>dissident</titleShort>
@@ -1952,11 +1952,11 @@ It was all discipline without danger; glitterworlds rarely see real threats, and
     <bodyTypeMale>Female</bodyTypeMale>
 </BackstoryDef>
 <!---->
-<BackstoryDef>  
+<BackstoryDef>
     <defName>UB_BTC_Adulthood_AICollapseSurvivor</defName>
     <title>economic crash survivor</title>
     <titleShort>survivor</titleShort>
-    <slot>Adulthood</slot> 
+    <slot>Adulthood</slot>
 	<description>[PAWN_nameDef] lived on a glitterworld where "The Marketmind" AI optimized every transaction. When its predictive models failed during an unspecified event, the economy dissolved overnight.\n\n[PAWN_pronoun] survived learning to hack vending AIs for ration paste, while mistrusting any system more complex than an abacus.</description>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
@@ -2326,7 +2326,7 @@ It was all discipline without danger; glitterworlds rarely see real threats, and
     <slot>Adulthood</slot>
     <skillGains>
       <Social>6</Social>
-	  <Crafting>3</Crafting>  
+	  <Crafting>3</Crafting>
     </skillGains>
     <spawnCategories>
       <li>Pirate</li>
@@ -2558,29 +2558,29 @@ It was all discipline without danger; glitterworlds rarely see real threats, and
 		</requiredWorkTags>
 	</BackstoryDef>
 <!---->
-<BackstoryDef>  
-    <defName>UB_BTC_Adulthood_WaterBaron</defName>  
-    <title>water baron</title>  
-    <titleFemale>water baroness</titleFemale>  
-    <titleShort>baron</titleShort>  
-    <titleShortFemale>baroness</titleShortFemale>  
+<BackstoryDef>
+    <defName>UB_BTC_Adulthood_WaterBaron</defName>
+    <title>water baron</title>
+    <titleFemale>water baroness</titleFemale>
+    <titleShort>baron</titleShort>
+    <titleShortFemale>baroness</titleShortFemale>
     <description>[PAWN_nameDef] sourced raw waters from underground ice vaults, infusing them in a mineralization process from geothermal vents. [PAWN_pronoun] supplied glitterworld lounges and imperial galas with sparkling water until synthetic chemjoy flooded the market.
-\nNow [PAWN_pronoun] peddles [PAWN_possessive] craft to thirsty outposts, forever talking about the importance of staying hydrated.</description>  
+\nNow [PAWN_pronoun] peddles [PAWN_possessive] craft to thirsty outposts, forever talking about the importance of staying hydrated.</description>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
-    <slot>Adulthood</slot>  
-    <spawnCategories>  
-        <li>Trader</li>  
-        <li>Offworld</li>  
-        <li>ImperialCommon</li>  
-    </spawnCategories>  
-    <skillGains>  
+    <slot>Adulthood</slot>
+    <spawnCategories>
+        <li>Trader</li>
+        <li>Offworld</li>
+        <li>ImperialCommon</li>
+    </spawnCategories>
+    <skillGains>
         <Intellectual>2</Intellectual>
         <Social>5</Social>
         <Mining>1</Mining>
     </skillGains>
     <forcedTraits>
-        <Gourmand />  
+        <Gourmand />
         <Industriousness>1</Industriousness>
     </forcedTraits>
     <requiredWorkTags>
@@ -3102,7 +3102,7 @@ It was all discipline without danger; glitterworlds rarely see real threats, and
   <defName>UB_BTC_Adulthood_MercenaryMarshal</defName>
   <title>mercenary marshal</title>
   <titleShort>marshal</titleShort>
-  <description>After training in a planetary military police force, [PAWN_nameDef] was hired to track deserters, escaped convicts, and high-risk bounties across the rim. 
+  <description>After training in a planetary military police force, [PAWN_nameDef] was hired to track deserters, escaped convicts, and high-risk bounties across the rim.
 \n[PAWN_nameDef] earned a reputation for always bringing in the target—alive or not. After an operation gone wrong, [PAWN_pronoun] was cut off from official work and began operating freelance. The pay was still good, but [PAWN_pronoun] resents the stain on [PAWN_possessive] once-perfect record.</description>
   <slot>Adulthood</slot>
   <skillGains>
@@ -3301,7 +3301,7 @@ It was all discipline without danger; glitterworlds rarely see real threats, and
 	<li>Civil</li>
   </spawnCategories>
   <requiredWorkTags>
-    <li>Animals</li> 
+    <li>Animals</li>
     <li>Crafting</li>
 	<li>Constructing</li>
   </requiredWorkTags>
@@ -3335,7 +3335,7 @@ It was all discipline without danger; glitterworlds rarely see real threats, and
 	<li>Civil</li>
   </spawnCategories>
   <requiredWorkTags>
-    <li>Mining</li> 
+    <li>Mining</li>
     <li>Crafting</li>
 	<li>Constructing</li>
   </requiredWorkTags>
@@ -3366,7 +3366,7 @@ It was all discipline without danger; glitterworlds rarely see real threats, and
     <li>Worker</li>
   </spawnCategories>
     <requiredWorkTags>
-    <li>Intellectual</li> 
+    <li>Intellectual</li>
     <li>Crafting</li>
 	<li>Constructing</li>
 	</requiredWorkTags>
@@ -3597,7 +3597,7 @@ It was all discipline without danger; glitterworlds rarely see real threats, and
   <defName>UB_BTC_Adulthood_SatelliteEngineer</defName>
   <title>satellite engineer</title>
   <titleShort>engineer</titleShort>
-<description>[PAWN_nameDef] worked in an orbital systems lab, assembling satellites in sterile bays buried beneath kilometers of rock. It was meticulous work, involving the calibration of signal arrays, the shielding of power cores, and the sealing of hulls tough enough to survive reentry and micrometeorite strikes.  
+<description>[PAWN_nameDef] worked in an orbital systems lab, assembling satellites in sterile bays buried beneath kilometers of rock. It was meticulous work, involving the calibration of signal arrays, the shielding of power cores, and the sealing of hulls tough enough to survive reentry and micrometeorite strikes.
 \n[PAWN_pronoun] measured success by signal strength and orbital lock. Once a unit passed burn tests and held alignment, the work spoke for itself.</description>
   <slot>Adulthood</slot>
   <skillGains>
@@ -3690,18 +3690,18 @@ It was all discipline without danger; glitterworlds rarely see real threats, and
   <bodyTypeFemale>Female</bodyTypeFemale>
 </BackstoryDef>
 <!--=============== Extinction Bomber ====================-->
-<BackstoryDef>  
-    <defName>UB_BTC_Adulthood_ExtinctionBomber</defName>  
-    <title>extinction bomber</title>  
-    <titleShort>bomber</titleShort>  
+<BackstoryDef>
+    <defName>UB_BTC_Adulthood_ExtinctionBomber</defName>
+    <title>extinction bomber</title>
+    <titleShort>bomber</titleShort>
 <description>[PAWN_nameDef] piloted an orbital extinction craft — a sleek, semi-autonomous bomber designed to level entire ecosystems. These vessels deployed without warning, gliding soundlessly through upper atmospheres before venting their payloads: fusion-tipped rods, seismic destabilizers, gene-plague canisters.
 [PAWN_nameDef] didn’t choose targets. That was done far above [PAWN_objective]. [PAWN_pronoun] just carried out the erasure.</description>
-    <bodyTypeMale>Thin</bodyTypeMale>  
-    <bodyTypeFemale>Thin</bodyTypeFemale>  
-    <slot>Adulthood</slot>  
-    <spawnCategories>  
-        <li>Offworld</li>  
-        <li>ImperialFighter</li>  
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+        <li>Offworld</li>
+        <li>ImperialFighter</li>
 		<li>Military</li>
     </spawnCategories>
 	<requiredWorkTags>
@@ -3710,7 +3710,7 @@ It was all discipline without danger; glitterworlds rarely see real threats, and
 	<workDisables>
 	<li>Artistic</li>
    </workDisables>
-    <skillGains>  
+    <skillGains>
         <Shooting>2</Shooting>
         <Crafting>4</Crafting>
         <Social>-6</Social>
@@ -3728,10 +3728,10 @@ It was all discipline without danger; glitterworlds rarely see real threats, and
 <BackstoryDef>
   <defName>UB_BTC_Adulthood_RunawayParent</defName>
   <title>runaway father</title>
-  <titleFemale>runaway mother</titleFemale>  
+  <titleFemale>runaway mother</titleFemale>
   <titleShort>father</titleShort>
   <titleShortFemale>mother</titleShortFemale>
-<description>Fleeing a cacophonous brood of six screeching toddlers and a partner who insisted [PAWN_pronoun] "fix the damn nutrient paste dispenser again," [PAWN_nameDef] stole a drop pod schematic and vanished.  
+<description>Fleeing a cacophonous brood of six screeching toddlers and a partner who insisted [PAWN_pronoun] "fix the damn nutrient paste dispenser again," [PAWN_nameDef] stole a drop pod schematic and vanished.
 \n[PAWN_pronoun] crash-landed near an Outlander outpost and introduced [PAWN_objective]self as an "off-duty parent" in search of "strategic solitude." Somehow, it worked. [PAWN_pronoun] now pulls [PAWN_possessive] weight in the settlement, loyal to no banner but [PAWN_possessive] own — and [PAWN_pronoun]'ll patch up any dispenser but *that* one.</description>
   <slot>Adulthood</slot>
   <skillGains>
@@ -3883,7 +3883,7 @@ The crew was found dead. Helmets shattered, visors splintered, like something ha
     <title>herder</title>
     <defName>UB_BTC_Adulthood_Herder01</defName>
     <titleShort>herder</titleShort>
-<description>[PAWN_nameDef] worked the sheep pastures of a high-yield agriworld where tradition outweighed automation. Long days were spent mending fences, tracking births, watching for lameness. [PAWN_pronoun] knew every ewe by ear tag and behavior. 
+<description>[PAWN_nameDef] worked the sheep pastures of a high-yield agriworld where tradition outweighed automation. Long days were spent mending fences, tracking births, watching for lameness. [PAWN_pronoun] knew every ewe by ear tag and behavior.
 \nThat’s how [PAWN_pronoun] noticed one that didn’t seem right. It didn’t blink or chew, and had this annoying habit of following [PAWN_objective] with its gaze. The other sheep avoided it, drifting away as though it carried an unspoken sickness. Even the dogs stayed clear, circling wide when they came across it.
 \nWhen [PAWN_pronoun] tried to isolate it, it vanished. [PAWN_pronoun] spent hours counting, but the sheep was gone. By sundown, it was back in the flock. Watching.
 \nEventually, things started…slipping. The dogs refused to enter the east pasture, standing stiff-legged at the gate, hackles raised, growling low at something only they could see. Later that week, twins were born from a ewe no one remembered inseminating. The lambs had no eyes.

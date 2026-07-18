@@ -9,7 +9,7 @@
 		<baseDesc>[PAWN_nameDef] grew up taking care of the sick and injured.</baseDesc>
 		<slot>Childhood</slot>
 		<spawnCategories>
-			<li>ZCB</li> 
+			<li>ZCB</li>
 		</spawnCategories>
 		<minTechLevel>Medieval</minTechLevel>
 		<requiredRecords>
@@ -30,7 +30,7 @@
 		<baseDesc>[PAWN_nameDef] was a medical prodigy, caring for the sick and injured and even performing surgery at a young age. Having seen so many injuries, [PAWN_pronoun] abhors violence.</baseDesc>
 		<slot>Childhood</slot>
 		<spawnCategories>
-			<li>ZCB</li> 
+			<li>ZCB</li>
 		</spawnCategories>
 		<commonality>3</commonality>
 		<minTechLevel>Medieval</minTechLevel>
@@ -59,7 +59,7 @@
 		<baseDesc>[PAWN_nameDef] grew up helping around the farm, gaining insight into both planting and animal husbandry.</baseDesc>
 		<slot>Childhood</slot>
 		<spawnCategories>
-			<li>ZCB</li> 
+			<li>ZCB</li>
 		</spawnCategories>
 		<minTechLevel>Medieval</minTechLevel>
 		<requiredRecords>
@@ -76,8 +76,8 @@
 		</requiredSkills>
 		<skillGains><Plants>3</Plants><Animals>1</Animals></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
-	
-	
+
+
 <!-- ranch kid -->
 	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_RanchKid</defName>
@@ -86,7 +86,7 @@
 		<baseDesc>[PAWN_nameDef] took care of the colony's animals.</baseDesc>
 		<slot>Childhood</slot>
 		<spawnCategories>
-			<li>ZCB</li> 
+			<li>ZCB</li>
 		</spawnCategories>
 		<minTechLevel>Medieval</minTechLevel>
 		<requiredRecords>
@@ -115,7 +115,7 @@
 		<commonality>2</commonality>
 		<minTechLevel>Medieval</minTechLevel>
 		<spawnCategories>
-			<li>ZCB</li> 
+			<li>ZCB</li>
 		</spawnCategories>
 		<requiredSkills>
 			<li>
@@ -140,7 +140,7 @@
 		<slot>Childhood</slot>
 		<minTechLevel>Medieval</minTechLevel>
 		<spawnCategories>
-			<li>ZCB</li> 
+			<li>ZCB</li>
 		</spawnCategories>
 		<requiredRecords>
 			<li>
@@ -173,7 +173,7 @@
 		<baseDesc>[PAWN_nameDef] loved art from a young age, spending hours drawing on the floor and even dabbling in sculpture. However, [PAWN_pronoun] never learned to use [PAWN_possessive] skills in a practical way.</baseDesc>
 		<slot>Childhood</slot>
 		<spawnCategories>
-			<li>ZCB</li> 
+			<li>ZCB</li>
 		</spawnCategories>
 		<minTechLevel>Medieval</minTechLevel>
 		<requiredSkills>

@@ -15,7 +15,7 @@
     <skillGains>
 	   <Plants>4</Plants>
       <Construction>4</Construction>
-    
+
 <Social>-4</Social></skillGains><requiredWorkTags>
       <li>Constructing</li>
     </requiredWorkTags>
@@ -147,7 +147,7 @@
 	    <Artistic>5</Artistic>
       <Plants>1</Plants>
       <Animals>3</Animals>
-    
+
 <Melee>-2</Melee><Shooting>-2</Shooting></skillGains>
     <forcedTraits>
       <ST_Virtuoso MayRequire="Goji.TheSimsTraits,Ludeon.RimWorld.Royalty" />

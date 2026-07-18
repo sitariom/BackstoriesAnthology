@@ -1317,7 +1317,7 @@
 			<Melee>6</Melee>
 			<Shooting>6</Shooting>
 			<Crafting>2</Crafting>
-		
+
       <Social>-4</Social><Medicine>-3</Medicine></skillGains>
 <forcedTraits>
 			<Psychopath>0</Psychopath>
@@ -2300,7 +2300,7 @@
 		<skillGains>
 			<Melee>6</Melee>
 			<Shooting>4</Shooting>
-		
+
       <Social>-4</Social></skillGains>
 <forcedTraits>
 			<Cannibal>0</Cannibal>
@@ -4202,7 +4202,7 @@
 		<skillGains>
 			<Intellectual>5</Intellectual>
 			<Social>2</Social>
-		
+
       <Shooting>-4</Shooting><Animals>-2</Animals></skillGains>
 <forcedTraits>
 			<Abrasive>0</Abrasive>
@@ -4231,7 +4231,7 @@
 			<Intellectual>7</Intellectual>
 			<Crafting>2</Crafting>
 			<Construction>1</Construction>
-		
+
       <Social>-2</Social></skillGains>
 <forcedTraits>
 			<Abrasive>0</Abrasive>
@@ -4854,7 +4854,7 @@
 			<Crafting>2</Crafting>
 			<Construction>1</Construction>
 			<Plants>3</Plants>
-		
+
       <Social>-4</Social><Shooting>-3</Shooting></skillGains>
 <forcedTraits>
 			<Psychopath>0</Psychopath>
@@ -5130,7 +5130,7 @@
 		<skillGains>
 			<Melee>7</Melee>
 			<Construction>-3</Construction>
-		
+
       <Social>-4</Social></skillGains>
 <forcedTraits>
 			<Psychopath>0</Psychopath>
@@ -5160,7 +5160,7 @@
 			<Shooting>3</Shooting>
 			<Melee>3</Melee>
 			<Intellectual>4</Intellectual>
-		
+
       <Social>-4</Social><Intellectual>-3</Intellectual></skillGains>
 <forcedTraits>
 			<Psychopath>0</Psychopath>

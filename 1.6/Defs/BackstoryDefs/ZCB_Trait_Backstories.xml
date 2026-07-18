@@ -10,8 +10,8 @@
 		<baseDesc>[PAWN_nameDef] was quite an ugly child. [PAWN_pronoun] worked extra hard to make friends.</baseDesc>
 		<slot>Childhood</slot>
 		<spawnCategories>
-			<li>ZCB</li> 		
-			<li>ZCB_NaturalMeditation</li> 	
+			<li>ZCB</li>
+			<li>ZCB_NaturalMeditation</li>
 		</spawnCategories>
 		<commonality>1</commonality>
 		<requiredPassions>
@@ -22,8 +22,8 @@
 			<Social>3</Social>
 		</skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
-	
-	
+
+
 <!-- staggeringly ugly -->
 	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_UglyChild2</defName>
@@ -32,8 +32,8 @@
 		<baseDesc>[PAWN_nameDef] was a staggeringly ugly child. [PAWN_pronoun] worked extra hard to make friends, baking treats for the rest of the colony to win favor.</baseDesc>
 		<slot>Childhood</slot>
 		<spawnCategories>
-			<li>ZCB</li> 		
-			<li>ZCB_NaturalMeditation</li> 	
+			<li>ZCB</li>
+			<li>ZCB_NaturalMeditation</li>
 		</spawnCategories>
 		<commonality>2</commonality>
 		<requiredRecords>
@@ -48,7 +48,7 @@
 		<requiredTraits><li>Beauty</li></requiredTraits>
 		<skillGains><Social>5</Social><Cooking>2</Cooking></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
-	
+
 
 <!-- Undergrounder -->
 	<UnifiedBackstories.ZCBackstoryDef>
@@ -58,8 +58,8 @@
 		<baseDesc>[PAWN_nameDef] loved exploring and expanding the tunnels that extended from his home. [PAWN_pronoun] enjoyed any kind of digging, even helping plow and till [PAWN_possessive] colony's farms.</baseDesc>
 		<slot>Childhood</slot>
 		<spawnCategories>
-			<li>ZCB</li> 	
-			<li>ZCB_NaturalMeditation</li> 		
+			<li>ZCB</li>
+			<li>ZCB_NaturalMeditation</li>
 		</spawnCategories>
 		<commonality>2</commonality>
 		<requiredTraits><li>Undergrounder</li></requiredTraits>
@@ -68,9 +68,9 @@
 		</requiredPassions>
 		<skillGains><Mining>5</Mining><Plants>4</Plants><Intellectual>-3</Intellectual></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
-	
 
-	
+
+
 	<!-- Bloodlust ranged -->
 	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_Assassin</defName>
@@ -79,7 +79,7 @@
 		<baseDesc>[PAWN_nameDef] loved watching [PAWN_possessive] enemies die through a scope. Or [PAWN_possessive] friends, [PAWN_pronoun] wasn't picky.</baseDesc>
 		<slot>Childhood</slot>
 		<spawnCategories>
-			<li>ZCB</li> 
+			<li>ZCB</li>
 		</spawnCategories>
 		<commonality>3</commonality>
 		<requiredTraits><li>Bloodlust</li></requiredTraits>
@@ -88,6 +88,6 @@
 		</requiredPassions>
 		<skillGains><Shooting>6</Shooting><Social>-4</Social></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
-	
-	
+
+
 </Defs>

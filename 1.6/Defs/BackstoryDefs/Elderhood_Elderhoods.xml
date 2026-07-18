@@ -90,7 +90,7 @@
 		</requiredWorkTags>
 		<possessions>
 
-			<li><thingDef>Novel</thingDef><count>1</count></li>
+			<li><key>Novel</key><value>1~1</value></li>
 
 		</possessions>
 	</BackstoryDef>

@@ -23,11 +23,11 @@
 				<name>TimeDrafted</name>
 				<maxValue>15000</maxValue>
 			</li>
-			<li>		
+			<li>
 				<name>Kills</name>
 				<maxValue>0</maxValue>
 			</li>
-			<li>		
+			<li>
 				<name>ShotsFired</name>
 				<maxValue>5</maxValue>
 			</li>
@@ -67,8 +67,8 @@
 		<!-- new tags end here-->
 		<skillGains><Social>-2</Social><Intellectual>3</Intellectual></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
-	
-	
+
+
 	<!-- reluctant bookworm -->
 <UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_ReluctantBookworm</defName>
@@ -97,8 +97,8 @@
 		<!-- new tags end here-->
 		<skillGains><Plants>2</Plants><Animals>1</Animals></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
-	
-	
+
+
 	<!-- aspiring cook -->
 	<UnifiedBackstories.ZCBackstoryDef>
 		<defName>UB_ZCB_AspiringChef</defName>
@@ -107,7 +107,7 @@
 		<baseDesc>[PAWN_nameDef] grew up reading all sorts of book, but [PAWN_possessive] favorites were always cookbooks. [PAWN_pronoun] learned everything [PAWN_pronoun] could about recipes and ingredients from all over the world. [PAWN_nameDef] dreamed of one day opening [PAWN_possessive] own restaurant and writing books filled with all [PAWN_possessive] best recipes.</baseDesc>
 		<slot>Childhood</slot>
 		<spawnCategories>
-			<li>ZCB</li> 
+			<li>ZCB</li>
 		</spawnCategories>
 		<commonality>1</commonality>
 		<minTechLevel>Medieval</minTechLevel>
@@ -123,8 +123,8 @@
 		</requiredPassions>
 		<skillGains><Intellectual>2</Intellectual><Cooking>4</Cooking><Plants>2</Plants><Social>1</Social></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
-	
-	
+
+
 <!-- ================================== HEALTH ================================== -->
 <!-- scarred veteran -->
 	<UnifiedBackstories.ZCBackstoryDef>
@@ -134,13 +134,13 @@
 		<baseDesc>[PAWN_nameDef] reached adulthood with [PAWN_possessive] mind intact, but not [PAWN_possessive] body.</baseDesc>
 		<slot>Childhood</slot>
 		<spawnCategories>
-			<li>ZCB</li> 
+			<li>ZCB</li>
 		</spawnCategories>
 		<minTechLevel>Medieval</minTechLevel>
 		<commonality>3</commonality>
 		<bodyPartsMissing>3~999</bodyPartsMissing>
 		<skillGains><Medicine>4</Medicine><Intellectual>3</Intellectual><Melee>2</Melee></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
-	
-	
+
+
 </Defs>

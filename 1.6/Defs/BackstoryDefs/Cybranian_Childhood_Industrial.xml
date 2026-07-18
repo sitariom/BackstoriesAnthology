@@ -108,7 +108,7 @@
 		<skillGains>
 			<Cooking>4</Cooking>
 			<Medicine>3</Medicine>
-		
+
       <Shooting>-3</Shooting><Melee>2</Melee></skillGains>
 <forcedTraits>
 			<Wimp>0</Wimp>
@@ -219,7 +219,7 @@
 		<skillGains>
 			<Artistic>4</Artistic>
 			<Social>5</Social>
-		
+
       <Shooting>-2</Shooting></skillGains>
 <forcedTraits>
 			<Wimp>0</Wimp>
@@ -624,7 +624,7 @@
 		<skillGains>
 			<Construction>2</Construction>
 			<Medicine>2</Medicine>
-		
+
       <Social>-4</Social><Shooting>-3</Shooting><Melee>-3</Melee></skillGains>
 <forcedTraits>
 			<Psychopath>0</Psychopath>
@@ -1385,7 +1385,7 @@
 			<Melee>4</Melee>
 			<Crafting>2</Crafting>
 			<Medicine>1</Medicine>
-		
+
       <Social>-3</Social></skillGains>
 <forcedTraits>
 			<Abrasive>0</Abrasive>

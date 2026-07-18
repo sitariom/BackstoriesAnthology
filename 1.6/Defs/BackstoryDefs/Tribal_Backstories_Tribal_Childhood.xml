@@ -10,13 +10,13 @@
 	<titleShort>Hunter</titleShort>
 	<baseDesc>[PAWN_nameDef] greatly admired the hunters of [PAWN_possessive] tribe. [PAWN_pronoun] would often shirk [PAWN_possessive] chores to sneak away and practice with [PAWN_possessive] toy bow and arrow.</baseDesc>
 	<skillGains>
-	
+
 			<Animals>2</Animals>
-				
-  
+
+
 			<Shooting>4</Shooting>
-			
-      
+
+
 	</skillGains>
 	<requiredWorkTags>
         <li>Violent</li>
@@ -37,10 +37,10 @@
 	<skillGains>
 
 			<Melee>4</Melee>
-          
-     
+
+
 			<Shooting>4</Shooting>
-		
+
 	</skillGains>
 		<requiredWorkTags>
         <li>Violent</li>
@@ -57,13 +57,13 @@
 	<titleShort>Healer</titleShort>
 	<baseDesc>[PAWN_nameDef] was chosen to be trained as a healer. [PAWN_possessive] tribe’s kindly medicine woman was a skilled and patient teacher, and taught [PAWN_nameDef] how to tend to the sick, as well as how to grow healing herbs.</baseDesc>
 	<skillGains>
-	
+
 			<Plants>4</Plants>
-            
-  
+
+
 			<Medicine>4</Medicine>
-				
-   
+
+
 	</skillGains>
 		<requiredWorkTags>
 	   <li>PlantWork</li>
@@ -81,13 +81,13 @@
 	<titleShort>Wild child</titleShort>
 	<baseDesc>Whether on purpose or by accident, [PAWN_nameDef] was somehow seperated from [PAWN_possessive] parents as a baby. A pack of wolves came across the helpless infant and adopted [PAWN_objective] as one of their own. It wasn’t until many years later that [PAWN_nameDef] was finally found by a tribe of [PAWN_possessive] own species. By then, it was too late for [PAWN_objective] to fully learn many fundamental social skills.</baseDesc>
 	<skillGains>
-	
+
 			<Animals>6</Animals>
-           
-     
+
+
 			<Melee>2</Melee>
-               
- 
+
+
 	</skillGains><requiredWorkTags>
 	   <li>Animals</li>
     </requiredWorkTags>
@@ -104,13 +104,13 @@
 	<titleShort>Weaver</titleShort>
 	<baseDesc>[PAWN_nameDef] dexterously spun loose fibres into thread, which [PAWN_possessive] teacher then wove into clothing and other textiles for the tribe. [PAWN_nameDef] favourite part of [PAWN_possessive] work was helping to pick and prepare the plants for making the colourful dyes that were used for the thread.</baseDesc>
 	<skillGains>
-		
+
 			<Crafting>4</Crafting>
-              
-     
+
+
 			<Plants>3</Plants>
-			
-    
+
+
 	</skillGains>
 		<requiredWorkTags>
 	   <li>ManualSkilled</li>
@@ -127,11 +127,11 @@
 	<titleShort>Banished</titleShort>
 	<baseDesc>[PAWN_nameDef]’s actions led to the death of one [PAWN_possessive] tribe’s most sacred animals. While normally the punishment for such a crime was death, the tribe elders’ took [PAWN_nameDef]’s young age into account, and instead sent [PAWN_objective] to live with another tribe.</baseDesc>
 	<skillGains>
-		
+
 			<Melee>2</Melee>
-				
-    
-	
+
+
+
 <Animals>-2</Animals></skillGains><spawnCategories>
 		<li>Tribal</li>
 	</spawnCategories>
@@ -150,8 +150,8 @@
 		<Social>-3</Social>
 		<Animals>-1</Animals>
 		<Shooting>3</Shooting>
-              
-       
+
+
 		</skillGains>
 		<requiredWorkTags>
 			<li>Violent</li>
@@ -169,7 +169,7 @@
 	<baseDesc>[PAWN_nameDef] helped to collect twigs and branches to keep [PAWN_possessive] tribe’s fires lit. [PAWN_pronoun] enjoyed stacking the twigs up into little forts and tepees, discovering how to make sturdier and sturdier versions of the tiny structures.</baseDesc>
 	<skillGains>
 		<Construction>3</Construction>
-        <Plants>2</Plants>  
+        <Plants>2</Plants>
 	</skillGains>
 	<requiredWorkTags>
 	   <li>ManualSkilled</li>
@@ -186,12 +186,12 @@
 	<titleShort>Winterborn</titleShort>
 	<baseDesc>According to the beliefs of [PAWN_nameDef]’s tribe, children who are born during harsh winters and survive are destined to become mighty warriors. [PAWN_nameDef] was born during just such a winter.</baseDesc>
 	 <skillGains>
-		
+
 			<Melee>5</Melee>
-       
+
 			<Shooting>5</Shooting>
 
-        
+
 	</skillGains>
 	 <forcedTraits>
             <Tough>0</Tough>
@@ -211,19 +211,19 @@
 	<titleShort>Exile</titleShort>
 	<baseDesc>[PAWN_nameDef]’s mother was exiled from her village while she was pregnant with [PAWN_objective]. She raised [PAWN_nameDef] alone as best she could, teaching [PAWN_objective] how to survive in the wilderness without the support of a tribe.</baseDesc>
 	<skillGains>
-		
+
 			<Shooting>2</Shooting>
-           
-      
+
+
 			<Cooking>2</Cooking>
-            
-       
+
+
 			<Plants>2</Plants>
-             
-       
+
+
 			<Social>-2</Social>
 
-        
+
 	</skillGains>
 	<requiredWorkTags>
 	   <li>ManualSkilled</li>
@@ -241,10 +241,10 @@
 	<titleShort>Tree climber</titleShort>
 	<baseDesc>[PAWN_nameDef] loved climbing trees more than anything else. [PAWN_pronoun] could climb higher than any of the other children in [PAWN_possessive] tribe, and enjoyed spending time watching the world below from up in the branches of the tallest trees.</baseDesc>
 	<skillGains>
-		
+
 			<Plants>2</Plants>
-             
-    
+
+
 	</skillGains>
 	<requiredWorkTags>
 	   <li>PlantWork</li>
@@ -261,10 +261,10 @@
 	<titleShort>Doll maker</titleShort>
 	<baseDesc>[PAWN_nameDef] was often put in charge of watching over the younger children. To entertain them, [PAWN_pronoun] learned to make dolls out of dried leaves. [PAWN_possessive] dolls were so popular that [PAWN_pronoun] was eventually given other, more valuable, materials to make them with.</baseDesc>
 	<skillGains>
-	
+
 			<Crafting>5</Crafting>
-               
-     
+
+
 	</skillGains>
 		<requiredWorkTags>
 	   <li>ManualSkilled</li>
@@ -283,16 +283,16 @@
 	<titleShort>Troublemaker</titleShort>
 	<baseDesc>[PAWN_nameDef] was constantly up to no good. Stealing and hiding things, harassing animals, and taunting the other children, [PAWN_pronoun] always found a way to make a nuisance of [PAWN_objective]self. As punishment, [PAWN_nameDef] was often sent to bed with no supper, but [PAWN_pronoun] would simply sneak out of bed and cook something for [PAWN_objective]self.</baseDesc>
 	<skillGains>
-	
+
 			<Social>-3</Social>
-           
-   
+
+
 			<Animals>-3</Animals>
-       
-      
+
+
 			<Cooking>4</Cooking>
-      
-       
+
+
 	</skillGains>
 		 <forcedTraits>
             <Abrasive>0</Abrasive>
@@ -315,10 +315,10 @@
 	<titleShort>Bait collector</titleShort>
 	<baseDesc>[PAWN_nameDef] dug in the dirt to collect worms and grubs for [PAWN_possessive] tribe’s fishers to use as bait. When [PAWN_pronoun] was particularly successful, [PAWN_pronoun] would feed some of the spare bugs to the birds, daydreaming about what it might be like to fly as [PAWN_pronoun] watched them.</baseDesc>
 	<skillGains>
-	
+
 			<Animals>1</Animals>
-       
-       
+
+
 	</skillGains>
 	<requiredWorkTags>
 	   <li>Animals</li>
@@ -336,12 +336,12 @@
 	<titleShort>Mud mixer</titleShort>
 	<baseDesc>[PAWN_nameDef] helped to mix the mud and clay mixture that [PAWN_possessive] tribe’s builders used to make bricks. The builders often allowed [PAWN_objective] to watch them work, teaching [PAWN_objective] the best way to lay the bricks to create sturdy structures.</baseDesc>
 	<skillGains>
-	
+
 			<Crafting>3</Crafting>
-          
-	
+
+
 			<Construction>2</Construction>
-      
+
 	</skillGains>
 	<requiredWorkTags>
 	   <li>ManualSkilled</li>
@@ -374,13 +374,13 @@
 	<titleShort>Strategist</titleShort>
 	<baseDesc>[PAWN_nameDef] loved to play board games and was constantly begging the other children of [PAWN_possessive] village to play The Game of Ur with [PAWN_objective]. A kind craftsman noticed [PAWN_nameDef]’s passion, and showed [PAWN_objective] how to make [PAWN_possessive] own custom gameboard.</baseDesc>
 	<skillGains>
-		
+
 			<Intellectual>4</Intellectual>
-    
-	
+
+
 			<Crafting>2</Crafting>
-             
-      
+
+
 	</skillGains>
 	 <requiredWorkTags>
           <li>Intellectual</li>
@@ -397,10 +397,10 @@
 	<titleShort>Ward</titleShort>
 	<baseDesc>[PAWN_nameDef] was sent to live with another tribe in order to secure and strengthen an alliance. Because the alliance would fall apart if [PAWN_pronoun] was harmed, [PAWN_nameDef] was assigned the relatively safe job of helping to mind the cooking fires.</baseDesc>
 	<skillGains>
-	
+
 			<Cooking>2</Cooking>
-              
-       
+
+
 	</skillGains>
 		<requiredWorkTags>
 	   <li>ManualSkilled</li>
@@ -418,13 +418,13 @@
 	<titleShort>Plague survivor</titleShort>
 	<baseDesc>When plague struck [PAWN_nameDef]’s tribe, [PAWN_pronoun] was the only child to survive. [PAWN_pronoun] was quite lonely growing up, having no peers [PAWN_possessive] own age to talk to.</baseDesc>
 	<skillGains>
-	
+
 			<Social>-3</Social>
-            
-      
+
+
 			<Medicine>1</Medicine>
-           
-       
+
+
 	</skillGains>
 	<forcedTraits>
         <Immunity>1</Immunity>
@@ -441,13 +441,13 @@
 	<titleShort>Rock collector</titleShort>
 	<baseDesc>[PAWN_nameDef] spent [PAWN_possessive] free time collecting different types of rocks and minerals. [PAWN_pronoun] sometimes made simple jewelry out of [PAWN_possessive] favourite stones by tying them with twine.</baseDesc>
 	<skillGains>
-		
+
 			<Mining>2</Mining>
-       
-      
+
+
 			<Crafting>2</Crafting>
-          
-       
+
+
 	</skillGains>
 	<requiredWorkTags>
 	   <li>ManualSkilled</li>
@@ -465,10 +465,10 @@
 	<titleShort>Curious child</titleShort>
 	<baseDesc>[PAWN_nameDef] was naturally curious, constantly asking the adults of [PAWN_possessive] tribe questions about how things worked. Although this annoyed some, others were happy to teach [PAWN_nameDef] what [PAWN_pronoun] wanted to know.</baseDesc>
 	<skillGains>
-		
+
 			<Intellectual>4</Intellectual>
-            
-		
+
+
 	</skillGains>
 		<requiredWorkTags>
 	   <li>ManualSkilled</li>
@@ -486,10 +486,10 @@
 	<titleShort>Spoiled child</titleShort>
 	<baseDesc>[PAWN_nameDef] grew up during a time of plenty in a family that was particularly wealthy. [PAWN_pronoun] enjoyed being the envy of the other children in the village, and frequently got into fights and arguments.</baseDesc>
 	<skillGains>
-	
+
 			<Melee>2</Melee>
-             
-      
+
+
 	</skillGains>
 	<forcedTraits>
             <Jealous>0</Jealous>
@@ -509,13 +509,13 @@
 	<titleShort>Caravan child</titleShort>
 	<baseDesc>[PAWN_nameDef] frequently travelled with a trading caravan, helping the adults by tending to the pack animals. [PAWN_pronoun] got to see far-off places and met many interesting people.</baseDesc>
 	<skillGains>
-	
+
 			<Animals>3</Animals>
-               
-		
+
+
 			<Social>3</Social>
-             
-		
+
+
 	</skillGains>
 		<requiredWorkTags>
 	   <li>ManualSkilled</li>
@@ -534,10 +534,10 @@
 	<titleShort>Rat chaser</titleShort>
 	<baseDesc>[PAWN_nameDef] helped to chase away rats and other pests from [PAWN_possessive] village’s grain stores. [PAWN_pronoun] loved to play with the cats that hunted near the storage house.</baseDesc>
 	<skillGains>
-		
+
 			<Animals>3</Animals>
-               
-		
+
+
 	</skillGains>
 		<requiredWorkTags>
 	   <li>ManualSkilled</li>
@@ -556,10 +556,10 @@
 	<titleShort>Cursed child</titleShort>
 	<baseDesc>[PAWN_nameDef] was frequently sick as a child, coming close to death many times. [PAWN_possessive] family believed [PAWN_pronoun] had been hexed by an evil witch doctor, and tried all manner of rituals and prayers in order to remove the curse. [PAWN_nameDef] became somewhat good at identifying plants from constantly being around healing herbs.</baseDesc>
 	<skillGains>
-		
+
 			<Plants>3</Plants>
-                
-       
+
+
 	</skillGains>
 		 <forcedTraits>
             <Immunity>-1</Immunity>
@@ -576,10 +576,10 @@
 	<titleShort>Child sacrifice</titleShort>
 	<baseDesc>[PAWN_nameDef] was chosen to be one of the children who were annually sacrificed to [PAWN_possessive] tribe’s gods, something that was considered a great honour. However, when the time came, [PAWN_nameDef] ran away. [PAWN_pronoun] survived on roots and berries in the wild until a different tribe, who worshiped gods that did not demand death, found [PAWN_objective].</baseDesc>
 	<skillGains>
-		
+
 			<Plants>2</Plants>
-                
-       
+
+
 	</skillGains>
 		 <forcedTraits>
             <Nerves>-1</Nerves>
@@ -596,13 +596,13 @@
 	<titleShort>Stolen child</titleShort>
 	<baseDesc>[PAWN_nameDef] was barely a toddler when [PAWN_pronoun] was kidnapped from [PAWN_possessive] settlement in a raid. The tribe who stole [PAWN_objective] believed that the advanced technology [PAWN_possessive] people had was magic, and that [PAWN_nameDef] was magic too. Although [PAWN_pronoun] did not manifest magical powers, the superior nutrition [PAWN_nameDef] received as an infant meant [PAWN_pronoun] was stronger than the other children in the tribe.</baseDesc>
 	<skillGains>
-		
+
 			<Melee>5</Melee>
-              
-       
+
+
 			<Shooting>4</Shooting>
-             
-        
+
+
 	</skillGains>
 		 <forcedTraits>
             <Tough>0</Tough>

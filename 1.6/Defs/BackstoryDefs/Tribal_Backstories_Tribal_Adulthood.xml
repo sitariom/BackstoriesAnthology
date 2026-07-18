@@ -10,11 +10,11 @@
 	<titleShort>Dancer</titleShort>
 	<baseDesc>[PAWN_nameDef]’s tribe believed that a bountiful harvest could be ensured by performing ceremonial dances. To learn to perform these complex dances properly, [PAWN_nameDef] had to spend most of [PAWN_possessive] time practicing, leaving little room for developing other skills.</baseDesc>
 	<skillGains>
-		 
+
                 <Artistic>2</Artistic>
-        
-            
-	
+
+
+
 <Construction>-2</Construction><Crafting>-2</Crafting></skillGains><forcedTraits>
             <Nimble>0</Nimble>
     </forcedTraits>
@@ -34,10 +34,10 @@
 	<titleShort>Escapee</titleShort>
 	<baseDesc>[PAWN_nameDef] was the sole survivor of another tribe’s raid on [PAWN_possessive] village. Taken prisoner, [PAWN_pronoun] was intended as a sacrifice to appease the enemy’s bloodthirsty god. Through strength, cunning, and luck, [PAWN_nameDef] made a daring escape.</baseDesc>
 	<skillGains>
-	
+
 			<Melee>3</Melee>
-    
-      
+
+
 	</skillGains>
 	<forcedTraits>
             <Nimble>0</Nimble>
@@ -55,14 +55,14 @@
 	<titleShort>Calendar keeper</titleShort>
 	<baseDesc>[PAWN_nameDef] was responsible for keeping track of counting the days for [PAWN_possessive] tribe. [PAWN_possessive] job involved tracking lunar cycles, studying constellations, and predicting the optimal growing seasons.</baseDesc>
 	<skillGains>
-		
+
                 <Intellectual>5</Intellectual>
-           
-         
-		
+
+
+
                 <Plants>2</Plants>
-     
-            
+
+
 	</skillGains>
 	   <requiredWorkTags>
             <li>Intellectual</li>
@@ -80,10 +80,10 @@
 	<titleShort>Beast master</titleShort>
 	<baseDesc>[PAWN_nameDef] was believed to have supernatural powers that allowed [PAWN_objective] to tame any animal. [PAWN_pronoun] was often called upon when dangerous creatures were spotted near [PAWN_possessive] village in order to soothe the wild beasts.</baseDesc>
 	<skillGains>
-		 
+
                 <Animals>9</Animals>
-         
-          
+
+
 	</skillGains>
 		<bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
@@ -102,16 +102,16 @@
 	<titleShort>Carver</titleShort>
 	<baseDesc>[PAWN_nameDef] carved large stone monuments to honour [PAWN_possessive] tribe’s ancestors. [PAWN_nameDef] preferred to work in silent solitude, and hated when others tried to speak to [PAWN_objective] while [PAWN_pronoun] worked.</baseDesc>
 	<skillGains>
-		 
+
                 <Artistic>7</Artistic>
-             
-            
-			
+
+
+
                 <Mining>4</Mining>
-           
-         
+
+
                 <Social>-4</Social>
-             
+
 	</skillGains>
 		<bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
@@ -127,16 +127,16 @@
 	<titleShort>Bowyer</titleShort>
 	<baseDesc>[PAWN_nameDef] crafted bows for [PAWN_possessive] tribe to hunt with. Naturally, to make the best bows, [PAWN_nameDef] had to become skilled at using them. [PAWN_pronoun] often found [PAWN_objective]self teaching the children of the tribe how to shoot their very first arrows.</baseDesc>
 	<skillGains>
-		  
+
                 <Crafting>6</Crafting>
-             
-           
+
+
                 <Shooting>5</Shooting>
-         
-           
+
+
                 <Social>2</Social>
-            
-          
+
+
 	</skillGains>
 	<requiredWorkTags>
             <li>ManualSkilled</li>
@@ -155,12 +155,12 @@
 	<titleShort>Lookout</titleShort>
 	<baseDesc>[PAWN_nameDef] watched for danger while the rest of [PAWN_possessive] tribe went about their business. While standing guard, [PAWN_nameDef] would practice [PAWN_possessive] marksmanship, attempting to shoot specific leaves from trees. [PAWN_pronoun] was often scolded for wasting arrows, but always managed to charm [PAWN_possessive] way out of trouble.</baseDesc>
 	<skillGains>
-		
+
                 <Shooting>5</Shooting>
-        
+
                 <Social>2</Social>
-       
-          
+
+
 	</skillGains>
 		<forcedTraits>
             <ShootingAccuracy>1</ShootingAccuracy>
@@ -180,16 +180,16 @@
 	<titleShort>Lookout</titleShort>
 	<baseDesc>While the rest of [PAWN_possessive] tribe slept, [PAWN_nameDef] kept watch for danger lurking in the night. [PAWN_pronoun] spent so much time in quiet darkness, that [PAWN_pronoun] found the hustle and bustle of the day time to be unbearable.</baseDesc>
 	<skillGains>
-		
+
                 <Shooting>4</Shooting>
-                
-          
+
+
                 <Melee>4</Melee>
-          
-            
+
+
                 <Social>-2</Social>
-               
-            
+
+
 	</skillGains>
 		<forcedTraits>
 				<NightOwl>0</NightOwl>
@@ -215,10 +215,10 @@
             <li>PlantWork</li>
 		</requiredWorkTags>
 		<skillGains>
-		
+
                 <Plants>3</Plants>
-               
-           
+
+
 			</skillGains>
 		<forcedTraits>
 				<Kind>0</Kind>
@@ -240,10 +240,10 @@
             <li>Violent</li>
 		</requiredWorkTags>
 		<skillGains>
-	
+
                 <Melee>2</Melee>
-         
-            
+
+
 			</skillGains>
 	<spawnCategories>
 		<li>Tribal</li>
@@ -262,10 +262,10 @@
 	<titleShort>Slave</titleShort>
 	<baseDesc>[PAWN_nameDef] was kept as a slave by a small but vicious tribe. The extreme abuse [PAWN_pronoun] suffered made [PAWN_objective] withdrawn and utterly incapable of fighting back. No one thought [PAWN_pronoun] would ever attempt an escape until, one day, [PAWN_pronoun] did.</baseDesc>
 	<skillGains>
-		
+
                 <Social>-5</Social>
-         
-           
+
+
 	</skillGains>
 	<workDisables>
        <li>Violent</li>
@@ -286,10 +286,10 @@
 	<titleShort>Scavenger</titleShort>
 	<baseDesc>[PAWN_nameDef]’s homeland was struck by a terrible famine. Many members of [PAWN_possessive] tribe starved to death, and a few even turned to cannibalism. To keep [PAWN_objective]self alive, [PAWN_nameDef] scavenged for roots, insects, and even carrion.</baseDesc>
 	<skillGains>
-		 
+
                 <Plants>4</Plants>
-              
-         
+
+
 	</skillGains>
 	<requiredWorkTags>
             <li>PlantWork</li>
@@ -308,10 +308,10 @@
 	<titleShort>Water carrier</titleShort>
 	<baseDesc>[PAWN_nameDef] collected water from the river that flowed near [PAWN_possessive] tribe’s village, carrying water in large, heavy containers to wherever it was needed.</baseDesc>
 	<skillGains>
-		  
+
                 <Melee>2</Melee>
-         
-            
+
+
 	</skillGains>
 	<bodyTypeMale>Hulk</bodyTypeMale>
 	<bodyTypeFemale>Hulk</bodyTypeFemale>
@@ -330,10 +330,10 @@
 	<titleShort>Messenger</titleShort>
 	<baseDesc>[PAWN_nameDef] carried messages to and from [PAWN_possessive] tribe’s village. [PAWN_pronoun] got to meet many different people, and always tried to find the time to chat and get to know them better.</baseDesc>
 	<skillGains>
-		  
+
                 <Social>2</Social>
-             
-           
+
+
 	</skillGains>
 	<forcedTraits>
             <SpeedOffset>2</SpeedOffset>
@@ -352,13 +352,13 @@
 	<titleShort>Waste hauler</titleShort>
 	<baseDesc>[PAWN_nameDef] had the job of hauling waste away from [PAWN_possessive] tribe’s homes and living areas. Many members of the tribe considered [PAWN_nameDef] to be dirty because of this, and refused to speak to [PAWN_objective].</baseDesc>
 	<skillGains>
-		
+
                 <Melee>2</Melee>
-             
-           
+
+
                 <Social>-3</Social>
-              
-           
+
+
 	</skillGains>
 	<bodyTypeMale>Hulk</bodyTypeMale>
 	<bodyTypeFemale>Hulk</bodyTypeFemale>
@@ -377,13 +377,13 @@
 	<titleShort>Vision guide</titleShort>
 	<baseDesc>With the aid of hallucinogenic plants, [PAWN_nameDef] helped to guide members of [PAWN_possessive] tribe on their spiritual journeys.</baseDesc>
 	<skillGains>
-		 
+
                 <Plants>5</Plants>
-               
-			
+
+
                 <Medicine>4</Medicine>
-            
-            
+
+
 	</skillGains>
 	<forcedTraits>
             <DrugDesire>1</DrugDesire>
@@ -400,7 +400,7 @@
 	<possessions>
 <PsychiteTea>1</PsychiteTea>
 </possessions>
-  
+
 </BackstoryDef>
 
 <BackstoryDef>
@@ -410,13 +410,13 @@
 	<titleShort>Fur trader</titleShort>
 	<baseDesc>[PAWN_nameDef] traveled far and wide, trading the furs of the creatures [PAWN_possessive] tribe hunted for other goods. [PAWN_pronoun] was skilled with words, and was always able to make a favourable deal.</baseDesc>
 	<skillGains>
-		 
+
                 <Social>5</Social>
-          
-          
+
+
                 <Animals>2</Animals>
-         
-          
+
+
 	</skillGains>
 	<spawnCategories>
 		<li>Tribal</li>
@@ -432,13 +432,13 @@
 	<titleShort>Record keeper</titleShort>
 	<baseDesc>[PAWN_nameDef] recorded important information relating to trade using clay tablets and small knotted ropes. [PAWN_pronoun] kept track of numbers and values and helped to resolve disputes.</baseDesc>
 	<skillGains>
-		
+
                 <Intellectual>5</Intellectual>
-             
-         
+
+
                 <Social>2</Social>
-               
-           
+
+
 	</skillGains>
 	<requiredWorkTags>
             <li>Intellectual</li>
@@ -456,13 +456,13 @@
 	<titleShort>Club hunter</titleShort>
 	<baseDesc>[PAWN_nameDef] hunted for food for [PAWN_possessive] tribe using a large club. [PAWN_pronoun] refused to use a bow and arrow like the other hunters, much preferring to bludgeon things to death.</baseDesc>
 	<skillGains>
-	 
+
 			<Melee>6</Melee>
-            
-      
+
+
             <Animals>3</Animals>
-            
-       
+
+
 	</skillGains>
 	<forcedTraits>
             <Brawler>0</Brawler>
@@ -485,13 +485,13 @@
 	<titleShort>Tree tender</titleShort>
 	<baseDesc>[PAWN_nameDef] tended to [PAWN_possessive] tribe’s sacred tree, meditating beneath it in order to commune with it and ascertain its needs. [PAWN_nameDef]’s tree-assigned duties included keeping the area around it clear of any man-made structures, bringing it water during the dry months, and encouraging pest-eating creatures to live near it.</baseDesc>
 	<skillGains>
-		  
+
                 <Plants>7</Plants>
-      
-           
+
+
                 <Animals>1</Animals>
-              
-            
+
+
 	</skillGains>
 	<spawnCategories>
 		<li>Tribal</li>
@@ -513,9 +513,9 @@
 	<titleShort>Cave painter</titleShort>
 	<baseDesc>[PAWN_nameDef] painted the stories of [PAWN_possessive] tribe on the walls of the cave system that they dwelt in. From commemorating marriages, births, and deaths, memorializing great hunts, and depicting important aspects of the tribe’s belief system, [PAWN_nameDef] was kept busy and seldom had a chance to wander outside.</baseDesc>
 	<skillGains>
-		  
+
                 <Artistic>6</Artistic>
-            
+
 	</skillGains>
 	<forcedTraits>
             <Undergrounder>0</Undergrounder>
@@ -537,11 +537,11 @@
 	<titleShort>Plough puller</titleShort>
 	<baseDesc>After a famine, [PAWN_nameDef]’s tribe lacked any animals that could help them plough their fields. Determined not to allow [PAWN_possessive] people to starve any longer, [PAWN_nameDef] used all of [PAWN_possessive] strength to pull the ploughs [PAWN_objective]self.</baseDesc>
 	<skillGains>
-		   
+
                 <Plants>4</Plants>
-            
+
                 <Melee>5</Melee>
-          
+
 	</skillGains>
 	 <bodyTypeMale>Hulk</bodyTypeMale>
     <bodyTypeFemale>Hulk</bodyTypeFemale>
@@ -564,11 +564,11 @@
 	<titleShort>Tracker</titleShort>
 	<baseDesc>[PAWN_nameDef] was an essential part of any hunting party for [PAWN_possessive] uncanny ability to track prey over long distances, even in the most unfavourable conditions.</baseDesc>
 	<skillGains>
-		  
+
                 <Animals>6</Animals>
                 <Shooting>3</Shooting>
-               
-          
+
+
 	</skillGains>
 	<requiredWorkTags>
             <li>Animals</li>
@@ -589,10 +589,10 @@
 	<titleShort>Spirit speaker</titleShort>
 	<baseDesc>[PAWN_nameDef] would occasionally feel… strange. As though something far away was affecting [PAWN_possessive] thoughts. A wise elder told [PAWN_objective] that [PAWN_pronoun] had the ability to hear the spirit world. Members of [PAWN_nameDef]’s tribe would ask [PAWN_objective] for advice from the spirits, which [PAWN_pronoun] tried [PAWN_possessive] best to give.</baseDesc>
 	<skillGains>
-		  
+
                 <Social>4</Social>
-               
-            
+
+
 	</skillGains>
 	<spawnCategories>
 		<li>Tribal</li>
@@ -612,18 +612,18 @@
 	<titleShort>Witch doctor</titleShort>
 	<baseDesc>[PAWN_nameDef] enjoyed the prestige and power that came from being [PAWN_possessive] tribe’s witch doctor. [PAWN_nameDef] would invent fake ailments that [PAWN_pronoun] would claim [PAWN_pronoun] "knew" tribe members were suffering from in order to keep [PAWN_possessive] place of importance secure. In most cases, [PAWN_nameDef] would prescribe useless placebo herbs. Other times, [PAWN_pronoun] used mild poisons to make [PAWN_possessive] lies seem more legitimate.</baseDesc>
 	<skillGains>
-	  
+
           <Plants>4</Plants>
-          
+
            <Medicine>6</Medicine>
-        
-        
+
+
 	</skillGains>
 	  <forcedTraits>
-            <Greedy>0</Greedy> 
+            <Greedy>0</Greedy>
 		  </forcedTraits>
 	<requiredWorkTags>
-             <li>PlantWork</li>		 
+             <li>PlantWork</li>
 		</requiredWorkTags>
 	<spawnCategories>
 		<li>Tribal</li>
@@ -641,14 +641,14 @@
           <Melee>7</Melee>
 	</skillGains>
 		<forcedTraits>
-            <Masochist>0</Masochist> 
+            <Masochist>0</Masochist>
             <Nerves>-2</Nerves>
 		  </forcedTraits>
 		     <disallowedTraits>
             <Kind>0</Kind>
     </disallowedTraits>
 	<requiredWorkTags>
-             <li>Violent</li>		 
+             <li>Violent</li>
 		</requiredWorkTags>
 		  <workDisables>
         <li>Social</li>

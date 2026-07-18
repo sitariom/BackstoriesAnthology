@@ -144,7 +144,7 @@
 	<bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
   </BackstoryDef>
-  
+
   <BackstoryDef>
     <defName>UB_BTC_Rimworld</defName>
     <title>rimworld</title>
@@ -234,7 +234,7 @@
 	<bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
   </BackstoryDef>
-  
+
   <BackstoryDef>
     <defName>UB_BTC_AncientTechnician01</defName>
     <title>ancient technician</title>
@@ -328,7 +328,7 @@
     <bodyTypeMale>Hulk</bodyTypeMale>
     <bodyTypeFemale>Hulk</bodyTypeFemale>
   </BackstoryDef>
-  
+
 <BackstoryDef>
   <defName>UB_BTC_CryptoInsurgent</defName>
   <title>crypto insurgent</title>

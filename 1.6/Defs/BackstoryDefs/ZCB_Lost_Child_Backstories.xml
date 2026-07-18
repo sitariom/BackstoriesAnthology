@@ -22,7 +22,7 @@
 		</requiredRecords>
 		<skillGains><Cooking>1</Cooking><Melee>2</Melee><Crafting>2</Crafting><Plants>-2</Plants></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
-	
+
 
 	<!-- builder -->
 	<UnifiedBackstories.ZCBackstoryDef>

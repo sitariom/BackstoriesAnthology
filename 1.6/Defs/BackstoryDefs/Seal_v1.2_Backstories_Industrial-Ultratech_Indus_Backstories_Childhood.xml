@@ -22,7 +22,7 @@
       <Social>-1</Social>
     </skillGains>
   </BackstoryDef>
-  
+
   <BackstoryDef>
     <slot>Childhood</slot>
     <title>bored kid</title>
@@ -117,7 +117,7 @@
     <skillGains>
 	    <Shooting>5</Shooting>
       <Melee>2</Melee>
-    
+
 <Intellectual>-2</Intellectual></skillGains><forcedTraits>
       <VTE_Desensitized MayRequire="vanillaexpanded.vanillatraitsexpanded" />
     </forcedTraits>

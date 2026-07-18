@@ -36,12 +36,12 @@
 	  <bodyTypeFemale>Female</bodyTypeFemale>
     <skillGains>
 	    <Animals>7</Animals>
-    
+
 <Social>-4</Social><Intellectual>-2</Intellectual></skillGains>
     <forcedTraits>
       <ST_Naive MayRequire="Goji.TheSimsTraits" />
     </forcedTraits></BackstoryDef>
-  
+
   <BackstoryDef>
     <slot>Childhood</slot>
     <title>pebble painter</title>
@@ -93,7 +93,7 @@
     <skillGains>
       <Plants>4</Plants>
       <Cooking>3</Cooking>
-    
+
 <Social>-3</Social></skillGains><forcedTraits>
       <DrugDesire>1</DrugDesire>
     </forcedTraits>

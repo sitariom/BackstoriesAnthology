@@ -6,7 +6,7 @@
 		<defName>UB_ZCB_ChildWarrior</defName>
 		<title>child warrior</title>
 		<titleShort>warrior</titleShort>
-		<baseDesc>[PAWN_nameDef] was exposed to the harsh realities of battle at a young age. 
+		<baseDesc>[PAWN_nameDef] was exposed to the harsh realities of battle at a young age.
 \n[PAWN_pronoun] is skilled in combat, but the trauma has stunted [PAWN_possessive] social skills.</baseDesc>
 		<slot>Childhood</slot>
 		<maxTechLevel>Neolithic</maxTechLevel>
@@ -38,7 +38,7 @@
 		<slot>Childhood</slot>
 		<maxTechLevel>Neolithic</maxTechLevel>
 		<spawnCategories>
-			<li>ZCB</li> 							
+			<li>ZCB</li>
 			<li>ZCB_NaturalMeditation</li> 			<!-- enables natural meditation focus -->
 		</spawnCategories>
 		<requiredRecords>
@@ -71,7 +71,7 @@
 		<slot>Childhood</slot>
 		<maxTechLevel>Neolithic</maxTechLevel>
 		<spawnCategories>
-			<li>ZCB</li> 							
+			<li>ZCB</li>
 			<li>ZCB_NaturalMeditation</li> 			<!-- enables natural meditation focus -->
 		</spawnCategories>
 		<commonality>5</commonality>

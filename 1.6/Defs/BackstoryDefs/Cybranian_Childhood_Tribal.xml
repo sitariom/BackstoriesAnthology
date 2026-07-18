@@ -684,7 +684,7 @@
 			<Melee>5</Melee>
 			<Crafting>2</Crafting>
 			<Animals>2</Animals>
-		
+
       <Social>-3</Social></skillGains>
 <requiredWorkTags>
 			<li>Violent</li>
@@ -919,7 +919,7 @@
 		<skillGains>
 			<Plants>4</Plants>
 			<Animals>4</Animals>
-		
+
       <Social>-5</Social><Intellectual>-4</Intellectual></skillGains>
 		<requiredWorkTags>
 			<li>Animals</li>

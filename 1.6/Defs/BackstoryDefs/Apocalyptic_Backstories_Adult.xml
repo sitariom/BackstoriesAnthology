@@ -19,10 +19,10 @@
 			<li>Outlander</li>
 			<li>Pirate</li>
 		</spawnCategories>
-		
+
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
-	
+
 	</BackstoryDef>
 
 	<BackstoryDef>
@@ -36,15 +36,15 @@
 			<Shooting>3</Shooting>
 			<Crafting>2</Crafting>
 		</skillGains><requiredWorkTags>None</requiredWorkTags>
-		
+
 		<spawnCategories>
 			<li>Offworld</li>
 			<li>Outlander</li>
 		</spawnCategories>
-		
+
 	    <bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
-	
+
 	</BackstoryDef>
 
 	<BackstoryDef>
@@ -141,7 +141,7 @@
 		<forcedTraits>
 			<Cannibal>0</Cannibal>
 		</forcedTraits>
-			
+
 	</BackstoryDef>
 
 	<BackstoryDef>
@@ -189,7 +189,7 @@
 		</spawnCategories>
 	    <bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
-		
+
 	</BackstoryDef>
 
 	<BackstoryDef>
@@ -212,11 +212,11 @@
 		</spawnCategories>
 	    <bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
-		
+
 		<forcedTraits>
 			<Beauty>1</Beauty>
 		</forcedTraits>
-	
+
 	</BackstoryDef>
 
 	<BackstoryDef>
@@ -239,11 +239,11 @@
 		</spawnCategories>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
-		
+
 		<forcedTraits>
 			<NaturalMood>-1</NaturalMood>
 		</forcedTraits>
-		
+
 	</BackstoryDef>
 
 <BackstoryDef>
@@ -263,10 +263,10 @@
 			<li>Offworld</li>
 			<li>Outlander</li>
 		</spawnCategories>
-	
+
     	<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
-	
+
 	<forcedTraits>
 		<Tough>0</Tough>
 	</forcedTraits>
@@ -290,10 +290,10 @@
 			<li>Offworld</li>
 			<li>Outlander</li>
 		</spawnCategories>
-	
+
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
-	
+
 	<forcedTraits>
 		<Industriousness>1</Industriousness>
 	</forcedTraits>
@@ -316,10 +316,10 @@
 			<li>Offworld</li>
 			<li>Outlander</li>
 		</spawnCategories>
-	
+
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
-	
+
 		<possessions>
 			<Apparel_GasMask MayRequire="Ludeon.RimWorld.Biotech">1</Apparel_GasMask>
 		</possessions>
@@ -344,10 +344,10 @@
 			<li>Offworld</li>
 			<li>Outlander</li>
 		</spawnCategories>
-	
+
 		<bodyTypeMale>Male</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale> 
-	
+		<bodyTypeFemale>Female</bodyTypeFemale>
+
 		<forcedTraits>
 			<NightOwl>0</NightOwl>
 		</forcedTraits>
@@ -371,10 +371,10 @@
 			<li>Offworld</li>
 			<li>Outlander</li>
 		</spawnCategories>
-	
+
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
-	
+
 		<forcedTraits>
 			<Kind>0</Kind>
 		</forcedTraits>
@@ -396,14 +396,14 @@
 			<li>Offworld</li>
 			<li>Outlander</li>
 		</spawnCategories>
-	
+
     	<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
-	
+
 		<forcedTraits>
 			<Greedy>0</Greedy>
 		</forcedTraits>
-	
+
 </BackstoryDef>
 
 <BackstoryDef>
@@ -420,16 +420,16 @@
 		</skillGains>
 		<workDisables></workDisables>
 		<requiredWorkTags>None</requiredWorkTags>
-	
+
 		<spawnCategories>
 			<li>Offworld</li>
 			<li>Outlander</li>
 			<li>Pirate</li>
 		</spawnCategories>
-	
+
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
-	
+
 </BackstoryDef>
 
 <BackstoryDef>
@@ -451,10 +451,10 @@
 			<li>Offworld</li>
 			<li>Outlander</li>
 		</spawnCategories>
-	
+
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
-	
+
 		<forcedTraits>
 			<Brawler>0</Brawler>
 		</forcedTraits>
@@ -479,10 +479,10 @@
 			<li>Offworld</li>
 			<li>Outlander</li>
 		</spawnCategories>
-	
+
 	    <bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
-	
+
 		<possessions>
 			<Apparel_GasMask MayRequire="Ludeon.RimWorld.Biotech">1</Apparel_GasMask>
 		</possessions>
@@ -493,7 +493,7 @@
 </BackstoryDef>
 
 <BackstoryDef>
-	
+
 		<defName>UB_Apoc_WastelandScrapper19</defName>
 		<identifier>WastelandScrapper19</identifier>
 		<slot>Adulthood</slot>
@@ -504,24 +504,24 @@
 			<Melee>2</Melee>
 			<Crafting>6</Crafting>
 		</skillGains>
-	
+
 		<workDisables></workDisables>
-	
+
 		<requiredWorkTags>AllWork</requiredWorkTags>
-	
+
 		<spawnCategories>
 			<li>Offworld</li>
 			<li>Outlander</li>
 			<li>Pirate</li>
 		</spawnCategories>
-	
+
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
- 
+
     	<possessions>
 	    	<Apparel_PlateArmor>1</Apparel_PlateArmor>
      	</possessions>
-	
+
 </BackstoryDef>
 
 <BackstoryDef>
@@ -566,7 +566,7 @@
 		</spawnCategories>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
-	
+
 </BackstoryDef>
 
 <BackstoryDef>
@@ -585,7 +585,7 @@
 			<li>Offworld</li>
 			<li>Outlander</li>
 		</spawnCategories>
-	
+
     	<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 
@@ -595,7 +595,7 @@
 
 </BackstoryDef>
 
-	
+
 <BackstoryDef>
 		<defName>UB_Apoc_WastelandCaretaker23</defName>
 		<identifier>WastelandCaretaker23</identifier>
@@ -617,15 +617,15 @@
 			<li>Offworld</li>
 			<li>Outlander</li>
 		</spawnCategories>
-	
+
     	<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
-	
+
 		<forcedTraits>
 			<Kind>0</Kind>
 		</forcedTraits>
-	
-</BackstoryDef>	
+
+</BackstoryDef>
 
 <BackstoryDef>
 		<defName>UB_Apoc_WastelandLeech24</defName>
@@ -646,15 +646,15 @@
 			<li>Offworld</li>
 			<li>Outlander</li>
 		</spawnCategories>
-	
+
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
-	
+
 		<forcedTraits>
 			<Bisexual>0</Bisexual>
 		</forcedTraits>
-	
-</BackstoryDef>	
+
+</BackstoryDef>
 
 
 </Defs>

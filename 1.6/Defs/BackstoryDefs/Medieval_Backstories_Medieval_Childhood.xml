@@ -927,10 +927,10 @@
 		<li>Violent</li>
 		<li>ManualSkilled</li>
 		<li>Social</li>
-		
+
 		<li>Intellectual</li>
 		<li>Caring</li>
-	
+
     </workDisables>
 		<requiredWorkTags>
 		<li>ManualDumb</li>

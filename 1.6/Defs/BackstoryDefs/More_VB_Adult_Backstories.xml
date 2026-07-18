@@ -142,7 +142,7 @@
 			<li>ManualDumb</li>
 		</workDisables>
 	</BackstoryDef>
-	
+
 	<BackstoryDef>
 		<defName>UB_More_Shaman</defName>
 		<title>Shaman</title>
@@ -443,7 +443,7 @@
 			<li>Firefighting</li>
 		</workDisables>
 	</BackstoryDef>
-	
+
 	<BackstoryDef>
 		<defName>UB_More_Android</defName>
 		<title>Android</title>
@@ -880,7 +880,7 @@
 			<Bloodlust>0</Bloodlust>
 		</forcedTraits>
 	</BackstoryDef>
-		
+
 	<BackstoryDef>
 		<defName>UB_More_FleshCultist</defName>
 		<title>Flesh Cultist</title>
@@ -903,7 +903,7 @@
 			<BodyPurist>0</BodyPurist>
 		</forcedTraits>
 	</BackstoryDef>
-	
+
 	<BackstoryDef>
 		<defName>UB_More_Archivist</defName>
 		<title>Archivist</title>
@@ -946,7 +946,7 @@
 			<Construction>4</Construction>
 		</skillGains>
 	</BackstoryDef>
-	
+
 	<BackstoryDef>
 		<defName>UB_More_Investigator</defName>
 		<title>Investigator</title>
@@ -964,7 +964,7 @@
 			<Social>5</Social>
 		</skillGains>
 	</BackstoryDef>
-	
+
 	<BackstoryDef>
 		<defName>UB_More_AndroidHunter</defName>
 		<title>Android Hunter</title>

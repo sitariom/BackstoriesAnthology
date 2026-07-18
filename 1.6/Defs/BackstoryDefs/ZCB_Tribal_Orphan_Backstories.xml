@@ -13,14 +13,14 @@
 			<li>ZCB</li> 							<!-- required -->
 			<li>ZCB_NaturalMeditation</li> 			<!-- enables natural meditation focus -->
 		</spawnCategories>
-		
+
 		<!-- new tags start here -->
 		<commonality>10</commonality>
 		<maxTechLevel>Neolithic</maxTechLevel>
 		<father>Absent, Dead</father>
 		<mother>Absent, Dead</mother>
 		<colonySize>1~8</colonySize>
-		
+
 		<requiredSkills>
 			<li>
 				<name>Cooking</name>
@@ -31,12 +31,12 @@
 				<minValue>3</minValue>
 			</li>
 		</requiredSkills>
-		
+
 		<requiredPassions>
 			<li>Melee</li>
 		</requiredPassions>
 		<!-- new tags end here-->
-		
+
 		<skillGains><Melee>3</Melee><Cooking>3</Cooking><Plants>2</Plants><Intellectual>-3</Intellectual></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
 
@@ -52,18 +52,18 @@
 			<li>ZCB</li> 							<!-- required -->
 			<li>ZCB_NaturalMeditation</li> 			<!-- enables natural meditation focus -->
 		</spawnCategories>
-		
+
 		<!-- new tags start here -->
 		<commonality>4</commonality>
 		<maxTechLevel>Neolithic</maxTechLevel>
 		<father>Absent, Dead</father>
 		<mother>Absent, Dead</mother>
-		
+
 		<requiredPassions>
 			<li>Animals</li>
 		</requiredPassions>
 		<!-- new tags end here-->
-		
+
 		<skillGains><Animals>4</Animals><Medicine>1</Medicine><Artistic>-3</Artistic></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
 

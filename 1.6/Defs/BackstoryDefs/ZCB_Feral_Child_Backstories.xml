@@ -20,7 +20,7 @@ Most of these should enable natural meditation focus.
 			<li>ZCB</li> 							<!-- required -->
 			<li>ZCB_NaturalMeditation</li> 			<!-- enables natural meditation focus -->
 		</spawnCategories>
-		
+
 		<!-- new tags start here -->
 		<commonality>3</commonality>
 		<requiredRecords>
@@ -30,7 +30,7 @@ Most of these should enable natural meditation focus.
 			</li>
 		</requiredRecords>
 		<!-- new tags end here-->
-		
+
 		<skillGains><Plants>5</Plants><Animals>3</Animals><Melee>2</Melee><Cooking>-2</Cooking></skillGains>
 		<workDisables>
 			<li>Social</li>
@@ -50,7 +50,7 @@ Most of these should enable natural meditation focus.
 			<li>ZCB</li> 							<!-- required -->
 			<li>ZCB_NaturalMeditation</li> 			<!-- enables natural meditation focus -->
 		</spawnCategories>
-		
+
 		<!-- new tags start here -->
 		<commonality>2</commonality>
 		<requiredRecords>
@@ -63,7 +63,7 @@ Most of these should enable natural meditation focus.
 			<li>Animals</li>
 		</requiredPassions>
 		<!-- new tags end here-->
-		
+
 		<skillGains><Animals>4</Animals><Melee>3</Melee><Medicine>2</Medicine></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
 
@@ -79,7 +79,7 @@ Most of these should enable natural meditation focus.
 			<li>ZCB</li> 							<!-- required -->
 			<li>ZCB_NaturalMeditation</li> 			<!-- enables natural meditation focus -->
 		</spawnCategories>
-		
+
 		<!-- new tags start here -->
 		<commonality>7</commonality>
 		<requiredRecords>
@@ -95,5 +95,5 @@ Most of these should enable natural meditation focus.
 		<skillGains><Plants>3</Plants><Social>4</Social></skillGains>
 	</UnifiedBackstories.ZCBackstoryDef>
 
-  
+
 </Defs>
