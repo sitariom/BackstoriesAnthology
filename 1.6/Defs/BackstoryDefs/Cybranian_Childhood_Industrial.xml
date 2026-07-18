@@ -22,7 +22,10 @@
 			<Medicine>3</Medicine>
 		</skillGains>
 <forcedTraits>
-			<ShootingAccuracy>1</ShootingAccuracy>
+			<li>
+				<def>ShootingAccuracy</def>
+				<degree>1</degree>
+			</li>
 		</forcedTraits>
 		<requiredWorkTags>
 			<li>Violent</li>
@@ -574,7 +577,10 @@
 			<Melee>2</Melee>
 		</skillGains>
 <forcedTraits>
-			<ShootingAccuracy>1</ShootingAccuracy>
+			<li>
+				<def>ShootingAccuracy</def>
+				<degree>1</degree>
+			</li>
 		</forcedTraits>
 		<requiredWorkTags>
 			<li>Violent</li>

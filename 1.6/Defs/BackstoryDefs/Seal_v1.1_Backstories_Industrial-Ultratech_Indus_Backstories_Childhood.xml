@@ -18,8 +18,8 @@
 	    <Intellectual>-4</Intellectual>
     </skillGains>
     <forcedTraits>
-      <Undergrounder />
-    </forcedTraits>
+				<li>Undergrounder</li>
+			</forcedTraits>
   </BackstoryDef>
 
   <BackstoryDef>

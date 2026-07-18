@@ -24,8 +24,8 @@
       <MeleeWeapon_Ikwa>1</MeleeWeapon_Ikwa>
     </possessions>
     <forcedTraits>
-      <Abrasive />
-    </forcedTraits></BackstoryDef>
+				<li>Abrasive</li>
+			</forcedTraits></BackstoryDef>
 
   <BackstoryDef>
     <slot>Adulthood</slot>

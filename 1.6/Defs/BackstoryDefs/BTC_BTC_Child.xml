@@ -20,8 +20,8 @@
       <li>Mining</li>
     </workDisables>
     <forcedTraits>
-      <Undergrounder />
-    </forcedTraits>
+				<li>Undergrounder</li>
+			</forcedTraits>
 	<bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 </BackstoryDef>

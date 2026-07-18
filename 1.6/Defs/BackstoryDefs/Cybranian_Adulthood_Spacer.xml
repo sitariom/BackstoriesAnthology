@@ -21,7 +21,7 @@
 			<Construction>3</Construction>
 		</skillGains>
 <forcedTraits>
-			<TooSmart>0</TooSmart>
+			<li>TooSmart</li>
 		</forcedTraits>
 	</BackstoryDef>
 	<!---->
@@ -45,7 +45,7 @@
 			<Construction>1</Construction>
 		</skillGains>
 <forcedTraits>
-			<TooSmart>0</TooSmart>
+			<li>TooSmart</li>
 		</forcedTraits>
 	</BackstoryDef>
 	<!---->
@@ -69,7 +69,7 @@
 			<Intellectual>4</Intellectual>
 		</skillGains>
 <forcedTraits>
-			<TooSmart>0</TooSmart>
+			<li>TooSmart</li>
 		</forcedTraits>
 	</BackstoryDef>
 	<!---->
@@ -113,7 +113,7 @@
 			<Animals>6</Animals>
 		</skillGains>
 <forcedTraits>
-			<TooSmart>0</TooSmart>
+			<li>TooSmart</li>
 		</forcedTraits>
 	</BackstoryDef>
 	<!---->
@@ -161,7 +161,7 @@
 			<Plants>-4</Plants>
 		</skillGains>
 <forcedTraits>
-			<TooSmart>0</TooSmart>
+			<li>TooSmart</li>
 		</forcedTraits>
 	</BackstoryDef>
 	<!---->
@@ -208,7 +208,7 @@
 			<Cooking>-4</Cooking>
 		</skillGains>
 <forcedTraits>
-			<TooSmart>0</TooSmart>
+			<li>TooSmart</li>
 		</forcedTraits>
 	</BackstoryDef>
 	<!---->
@@ -232,7 +232,7 @@
 			<Construction>1</Construction>
 		</skillGains>
 <forcedTraits>
-			<TooSmart>0</TooSmart>
+			<li>TooSmart</li>
 		</forcedTraits>
 	</BackstoryDef>
 	<!---->
@@ -256,7 +256,7 @@
 			<Construction>4</Construction>
 		</skillGains>
 <forcedTraits>
-			<TooSmart>0</TooSmart>
+			<li>TooSmart</li>
 		</forcedTraits>
 	</BackstoryDef>
 	<!---->
@@ -304,7 +304,7 @@
 			<Melee>-3</Melee>
 		</skillGains>
 <forcedTraits>
-			<TooSmart>0</TooSmart>
+			<li>TooSmart</li>
 		</forcedTraits>
 	</BackstoryDef>
 	<!---->
@@ -327,7 +327,7 @@
 			<Medicine>6</Medicine>
 		</skillGains>
 <forcedTraits>
-			<TooSmart>0</TooSmart>
+			<li>TooSmart</li>
 		</forcedTraits>
 	</BackstoryDef>
 	<!---->
@@ -350,7 +350,7 @@
 			<Plants>6</Plants>
 		</skillGains>
 <forcedTraits>
-			<TooSmart>0</TooSmart>
+			<li>TooSmart</li>
 		</forcedTraits>
 	</BackstoryDef>
 	<!---->
@@ -437,7 +437,7 @@
 			<Crafting>5</Crafting>
 		</skillGains>
 <forcedTraits>
-			<TooSmart>0</TooSmart>
+			<li>TooSmart</li>
 		</forcedTraits>
 	</BackstoryDef>
 	<!---->

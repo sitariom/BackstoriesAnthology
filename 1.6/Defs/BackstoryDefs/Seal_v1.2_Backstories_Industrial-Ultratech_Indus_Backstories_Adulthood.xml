@@ -20,8 +20,8 @@
       <li>Animals</li>
     </requiredWorkTags>
     <forcedTraits>
-      <VCEF_Fisherman MayRequire="VanillaExpanded.VCEF" />
-    </forcedTraits>
+				<li>VCEF_Fisherman</li>
+			</forcedTraits>
   </BackstoryDef>
 
   <BackstoryDef>

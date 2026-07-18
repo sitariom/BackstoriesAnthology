@@ -19,8 +19,8 @@
 	    <Social>-5</Social>
     </skillGains>
     <forcedTraits>
-      <VTE_Wanderlust MayRequire="vanillaexpanded.vanillatraitsexpanded" />
-    </forcedTraits>
+				<li>VTE_Wanderlust</li>
+			</forcedTraits>
   </BackstoryDef>
 
   <BackstoryDef>

@@ -18,8 +18,8 @@
       <Wimp />
     </disallowedTraits>
     <forcedTraits>
-      <Greedy />
-    </forcedTraits>
+				<li>Greedy</li>
+			</forcedTraits>
   </BackstoryDef>
 
   <BackstoryDef>
@@ -1136,8 +1136,8 @@ Other forced trait: Jogger 50%-->
       <TorturedArtist />
     </disallowedTraits>
     <forcedTraits>
-      <Greedy />
-    </forcedTraits>
+				<li>Greedy</li>
+			</forcedTraits>
   </BackstoryDef>
   <BackstoryDef>
     <slot>Childhood</slot>
@@ -2017,8 +2017,8 @@ To [PAWN_possessive] benefactors, [PAWN_pronoun] was an expensive investment.</b
       <li>ManualDumb</li>
     </workDisables>
     <forcedTraits>
-      <Greedy />
-    </forcedTraits>
+				<li>Greedy</li>
+			</forcedTraits>
   </BackstoryDef>
   <BackstoryDef>
     <slot>Adulthood</slot>
@@ -2982,8 +2982,8 @@ To [PAWN_possessive] benefactors, [PAWN_pronoun] was an expensive investment.</b
       <SpeedOffset>-1</SpeedOffset>
     </disallowedTraits>
     <forcedTraits>
-      <Greedy />
-    </forcedTraits>
+				<li>Greedy</li>
+			</forcedTraits>
     <!--Freya Fierce, add Nimble (60%)-->
   </BackstoryDef>
   <BackstoryDef>

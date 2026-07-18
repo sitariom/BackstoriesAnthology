@@ -16,7 +16,7 @@
 
 
 <Construction>-2</Construction><Crafting>-2</Crafting></skillGains><forcedTraits>
-            <Nimble>0</Nimble>
+            <li>Nimble</li>
     </forcedTraits>
 	<bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
@@ -40,7 +40,7 @@
 
 	</skillGains>
 	<forcedTraits>
-            <Nimble>0</Nimble>
+            <li>Nimble</li>
     </forcedTraits>
 	<spawnCategories>
 		<li>Tribal</li>

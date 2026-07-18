@@ -89,9 +89,9 @@
       <Social>4</Social>
     </skillGains>
     <forcedTraits>
-      <VTE_Insatiable MayRequire="vanillaexpanded.vanillatraitsexpanded" />
-      <ST_Narcissist MayRequire="Goji.TheSimsTraits" />
-    </forcedTraits><requiredWorkTags>
+				<li>VTE_Insatiable</li>
+				<li>ST_Narcissist</li>
+			</forcedTraits><requiredWorkTags>
       <li>Violent</li>
       <li>Social</li>
       <li>Artistic</li>

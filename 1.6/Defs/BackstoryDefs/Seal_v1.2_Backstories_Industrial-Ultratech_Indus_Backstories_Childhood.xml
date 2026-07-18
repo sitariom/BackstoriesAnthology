@@ -98,8 +98,8 @@
 	    <Social>-3</Social>
     </skillGains>
     <forcedTraits>
-      <VTE_DogPerson MayRequire="vanillaexpanded.vanillatraitsexpanded" />
-    </forcedTraits>
+				<li>VTE_DogPerson</li>
+			</forcedTraits>
   </BackstoryDef>
 
   <BackstoryDef>

@@ -47,7 +47,7 @@
 			<Crafting>2</Crafting>
 		</skillGains>
 <forcedTraits>
-			<Wimp>0</Wimp>
+			<li>Wimp</li>
 		</forcedTraits>
 		<requiredWorkTags>
 			<li>Artistic</li>
@@ -2786,7 +2786,7 @@
 			<Plants>6</Plants>
 		</skillGains>
 <forcedTraits>
-			<Wimp>0</Wimp>
+			<li>Wimp</li>
 		</forcedTraits>
 		<requiredWorkTags>
 			<li>PlantWork</li>
@@ -4526,7 +4526,7 @@
 			<Crafting>2</Crafting>
 		</skillGains>
 <forcedTraits>
-			<Wimp>0</Wimp>
+			<li>Wimp</li>
 		</forcedTraits>
 		<requiredWorkTags>
 			<li>Social</li>

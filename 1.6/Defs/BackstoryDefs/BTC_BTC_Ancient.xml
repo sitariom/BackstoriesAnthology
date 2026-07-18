@@ -322,8 +322,8 @@
 	  <Melee>3</Melee>
     </skillGains>
 	<forcedTraits>
-	<VTE_Vengeful MayRequire="VanillaExpanded.VanillaTraitsExpanded"/>
-	</forcedTraits>
+				<li>VTE_Vengeful</li>
+			</forcedTraits>
     <spawnCategories><li>Ancient_Pre</li></spawnCategories>
     <bodyTypeMale>Hulk</bodyTypeMale>
     <bodyTypeFemale>Hulk</bodyTypeFemale>

@@ -24,7 +24,7 @@
 			<li>Caring</li>
 		</workDisables>
 		<forcedTraits>
-			<Bloodlust>0</Bloodlust>
+			<li>Bloodlust</li>
 		</forcedTraits>
 	</BackstoryDef>
 
@@ -188,7 +188,7 @@
 			<li>Violent</li>
 		</workDisables>
 		<disallowedTraits>
-			<Bloodlust>0</Bloodlust>
+			<li>Bloodlust</li>
 			<Psychopath>0</Psychopath>
 			<Abrasive>0</Abrasive>
 		</disallowedTraits>
@@ -853,7 +853,7 @@
 		<disallowedTraits>
 			<ShootingAccuracy>1</ShootingAccuracy>
 			<ShootingAccuracy>-1</ShootingAccuracy>
-			<Bloodlust>0</Bloodlust>
+			<li>Bloodlust</li>
 			<Psychopath>0</Psychopath>
 		</disallowedTraits>
 	</BackstoryDef>
@@ -877,7 +877,7 @@
 			<Intellectual>2</Intellectual>
 		</skillGains>
 		<forcedTraits>
-			<Bloodlust>0</Bloodlust>
+			<li>Bloodlust</li>
 		</forcedTraits>
 	</BackstoryDef>
 

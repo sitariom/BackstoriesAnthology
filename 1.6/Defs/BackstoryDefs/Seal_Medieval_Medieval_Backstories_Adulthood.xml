@@ -20,9 +20,9 @@
       <Melee>5</Melee>
     </skillGains>
     <forcedTraits>
-      <Pyromaniac />
-      <ST_Daredevil MayRequire="Goji.TheSimsTraits" />
-    </forcedTraits>
+				<li>Pyromaniac</li>
+				<li>ST_Daredevil</li>
+			</forcedTraits>
     <workDisables>
       <li>Firefighting</li>
     </workDisables>

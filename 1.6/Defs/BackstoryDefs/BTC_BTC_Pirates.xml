@@ -59,8 +59,8 @@
 	<li>Intellectual</li>
    </workDisables>
   <forcedTraits>
-  <VTE_Desensitized MayRequire="VanillaExpanded.VanillaTraitsExpanded"/>
-  </forcedTraits>
+				<li>VTE_Desensitized</li>
+			</forcedTraits>
   <bodyTypeMale>Male</bodyTypeMale>
   <bodyTypeFemale>Female</bodyTypeFemale>
 </BackstoryDef>

@@ -17,8 +17,8 @@
       <Intellectual>-3</Intellectual>
     </skillGains>
     <forcedTraits>
-      <VTE_AbsentMinded MayRequire="vanillaexpanded.vanillatraitsexpanded" />
-    </forcedTraits>
+				<li>VTE_AbsentMinded</li>
+			</forcedTraits>
   </BackstoryDef>
 
   <BackstoryDef>

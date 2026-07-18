@@ -24,8 +24,8 @@
 	  <Social>-3</Social>
     </skillGains>
 	<forcedTraits>
-      <Bloodlust />
-    </forcedTraits>
+				<li>Bloodlust</li>
+			</forcedTraits>
     <spawnCategories>
 	<li>Medieval</li>
 	</spawnCategories>
@@ -84,8 +84,8 @@
       <Shooting>4</Shooting>
     </skillGains>
 	<forcedTraits>
-      <Bloodlust />
-    </forcedTraits>
+				<li>Bloodlust</li>
+			</forcedTraits>
     <spawnCategories>
 	<li>Medieval</li>
 	</spawnCategories>

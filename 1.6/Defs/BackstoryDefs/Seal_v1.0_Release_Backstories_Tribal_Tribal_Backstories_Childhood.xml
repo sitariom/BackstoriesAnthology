@@ -19,8 +19,8 @@
 	    <Social>-5</Social>
     </skillGains>
     <forcedTraits>
-      <VTE_Eccentric MayRequire="vanillaexpanded.vanillatraitsexpanded" />
-    </forcedTraits>
+				<li>VTE_Eccentric</li>
+			</forcedTraits>
   </BackstoryDef>
 
   <BackstoryDef>

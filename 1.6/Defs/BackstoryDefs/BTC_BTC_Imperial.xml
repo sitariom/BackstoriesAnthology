@@ -23,8 +23,8 @@
         <li>Mining</li>
 		</workDisables>
 		<forcedTraits>
-			<TooSmart />
-		</forcedTraits>
+				<li>TooSmart</li>
+			</forcedTraits>
 		<requiredWorkTags>
 			<li>Social</li>
 		</requiredWorkTags>

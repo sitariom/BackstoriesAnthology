@@ -19,8 +19,8 @@
       <Crafting>3</Crafting>
     </skillGains>
     <forcedTraits>
-      <ST_Virtuoso MayRequire="Goji.TheSimsTraits,Ludeon.RimWorld.Royalty" />
-    </forcedTraits>
+				<li>ST_Virtuoso</li>
+			</forcedTraits>
     <requiredWorkTags>
       <li>Crafting</li>
       <li>Artistic</li>

@@ -45,9 +45,9 @@
 
 	</skillGains>
  <forcedTraits>
-            <Kind>0</Kind>
-            <Nerves>2</Nerves>
-    </forcedTraits>
+				<li>Kind</li>
+				<li><def>Nerves</def><degree>2</degree></li>
+			</forcedTraits>
 	<requiredWorkTags>
         <li>Social</li>
     </requiredWorkTags>

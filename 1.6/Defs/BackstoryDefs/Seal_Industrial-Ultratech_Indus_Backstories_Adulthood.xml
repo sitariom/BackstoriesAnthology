@@ -19,8 +19,8 @@
       <Intellectual>6</Intellectual>
     </skillGains>
     <forcedTraits>
-      <Industriousness>-1</Industriousness>
-    </forcedTraits>
+				<li><def>Industriousness</def><degree>-1</degree></li>
+			</forcedTraits>
     <requiredWorkTags>
       <li>Artistic</li>
       <li>Intellectual</li>

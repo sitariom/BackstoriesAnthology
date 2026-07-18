@@ -48,8 +48,8 @@
       <li>Artistic</li>
     </workDisables>
   <forcedTraits>
-    <NaturalMood>-1</NaturalMood> <!-- "Another day in the meat grinder." -->
-  </forcedTraits>
+				<li><def>NaturalMood</def><degree>-1</degree></li>
+			</forcedTraits>
   <spawnCategories>
     <li>Pirate</li>
     <li>Offworld</li>

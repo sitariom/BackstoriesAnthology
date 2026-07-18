@@ -546,9 +546,7 @@
 
 		</requiredWorkTags>
 		<forcedTraits>
-
-			<li><def>Kind</def><degree>0</degree></li>
-
+			<li>Kind</li>
 		</forcedTraits>
 	</BackstoryDef>
 	<BackstoryDef ParentName="ElderhoodBackstory">
@@ -880,9 +878,7 @@
 
 		</requiredWorkTags>
 		<forcedTraits>
-
-			<li><def>TorturedArtist</def><degree>0</degree></li>
-
+			<TorturedArtist>0</TorturedArtist>
 		</forcedTraits>
 	</BackstoryDef>
 	<BackstoryDef ParentName="ElderhoodBackstory">

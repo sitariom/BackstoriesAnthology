@@ -61,8 +61,8 @@
       <Shooting>6</Shooting>
     </skillGains>
     <forcedTraits>
-      <Tough />
-    </forcedTraits><requiredWorkTags>
+				<li>Tough</li>
+			</forcedTraits><requiredWorkTags>
       <li>Violent</li>
     </requiredWorkTags>
   </BackstoryDef>
@@ -199,8 +199,8 @@
       <Artistic>1</Artistic>
     </skillGains>
     <forcedTraits>
-      <Tough />
-    </forcedTraits>
+				<li>Tough</li>
+			</forcedTraits>
 	  <requiredWorkTags>
 	    <li>Constructing</li>
 	    <li>Mining</li>

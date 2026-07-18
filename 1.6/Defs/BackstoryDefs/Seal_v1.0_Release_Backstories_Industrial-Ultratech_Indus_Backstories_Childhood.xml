@@ -21,8 +21,8 @@
 	    <Plants>-2</Plants>
     </skillGains>
     <forcedTraits>
-      <Undergrounder />
-    </forcedTraits>
+				<li>Undergrounder</li>
+			</forcedTraits>
   </BackstoryDef>
 
   <BackstoryDef>

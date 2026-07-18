@@ -64,7 +64,7 @@
 			<Mining>-4</Mining>
 		</skillGains>
 <forcedTraits>
-			<TooSmart>0</TooSmart>
+			<li>TooSmart</li>
 		</forcedTraits>
 		<requiredWorkTags>
 			<li>Intellectual</li>
@@ -118,7 +118,7 @@
 			<li>Intellectual</li>
 		</requiredWorkTags>
 		<forcedTraits>
-			<TooSmart>0</TooSmart>
+			<li>TooSmart</li>
 		</forcedTraits>
 	</BackstoryDef>
 	<!---->

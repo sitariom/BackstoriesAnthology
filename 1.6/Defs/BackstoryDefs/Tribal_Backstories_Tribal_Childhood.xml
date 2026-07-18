@@ -144,7 +144,7 @@
 	<titleShort>Creepy child</titleShort>
 	<baseDesc>The other children of [PAWN_nameDef]’s tribe always did their best to avoid [PAWN_objective]. Even the adults gave [PAWN_objective] a wide berth. There was just something off about [PAWN_objective]. [PAWN_nameDef] spent most of [PAWN_possessive] time alone, throwing rocks at defenseless animals.</baseDesc>
 	<forcedTraits>
-        <Psychopath>0</Psychopath>
+        <li>Psychopath</li>
     </forcedTraits>
 	<skillGains>
 		<Social>-3</Social>

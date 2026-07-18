@@ -20,7 +20,7 @@
 			<Construction>3</Construction>
 		</skillGains>
 		<forcedTraits>
-			<FastLearner>0</FastLearner>
+			<li>FastLearner</li>
 		</forcedTraits>
 	</BackstoryDef>
 
@@ -258,7 +258,7 @@
 		</forcedTraits>
 		<disallowedTraits>
 			<TooSmart>0</TooSmart>
-			<FastLearner>0</FastLearner>
+			<li>FastLearner</li>
 		</disallowedTraits>
 		<workDisables>
 			<li>Caring</li>

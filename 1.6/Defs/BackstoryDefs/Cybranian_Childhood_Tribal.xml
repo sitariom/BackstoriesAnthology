@@ -64,7 +64,7 @@
 			<Medicine>3</Medicine>
 		</skillGains>
 <forcedTraits>
-			<Wimp>0</Wimp>
+			<li>Wimp</li>
 		</forcedTraits>
 	</BackstoryDef>
 	<!---->
@@ -115,7 +115,7 @@
 			<li>Crafting</li>
 		</requiredWorkTags>
 		<forcedTraits>
-			<Wimp>0</Wimp>
+			<li>Wimp</li>
 		</forcedTraits>
 	</BackstoryDef>
 	<!---->
@@ -1068,7 +1068,7 @@
 			<li>Social</li>
 		</requiredWorkTags>
 		<forcedTraits>
-			<Wimp>0</Wimp>
+			<li>Wimp</li>
 		</forcedTraits>
 	</BackstoryDef>
 	<!---->
