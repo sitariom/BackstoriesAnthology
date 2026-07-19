@@ -513,58 +513,38 @@ namespace UnifiedBackstories
 
     /// <summary>
     /// Character card UI: display elderhood info.
-    /// Uses the original approach with a Postfix on DoLeftSection.
+    /// RimWorld 1.6's CharacterCardUtility.DoLeftSection is a STATIC method with
+    /// signature: DoLeftSection(Rect rect, Rect leftRect, Pawn pawn).
+    /// There is NO curY parameter — it's a local variable managed internally.
+    /// The original ElderhoodBackstory mod used a Transpiler to inject IL.
+    /// We use a Postfix with parameter injection (matching the 3 real parameters).
+    /// The elderhood section is drawn at the bottom of the left column.
     /// </summary>
-    [HarmonyPatch]
+    [HarmonyPatch(typeof(CharacterCardUtility), "DoLeftSection")]
     public static class CharacterCardUtility_DoLeftSection_Patch
     {
-        private static Type _ccuType;
-        private static FieldInfo fiCurY;
-        private static FieldInfo fiPawn;
-        private static FieldInfo fiLeft;
-        // Textures loaded lazily on first UI render (main thread safe).
         private static Texture2D _infoIcon;
         private static Texture2D _editIcon;
         private static Texture2D _clearIcon;
         private static bool _iconsLoaded;
 
-        public static MethodBase TargetMethod()
+        public static void Postfix(Rect rect, Rect leftRect, Pawn pawn)
         {
-            _ccuType = AccessTools.TypeByName("RimWorld.CharacterCardUtility");
-            if (_ccuType == null) return null;
-            fiCurY = _ccuType.GetField("curY", BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public)
-                  ?? _ccuType.GetField("currentY", BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public);
-            fiPawn = _ccuType.GetField("pawn", BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public);
-            fiLeft = _ccuType.GetField("leftRect", BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public);
-            return AccessTools.Method(_ccuType, "DoLeftSection");
-        }
-
-        public static void Postfix(object __instance)
-        {
-            if (__instance == null || fiCurY == null || fiPawn == null) return;
-
-            Pawn pawn = fiPawn.GetValue(__instance) as Pawn;
-            if (pawn == null || !pawn.RaceProps.Humanlike || pawn.story == null) return;
+            if (pawn == null || pawn.story == null) return;
+            if (!pawn.RaceProps.Humanlike) return;
             if (UB_Mod.Settings != null && !UB_Mod.Settings.elderhoodEnabled) return;
 
             CompElderhoodBackstory comp = pawn.GetComp<CompElderhoodBackstory>();
             if (comp == null)
                 comp = ElderhoodHelper.GetOrCreateElderhoodComp(pawn);
-            // FIX CRITICAL: null-check comp BEFORE dereferencing comp.ElderhoodAge.
-            // Previously, comp.ElderhoodAge was accessed before the null check,
-            // causing NullReferenceException that broke the entire character card UI
-            // for any pawn where GetOrCreateElderhoodComp returned null.
             if (comp == null) return;
 
             bool hasElderhood = comp.HasElderhood;
-
-            // Only show section for pawns ElderhoodAge+ or with existing elderhood.
-            // Use comp.ElderhoodAge (XML-configurable, default 60) instead of hardcoded 60.
             int elderAgeThreshold = comp.ElderhoodAge > 0 ? comp.ElderhoodAge : 60;
             if (!hasElderhood && (pawn.ageTracker == null || pawn.ageTracker.AgeBiologicalYears < elderAgeThreshold))
                 return;
 
-            // Lazy-load icons (main thread safe — Postfix runs on UI thread)
+            // Lazy-load icons
             if (!_iconsLoaded)
             {
                 _iconsLoaded = true;
@@ -576,18 +556,22 @@ namespace UnifiedBackstories
                            ?? ContentFinder<Texture2D>.Get("UI/Icons/Delete", false);
             }
 
-            float curY = (float)fiCurY.GetValue(__instance);
-            float width = 196f;
-            if (fiLeft?.GetValue(__instance) is Rect lr) width = lr.width;
+            // Draw elderhood section starting at the bottom of the left column.
+            // We use leftRect.x and leftRect.width, and start at a Y offset
+            // calculated from the rect's bottom minus an estimated section height.
+            float width = leftRect.width;
+            float startY = rect.yMax - 120f; // 120px from the bottom for elderhood section
+
+            float curY = startY;
 
             // === Category label ===
             Text.Font = GameFont.Medium;
-            Widgets.Label(new Rect(0f, curY, width, 30f), "UB.ElderhoodHeader".Translate());
+            Widgets.Label(new Rect(leftRect.x, curY, width, 30f), "UB.ElderhoodHeader".Translate());
 
             // === Edit / Clear buttons (top-right of header) ===
             Text.Font = GameFont.Tiny;
             float btnSize = 22f;
-            float btnX = width - btnSize;
+            float btnX = leftRect.x + width - btnSize;
 
             if (hasElderhood)
             {
@@ -637,14 +621,11 @@ namespace UnifiedBackstories
             {
                 // No elderhood assigned — show hint
                 Text.Font = GameFont.Small;
-                Widgets.Label(new Rect(0f, curY, width, 20f), "UB.NoElderhood".Translate());
+                Widgets.Label(new Rect(leftRect.x, curY, width, 20f), "UB.NoElderhood".Translate());
                 curY += 22f;
                 Text.Font = GameFont.Tiny;
-                Widgets.Label(new Rect(0f, curY, width, 16f), "UB.ClickToAddElderhood".Translate());
+                Widgets.Label(new Rect(leftRect.x, curY, width, 16f), "UB.ClickToAddElderhood".Translate());
                 curY += 18f;
-
-                curY += 4f;
-                fiCurY.SetValue(__instance, curY);
                 return;
             }
 
@@ -656,10 +637,10 @@ namespace UnifiedBackstories
             string title = ElderhoodHelper.TitleFor(elderhood, pawn);
             Vector2 titleSize = Text.CalcSize(title);
             float titleW = Math.Min(titleSize.x, width - 28f);
-            Widgets.Label(new Rect(0f, curY, titleW, 24f), title);
+            Widgets.Label(new Rect(leftRect.x, curY, titleW, 24f), title);
             if (_infoIcon != null)
             {
-                Rect infoRect = new Rect(titleW + 2f, curY, 22f, 22f);
+                Rect infoRect = new Rect(leftRect.x + titleW + 2f, curY, 22f, 22f);
                 if (Widgets.ButtonImage(infoRect, _infoIcon))
                     Find.WindowStack.Add(new Dialog_InfoCard(elderhood));
                 TooltipHandler.TipRegion(infoRect, () => ElderhoodHelper.TitleCapFor(elderhood, pawn), 63321);
@@ -671,7 +652,7 @@ namespace UnifiedBackstories
             if (!shortTitle.NullOrEmpty() && shortTitle != title)
             {
                 Text.Font = GameFont.Tiny;
-                Widgets.Label(new Rect(0f, curY, width, 18f), "(" + shortTitle + ")");
+                Widgets.Label(new Rect(leftRect.x, curY, width, 18f), "(" + shortTitle + ")");
                 curY += 17f;
                 Text.Font = GameFont.Small;
             }
@@ -679,14 +660,14 @@ namespace UnifiedBackstories
             // === Skill gains ===
             if (elderhood.skillGains != null)
             {
-                float sx = 10f, sy = curY;
+                float sx = leftRect.x + 10f, sy = curY;
                 for (int i = 0; i < elderhood.skillGains.Count; i++)
                 {
                     SkillGain sg = elderhood.skillGains[i];
                     if (sg.skill == null) continue;
                     string txt = sg.skill.LabelCap + " " + (sg.amount >= 0 ? "+" : "") + sg.amount;
                     Vector2 sz = Text.CalcSize(txt);
-                    if (sx + sz.x > width - 6f) { sx = 10f; sy += 20f; }
+                    if (sx + sz.x > leftRect.x + width - 6f) { sx = leftRect.x + 10f; sy += 20f; }
                     Widgets.Label(new Rect(sx, sy, sz.x, 20f), txt);
                     sx += sz.x + 8f;
                 }
@@ -698,12 +679,9 @@ namespace UnifiedBackstories
             if (!desc.NullOrEmpty())
             {
                 float descH = Math.Min(Text.CalcHeight(desc, width), 80f);
-                Widgets.Label(new Rect(0f, curY, width, descH), desc);
+                Widgets.Label(new Rect(leftRect.x, curY, width, descH), desc);
                 curY += descH + 2f;
             }
-
-            curY += 4f;
-            fiCurY.SetValue(__instance, curY);
         }
     }
 
@@ -924,7 +902,7 @@ namespace UnifiedBackstories
             string ver = System.IO.File.GetLastWriteTime(
                 System.Reflection.Assembly.GetExecutingAssembly().Location)
                 .ToString("yyyy-MM-dd HH:mm");
-            Log.Message("[UB] v1.6.4 loaded (build " + ver
+            Log.Message("[UB] v1.6.5 loaded (build " + ver
                 + ") — Elderhood + Gender tokens + Age 60+ + UI edit"
                 + " + Mood rebalance + Need grace period + ZCB validator"
                 + " + HardshipBonding + BackstoryPairing + TraitAlignment");
