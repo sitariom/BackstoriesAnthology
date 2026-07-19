@@ -4,7 +4,7 @@
 	<author>sitariom</author>
 	<packageId>Unified.BackstoriesAnthology</packageId>
 	<description>
-A massive unified collection of 1,408 backstories from 13 community mods, carefully merged, deduplicated, and balanced into one cohesive, self-contained package. No original mods required.
+A massive unified collection of 1,353 backstories from 12 community mods, carefully merged, deduplicated, and balanced into one cohesive, self-contained package. No original mods required.
 
 === WHAT'S INCLUDED ===
 
@@ -19,7 +19,7 @@ SOURCE MODS (all integrated, no dependencies):
 - More Backstories - 58 backstories (Ravinglegend)
 - Kurzaen's SNS Backstories - 56 backstories (Kurzaen)
 - Tribal Backstories - 55 backstories (Shenanigans)
-- Elderhood Backstories - 42 elderhood backstories (DimonSever000)
+- Elderhood Backstories - 43 elderhood backstories (DimonSever000)
 - Apocalyptic Backstories - 25 backstories (Lovely)
 - Saito's Backstories - 12 curated backstories (Zaljerem/Saito Yui)
 - Childhood Backstories - 79 childhood backstories (Zylle)
@@ -33,11 +33,11 @@ COMPATIBILITY:
 - 100% standalone - no original mods required
 - All DLCs supported (Royalty, Ideology, Biotech, Anomaly)
 - All backstories use UB_ prefix - no defName conflicts with any other mod
-- RimWorld 1.5 and 1.6 supported with separate load folders
+- RimWorld 1.6 supported
 - Loads after all vanilla content and Harmony
 
 See CREDITS.txt for full attributions and licensing details.</description>
-	<modVersion>1.5.2</modVersion>
+	<modVersion>1.6.0</modVersion>
 	<supportedVersions>
 		<li>1.6</li>
 	</supportedVersions>

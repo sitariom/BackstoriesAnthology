@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
+using HarmonyLib;
 using RimWorld;
 using Verse;
 
@@ -62,7 +63,7 @@ namespace UnifiedBackstories
                 }
                 foreach (Pawn p in map.mapPawns.FreeColonistsSpawned)
                 {
-                    if (IsFighting(p, tick))
+                    if (IsFighting(p, tick) && !combatParticipants.Contains(p))
                     {
                         combatParticipants.Add(p);
                     }
@@ -108,7 +109,7 @@ namespace UnifiedBackstories
                 }
                 foreach (Pawn p in map.mapPawns.FreeColonistsSpawned)
                 {
-                    if (p.CurJobDef == JobDefOf.BeatFire)
+                    if (p.CurJobDef == JobDefOf.BeatFire && !fireParticipants.Contains(p))
                     {
                         fireParticipants.Add(p);
                     }
@@ -135,7 +136,7 @@ namespace UnifiedBackstories
                     continue;
                 }
                 sickNow++;
-                if (outbreakActive)
+                if (outbreakActive && !outbreakParticipants.Contains(p))
                 {
                     outbreakParticipants.Add(p);
                 }
@@ -226,6 +227,45 @@ namespace UnifiedBackstories
                 fireParticipants.RemoveWhere(p => p == null);
                 outbreakParticipants.RemoveWhere(p => p == null);
             }
+        }
+    }
+
+    /// <summary>
+    /// CRIT-005 fix: RimWorld does not auto-discover MapComponent subclasses via
+    /// reflection. They must be explicitly requested via map.GetComponent&lt;T&gt;(),
+    /// which lazy-creates the component on first access. This patch forces
+    /// instantiation on every map when it finishes loading or initializing,
+    /// so MapComponentTick() actually fires.
+    /// </summary>
+    [HarmonyPatch(typeof(Map), nameof(Map.FinalizeInit))]
+    public static class Map_FinalizeInit_HardshipPatch
+    {
+        public static void Postfix(Map __instance)
+        {
+            if (UB_Mod.Settings != null && !UB_Mod.Settings.hardshipBonding)
+            {
+                return;
+            }
+            // GetComponent lazy-creates the component if it doesn't exist yet.
+            _ = __instance.GetComponent<MapComponent_RMCBHardship>();
+        }
+    }
+
+    /// <summary>
+    /// Also hook MapGenerator.GenerateIntoMap (new maps from world gen) to ensure
+    /// the component is present from the very first tick.
+    /// </summary>
+    [HarmonyPatch(typeof(MapGenerator), nameof(MapGenerator.GenerateMap))]
+    public static class MapGenerator_GenerateMap_HardshipPatch
+    {
+        public static void Postfix(Map __result)
+        {
+            if (__result == null) return;
+            if (UB_Mod.Settings != null && !UB_Mod.Settings.hardshipBonding)
+            {
+                return;
+            }
+            _ = __result.GetComponent<MapComponent_RMCBHardship>();
         }
     }
 }

@@ -79,7 +79,7 @@
 	<slot>Childhood</slot>
 	<title>Raised by wolves</title>
 	<titleShort>Wild child</titleShort>
-	<baseDesc>Whether on purpose or by accident, [PAWN_nameDef] was somehow seperated from [PAWN_possessive] parents as a baby. A pack of wolves came across the helpless infant and adopted [PAWN_objective] as one of their own. It wasnÔÇÖt until many years later that [PAWN_nameDef] was finally found by a tribe of [PAWN_possessive] own species. By then, it was too late for [PAWN_objective] to fully learn many fundamental social skills.</baseDesc>
+	<baseDesc>Whether on purpose or by accident, [PAWN_nameDef] was somehow separated from [PAWN_possessive] parents as a baby. A pack of wolves came across the helpless infant and adopted [PAWN_objective] as one of their own. It wasnÔÇÖt until many years later that [PAWN_nameDef] was finally found by a tribe of [PAWN_possessive] own species. By then, it was too late for [PAWN_objective] to fully learn many fundamental social skills.</baseDesc>
 	<skillGains>
 
 			<Animals>6</Animals>

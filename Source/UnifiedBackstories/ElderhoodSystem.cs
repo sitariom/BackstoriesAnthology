@@ -165,6 +165,11 @@ namespace UnifiedBackstories
 
         /// <summary>
         /// Ensures the CompElderhoodBackstory exists on a pawn.
+        /// HIGH-005 fix: returns null (not a detached comp) if reflection fails,
+        /// so callers don't silently mutate a comp that won't be saved.
+        /// HIGH-009 fix: for non-Human human-like races (androids, xenotypes),
+        /// the reflection-created comp does not survive save/load. Callers must
+        /// be prepared for null returns and treat that as "elderhood unavailable".
         /// </summary>
         public static CompElderhoodBackstory GetOrCreateElderhoodComp(Pawn pawn)
         {
@@ -174,27 +179,35 @@ namespace UnifiedBackstories
 
             // Manual creation fallback — this should rarely execute since
             // CompProperties_ElderhoodBackstory is added to Human via XML patch.
-            var props = new CompProperties_ElderhoodBackstory();
-            comp = new CompElderhoodBackstory();
-            comp.parent = pawn;
-            comp.Initialize(props);
-
+            // If reflection fails, return null (callers already null-check).
+            // Returning a detached comp would cause silent data loss on save/load.
             try
             {
+                var props = new CompProperties_ElderhoodBackstory();
+                comp = new CompElderhoodBackstory();
+                comp.parent = pawn;
+                comp.Initialize(props);
+
                 var compsField = typeof(ThingWithComps).GetField("comps",
                     BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public);
                 if (compsField != null)
                 {
                     var list = compsField.GetValue(pawn);
                     if (list is System.Collections.IList ilist)
+                    {
                         ilist.Add(comp);
+                        return comp;
+                    }
                 }
+                // compsField null or cast failed — cannot attach comp. Return null.
+                Log.Warning("[UB] GetOrCreateElderhoodComp: could not attach comp to pawn " + pawn?.Name?.ToStringFull ?? "(null)");
+                return null;
             }
             catch (Exception ex)
             {
                 Log.Warning("[UB] GetOrCreateElderhoodComp reflection failed: " + ex.Message);
+                return null;
             }
-            return comp;
         }
 
         /// <summary>
@@ -306,6 +319,7 @@ namespace UnifiedBackstories
             for (int i = 0; i < elderhood.forcedTraits.Count; i++)
             {
                 BackstoryTrait te = elderhood.forcedTraits[i];
+                // LOW-016 fix: removed redundant te.def null check (already verified above)
                 if (te == null || te.def == null) continue;
                 if (pawn.story.traits == null) continue;
 
@@ -317,8 +331,7 @@ namespace UnifiedBackstories
                 if (prohibited != null && prohibited.Contains(te.def))
                     continue;
 
-                if (te.def != null)
-                    pawn.story.traits.GainTrait(new Trait(te.def, te.degree, false));
+                pawn.story.traits.GainTrait(new Trait(te.def, te.degree, false));
             }
         }
     }
@@ -333,7 +346,49 @@ namespace UnifiedBackstories
         {
             Pawn pawn = ElderhoodHelper.GetPawnFromTracker(__instance);
             if (pawn == null) return;
+            bool hadElderhood = pawn.GetComp<CompElderhoodBackstory>()?.HasElderhood == true;
             ElderhoodHelper.TryAssignElderhood(pawn);
+
+            // MED-012 fix: update body type when aging INTO elderhood via birthday.
+            // PawnGenerator_GetBodyTypeFor_Patch only fires at generation; pawns
+            // who age into elderhood mid-game would otherwise keep their old body type.
+            CompElderhoodBackstory comp = pawn.GetComp<CompElderhoodBackstory>();
+            if (comp != null && comp.HasElderhood && !hadElderhood)
+            {
+                BodyTypeDef bt = DefDatabase<BodyTypeDef>.GetNamedSilentFail(
+                    pawn.gender == Gender.Female ? "FemaleElderly" : "MaleElderly");
+                if (bt != null && pawn.story?.bodyType != null && pawn.story.bodyType != bt)
+                    pawn.story.bodyType = bt;
+            }
+        }
+    }
+
+    /// <summary>
+    /// HIGH-010 fix: Age regression (Biotech age reversal serum) must clear
+    /// elderhood when biological age drops below ElderhoodAge. Without this,
+    /// a de-aged pawn keeps elderhood backstory, work disables, and UI section
+    /// indefinitely. Age reversal changes age via AgeBiologicalTicks, not via
+    /// BirthdayBiological, so we patch the setter.
+    /// </summary>
+    [HarmonyPatch(typeof(Pawn_AgeTracker), "set_AgeBiologicalTicks")]
+    public static class Pawn_AgeTracker_SetAgeBiologicalTicks_Patch
+    {
+        public static void Postfix(Pawn_AgeTracker __instance, long value)
+        {
+            Pawn pawn = ElderhoodHelper.GetPawnFromTracker(__instance);
+            if (pawn == null) return;
+            if (UB_Mod.Settings != null && !UB_Mod.Settings.elderhoodEnabled) return;
+
+            CompElderhoodBackstory comp = pawn.GetComp<CompElderhoodBackstory>();
+            if (comp == null || !comp.HasElderhood) return;
+
+            // RimWorld: 3,600,000 ticks per year.
+            int ageYears = Mathf.FloorToInt(value / 3600000f);
+            if (ageYears < comp.ElderhoodAge)
+            {
+                comp.SetElderhood(null);
+                pawn.skills?.Notify_SkillDisablesChanged();
+            }
         }
     }
 
@@ -366,10 +421,16 @@ namespace UnifiedBackstories
             if (__result == null) return;
             if (UB_Mod.Settings != null && !UB_Mod.Settings.elderhoodEnabled) return;
             if (__result.ageTracker == null) return;
-            if (__result.ageTracker.AgeBiologicalYears < 60) return;
+            // MED-022 fix: skip non-human pawns (animals, mechanoids) to avoid
+            // polluting their comps list with an empty CompElderhoodBackstory.
+            if (!__result.RaceProps.Humanlike) return;
 
             CompElderhoodBackstory comp = ElderhoodHelper.GetOrCreateElderhoodComp(__result);
             if (comp == null) return;
+
+            // HIGH-001 fix: use comp.ElderhoodAge (XML-configurable) instead of
+            // hardcoded 60. Fall back to 60 if comp has default age.
+            if (__result.ageTracker.AgeBiologicalYears < comp.ElderhoodAge) return;
 
             // Assign elderhood if not already set
             if (!comp.HasElderhood)
@@ -378,6 +439,13 @@ namespace UnifiedBackstories
                 if (elderhood == null) return;
                 comp.SetElderhood(elderhood);
                 __result.skills?.Notify_SkillDisablesChanged();
+
+                // HIGH-007 fix: Apply skill bonuses here because FinalLevelOfSkill
+                // already fired (during GeneratePawn, before this postfix) with
+                // HasElderhood=false, so it added no bonus. We must manually apply
+                // them now to avoid silent gameplay corruption for forceNoBackstory
+                // pawns, raiders, and quest pawns generated at age 60+.
+                ApplyElderhoodSkillBonuses(__result, elderhood);
             }
 
             // Apply effects that the per-step patches may have missed
@@ -404,15 +472,42 @@ namespace UnifiedBackstories
                 }
             }
 
-            // Skill bonuses are applied by PawnGenerator_FinalLevelOfSkill_Patch.
-            // Do NOT apply them here — doing so would double-count for pawns whose
-            // elderhood was already set during bio generation (the normal path).
+            // Skill bonuses for the NORMAL path are applied by
+            // PawnGenerator_FinalLevelOfSkill_Patch (which fires during bio
+            // generation, before this postfix). For the LATE-ASSIGNMENT path
+            // (forceNoBackstory, raiders, quest pawns), skill bonuses are applied
+            // by ApplyElderhoodSkillBonuses above, in the AssignElderhood block.
+            // Do NOT apply them again here — would double-count for normal pawns.
 
             // Apply body type
             BodyTypeDef bt = DefDatabase<BodyTypeDef>.GetNamedSilentFail(
                 pawn.gender == Gender.Female ? "FemaleElderly" : "MaleElderly");
             if (bt != null && pawn.story?.bodyType != null)
                 pawn.story.bodyType = bt;
+        }
+
+        /// <summary>
+        /// HIGH-007 fix: Manually applies elderhood skill bonuses for pawns whose
+        /// elderhood was assigned in the GeneratePawn postfix (after FinalLevelOfSkill
+        /// already fired). Without this, forceNoBackstory pawns (raiders, quest
+        /// pawns) would get elderhood traits + body type but NO skill bonuses —
+        /// silent gameplay corruption.
+        /// </summary>
+        private static void ApplyElderhoodSkillBonuses(Pawn pawn, BackstoryDef eb)
+        {
+            if (eb?.skillGains == null || pawn.skills == null) return;
+            for (int i = 0; i < eb.skillGains.Count; i++)
+            {
+                SkillGain sg = eb.skillGains[i];
+                if (sg.skill == null) continue;
+                SkillRecord skill = pawn.skills.GetSkill(sg.skill);
+                if (skill != null)
+                {
+                    // Directly adjust Level (final, permanent — not subject to
+                    // further FinalLevelOfSkill calls in this pawn's lifetime).
+                    skill.Level = Mathf.Clamp(skill.Level + sg.amount, 0, 20);
+                }
+            }
         }
     }
 
@@ -457,7 +552,9 @@ namespace UnifiedBackstories
             bool hasElderhood = comp != null && comp.HasElderhood;
 
             // Only show section for pawns 60+ or with existing elderhood
-            if (!hasElderhood && (pawn.ageTracker == null || pawn.ageTracker.AgeBiologicalYears < 60))
+            // Use comp.ElderhoodAge (configurable) instead of hardcoded 60.
+            int elderAgeThreshold = comp.ElderhoodAge > 0 ? comp.ElderhoodAge : 60;
+            if (!hasElderhood && (pawn.ageTracker == null || pawn.ageTracker.AgeBiologicalYears < elderAgeThreshold))
                 return;
             if (comp == null) return;
 
@@ -765,15 +862,13 @@ namespace UnifiedBackstories
             }
 
             // ZCB disablingWorkTags (applied per-pawn, NOT via def mutation)
+            // HIGH-004 fix: cache parsed WorkTags on the ZCBackstoryDef instance
+            // to avoid Enum.TryParse on every getter call (hot path).
             if (UB_Mod.Settings == null || UB_Mod.Settings.zcbEnabled)
             {
                 if (pawn.story?.Childhood is ZCBackstoryDef zcb && zcb.disablingWorkTags != null)
                 {
-                    for (int i = 0; i < zcb.disablingWorkTags.Count; i++)
-                    {
-                        if (Enum.TryParse(zcb.disablingWorkTags[i], true, out WorkTags tag))
-                            __result |= tag;
-                    }
+                    __result |= zcb.GetCachedDisabledWorkTags();
                 }
             }
         }

@@ -35,12 +35,20 @@ namespace UnifiedBackstories
             {
                 return;
             }
+            // MED-021 fix: preserve original adulthood in case all rerolls fail.
+            // Without this, the 3rd implausible roll replaces the original.
+            BackstoryDef originalAdulthood = pawn.story.Adulthood;
             rerolling = true;
             try
             {
                 for (int i = 0; i < MaxRerolls && !BackstoryPlausibility.Plausible(childhood, pawn.story.Adulthood); i++)
                 {
                     PawnBioAndNameGenerator.FillBackstorySlotShuffled(pawn, slot, backstoryCategories, factionType, mustBeCompatibleTo);
+                }
+                // If still implausible after all rerolls, restore original
+                if (!BackstoryPlausibility.Plausible(childhood, pawn.story.Adulthood))
+                {
+                    pawn.story.Adulthood = originalAdulthood;
                 }
             }
             finally
@@ -73,6 +81,8 @@ namespace UnifiedBackstories
             { "MedievalCommon", World.Medieval },
             { "MedievalHigh", World.Medieval },
             { "MedievalRoyal", World.Medieval },
+            { "MedievalNoble", World.Medieval },     // MED-019 fix: added missing categories
+            { "MedievalArtist", World.Medieval },
             { "Outlander", World.Industrial },
             { "Civil", World.Industrial },
             { "Researcher", World.Industrial },
@@ -83,6 +93,14 @@ namespace UnifiedBackstories
             { "ImperialRoyal", World.Spacefaring },
             { "EmpireCommon", World.Spacefaring },
             { "Vatgrown", World.Spacefaring },
+            // MED-019: unmapped categories default to Unknown (no tier signal)
+            { "Pirate", World.Unknown },
+            { "Slave", World.Unknown },
+            { "Cult", World.Unknown },
+            { "Madman", World.Unknown },
+            { "InsectsRelated", World.Unknown },
+            { "Outsider", World.Unknown },
+            { "Rare", World.Unknown },
         };
 
         private static readonly HashSet<string> LowbornCategories = new HashSet<string>
@@ -102,12 +120,16 @@ namespace UnifiedBackstories
         // Genuine hereditary nobility - NOT merely a backstory that is *eligible*
         // to spawn on royal-tier pawns (the ImperialRoyal spawn category is put on
         // common soldiers too, so it can't be trusted). Title words only.
+        // HIGH-011 fix: added vizier, thane, sultan, emir, shah, caliph, pharaoh,
+        // satrap, raja, maharajah, nawab — real noble titles used in BTC/VBE defs.
         private static readonly string[] NobilityKeywords =
         {
             "baron", "duke", "duchess", "viscount", "marquis", "marquess",
             "prince", "princess", "emperor", "empress", "monarch", "aristocrat", "nobleman",
             "noblewoman", "lordling", "archduke", "tsar", "kaiser", "highborn", "high lord",
             "boyar", "highness", "heir to",
+            "vizier", "thane", "sultan", "emir", "shah", "caliph", "pharaoh",
+            "satrap", "raja", "maharajah", "nawab",
         };
 
         // A low-tech, planetbound upbringing.
@@ -150,6 +172,9 @@ namespace UnifiedBackstories
 
         private static string Text(BackstoryDef bs)
         {
+            // MED-009 fix: null-guard to prevent NRE if Plausible is ever called
+            // with null (currently caller guards, but defensive programming).
+            if (bs == null) return "";
             return ((bs.defName ?? "") + " " + (bs.title ?? "")).ToLowerInvariant();
         }
 
@@ -222,17 +247,31 @@ namespace UnifiedBackstories
 
         private static bool IsLowborn(BackstoryDef bs)
         {
+            // HIGH-012 fix: if the backstory also has high-tier spawnCategories
+            // (Spacefaring/Industrial), don't classify as lowborn purely because
+            // one of its categories is in LowbornCategories. This handles cases
+            // like UB_VBE_ClonedHeir (spawnCategories=Outlander|Pirate|Offworld|
+            // ImperialFighter, title="Cloned heir") which should NOT be lowborn.
+            HashSet<World> tiers = CategoryTiers(bs);
+            bool hasHighTier = tiers.Contains(World.Spacefaring) || tiers.Contains(World.Industrial);
+            bool hasLowTier = false;
             if (bs.spawnCategories != null)
             {
                 for (int i = 0; i < bs.spawnCategories.Count; i++)
                 {
                     if (LowbornCategories.Contains(bs.spawnCategories[i]))
                     {
-                        return true;
+                        hasLowTier = true;
+                        break;
                     }
                 }
             }
-            return AnyKw(Text(bs), LowbornKeywords);
+            // If high-tier present, require keyword confirmation for lowborn
+            if (hasHighTier)
+            {
+                return hasLowTier && AnyKw(Text(bs), LowbornKeywords);
+            }
+            return hasLowTier || AnyKw(Text(bs), LowbornKeywords);
         }
     }
 }

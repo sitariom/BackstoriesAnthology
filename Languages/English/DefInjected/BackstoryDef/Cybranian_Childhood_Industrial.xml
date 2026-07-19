@@ -101,7 +101,7 @@
   <UB_Cybranian_Childhood_Cleaner.description>[PAWN_nameDef] has been working as a janitor for almost all of {PAWN_gender ? his : her} childhood. There is only enough money for the essentials.</UB_Cybranian_Childhood_Cleaner.description>
   <UB_Cybranian_Childhood_Young_Gladiator.title>Young gladiator</UB_Cybranian_Childhood_Young_Gladiator.title>
   <UB_Cybranian_Childhood_Young_Gladiator.titleShort>Gladiator</UB_Cybranian_Childhood_Young_Gladiator.titleShort>
-  <UB_Cybranian_Childhood_Young_Gladiator.description>From an early age, [PAWN_nameDef] fights in the stadium against people like him, as well as animals. His life depends only on {PAWN_gender ? his : her} skills.</UB_Cybranian_Childhood_Young_Gladiator.description>
+  <UB_Cybranian_Childhood_Young_Gladiator.description>From an early age, [PAWN_nameDef] fights in the stadium against people like {PAWN_gender ? him : her}, as well as animals. {PAWN_gender ? His : Her} life depends only on {PAWN_gender ? his : her} skills.</UB_Cybranian_Childhood_Young_Gladiator.description>
   <UB_Cybranian_Childhood_Model.title>Model</UB_Cybranian_Childhood_Model.title>
   <UB_Cybranian_Childhood_Model.description>[PAWN_nameDef] works as a model because of {PAWN_gender ? his : her} looks.</UB_Cybranian_Childhood_Model.description>
   <UB_Cybranian_Childhood_Terrorist_Child.title>Terrorist child</UB_Cybranian_Childhood_Terrorist_Child.title>

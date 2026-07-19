@@ -23,12 +23,6 @@ Most of these should enable natural meditation focus.
 
 		<!-- new tags start here -->
 		<commonality>3</commonality>
-		<requiredRecords>
-			<li>		<!-- at least 3 hours as feral child -->
-				<name>ZCB_TimeAsWildMan</name>
-				<minValue>7500</minValue>
-			</li>
-		</requiredRecords>
 		<!-- new tags end here-->
 
 		<skillGains><Plants>5</Plants><Animals>3</Animals><Melee>2</Melee><Cooking>-2</Cooking></skillGains>
@@ -53,12 +47,6 @@ Most of these should enable natural meditation focus.
 
 		<!-- new tags start here -->
 		<commonality>2</commonality>
-		<requiredRecords>
-			<li>		<!-- at least 3 hours as feral child -->
-				<name>ZCB_TimeAsWildMan</name>
-				<minValue>7500</minValue>
-			</li>
-		</requiredRecords>
 		<requiredPassions>
 			<li>Animals</li>
 		</requiredPassions>
@@ -82,12 +70,6 @@ Most of these should enable natural meditation focus.
 
 		<!-- new tags start here -->
 		<commonality>7</commonality>
-		<requiredRecords>
-			<li>		<!-- at least 3 hours as feral child -->
-				<name>ZCB_TimeAsWildMan</name>
-				<minValue>7500</minValue>
-			</li>
-		</requiredRecords>
 		<requiredPassions>
 			<li>Social</li>
 		</requiredPassions>

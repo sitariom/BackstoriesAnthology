@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using HarmonyLib;
 using RimWorld;
 using Verse;
@@ -44,7 +45,12 @@ namespace UnifiedBackstories
             var p = new BackstoryProfile();
             BackstoryDef c = pawn.story.Childhood;
             BackstoryDef a = pawn.story.Adulthood;
-            string text = (Txt(c) + " " + Txt(a)).ToLowerInvariant();
+            // HIGH-014 fix: include description text (not just defName+title) so
+            // backstories with thematic descriptions but sparse titles get matched.
+            // Strip gender tokens before matching to avoid false positives.
+            string textChildhood = StripGenderTokens(Txt(c));
+            string textAdulthood = StripGenderTokens(Txt(a));
+            string text = (textChildhood + " " + textAdulthood).ToLowerInvariant();
 
             bool violentDisabled =
                 (c != null && (c.workDisables & WorkTags.Violent) != 0) ||
@@ -59,8 +65,9 @@ namespace UnifiedBackstories
                 "swordsman", "musketeer", "gangster", "kingpin", "cadet");
             bool hardship = Any(text,
                 "slave", "labor", "camp", "wasteland", "surviv", "orphan", "street", "urchin",
-                "war ", "refugee", "prison", "bunker", "apocalyp", "gang", "pit ", "coliseum",
-                "exile", "banish", "scaveng", "hooligan", "brute", "outlaw", "feral", "wild");
+                "war ", "warfare", "warlord", "refugee", "prison", "bunker", "apocalyp", "gang",
+                "pit ", "coliseum", "exile", "banish", "scaveng", "hooligan", "brute", "outlaw",
+                "feral", "wild");
             bool pampered = Any(text,
                 "pamper", "spoil", "noble", "lordling", "royal", "baron", "prince", "privileg",
                 "idol", "dilettante", "aristocrat", "heir", "wealthy", "socialite", "rich",
@@ -210,7 +217,24 @@ namespace UnifiedBackstories
         private static string Txt(BackstoryDef b)
         {
             if (b == null) return "";
-            return b.defName + " " + b.title;
+            // HIGH-014 fix: include description so thematic keywords are matched
+            return b.defName + " " + b.title + " " + (b.description ?? "");
+        }
+
+        /// <summary>
+        /// HIGH-014 fix: strip {PAWN_gender ? X : Y} and [PAWN_*] tokens from text
+        /// before keyword matching. Gender tokens would pollute keyword matching
+        /// with pronouns and role names that aren't thematic signals.
+        /// </summary>
+        private static string StripGenderTokens(string text)
+        {
+            if (string.IsNullOrEmpty(text)) return text;
+            // Strip {PAWN_gender ? X : Y} — keep first option as fallback text
+            text = System.Text.RegularExpressions.Regex.Replace(text,
+                @"\{PAWN_gender\s*\?\s*([^:]+?)\s*:\s*([^}]+?)\}", "$1");
+            // Strip [PAWN_*] bracket tokens entirely
+            text = System.Text.RegularExpressions.Regex.Replace(text, @"\[[A-Z_]+\]", " ");
+            return text;
         }
     }
 
@@ -261,7 +285,7 @@ namespace UnifiedBackstories
                 // 2. Nudge one fitting trait in, by swapping a neutral slot.
                 if (Rand.Value < InjectFavoredChance)
                 {
-                    TryInjectFavored(pawn, __result, profile);
+                    TryInjectFavored(pawn, __result, profile, req);
                 }
             }
             finally
@@ -315,7 +339,12 @@ namespace UnifiedBackstories
             return null;
         }
 
-        private static void TryInjectFavored(Pawn pawn, List<Trait> list, BackstoryProfile profile)
+        /// <summary>
+        /// HIGH-013 fix: now accepts req (PawnGenerationRequest?) so we can
+        /// check ProhibitedTraits before injecting. Previously, a quest that
+        /// prohibited "Psychopath" could still get Psychopath injected here.
+        /// </summary>
+        private static void TryInjectFavored(Pawn pawn, List<Trait> list, BackstoryProfile profile, PawnGenerationRequest? req)
         {
             // Find a slot holding a "neutral" trait (neither favored nor opposed).
             int neutralSlot = -1;
@@ -341,7 +370,7 @@ namespace UnifiedBackstories
                 {
                     continue;
                 }
-                if (CanPlace(pawn, list, def, f.degree, neutralSlot))
+                if (CanPlace(pawn, list, def, f.degree, neutralSlot, req))
                 {
                     options.Add(new Trait(def, f.degree));
                 }
@@ -368,11 +397,24 @@ namespace UnifiedBackstories
             return false;
         }
 
-        private static bool CanPlace(Pawn pawn, List<Trait> list, TraitDef def, int degree, int exceptIndex)
+        /// <summary>
+        /// HIGH-013 fix: now accepts req (PawnGenerationRequest?) to check
+        /// ProhibitedTraits. Returns false if the trait is prohibited by request.
+        /// </summary>
+        private static bool CanPlace(Pawn pawn, List<Trait> list, TraitDef def, int degree, int exceptIndex, PawnGenerationRequest? req)
         {
             if (pawn.story.traits.HasTrait(def))
             {
                 return false;
+            }
+            // HIGH-013 fix: check ProhibitedTraits from PawnGenerationRequest
+            if (req.HasValue)
+            {
+                var prohibited = req.Value.ProhibitedTraits;
+                if (prohibited != null && prohibited.Contains(def))
+                {
+                    return false;
+                }
             }
             if (DuplicatesOrConflicts(list, def, exceptIndex))
             {

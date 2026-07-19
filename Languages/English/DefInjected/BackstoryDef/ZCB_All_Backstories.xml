@@ -27,7 +27,7 @@
 
   <UB_ZCB_Builder.title>builder</UB_ZCB_Builder.title>
   <UB_ZCB_Builder.titleShort>builder</UB_ZCB_Builder.titleShort>
-  <UB_ZCB_Builder.description>After {PAWN_gender ? his : her} parents abandoned {PAWN_gender ? him : her}, {PAWN_gender ? he : she} was taken in by pirates and forced to fight. Later {PAWN_gender ? he : she} jonied {PAWN_factionName} and discovered a passion for building, quickly signing up to help renovate {PAWN_gender ? his : her} new home.</UB_ZCB_Builder.description>
+  <UB_ZCB_Builder.description>After {PAWN_gender ? his : her} parents abandoned {PAWN_gender ? him : her}, {PAWN_gender ? he : she} was taken in by pirates and forced to fight. Later {PAWN_gender ? he : she} joined {PAWN_factionName} and discovered a passion for building, quickly signing up to help renovate {PAWN_gender ? his : her} new home.</UB_ZCB_Builder.description>
 
   <!-- ZCB_Misc_Backstories.xml -->
   <UB_ZCB_ChildBurnVictim.title>burn victim</UB_ZCB_ChildBurnVictim.title>

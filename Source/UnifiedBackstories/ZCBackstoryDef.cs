@@ -33,7 +33,11 @@ namespace UnifiedBackstories
     {
         public float commonality = 1f;
         public TechLevel minTechLevel;
-        public TechLevel maxTechLevel;
+        // HIGH-006 fix: default maxTechLevel to Archotech (max enum value)
+        // so that setting only minTechLevel doesn't reject everything above Undefined.
+        // The CheckTechLevel validator also treats Undefined as "no upper bound"
+        // for defense-in-depth.
+        public TechLevel maxTechLevel = TechLevel.Archotech;
         public IntRange colonySize = new IntRange(0, 9999);
         public int developmentalStage;
         public IntRange bodyPartsMissing = new IntRange(0, 999);
@@ -50,6 +54,31 @@ namespace UnifiedBackstories
         public List<string> disallowedPassions;            // skill defNames (pawn must NOT have passion)
         public List<ZCBPassionGain> passionGains;          // ADDITIVE passion changes (matched to original ZCB)
         public List<string> disablingWorkTags;
+
+        // HIGH-004 fix: cache parsed WorkTags to avoid Enum.TryParse on every
+        // DisabledWorkTagsBackstoryAndTraits getter call (hot path — called
+        // dozens of times per tick per pawn for work assignment + UI rendering).
+        private WorkTags? _cachedDisabledWorkTags;
+        private bool _disabledWorkTagsCached;
+
+        public WorkTags GetCachedDisabledWorkTags()
+        {
+            if (_disabledWorkTagsCached)
+                return _cachedDisabledWorkTags ?? WorkTags.None;
+
+            WorkTags result = WorkTags.None;
+            if (disablingWorkTags != null)
+            {
+                for (int i = 0; i < disablingWorkTags.Count; i++)
+                {
+                    if (Enum.TryParse(disablingWorkTags[i], true, out WorkTags tag))
+                        result |= tag;
+                }
+            }
+            _cachedDisabledWorkTags = result;
+            _disabledWorkTagsCached = true;
+            return result;
+        }
     }
 
     // --- Helper types for ZCB requirements ---

@@ -11,7 +11,7 @@
     <spawnCategories>
       <li>Spacer</li>
       <li>Civil</li> <!--Use SpawnDefs to define faction spawnage-->
-      <li>Ourlander</li>
+      <li>Outlander</li>
     </spawnCategories>
     <skillGains>
       <Social>4</Social>

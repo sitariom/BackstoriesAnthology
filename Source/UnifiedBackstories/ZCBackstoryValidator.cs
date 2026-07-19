@@ -64,6 +64,10 @@ namespace UnifiedBackstories
         /// Tech level: compares Faction.OfPlayer.def.techLevel against min/max.
         /// Matches original ZCB: uses Player faction only.
         /// Default TechLevel.Undefined means no restriction.
+        /// HIGH-006 fix: treat maxTechLevel == Undefined as "no upper bound"
+        /// (instead of "max = 0 = Undefined" which rejects everything above
+        /// Undefined). This handles the common XML pattern of setting only
+        /// minTechLevel without maxTechLevel.
         /// </summary>
         private static bool CheckTechLevel(ZCBackstoryDef def)
         {
@@ -75,15 +79,20 @@ namespace UnifiedBackstories
             {
                 playerTech = Faction.OfPlayer?.def?.techLevel ?? TechLevel.Undefined;
             }
-            catch
+            catch (Exception ex)
             {
+                Log.Warning("[UB] CheckTechLevel deferred: " + ex.Message);
                 return true; // game not fully initialized, defer
             }
 
             if (playerTech == TechLevel.Undefined)
                 return true;
 
-            if (playerTech < def.minTechLevel || playerTech > def.maxTechLevel)
+            if (playerTech < def.minTechLevel)
+                return false;
+
+            // HIGH-006 fix: if maxTechLevel is Undefined (default), treat as "no upper bound"
+            if (def.maxTechLevel > TechLevel.Undefined && playerTech > def.maxTechLevel)
                 return false;
 
             return true;
@@ -103,8 +112,9 @@ namespace UnifiedBackstories
             {
                 pawnCount = PawnsFinder.AllMaps_FreeColonistsSpawned.Count();
             }
-            catch
+            catch (Exception ex)
             {
+                Log.Warning("[UB] CheckColonySize deferred: " + ex.Message);
                 return true;
             }
 
@@ -227,8 +237,9 @@ namespace UnifiedBackstories
             {
                 agingScale = Find.Storyteller.difficulty.childAgingRate / 4f;
             }
-            catch
+            catch (Exception ex)
             {
+                Log.Warning("[UB] CheckRecords agingScale default: " + ex.Message);
                 agingScale = 0.25f; // default (1.0 / 4)
             }
 
@@ -299,8 +310,9 @@ namespace UnifiedBackstories
             {
                 agingScale = Find.Storyteller.difficulty.childAgingRate / 4f;
             }
-            catch
+            catch (Exception ex)
             {
+                Log.Warning("[UB] CheckRequiredSkills agingScale default: " + ex.Message);
                 agingScale = 0.25f;
             }
 
@@ -556,6 +568,8 @@ namespace UnifiedBackstories
                     if (commonalityPick != null && commonalityPick != zcb)
                     {
                         pawn.story.Childhood = commonalityPick;
+                        // MED-006 fix: notify skill system to re-evaluate disabled work tags
+                        pawn.skills?.Notify_SkillDisablesChanged();
                         zcb = commonalityPick;
                         continue;
                     }
@@ -568,11 +582,21 @@ namespace UnifiedBackstories
                     if (!(current is ZCBackstoryDef))
                         return;
                     zcb = (ZCBackstoryDef)current;
+                    // MED-006 fix: also notify after fallback re-roll
+                    pawn.skills?.Notify_SkillDisablesChanged();
                 }
 
                 if (pawn.story?.Childhood is ZCBackstoryDef finalZcb)
                 {
-                    ApplyZCBEffects(pawn, finalZcb);
+                    // MED-011 fix: only apply effects if the def is actually valid
+                    // for this pawn. If MaxRetries exhausted without finding a valid
+                    // def, accepting the def for story purposes is fine, but applying
+                    // passionGains for a def that violates requirements would be
+                    // silent gameplay corruption.
+                    if (ZCBackstoryValidator.IsValidFor(pawn, finalZcb))
+                    {
+                        ApplyZCBEffects(pawn, finalZcb);
+                    }
                 }
             }
             finally

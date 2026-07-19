@@ -5,7 +5,7 @@
     <title>Moth farmer</title>
     <titleShort>Moth Farmer</titleShort>
     <slot>Adulthood</slot> <!--Adult or Child-->
-    <baseDesc>[PAWN_nameDef] spent most of [PAWN_objective] life working on their family farm, raising and breeding Silkmoths.[PAWN_nameDef]'s main job was to seperate the male and female moths, the female moths would get placed into the fields to make silk and eat plants, and the male moths would be sent to the milking factory, where they were blended with water and cream to make calorie-dense moth milk. The squeals of the moths as they got grinded scarred [PAWN_nameDef] to the core, vowing to never harm another animal again, and fleeing the family farm for good.</baseDesc> <!--Use Namedefs for name and pronouns-->
+    <baseDesc>[PAWN_nameDef] spent most of [PAWN_objective] life working on their family farm, raising and breeding Silkmoths.[PAWN_nameDef]'s main job was to separate the male and female moths, the female moths would get placed into the fields to make silk and eat plants, and the male moths would be sent to the milking factory, where they were blended with water and cream to make calorie-dense moth milk. The squeals of the moths as they got grinded scarred [PAWN_nameDef] to the core, vowing to never harm another animal again, and fleeing the family farm for good.</baseDesc> <!--Use Namedefs for name and pronouns-->
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale> <!-- Use Bodydefs for body types-->
     <spawnCategories>

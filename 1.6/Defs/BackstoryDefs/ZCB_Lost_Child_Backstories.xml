@@ -29,7 +29,7 @@
 		<defName>UB_ZCB_Builder</defName>
 		<title>builder</title>
 		<titleShort>builder</titleShort>
-		<baseDesc>After [PAWN_possessive] parents abandoned [PAWN_objective], [PAWN_pronoun] was taken in by pirates and forced to fight. Later [PAWN_pronoun] jonied [PAWN_factionName] and discovered a passion for building, quickly signing up to help renovate [PAWN_possessive] new home.</baseDesc>
+		<baseDesc>After [PAWN_possessive] parents abandoned [PAWN_objective], [PAWN_pronoun] was taken in by pirates and forced to fight. Later [PAWN_pronoun] joined [PAWN_factionName] and discovered a passion for building, quickly signing up to help renovate [PAWN_possessive] new home.</baseDesc>
 		<slot>Childhood</slot>
 		<spawnCategories>
 			<li>ZCB</li>

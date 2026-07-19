@@ -5,13 +5,13 @@
 <h1 align="center">Backstories Anthology</h1>
 
 <p align="center">
-  <b>1,352 backstories · 12 mods · One unified package</b><br>
+  <b>1,353 backstories · 12 community mods · One unified package</b><br>
   <i>A massive collection of community-created backstories for RimWorld, carefully merged, deduplicated, and balanced into one cohesive, self-contained mod.</i>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/RimWorld-1.6-blueviolet?style=flat-square">
-  <img src="https://img.shields.io/badge/backstories-1,352-success?style=flat-square">
+  <img src="https://img.shields.io/badge/backstories-1,353-success?style=flat-square">
   <img src="https://img.shields.io/badge/status-stable-brightgreen?style=flat-square">
   <img src="https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-lightgrey?style=flat-square">
 </p>
@@ -22,11 +22,11 @@
 
 **Backstories Anthology** brings together backstories from **12 different community mods** into a single, polished, conflict-free package. Every backstory has been prefixed with `UB_` to ensure zero defName collisions, fully translated (English), deduplicated, and validated.
 
-**No original mods required.** This mod is 100% standalone — just activate it and your colonists will have access to all 1,352 backstories.
+**No original mods required.** This mod is 100% standalone — just activate it and your colonists will have access to all 1,353 backstories.
 
 ### What's Included
 
-- **1,352 unique backstories** — Childhood & Adulthood, spanning Tribal to Spacer tech levels
+- **1,353 unique backstories** — Childhood & Adulthood, spanning Tribal to Spacer tech levels
 - **Full English translations** for every single backstory (title + description)
 - **No duplicates** — carefully deduplicated across all source mods
 - **No defName conflicts** — all backstories use the `UB_` prefix
@@ -49,10 +49,10 @@
 | 6 | **More Backstories** | Ravinglegend | 58 |
 | 7 | **Kurzaen's Serious & Silly Backstories** | Kurzaen | 56 |
 | 8 | **Tribal Backstories** | Shenanigans | 55 |
-| 9 | **Elderhood Backstories** | DimonSever000 | 42 |
+| 9 | **Elderhood Backstories** | DimonSever000 | 43 |
 | 10 | **Apocalyptic Backstories** | Lovely | 25 |
 | 11 | **Saito's Backstories** | Zaljerem / Saito Yui | 12 |
-| | **Total** | | **1,352** |
+| | **Total** | | **1,353** |
 
 ### Integrated Systems (no new backstories)
 
@@ -71,7 +71,7 @@
 - **Fully translated** — every backstory has complete English title and description
 - **No alien race dependency** — Medieval Backstories converted from `AlienRace.AlienBackstoryDef` to standard `BackstoryDef`
 - **All PlaceDefs included** — Seal's custom locations enrich procedural story generation
-- **Tested & validated** — 38 automated regression tests pass 100%
+- **Tested & validated** — automated regression test suite (38 tests, 100% pass)
 
 ---
 
@@ -216,12 +216,12 @@ See [CHANGELOG.md](CHANGELOG.md) for the full version history.
 
 ## 🧪 Testing
 
-This mod passes **38 automated regression tests** covering:
+This mod includes an automated regression test suite (`scripts/test-mod.ps1`) covering:
 
 | Test Category | Tests | Status |
 |---------------|:-----:|:------:|
 | Directory structure | 17 | ✅ |
-| XML validity (all files) | 1 | ✅ |
+| XML validity (all files) | 5 | ✅ |
 | DefName prefix (`UB_`) | 2 | ✅ |
 | No duplicate defNames | 2 | ✅ |
 | Translation coverage (100%) | 1 | ✅ |
@@ -232,6 +232,8 @@ This mod passes **38 automated regression tests** covering:
 | Elderhood count | 1 | ✅ |
 | Cybranian workDisable cleanup | 1 | ✅ |
 | **Total** | **38** | **✅ 0 ❌** |
+
+Run with: `pwsh scripts/test-mod.ps1` (requires PowerShell 7+)
 
 ---
 

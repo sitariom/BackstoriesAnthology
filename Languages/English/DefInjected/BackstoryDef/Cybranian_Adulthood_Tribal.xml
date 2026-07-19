@@ -28,10 +28,10 @@
   <UB_Cybranian_Adulthood_Field_Priest.description>After [PAWN_nameDef] became high priest, the tribe began a fierce war. [PAWN_nameDef]'s job was to raise morale through rituals.</UB_Cybranian_Adulthood_Field_Priest.description>
   <UB_Cybranian_Adulthood_Battle_Shaman.title>Battle Shaman</UB_Cybranian_Adulthood_Battle_Shaman.title>
   <UB_Cybranian_Adulthood_Battle_Shaman.titleShort>Shaman</UB_Cybranian_Adulthood_Battle_Shaman.titleShort>
-  <UB_Cybranian_Adulthood_Battle_Shaman.description>[PAWN_nameDef] is proficient in weapons and ancient spells. According to legends, it is they who {PAWN_gender ? he : she} lp the tribe to win battles.</UB_Cybranian_Adulthood_Battle_Shaman.description>
+  <UB_Cybranian_Adulthood_Battle_Shaman.description>[PAWN_nameDef] is proficient in weapons and ancient spells. According to legends, it is they who {PAWN_gender ? help : help} the tribe to win battles.</UB_Cybranian_Adulthood_Battle_Shaman.description>
   <UB_Cybranian_Adulthood_Ruthless_Predator.title>Ruthless predator</UB_Cybranian_Adulthood_Ruthless_Predator.title>
   <UB_Cybranian_Adulthood_Ruthless_Predator.titleShort>Predator</UB_Cybranian_Adulthood_Ruthless_Predator.titleShort>
-  <UB_Cybranian_Adulthood_Ruthless_Predator.description>There seems to be nothing human left in him. [PAWN_nameDef] is ruthless and cruel when it comes to fighting within the tribe.</UB_Cybranian_Adulthood_Ruthless_Predator.description>
+  <UB_Cybranian_Adulthood_Ruthless_Predator.description>There seems to be nothing human left in {PAWN_gender ? him : her}. [PAWN_nameDef] is ruthless and cruel when it comes to fighting within the tribe.</UB_Cybranian_Adulthood_Ruthless_Predator.description>
   <UB_Cybranian_Adulthood_Spellcaster.title>Spellcaster</UB_Cybranian_Adulthood_Spellcaster.title>
   <UB_Cybranian_Adulthood_Spellcaster.description>[PAWN_nameDef] sincerely believes in {PAWN_gender ? his : her} strength, like [PAWN_nameDef]'s fellow tribesmen. According to legend, [PAWN_nameDef] is able to stop a tornado with just one word.</UB_Cybranian_Adulthood_Spellcaster.description>
   <UB_Cybranian_Adulthood_Milkman.title>Milkman</UB_Cybranian_Adulthood_Milkman.title>
@@ -40,7 +40,7 @@
   <UB_Cybranian_Adulthood_Boatman.description>[PAWN_nameDef] and {PAWN_gender ? his : her} family build boats and small rafts for the tribe.</UB_Cybranian_Adulthood_Boatman.description>
   <UB_Cybranian_Adulthood_Leader_Slave.title>Leader's slave</UB_Cybranian_Adulthood_Leader_Slave.title>
   <UB_Cybranian_Adulthood_Leader_Slave.titleShort>Slave</UB_Cybranian_Adulthood_Leader_Slave.titleShort>
-  <UB_Cybranian_Adulthood_Leader_Slave.description>All {PAWN_gender ? his : her} life [PAWN_nameDef] was a slave for the {PAWN_gender ? he : she} ad of the tribe, but escaped during a battle with foreigners.</UB_Cybranian_Adulthood_Leader_Slave.description>
+  <UB_Cybranian_Adulthood_Leader_Slave.description>All {PAWN_gender ? his : her} life [PAWN_nameDef] was a slave for the leader of the tribe, but escaped during a battle with foreigners.</UB_Cybranian_Adulthood_Leader_Slave.description>
   <UB_Cybranian_Adulthood_Slave_Leader.title>Slave leader</UB_Cybranian_Adulthood_Slave_Leader.title>
   <UB_Cybranian_Adulthood_Slave_Leader.description>[PAWN_nameDef] and {PAWN_gender ? his : her} friends were all their lives slaves of cruel masters who did not expect them to take up arms.</UB_Cybranian_Adulthood_Slave_Leader.description>
   <UB_Cybranian_Adulthood_Exiled_Avenger.title>Exiled Avenger</UB_Cybranian_Adulthood_Exiled_Avenger.title>
@@ -51,7 +51,7 @@
   <UB_Cybranian_Adulthood_Traveler.title>Traveler</UB_Cybranian_Adulthood_Traveler.title>
   <UB_Cybranian_Adulthood_Traveler.description>[PAWN_nameDef] spent all {PAWN_gender ? his : her} life alone, exploring the planet.</UB_Cybranian_Adulthood_Traveler.description>
   <UB_Cybranian_Adulthood_Bard.title>Bard</UB_Cybranian_Adulthood_Bard.title>
-  <UB_Cybranian_Adulthood_Bard.description>[PAWN_nameDef] has a good and pleasant voice which {PAWN_gender ? he : she} lps {PAWN_gender ? him : her} to cheer up [PAWN_nameDef]'s fellow tribesmen before a fight.</UB_Cybranian_Adulthood_Bard.description>
+  <UB_Cybranian_Adulthood_Bard.description>[PAWN_nameDef] has a good and pleasant voice which {PAWN_gender ? helps : helps} {PAWN_gender ? him : her} to cheer up [PAWN_nameDef]'s fellow tribesmen before a fight.</UB_Cybranian_Adulthood_Bard.description>
   <UB_Cybranian_Adulthood_Blacksmith.title>Blacksmith</UB_Cybranian_Adulthood_Blacksmith.title>
   <UB_Cybranian_Adulthood_Blacksmith.description>[PAWN_nameDef] is adept at blacksmithing and making weapons for [PAWN_nameDef]'s tribe.</UB_Cybranian_Adulthood_Blacksmith.description>
   <UB_Cybranian_Adulthood_Forest_Hunter.title>Forest hunter</UB_Cybranian_Adulthood_Forest_Hunter.title>

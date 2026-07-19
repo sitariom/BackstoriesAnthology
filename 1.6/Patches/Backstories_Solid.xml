@@ -12,7 +12,7 @@
     <xpath>Defs/BackstoryDef[defName="FallenProdigy40"]/workDisables</xpath>
   </li><li Class="PatchOperationReplace">
     <xpath>Defs/BackstoryDef[defName="FarmerBoy88"]/workDisables</xpath>
-    <value><workDisables>Social, Firefighting</workDisables></value>
+    <value><workDisables><li>Social</li><li>Firefighting</li></workDisables></value>
   </li><li Class="PatchOperationRemove">
     <xpath>Defs/BackstoryDef[defName="UrbworldHooligan12"]/workDisables</xpath>
   </li><li Class="PatchOperationRemove">
@@ -85,7 +85,7 @@
     <xpath>Defs/BackstoryDef[defName="StreetUrchin45"]/workDisables</xpath>
   </li><li Class="PatchOperationReplace">
     <xpath>Defs/BackstoryDef[defName="WildChild5"]/workDisables</xpath>
-    <value><workDisables>Caring, Intellectual</workDisables></value>
+    <value><workDisables><li>Caring</li><li>Intellectual</li></workDisables></value>
   </li><li Class="PatchOperationRemove">
     <xpath>Defs/BackstoryDef[defName="HackerProdigy84"]/workDisables</xpath>
   </li><li Class="PatchOperationRemove">
@@ -104,7 +104,7 @@
     <xpath>Defs/BackstoryDef[defName="StarSquire9"]/workDisables</xpath>
   </li><li Class="PatchOperationReplace">
     <xpath>Defs/BackstoryDef[defName="DrugMule80"]/workDisables</xpath>
-    <value><workDisables>Caring, Social</workDisables></value>
+    <value><workDisables><li>Caring</li><li>Social</li></workDisables></value>
   </li><li Class="PatchOperationRemove">
     <xpath>Defs/BackstoryDef[defName="ArtisanFarmer23"]/workDisables</xpath>
   </li><li Class="PatchOperationRemove">
@@ -197,7 +197,7 @@
     <xpath>Defs/BackstoryDef[defName="AccursedChild88"]/workDisables</xpath>
   </li><li Class="PatchOperationReplace">
     <xpath>Defs/BackstoryDef[defName="IcePlanetChild95"]/workDisables</xpath>
-    <value><workDisables>Caring, Social</workDisables></value>
+    <value><workDisables><li>Caring</li><li>Social</li></workDisables></value>
   </li><li Class="PatchOperationRemove">
     <xpath>Defs/BackstoryDef[defName="Scrounger25"]/workDisables</xpath>
   </li><li Class="PatchOperationRemove">
@@ -397,7 +397,7 @@
     <value><workDisables>Caring</workDisables></value>
   </li><li Class="PatchOperationReplace">
     <xpath>Defs/BackstoryDef[defName="CombatEngineer30"]/workDisables</xpath>
-    <value><workDisables>Firefighting, PlantWork</workDisables></value>
+    <value><workDisables><li>Firefighting</li><li>PlantWork</li></workDisables></value>
   </li><li Class="PatchOperationRemove">
     <xpath>Defs/BackstoryDef[defName="ColiseumFighter22"]/workDisables</xpath>
   </li><li Class="PatchOperationRemove">
@@ -463,7 +463,7 @@
     <xpath>Defs/BackstoryDef[defName="MedievalKnight26"]/workDisables</xpath>
   </li><li Class="PatchOperationReplace">
     <xpath>Defs/BackstoryDef[defName="TestSubject39"]/workDisables</xpath>
-    <value><workDisables>Caring, Social</workDisables></value>
+    <value><workDisables><li>Caring</li><li>Social</li></workDisables></value>
   </li><li Class="PatchOperationRemove">
     <xpath>Defs/BackstoryDef[defName="GeneticEngineer89"]/workDisables</xpath>
   </li><li Class="PatchOperationRemove">
@@ -473,7 +473,7 @@
     <value><workDisables>Caring</workDisables></value>
   </li><li Class="PatchOperationReplace">
     <xpath>Defs/BackstoryDef[defName="TestSubject92"]/workDisables</xpath>
-    <value><workDisables>Caring, Social</workDisables></value>
+    <value><workDisables><li>Caring</li><li>Social</li></workDisables></value>
   </li><li Class="PatchOperationRemove">
     <xpath>Defs/BackstoryDef[defName="AIProgrammer22"]/workDisables</xpath>
   </li><li Class="PatchOperationRemove">
@@ -712,7 +712,7 @@
     <xpath>Defs/BackstoryDef[defName="AdventurousWeirdo55"]/workDisables</xpath>
   </li><li Class="PatchOperationReplace">
     <xpath>Defs/BackstoryDef[defName="FearfulChef49"]/workDisables</xpath>
-    <value><workDisables>Cooking, Firefighting</workDisables></value>
+    <value><workDisables><li>Cooking</li><li>Firefighting</li></workDisables></value>
   </li><li Class="PatchOperationRemove">
     <xpath>Defs/BackstoryDef[defName="MuffaloResearcher67"]/workDisables</xpath>
   </li><li Class="PatchOperationRemove">

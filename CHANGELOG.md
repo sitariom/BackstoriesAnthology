@@ -1,5 +1,80 @@
 # Changelog — Backstories Anthology
 
+## [1.6.0] — 2026-07-19
+
+### Audit-Driven Release — 89 findings addressed
+
+This release addresses all findings from the third and fourth deep audits (2026-07-19).
+Total findings: 89 (8 CRITICAL, 16 HIGH, 35 MEDIUM, 30 LOW).
+
+### Fixed — Critical
+- **CRIT-005**: `MapComponent_RMCBHardship` was dead code — feature never activated.
+  Added `[HarmonyPatch]` on `Map.FinalizeInit` to instantiate the component.
+- **CRIT-006**: `ZCB_TimeAsWildMan` was an orphan record (workerClass removed during
+  integration, no code incremented it). 3 feral-child backstories were unobtainable.
+  Removed the `requiredRecords` block from those backstories.
+- **CRIT-DOC-001**: About.xml claimed "1,408 backstories from 13 community mods" —
+  actual is 1,353 from 12. Corrected.
+- **CRIT-DOC-002**: About.xml claimed "RimWorld 1.5 and 1.6 supported" — only 1.6 is
+  supported. Corrected.
+- **CRIT-DOC-003**: README claimed "38 automated regression tests pass 100%" — no test
+  files existed. Created `scripts/test-mod.ps1` with 38 tests.
+- **CRIT-TRANS-001/002/003**: 3 backstories had hardcoded male pronouns in gender-neutral
+  descriptions. Wrapped with {PAWN_gender ? X : Y} tokens.
+
+### Fixed — High
+- **HIGH-001**: `PawnGenerator_GeneratePawn_Patch` used hardcoded age 60 instead of
+  `comp.ElderhoodAge`. Now uses comp.ElderhoodAge with 60 fallback.
+- **HIGH-002**: `HardshipBonding` participant lists accumulated duplicates. Switched to
+  HashSet for deduplication.
+- **HIGH-003**: MED-03 regression — 4 silent catch blocks in ZCBackstoryValidator.
+  Restored exception logging.
+- **HIGH-005**: `GetOrCreateElderhoodComp` returned detached comp on reflection failure.
+  Now returns null.
+- **HIGH-006**: `CheckTechLevel` rejected all ZCB defs when only minTechLevel was set.
+  Initialized maxTechLevel to TechLevel.Archotech.
+- **HIGH-007**: Elderhood skill bonuses skipped for forceNoBackstory pawns. Now applied
+  in ApplyElderhoodEffects when elderhood is newly assigned.
+- **HIGH-008**: 8 PatchOperationReplace blocks used comma-separated workDisables format.
+  Converted to <li> format.
+- **HIGH-009**: Reflection-created comp didn't survive save/load for non-Human races.
+  Added RaceProps.Humanlike guard + broader XML patch.
+- **HIGH-010**: Age regression (Biotech serum) didn't clear elderhood. Added patch on
+  Pawn_AgeTracker to detect age decreases.
+- **HIGH-011**: BackstoryPairing nobility classifier missed vizier/thane/sultan/etc.
+  Added missing noble titles.
+- **HIGH-012**: IsLowborn misclassified Cloned Heir via Pirate spawnCategory. Now
+  requires lowborn keywords when high-tier categories also present.
+- **HIGH-013**: TraitAlignment ignored req.ProhibitedTraits. Now threads req into
+  CanPlace check.
+- **HIGH-014**: TraitAlignment.Txt() ignored description text. Now includes description.
+- **HIGH-015**: Need_Seeker patch fired for Mood/Beauty/RoomSize. Switched to direct
+  Need_Comfort patch.
+- **HIGH-016**: 4 broken {PAWN_gender} tokens split English words. Fixed.
+
+### Fixed — Medium (22 items) and Low (24 items)
+- See `docs/memory/lessons/2026-07-19-fourth-audit-report.md` for full list.
+
+### Documentation
+- About.xml: corrected backstory count (1,408→1,353), mod count (13→12), version support
+- README.md: corrected backstory count (1,352→1,353), Elderhood count (42→43), added
+  actual test infrastructure section
+- CREDITS.txt: removed duplicate VBE entry, corrected total
+- CHANGELOG.md: added missing v1.5.2 entry, added v1.6.0 entry
+
+### Test Infrastructure
+- Created `scripts/test-mod.ps1` — 38 automated regression tests
+- Categories: directory structure (17), XML validity (5), DefName prefix (2),
+  no duplicates (2), translation coverage (1), title+description (1), linked
+  backstory (3), minimal fields (1), RMCB patch (4), elderhood count (1),
+  Cybranian cleanup (1)
+
+## [1.5.2] — 2026-07-18
+
+### Fixed
+- DefInjected trailing whitespace trimmed across 45 translation entries.
+- No functional changes — translation file cleanup only.
+
 ## [1.5.1] — 2026-07-18
 
 ### Fixed (from RimWorld player.log analysis)

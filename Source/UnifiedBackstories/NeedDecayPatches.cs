@@ -40,9 +40,10 @@ namespace UnifiedBackstories
             return Mathf.Lerp(MinDecayFactor, 1f, (days - GraceDays) / (RampEndDays - GraceDays));
         }
 
-        // Restores part of whatever the need lost this interval. Rises are untouched,
-        // and the vanilla clamp toward CurInstantLevel is never violated because we
-        // only move the level back up toward its pre-interval value.
+        // Restores part of whatever the need lost this interval. Rises are untouched.
+        // MED-029 fix: clamp to CurInstantLevel to prevent the need from exceeding
+        // what the environment justifies (e.g. entering a beautiful room raises
+        // CurInstantLevel, then grace period restores CurLevel — must not exceed new target).
         public static void ScaleFall(Need need, float levelBefore, Pawn pawn)
         {
             float levelAfter = need.CurLevel;
@@ -55,7 +56,13 @@ namespace UnifiedBackstories
             {
                 return;
             }
-            need.CurLevel = levelBefore - (levelBefore - levelAfter) * factor;
+            float newLevel = levelBefore - (levelBefore - levelAfter) * factor;
+            // MED-029 fix: don't exceed CurInstantLevel when it's below levelBefore
+            if (need.CurInstantLevel < newLevel)
+            {
+                newLevel = Mathf.Max(levelAfter, need.CurInstantLevel);
+            }
+            need.CurLevel = newLevel;
         }
     }
 
@@ -73,20 +80,24 @@ namespace UnifiedBackstories
         }
     }
 
-    [HarmonyPatch(typeof(Need_Seeker), nameof(Need_Seeker.NeedInterval))]
-    public static class Need_Seeker_NeedInterval_Patch
+    /// <summary>
+    /// HIGH-015 fix: patch Need_Comfort.NeedInterval directly instead of
+    /// Need_Seeker.NeedInterval. The previous patch fired for Need_Mood,
+    /// Need_Beauty, and Need_RoomSize too (all inherit Need_Seeker) — adding
+    /// Harmony overhead to 3 need types that never used it. The fragile
+    /// `is Need_Comfort` runtime filter is no longer needed.
+    /// </summary>
+    [HarmonyPatch(typeof(Need_Comfort), nameof(Need_Comfort.NeedInterval))]
+    public static class Need_Comfort_NeedInterval_Patch
     {
-        public static void Prefix(Need_Seeker __instance, ref float __state)
+        public static void Prefix(Need_Comfort __instance, ref float __state)
         {
             __state = __instance.CurLevel;
         }
 
-        public static void Postfix(Need_Seeker __instance, float __state, Pawn ___pawn)
+        public static void Postfix(Need_Comfort __instance, float __state, Pawn ___pawn)
         {
-            if (__instance is Need_Comfort)
-            {
-                EarlyColonyNeeds.ScaleFall(__instance, __state, ___pawn);
-            }
+            EarlyColonyNeeds.ScaleFall(__instance, __state, ___pawn);
         }
     }
 }

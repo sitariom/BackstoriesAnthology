@@ -63,7 +63,7 @@
     <title>tender</title>
     <defName>UB_Seal_TribalKidTender</defName>
     <titleShort>tender</titleShort>
-	  <description>Learning from [PAWN_possessive] parents, [PAWN_nameDef] helped them heal injured warriors or sick people. [PAWN_pronoun] cleaned the wounds and sew them close again, or prepared various infusions.\n\nDeaths occured frequently, and each time, [PAWN_nameDef] couldn't chase the sad thoughts from [PAWN_possessive] mind.</description>
+	  <description>Learning from [PAWN_possessive] parents, [PAWN_nameDef] helped them heal injured warriors or sick people. [PAWN_pronoun] cleaned the wounds and sewn them closed again, or prepared various infusions.\n\nDeaths occurred frequently, and each time, [PAWN_nameDef] couldn't chase the sad thoughts from [PAWN_possessive] mind.</description>
     <spawnCategories>
       <li>Tribal</li>
     </spawnCategories>

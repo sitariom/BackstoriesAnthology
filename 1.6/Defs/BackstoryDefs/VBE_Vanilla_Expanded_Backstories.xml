@@ -2403,7 +2403,6 @@ To [PAWN_possessive] benefactors, [PAWN_pronoun] was an expensive investment.</b
     <workDisables>
       <li>ManualDumb</li>
       <li>Social</li>
-      <li>Commoner</li>
       <li>Artistic</li>
       <li>Crafting</li>
       <li>Cooking</li>

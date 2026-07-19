@@ -21,11 +21,23 @@ namespace UnifiedBackstories
 
         static UB_ModCompat()
         {
+            // MED-023 fix: detect more known romance-altering mods, not just LSRA.
             if (ModsConfig.IsActive("Mlie.LessStupidRomanceAttempt"))
             {
                 RomanceCooldownSuperseded = true;
                 RomanceCooldownSupersededBy = "Less Stupid Romance Attempt";
                 Log.Message("[UB] Less Stupid Romance Attempt detected - romance cooldown auto-disabled (LSRA already handles it).");
+            }
+            else if (ModsConfig.IsActive("VanillaRomance.Expanded") ||
+                     ModsConfig.IsActive("VanillaExpanded.VanillaRomanceExpanded") ||
+                     ModsConfig.IsActive("roolo psychology") ||
+                     ModsConfig.IsActive("Psychology.Unofficial") ||
+                     ModsConfig.IsActive("Rooboid.SamouraiRomance") ||
+                     ModsConfig.IsActive("Jaxe.RomanceDiversified"))
+            {
+                RomanceCooldownSuperseded = true;
+                RomanceCooldownSupersededBy = "another romance mod";
+                Log.Message("[UB] Romance-altering mod detected - romance cooldown auto-disabled to avoid stacking penalties.");
             }
         }
     }
@@ -64,6 +76,9 @@ namespace UnifiedBackstories
 
         // How many times the initiator has been rebuffed recently, in total and
         // toward this specific recipient.
+        // MED-024 fix: only count rebuffs from pawns still alive and on the same
+        // map. Previously, transient pawns (raiders who left/died) could trigger
+        // global romance discouragement for ~10 days.
         public static void CountRebuffs(Pawn initiator, Pawn recipient, out int total, out int towardRecipient)
         {
             total = 0;
@@ -73,13 +88,22 @@ namespace UnifiedBackstories
             {
                 return;
             }
+            Map initiatorMap = initiator.MapHeld;
             for (int i = 0; i < mems.Count; i++)
             {
                 Thought_Memory m = mems[i];
                 if (m.def == ThoughtDefOf.RebuffedMyRomanceAttempt)
                 {
+                    if (m is Thought_MemorySocial ms && ms.otherPawn != null)
+                    {
+                        // MED-024 fix: skip if otherPawn is dead, destroyed, or off-map
+                        if (ms.otherPawn.Dead || ms.otherPawn.Destroyed)
+                            continue;
+                        if (initiatorMap != null && ms.otherPawn.MapHeld != initiatorMap)
+                            continue;
+                    }
                     total++;
-                    if (m is Thought_MemorySocial ms && ms.otherPawn == recipient)
+                    if (m is Thought_MemorySocial ms2 && ms2.otherPawn == recipient)
                     {
                         towardRecipient++;
                     }
@@ -100,6 +124,12 @@ namespace UnifiedBackstories
         public static void Postfix(ref float __result, Pawn initiator, Pawn recipient)
         {
             if (__result <= 0f)
+            {
+                return;
+            }
+            // LOW-011 fix: only apply cooldown to player-faction pawns.
+            // Without this, NPC faction romance formation slows globally.
+            if (initiator?.Faction == null || !initiator.Faction.IsPlayer)
             {
                 return;
             }

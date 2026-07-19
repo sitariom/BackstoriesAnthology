@@ -56,29 +56,23 @@ SOURCE MODS AND AUTHORS
    PackageId: Shenanigans.TribalBackstories1.4
    55 backstories | Tribal-only | Shuffleable & non-shuffleable
 
-9. Vanilla Backstories Expanded (VBE)
-   Authors: Oskar Potocki, Legodude17
-   PackageId: VanillaExpanded.VanillaBackstoriesExpanded
-   174 backstories | All categories | ~~ Vanilla Expanded series
-   NOTE: Source includes only community backstories (no duplicated vanilla ones).
+9. Cybranian - Elderhood Backstory
+   Author: DimonSever000
+   PackageId: DimonSever000.ElderhoodBackstory
+   43 backstories | Elderhood-specific | Code mod (Harmony DLL included)
 
-10. Cybranian - Elderhood Backstory
-    Author: DimonSever000
-    PackageId: DimonSever000.ElderhoodBackstory
-    42 backstories | Elderhood-specific | Code mod (Harmony DLL included)
-
-11. Apocalyptic Backstories
+10. Apocalyptic Backstories
     Author: Lovely
     PackageId: Lovely.Apocalypse.stories
     25 backstories | Wasteland-themed | Adulthood only
 
-12. Saito's Backstories (Continued)
+11. Saito's Backstories (Continued)
     Author: Zaljerem (original by Saito Yui)
     PackageId: zal.saitobackstories
     12 backstories (curated selection — duplicates removed)
     License: MIT + CC-BY-SA 4.0
 
-13. Childhood Backstories
+12. Childhood Backstories
     Author: Zylle
     PackageId: Zylle.ChildhoodBackstories
     79 backstories | Childhood-only | Code mod (ZCB DLL included)
@@ -86,7 +80,7 @@ SOURCE MODS AND AUTHORS
     childhood activity tracking and backstory assignment system.
     Spawn category: ZCB, ZCB_NaturalMeditation, ZCB_Placeholder.
 
-14. Reasonable Moods & Capable Backstories (Integrated System)
+13. Reasonable Moods & Capable Backstories (Integrated System)
     Author: Legator
     PackageId: Legator.ReasonableMoodsCapableBackstories
     No new backstories — 8 backstory balancing patches applied directly.
@@ -115,8 +109,8 @@ NOTES
   to backstory definitions: workDisables removed where nonsensical, skill
   penalties added instead. The DLL provides mood balancing features.
 - ALL PATCHES USE UB_ PREFIXES — no conflicts with original mods.
-- TOTAL BACKSTORIES IN THIS MOD: 1,352
-- This mod is 100% standalone - none of the 13 original source mods
+- TOTAL BACKSTORIES IN THIS MOD: 1,353
+- This mod is 100% standalone - none of the 12 original source mods
   are required for it to function.
 - See individual mod pages on the Steam Workshop for more details
   about each collection.
