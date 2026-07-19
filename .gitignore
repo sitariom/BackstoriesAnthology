@@ -10,3 +10,6 @@ _ul
 
 # CodeGraph local index (regenerated per-project)
 .codegraph/
+
+# Obsidian vault config
+.obsidian/
