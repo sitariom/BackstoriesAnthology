@@ -512,6 +512,29 @@ namespace UnifiedBackstories
     }
 
     /// <summary>
+    /// Loads UI textures during the StaticConstructorOnStartup phase (main thread).
+    /// Extracting Texture2D fields here eliminates the "probably needs
+    /// StaticConstructorOnStartup attribute" warning on the Harmony patch class.
+    /// </summary>
+    [StaticConstructorOnStartup]
+    public static class UB_Textures
+    {
+        public static readonly Texture2D InfoIcon;
+        public static readonly Texture2D EditIcon;
+        public static readonly Texture2D ClearIcon;
+
+        static UB_Textures()
+        {
+            InfoIcon = ContentFinder<Texture2D>.Get("UI/InfoButton", false)
+                     ?? ContentFinder<Texture2D>.Get("UI/Icons/InfoButton", false);
+            EditIcon = ContentFinder<Texture2D>.Get("UI/Buttons/Edit", false)
+                     ?? ContentFinder<Texture2D>.Get("UI/Icons/Edit", false);
+            ClearIcon = ContentFinder<Texture2D>.Get("UI/Buttons/Delete", false)
+                      ?? ContentFinder<Texture2D>.Get("UI/Icons/Delete", false);
+        }
+    }
+
+    /// <summary>
     /// Character card UI: display elderhood info.
     /// Uses the original approach with a Postfix on DoLeftSection.
     /// </summary>
@@ -522,10 +545,6 @@ namespace UnifiedBackstories
         private static FieldInfo fiCurY;
         private static FieldInfo fiPawn;
         private static FieldInfo fiLeft;
-        private static Texture2D _infoIcon;
-        private static Texture2D _editIcon;
-        private static Texture2D _clearIcon;
-        private static bool _iconsLoaded;
 
         public static MethodBase TargetMethod()
         {
@@ -558,18 +577,6 @@ namespace UnifiedBackstories
                 return;
             if (comp == null) return;
 
-            // Lazy-load icons
-            if (!_iconsLoaded)
-            {
-                _iconsLoaded = true;
-                _infoIcon = ContentFinder<Texture2D>.Get("UI/InfoButton", false)
-                           ?? ContentFinder<Texture2D>.Get("UI/Icons/InfoButton", false);
-                _editIcon = ContentFinder<Texture2D>.Get("UI/Buttons/Edit", false)
-                           ?? ContentFinder<Texture2D>.Get("UI/Icons/Edit", false);
-                _clearIcon = ContentFinder<Texture2D>.Get("UI/Buttons/Delete", false)
-                            ?? ContentFinder<Texture2D>.Get("UI/Icons/Delete", false);
-            }
-
             float curY = (float)fiCurY.GetValue(__instance);
             float width = 196f;
             if (fiLeft?.GetValue(__instance) is Rect lr) width = lr.width;
@@ -586,7 +593,7 @@ namespace UnifiedBackstories
             if (hasElderhood)
             {
                 // Clear button
-                Texture2D clearTex = _clearIcon ?? _infoIcon;
+                Texture2D clearTex = UB_Textures.ClearIcon ?? UB_Textures.InfoIcon;
                 Rect clearRect = new Rect(btnX, curY + 2f, btnSize, btnSize);
                 if (Widgets.ButtonImage(clearRect, clearTex, Color.white, Color.grey * 1.5f))
                 {
@@ -605,7 +612,7 @@ namespace UnifiedBackstories
                 btnX -= btnSize + 2f;
 
                 // Edit (change) button
-                Texture2D editTex = _editIcon ?? _infoIcon;
+                Texture2D editTex = UB_Textures.EditIcon ?? UB_Textures.InfoIcon;
                 Rect editRect = new Rect(btnX, curY + 2f, btnSize, btnSize);
                 if (Widgets.ButtonImage(editRect, editTex))
                 {
@@ -617,7 +624,7 @@ namespace UnifiedBackstories
             {
                 // No elderhood yet — show "Add" button
                 Rect addRect = new Rect(btnX, curY + 2f, btnSize, btnSize);
-                Texture2D addTex = _editIcon ?? _infoIcon;
+                Texture2D addTex = UB_Textures.EditIcon ?? UB_Textures.InfoIcon;
                 if (Widgets.ButtonImage(addRect, addTex))
                 {
                     Find.WindowStack.Add(new Dialog_ChooseElderhood(pawn, comp));
@@ -651,10 +658,10 @@ namespace UnifiedBackstories
             Vector2 titleSize = Text.CalcSize(title);
             float titleW = Math.Min(titleSize.x, width - 28f);
             Widgets.Label(new Rect(0f, curY, titleW, 24f), title);
-            if (_infoIcon != null)
+            if (UB_Textures.InfoIcon != null)
             {
                 Rect infoRect = new Rect(titleW + 2f, curY, 22f, 22f);
-                if (Widgets.ButtonImage(infoRect, _infoIcon))
+                if (Widgets.ButtonImage(infoRect, UB_Textures.InfoIcon))
                     Find.WindowStack.Add(new Dialog_InfoCard(elderhood));
                 TooltipHandler.TipRegion(infoRect, () => ElderhoodHelper.TitleCapFor(elderhood, pawn), 63321);
             }
@@ -918,7 +925,7 @@ namespace UnifiedBackstories
             string ver = System.IO.File.GetLastWriteTime(
                 System.Reflection.Assembly.GetExecutingAssembly().Location)
                 .ToString("yyyy-MM-dd HH:mm");
-            Log.Message("[UB] v1.6.1 loaded (build " + ver
+            Log.Message("[UB] v1.6.3 loaded (build " + ver
                 + ") — Elderhood + Gender tokens + Age 60+ + UI edit"
                 + " + Mood rebalance + Need grace period + ZCB validator"
                 + " + HardshipBonding + BackstoryPairing + TraitAlignment");
