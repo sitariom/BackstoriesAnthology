@@ -243,6 +243,104 @@ namespace UnifiedBackstories
         }
 
         /// <summary>
+        /// Removes all effects of an elderhood backstory from a pawn.
+        /// Used when changing or clearing elderhood.
+        /// </summary>
+        private static void RemoveElderhoodEffects(Pawn pawn, BackstoryDef oldElderhood)
+        {
+            if (oldElderhood == null) return;
+
+            // Remove skill bonuses (subtract from current level)
+            if (oldElderhood.skillGains != null && pawn.skills != null)
+            {
+                for (int i = 0; i < oldElderhood.skillGains.Count; i++)
+                {
+                    SkillGain sg = oldElderhood.skillGains[i];
+                    if (sg.skill == null) continue;
+                    SkillRecord skill = pawn.skills.GetSkill(sg.skill);
+                    if (skill != null)
+                    {
+                        skill.Level = Mathf.Clamp(skill.Level - sg.amount, 0, 20);
+                    }
+                }
+            }
+
+            // Remove forced traits (only if pawn has them with matching degree)
+            if (oldElderhood.forcedTraits != null && pawn.story?.traits != null)
+            {
+                for (int i = 0; i < oldElderhood.forcedTraits.Count; i++)
+                {
+                    BackstoryTrait te = oldElderhood.forcedTraits[i];
+                    if (te?.def == null) continue;
+                    if (pawn.story.traits.HasTrait(te.def, te.degree))
+                    {
+                        Trait t = pawn.story.traits.GetTrait(te.def, te.degree);
+                        if (t != null)
+                            pawn.story.traits.RemoveTrait(t);
+                    }
+                }
+            }
+        }
+
+        /// <summary>
+        /// Changes a pawn's elderhood from one backstory to another (or to null).
+        /// Properly removes old effects (skills, traits) and applies new ones.
+        /// Called from the UI Change button, Clear button, and age regression.
+        /// 
+        /// BUG FIX: Previously, SetElderhood() was a simple field assignment that
+        /// did NOT remove old skill bonuses or forced traits, and did NOT apply
+        /// new ones. Changing elderhood from A to B left A's skills/traits in place
+        /// and never added B's skills/traits.
+        /// </summary>
+        public static void ChangeElderhood(Pawn pawn, CompElderhoodBackstory comp, BackstoryDef newElderhood)
+        {
+            BackstoryDef oldElderhood = comp.ElderhoodBS;
+
+            // Step 1: Remove old elderhood effects
+            if (oldElderhood != null)
+            {
+                RemoveElderhoodEffects(pawn, oldElderhood);
+            }
+
+            // Step 2: Set the new elderhood
+            comp.SetElderhood(newElderhood);
+
+            // Step 3: Apply new elderhood effects
+            if (newElderhood != null)
+            {
+                // Apply forced traits
+                if (newElderhood.forcedTraits != null && pawn.story?.traits != null)
+                {
+                    for (int i = 0; i < newElderhood.forcedTraits.Count; i++)
+                    {
+                        BackstoryTrait te = newElderhood.forcedTraits[i];
+                        if (te?.def == null) continue;
+                        if (pawn.story.traits.HasTrait(te.def)) continue;
+                        pawn.story.traits.GainTrait(new Trait(te.def, te.degree, false));
+                    }
+                }
+
+                // Apply skill bonuses
+                if (newElderhood.skillGains != null && pawn.skills != null)
+                {
+                    for (int i = 0; i < newElderhood.skillGains.Count; i++)
+                    {
+                        SkillGain sg = newElderhood.skillGains[i];
+                        if (sg.skill == null) continue;
+                        SkillRecord skill = pawn.skills.GetSkill(sg.skill);
+                        if (skill != null)
+                        {
+                            skill.Level = Mathf.Clamp(skill.Level + sg.amount, 0, 20);
+                        }
+                    }
+                }
+            }
+
+            // Step 4: Notify skill system
+            pawn.skills?.Notify_SkillDisablesChanged();
+        }
+
+        /// <summary>
         /// Applies ALL elderhood effects to a pawn: forced traits, skill bonuses,
         /// and body type. Called when elderhood is newly assigned (birthday path,
         /// save-load path). The GeneratePawn path uses ApplyElderhoodEffects in
@@ -437,8 +535,9 @@ namespace UnifiedBackstories
             int ageYears = Mathf.FloorToInt(value / 3600000f);
             if (ageYears < comp.ElderhoodAge)
             {
-                comp.SetElderhood(null);
-                pawn.skills?.Notify_SkillDisablesChanged();
+                // BUG FIX: Use ChangeElderhood to properly remove skill bonuses
+                // and forced traits from the old elderhood before clearing.
+                ElderhoodHelper.ChangeElderhood(pawn, comp, null);
             }
         }
     }
@@ -635,8 +734,7 @@ namespace UnifiedBackstories
                     {
                         new FloatMenuOption("UB.ClearElderhood".Translate(), delegate
                         {
-                            comp.SetElderhood(null);
-                            pawn.skills?.Notify_SkillDisablesChanged();
+                            ElderhoodHelper.ChangeElderhood(pawn, comp, null);
                         }),
                         new FloatMenuOption("UB.Cancel".Translate(), null),
                     };
@@ -791,8 +889,7 @@ namespace UnifiedBackstories
 
                 if (Widgets.ButtonInvisible(row))
                 {
-                    comp.SetElderhood(bs);
-                    pawn.skills?.Notify_SkillDisablesChanged();
+                    ElderhoodHelper.ChangeElderhood(pawn, comp, bs);
                     Find.WindowStack.TryRemove(this);
                 }
 
@@ -953,7 +1050,7 @@ namespace UnifiedBackstories
             string ver = System.IO.File.GetLastWriteTime(
                 System.Reflection.Assembly.GetExecutingAssembly().Location)
                 .ToString("yyyy-MM-dd HH:mm");
-            Log.Message("[UB] v1.6.6 loaded (build " + ver
+            Log.Message("[UB] v1.6.7 loaded (build " + ver
                 + ") — Elderhood + Gender tokens + Age 60+ + UI edit"
                 + " + Mood rebalance + Need grace period + ZCB validator"
                 + " + HardshipBonding + BackstoryPairing + TraitAlignment");
