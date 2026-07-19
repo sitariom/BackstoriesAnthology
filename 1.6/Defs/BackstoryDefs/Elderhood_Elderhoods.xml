@@ -6,7 +6,7 @@
 		<titleFemale>Colony old woman</titleFemale>
 		<titleShort>Old man</titleShort>
 		<titleShortFemale>Old woman</titleShortFemale>
-		<baseDesc>[PAWN_nameDef] lived a difficult, but interesting and happy life in colony.</baseDesc>
+		<baseDesc>[PAWN_nameDef] lived a difficult but interesting and happy life in the colony.</baseDesc>
 		<slot>Adulthood</slot>
 		<spawnCategories Inherit="false">
 
@@ -96,7 +96,7 @@
 		<titleFemale>Tired philosopher</titleFemale>
 		<titleShort>Philosopher</titleShort>
 		<titleShortFemale>Philosopher</titleShortFemale>
-		<baseDesc>[PAWN_nameDef] has gone a long way from a young dreamer to old {PAWN_gender ? man : woman}, which still asks questions about the meaning of life, but every year the search became more and more silent. {PAWN_gender ? His : Her} texts have become rare, and views on the world have changed, but {PAWN_gender ? he : she } still believes in the importance of thinking that can change a person. Old age has not diminished {PAWN_gender ? his : her} craving for the search for truth, but took away the strength for a long debate.</baseDesc>
+		<baseDesc>[PAWN_nameDef] has gone a long way from a young dreamer to old {PAWN_gender ? man : woman}, which still asks questions about the meaning of life, but every year the search became more and more silent. {PAWN_gender ? His : Her} texts have become rare, and views on the world have changed, but {PAWN_gender ? he : she} still believes in the importance of thinking that can change a person. Old age has not diminished {PAWN_gender ? his : her} craving for the search for truth, but took away the strength for a long debate.</baseDesc>
 		<slot>Adulthood</slot>
 		<spawnCategories>
 
@@ -147,7 +147,7 @@
 		<titleFemale>Old mechanic</titleFemale>
 		<titleShort>Mechanic</titleShort>
 		<titleShortFemale>Mechanic</titleShortFemale>
-		<baseDesc>[PAWN_nameDef] has spent {PAWN_gender ? his : her} entire life taking apart and putting together machines, from the simplest to the most complex on this planet. {PAWN_gender ? His : Her} hands now shake like the parts of a broken machine, and sometimes {PAWN_gender ? he : she} can't build something with the same precision as before. But {PAWN_gender ? his : her} mind is still full of knowledge about how machines work. {PAWN_gender ? His : Her} memory sometimes fails, but the old mechanic can still fix almost anything puts {PAWN_gender ? his : her} hands on.</baseDesc>
+		<baseDesc>[PAWN_nameDef] has spent {PAWN_gender ? his : her} entire life taking apart and putting together machines, from the simplest to the most complex on this planet. {PAWN_gender ? His : Her} hands now shake like the parts of a broken machine, and sometimes {PAWN_gender ? he : she} can't build something with the same precision as before. But {PAWN_gender ? his : her} mind is still full of knowledge about how machines work. {PAWN_gender ? His : Her} memory sometimes fails, but the old mechanic can still fix almost anything {PAWN_gender ? he : she} puts {PAWN_gender ? his : her} hands on.</baseDesc>
 		<slot>Adulthood</slot>
 		<spawnCategories>
 
@@ -263,7 +263,7 @@
 		<titleFemale>Avid hunter</titleFemale>
 		<titleShort>Hunter</titleShort>
 		<titleShortFemale>Hunter</titleShortFemale>
-		<baseDesc>[PAWN_nameDef] has spent much time in the forests and mountains, following prey and learning to survive in the most difficult conditions. {PAWN_gender ? His : Her} strength is not what it used to be, and he can no longer catch animals with the same agility as in {PAWN_gender ? his : her} youth. But {PAWN_gender ? his : her} memory is still clear, and {PAWN_gender ? he : she} passes on {PAWN_gender ? his : her} knowledge to others, though not without regret that the years have passed, and with them {PAWN_gender ? his : her} former skills.</baseDesc>
+		<baseDesc>[PAWN_nameDef] has spent much time in the forests and mountains, following prey and learning to survive in the most difficult conditions. {PAWN_gender ? His : Her} strength is not what it used to be, and {PAWN_gender ? he : she} can no longer catch animals with the same agility as in {PAWN_gender ? his : her} youth. But {PAWN_gender ? his : her} memory is still clear, and {PAWN_gender ? he : she} passes on {PAWN_gender ? his : her} knowledge to others, though not without regret that the years have passed, and with them {PAWN_gender ? his : her} former skills.</baseDesc>
 		<slot>Adulthood</slot>
 		<spawnCategories>
 
@@ -287,7 +287,7 @@
 		<titleFemale>Old blacksmith</titleFemale>
 		<titleShort>Blacksmith</titleShort>
 		<titleShortFemale>Blacksmith</titleShortFemale>
-		<baseDesc>[PAWN_nameDef] has forged tons of metal, creating weapons, tools, and jewelry. {PAWN_gender ? His : Her} hammer, while not as powerful as it once was, can still move heavy machinery, but old age has slowed it down. He often sits at {PAWN_gender ? his : her} forge, reflecting on how many times {PAWN_gender ? his : her} hands have created something that changed the course of history. Now, {PAWN_gender ? he : she} is proud that {PAWN_gender ? his : her} forge still functions, but also knows that {PAWN_gender ? his : her} time is coming to an end.</baseDesc>
+		<baseDesc>[PAWN_nameDef] has forged tons of metal, creating weapons, tools, and jewelry. {PAWN_gender ? His : Her} hammer, while not as powerful as it once was, can still move heavy machinery, but old age has slowed {PAWN_gender ? him : her} down. {PAWN_gender ? He : She} often sits at {PAWN_gender ? his : her} forge, reflecting on how many times {PAWN_gender ? his : her} hands have created something that changed the course of history. Now, {PAWN_gender ? he : she} is proud that {PAWN_gender ? his : her} forge still functions, but also knows that {PAWN_gender ? his : her} time is coming to an end.</baseDesc>
 		<slot>Adulthood</slot>
 		<spawnCategories>
 
@@ -311,7 +311,7 @@
 		<titleFemale>Homeless</titleFemale>
 		<titleShort>Homeless</titleShort>
 		<titleShortFemale>Homeless</titleShortFemale>
-		<baseDesc>[PAWN_nameDef] lived a long and unusual life. The cruel irony is that in {PAWN_gender ? his : her} old age {PAWN_gender ? he : she} found {PAWN_gender ? himself : herself} on the street. With no one to care for the elderly man, all {PAWN_gender ? he : she} can do is try to survive and enjoy the little things {PAWN_gender ? he : she} has left.</baseDesc>
+		<baseDesc>[PAWN_nameDef] lived a long and unusual life. The cruel irony is that in {PAWN_gender ? his : her} old age {PAWN_gender ? he : she} found {PAWN_gender ? himself : herself} on the street. With no one to care for the elderly {PAWN_gender ? man : woman}, all {PAWN_gender ? he : she} can do is try to survive and enjoy the little things {PAWN_gender ? he : she} has left.</baseDesc>
 		<slot>Adulthood</slot>
 		<spawnCategories>
 
@@ -453,7 +453,7 @@
 		<titleFemale>Unnecessary researcher</titleFemale>
 		<titleShort>Researcher</titleShort>
 		<titleShortFemale>Researcher</titleShortFemale>
-		<baseDesc>[PAWN_nameDef] became fascinated with archaeology, unraveling the ancient mysteries of the fringe world. Now, in {PAWN_gender ? him : her} old age, {PAWN_gender ? him : her} knees can no longer withstand long hikes, and {PAWN_gender ? him : her} eyes no longer see the details as they once did. But the fire of curiosity still burns in {PAWN_gender ? him : her} heart, and {PAWN_gender ? he : she} often rereads old records, hoping that one day {PAWN_gender ? he : she} will find something that will change history.</baseDesc>
+		<baseDesc>[PAWN_nameDef] became fascinated with archaeology, unraveling the ancient mysteries of the fringe world. Now, in {PAWN_gender ? his : her} old age, {PAWN_gender ? his : her} knees can no longer withstand long hikes, and {PAWN_gender ? his : her} eyes no longer see the details as they once did. But the fire of curiosity still burns in {PAWN_gender ? his : her} heart, and {PAWN_gender ? he : she} often rereads old records, hoping that one day {PAWN_gender ? he : she} will find something that will change history.</baseDesc>
 		<slot>Adulthood</slot>
 		<spawnCategories>
 
@@ -745,7 +745,7 @@
 		<titleFemale>Museum curator</titleFemale>
 		<titleShort>Curator</titleShort>
 		<titleShortFemale>Curator</titleShortFemale>
-		<baseDesc>[PAWN_nameDef] has dedicated {PAWN_gender ? his : her} life to preserving the past. In {PAWN_gender ? his : her} old age, {PAWN_gender ? he : she} knows the sound of the silence of abandoned halls, and can tell the story of any object ÔÇö even if no one is listening.</baseDesc>
+		<baseDesc>[PAWN_nameDef] has dedicated {PAWN_gender ? his : her} life to preserving the past. In {PAWN_gender ? his : her} old age, {PAWN_gender ? he : she} knows the sound of the silence of abandoned halls, and can tell the story of any object â€” even if no one is listening.</baseDesc>
 		<slot>Adulthood</slot>
 		<spawnCategories>
 
@@ -793,7 +793,7 @@
 		<titleFemale>Librarian</titleFemale>
 		<titleShort>Librarian</titleShort>
 		<titleShortFemale>Librarian</titleShortFemale>
-		<baseDesc>[PAWN_nameDef] lived among books for so long that learned to distinguish editions and authors by smell. Over the years, {PAWN_gender ? his : her} eyesight has failed, but {PAWN_gender ? his : her} memory still holds thousands of stories.</baseDesc>
+		<baseDesc>[PAWN_nameDef] lived among books for so long that {PAWN_gender ? he : she} learned to distinguish editions and authors by smell. Over the years, {PAWN_gender ? his : her} eyesight has failed, but {PAWN_gender ? his : her} memory still holds thousands of stories.</baseDesc>
 		<slot>Adulthood</slot>
 		<spawnCategories>
 
@@ -863,7 +863,7 @@
 		<titleFemale>Forgotten artist</titleFemale>
 		<titleShort>Artist</titleShort>
 		<titleShortFemale>Artist</titleShortFemale>
-		<baseDesc>[PAWN_nameDef] drew dreams - and turned them into reality. With age came weakness, but in the head of {PAWN_gender ? his : her} a world still blooms, inaccessible to others.</baseDesc>
+		<baseDesc>[PAWN_nameDef] drew dreams - and turned them into reality. With age came weakness, but in {PAWN_gender ? his : her} head a world still blooms, inaccessible to others.</baseDesc>
 		<slot>Adulthood</slot>
 		<spawnCategories>
 
@@ -960,9 +960,9 @@
 	<BackstoryDef ParentName="ElderhoodBackstory">
 		<defName>UB_Elderhood_Anchorman</defName>
 		<title>Anchorman</title>
-		<titleFemale>Anchorman</titleFemale>
+		<titleFemale>Anchorwoman</titleFemale>
 		<titleShort>Anchorman</titleShort>
-		<titleShortFemale>Anchorman</titleShortFemale>
+		<titleShortFemale>Anchorwoman</titleShortFemale>
 		<baseDesc>[PAWN_nameDef] has been broadcasting on one of the TV channels of {PAWN_gender ? his : her} outlying world for many years. It seems that {PAWN_gender ? his : her} face is known to every inhabitant of the planet, but {PAWN_gender ? he : she} understands that sooner or later {PAWN_gender ? he : she} will have to leave.</baseDesc>
 		<slot>Adulthood</slot>
 		<spawnCategories>
@@ -987,10 +987,10 @@
 		<!-- Only for CreepJoiners -->
 		<defName>UB_Elderhood_Unknown</defName>
 		<slot>Adulthood</slot>
-		<title>unknown</title>
-		<titleFemale>unknown</titleFemale>
-		<titleShort>unknown</titleShort>
-		<titleShortFemale>unknown</titleShortFemale>
+		<title>Unknown</title>
+		<titleFemale>Unknown</titleFemale>
+		<titleShort>Unknown</titleShort>
+		<titleShortFemale>Unknown</titleShortFemale>
 		<baseDesc>[PAWN_nameDef]'s origins are unknown.</baseDesc>
 		<spawnCategories Inherit="false">
 			<li>SpecialElderhood</li>

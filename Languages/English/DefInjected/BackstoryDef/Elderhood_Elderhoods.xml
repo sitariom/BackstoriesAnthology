@@ -4,7 +4,7 @@
   <UB_Elderhood_PlayerColonist.titleFemale>Colony old woman</UB_Elderhood_PlayerColonist.titleFemale>
   <UB_Elderhood_PlayerColonist.titleShort>Old man</UB_Elderhood_PlayerColonist.titleShort>
   <UB_Elderhood_PlayerColonist.titleShortFemale>Old woman</UB_Elderhood_PlayerColonist.titleShortFemale>
-  <UB_Elderhood_PlayerColonist.description>[PAWN_nameDef] lived a difficult, but interesting and happy life in colony.</UB_Elderhood_PlayerColonist.description>
+  <UB_Elderhood_PlayerColonist.description>[PAWN_nameDef] lived a difficult but interesting and happy life in the colony.</UB_Elderhood_PlayerColonist.description>
   <UB_Elderhood_PlayerPrisoner.title>Prisoner old man</UB_Elderhood_PlayerPrisoner.title>
   <UB_Elderhood_PlayerPrisoner.titleFemale>Prisoner old woman</UB_Elderhood_PlayerPrisoner.titleFemale>
   <UB_Elderhood_PlayerPrisoner.titleShort>Old man</UB_Elderhood_PlayerPrisoner.titleShort>
@@ -59,7 +59,7 @@
   <UB_Elderhood_BoringProfessor.titleFemale>Boring professor</UB_Elderhood_BoringProfessor.titleFemale>
   <UB_Elderhood_BoringProfessor.titleShort>Professor</UB_Elderhood_BoringProfessor.titleShort>
   <UB_Elderhood_BoringProfessor.titleShortFemale>Professor</UB_Elderhood_BoringProfessor.titleShortFemale>
-  <UB_Elderhood_BoringProfessor.description>[PAWN_nameDef] has been a lifelong scholar, moving into teaching students in recent years. {PAWN_gender ? He : She} is truly passionate about {PAWN_gender ? his : her} work, but sees that {PAWN_gender ? his : her} former mental strength is fading. Students often disdain the older professor, causing {PAWN_gender ? his : her} to lose their temper.</UB_Elderhood_BoringProfessor.description>
+  <UB_Elderhood_BoringProfessor.description>[PAWN_nameDef] has been a lifelong scholar, moving into teaching students in recent years. {PAWN_gender ? He : She} is truly passionate about {PAWN_gender ? his : her} work, but sees that {PAWN_gender ? his : her} former mental strength is fading. Students often disdain the older professor, causing {PAWN_gender ? him : her} to lose {PAWN_gender ? his : her} temper.</UB_Elderhood_BoringProfessor.description>
   <UB_Elderhood_AvidHunter.title>Avid hunter</UB_Elderhood_AvidHunter.title>
   <UB_Elderhood_AvidHunter.titleFemale>Avid huntress</UB_Elderhood_AvidHunter.titleFemale>
   <UB_Elderhood_AvidHunter.titleShort>Hunter</UB_Elderhood_AvidHunter.titleShort>
@@ -69,7 +69,7 @@
   <UB_Elderhood_OldBlacksmith.titleFemale>Old blacksmith</UB_Elderhood_OldBlacksmith.titleFemale>
   <UB_Elderhood_OldBlacksmith.titleShort>Blacksmith</UB_Elderhood_OldBlacksmith.titleShort>
   <UB_Elderhood_OldBlacksmith.titleShortFemale>Blacksmith</UB_Elderhood_OldBlacksmith.titleShortFemale>
-   <UB_Elderhood_OldBlacksmith.description>[PAWN_nameDef] has forged tons of metal, creating weapons, tools, and jewelry. {PAWN_gender ? His : Her} hammer, while not as powerful as it once was, can still move heavy machinery, but old age has slowed it down. {PAWN_gender ? He : She} often sits at {PAWN_gender ? his : her} forge, reflecting on how many times {PAWN_gender ? his : her} hands have created something that changed the course of history. Now, {PAWN_gender ? he : she} is proud that {PAWN_gender ? his : her} forge still functions, but also knows that {PAWN_gender ? his : her} time is coming to an end.</UB_Elderhood_OldBlacksmith.description>
+   <UB_Elderhood_OldBlacksmith.description>[PAWN_nameDef] has forged tons of metal, creating weapons, tools, and jewelry. {PAWN_gender ? His : Her} hammer, while not as powerful as it once was, can still move heavy machinery, but old age has slowed {PAWN_gender ? him : her} down. {PAWN_gender ? He : She} often sits at {PAWN_gender ? his : her} forge, reflecting on how many times {PAWN_gender ? his : her} hands have created something that changed the course of history. Now, {PAWN_gender ? he : she} is proud that {PAWN_gender ? his : her} forge still functions, but also knows that {PAWN_gender ? his : her} time is coming to an end.</UB_Elderhood_OldBlacksmith.description>
   <UB_Elderhood_Homeless.title>Homeless</UB_Elderhood_Homeless.title>
   <UB_Elderhood_Homeless.titleFemale>Homeless</UB_Elderhood_Homeless.titleFemale>
   <UB_Elderhood_Homeless.titleShort>Homeless</UB_Elderhood_Homeless.titleShort>
@@ -104,7 +104,7 @@
   <UB_Elderhood_UnnecessaryResearcher.titleFemale>Unnecessary researcher</UB_Elderhood_UnnecessaryResearcher.titleFemale>
   <UB_Elderhood_UnnecessaryResearcher.titleShort>Researcher</UB_Elderhood_UnnecessaryResearcher.titleShort>
   <UB_Elderhood_UnnecessaryResearcher.titleShortFemale>Researcher</UB_Elderhood_UnnecessaryResearcher.titleShortFemale>
-  <UB_Elderhood_UnnecessaryResearcher.description>[PAWN_nameDef] became fascinated with archaeology, unraveling the ancient mysteries of the fringe world. Now, in {PAWN_gender ? his : her} old age, {PAWN_gender ? him : her} knees can no longer withstand long hikes, and {PAWN_gender ? him : her} eyes no longer see the details as they once did. But the fire of curiosity still burns in {PAWN_gender ? him : her} heart, and {PAWN_gender ? he : she} often rereads old records, hoping that one day {PAWN_gender ? he : she} will find something that will change history.</UB_Elderhood_UnnecessaryResearcher.description>
+  <UB_Elderhood_UnnecessaryResearcher.description>[PAWN_nameDef] became fascinated with archaeology, unraveling the ancient mysteries of the fringe world. Now, in {PAWN_gender ? his : her} old age, {PAWN_gender ? his : her} knees can no longer withstand long hikes, and {PAWN_gender ? his : her} eyes no longer see the details as they once did. But the fire of curiosity still burns in {PAWN_gender ? his : her} heart, and {PAWN_gender ? he : she} often rereads old records, hoping that one day {PAWN_gender ? he : she} will find something that will change history.</UB_Elderhood_UnnecessaryResearcher.description>
   <UB_Elderhood_OldAlchemist.title>Old alchemist</UB_Elderhood_OldAlchemist.title>
   <UB_Elderhood_OldAlchemist.titleFemale>Old alchemist</UB_Elderhood_OldAlchemist.titleFemale>
   <UB_Elderhood_OldAlchemist.titleShort>Alchemist</UB_Elderhood_OldAlchemist.titleShort>
@@ -174,7 +174,7 @@
   <UB_Elderhood_Librarian.titleFemale>Librarian</UB_Elderhood_Librarian.titleFemale>
   <UB_Elderhood_Librarian.titleShort>Librarian</UB_Elderhood_Librarian.titleShort>
   <UB_Elderhood_Librarian.titleShortFemale>Librarian</UB_Elderhood_Librarian.titleShortFemale>
-  <UB_Elderhood_Librarian.description>[PAWN_nameDef] lived among books for so long that learned to distinguish editions and authors by smell. Over the years, {PAWN_gender ? his : her} eyesight has failed, but {PAWN_gender ? his : her} memory still holds thousands of stories.</UB_Elderhood_Librarian.description>
+  <UB_Elderhood_Librarian.description>[PAWN_nameDef] lived among books for so long that {PAWN_gender ? he : she} learned to distinguish editions and authors by smell. Over the years, {PAWN_gender ? his : her} eyesight has failed, but {PAWN_gender ? his : her} memory still holds thousands of stories.</UB_Elderhood_Librarian.description>
   <UB_Elderhood_FormerDancer.title>Former dancer</UB_Elderhood_FormerDancer.title>
   <UB_Elderhood_FormerDancer.titleFemale>Former dancer</UB_Elderhood_FormerDancer.titleFemale>
   <UB_Elderhood_FormerDancer.titleShort>Dancer</UB_Elderhood_FormerDancer.titleShort>
@@ -189,7 +189,7 @@
   <UB_Elderhood_ForgottenArtist.titleFemale>Forgotten artist</UB_Elderhood_ForgottenArtist.titleFemale>
   <UB_Elderhood_ForgottenArtist.titleShort>Artist</UB_Elderhood_ForgottenArtist.titleShort>
   <UB_Elderhood_ForgottenArtist.titleShortFemale>Artist</UB_Elderhood_ForgottenArtist.titleShortFemale>
-  <UB_Elderhood_ForgottenArtist.description>[PAWN_nameDef] drew dreams - and turned them into reality. With age came weakness, but in the head of {PAWN_gender ? his : her} a world still blooms, inaccessible to others.</UB_Elderhood_ForgottenArtist.description>
+  <UB_Elderhood_ForgottenArtist.description>[PAWN_nameDef] drew dreams - and turned them into reality. With age came weakness, but in {PAWN_gender ? his : her} head a world still blooms, inaccessible to others.</UB_Elderhood_ForgottenArtist.description>
   <UB_Elderhood_RepentantKiller.title>Repentant killer</UB_Elderhood_RepentantKiller.title>
   <UB_Elderhood_RepentantKiller.titleFemale>Repentant killer</UB_Elderhood_RepentantKiller.titleFemale>
   <UB_Elderhood_RepentantKiller.titleShort>Killer</UB_Elderhood_RepentantKiller.titleShort>

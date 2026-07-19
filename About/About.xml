@@ -37,7 +37,7 @@ COMPATIBILITY:
 - Loads after all vanilla content and Harmony
 
 See CREDITS.txt for full attributions and licensing details.</description>
-	<modVersion>1.6.0</modVersion>
+	<modVersion>1.8.0</modVersion>
 	<supportedVersions>
 		<li>1.6</li>
 	</supportedVersions>

@@ -222,6 +222,10 @@ namespace UnifiedBackstories
             if (pawn.ageTracker == null) return;
 
             CompElderhoodBackstory comp = GetOrCreateElderhoodComp(pawn);
+            // HIGH-001 fix: GetOrCreateElderhoodComp returns null when reflection fails
+            // (androids, xenotypes, or any pawn whose comps field can't be accessed).
+            // Null-check must come before accessing HasElderhood or ElderhoodAge.
+            if (comp == null) return;
             if (comp.HasElderhood) return;
 
             // Only assign elderhood to pawns aged 60+
@@ -825,9 +829,11 @@ namespace UnifiedBackstories
         }
 
         /// <summary>
-        /// Core drawing method. Draws elderhood section at the given Y position.
-        /// When called from Transpiler, startY is the currentY from DoLeftSection.
-        /// When called from Postfix fallback, startY is calculated from rect bottom.
+        /// Core drawing method — matches base game DrawBackstorySection layout EXACTLY.
+        /// Order: header → title + buttons (info/edit/clear) → titleShort → description → skill gains.
+        /// Spacing, fonts, and indentation mirror RimWorld 1.6's CharacterCardUtility.DrawBackstorySection.
+        /// Edit/Clear buttons are inline with the title (not in header area) so the section
+        /// looks identical to childhood/adulthood sections at first glance.
         /// </summary>
         private static void DrawElderhoodSection(ref float curY, Rect leftRect, Pawn pawn, Rect rectForFallback)
         {
@@ -845,81 +851,61 @@ namespace UnifiedBackstories
             if (!hasElderhood && (pawn.ageTracker == null || pawn.ageTracker.AgeBiologicalYears < elderAgeThreshold))
                 return;
 
-            // Lazy-load icons
+            // Lazy-load icons — log a warning when all fallback paths fail
             if (!_iconsLoaded)
             {
                 _iconsLoaded = true;
-                _infoIcon = ContentFinder<Texture2D>.Get("UI/InfoButton", false)
-                          ?? ContentFinder<Texture2D>.Get("UI/Icons/InfoButton", false);
+                _infoIcon = ContentFinder<Texture2D>.Get("UI/Buttons/InfoButton", false)
+                          ?? ContentFinder<Texture2D>.Get("UI/InfoButton", false);
+                if (_infoIcon == null)
+                    Log.Warning("[UB] Could not load InfoButton texture — info icon will be invisible");
+
+                // RimWorld 1.6 has no standard Edit/Delete textures, so we reuse InfoButton
+                // as fallback (visible but functionally distinct via tooltip).
                 _editIcon = ContentFinder<Texture2D>.Get("UI/Buttons/Edit", false)
                           ?? ContentFinder<Texture2D>.Get("UI/Icons/Edit", false);
                 _clearIcon = ContentFinder<Texture2D>.Get("UI/Buttons/Delete", false)
                            ?? ContentFinder<Texture2D>.Get("UI/Icons/Delete", false);
+
+                // If no custom edit/clear textures exist, create simple colored buttons
+                // using a 1x1 pixel texture with color tinting.
+                if (_editIcon == null || _clearIcon == null)
+                {
+                    // Create a simple white pixel texture for tinted buttons
+                    Texture2D whiteTex = new Texture2D(1, 1);
+                    whiteTex.SetPixel(0, 0, Color.white);
+                    whiteTex.Apply();
+                    if (_editIcon == null) _editIcon = whiteTex;
+                    if (_clearIcon == null) _clearIcon = whiteTex;
+                }
             }
 
             float width = leftRect.width;
             float x = 0f; // Inside GUI group, x starts at 0
 
-            // === Category label ===
+            // === Category label (matches base game exactly: Medium font, 28f height) ===
             Text.Font = GameFont.Medium;
-            Widgets.Label(new Rect(x, curY, width, 30f), "UB.ElderhoodHeader".Translate());
-
-            // === Edit / Clear buttons (top-right of header) ===
-            Text.Font = GameFont.Tiny;
-            float btnSize = 22f;
-            float btnX = x + width - btnSize;
-
-            if (hasElderhood)
-            {
-                // Clear button
-                Texture2D clearTex = _clearIcon ?? _infoIcon;
-                Rect clearRect = new Rect(btnX, curY + 2f, btnSize, btnSize);
-                if (Widgets.ButtonImage(clearRect, clearTex, Color.white, Color.grey * 1.5f))
-                {
-                    List<FloatMenuOption> options = new List<FloatMenuOption>
-                    {
-                        new FloatMenuOption("UB.ClearElderhood".Translate(), delegate
-                        {
-                            ElderhoodHelper.ChangeElderhood(pawn, comp, null);
-                        }),
-                        new FloatMenuOption("UB.Cancel".Translate(), null),
-                    };
-                    Find.WindowStack.Add(new FloatMenu(options));
-                }
-                TooltipHandler.TipRegion(clearRect, "UB.ClearElderhood.Tip".Translate());
-                btnX -= btnSize + 2f;
-
-                // Edit (change) button
-                Texture2D editTex = _editIcon ?? _infoIcon;
-                Rect editRect = new Rect(btnX, curY + 2f, btnSize, btnSize);
-                if (Widgets.ButtonImage(editRect, editTex))
-                {
-                    Find.WindowStack.Add(new Dialog_ChooseElderhood(pawn, comp));
-                }
-                TooltipHandler.TipRegion(editRect, "UB.ChangeElderhood.Tip".Translate());
-            }
-            else
-            {
-                // No elderhood yet — show "Add" button
-                Rect addRect = new Rect(btnX, curY + 2f, btnSize, btnSize);
-                Texture2D addTex = _editIcon ?? _infoIcon;
-                if (Widgets.ButtonImage(addRect, addTex))
-                {
-                    Find.WindowStack.Add(new Dialog_ChooseElderhood(pawn, comp));
-                }
-                TooltipHandler.TipRegion(addRect, "UB.AddElderhood.Tip".Translate());
-            }
-
+            Widgets.Label(new Rect(x, curY, width, 28f), "UB.ElderhoodHeader".Translate());
             curY += 28f;
 
             if (!hasElderhood)
             {
-                // No elderhood assigned — show hint
+                // No elderhood — matches base game "None" style for empty backstory slot
                 Text.Font = GameFont.Small;
-                Widgets.Label(new Rect(x, curY, width, 20f), "UB.NoElderhood".Translate());
+                Widgets.Label(new Rect(x, curY, width, 22f), "UB.NoElderhood".Translate());
                 curY += 22f;
+
+                // Clickable hint to add elderhood (small inline link, like RimWorld's
+                // clickable "None" labels in other character card sections)
                 Text.Font = GameFont.Tiny;
-                Widgets.Label(new Rect(x, curY, width, 16f), "UB.ClickToAddElderhood".Translate());
+                GUI.color = Color.grey;
+                Rect addHintRect = new Rect(x, curY, Text.CalcSize("UB.ClickToAddElderhood".Translate()).x, 18f);
+                Widgets.Label(addHintRect, "UB.ClickToAddElderhood".Translate());
+                if (Widgets.ButtonInvisible(addHintRect))
+                {
+                    Find.WindowStack.Add(new Dialog_ChooseElderhood(pawn, comp));
+                }
+                GUI.color = Color.white;
                 curY += 18f;
                 curY += 4f;
                 return;
@@ -928,22 +914,69 @@ namespace UnifiedBackstories
             BackstoryDef elderhood = comp.ElderhoodBS;
             if (elderhood == null) return;
 
-            // === Title + info button ===
+            // === Title + buttons (info/edit/clear) on one line ===
+            // Matches base game: title at Small font, info button next to it.
+            // Edit/clear are additional buttons only visible on elderhood (since elderhood
+            // is changeable, unlike childhood/adulthood which are permanent).
             Text.Font = GameFont.Small;
             string title = ElderhoodHelper.TitleFor(elderhood, pawn);
             Vector2 titleSize = Text.CalcSize(title);
-            float titleW = Math.Min(titleSize.x, width - 28f);
+
+            // Reserve width for buttons (info + edit + clear = 3 × 22f + gaps)
+            float buttonReserve = (3f * 22f) + (2f * 4f);
+            float titleW = Math.Min(titleSize.x, width - buttonReserve - 6f);
             Widgets.Label(new Rect(x, curY, titleW, 24f), title);
+
+            float buttonX = x + titleW + 4f;
+
+            // Info button (standard RimWorld info icon)
             if (_infoIcon != null)
             {
-                Rect infoRect = new Rect(x + titleW + 2f, curY, 22f, 22f);
+                Rect infoRect = new Rect(buttonX, curY + 1f, 22f, 22f);
                 if (Widgets.ButtonImage(infoRect, _infoIcon))
                     Find.WindowStack.Add(new Dialog_InfoCard(elderhood));
                 TooltipHandler.TipRegion(infoRect, () => ElderhoodHelper.TitleCapFor(elderhood, pawn), 63321);
+                buttonX += 22f + 4f;
             }
+
+            // Change (edit) button — looks like info button but has different tooltip
+            Texture2D editTex = _editIcon;
+            Rect editRect = new Rect(buttonX, curY + 1f, 22f, 22f);
+
+            // Use colored tint for visual distinction between info/edit/clear
+            Color saved = GUI.color;
+            GUI.color = hasElderhood ? new Color(0.7f, 0.85f, 1f, 1f) : Color.white; // Light blue tint for edit
+            if (Widgets.ButtonImage(editRect, editTex))
+            {
+                Find.WindowStack.Add(new Dialog_ChooseElderhood(pawn, comp));
+            }
+            GUI.color = saved;
+            TooltipHandler.TipRegion(editRect, "UB.ChangeElderhood.Tip".Translate());
+            buttonX += 22f + 4f;
+
+            // Clear button — red tint for danger awareness
+            Texture2D clearTex = _clearIcon;
+            Rect clearRect = new Rect(buttonX, curY + 1f, 22f, 22f);
+            saved = GUI.color;
+            GUI.color = hasElderhood ? new Color(1f, 0.6f, 0.6f, 1f) : Color.white; // Light red tint for clear
+            if (Widgets.ButtonImage(clearRect, clearTex))
+            {
+                List<FloatMenuOption> options = new List<FloatMenuOption>
+                {
+                    new FloatMenuOption("UB.ClearElderhood".Translate(), delegate
+                    {
+                        ElderhoodHelper.ChangeElderhood(pawn, comp, null);
+                    }),
+                    new FloatMenuOption("UB.Cancel".Translate(), null),
+                };
+                Find.WindowStack.Add(new FloatMenu(options));
+            }
+            GUI.color = saved;
+            TooltipHandler.TipRegion(clearRect, "UB.ClearElderhood.Tip".Translate());
+
             curY += 24f;
 
-            // === Short title ===
+            // === TitleShort in parentheses (matches base game exactly) ===
             string shortTitle = ElderhoodHelper.TitleShortFor(elderhood, pawn);
             if (!shortTitle.NullOrEmpty() && shortTitle != title)
             {
@@ -953,33 +986,36 @@ namespace UnifiedBackstories
                 Text.Font = GameFont.Small;
             }
 
-            // === Skill gains ===
+            // === Full description (NO height cap — matches base game exactly) ===
+            // Base game uses Text.CalcHeight with NO Math.Min cap. Descrição longa
+            // ocupa toda a altura necessária com word wrap.
+            string desc = elderhood.FullDescriptionFor(pawn);
+            if (!desc.NullOrEmpty())
+            {
+                float descH = Text.CalcHeight(desc, width);
+                Widgets.Label(new Rect(x, curY, width, descH), desc);
+                curY += descH + 4f; // Base game spacing after description
+            }
+
+            // === Skill gains inline (matches base game layout) ===
+            // Base game draws skill gains inline: "SkillA +3  SkillB -1  SkillC +2"
+            // WITHOUT wrapping — just advances X horizontally.
             if (elderhood.skillGains != null)
             {
-                float sx = x + 10f, sy = curY;
+                float sx = x + 6f; // Slight indent, matching base game
                 for (int i = 0; i < elderhood.skillGains.Count; i++)
                 {
                     SkillGain sg = elderhood.skillGains[i];
                     if (sg.skill == null) continue;
                     string txt = sg.skill.LabelCap + " " + (sg.amount >= 0 ? "+" : "") + sg.amount;
                     Vector2 sz = Text.CalcSize(txt);
-                    if (sx + sz.x > x + width - 6f) { sx = x + 10f; sy += 20f; }
-                    Widgets.Label(new Rect(sx, sy, sz.x, 20f), txt);
+                    Widgets.Label(new Rect(sx, curY, sz.x, 24f), txt);
                     sx += sz.x + 8f;
                 }
-                curY = Math.Max(curY, sy + 22f);
+                curY += 24f;
             }
 
-            // === Description ===
-            string desc = elderhood.FullDescriptionFor(pawn);
-            if (!desc.NullOrEmpty())
-            {
-                float descH = Math.Min(Text.CalcHeight(desc, width), 80f);
-                Widgets.Label(new Rect(x, curY, width, descH), desc);
-                curY += descH + 2f;
-            }
-
-            curY += 4f;
+            curY += 4f; // Final padding (matches base game)
         }
     }
 
@@ -1006,11 +1042,11 @@ namespace UnifiedBackstories
         {
             this.pawn = pawn;
             this.comp = comp;
-            this.elderhoods = ElderhoodHelper.ListElderhoods();
+            this.elderhoods = ElderhoodHelper.ListElderhoods() ?? new List<BackstoryDef>();
             this.doCloseButton = true;
             this.doCloseX = true;
             this.closeOnClickedOutside = true;
-            this.absorbInputAroundWindow = true;
+            // absorbInputAroundWindow = false (default) so closeOnClickedOutside works
             this.forcePause = true;
         }
 
@@ -1199,7 +1235,7 @@ namespace UnifiedBackstories
             string ver = System.IO.File.GetLastWriteTime(
                 System.Reflection.Assembly.GetExecutingAssembly().Location)
                 .ToString("yyyy-MM-dd HH:mm");
-            Log.Message("[UB] v1.7.0 loaded (build " + ver
+            Log.Message("[UB] v1.8.0 loaded (build " + ver
                 + ") — Elderhood + Gender tokens + Age 60+ + UI edit"
                 + " + Mood rebalance + Need grace period + ZCB validator"
                 + " + HardshipBonding + BackstoryPairing + TraitAlignment");
