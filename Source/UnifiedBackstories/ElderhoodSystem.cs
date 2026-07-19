@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
+using System.Reflection.Emit;
 using System.Text.RegularExpressions;
 using HarmonyLib;
 using RimWorld;
@@ -663,12 +664,18 @@ namespace UnifiedBackstories
 
     /// <summary>
     /// Character card UI: display elderhood info.
-    /// RimWorld 1.6's CharacterCardUtility.DoLeftSection is a STATIC method with
-    /// signature: DoLeftSection(Rect rect, Rect leftRect, Pawn pawn).
-    /// There is NO curY parameter — it's a local variable managed internally.
-    /// The original ElderhoodBackstory mod used a Transpiler to inject IL.
-    /// We use a Postfix with parameter injection (matching the 3 real parameters).
-    /// The elderhood section is drawn at the bottom of the left column.
+    /// Uses a Transpiler to inject IL into DoLeftSection, matching the approach
+    /// of the original ElderhoodBackstory mod. This positions the elderhood
+    /// section right after the adulthood section (inline with childhood/adulthood),
+    /// using the method's internal 'currentY' variable for proper Y positioning.
+    /// 
+    /// RimWorld 1.6's DoLeftSection is:
+    ///   static void DoLeftSection(Rect rect, Rect leftRect, Pawn pawn)
+    /// The 'currentY' is a field on a compiler-generated display class (nested
+    /// local class), accessed via a local variable in the method.
+    /// 
+    /// Fallback: If the Transpiler can't find the currentY field, a Postfix
+    /// draws the section at a fixed position near the bottom of the card.
     /// </summary>
     [HarmonyPatch(typeof(CharacterCardUtility), "DoLeftSection")]
     public static class CharacterCardUtility_DoLeftSection_Patch
@@ -677,8 +684,152 @@ namespace UnifiedBackstories
         private static Texture2D _editIcon;
         private static Texture2D _clearIcon;
         private static bool _iconsLoaded;
+        private static bool _transpilerInjected;
 
+        /// <summary>
+        /// Transpiler: injects DrawElderhoodSection call before the last 'ret'
+        /// in DoLeftSection, passing the display class's currentY field by ref.
+        /// </summary>
+        public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions, ILGenerator generator)
+        {
+            var codes = new List<CodeInstruction>(instructions);
+
+            // Step 1: Find the FieldInfo for 'currentY' by searching the display class types.
+            // In RimWorld 1.6, DoLeftSection uses compiler-generated display classes like
+            // <>c__DisplayClass43_2 which has a float field named 'currentY'.
+            FieldInfo curYField = null;
+            LocalBuilder curYLocal = null;
+
+            // Search instructions for any Ldfld/Stfld that accesses a field named 'currentY'
+            foreach (var code in codes)
+            {
+                if (code.operand is FieldInfo fi && fi.Name == "currentY" && fi.FieldType == typeof(float))
+                {
+                    curYField = fi;
+                    break;
+                }
+            }
+
+            if (curYField == null)
+            {
+                Log.Warning("[UB] Transpiler: could not find 'currentY' field in DoLeftSection — using Postfix fallback");
+                return codes;
+            }
+
+            // Step 2: Find the LocalBuilder for the display class that contains currentY.
+            // The display class is a local variable in the method. We find it by looking
+            // for any Ldloc/Stloc instruction whose LocalType has a field named 'currentY'.
+            foreach (var code in codes)
+            {
+                if (code.operand is LocalBuilder lb && lb.LocalType != null)
+                {
+                    var f = lb.LocalType.GetField("currentY", BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic);
+                    if (f != null && f.FieldType == typeof(float))
+                    {
+                        curYLocal = lb;
+                        break;
+                    }
+                }
+            }
+
+            if (curYLocal == null)
+            {
+                // Fallback: try finding via ldloca
+                foreach (var code in codes)
+                {
+                    if (code.operand is LocalBuilder lb && lb.LocalType != null)
+                    {
+                        // Check if this local's type has ANY float field
+                        var fields = lb.LocalType.GetFields(BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic);
+                        foreach (var f in fields)
+                        {
+                            if (f.Name == "currentY" && f.FieldType == typeof(float))
+                            {
+                                curYLocal = lb;
+                                break;
+                            }
+                        }
+                        if (curYLocal != null) break;
+                    }
+                }
+            }
+
+            if (curYLocal == null)
+            {
+                Log.Warning("[UB] Transpiler: could not find display class local — using Postfix fallback");
+                return codes;
+            }
+
+            // Step 3: Find the last 'ret' instruction
+            int retIndex = -1;
+            for (int i = codes.Count - 1; i >= 0; i--)
+            {
+                if (codes[i].opcode == OpCodes.Ret)
+                {
+                    retIndex = i;
+                    break;
+                }
+            }
+
+            if (retIndex == -1)
+            {
+                Log.Warning("[UB] Transpiler: no 'ret' found in DoLeftSection — using Postfix fallback");
+                return codes;
+            }
+
+            // Step 4: Inject before the last 'ret':
+            //   ldloc curYLocal       (load the display class object)
+            //   ldflda curYField      (load address of currentY field)
+            //   ldarg.1               (leftRect — parameter index 1)
+            //   ldarg.2               (pawn — parameter index 2)
+            //   call DrawElderhoodSection(ref float, Rect, Pawn)
+            var drawMethod = AccessTools.Method(typeof(CharacterCardUtility_DoLeftSection_Patch),
+                nameof(DrawElderhoodSection));
+
+            var injected = new List<CodeInstruction>
+            {
+                new CodeInstruction(OpCodes.Ldloc, curYLocal),
+                new CodeInstruction(OpCodes.Ldflda, curYField),
+                new CodeInstruction(OpCodes.Ldarg_1),
+                new CodeInstruction(OpCodes.Ldarg_2),
+                new CodeInstruction(OpCodes.Call, drawMethod),
+            };
+
+            codes.InsertRange(retIndex, injected);
+            _transpilerInjected = true;
+            Log.Message("[UB] Transpiler: successfully injected elderhood drawing into DoLeftSection");
+            return codes;
+        }
+
+        /// <summary>
+        /// Fallback Postfix: runs only if the Transpiler failed to inject.
+        /// Draws elderhood at a fixed position near the bottom of the card.
+        /// </summary>
         public static void Postfix(Rect rect, Rect leftRect, Pawn pawn)
+        {
+            if (_transpilerInjected) return; // Transpiler handles it
+
+            // Fallback: draw at bottom of card
+            float fallbackY = rect.yMax - 120f;
+            DrawElderhoodSection(ref fallbackY, leftRect, pawn, rect);
+        }
+
+        /// <summary>
+        /// Draws the elderhood section at the current Y position in the left column.
+        /// Called from injected IL (Transpiler) with currentY passed by ref.
+        /// Modifying currentY extends the card height to fit the new section.
+        /// </summary>
+        public static void DrawElderhoodSection(ref float currentY, Rect leftRect, Pawn pawn)
+        {
+            DrawElderhoodSection(ref currentY, leftRect, pawn, leftRect);
+        }
+
+        /// <summary>
+        /// Core drawing method. Draws elderhood section at the given Y position.
+        /// When called from Transpiler, startY is the currentY from DoLeftSection.
+        /// When called from Postfix fallback, startY is calculated from rect bottom.
+        /// </summary>
+        private static void DrawElderhoodSection(ref float curY, Rect leftRect, Pawn pawn, Rect rectForFallback)
         {
             if (pawn == null || pawn.story == null) return;
             if (!pawn.RaceProps.Humanlike) return;
@@ -706,22 +857,17 @@ namespace UnifiedBackstories
                            ?? ContentFinder<Texture2D>.Get("UI/Icons/Delete", false);
             }
 
-            // Draw elderhood section starting at the bottom of the left column.
-            // We use leftRect.x and leftRect.width, and start at a Y offset
-            // calculated from the rect's bottom minus an estimated section height.
             float width = leftRect.width;
-            float startY = rect.yMax - 120f; // 120px from the bottom for elderhood section
-
-            float curY = startY;
+            float x = 0f; // Inside GUI group, x starts at 0
 
             // === Category label ===
             Text.Font = GameFont.Medium;
-            Widgets.Label(new Rect(leftRect.x, curY, width, 30f), "UB.ElderhoodHeader".Translate());
+            Widgets.Label(new Rect(x, curY, width, 30f), "UB.ElderhoodHeader".Translate());
 
             // === Edit / Clear buttons (top-right of header) ===
             Text.Font = GameFont.Tiny;
             float btnSize = 22f;
-            float btnX = leftRect.x + width - btnSize;
+            float btnX = x + width - btnSize;
 
             if (hasElderhood)
             {
@@ -770,11 +916,12 @@ namespace UnifiedBackstories
             {
                 // No elderhood assigned — show hint
                 Text.Font = GameFont.Small;
-                Widgets.Label(new Rect(leftRect.x, curY, width, 20f), "UB.NoElderhood".Translate());
+                Widgets.Label(new Rect(x, curY, width, 20f), "UB.NoElderhood".Translate());
                 curY += 22f;
                 Text.Font = GameFont.Tiny;
-                Widgets.Label(new Rect(leftRect.x, curY, width, 16f), "UB.ClickToAddElderhood".Translate());
+                Widgets.Label(new Rect(x, curY, width, 16f), "UB.ClickToAddElderhood".Translate());
                 curY += 18f;
+                curY += 4f;
                 return;
             }
 
@@ -786,10 +933,10 @@ namespace UnifiedBackstories
             string title = ElderhoodHelper.TitleFor(elderhood, pawn);
             Vector2 titleSize = Text.CalcSize(title);
             float titleW = Math.Min(titleSize.x, width - 28f);
-            Widgets.Label(new Rect(leftRect.x, curY, titleW, 24f), title);
+            Widgets.Label(new Rect(x, curY, titleW, 24f), title);
             if (_infoIcon != null)
             {
-                Rect infoRect = new Rect(leftRect.x + titleW + 2f, curY, 22f, 22f);
+                Rect infoRect = new Rect(x + titleW + 2f, curY, 22f, 22f);
                 if (Widgets.ButtonImage(infoRect, _infoIcon))
                     Find.WindowStack.Add(new Dialog_InfoCard(elderhood));
                 TooltipHandler.TipRegion(infoRect, () => ElderhoodHelper.TitleCapFor(elderhood, pawn), 63321);
@@ -801,7 +948,7 @@ namespace UnifiedBackstories
             if (!shortTitle.NullOrEmpty() && shortTitle != title)
             {
                 Text.Font = GameFont.Tiny;
-                Widgets.Label(new Rect(leftRect.x, curY, width, 18f), "(" + shortTitle + ")");
+                Widgets.Label(new Rect(x, curY, width, 18f), "(" + shortTitle + ")");
                 curY += 17f;
                 Text.Font = GameFont.Small;
             }
@@ -809,14 +956,14 @@ namespace UnifiedBackstories
             // === Skill gains ===
             if (elderhood.skillGains != null)
             {
-                float sx = leftRect.x + 10f, sy = curY;
+                float sx = x + 10f, sy = curY;
                 for (int i = 0; i < elderhood.skillGains.Count; i++)
                 {
                     SkillGain sg = elderhood.skillGains[i];
                     if (sg.skill == null) continue;
                     string txt = sg.skill.LabelCap + " " + (sg.amount >= 0 ? "+" : "") + sg.amount;
                     Vector2 sz = Text.CalcSize(txt);
-                    if (sx + sz.x > leftRect.x + width - 6f) { sx = leftRect.x + 10f; sy += 20f; }
+                    if (sx + sz.x > x + width - 6f) { sx = x + 10f; sy += 20f; }
                     Widgets.Label(new Rect(sx, sy, sz.x, 20f), txt);
                     sx += sz.x + 8f;
                 }
@@ -828,9 +975,11 @@ namespace UnifiedBackstories
             if (!desc.NullOrEmpty())
             {
                 float descH = Math.Min(Text.CalcHeight(desc, width), 80f);
-                Widgets.Label(new Rect(leftRect.x, curY, width, descH), desc);
+                Widgets.Label(new Rect(x, curY, width, descH), desc);
                 curY += descH + 2f;
             }
+
+            curY += 4f;
         }
     }
 
@@ -1050,7 +1199,7 @@ namespace UnifiedBackstories
             string ver = System.IO.File.GetLastWriteTime(
                 System.Reflection.Assembly.GetExecutingAssembly().Location)
                 .ToString("yyyy-MM-dd HH:mm");
-            Log.Message("[UB] v1.6.7 loaded (build " + ver
+            Log.Message("[UB] v1.7.0 loaded (build " + ver
                 + ") — Elderhood + Gender tokens + Age 60+ + UI edit"
                 + " + Mood rebalance + Need grace period + ZCB validator"
                 + " + HardshipBonding + BackstoryPairing + TraitAlignment");
