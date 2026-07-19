@@ -241,6 +241,59 @@ namespace UnifiedBackstories
         {
             FillBackstorySlotShuffled(pawn, null);
         }
+
+        /// <summary>
+        /// Applies ALL elderhood effects to a pawn: forced traits, skill bonuses,
+        /// and body type. Called when elderhood is newly assigned (birthday path,
+        /// save-load path). The GeneratePawn path uses ApplyElderhoodEffects in
+        /// the GeneratePawn postfix instead.
+        /// 
+        /// BUG FIX: Previously, pawns who aged into elderhood via BirthdayBiological
+        /// only got the backstory + body type, but NOT skill bonuses or forced traits.
+        /// This method ensures all effects are applied regardless of how elderhood
+        /// was assigned.
+        /// </summary>
+        public static void ApplyAllElderhoodEffects(Pawn pawn, CompElderhoodBackstory comp)
+        {
+            BackstoryDef eb = comp.ElderhoodBS;
+            if (eb == null) return;
+
+            // Apply forced traits
+            if (eb.forcedTraits != null && pawn.story?.traits != null)
+            {
+                for (int i = 0; i < eb.forcedTraits.Count; i++)
+                {
+                    BackstoryTrait te = eb.forcedTraits[i];
+                    if (te?.def == null) continue;
+                    if (pawn.story.traits.HasTrait(te.def)) continue;
+                    pawn.story.traits.GainTrait(new Trait(te.def, te.degree, false));
+                }
+            }
+
+            // Apply skill bonuses (FinalLevelOfSkill won't fire again for existing pawns)
+            if (eb.skillGains != null && pawn.skills != null)
+            {
+                for (int i = 0; i < eb.skillGains.Count; i++)
+                {
+                    SkillGain sg = eb.skillGains[i];
+                    if (sg.skill == null) continue;
+                    SkillRecord skill = pawn.skills.GetSkill(sg.skill);
+                    if (skill != null)
+                    {
+                        skill.Level = Mathf.Clamp(skill.Level + sg.amount, 0, 20);
+                    }
+                }
+            }
+
+            // Apply body type
+            BodyTypeDef bt = DefDatabase<BodyTypeDef>.GetNamedSilentFail(
+                pawn.gender == Gender.Female ? "FemaleElderly" : "MaleElderly");
+            if (bt != null && pawn.story?.bodyType != null)
+                pawn.story.bodyType = bt;
+
+            // Notify skill system to re-evaluate
+            pawn.skills?.Notify_SkillDisablesChanged();
+        }
     }
 
     // ================================================================
@@ -346,19 +399,17 @@ namespace UnifiedBackstories
         {
             Pawn pawn = ElderhoodHelper.GetPawnFromTracker(__instance);
             if (pawn == null) return;
+            if (UB_Mod.Settings != null && !UB_Mod.Settings.elderhoodEnabled) return;
             bool hadElderhood = pawn.GetComp<CompElderhoodBackstory>()?.HasElderhood == true;
             ElderhoodHelper.TryAssignElderhood(pawn);
 
-            // MED-012 fix: update body type when aging INTO elderhood via birthday.
-            // PawnGenerator_GetBodyTypeFor_Patch only fires at generation; pawns
-            // who age into elderhood mid-game would otherwise keep their old body type.
+            // BUG FIX: Apply ALL elderhood effects (skills, traits, body type) when
+            // elderhood is newly assigned via birthday. Previously only body type
+            // was applied — skill bonuses and forced traits were missing.
             CompElderhoodBackstory comp = pawn.GetComp<CompElderhoodBackstory>();
             if (comp != null && comp.HasElderhood && !hadElderhood)
             {
-                BodyTypeDef bt = DefDatabase<BodyTypeDef>.GetNamedSilentFail(
-                    pawn.gender == Gender.Female ? "FemaleElderly" : "MaleElderly");
-                if (bt != null && pawn.story?.bodyType != null && pawn.story.bodyType != bt)
-                    pawn.story.bodyType = bt;
+                ElderhoodHelper.ApplyAllElderhoodEffects(pawn, comp);
             }
         }
     }
@@ -902,7 +953,7 @@ namespace UnifiedBackstories
             string ver = System.IO.File.GetLastWriteTime(
                 System.Reflection.Assembly.GetExecutingAssembly().Location)
                 .ToString("yyyy-MM-dd HH:mm");
-            Log.Message("[UB] v1.6.5 loaded (build " + ver
+            Log.Message("[UB] v1.6.6 loaded (build " + ver
                 + ") — Elderhood + Gender tokens + Age 60+ + UI edit"
                 + " + Mood rebalance + Need grace period + ZCB validator"
                 + " + HardshipBonding + BackstoryPairing + TraitAlignment");
