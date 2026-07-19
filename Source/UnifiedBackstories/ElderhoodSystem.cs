@@ -512,29 +512,6 @@ namespace UnifiedBackstories
     }
 
     /// <summary>
-    /// Loads UI textures during the StaticConstructorOnStartup phase (main thread).
-    /// Extracting Texture2D fields here eliminates the "probably needs
-    /// StaticConstructorOnStartup attribute" warning on the Harmony patch class.
-    /// </summary>
-    [StaticConstructorOnStartup]
-    public static class UB_Textures
-    {
-        public static readonly Texture2D InfoIcon;
-        public static readonly Texture2D EditIcon;
-        public static readonly Texture2D ClearIcon;
-
-        static UB_Textures()
-        {
-            InfoIcon = ContentFinder<Texture2D>.Get("UI/InfoButton", false)
-                     ?? ContentFinder<Texture2D>.Get("UI/Icons/InfoButton", false);
-            EditIcon = ContentFinder<Texture2D>.Get("UI/Buttons/Edit", false)
-                     ?? ContentFinder<Texture2D>.Get("UI/Icons/Edit", false);
-            ClearIcon = ContentFinder<Texture2D>.Get("UI/Buttons/Delete", false)
-                      ?? ContentFinder<Texture2D>.Get("UI/Icons/Delete", false);
-        }
-    }
-
-    /// <summary>
     /// Character card UI: display elderhood info.
     /// Uses the original approach with a Postfix on DoLeftSection.
     /// </summary>
@@ -545,6 +522,11 @@ namespace UnifiedBackstories
         private static FieldInfo fiCurY;
         private static FieldInfo fiPawn;
         private static FieldInfo fiLeft;
+        // Textures loaded lazily on first UI render (main thread safe).
+        private static Texture2D _infoIcon;
+        private static Texture2D _editIcon;
+        private static Texture2D _clearIcon;
+        private static bool _iconsLoaded;
 
         public static MethodBase TargetMethod()
         {
@@ -568,14 +550,31 @@ namespace UnifiedBackstories
             CompElderhoodBackstory comp = pawn.GetComp<CompElderhoodBackstory>();
             if (comp == null)
                 comp = ElderhoodHelper.GetOrCreateElderhoodComp(pawn);
-            bool hasElderhood = comp != null && comp.HasElderhood;
+            // FIX CRITICAL: null-check comp BEFORE dereferencing comp.ElderhoodAge.
+            // Previously, comp.ElderhoodAge was accessed before the null check,
+            // causing NullReferenceException that broke the entire character card UI
+            // for any pawn where GetOrCreateElderhoodComp returned null.
+            if (comp == null) return;
 
-            // Only show section for pawns 60+ or with existing elderhood
-            // Use comp.ElderhoodAge (configurable) instead of hardcoded 60.
+            bool hasElderhood = comp.HasElderhood;
+
+            // Only show section for pawns ElderhoodAge+ or with existing elderhood.
+            // Use comp.ElderhoodAge (XML-configurable, default 60) instead of hardcoded 60.
             int elderAgeThreshold = comp.ElderhoodAge > 0 ? comp.ElderhoodAge : 60;
             if (!hasElderhood && (pawn.ageTracker == null || pawn.ageTracker.AgeBiologicalYears < elderAgeThreshold))
                 return;
-            if (comp == null) return;
+
+            // Lazy-load icons (main thread safe — Postfix runs on UI thread)
+            if (!_iconsLoaded)
+            {
+                _iconsLoaded = true;
+                _infoIcon = ContentFinder<Texture2D>.Get("UI/InfoButton", false)
+                          ?? ContentFinder<Texture2D>.Get("UI/Icons/InfoButton", false);
+                _editIcon = ContentFinder<Texture2D>.Get("UI/Buttons/Edit", false)
+                          ?? ContentFinder<Texture2D>.Get("UI/Icons/Edit", false);
+                _clearIcon = ContentFinder<Texture2D>.Get("UI/Buttons/Delete", false)
+                           ?? ContentFinder<Texture2D>.Get("UI/Icons/Delete", false);
+            }
 
             float curY = (float)fiCurY.GetValue(__instance);
             float width = 196f;
@@ -593,7 +592,7 @@ namespace UnifiedBackstories
             if (hasElderhood)
             {
                 // Clear button
-                Texture2D clearTex = UB_Textures.ClearIcon ?? UB_Textures.InfoIcon;
+                Texture2D clearTex = _clearIcon ?? _infoIcon;
                 Rect clearRect = new Rect(btnX, curY + 2f, btnSize, btnSize);
                 if (Widgets.ButtonImage(clearRect, clearTex, Color.white, Color.grey * 1.5f))
                 {
@@ -612,7 +611,7 @@ namespace UnifiedBackstories
                 btnX -= btnSize + 2f;
 
                 // Edit (change) button
-                Texture2D editTex = UB_Textures.EditIcon ?? UB_Textures.InfoIcon;
+                Texture2D editTex = _editIcon ?? _infoIcon;
                 Rect editRect = new Rect(btnX, curY + 2f, btnSize, btnSize);
                 if (Widgets.ButtonImage(editRect, editTex))
                 {
@@ -624,7 +623,7 @@ namespace UnifiedBackstories
             {
                 // No elderhood yet — show "Add" button
                 Rect addRect = new Rect(btnX, curY + 2f, btnSize, btnSize);
-                Texture2D addTex = UB_Textures.EditIcon ?? UB_Textures.InfoIcon;
+                Texture2D addTex = _editIcon ?? _infoIcon;
                 if (Widgets.ButtonImage(addRect, addTex))
                 {
                     Find.WindowStack.Add(new Dialog_ChooseElderhood(pawn, comp));
@@ -658,10 +657,10 @@ namespace UnifiedBackstories
             Vector2 titleSize = Text.CalcSize(title);
             float titleW = Math.Min(titleSize.x, width - 28f);
             Widgets.Label(new Rect(0f, curY, titleW, 24f), title);
-            if (UB_Textures.InfoIcon != null)
+            if (_infoIcon != null)
             {
                 Rect infoRect = new Rect(titleW + 2f, curY, 22f, 22f);
-                if (Widgets.ButtonImage(infoRect, UB_Textures.InfoIcon))
+                if (Widgets.ButtonImage(infoRect, _infoIcon))
                     Find.WindowStack.Add(new Dialog_InfoCard(elderhood));
                 TooltipHandler.TipRegion(infoRect, () => ElderhoodHelper.TitleCapFor(elderhood, pawn), 63321);
             }
@@ -925,7 +924,7 @@ namespace UnifiedBackstories
             string ver = System.IO.File.GetLastWriteTime(
                 System.Reflection.Assembly.GetExecutingAssembly().Location)
                 .ToString("yyyy-MM-dd HH:mm");
-            Log.Message("[UB] v1.6.3 loaded (build " + ver
+            Log.Message("[UB] v1.6.4 loaded (build " + ver
                 + ") — Elderhood + Gender tokens + Age 60+ + UI edit"
                 + " + Mood rebalance + Need grace period + ZCB validator"
                 + " + HardshipBonding + BackstoryPairing + TraitAlignment");
