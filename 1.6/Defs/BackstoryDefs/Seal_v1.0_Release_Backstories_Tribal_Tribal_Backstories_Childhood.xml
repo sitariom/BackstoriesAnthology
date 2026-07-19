@@ -19,7 +19,7 @@
 	    <Social>-5</Social>
     </skillGains>
     <forcedTraits>
-      <VTE_Eccentric>0</VTE_Eccentric>
+      <VTE_Eccentric MayRequire="OskarPotocki.VanillaTraitsExpanded">0</VTE_Eccentric>
     </forcedTraits>
   </BackstoryDef>
 
@@ -40,7 +40,7 @@
 	    <Social>2</Social>
     </skillGains>
     <forcedTraits>
-      <VTE_ChildOfSea>0</VTE_ChildOfSea>
+      <VTE_ChildOfSea MayRequire="OskarPotocki.VanillaTraitsExpanded">0</VTE_ChildOfSea>
     </forcedTraits>
   </BackstoryDef>
 

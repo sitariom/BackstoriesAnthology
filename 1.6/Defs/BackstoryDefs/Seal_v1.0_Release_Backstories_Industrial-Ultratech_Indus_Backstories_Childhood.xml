@@ -85,7 +85,7 @@
 	    <Animals>-1</Animals>
     </skillGains>
     <forcedTraits>
-      <VTE_Desensitized>0</VTE_Desensitized>
+      <VTE_Desensitized MayRequire="OskarPotocki.VanillaTraitsExpanded">0</VTE_Desensitized>
     </forcedTraits>
   </BackstoryDef>
 

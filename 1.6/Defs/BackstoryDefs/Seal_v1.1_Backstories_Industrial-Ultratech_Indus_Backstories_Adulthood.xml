@@ -19,7 +19,7 @@
       <Crafting>3</Crafting>
     </skillGains>
     <forcedTraits>
-      <ST_Virtuoso>0</ST_Virtuoso>
+      <ST_Virtuoso MayRequire="Goji.TheSimsTraits,Ludeon.RimWorld.Royalty">0</ST_Virtuoso>
     </forcedTraits>
     <requiredWorkTags>
       <li>Crafting</li>
@@ -118,7 +118,7 @@
 	    <Intellectual>5</Intellectual>
     </skillGains>
     <forcedTraits>
-      <ST_TechWhiz>0</ST_TechWhiz>
+      <ST_TechWhiz MayRequire="Goji.TheSimsTraits,Ludeon.RimWorld.Royalty">0</ST_TechWhiz>
     </forcedTraits>
     <requiredWorkTags>
       <li>Violent</li>

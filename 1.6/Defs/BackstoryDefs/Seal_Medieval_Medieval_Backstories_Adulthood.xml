@@ -21,7 +21,7 @@
     </skillGains>
     <forcedTraits>
       <Pyromaniac>0</Pyromaniac>
-      <ST_Daredevil>0</ST_Daredevil>
+      <ST_Daredevil MayRequire="Goji.TheSimsTraits,Ludeon.RimWorld.Royalty">0</ST_Daredevil>
     </forcedTraits>
     <workDisables>
       <li>Firefighting</li>

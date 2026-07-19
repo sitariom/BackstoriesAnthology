@@ -330,7 +330,7 @@
       <li>Caring</li>
     </requiredWorkTags>
     <forcedTraits>
-	    <VTE_Desensitized>0</VTE_Desensitized>
+	    <VTE_Desensitized MayRequire="OskarPotocki.VanillaTraitsExpanded">0</VTE_Desensitized>
     </forcedTraits>
   </BackstoryDef>
 
@@ -362,7 +362,7 @@
     </possessions>
     <forcedTraits>
 	    <Psychopath>0</Psychopath>
-	    <VTE_MadSurgeon>0</VTE_MadSurgeon>
+	    <VTE_MadSurgeon MayRequire="OskarPotocki.VanillaTraitsExpanded">0</VTE_MadSurgeon>
     </forcedTraits>
   </BackstoryDef>
 
@@ -395,9 +395,9 @@
       <Beer>6</Beer>
     </possessions>
     <forcedTraits>
-	    <VTE_FunLoving>0</VTE_FunLoving>
-	    <VTE_Lush>0</VTE_Lush>
-	    <ST_PartyAnimal>0</ST_PartyAnimal>
+	    <VTE_FunLoving MayRequire="OskarPotocki.VanillaTraitsExpanded">0</VTE_FunLoving>
+	    <VTE_Lush MayRequire="OskarPotocki.VanillaTraitsExpanded">0</VTE_Lush>
+	    <ST_PartyAnimal MayRequire="Goji.TheSimsTraits,Ludeon.RimWorld.Royalty">0</ST_PartyAnimal>
     </forcedTraits>
   </BackstoryDef>
 

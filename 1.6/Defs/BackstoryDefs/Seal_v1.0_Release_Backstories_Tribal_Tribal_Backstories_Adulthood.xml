@@ -150,7 +150,7 @@
 
 <Melee>-2</Melee><Shooting>-2</Shooting></skillGains>
     <forcedTraits>
-      <ST_Virtuoso>0</ST_Virtuoso>
+      <ST_Virtuoso MayRequire="Goji.TheSimsTraits,Ludeon.RimWorld.Royalty">0</ST_Virtuoso>
     </forcedTraits><requiredWorkTags>
       <li>Artistic</li>
 	    <li>Animals</li>
@@ -174,7 +174,7 @@
       <Social>-2</Social>
     </skillGains>
     <forcedTraits>
-      <VTE_Menagerist>0</VTE_Menagerist>
+      <VTE_Menagerist MayRequire="OskarPotocki.VanillaTraitsExpanded">0</VTE_Menagerist>
     </forcedTraits>
 	  <requiredWorkTags>
 	    <li>Animals</li>

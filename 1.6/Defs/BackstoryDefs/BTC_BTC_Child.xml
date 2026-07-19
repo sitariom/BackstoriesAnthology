@@ -205,7 +205,7 @@
 	<li>ImperialFighter</li>
 	</spawnCategories>
 	<forcedTraits>
-      <VTE_HeatInclined>0</VTE_HeatInclined>
+      <VTE_HeatInclined MayRequire="OskarPotocki.VanillaTraitsExpanded">0</VTE_HeatInclined>
     </forcedTraits>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
@@ -269,7 +269,7 @@
 	<li>ImperialFighter</li>
 	</spawnCategories>
 	<forcedTraits>
-	<VTE_ColdInclined>0</VTE_ColdInclined>
+	<VTE_ColdInclined MayRequire="OskarPotocki.VanillaTraitsExpanded">0</VTE_ColdInclined>
     </forcedTraits>
 	<disallowedTraits>
       <Kind>0</Kind>
@@ -300,7 +300,7 @@
 	<li>Pirate</li>
 	</spawnCategories>
 	<forcedTraits>
-	<VTE_Kleptomaniac>0</VTE_Kleptomaniac>
+	<VTE_Kleptomaniac MayRequire="OskarPotocki.VanillaTraitsExpanded">0</VTE_Kleptomaniac>
     </forcedTraits>
 	<disallowedTraits>
       <Kind>0</Kind>
@@ -399,7 +399,7 @@
 	<li>Oceanic</li>
 	</spawnCategories>
 	<forcedTraits>
-      <VTE_ChildOfSea>0</VTE_ChildOfSea>
+      <VTE_ChildOfSea MayRequire="OskarPotocki.VanillaTraitsExpanded">0</VTE_ChildOfSea>
     </forcedTraits>
 	<disallowedTraits>
     </disallowedTraits>

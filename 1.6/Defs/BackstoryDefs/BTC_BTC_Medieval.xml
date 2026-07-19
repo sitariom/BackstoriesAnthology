@@ -147,8 +147,8 @@
 	  <Social>-4</Social>
     </skillGains>
 	<forcedTraits>
-      <VTE_Lush>0</VTE_Lush>
-	  <VTE_Submissive>0</VTE_Submissive>
+      <VTE_Lush MayRequire="OskarPotocki.VanillaTraitsExpanded">0</VTE_Lush>
+	  <VTE_Submissive MayRequire="OskarPotocki.VanillaTraitsExpanded">0</VTE_Submissive>
 	  <Beauty>-1</Beauty>
     </forcedTraits>
     <spawnCategories>

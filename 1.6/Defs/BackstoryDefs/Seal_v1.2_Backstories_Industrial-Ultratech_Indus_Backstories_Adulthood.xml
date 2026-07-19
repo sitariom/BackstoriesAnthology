@@ -20,7 +20,7 @@
       <li>Animals</li>
     </requiredWorkTags>
     <forcedTraits>
-      <VCEF_Fisherman>0</VCEF_Fisherman>
+      <VCEF_Fisherman MayRequire="syrchalis.vanillafisheriesexpanded">0</VCEF_Fisherman>
     </forcedTraits>
   </BackstoryDef>
 

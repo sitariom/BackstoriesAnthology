@@ -322,7 +322,7 @@
 	  <Melee>3</Melee>
     </skillGains>
 	<forcedTraits>
-	<VTE_Vengeful>0</VTE_Vengeful>
+	<VTE_Vengeful MayRequire="OskarPotocki.VanillaTraitsExpanded">0</VTE_Vengeful>
 	</forcedTraits>
     <spawnCategories><li>Ancient_Pre</li></spawnCategories>
     <bodyTypeMale>Hulk</bodyTypeMale>

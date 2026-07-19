@@ -81,23 +81,28 @@ namespace UnifiedBackstories
     }
 
     /// <summary>
-    /// HIGH-015 fix: patch Need_Comfort.NeedInterval directly instead of
-    /// Need_Seeker.NeedInterval. The previous patch fired for Need_Mood,
-    /// Need_Beauty, and Need_RoomSize too (all inherit Need_Seeker) — adding
-    /// Harmony overhead to 3 need types that never used it. The fragile
-    /// `is Need_Comfort` runtime filter is no longer needed.
+    /// Patch Need_Seeker.NeedInterval (the declaring type).
+    /// Need_Comfort inherits NeedInterval from Need_Seeker and does NOT override it,
+    /// so patching Need_Comfort.NeedInterval directly fails with "Undefined target
+    /// method" which breaks PatchAll() and prevents the ENTIRE mod from loading.
+    /// The Postfix filters to only apply ScaleFall when __instance is Need_Comfort,
+    /// so Mood/Beauty/RoomSize (which also inherit Need_Seeker) get the Prefix
+    /// overhead but no behavior change.
     /// </summary>
-    [HarmonyPatch(typeof(Need_Comfort), nameof(Need_Comfort.NeedInterval))]
-    public static class Need_Comfort_NeedInterval_Patch
+    [HarmonyPatch(typeof(Need_Seeker), nameof(Need_Seeker.NeedInterval))]
+    public static class Need_Seeker_NeedInterval_Patch
     {
-        public static void Prefix(Need_Comfort __instance, ref float __state)
+        public static void Prefix(Need_Seeker __instance, ref float __state)
         {
             __state = __instance.CurLevel;
         }
 
-        public static void Postfix(Need_Comfort __instance, float __state, Pawn ___pawn)
+        public static void Postfix(Need_Seeker __instance, float __state, Pawn ___pawn)
         {
-            EarlyColonyNeeds.ScaleFall(__instance, __state, ___pawn);
+            if (__instance is Need_Comfort)
+            {
+                EarlyColonyNeeds.ScaleFall(__instance, __state, ___pawn);
+            }
         }
     }
 }

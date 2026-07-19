@@ -89,8 +89,8 @@
       <Social>4</Social>
     </skillGains>
     <forcedTraits>
-      <VTE_Insatiable>0</VTE_Insatiable>
-      <ST_Narcissist>0</ST_Narcissist>
+      <VTE_Insatiable MayRequire="OskarPotocki.VanillaTraitsExpanded">0</VTE_Insatiable>
+      <ST_Narcissist MayRequire="Goji.TheSimsTraits,Ludeon.RimWorld.Royalty">0</ST_Narcissist>
     </forcedTraits><requiredWorkTags>
       <li>Violent</li>
       <li>Social</li>

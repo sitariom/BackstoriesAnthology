@@ -185,6 +185,8 @@
   },
   "active": "77b2c7153eee295c",
   "lastOpenFiles": [
+    "gh-err.txt",
+    "gh-out.txt",
     "scripts/test-mod.ps1",
     "scripts",
     "Source/UnifiedBackstories/obj/Release/UnifiedBackstories.dll",

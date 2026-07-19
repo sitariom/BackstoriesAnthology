@@ -98,7 +98,7 @@
 	    <Social>-3</Social>
     </skillGains>
     <forcedTraits>
-      <VTE_DogPerson>0</VTE_DogPerson>
+      <VTE_DogPerson MayRequire="OskarPotocki.VanillaTraitsExpanded">0</VTE_DogPerson>
     </forcedTraits>
   </BackstoryDef>
 
@@ -119,7 +119,7 @@
       <Melee>2</Melee>
 
 <Intellectual>-2</Intellectual></skillGains><forcedTraits>
-      <VTE_Desensitized>0</VTE_Desensitized>
+      <VTE_Desensitized MayRequire="OskarPotocki.VanillaTraitsExpanded">0</VTE_Desensitized>
     </forcedTraits>
   </BackstoryDef>
 

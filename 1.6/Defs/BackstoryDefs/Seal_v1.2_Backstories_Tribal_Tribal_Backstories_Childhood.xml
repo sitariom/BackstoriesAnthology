@@ -19,7 +19,7 @@
 	    <Social>-5</Social>
     </skillGains>
     <forcedTraits>
-      <VTE_Wanderlust>0</VTE_Wanderlust>
+      <VTE_Wanderlust MayRequire="OskarPotocki.VanillaTraitsExpanded">0</VTE_Wanderlust>
     </forcedTraits>
   </BackstoryDef>
 
@@ -39,7 +39,7 @@
 
 <Social>-4</Social><Intellectual>-2</Intellectual></skillGains>
     <forcedTraits>
-      <ST_Naive>0</ST_Naive>
+      <ST_Naive MayRequire="Goji.TheSimsTraits,Ludeon.RimWorld.Royalty">0</ST_Naive>
     </forcedTraits></BackstoryDef>
 
   <BackstoryDef>

@@ -17,7 +17,7 @@
       <Intellectual>-3</Intellectual>
     </skillGains>
     <forcedTraits>
-      <VTE_AbsentMinded>0</VTE_AbsentMinded>
+      <VTE_AbsentMinded MayRequire="OskarPotocki.VanillaTraitsExpanded">0</VTE_AbsentMinded>
     </forcedTraits>
   </BackstoryDef>
 
@@ -61,8 +61,8 @@
 	    <Social>5</Social>
     </skillGains>
     <forcedTraits>
-      <VTE_Insatiable>0</VTE_Insatiable>
-      <ST_Narcissist>0</ST_Narcissist>
+      <VTE_Insatiable MayRequire="OskarPotocki.VanillaTraitsExpanded">0</VTE_Insatiable>
+      <ST_Narcissist MayRequire="Goji.TheSimsTraits,Ludeon.RimWorld.Royalty">0</ST_Narcissist>
     </forcedTraits>
 	  <requiredWorkTags>
       <li>Social</li>
@@ -86,7 +86,7 @@
 	    <Social>5</Social>
     </skillGains>
     <forcedTraits>
-      <ST_Virtuoso>0</ST_Virtuoso>
+      <ST_Virtuoso MayRequire="Goji.TheSimsTraits,Ludeon.RimWorld.Royalty">0</ST_Virtuoso>
     </forcedTraits>
 	  <requiredWorkTags>
       <li>Social</li>
@@ -221,7 +221,7 @@
 <Animals>-2</Animals><Medicine>-2</Medicine></skillGains>
     <forcedTraits>
       <Brawler>0</Brawler>
-	    <VTE_AnimalHater>0</VTE_AnimalHater>
+	    <VTE_AnimalHater MayRequire="OskarPotocki.VanillaTraitsExpanded">0</VTE_AnimalHater>
 	    <CreepyBreathing>0</CreepyBreathing>
     </forcedTraits><requiredWorkTags>
       <li>Violent</li>
@@ -341,7 +341,7 @@
 	    <Construction>1</Construction>
     </skillGains>
     <forcedTraits>
-      <VTE_Eccentric>0</VTE_Eccentric>
+      <VTE_Eccentric MayRequire="OskarPotocki.VanillaTraitsExpanded">0</VTE_Eccentric>
     </forcedTraits>
   </BackstoryDef>
 
@@ -509,7 +509,7 @@
 	    <Cooking>3</Cooking>
     </skillGains>
     <forcedTraits>
-      <VTE_Coward>0</VTE_Coward>
+      <VTE_Coward MayRequire="OskarPotocki.VanillaTraitsExpanded">0</VTE_Coward>
     </forcedTraits><requiredWorkTags>
       <li>Violent</li>
     </requiredWorkTags>
@@ -624,7 +624,7 @@
 	    <Artistic>5</Artistic>
     </skillGains>
     <forcedTraits>
-      <ST_Virtuoso>0</ST_Virtuoso>
+      <ST_Virtuoso MayRequire="Goji.TheSimsTraits,Ludeon.RimWorld.Royalty">0</ST_Virtuoso>
     </forcedTraits>
     <requiredWorkTags>
       <li>Artistic</li>
